@@ -1,0 +1,18 @@
+{
+  "name": "hsk-local-review",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Webapp on HSK chay cuc bo, luu tien do va cum chu de nham.",
+  "scripts": {
+    "start": "node server.js",
+    "build:plan": "node tools/build-structures.js",
+    "build:structures": "npm run build:plan",
+    "check:plan": "node tools/build-structures.js --check",
+    "check:structures": "npm run check:plan",
+    "check": "npm run check:plan && node --check server.js && node --check tools/build-structures.js && node --check public/content.js && node --check public/example-supplements.js && node --check public/structures.js && node --check public/practice-extensions.js && node --check public/production.js && node --check public/measure-words.js && node --check public/app.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

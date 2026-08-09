@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Ôn HSK</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">汉</div>
+        <div>
+          <h1>Ôn HSK</h1>
+          <p>Từ 27/05/2026 · bỏ 22/05</p>
+        </div>
+      </div>
+
+      <div class="progress-panel">
+        <div class="progress-label">
+          <span>Tiến độ theo ngày</span>
+          <strong id="progressText">0/0</strong>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span id="progressFill"></span></div>
+      </div>
+
+      <nav id="lessonNav" class="lesson-nav" aria-label="Danh sách ngày học"></nav>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="page-heading">
+          <p id="activeDate" class="eyebrow"></p>
+          <h2 id="activeTitle">Đang tải dữ liệu</h2>
+        </div>
+        <div class="save-status" id="saveStatus" role="status">Đang tải</div>
+      </header>
+
+      <nav class="view-tabs" aria-label="Các phần ôn tập">
+        <button data-view="lesson">Bài học</button>
+        <button data-view="structures">Cấu trúc câu</button>
+        <button data-view="cards">Thẻ nhớ</button>
+        <button data-view="practice">Bài tập</button>
+        <button data-view="measure">Lượng từ</button>
+        <button data-view="similar">Chữ gần giống</button>
+        <button data-view="final">Bài cuối</button>
+      </nav>
+
+      <div id="content" class="content" aria-live="polite"></div>
+    </main>
+  </div>
+
+  <dialog id="editorDialog" class="editor-dialog">
+    <form id="editorForm" method="dialog">
+      <div class="dialog-heading">
+        <h2 id="dialogTitle"></h2>
+        <button class="icon-button" type="button" data-action="closeDialog" title="Đóng">×</button>
+      </div>
+      <div id="dialogFields" class="form-fields"></div>
+      <div class="dialog-actions">
+        <button class="button secondary" type="button" data-action="closeDialog">Hủy</button>
+        <button class="button primary" type="submit">Lưu</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="/content.js"></script>
+  <script src="/example-supplements.js"></script>
+  <script src="/structures.js"></script>
+  <script src="/practice-extensions.js"></script>
+  <script src="/production.js"></script>
+  <script src="/measure-words.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
