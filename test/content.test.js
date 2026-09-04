@@ -34,13 +34,13 @@ function formAppearsInExamples(label, examples) {
   });
 }
 
-test("có đủ 17 ngày và ngày 29/07 mới", () => {
-  assert.equal(content.lessons.length, 17);
+test("có đủ 26 ngày và hai ngày 24/08, 26/08 mới", () => {
+  assert.equal(content.lessons.length, 26);
   assert.deepEqual(
     content.lessons.slice(-4).map(lesson => lesson.date),
-    ["22/07/2026", "24/07/2026", "27/07/2026", "29/07/2026"]
+    ["17/08/2026", "21/08/2026", "24/08/2026", "26/08/2026"]
   );
-  assert.equal(content.lessons.at(-1).pages, "trang 68-71");
+  assert.equal(content.lessons.at(-1).pages, "trang 126-131");
 });
 
 test("bài 29/05 có hướng dẫn và bài luyện số lớn", () => {
@@ -169,11 +169,11 @@ test("bài đọc có đoạn văn, hội thoại và đáp án hợp lệ", () 
 });
 
 test("bài cuối có phần đọc và bao phủ ngày mới", () => {
-  assert.ok(content.finalQuestions.length >= 54);
+  assert.ok(content.finalQuestions.length >= 60);
   assert.equal(content.finalReading.questions.length, 8);
   assert.match(content.finalReading.text, /下个星期/);
   assert.match(content.finalReading.text, /红色的手表/);
-  assert.equal(content.source.pages, 71);
+  assert.equal(content.source.pages, 131);
 });
 
 test("mỗi ngày có đủ bốn dạng tự viết", () => {

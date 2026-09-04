@@ -50,6 +50,7 @@ test("phục vụ giao diện và dữ liệu mặc định", async () => {
   const html = await page.text();
   assert.match(html, /Cấu trúc câu/);
   assert.match(html, /Chữ gần giống/);
+  assert.match(html, /Ghi chú/);
   assert.match(html, /Lượng từ/);
   assert.match(html, /practice-extensions\.js/);
   assert.match(html, /measure-words\.js/);
@@ -62,6 +63,7 @@ test("phục vụ giao diện và dữ liệu mặc định", async () => {
   assert.equal(state.version, 1);
   assert.ok(state.clusters.length >= 5);
   assert.deepEqual(state.progress.measureWords, { answers: {}, checkedPages: {} });
+  assert.equal(state.notes, "");
 });
 
 test("lưu rồi đọc lại tiến độ và cụm chữ", async () => {
@@ -82,6 +84,7 @@ test("lưu rồi đọc lại tiến độ và cụm chữ", async () => {
     hint: "Kiểm tra lưu dữ liệu",
     items: [{ id: "test-item", hanzi: "未", pinyin: "wèi", meaning: "chưa", note: "" }]
   });
+  state.notes = "Ghi chú kiểm thử";
 
   const saved = await fetch(`${baseUrl}/api/state`, {
     method: "PUT",
@@ -95,10 +98,11 @@ test("lưu rồi đọc lại tiến độ và cụm chữ", async () => {
   assert.equal(reloaded.progress.measureWords.answers["measure-fill-ge-friend"], "个");
   assert.equal(reloaded.progress.measureWords.checkedPages["fill-0"].total, 20);
   assert.equal(reloaded.clusters.at(-1).items[0].hanzi, "未");
+  assert.equal(reloaded.notes, "Ghi chú kiểm thử");
 });
 
 test("phục vụ từng đoạn của PDF", async () => {
-  const pdfSize = (await fs.stat(path.join(rootDir, "HSK.pdf"))).size;
+  const pdfSize = (await fs.stat(path.join(rootDir, "materials", "HSK.pdf"))).size;
   const response = await fetch(`${baseUrl}/HSK.pdf`, {
     headers: { Range: "bytes=0-99" }
   });

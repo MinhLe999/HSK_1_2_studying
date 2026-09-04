@@ -36,7 +36,10 @@
     cardIndex: 0,
     cardRevealed: false,
     measureMode: "choice",
-    measurePage: 0
+    measurePage: 0,
+    vocabShowPinyin: true,
+    vocabShowMeaning: true,
+    vocabShuffleOrder: null
   };
 
   function escapeHtml(value) {
@@ -146,17 +149,11 @@
 
   function pickVocab(vocab, count, seed) {
     if (!vocab.length) return [];
-    const selected = [];
-    const used = new Set();
-    let cursor = hash(seed) % vocab.length;
-    while (selected.length < Math.min(count, vocab.length)) {
-      if (!used.has(cursor)) {
-        used.add(cursor);
-        selected.push(vocab[cursor]);
-      }
-      cursor = (cursor + 7) % vocab.length;
-    }
-    return selected;
+    return vocab
+      .map((item, index) => ({ item, weight: hash(`${seed}-${index}`) }))
+      .sort((left, right) => left.weight - right.weight)
+      .slice(0, Math.min(count, vocab.length))
+      .map(entry => entry.item);
   }
 
   function displayNumber(value) {
@@ -508,6 +505,12 @@
       return;
     }
 
+    if (ui.view === "notes") {
+      activeDateEl.textContent = "Dữ liệu cá nhân";
+      activeTitleEl.textContent = "Ghi chú";
+      return;
+    }
+
     if (ui.view === "final") {
       activeDateEl.textContent = `Tổng hợp ${lessons.length} ngày học`;
       activeTitleEl.textContent = "Bài kiểm tra cuối";
@@ -523,6 +526,12 @@
     const current = lesson();
     activeDateEl.textContent = `${current.date} · ${current.pages}`;
     activeTitleEl.textContent = current.title;
+  }
+
+  function vocabInOrder(item) {
+    const order = ui.vocabShuffleOrder;
+    if (!order || order.length !== item.vocab.length) return item.vocab;
+    return order.map(index => item.vocab[index]);
   }
 
   function vocabCard(card) {
@@ -649,7 +658,12 @@
           <h3>Từ vựng</h3>
           <p>${item.vocab.length} mục từ</p>
         </div>
-        <div class="vocab-grid">${item.vocab.map(vocabCard).join("")}</div>
+        <div class="vocab-toggles">
+          <label><input type="checkbox" data-choice-context="vocabDisplay" data-vocab-toggle="pinyin" ${ui.vocabShowPinyin ? "checked" : ""}> Hiện phiên âm</label>
+          <label><input type="checkbox" data-choice-context="vocabDisplay" data-vocab-toggle="meaning" ${ui.vocabShowMeaning ? "checked" : ""}> Hiện nghĩa tiếng Việt</label>
+          <button type="button" class="button secondary" data-action="shuffleVocab">Xáo trộn thứ tự</button>
+        </div>
+        <div class="vocab-grid${ui.vocabShowPinyin ? "" : " hide-pinyin"}${ui.vocabShowMeaning ? "" : " hide-meaning"}">${vocabInOrder(item).map(vocabCard).join("")}</div>
       </section>
 
       <div class="two-columns">
@@ -1480,6 +1494,18 @@
     `;
   }
 
+  function renderNotes() {
+    contentEl.innerHTML = `
+      <section class="notes-page">
+        <p class="notes-hint">
+          Ghi chú tự do, không gắn với ngày học nào. Lưu cùng máy với tiến độ bài tập.
+        </p>
+        <textarea class="notes-textarea" data-notes-field
+          placeholder="Viết ghi chú tại đây…">${escapeHtml(savedData.notes || "")}</textarea>
+      </section>
+    `;
+  }
+
   function renderContent() {
     renderShell();
     if (ui.view === "lesson") renderLesson();
@@ -1488,6 +1514,7 @@
     if (ui.view === "practice") renderPractice();
     if (ui.view === "measure") renderMeasureWords();
     if (ui.view === "similar") renderSimilar();
+    if (ui.view === "notes") renderNotes();
     if (ui.view === "final") renderFinal();
   }
 
@@ -1498,6 +1525,7 @@
     ui.cardScope = "lesson";
     ui.cardIndex = 0;
     ui.cardRevealed = false;
+    ui.vocabShuffleOrder = null;
     savedData.progress.lastLessonId = lesson().id;
     savedData.progress.lastView = ui.view;
     markDirty();
@@ -1509,6 +1537,7 @@
     ui.view = view;
     ui.cardIndex = 0;
     ui.cardRevealed = false;
+    ui.vocabShuffleOrder = null;
     savedData.progress.lastView = view;
     markDirty();
     renderContent();
@@ -1676,6 +1705,18 @@
       const cards = currentCards();
       ui.cardIndex = Math.floor(Math.random() * cards.length);
       ui.cardRevealed = false;
+      renderContent();
+      return;
+    }
+
+    if (action === "shuffleVocab") {
+      const count = lesson().vocab.length;
+      const order = Array.from({ length: count }, (_, index) => index);
+      for (let i = order.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [order[i], order[j]] = [order[j], order[i]];
+      }
+      ui.vocabShuffleOrder = order;
       renderContent();
       return;
     }
@@ -1862,8 +1903,17 @@
 
   document.addEventListener("change", event => {
     const input = event.target.closest("input[data-choice-context]");
-    if (!input || !savedData) return;
+    if (!input) return;
     const context = input.dataset.choiceContext;
+
+    if (context === "vocabDisplay") {
+      if (input.dataset.vocabToggle === "pinyin") ui.vocabShowPinyin = input.checked;
+      if (input.dataset.vocabToggle === "meaning") ui.vocabShowMeaning = input.checked;
+      renderContent();
+      return;
+    }
+
+    if (!savedData) return;
     const questionId = input.dataset.questionId;
 
     if (context === "practice") {
@@ -1906,6 +1956,13 @@
       questionEl?.classList.remove("correct", "incorrect");
       questionEl?.querySelector(".answer-note")?.remove();
       document.querySelector(".measure-practice-heading .score-box")?.remove();
+      markDirty();
+      return;
+    }
+
+    const notesTextarea = event.target.closest("textarea[data-notes-field]");
+    if (notesTextarea && savedData) {
+      savedData.notes = notesTextarea.value;
       markDirty();
       return;
     }

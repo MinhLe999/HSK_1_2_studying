@@ -2105,5 +2105,1094 @@ window.HSK_PRACTICE_EXTENSIONS = {
         "sample": "你喝一下牛奶吧。"
       }
     ]
+  },
+  "l0308": {
+    "date": "03/08/2026",
+    "reading": {
+      "prose": "下个星期五是我姐姐的生日，我们晚上七点开始吃饭。我已经买了一个生日蛋糕，也想送给姐姐一件粉色的衣服。姐姐是我大学同学介绍我认识的，我们做朋友已经三年了。妈妈说她可以帮忙做几道中国菜，爸爸负责去接姐姐的两个老同学来家里。晚上客人们来了以后，大家一起吃饭，都非常高兴。姐姐问我们这个生日会是谁做的，我们没有告诉她，只是祝她生日快乐。",
+      "dialogue": [
+        "大卫：姐姐的生日是不是下个星期五？",
+        "小英：对，是下个星期五，我们晚上七点开始吃饭。",
+        "大卫：生日蛋糕你已经买了吗？",
+        "小英：已经买了，是我和妈妈一起去买的。",
+        "大卫：你想送给姐姐什么礼物？",
+        "小英：我想送给她一件粉色的衣服。",
+        "大卫：谁去接姐姐的同学们来家里？",
+        "小英：爸爸去接，他说八点以前就能到。",
+        "大卫：姐姐知道这件事吗？",
+        "小英：不知道，这是一个惊喜，别告诉她。"
+      ],
+      "questions": [
+        {
+          "id": "l0308-r1",
+          "prompt": "姐姐的生日是星期几？",
+          "options": [
+            "星期五",
+            "星期一",
+            "星期三",
+            "星期日"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"下个星期五是我姐姐的生日\"。"
+        },
+        {
+          "id": "l0308-r2",
+          "prompt": "\"我\"已经买了什么送给姐姐？",
+          "options": [
+            "一件粉色的衣服",
+            "一台电脑",
+            "一块手表",
+            "一辆自行车"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói người kể muốn tặng chị gái một chiếc áo màu hồng."
+        },
+        {
+          "id": "l0308-r3",
+          "prompt": "生日蛋糕是谁买的？",
+          "options": [
+            "\"我\"和妈妈一起买的",
+            "\"我\"和爸爸一起买的",
+            "姐姐自己买的",
+            "同学买的"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, B nói \"是我和妈妈一起去买的\"。"
+        },
+        {
+          "id": "l0308-r4",
+          "prompt": "谁去接姐姐的同学们？",
+          "options": [
+            "爸爸",
+            "妈妈",
+            "\"我\"",
+            "姐姐"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, B nói \"爸爸去接\"。"
+        },
+        {
+          "id": "l0308-r5",
+          "prompt": "姐姐知道这个生日会吗？为什么？",
+          "options": [
+            "不知道，因为这是一个惊喜",
+            "知道，因为妈妈告诉她了",
+            "知道，因为她自己准备的",
+            "不知道，因为大家都很忙"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều cho biết cả nhà giữ bí mật để tạo bất ngờ cho chị gái."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l0308-w1",
+        "kind": "sentence-given-words",
+        "topic": "sinh nhật của chị gái",
+        "structure": "今天 / 明天 + 是 + danh từ + 的 + 生日",
+        "words": [
+          "生日",
+          "快乐"
+        ],
+        "required": "生日、快乐",
+        "prompt": "Dùng đủ hai từ để chúc chị gái sinh nhật vui vẻ.",
+        "sample": "祝姐姐生日快乐！"
+      },
+      {
+        "id": "l0308-w2",
+        "kind": "sentence-given-words",
+        "topic": "nhờ giúp làm món ăn",
+        "structure": "S + 能 + 帮 + người + V + 吗？",
+        "words": [
+          "帮",
+          "中国菜"
+        ],
+        "required": "帮、中国菜",
+        "prompt": "Dùng đủ hai từ để hỏi mẹ có thể giúp làm vài món Trung Quốc không.",
+        "sample": "妈妈能帮我们做几道中国菜吗？"
+      },
+      {
+        "id": "l0308-w3",
+        "kind": "sentence-given-words",
+        "topic": "giới thiệu bạn học mới quen",
+        "structure": "S + 是 + 谁 + 介绍 + V + 的？",
+        "words": [
+          "介绍",
+          "已经"
+        ],
+        "required": "介绍、已经",
+        "prompt": "Dùng đủ hai từ để nói bạn quen người bạn này đã ba năm, do bạn học đại học giới thiệu.",
+        "sample": "他是我大学同学介绍认识的，我们已经做朋友三年了。"
+      }
+    ]
+  },
+  "l0508": {
+    "date": "05/08/2026",
+    "reading": {
+      "prose": "下个星期我有一个汉语考试，所以这几天我天天准备。我觉得听、说还可以，就是写字有点儿难。妈妈说多喝水对身体好，少喝咖啡，可是我每天都想喝一杯咖啡。今天外面天气不错，可是我没有时间出去，只能在里面看书。姐姐问我这次考试难不难，我说不难不易，就是题目有点儿多。她说没关系，我已经准备得很好了，以后一定没问题。",
+      "dialogue": [
+        "王方：你这几天在准备什么？",
+        "李月：准备下个星期的汉语考试。",
+        "王方：你觉得这次考试难不难？",
+        "李月：不难不易，就是题目有点儿多。",
+        "王方：你每天都喝咖啡吗？",
+        "李月：对，我每天都想喝一杯咖啡，可是妈妈说这样对身体不好。",
+        "王方：那你今天怎么不去外面运动？",
+        "李月：外面天气还不错，可是我没有时间，只能在里面看书。",
+        "王方：这句话是什么意思，你懂吗？",
+        "李月：这个意思我还不太懂，你能帮我看一下吗？"
+      ],
+      "questions": [
+        {
+          "id": "l0508-r1",
+          "prompt": "\"我\"下个星期有什么？",
+          "options": [
+            "汉语考试",
+            "生日会",
+            "篮球比赛",
+            "新工作"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn mở đầu bằng \"下个星期我有一个汉语考试\"。"
+        },
+        {
+          "id": "l0508-r2",
+          "prompt": "妈妈觉得喝太多咖啡对身体怎么样？",
+          "options": [
+            "不好",
+            "很好",
+            "没关系",
+            "很不错"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói mẹ cho rằng uống nhiều cà phê không tốt cho sức khỏe."
+        },
+        {
+          "id": "l0508-r3",
+          "prompt": "\"我\"觉得这次考试怎么样？",
+          "options": [
+            "不难不易，就是题目有点儿多",
+            "非常难",
+            "非常容易",
+            "完全不会"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 李月 trả lời đúng như vậy."
+        },
+        {
+          "id": "l0508-r4",
+          "prompt": "为什么\"我\"今天没去外面运动？",
+          "options": [
+            "因为没有时间",
+            "因为天气不好",
+            "因为身体不好",
+            "因为要去买咖啡"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 李月 nói \"可是我没有时间，只能在里面看书\"。"
+        },
+        {
+          "id": "l0508-r5",
+          "prompt": "\"我\"这几天天天做什么，为什么？",
+          "options": [
+            "准备考试，因为下个星期要考试",
+            "喝咖啡，因为喜欢咖啡",
+            "运动，因为身体不好",
+            "看书，因为没有咖啡"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều nói \"我\"đang chuẩn bị cho kỳ thi tuần sau."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l0508-w1",
+        "kind": "sentence-given-words",
+        "topic": "chuẩn bị thi tiếng Trung",
+        "structure": "S + 准备 + danh từ + 考试",
+        "words": [
+          "准备",
+          "考试"
+        ],
+        "required": "准备、考试",
+        "prompt": "Dùng đủ hai từ để nói bạn đang chuẩn bị cho kỳ thi tiếng Trung tuần sau.",
+        "sample": "我在准备下个星期的汉语考试。"
+      },
+      {
+        "id": "l0508-w2",
+        "kind": "sentence-given-words",
+        "topic": "màu áo tạm ổn nhưng hơi to",
+        "structure": "S + 还可以，就是 + điều bất lợi",
+        "words": [
+          "件",
+          "就是"
+        ],
+        "required": "件、就是",
+        "prompt": "Dùng đủ hai từ để nói bộ quần áo này màu còn tạm được, chỉ có điều hơi to.",
+        "sample": "这件衣服颜色还可以，就是有点儿大。"
+      },
+      {
+        "id": "l0508-w3",
+        "kind": "sentence-given-words",
+        "topic": "ăn cá tốt cho sức khỏe",
+        "structure": "S + 对 + tân ngữ + tính từ",
+        "words": [
+          "鱼",
+          "对"
+        ],
+        "required": "鱼、对",
+        "prompt": "Dùng đủ hai từ để nói ăn nhiều cá thì tốt cho sức khỏe.",
+        "sample": "多吃鱼对身体好。"
+      }
+    ]
+  },
+  "l0708": {
+    "date": "07/08/2026",
+    "reading": {
+      "prose": "我们家门外有一个小饭馆，那儿的面条和饺子都很好吃。我们一家人个个都爱吃羊肉，妈妈也经常包饺子给我们吃。因为爸爸这个月胖了两公斤，所以他每天都去游泳或者打篮球。他还想骑自行车上班，这样身体会更好。今天晚上我们又去了那家饭馆，我对服务员说来一份羊肉面条吧。爸爸看了看菜单，笑着说我还是少吃点儿吧。",
+      "dialogue": [
+        "谢鹏：你怎么这个月胖了两公斤？",
+        "大卫：因为最近太忙了，没时间运动，所以胖了。",
+        "谢鹏：那你以后打算怎么办？",
+        "大卫：我打算每天去游泳或者打篮球。",
+        "谢鹏：你会骑自行车去公司吗？",
+        "大卫：会，我还想骑自行车上班，这样比较健康。",
+        "谢鹏：今天晚上想吃什么？",
+        "大卫：来一份羊肉面条吧，我也想吃几个饺子。",
+        "谢鹏：你不是说要少吃肉吗？",
+        "大卫：对，可是羊肉面条真的很好吃，我就吃这一次吧。"
+      ],
+      "questions": [
+        {
+          "id": "l0708-r1",
+          "prompt": "谁家门外有一个小饭馆？",
+          "options": [
+            "我们家",
+            "姐姐家",
+            "同学家",
+            "老师家"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn mở đầu bằng \"我们家门外有一个小饭馆\"。"
+        },
+        {
+          "id": "l0708-r2",
+          "prompt": "爸爸这个月怎么了？",
+          "options": [
+            "胖了两公斤",
+            "生病了",
+            "瘦了两公斤",
+            "去旅游了"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"因为爸爸这个月胖了两公斤\"。"
+        },
+        {
+          "id": "l0708-r3",
+          "prompt": "大卫打算怎么运动？",
+          "options": [
+            "每天去游泳或者打篮球",
+            "每天骑自行车比赛",
+            "每天去饭馆吃饭",
+            "每天在家看电视"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói \"我打算每天去游泳或者打篮球\"。"
+        },
+        {
+          "id": "l0708-r4",
+          "prompt": "晚上他们想吃什么？",
+          "options": [
+            "羊肉面条和饺子",
+            "牛奶和面包",
+            "中国菜和咖啡",
+            "水果和蛋糕"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói muốn ăn mì thịt cừu và vài cái sủi cảo."
+        },
+        {
+          "id": "l0708-r5",
+          "prompt": "爸爸为什么决定多运动？",
+          "options": [
+            "因为这个月胖了两公斤",
+            "因为医生让他运动",
+            "因为想参加比赛",
+            "因为不喜欢吃饭"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều cho biết nguyên nhân là tăng cân trong tháng này."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l0708-w1",
+        "kind": "sentence-given-words",
+        "topic": "xe đạp trước cửa nhà",
+        "structure": "Danh từ + 在 + 门 + 外 / 里",
+        "words": [
+          "门",
+          "自行车"
+        ],
+        "required": "门、自行车",
+        "prompt": "Dùng đủ hai từ để nói xe đạp của anh ấy ở ngoài cửa.",
+        "sample": "他的自行车在门外。"
+      },
+      {
+        "id": "l0708-w2",
+        "kind": "sentence-given-words",
+        "topic": "mẹ thường gói sủi cảo",
+        "structure": "S + 经常 + V + tân ngữ",
+        "words": [
+          "经常",
+          "饺子"
+        ],
+        "required": "经常、饺子",
+        "prompt": "Dùng đủ hai từ để nói mẹ thường xuyên gói sủi cảo cho cả nhà ăn.",
+        "sample": "妈妈经常包饺子给我们吃。"
+      },
+      {
+        "id": "l0708-w3",
+        "kind": "sentence-given-words",
+        "topic": "tăng cân vì lười bơi",
+        "structure": "因为 + 不经常 + V，所以 + kết quả",
+        "words": [
+          "公斤",
+          "游泳"
+        ],
+        "required": "公斤、游泳",
+        "prompt": "Dùng đủ hai từ để nói vì không thường xuyên bơi nên anh ấy tăng hai cân.",
+        "sample": "因为他不经常游泳，所以胖了两公斤。"
+      }
+    ]
+  },
+  "l1208": {
+    "date": "12/08/2026",
+    "reading": {
+      "prose": "我家离公司很远，每天要坐公共汽车一个多小时才能到。今天早上我五点就起床了，因为要好好复习汉语考试的内容。我先预习了新的课文，又看了以前学过的生词。我走得很快，可是公共汽车开得很慢，我差一点儿迟到。到了公司，我发现离考试的时间还有半个小时，还可以再看一下笔记。晚上我很累，但是我觉得今天的复习很有用。",
+      "dialogue": [
+        "谢鹏：你家离公司远不远？",
+        "大卫：很远，我每天要坐公共汽车一个多小时才能到。",
+        "谢鹏：那你今天怎么这么早就来了？",
+        "大卫：因为今天有考试，我五点就起床，好好复习了。",
+        "谢鹏：你复习了什么？",
+        "大卫：我预习了新课文，也看了以前学过的生词。",
+        "谢鹏：你去过飞机场附近的那家公司吗？",
+        "大卫：去过，那家公司离机场很近，走路就能到。",
+        "谢鹏：你走得真快，公共汽车都没你快！",
+        "大卫：是啊，可是今天公共汽车开得太慢了，我差一点儿迟到。"
+      ],
+      "questions": [
+        {
+          "id": "l1208-r1",
+          "prompt": "\"我\"每天坐什么去公司？",
+          "options": [
+            "公共汽车",
+            "自行车",
+            "飞机",
+            "出租车"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"每天要坐公共汽车一个多小时才能到\"。"
+        },
+        {
+          "id": "l1208-r2",
+          "prompt": "\"我\"今天早上几点起床？",
+          "options": [
+            "五点",
+            "六点",
+            "七点",
+            "八点"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"我五点就起床了\"。"
+        },
+        {
+          "id": "l1208-r3",
+          "prompt": "大卫去过飞机场附近的那家公司吗？",
+          "options": [
+            "去过",
+            "没去过",
+            "不知道",
+            "不想去"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói \"去过\"。"
+        },
+        {
+          "id": "l1208-r4",
+          "prompt": "为什么大卫差一点儿迟到？",
+          "options": [
+            "因为公共汽车开得太慢",
+            "因为他起晚了",
+            "因为他忘了复习",
+            "因为路很近"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói 公共汽车开得太慢。"
+        },
+        {
+          "id": "l1208-r5",
+          "prompt": "大卫今天早上为什么五点就起床？",
+          "options": [
+            "因为今天有考试，要好好复习",
+            "因为他每天都五点起床",
+            "因为要去机场",
+            "因为公共汽车太慢"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều nói lý do là chuẩn bị cho kỳ thi."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l1208-w1",
+        "kind": "sentence-given-words",
+        "topic": "khoảng cách từ nhà đến công ty",
+        "structure": "A + 离 + B + 远 / 近 / 有 + số",
+        "words": [
+          "离",
+          "公司"
+        ],
+        "required": "离、公司",
+        "prompt": "Dùng đủ hai từ để nói nhà bạn cách công ty rất xa.",
+        "sample": "我家离公司很远。"
+      },
+      {
+        "id": "l1208-w2",
+        "kind": "sentence-given-words",
+        "topic": "dậy sớm để ôn thi",
+        "structure": "Thời điểm + 就 + động từ + 了",
+        "words": [
+          "就",
+          "复习"
+        ],
+        "required": "就、复习",
+        "prompt": "Dùng đủ hai từ để nói bạn năm giờ đã dậy để ôn tập rồi.",
+        "sample": "我五点就起床复习了。"
+      },
+      {
+        "id": "l1208-w3",
+        "kind": "sentence-given-words",
+        "topic": "đi bộ nhanh hơn xe buýt",
+        "structure": "S1 + 走得 + 快，S2 + 开得 + 慢",
+        "words": [
+          "走",
+          "慢"
+        ],
+        "required": "走、慢",
+        "prompt": "Dùng đủ hai từ để nói bạn đi bộ nhanh, nhưng xe buýt chạy chậm.",
+        "sample": "我走得很快，可是公共汽车开得很慢。"
+      }
+    ]
+  },
+  "l1408": {
+    "date": "14/08/2026",
+    "reading": {
+      "prose": "我有点儿事情要出去，可能要等一个小时才能回来。出门以前，我告诉服务员，请他帮我找一件白色的衣服。他说黑色的衣服也很好看，可是我不喜欢黑色，我还是想要白色的。这件白色的衣服不便宜，有点儿贵，可是我很喜欢，就买了。服务员帮我打开袋子，把衣服放了进去。我让他再检查一下，别把别的东西放错了。",
+      "dialogue": [
+        "王方：你怎么了？看起来有点儿急。",
+        "李月：我有点儿事情，要出去找一件衣服。",
+        "王方：你想找什么颜色的？",
+        "李月：我想要白色的，可是服务员说黑色的也很好看。",
+        "王方：黑色的贵不贵？",
+        "李月：白色的比黑色的贵一点儿，可是我还是喜欢白色的。",
+        "王方：那你等一下，我陪你去看看吧。",
+        "李月：好啊，等我先告诉服务员一声。",
+        "王方：你再想想，别买错了。",
+        "李月：放心吧，我已经想好了。"
+      ],
+      "questions": [
+        {
+          "id": "l1408-r1",
+          "prompt": "\"我\"出门前请服务员帮忙做什么？",
+          "options": [
+            "找一件白色的衣服",
+            "找一件黑色的衣服",
+            "订一张票",
+            "打电话"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"请他帮我找一件白色的衣服\"。"
+        },
+        {
+          "id": "l1408-r2",
+          "prompt": "白色的衣服怎么样？",
+          "options": [
+            "有点儿贵，但\"我\"很喜欢",
+            "很便宜",
+            "不好看",
+            "已经卖完了"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"有点儿贵，可是我很喜欢\"。"
+        },
+        {
+          "id": "l1408-r3",
+          "prompt": "李月想要什么颜色的衣服？",
+          "options": [
+            "白色的",
+            "黑色的",
+            "红色的",
+            "粉色的"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 李月 nói muốn màu trắng."
+        },
+        {
+          "id": "l1408-r4",
+          "prompt": "王方打算怎么帮李月？",
+          "options": [
+            "陪她去看看",
+            "帮她付钱",
+            "替她去买",
+            "不想帮忙"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 王方 nói \"我陪你去看看吧\"。"
+        },
+        {
+          "id": "l1408-r5",
+          "prompt": "李月为什么喜欢白色的衣服，尽管比较贵？",
+          "options": [
+            "因为她本来就喜欢白色，虽然贵一点儿",
+            "因为黑色的卖完了",
+            "因为服务员推荐",
+            "因为白色的更便宜"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều cho thấy李月 thích màu trắng dù giá cao hơn."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l1408-w1",
+        "kind": "sentence-given-words",
+        "topic": "nhờ tìm áo trắng",
+        "structure": "让 + người + động từ + tân ngữ",
+        "words": [
+          "让",
+          "找"
+        ],
+        "required": "让、找",
+        "prompt": "Dùng đủ hai từ để nói bạn nhờ phục vụ tìm giúp một cái áo trắng.",
+        "sample": "我让服务员帮我找一件白色的衣服。"
+      },
+      {
+        "id": "l1408-w2",
+        "kind": "sentence-given-words",
+        "topic": "xem lại trước khi mua",
+        "structure": "再 + động từ + 一下，别 + động từ + 错",
+        "words": [
+          "再",
+          "贵"
+        ],
+        "required": "再、贵",
+        "prompt": "Dùng đủ hai từ để nói bạn muốn xem lại một lần nữa vì cái áo này hơi đắt.",
+        "sample": "这件衣服有点儿贵，我想再看一下。"
+      },
+      {
+        "id": "l1408-w3",
+        "kind": "sentence-given-words",
+        "topic": "mở túi đựng đồ",
+        "structure": "服务员 + 帮 + tôi + 打开 + tân ngữ",
+        "words": [
+          "服务员",
+          "打开"
+        ],
+        "required": "服务员、打开",
+        "prompt": "Dùng đủ hai từ để nói nhân viên phục vụ giúp bạn mở túi.",
+        "sample": "服务员帮我打开袋子。"
+      }
+    ]
+  },
+  "l1708": {
+    "date": "17/08/2026",
+    "reading": {
+      "prose": "我女儿一直希望能学跳舞，所以我问老师：我女儿可以跟您学习跳舞吗？老师说非常欢迎，还说这是她教的第一个跳舞班。上课以前，老师会先讲一个问题，看看学生懂不懂。如果有人说错了，老师也不生气，会再讲一次，直到大家都听懂为止。我女儿说，她从第一天上课就很喜欢这里，希望能一直跳舞跳到长大。老师告诉我们，从这个星期开始，每天都有跳舞课，欢迎大家来上课。",
+      "dialogue": [
+        "谢鹏：老师，我女儿可以跟您学习跳舞吗？",
+        "老师：没问题，欢迎你来学习跳舞。",
+        "谢鹏：谢谢老师，这是她第一次学跳舞，可能有点儿不懂。",
+        "老师：没关系，我会从最简单的开始教。",
+        "谢鹏：如果她做错了动作，您会怎么办？",
+        "老师：我会再示范一次，直到她听懂、做对为止。",
+        "谢鹏：她什么时候可以开始上课？",
+        "老师：从下个星期一开始就可以了。",
+        "谢鹏：太好了，谢谢老师！",
+        "老师：不客气，欢迎你女儿加入我们！"
+      ],
+      "questions": [
+        {
+          "id": "l1708-r1",
+          "prompt": "老师说这是她教的第几个跳舞班？",
+          "options": [
+            "第一个",
+            "第二个",
+            "第三个",
+            "最后一个"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"这是她教的第一个跳舞班\"。"
+        },
+        {
+          "id": "l1708-r2",
+          "prompt": "如果有人说错了，老师会怎么做？",
+          "options": [
+            "再讲一次，直到听懂为止",
+            "生气",
+            "不再教了",
+            "不理他"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"会再讲一次，直到大家都听懂为止\"。"
+        },
+        {
+          "id": "l1708-r3",
+          "prompt": "老师会从哪里开始教？",
+          "options": [
+            "从最简单的开始",
+            "从最难的开始",
+            "从中间开始",
+            "不知道从哪里开始"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, giáo viên nói \"我会从最简单的开始教\"。"
+        },
+        {
+          "id": "l1708-r4",
+          "prompt": "女儿从什么时候可以开始上课？",
+          "options": [
+            "从下个星期一开始",
+            "今天就开始",
+            "明年才开始",
+            "不能上课"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, giáo viên nói \"从下个星期一开始就可以了\"。"
+        },
+        {
+          "id": "l1708-r5",
+          "prompt": "老师对第一次学跳舞、做错动作的学生是什么态度？",
+          "options": [
+            "耐心，欢迎并再讲解直到听懂",
+            "生气并批评",
+            "不理睬",
+            "要求家长道歉"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều cho thấy giáo viên kiên nhẫn, sẵn lòng giảng lại."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l1708-w1",
+        "kind": "sentence-given-words",
+        "topic": "xin phép học nhảy",
+        "structure": "S + 可以 + động từ + 吗？",
+        "words": [
+          "可以",
+          "跳舞"
+        ],
+        "required": "可以、跳舞",
+        "prompt": "Dùng đủ hai từ để hỏi xin phép con gái bạn có thể học nhảy được không.",
+        "sample": "我女儿可以学跳舞吗？"
+      },
+      {
+        "id": "l1708-w2",
+        "kind": "sentence-given-words",
+        "topic": "bắt đầu học từ đơn giản nhất",
+        "structure": "从 + tính từ nhất + 开始 + động từ",
+        "words": [
+          "从",
+          "开始"
+        ],
+        "required": "从、开始",
+        "prompt": "Dùng đủ hai từ để nói giáo viên sẽ dạy bắt đầu từ cái đơn giản nhất.",
+        "sample": "老师会从最简单的开始教。"
+      },
+      {
+        "id": "l1708-w3",
+        "kind": "sentence-given-words",
+        "topic": "nghe hiểu lời giáo viên",
+        "structure": "S + 能 / 不能 + 听 + 懂 + tân ngữ",
+        "words": [
+          "懂",
+          "问题"
+        ],
+        "required": "懂、问题",
+        "prompt": "Dùng đủ hai từ để nói bạn không hiểu câu hỏi của giáo viên.",
+        "sample": "我听不懂老师的问题。"
+      }
+    ]
+  },
+  "l2108": {
+    "date": "21/08/2026",
+    "reading": {
+      "prose": "哥哥今天的课很多，晚上还要帮同事准备明天的会议。我正在洗鸡蛋，准备做晚饭，看见哥哥手机响了，就帮他接了电话。是他同事打来的，说明天开会需要用到的东西还没准备好。哥哥说：别担心，我马上就去帮你准备。挂了电话，哥哥正在吃西瓜，听到这个消息，也没时间吃完，就急急忙忙地去帮同事了。我告诉他：你已经忙了一天了，别太累了。",
+      "dialogue": [
+        "大卫：哥，你今天怎么这么忙？",
+        "哥哥：因为同事明天要开会，东西还没准备好，我要帮助他。",
+        "大卫：你不是正在吃西瓜吗？还要出去吗？",
+        "哥哥：对，一会儿要出去，你能帮我把手机拿过来吗？",
+        "大卫：你的手机在这儿，你别急，慢慢吃完西瓜再走也可以。",
+        "哥哥：不行，同事在等我，我得赶快去帮助他。",
+        "大卫：那你别忘了拿东西，我帮你检查一下。",
+        "哥哥：好，谢谢你帮助我。",
+        "大卫：你已经忙了一天了，别太累了。",
+        "哥哥：没关系，帮助同事也是应该的。"
+      ],
+      "questions": [
+        {
+          "id": "l2108-r1",
+          "prompt": "哥哥晚上还要做什么？",
+          "options": [
+            "帮同事准备明天的会议",
+            "吃西瓜",
+            "洗鸡蛋",
+            "打电话给妈妈"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn mở đầu nói \"晚上还要帮同事准备明天的会议\"。"
+        },
+        {
+          "id": "l2108-r2",
+          "prompt": "\"我\"看见哥哥手机响了，做了什么？",
+          "options": [
+            "帮他接了电话",
+            "没有理会",
+            "告诉哥哥",
+            "把手机关了"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"就帮他接了电话\"。"
+        },
+        {
+          "id": "l2108-r3",
+          "prompt": "哥哥正在做什么的时候接到同事的消息？",
+          "options": [
+            "吃西瓜",
+            "洗手机",
+            "上课",
+            "睡觉"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 hỏi \"你不是正在吃西瓜吗\"。"
+        },
+        {
+          "id": "l2108-r4",
+          "prompt": "大卫提醒哥哥要注意什么？",
+          "options": [
+            "别忘了拿东西，别太累了",
+            "别吃太多西瓜",
+            "别打电话",
+            "别去帮同事"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói hai lời nhắc đó."
+        },
+        {
+          "id": "l2108-r5",
+          "prompt": "哥哥为什么急着出去帮助同事？",
+          "options": [
+            "因为同事明天开会要用的东西还没准备好",
+            "因为哥哥想出去玩",
+            "因为妈妈让他出去",
+            "因为他不喜欢吃西瓜"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều nêu lý do này."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l2108-w1",
+        "kind": "sentence-given-words",
+        "topic": "giúp đỡ đồng nghiệp chuẩn bị họp",
+        "structure": "帮 + đồng nghiệp + động từ",
+        "words": [
+          "帮助",
+          "同事"
+        ],
+        "required": "帮助、同事",
+        "prompt": "Dùng đủ hai từ để nói bạn phải giúp đỡ đồng nghiệp chuẩn bị cuộc họp.",
+        "sample": "我要帮助同事准备会议。"
+      },
+      {
+        "id": "l2108-w2",
+        "kind": "sentence-given-words",
+        "topic": "khuyên đừng mệt quá",
+        "structure": "别 + tính từ + 了",
+        "words": [
+          "别",
+          "课"
+        ],
+        "required": "别、课",
+        "prompt": "Dùng đủ hai từ để nói bạn hôm nay có nhiều tiết học, khuyên đừng quá mệt.",
+        "sample": "今天课很多，你别太累了。"
+      },
+      {
+        "id": "l2108-w3",
+        "kind": "sentence-given-words",
+        "topic": "đang ăn dưa hấu thì có điện thoại",
+        "structure": "S + 正在 + động từ + 呢，+ sự việc khác",
+        "words": [
+          "正在",
+          "手机"
+        ],
+        "required": "正在、手机",
+        "prompt": "Dùng đủ hai từ để nói anh trai đang ăn dưa hấu thì điện thoại reo.",
+        "sample": "哥哥正在吃西瓜呢，手机突然响了。"
+      }
+    ]
+  },
+  "l2408": {
+    "date": "24/08/2026",
+    "reading": {
+      "prose": "我们班有一个新同学，是去年从北京来的女孩子，姓王。她说话很好听，声音比较小。她今天穿的衣服是去年买的，颜色很好看，可是可能有点儿贵。她坐在教室右边，喜欢一个人唱歌。老师说她很聪明，成绩比我们都好。我觉得她比我想象的更友好。",
+      "dialogue": [
+        "谢鹏：你知道那个新同学吗？",
+        "大卫：知道，她姓王，是去年从北京来的。",
+        "谢鹏：她说话怎么这么好听？",
+        "大卫：可能是因为她普通话说得标准吧。",
+        "谢鹏：她今天穿的衣服真好看，是新买的吗？",
+        "大卫：不是，是去年买的，可能有点儿贵。",
+        "谢鹏：她坐在教室右边，是不是？",
+        "大卫：对，她喜欢一个人唱歌，声音很好听。",
+        "谢鹏：她比我们想象的还要友好。",
+        "大卫：是啊，老师说她成绩比我们都好。"
+      ],
+      "questions": [
+        {
+          "id": "l2408-r1",
+          "prompt": "新同学姓什么？",
+          "options": [
+            "王",
+            "李",
+            "张",
+            "陈"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"姓王\"。"
+        },
+        {
+          "id": "l2408-r2",
+          "prompt": "她今天穿的衣服是什么时候买的？",
+          "options": [
+            "去年",
+            "今年",
+            "上个星期",
+            "昨天"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"她今天穿的衣服是去年买的\"。"
+        },
+        {
+          "id": "l2408-r3",
+          "prompt": "谢鹏觉得新同学说话怎么样？",
+          "options": [
+            "好听",
+            "难听",
+            "很快",
+            "很小声听不到"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 谢鹏 nói \"她说话怎么这么好听\"。"
+        },
+        {
+          "id": "l2408-r4",
+          "prompt": "新同学坐在教室哪边？",
+          "options": [
+            "右边",
+            "左边",
+            "前面",
+            "后面"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói \"她坐在教室右边\"。"
+        },
+        {
+          "id": "l2408-r5",
+          "prompt": "大家对新同学的印象是什么？",
+          "options": [
+            "说话好听，成绩好，比想象的友好",
+            "不友好，成绩不好",
+            "说话难听",
+            "没有印象"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều nói 新同学说话好听、成绩好、比想象的友好。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l2408-w1",
+        "kind": "sentence-given-words",
+        "topic": "quần áo mua năm ngoái",
+        "structure": "S + 穿的 + danh từ + 是 + 去年 + 买的",
+        "words": [
+          "去年",
+          "穿"
+        ],
+        "required": "去年、穿",
+        "prompt": "Dùng đủ hai từ để nói bộ quần áo bạn đang mặc là mua năm ngoái.",
+        "sample": "我穿的衣服是去年买的。"
+      },
+      {
+        "id": "l2408-w2",
+        "kind": "sentence-given-words",
+        "topic": "hỏi họ tên lịch sự",
+        "structure": "您贵姓？我姓 + họ",
+        "words": [
+          "姓",
+          "可能"
+        ],
+        "required": "姓、可能",
+        "prompt": "Dùng đủ hai từ để hỏi lịch sự họ của một người, và đoán có thể họ Vương.",
+        "sample": "您贵姓？您可能姓王吧？"
+      },
+      {
+        "id": "l2408-w3",
+        "kind": "sentence-given-words",
+        "topic": "so sánh chiều cao bạn nam",
+        "structure": "A + 比 + B + tính từ + 一点儿/得多",
+        "words": [
+          "比",
+          "男"
+        ],
+        "required": "比、男",
+        "prompt": "Dùng đủ hai từ để nói bạn nam đó cao hơn bạn.",
+        "sample": "那个男同学比我高。"
+      }
+    ]
+  },
+  "l2608": {
+    "date": "26/08/2026",
+    "reading": {
+      "prose": "我家有两个孩子，我和弟弟。弟弟比我小两岁，可是他做事做得比我认真。去年冬天北京下了很大的雪，最低的时候零下十几度，我们俩穿得很多还是觉得冷。弟弟的妻子也是北京人，她说话说得很好听。我们家离公司不算近，弟弟每天都比我早起一个小时去挤公交车。他最近工作很忙，可是回家以后还常常帮妻子做饭，做得比我好多了。",
+      "dialogue": [
+        "谢鹏：你弟弟最近怎么样？工作忙不忙？",
+        "大卫：很忙，可是他做饭做得比我好多了。",
+        "谢鹏：他妻子呢？也很忙吗？",
+        "大卫：对，他们俩最近都很忙，几乎每天都很晚才进家门。",
+        "谢鹏：昨天下雪了，你们那儿冷不冷？",
+        "大卫：冷极了，零下十几度，我弟弟穿得比我还多。",
+        "谢鹏：他们家离公司近不近？",
+        "大卫：不太近，所以弟弟每天都比我早起一个小时。",
+        "谢鹏：那他说话是不是也说得比你好？",
+        "大卫：哈哈，那倒是，他普通话说得比我标准多了。"
+      ],
+      "questions": [
+        {
+          "id": "l2608-r1",
+          "prompt": "弟弟做事做得怎么样？",
+          "options": [
+            "比\"我\"认真",
+            "不如\"我\"认真",
+            "跟\"我\"一样",
+            "不知道"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"他做事做得比我认真\"。"
+        },
+        {
+          "id": "l2608-r2",
+          "prompt": "去年冬天北京最低多少度？",
+          "options": [
+            "零下十几度",
+            "零上十几度",
+            "零度",
+            "三十几度"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"最低的时候零下十几度\"。"
+        },
+        {
+          "id": "l2608-r3",
+          "prompt": "弟弟和妻子最近怎么样？",
+          "options": [
+            "都很忙",
+            "都很闲",
+            "吵架了",
+            "生病了"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói \"他们俩最近都很忙\"。"
+        },
+        {
+          "id": "l2608-r4",
+          "prompt": "弟弟每天比大卫早起多久？",
+          "options": [
+            "一个小时",
+            "半个小时",
+            "两个小时",
+            "十分钟"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói \"弟弟每天都比我早起一个小时\"。"
+        },
+        {
+          "id": "l2608-r5",
+          "prompt": "大卫觉得弟弟哪些方面比自己好？",
+          "options": [
+            "做饭、说话都比自己好",
+            "什么都不如自己",
+            "只有做饭比较好",
+            "只有说话比较好"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều nói 弟弟做饭做得好，说话（普通话）也说得比大卫好。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l2608-w1",
+        "kind": "sentence-given-words",
+        "topic": "tuyết rơi âm độ",
+        "structure": "S + 下 + 雪 + 了，零下 + số + 度",
+        "words": [
+          "雪",
+          "度"
+        ],
+        "required": "雪、度",
+        "prompt": "Dùng đủ hai từ để nói hôm qua có tuyết, nhiệt độ âm mười mấy độ.",
+        "sample": "昨天下雪了，零下十几度。"
+      },
+      {
+        "id": "l2608-w2",
+        "kind": "sentence-given-words",
+        "topic": "vợ nấu ăn ngon hơn",
+        "structure": "A + động từ + 得 + 比 + B + tính từ",
+        "words": [
+          "妻子",
+          "得"
+        ],
+        "required": "妻子、得",
+        "prompt": "Dùng đủ hai từ để nói vợ anh ấy nấu ăn ngon hơn anh ấy nhiều.",
+        "sample": "他妻子做饭做得比他好多了。"
+      },
+      {
+        "id": "l2608-w3",
+        "kind": "sentence-given-words",
+        "topic": "dậy sớm hơn vì nhà không gần",
+        "structure": "因为 + A + 家 + 离 + công ty + 不近，所以 + A + 比 + B + 早起",
+        "words": [
+          "近",
+          "弟弟"
+        ],
+        "required": "近、弟弟",
+        "prompt": "Dùng đủ hai từ để nói vì nhà em trai không gần công ty nên phải dậy sớm hơn.",
+        "sample": "因为弟弟家离公司不近，所以他比我早起。"
+      }
+    ]
   }
 };

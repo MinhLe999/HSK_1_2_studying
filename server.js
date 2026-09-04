@@ -22,6 +22,7 @@ const defaultState = {
     lastLessonId: "l2705",
     lastView: "lesson"
   },
+  notes: "",
   clusters: [
     {
       id: "cluster-shu-nian",
@@ -124,6 +125,7 @@ function normalizeState(value) {
       lastLessonId: cleanText(progress.lastLessonId, 40) || "l2705",
       lastView: cleanText(progress.lastView, 24) || "lesson"
     },
+    notes: cleanText(value.notes, 20000),
     clusters: clusters.slice(0, 100).map((cluster, clusterIndex) => ({
       id: cleanText(cluster.id, 80) || `cluster-${clusterIndex}`,
       name: cleanText(cluster.name, 80) || "Cụm chưa đặt tên",
@@ -188,7 +190,7 @@ async function readJsonBody(request) {
 async function serveStatic(request, response, pathname) {
   let filePath;
   if (pathname === "/HSK.pdf") {
-    filePath = path.join(rootDir, "HSK.pdf");
+    filePath = path.join(rootDir, "materials", "HSK.pdf");
   } else {
     const relativePath = pathname === "/" ? "index.html" : pathname.replace(/^\/+/, "");
     filePath = path.resolve(publicDir, relativePath);

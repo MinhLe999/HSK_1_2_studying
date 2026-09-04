@@ -169,6 +169,89 @@ Quy ước:
 | l2907-s3 | Động từ + 一下（+ tân ngữ） | Diễn tả hành động ngắn, làm thử hoặc làm một chút; cách nói này cũng làm lời đề nghị nhẹ hơn. | 我看一下报纸。 | Tôi xem báo một chút. |
 | l2907-s4 | 看 / 听 + 见 + ...（了） hoặc 没（有）+ 看 / 听 + 见 + ... | `见` đứng sau `看` hoặc `听` để nói kết quả đã nhìn thấy hoặc nghe thấy; dạng phủ định dùng `没（有）`. | 我看见丈夫了，但是没听见他说话。 | Tôi đã nhìn thấy chồng nhưng không nghe thấy anh ấy nói. |
 
+## l0308 · 03/08/2026 · Tặng quà, thời điểm và việc đã hoàn thành
+
+| Mã | Công thức | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- |
+| l0308-s1 | S + 是 + 谁 + V + 的？ | Hỏi ai là người thực hiện hành động đã xảy ra, mở rộng thêm yếu tố tác nhân cho cấu trúc `是...的` đã học. | 这本书是谁买的？ | Quyển sách này là ai mua? |
+| l0308-s2 | V（送 / 给 / 买...）+ tân ngữ + 给 + người nhận | Nói tặng, cho hoặc gửi một vật gì đó cho ai; `给` đứng sau động từ để chỉ người nhận. | 我想送一台电脑给你。 | Tôi muốn tặng bạn một chiếc máy tính. |
+| l0308-s3 | Thời điểm / số tuổi + 的时候 | Nêu thời điểm khi một sự việc khác xảy ra. | 他八岁的时候开始踢足球。 | Năm anh ấy tám tuổi, anh ấy bắt đầu chơi bóng đá. |
+| l0308-s4 | 帮 + người + （động từ） | Nói giúp ai làm một việc gì. | 你能帮我一下吗？ | Bạn có thể giúp tôi một chút được không? |
+| l0308-s5 | 已经 + tính từ / động từ / số lượng + 了 | Nói một việc đã xảy ra hoặc đã đạt đến một mức độ nhất định. | 我学汉语已经三个月了。 | Tôi học tiếng Trung đã ba tháng rồi. |
+
+## l0508 · 05/08/2026 · Nhận xét, phàn nàn nhẹ và ảnh hưởng sức khỏe
+
+| Mã | Công thức | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- |
+| l0508-s1 | （S +）还 + tính từ（可以 / 不错 / 好...） | Nói một điều gì đó ở mức tạm được, có thể chấp nhận được, thường dùng để đáp lại câu hỏi thăm dò. | 我身体还好，谢谢你问。 | Sức khỏe tôi vẫn ổn, cảm ơn bạn đã hỏi thăm. |
+| l0508-s2 | 有（一）点儿 + tính từ / động từ | Diễn tả cảm xúc tiêu cực hoặc lời phàn nàn nhẹ của người nói. | 今天天气有点儿冷，我们别去外面运动了。 | Hôm nay trời hơi lạnh, chúng ta đừng ra ngoài tập thể dục nữa. |
+| l0508-s3 | 就（+ động từ）...吧 | Nêu kết luận hoặc giải pháp dựa trên điều vừa được nhắc đến, thường có `吧` ở cuối câu. | 就做你爱吃的鱼吧。 | Vậy thì làm món cá mà bạn thích ăn đi. |
+| l0508-s4 | S + điều tích cực，就是 + điều bất lợi | Chuyển ý, nêu thêm một điểm chưa hoàn hảo ngay sau khi đã khen. | 这个杯子还可以，就是有点儿小。 | Cái cốc này cũng tạm được, chỉ có điều hơi nhỏ. |
+| l0508-s5 | ...V / tính từ + 不 + V / tính từ...？ | Dạng câu hỏi lựa chọn chính phản, tương đương câu hỏi dùng `吗`. | 这件衣服小不小？ | Bộ quần áo này có nhỏ không? |
+| l0508-s6 | 对 + tân ngữ + tính từ | Nói mối quan hệ ảnh hưởng giữa một việc và sức khỏe hoặc người khác. | 多喝水对身体好，你就多喝点儿吧。 | Uống nhiều nước thì tốt cho cơ thể, bạn cứ uống thêm một chút đi. |
+
+## l0708 · 07/08/2026 · Ẩm thực, thể thao và nguyên nhân kết quả
+
+| Mã | Công thức | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- |
+| l0708-s1 | S + AA（lặp đôi danh từ / lượng từ đơn âm）+ 都 | Nói từng người hoặc từng cái trong một nhóm đều có chung một đặc điểm. | 我们班的同学个个都喜欢打篮球。 | Từng bạn học trong lớp chúng tôi đều thích chơi bóng rổ. |
+| l0708-s2 | 来 + tân ngữ | `来` thay thế cho một động từ cụ thể tùy ngữ cảnh, thường dùng khi gọi món hoặc rủ chơi một trận đấu. | 来一点儿面条吧。 | Cho một ít mì đi. |
+| l0708-s3 | 还 + động từ / tính từ | Nói thêm một điều nữa ngoài điều đã nhắc, nghĩa là cũng / còn / thêm nữa. | 我想吃羊肉，还想吃面条。 | Tôi muốn ăn thịt cừu, còn muốn ăn mì nữa. |
+| l0708-s4 | 怎么 + động từ / tính từ？ | Hỏi nguyên nhân một việc với thái độ ngạc nhiên, hoặc hỏi cách thực hiện. | 今天怎么这么冷？ | Sao hôm nay lạnh thế? |
+| l0708-s5 | 因为 + mệnh đề 1，所以 + mệnh đề 2 | Nêu nguyên nhân và kết quả của một sự việc. | 因为他天天跑步，所以身体很好。 | Vì anh ấy ngày nào cũng chạy bộ nên sức khỏe rất tốt. |
+
+## l1208 · 12/08/2026 · Đi lại, khoảng cách và ôn tập
+
+| Mã | Công thức | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- |
+| l1208-s1 | 还 / 还没 + động từ / tính từ | Nói một hành động hoặc trạng thái vẫn tiếp diễn (khẳng định dùng 还, phủ định dùng 还没). | 十年没见了，她还那么漂亮。 | Mười năm không gặp rồi, chị ấy vẫn xinh đẹp như vậy. |
+| l1208-s2 | 好好 + động từ | Diễn tả việc gì được thực hiện một cách nghiêm túc, tập trung. | 明天有考试，他说今天要好好复习。 | Mai có kỳ thi, anh ấy nói hôm nay phải ôn tập thật nghiêm túc. |
+| l1208-s3 | S + thời điểm + 就 + động từ（+ 了） | Nhấn mạnh rằng người nói nghĩ việc gì xảy ra sớm hơn dự kiến. | 他早上五点就起床了。 | Sáng anh ấy năm giờ đã dậy rồi. |
+| l1208-s4 | A + 离 + B + 近 / 远 / 有 + số... | Nói khoảng cách đến một địa điểm, thời điểm hoặc mục đích. | 学校离机场有20多公里。 | Trường cách sân bay hơn 20 km. |
+| l1208-s5 | Câu trần thuật + 呢 | Đặt cuối câu trần thuật để xác nhận sự thật với sắc thái cường điệu, thuyết phục người nghe. | 医院离我们这儿还远呢。 | Bệnh viện cách chỗ chúng ta còn xa lắm đấy. |
+
+## l1408 · 14/08/2026 · Nhờ vả, dặn dò và màu sắc
+
+| Mã | Công thức | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- |
+| l1408-s1 | ...，好吗？ | Đề xuất một hoạt động và hỏi ý kiến người nghe có muốn tham gia không. | 我们一起去吃饭，好吗？ | Chúng ta cùng đi ăn cơm nhé, được không? |
+| l1408-s2 | Động từ láy（AA / A一A / ABAB） | Diễn tả hành động diễn ra trong thời gian ngắn, mức độ nhẹ hoặc thử làm gì đó, sắc thái nhẹ nhàng. | 你准备准备，她一个小时以后就到。 | Bạn chuẩn bị một chút đi, cô ấy một tiếng nữa sẽ đến. |
+| l1408-s3 | S + 再 + động từ（+ tân ngữ） | 再 diễn tả sự lặp lại hoặc tiếp diễn của một hành động, hoặc một hành động sẽ xảy ra trong một trường hợp nhất định. | 你再看看这本书吧。 | Bạn xem lại quyển sách này thêm lần nữa đi. |
+| l1408-s4 | 兼语句：S + 让 / 叫 / 请 + tân ngữ + động từ 2 | Tân ngữ của động từ 1 đồng thời là chủ ngữ của động từ 2. | 公司让我明天去北京。 | Công ty bảo tôi ngày mai đi Bắc Kinh. |
+
+## l1708 · 17/08/2026 · Xin phép, thứ tự và kết quả
+
+| Mã | Công thức | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- |
+| l1708-s1 | S + 可以 + động từ + 吗？ = S + 可不可以 + động từ？ | Xin phép hoặc đề nghị làm việc gì. | 我女儿可以跟您学习跳舞吗？ | Con gái tôi có thể học nhảy với cô được không? |
+| l1708-s2 | 从...开始 + động từ / 从 + A + 到 + B | 从 đánh dấu điểm bắt đầu; 从...到... nói phạm vi từ đâu đến đâu. | 她从七岁开始跳舞。 | Cô ấy bắt đầu học nhảy từ năm bảy tuổi. |
+| l1708-s3 | 第 + số từ + lượng từ（+ danh từ） | Nói về thứ tự của người hoặc vật. | 这是我的第三本汉语书。 | Đây là quyển sách tiếng Trung thứ ba của tôi. |
+| l1708-s4 | Động từ + bổ ngữ kết quả（见 / 到 / 好 / 懂 / 完 / 错） | Bổ sung thông tin về kết quả của hành động phía trước. | 我能听懂老师说的话。 | Tôi có thể nghe hiểu lời giáo viên nói. |
+
+## l2108 · 21/08/2026 · Giúp đỡ, khuyên can và hành động đang diễn ra
+
+| Mã | Công thức | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- |
+| l2108-s1 | 帮助 + tân ngữ（+ động từ）/ ...对...有帮助 | Nói giúp đỡ ai làm gì, hoặc một việc có ích cho việc khác. | 你能帮助我吗？ | Bạn có thể giúp tôi được không? |
+| l2108-s2 | 不要 / 别 + động từ（+ tân ngữ）/ tính từ + 了 | Khuyên người khác đừng làm hoặc đừng như thế nữa; thường không dùng cho ngôi thứ nhất, và cần thêm 了 ở cuối câu khi dùng 别. | 你已经睡了一天了，别再睡觉了！ | Bạn đã ngủ cả ngày rồi, đừng ngủ nữa! |
+| l2108-s3 | S +（正）在 + động từ（+ 呢） | Nhấn mạnh một hành động đang diễn ra ngay lúc nói, thường dùng ở dạng hỏi 在做什么呢？ | 哥哥正在吃西瓜呢。 | Anh trai đang ăn dưa hấu. |
+
+## l2408 · 24/08/2026 · Định ngữ, khả năng và so sánh cơ bản
+
+| Mã | Công thức | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- |
+| l2408-s1 | Cụm động từ + 的 + danh từ / đại từ | Định ngữ (cụm từ bổ nghĩa) đứng trước 的 để bổ nghĩa cho danh từ hoặc đại từ phía sau. | 这是去年买的衣服。 | Đây là bộ quần áo mua năm ngoái. |
+| l2408-s2 | （不 / 很 +）可能 + động từ / tính từ | Nói về khả năng xảy ra của một sự việc; có thể thêm 不 hoặc 很 trước 可能 để giảm hoặc tăng mức độ chắc chắn. | 你可能不认识他。 | Có thể bạn không quen biết anh ấy. |
+| l2408-s3 | A + 比 + B + tính từ（+ 一点儿 / 一些 / 多了 / 得多 / số-lượng từ） | So sánh hơn giữa A và B; có thể thêm mức độ chênh lệch cụ thể. Phủ định dùng A + 没有 + B + tính từ. | 哥哥比姐姐高。 | Anh trai cao hơn chị gái. |
+
+## l2608 · 26/08/2026 · Bổ ngữ trạng thái và so sánh nâng cao
+
+| Mã | Công thức | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- |
+| l2608-s1 | S +（động từ +）tân ngữ + động từ + 得 + tính từ | Bổ ngữ trạng thái 得 đứng sau động từ (lặp lại động từ nếu có tân ngữ) để đánh giá kết quả hoặc mức độ của hành động. | 他说汉语说得很好。 | Anh ấy nói tiếng Trung rất giỏi. |
+| l2608-s2 | A + 比 + B + động từ + 得 + tính từ / A + động từ + 得 + 比 + B + tính từ | Kết hợp so sánh 比 với bổ ngữ trạng thái 得 để so sánh mức độ thực hiện hành động giữa hai đối tượng. | 这首歌他比我唱得好不少。 | Bài hát này anh ấy hát hay hơn tôi nhiều. |
+| l2608-s3 | A + 比 + B + 多 / 少 / 早 / 晚 + động từ（+ số lượng） | So sánh mức chênh lệch về số lượng hoặc thời điểm khi thực hiện hành động. | 今天她比我早起一个小时。 | Hôm nay cô ấy dậy sớm hơn tôi một tiếng. |
+
 # Kế hoạch bài đọc và đặt câu mở rộng
 
 Quy chuẩn cho mọi ngày:
@@ -807,3 +890,336 @@ Quy chuẩn cho mọi ngày:
 | l2907-w1 | chiếc đồng hồ được tặng | Danh từ + 是 + người + động từ + 的 | 手表；丈夫；送 | Dùng đủ ba từ để nói chiếc đồng hồ này là chiếc chồng bạn tặng. | 这块手表是我丈夫送的。 |
 | l2907-w2 | tờ báo màu đỏ ở bên trái | 左边 + 的 + danh từ + 是 + tính từ + 的 | 左边；红色；报纸 | Dùng đủ ba từ để nói tờ báo bên trái là tờ màu đỏ. | 左边的报纸是红色的。 |
 | l2907-w3 | đề nghị uống sữa | Chủ ngữ + động từ + 一下 + tân ngữ + 吧 | 牛奶；一下；喝 | Dùng đủ ba từ để đề nghị người nghe uống sữa một chút. | 你喝一下牛奶吧。 |
+
+### l0308 · 03/08/2026
+
+#### Đoạn văn
+
+> 下个星期五是我姐姐的生日，我们晚上七点开始吃饭。我已经买了一个生日蛋糕，也想送给姐姐一件粉色的衣服。姐姐是我大学同学介绍我认识的，我们做朋友已经三年了。妈妈说她可以帮忙做几道中国菜，爸爸负责去接姐姐的两个老同学来家里。晚上客人们来了以后，大家一起吃饭，都非常高兴。姐姐问我们这个生日会是谁做的，我们没有告诉她，只是祝她生日快乐。
+
+#### Hội thoại
+
+> 大卫：姐姐的生日是不是下个星期五？
+> 小英：对，是下个星期五，我们晚上七点开始吃饭。
+> 大卫：生日蛋糕你已经买了吗？
+> 小英：已经买了，是我和妈妈一起去买的。
+> 大卫：你想送给姐姐什么礼物？
+> 小英：我想送给她一件粉色的衣服。
+> 大卫：谁去接姐姐的同学们来家里？
+> 小英：爸爸去接，他说八点以前就能到。
+> 大卫：姐姐知道这件事吗？
+> 小英：不知道，这是一个惊喜，别告诉她。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l0308-r1 | 姐姐的生日是星期几？ | 星期五；星期一；星期三；星期日 | 星期五 | Đoạn văn nói "下个星期五是我姐姐的生日"。 |
+| l0308-r2 | "我"已经买了什么送给姐姐？ | 一件粉色的衣服；一台电脑；一块手表；一辆自行车 | 一件粉色的衣服 | Đoạn văn nói người kể muốn tặng chị gái một chiếc áo màu hồng. |
+| l0308-r3 | 生日蛋糕是谁买的？ | "我"和妈妈一起买的；"我"和爸爸一起买的；姐姐自己买的；同学买的 | "我"和妈妈一起买的 | Trong hội thoại, B nói "是我和妈妈一起去买的"。 |
+| l0308-r4 | 谁去接姐姐的同学们？ | 爸爸；妈妈；"我"；姐姐 | 爸爸 | Trong hội thoại, B nói "爸爸去接"。 |
+| l0308-r5 | 姐姐知道这个生日会吗？为什么？ | 不知道，因为这是一个惊喜；知道，因为妈妈告诉她了；知道，因为她自己准备的；不知道，因为大家都很忙 | 不知道，因为这是一个惊喜 | Đoạn văn và hội thoại đều cho biết cả nhà giữ bí mật để tạo bất ngờ cho chị gái. |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l0308-w1 | sinh nhật của chị gái | 今天 / 明天 + 是 + danh từ + 的 + 生日 | 生日；快乐 | Dùng đủ hai từ để chúc chị gái sinh nhật vui vẻ. | 祝姐姐生日快乐！ |
+| l0308-w2 | nhờ giúp làm món ăn | S + 能 + 帮 + người + V + 吗？ | 帮；中国菜 | Dùng đủ hai từ để hỏi mẹ có thể giúp làm vài món Trung Quốc không. | 妈妈能帮我们做几道中国菜吗？ |
+| l0308-w3 | giới thiệu bạn học mới quen | S + 是 + 谁 + 介绍 + V + 的？ | 介绍；已经 | Dùng đủ hai từ để nói bạn quen người bạn này đã ba năm, do bạn học đại học giới thiệu. | 他是我大学同学介绍认识的，我们已经做朋友三年了。 |
+
+### l0508 · 05/08/2026
+
+#### Đoạn văn
+
+> 下个星期我有一个汉语考试，所以这几天我天天准备。我觉得听、说还可以，就是写字有点儿难。妈妈说多喝水对身体好，少喝咖啡，可是我每天都想喝一杯咖啡。今天外面天气不错，可是我没有时间出去，只能在里面看书。姐姐问我这次考试难不难，我说不难不易，就是题目有点儿多。她说没关系，我已经准备得很好了，以后一定没问题。
+
+#### Hội thoại
+
+> 王方：你这几天在准备什么？
+> 李月：准备下个星期的汉语考试。
+> 王方：你觉得这次考试难不难？
+> 李月：不难不易，就是题目有点儿多。
+> 王方：你每天都喝咖啡吗？
+> 李月：对，我每天都想喝一杯咖啡，可是妈妈说这样对身体不好。
+> 王方：那你今天怎么不去外面运动？
+> 李月：外面天气还不错，可是我没有时间，只能在里面看书。
+> 王方：这句话是什么意思，你懂吗？
+> 李月：这个意思我还不太懂，你能帮我看一下吗？
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l0508-r1 | "我"下个星期有什么？ | 汉语考试；生日会；篮球比赛；新工作 | 汉语考试 | Đoạn văn mở đầu bằng "下个星期我有一个汉语考试"。 |
+| l0508-r2 | 妈妈觉得喝太多咖啡对身体怎么样？ | 不好；很好；没关系；很不错 | 不好 | Đoạn văn nói mẹ cho rằng uống nhiều cà phê không tốt cho sức khỏe. |
+| l0508-r3 | "我"觉得这次考试怎么样？ | 不难不易，就是题目有点儿多；非常难；非常容易；完全不会 | 不难不易，就是题目有点儿多 | Trong hội thoại, 李月 trả lời đúng như vậy. |
+| l0508-r4 | 为什么"我"今天没去外面运动？ | 因为没有时间；因为天气不好；因为身体不好；因为要去买咖啡 | 因为没有时间 | Trong hội thoại, 李月 nói "可是我没有时间，只能在里面看书"。 |
+| l0508-r5 | "我"这几天天天做什么，为什么？ | 准备考试，因为下个星期要考试；喝咖啡，因为喜欢咖啡；运动，因为身体不好；看书，因为没有咖啡 | 准备考试，因为下个星期要考试 | Đoạn văn và hội thoại đều nói "我"đang chuẩn bị cho kỳ thi tuần sau. |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l0508-w1 | chuẩn bị thi tiếng Trung | S + 准备 + danh từ + 考试 | 准备；考试 | Dùng đủ hai từ để nói bạn đang chuẩn bị cho kỳ thi tiếng Trung tuần sau. | 我在准备下个星期的汉语考试。 |
+| l0508-w2 | màu áo tạm ổn nhưng hơi to | S + 还可以，就是 + điều bất lợi | 件；就是 | Dùng đủ hai từ để nói bộ quần áo này màu còn tạm được, chỉ có điều hơi to. | 这件衣服颜色还可以，就是有点儿大。 |
+| l0508-w3 | ăn cá tốt cho sức khỏe | S + 对 + tân ngữ + tính từ | 鱼；对 | Dùng đủ hai từ để nói ăn nhiều cá thì tốt cho sức khỏe. | 多吃鱼对身体好。 |
+
+### l0708 · 07/08/2026
+
+#### Đoạn văn
+
+> 我们家门外有一个小饭馆，那儿的面条和饺子都很好吃。我们一家人个个都爱吃羊肉，妈妈也经常包饺子给我们吃。因为爸爸这个月胖了两公斤，所以他每天都去游泳或者打篮球。他还想骑自行车上班，这样身体会更好。今天晚上我们又去了那家饭馆，我对服务员说来一份羊肉面条吧。爸爸看了看菜单，笑着说我还是少吃点儿吧。
+
+#### Hội thoại
+
+> 谢鹏：你怎么这个月胖了两公斤？
+> 大卫：因为最近太忙了，没时间运动，所以胖了。
+> 谢鹏：那你以后打算怎么办？
+> 大卫：我打算每天去游泳或者打篮球。
+> 谢鹏：你会骑自行车去公司吗？
+> 大卫：会，我还想骑自行车上班，这样比较健康。
+> 谢鹏：今天晚上想吃什么？
+> 大卫：来一份羊肉面条吧，我也想吃几个饺子。
+> 谢鹏：你不是说要少吃肉吗？
+> 大卫：对，可是羊肉面条真的很好吃，我就吃这一次吧。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l0708-r1 | 谁家门外有一个小饭馆？ | 我们家；姐姐家；同学家；老师家 | 我们家 | Đoạn văn mở đầu bằng "我们家门外有一个小饭馆"。 |
+| l0708-r2 | 爸爸这个月怎么了？ | 胖了两公斤；生病了；瘦了两公斤；去旅游了 | 胖了两公斤 | Đoạn văn nói "因为爸爸这个月胖了两公斤"。 |
+| l0708-r3 | 大卫打算怎么运动？ | 每天去游泳或者打篮球；每天骑自行车比赛；每天去饭馆吃饭；每天在家看电视 | 每天去游泳或者打篮球 | Trong hội thoại, 大卫 nói "我打算每天去游泳或者打篮球"。 |
+| l0708-r4 | 晚上他们想吃什么？ | 羊肉面条和饺子；牛奶和面包；中国菜和咖啡；水果和蛋糕 | 羊肉面条和饺子 | Trong hội thoại, 大卫 nói muốn ăn mì thịt cừu và vài cái sủi cảo. |
+| l0708-r5 | 爸爸为什么决定多运动？ | 因为这个月胖了两公斤；因为医生让他运动；因为想参加比赛；因为不喜欢吃饭 | 因为这个月胖了两公斤 | Đoạn văn và hội thoại đều cho biết nguyên nhân là tăng cân trong tháng này. |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l0708-w1 | xe đạp trước cửa nhà | Danh từ + 在 + 门 + 外 / 里 | 门；自行车 | Dùng đủ hai từ để nói xe đạp của anh ấy ở ngoài cửa. | 他的自行车在门外。 |
+| l0708-w2 | mẹ thường gói sủi cảo | S + 经常 + V + tân ngữ | 经常；饺子 | Dùng đủ hai từ để nói mẹ thường xuyên gói sủi cảo cho cả nhà ăn. | 妈妈经常包饺子给我们吃。 |
+| l0708-w3 | tăng cân vì lười bơi | 因为 + 不经常 + V，所以 + kết quả | 公斤；游泳 | Dùng đủ hai từ để nói vì không thường xuyên bơi nên anh ấy tăng hai cân. | 因为他不经常游泳，所以胖了两公斤。 |
+
+### l1208 · 12/08/2026
+
+#### Đoạn văn
+
+> 我家离公司很远，每天要坐公共汽车一个多小时才能到。今天早上我五点就起床了，因为要好好复习汉语考试的内容。我先预习了新的课文，又看了以前学过的生词。我走得很快，可是公共汽车开得很慢，我差一点儿迟到。到了公司，我发现离考试的时间还有半个小时，还可以再看一下笔记。晚上我很累，但是我觉得今天的复习很有用。
+
+#### Hội thoại
+
+> 谢鹏：你家离公司远不远？
+> 大卫：很远，我每天要坐公共汽车一个多小时才能到。
+> 谢鹏：那你今天怎么这么早就来了？
+> 大卫：因为今天有考试，我五点就起床，好好复习了。
+> 谢鹏：你复习了什么？
+> 大卫：我预习了新课文，也看了以前学过的生词。
+> 谢鹏：你去过飞机场附近的那家公司吗？
+> 大卫：去过，那家公司离机场很近，走路就能到。
+> 谢鹏：你走得真快，公共汽车都没你快！
+> 大卫：是啊，可是今天公共汽车开得太慢了，我差一点儿迟到。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l1208-r1 | "我"每天坐什么去公司？ | 公共汽车；自行车；飞机；出租车 | 公共汽车 | Đoạn văn nói "每天要坐公共汽车一个多小时才能到"。 |
+| l1208-r2 | "我"今天早上几点起床？ | 五点；六点；七点；八点 | 五点 | Đoạn văn nói "我五点就起床了"。 |
+| l1208-r3 | 大卫去过飞机场附近的那家公司吗？ | 去过；没去过；不知道；不想去 | 去过 | Trong hội thoại, 大卫 nói "去过"。 |
+| l1208-r4 | 为什么大卫差一点儿迟到？ | 因为公共汽车开得太慢；因为他起晚了；因为他忘了复习；因为路很近 | 因为公共汽车开得太慢 | Trong hội thoại, 大卫 nói 公共汽车开得太慢。 |
+| l1208-r5 | 大卫今天早上为什么五点就起床？ | 因为今天有考试，要好好复习；因为他每天都五点起床；因为要去机场；因为公共汽车太慢 | 因为今天有考试，要好好复习 | Đoạn văn và hội thoại đều nói lý do là chuẩn bị cho kỳ thi. |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l1208-w1 | khoảng cách từ nhà đến công ty | A + 离 + B + 远 / 近 / 有 + số | 离；公司 | Dùng đủ hai từ để nói nhà bạn cách công ty rất xa. | 我家离公司很远。 |
+| l1208-w2 | dậy sớm để ôn thi | Thời điểm + 就 + động từ + 了 | 就；复习 | Dùng đủ hai từ để nói bạn năm giờ đã dậy để ôn tập rồi. | 我五点就起床复习了。 |
+| l1208-w3 | đi bộ nhanh hơn xe buýt | S1 + 走得 + 快，S2 + 开得 + 慢 | 走；慢 | Dùng đủ hai từ để nói bạn đi bộ nhanh, nhưng xe buýt chạy chậm. | 我走得很快，可是公共汽车开得很慢。 |
+
+### l1408 · 14/08/2026
+
+#### Đoạn văn
+
+> 我有点儿事情要出去，可能要等一个小时才能回来。出门以前，我告诉服务员，请他帮我找一件白色的衣服。他说黑色的衣服也很好看，可是我不喜欢黑色，我还是想要白色的。这件白色的衣服不便宜，有点儿贵，可是我很喜欢，就买了。服务员帮我打开袋子，把衣服放了进去。我让他再检查一下，别把别的东西放错了。
+
+#### Hội thoại
+
+> 王方：你怎么了？看起来有点儿急。
+> 李月：我有点儿事情，要出去找一件衣服。
+> 王方：你想找什么颜色的？
+> 李月：我想要白色的，可是服务员说黑色的也很好看。
+> 王方：黑色的贵不贵？
+> 李月：白色的比黑色的贵一点儿，可是我还是喜欢白色的。
+> 王方：那你等一下，我陪你去看看吧。
+> 李月：好啊，等我先告诉服务员一声。
+> 王方：你再想想，别买错了。
+> 李月：放心吧，我已经想好了。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l1408-r1 | "我"出门前请服务员帮忙做什么？ | 找一件白色的衣服；找一件黑色的衣服；订一张票；打电话 | 找一件白色的衣服 | Đoạn văn nói "请他帮我找一件白色的衣服"。 |
+| l1408-r2 | 白色的衣服怎么样？ | 有点儿贵，但"我"很喜欢；很便宜；不好看；已经卖完了 | 有点儿贵，但"我"很喜欢 | Đoạn văn nói "有点儿贵，可是我很喜欢"。 |
+| l1408-r3 | 李月想要什么颜色的衣服？ | 白色的；黑色的；红色的；粉色的 | 白色的 | Trong hội thoại, 李月 nói muốn màu trắng. |
+| l1408-r4 | 王方打算怎么帮李月？ | 陪她去看看；帮她付钱；替她去买；不想帮忙 | 陪她去看看 | Trong hội thoại, 王方 nói "我陪你去看看吧"。 |
+| l1408-r5 | 李月为什么喜欢白色的衣服，尽管比较贵？ | 因为她本来就喜欢白色，虽然贵一点儿；因为黑色的卖完了；因为服务员推荐；因为白色的更便宜 | 因为她本来就喜欢白色，虽然贵一点儿 | Đoạn văn và hội thoại đều cho thấy李月 thích màu trắng dù giá cao hơn. |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l1408-w1 | nhờ tìm áo trắng | 让 + người + động từ + tân ngữ | 让；找 | Dùng đủ hai từ để nói bạn nhờ phục vụ tìm giúp một cái áo trắng. | 我让服务员帮我找一件白色的衣服。 |
+| l1408-w2 | xem lại trước khi mua | 再 + động từ + 一下，别 + động từ + 错 | 再；贵 | Dùng đủ hai từ để nói bạn muốn xem lại một lần nữa vì cái áo này hơi đắt. | 这件衣服有点儿贵，我想再看一下。 |
+| l1408-w3 | mở túi đựng đồ | 服务员 + 帮 + tôi + 打开 + tân ngữ | 服务员；打开 | Dùng đủ hai từ để nói nhân viên phục vụ giúp bạn mở túi. | 服务员帮我打开袋子。 |
+
+### l1708 · 17/08/2026
+
+#### Đoạn văn
+
+> 我女儿一直希望能学跳舞，所以我问老师：我女儿可以跟您学习跳舞吗？老师说非常欢迎，还说这是她教的第一个跳舞班。上课以前，老师会先讲一个问题，看看学生懂不懂。如果有人说错了，老师也不生气，会再讲一次，直到大家都听懂为止。我女儿说，她从第一天上课就很喜欢这里，希望能一直跳舞跳到长大。老师告诉我们，从这个星期开始，每天都有跳舞课，欢迎大家来上课。
+
+#### Hội thoại
+
+> 谢鹏：老师，我女儿可以跟您学习跳舞吗？
+> 老师：没问题，欢迎你来学习跳舞。
+> 谢鹏：谢谢老师，这是她第一次学跳舞，可能有点儿不懂。
+> 老师：没关系，我会从最简单的开始教。
+> 谢鹏：如果她做错了动作，您会怎么办？
+> 老师：我会再示范一次，直到她听懂、做对为止。
+> 谢鹏：她什么时候可以开始上课？
+> 老师：从下个星期一开始就可以了。
+> 谢鹏：太好了，谢谢老师！
+> 老师：不客气，欢迎你女儿加入我们！
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l1708-r1 | 老师说这是她教的第几个跳舞班？ | 第一个；第二个；第三个；最后一个 | 第一个 | Đoạn văn nói "这是她教的第一个跳舞班"。 |
+| l1708-r2 | 如果有人说错了，老师会怎么做？ | 再讲一次，直到听懂为止；生气；不再教了；不理他 | 再讲一次，直到听懂为止 | Đoạn văn nói "会再讲一次，直到大家都听懂为止"。 |
+| l1708-r3 | 老师会从哪里开始教？ | 从最简单的开始；从最难的开始；从中间开始；不知道从哪里开始 | 从最简单的开始 | Trong hội thoại, giáo viên nói "我会从最简单的开始教"。 |
+| l1708-r4 | 女儿从什么时候可以开始上课？ | 从下个星期一开始；今天就开始；明年才开始；不能上课 | 从下个星期一开始 | Trong hội thoại, giáo viên nói "从下个星期一开始就可以了"。 |
+| l1708-r5 | 老师对第一次学跳舞、做错动作的学生是什么态度？ | 耐心，欢迎并再讲解直到听懂；生气并批评；不理睬；要求家长道歉 | 耐心，欢迎并再讲解直到听懂 | Đoạn văn và hội thoại đều cho thấy giáo viên kiên nhẫn, sẵn lòng giảng lại. |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l1708-w1 | xin phép học nhảy | S + 可以 + động từ + 吗？ | 可以；跳舞 | Dùng đủ hai từ để hỏi xin phép con gái bạn có thể học nhảy được không. | 我女儿可以学跳舞吗？ |
+| l1708-w2 | bắt đầu học từ đơn giản nhất | 从 + tính từ nhất + 开始 + động từ | 从；开始 | Dùng đủ hai từ để nói giáo viên sẽ dạy bắt đầu từ cái đơn giản nhất. | 老师会从最简单的开始教。 |
+| l1708-w3 | nghe hiểu lời giáo viên | S + 能 / 不能 + 听 + 懂 + tân ngữ | 懂；问题 | Dùng đủ hai từ để nói bạn không hiểu câu hỏi của giáo viên. | 我听不懂老师的问题。 |
+
+### l2108 · 21/08/2026
+
+#### Đoạn văn
+
+> 哥哥今天的课很多，晚上还要帮同事准备明天的会议。我正在洗鸡蛋，准备做晚饭，看见哥哥手机响了，就帮他接了电话。是他同事打来的，说明天开会需要用到的东西还没准备好。哥哥说：别担心，我马上就去帮你准备。挂了电话，哥哥正在吃西瓜，听到这个消息，也没时间吃完，就急急忙忙地去帮同事了。我告诉他：你已经忙了一天了，别太累了。
+
+#### Hội thoại
+
+> 大卫：哥，你今天怎么这么忙？
+> 哥哥：因为同事明天要开会，东西还没准备好，我要帮助他。
+> 大卫：你不是正在吃西瓜吗？还要出去吗？
+> 哥哥：对，一会儿要出去，你能帮我把手机拿过来吗？
+> 大卫：你的手机在这儿，你别急，慢慢吃完西瓜再走也可以。
+> 哥哥：不行，同事在等我，我得赶快去帮助他。
+> 大卫：那你别忘了拿东西，我帮你检查一下。
+> 哥哥：好，谢谢你帮助我。
+> 大卫：你已经忙了一天了，别太累了。
+> 哥哥：没关系，帮助同事也是应该的。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l2108-r1 | 哥哥晚上还要做什么？ | 帮同事准备明天的会议；吃西瓜；洗鸡蛋；打电话给妈妈 | 帮同事准备明天的会议 | Đoạn văn mở đầu nói "晚上还要帮同事准备明天的会议"。 |
+| l2108-r2 | "我"看见哥哥手机响了，做了什么？ | 帮他接了电话；没有理会；告诉哥哥；把手机关了 | 帮他接了电话 | Đoạn văn nói "就帮他接了电话"。 |
+| l2108-r3 | 哥哥正在做什么的时候接到同事的消息？ | 吃西瓜；洗手机；上课；睡觉 | 吃西瓜 | Trong hội thoại, 大卫 hỏi "你不是正在吃西瓜吗"。 |
+| l2108-r4 | 大卫提醒哥哥要注意什么？ | 别忘了拿东西，别太累了；别吃太多西瓜；别打电话；别去帮同事 | 别忘了拿东西，别太累了 | Trong hội thoại, 大卫 nói hai lời nhắc đó. |
+| l2108-r5 | 哥哥为什么急着出去帮助同事？ | 因为同事明天开会要用的东西还没准备好；因为哥哥想出去玩；因为妈妈让他出去；因为他不喜欢吃西瓜 | 因为同事明天开会要用的东西还没准备好 | Đoạn văn và hội thoại đều nêu lý do này. |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l2108-w1 | giúp đỡ đồng nghiệp chuẩn bị họp | 帮 + đồng nghiệp + động từ | 帮助；同事 | Dùng đủ hai từ để nói bạn phải giúp đỡ đồng nghiệp chuẩn bị cuộc họp. | 我要帮助同事准备会议。 |
+| l2108-w2 | khuyên đừng mệt quá | 别 + tính từ + 了 | 别；课 | Dùng đủ hai từ để nói bạn hôm nay có nhiều tiết học, khuyên đừng quá mệt. | 今天课很多，你别太累了。 |
+| l2108-w3 | đang ăn dưa hấu thì có điện thoại | S + 正在 + động từ + 呢，+ sự việc khác | 正在；手机 | Dùng đủ hai từ để nói anh trai đang ăn dưa hấu thì điện thoại reo. | 哥哥正在吃西瓜呢，手机突然响了。 |
+
+### l2408 · 24/08/2026
+
+#### Đoạn văn
+
+> 我们班有一个新同学，是去年从北京来的女孩子，姓王。她说话很好听，声音比较小。她今天穿的衣服是去年买的，颜色很好看，可是可能有点儿贵。她坐在教室右边，喜欢一个人唱歌。老师说她很聪明，成绩比我们都好。我觉得她比我想象的更友好。
+
+#### Hội thoại
+
+> 谢鹏：你知道那个新同学吗？
+> 大卫：知道，她姓王，是去年从北京来的。
+> 谢鹏：她说话怎么这么好听？
+> 大卫：可能是因为她普通话说得标准吧。
+> 谢鹏：她今天穿的衣服真好看，是新买的吗？
+> 大卫：不是，是去年买的，可能有点儿贵。
+> 谢鹏：她坐在教室右边，是不是？
+> 大卫：对，她喜欢一个人唱歌，声音很好听。
+> 谢鹏：她比我们想象的还要友好。
+> 大卫：是啊，老师说她成绩比我们都好。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l2408-r1 | 新同学姓什么？ | 王；李；张；陈 | 王 | Đoạn văn nói "姓王"。 |
+| l2408-r2 | 她今天穿的衣服是什么时候买的？ | 去年；今年；上个星期；昨天 | 去年 | Đoạn văn nói "她今天穿的衣服是去年买的"。 |
+| l2408-r3 | 谢鹏觉得新同学说话怎么样？ | 好听；难听；很快；很小声听不到 | 好听 | Trong hội thoại, 谢鹏 nói "她说话怎么这么好听"。 |
+| l2408-r4 | 新同学坐在教室哪边？ | 右边；左边；前面；后面 | 右边 | Trong hội thoại, 大卫 nói "她坐在教室右边"。 |
+| l2408-r5 | 大家对新同学的印象是什么？ | 说话好听，成绩好，比想象的友好；不友好，成绩不好；说话难听；没有印象 | 说话好听，成绩好，比想象的友好 | Đoạn văn và hội thoại đều nói 新同学说话好听、成绩好、比想象的友好。 |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l2408-w1 | quần áo mua năm ngoái | S + 穿的 + danh từ + 是 + 去年 + 买的 | 去年；穿 | Dùng đủ hai từ để nói bộ quần áo bạn đang mặc là mua năm ngoái. | 我穿的衣服是去年买的。 |
+| l2408-w2 | hỏi họ tên lịch sự | 您贵姓？我姓 + họ | 姓；可能 | Dùng đủ hai từ để hỏi lịch sự họ của một người, và đoán có thể họ Vương. | 您贵姓？您可能姓王吧？ |
+| l2408-w3 | so sánh chiều cao bạn nam | A + 比 + B + tính từ + 一点儿/得多 | 比；男 | Dùng đủ hai từ để nói bạn nam đó cao hơn bạn. | 那个男同学比我高。 |
+
+### l2608 · 26/08/2026
+
+#### Đoạn văn
+
+> 我家有两个孩子，我和弟弟。弟弟比我小两岁，可是他做事做得比我认真。去年冬天北京下了很大的雪，最低的时候零下十几度，我们俩穿得很多还是觉得冷。弟弟的妻子也是北京人，她说话说得很好听。我们家离公司不算近，弟弟每天都比我早起一个小时去挤公交车。他最近工作很忙，可是回家以后还常常帮妻子做饭，做得比我好多了。
+
+#### Hội thoại
+
+> 谢鹏：你弟弟最近怎么样？工作忙不忙？
+> 大卫：很忙，可是他做饭做得比我好多了。
+> 谢鹏：他妻子呢？也很忙吗？
+> 大卫：对，他们俩最近都很忙，几乎每天都很晚才进家门。
+> 谢鹏：昨天下雪了，你们那儿冷不冷？
+> 大卫：冷极了，零下十几度，我弟弟穿得比我还多。
+> 谢鹏：他们家离公司近不近？
+> 大卫：不太近，所以弟弟每天都比我早起一个小时。
+> 谢鹏：那他说话是不是也说得比你好？
+> 大卫：哈哈，那倒是，他普通话说得比我标准多了。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l2608-r1 | 弟弟做事做得怎么样？ | 比"我"认真；不如"我"认真；跟"我"一样；不知道 | 比"我"认真 | Đoạn văn nói "他做事做得比我认真"。 |
+| l2608-r2 | 去年冬天北京最低多少度？ | 零下十几度；零上十几度；零度；三十几度 | 零下十几度 | Đoạn văn nói "最低的时候零下十几度"。 |
+| l2608-r3 | 弟弟和妻子最近怎么样？ | 都很忙；都很闲；吵架了；生病了 | 都很忙 | Trong hội thoại, 大卫 nói "他们俩最近都很忙"。 |
+| l2608-r4 | 弟弟每天比大卫早起多久？ | 一个小时；半个小时；两个小时；十分钟 | 一个小时 | Trong hội thoại, 大卫 nói "弟弟每天都比我早起一个小时"。 |
+| l2608-r5 | 大卫觉得弟弟哪些方面比自己好？ | 做饭、说话都比自己好；什么都不如自己；只有做饭比较好；只有说话比较好 | 做饭、说话都比自己好 | Đoạn văn và hội thoại đều nói 弟弟做饭做得好，说话（普通话）也说得比大卫好。 |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l2608-w1 | tuyết rơi âm độ | S + 下 + 雪 + 了，零下 + số + 度 | 雪；度 | Dùng đủ hai từ để nói hôm qua có tuyết, nhiệt độ âm mười mấy độ. | 昨天下雪了，零下十几度。 |
+| l2608-w2 | vợ nấu ăn ngon hơn | A + động từ + 得 + 比 + B + tính từ | 妻子；得 | Dùng đủ hai từ để nói vợ anh ấy nấu ăn ngon hơn anh ấy nhiều. | 他妻子做饭做得比他好多了。 |
+| l2608-w3 | dậy sớm hơn vì nhà không gần | 因为 + A + 家 + 离 + công ty + 不近，所以 + A + 比 + B + 早起 | 近；弟弟 | Dùng đủ hai từ để nói vì nhà em trai không gần công ty nên phải dậy sớm hơn. | 因为弟弟家离公司不近，所以他比我早起。 |

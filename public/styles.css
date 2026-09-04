@@ -564,10 +564,31 @@ p {
   line-height: 1.5;
 }
 
+.vocab-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.vocab-toggles label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
 .vocab-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
+}
+
+.vocab-grid.hide-pinyin .pinyin,
+.vocab-grid.hide-meaning .meaning {
+  display: none;
 }
 
 .vocab-item {
@@ -1524,6 +1545,38 @@ p {
 .cluster {
   padding: 28px 0;
   border-bottom: 1px solid var(--line);
+}
+
+.notes-page {
+  display: grid;
+  gap: 14px;
+}
+
+.notes-hint {
+  max-width: 720px;
+  overflow-wrap: anywhere;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.notes-textarea {
+  display: block;
+  width: 100%;
+  min-height: 60vh;
+  padding: 16px;
+  resize: vertical;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.notes-textarea:focus {
+  border-color: var(--green);
+  outline: 2px solid rgba(23, 107, 85, 0.14);
 }
 
 .cluster-heading {

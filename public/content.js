@@ -5927,6 +5927,733 @@ window.HSK_CONTENT = {
           ]
         ]
       }
+    },
+    {
+      "id": "l0308",
+      "date": "03/08/2026",
+      "shortDate": "03/08",
+      "title": "Tặng quà, thời điểm và việc đã hoàn thành",
+      "focus": "是...的（谁 / 为了什么） / 给 / 的时候 / 帮 / 已经",
+      "pages": "trang 92-100",
+      "page": 92,
+      "notes": [
+        "是...的 có thể thêm 谁 hoặc 为了什么 để hỏi/nêu người thực hiện hoặc mục đích của hành động đã xảy ra, ngoài thời gian, địa điểm, cách thức đã học trước đó.",
+        "给 đứng sau động từ như 送 / 买 để chỉ người nhận; cũng có thể đứng trước người nhận rồi thêm động từ: 给 + người + động từ.",
+        "Thời điểm hoặc số tuổi + 的时候 nói lúc một sự việc khác xảy ra, thường đi kèm một mệnh đề khác diễn tả sự việc đồng thời.",
+        "帮 + người + （động từ） nói giúp ai làm việc gì; có thể lược động từ khi ngữ cảnh đã rõ.",
+        "已经 đứng trước tính từ, động từ, số lượng hoặc danh từ và thường kết thúc câu bằng 了 để nói một việc đã xảy ra hoặc đã đạt đến một mức độ nhất định.",
+        "两 dùng trước lượng từ để đếm số lượng là hai, khác với 二 dùng khi đọc số đơn lẻ như số điện thoại."
+      ],
+      "vocab": [
+        ["生日", "shēngrì", "sinh nhật"],
+        ["快乐", "kuàilè", "vui vẻ"],
+        ["给", "gěi", "cho / tặng / giao"],
+        ["晚上", "wǎnshang", "buổi tối"],
+        ["问", "wèn", "hỏi"],
+        ["非常", "fēicháng", "rất / vô cùng"],
+        ["已经", "yǐjīng", "đã / rồi"],
+        ["长", "cháng", "dài"],
+        ["两", "liǎng", "hai"],
+        ["帮", "bāng", "giúp / giúp đỡ"],
+        ["介绍", "jièshào", "giới thiệu"],
+        ["接", "jiē", "nhận / đón / tiếp nhận"],
+        ["开始", "kāishǐ", "bắt đầu"]
+      ],
+      "patterns": [
+        ["S + 是 + 谁 + V + 的？", "Hỏi ai là người thực hiện hành động đã xảy ra, mở rộng thêm yếu tố tác nhân cho cấu trúc 是...的 đã học."],
+        ["V（送 / 给 / 买...）+ tân ngữ + 给 + người nhận", "Nói tặng, cho hoặc gửi một vật gì đó cho ai; 给 đứng sau động từ để chỉ người nhận."],
+        ["Thời điểm / số tuổi + 的时候", "Nêu thời điểm khi một sự việc khác xảy ra."],
+        ["帮 + người + （động từ）", "Nói giúp ai làm một việc gì."],
+        ["已经 + tính từ / động từ / số lượng + 了", "Nói một việc đã xảy ra hoặc đã đạt đến một mức độ nhất định."]
+      ],
+      "examples": [
+        ["今天是我女儿的生日，祝她生日快乐！", "Hôm nay là sinh nhật con gái tôi, chúc con sinh nhật vui vẻ!"],
+        ["这本书是谁买的？", "Quyển sách này là ai mua?"],
+        ["我想送一台电脑给你。", "Tôi muốn tặng bạn một chiếc máy tính."],
+        ["他八岁的时候开始踢足球。", "Năm anh ấy tám tuổi, anh ấy bắt đầu chơi bóng đá."],
+        ["你能帮我一下吗？", "Bạn có thể giúp tôi một chút được không?"],
+        ["我学汉语已经三个月了。", "Tôi học tiếng Trung đã ba tháng rồi."],
+        ["晚上我给妈妈打电话，跟她介绍我的新同学。", "Buổi tối tôi gọi điện cho mẹ, giới thiệu với mẹ bạn học mới của tôi."],
+        ["我想问你一个问题，你今天为什么非常高兴？", "Tôi muốn hỏi bạn một câu, hôm nay sao bạn vui vẻ đến thế?"],
+        ["电话是我接的，是老师打来的。", "Điện thoại là tôi nhận, là giáo viên gọi đến."],
+        ["这条路很长。", "Con đường này rất dài."],
+        ["我有两个哥哥。", "Tôi có hai anh trai."]
+      ],
+      "drills": [
+        ["Chúc mừng sinh nhật bạn!", "祝你生日快乐！"],
+        ["Bạn có thể giúp tôi một chút được không?", "你能帮我一下吗？"],
+        ["Quyển sách này là ai mua?", "这本书是谁买的？"],
+        ["Tôi học tiếng Trung đã ba tháng rồi.", "我学汉语已经三个月了。"]
+      ],
+      "quiz": [
+        ["生日快乐 nghĩa là gì?", ["chúc mừng sinh nhật", "tạm biệt", "xin lỗi", "cảm ơn"], 0, "生日快乐 nghĩa là chúc mừng sinh nhật."],
+        ["这本书是谁买的？ dùng để hỏi điều gì?", ["hỏi ai là người mua", "hỏi giá tiền", "hỏi màu sắc", "hỏi thời gian"], 0, "谁 trong 是...的 hỏi tác nhân của hành động."],
+        ["已经...了 diễn tả điều gì?", ["một việc đã xảy ra hoặc đạt mức nào đó", "một việc sắp xảy ra", "một việc không xảy ra", "một câu hỏi"], 0, "已经 nói một việc đã hoàn thành hoặc đạt đến mức độ nào đó."],
+        ["帮我一下 nghĩa là gì?", ["giúp tôi một chút", "hỏi tôi một chút", "cho tôi một chút", "đợi tôi một chút"], 0, "帮 + người + （động từ）nghĩa là giúp ai làm gì."],
+        ["V + 给 + người nhận dùng để làm gì?", ["nói vật được cho / tặng cho ai", "nói vật ở đâu", "nói thời gian xảy ra", "hỏi nguyên nhân"], 0, "给 đứng sau động từ để chỉ người nhận."]
+      ],
+      "practice": {
+        "cloze": [
+          ["他八岁的____开始踢足球。", ["时候", "已经", "非常", "介绍"], 0, "Thời điểm / số tuổi + 的时候 nói lúc một sự việc xảy ra."],
+          ["我想送一台电脑____你。", ["给", "接", "问", "长"], 0, "给 đứng sau động từ để chỉ người nhận."]
+        ],
+        "orders": [
+          [["我", "学汉语", "已经", "三个月", "了"], "我学汉语已经三个月了。"],
+          [["这本书", "是", "谁", "买", "的"], "这本书是谁买的？"]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "昨天是我女儿的生日，我送给她一台新电脑，她非常高兴。晚上，我给她打电话，问她生日过得怎么样。她说已经和同学们一起吃了蛋糕，也接到了很多祝福。",
+          [
+            ["谁的生日到了？", ["女儿的", "儿子的", "妈妈的", "老师的"], 0, "Câu đầu nói \"我女儿的生日\"."],
+            ["\"我\"送给女儿什么？", ["电脑", "手表", "衣服", "自行车"], 0, "Đoạn văn nói \"我送给她一台新电脑\"。"],
+            ["女儿和同学们一起做了什么？", ["吃蛋糕", "打篮球", "去旅游", "看电影"], 0, "Đoạn văn nói \"已经和同学们一起吃了蛋糕\"。"]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "l0508",
+      "date": "05/08/2026",
+      "shortDate": "05/08",
+      "title": "Nhận xét, phàn nàn nhẹ và ảnh hưởng sức khỏe",
+      "focus": "还 + tính từ / 有点儿 / 就 / 就是 / V不V / 对...好",
+      "pages": "trang 100-111",
+      "page": 100,
+      "notes": [
+        "（S +）还 + tính từ diễn tả một điều gì đó ở mức tạm được, có thể chấp nhận được, thường dùng để trả lời nhẹ nhàng khi được hỏi thăm.",
+        "有（一）点儿 đứng trước tính từ hoặc động từ để thể hiện cảm xúc tiêu cực hoặc lời phàn nàn nhẹ; khác với 一点儿 đứng sau động từ để chỉ một số lượng nhỏ.",
+        "就（+ động từ）...thường đi kèm 吧 ở cuối câu để nêu kết luận hoặc giải pháp dựa trên điều vừa được nhắc đến.",
+        "S + điều tích cực，就是 + điều bất lợi dùng để chuyển ý, nêu thêm một điểm chưa hoàn hảo ngay sau khi đã khen.",
+        "...V / tính từ + 不 + V / tính từ...？ là một cách hỏi khác tương đương với câu hỏi dùng 吗.",
+        "对 + tân ngữ + tính từ nói mối quan hệ ảnh hưởng giữa một việc và sức khỏe, công việc hoặc người khác."
+      ],
+      "vocab": [
+        ["外面", "wàimiàn", "bên ngoài"],
+        ["里面", "lǐmiàn", "bên trong"],
+        ["准备", "zhǔnbèi", "chuẩn bị"],
+        ["就", "jiù", "thì / vậy thì"],
+        ["鱼", "yú", "cá"],
+        ["件", "jiàn", "chiếc / bộ / kiện (lượng từ)"],
+        ["还", "hái", "còn / vẫn"],
+        ["可以", "kěyǐ", "có thể / được"],
+        ["不错", "búcuò", "khá tốt / ổn"],
+        ["考试", "kǎoshì", "thi / kỳ thi"],
+        ["意思", "yìsi", "nghĩa / ý nghĩa"],
+        ["咖啡", "kāfēi", "cà phê"],
+        ["对", "duì", "đối với / với"],
+        ["以后", "yǐhòu", "sau này / về sau"]
+      ],
+      "patterns": [
+        ["（S +）还 + tính từ（可以 / 不错 / 好...）", "Nói một điều gì đó ở mức tạm được, có thể chấp nhận được, thường dùng để đáp lại câu hỏi thăm dò."],
+        ["有（一）点儿 + tính từ / động từ", "Diễn tả cảm xúc tiêu cực hoặc lời phàn nàn nhẹ của người nói."],
+        ["就（+ động từ）...吧", "Nêu kết luận hoặc giải pháp dựa trên điều vừa được nhắc đến, thường có 吧 ở cuối câu."],
+        ["S + điều tích cực，就是 + điều bất lợi", "Chuyển ý, nêu thêm một điểm chưa hoàn hảo ngay sau khi đã khen."],
+        ["...V / tính từ + 不 + V / tính từ...？", "Dạng câu hỏi lựa chọn chính phản, tương đương câu hỏi dùng 吗."],
+        ["对 + tân ngữ + tính từ", "Nói mối quan hệ ảnh hưởng giữa một việc và sức khỏe hoặc người khác."]
+      ],
+      "examples": [
+        ["我身体还好，谢谢你问。", "Sức khỏe tôi vẫn ổn, cảm ơn bạn đã hỏi thăm."],
+        ["今天天气有点儿冷，我们别去外面运动了。", "Hôm nay trời hơi lạnh, chúng ta đừng ra ngoài tập thể dục nữa."],
+        ["妈妈把鱼放在里面的桌子上。", "Mẹ để con cá trên cái bàn ở bên trong."],
+        ["他正在准备下个星期的考试。", "Anh ấy đang chuẩn bị cho kỳ thi tuần sau."],
+        ["这件衣服的颜色还不错。", "Màu sắc của bộ quần áo này khá ổn."],
+        ["你这句话是什么意思？", "Câu này của bạn nghĩa là gì?"],
+        ["我每天早上都喝一杯咖啡。", "Mỗi sáng tôi đều uống một cốc cà phê."],
+        ["多喝水对身体好，你就多喝点儿吧。", "Uống nhiều nước thì tốt cho cơ thể, bạn cứ uống thêm một chút đi."],
+        ["以后我想去中国工作。", "Sau này tôi muốn đến Trung Quốc làm việc."],
+        ["这个杯子还可以，就是有点儿小。", "Cái cốc này cũng tạm được, chỉ có điều hơi nhỏ."],
+        ["就做你爱吃的鱼吧。", "Vậy thì làm món cá mà bạn thích ăn đi."],
+        ["这件衣服小不小？", "Bộ quần áo này có nhỏ không?"]
+      ],
+      "drills": [
+        ["Sức khỏe tôi cũng ổn, cảm ơn bạn.", "我身体还好，谢谢你。"],
+        ["Hôm nay trời hơi lạnh.", "今天天气有点儿冷。"],
+        ["Vậy thì làm món cá mà bạn thích ăn đi.", "就做你爱吃的鱼吧。"],
+        ["Bộ quần áo này có nhỏ không?", "这件衣服小不小？"]
+      ],
+      "quiz": [
+        ["还可以 nghĩa là gì trong câu trả lời thăm dò?", ["tạm được, có thể chấp nhận", "rất tốt", "rất tệ", "không có gì"], 0, "还 + tính từ nói một điều ở mức tạm được."],
+        ["有点儿 khác 一点儿 ở điểm nào?", ["有点儿 đứng trước tính từ mang nghĩa tiêu cực, 一点儿 đứng sau động từ chỉ số lượng nhỏ", "cả hai giống nhau hoàn toàn", "一点儿 chỉ dùng cho số lớn", "有点儿 chỉ dùng cho danh từ"], 0, "Hai cách dùng khác nhau về vị trí và sắc thái."],
+        ["就做你爱吃的鱼吧。 câu này dùng để làm gì?", ["đưa ra giải pháp / kết luận", "hỏi ý kiến", "phủ định", "cảm thán"], 0, "就 + V + 吧 nêu giải pháp dựa trên điều vừa nhắc."],
+        ["颜色还可以，就是有点儿大。 ý người nói là gì?", ["màu tạm ổn nhưng hơi to", "màu rất đẹp và vừa", "màu xấu và to", "màu tạm ổn và vừa"], 0, "就是 chuyển ý, nêu điểm bất lợi sau khi đã khen."],
+        ["这件衣服小不小？ tương đương câu nào?", ["这件衣服小吗？", "这件衣服大吗？", "这件衣服贵吗？", "这件衣服新吗？"], 0, "V/tính từ + 不 + V/tính từ tương đương câu hỏi dùng 吗."]
+      ],
+      "practice": {
+        "cloze": [
+          ["今天天气____冷，我们别去外面了。", ["有点儿", "一点儿", "已经", "还"], 0, "有点儿 + tính từ diễn tả cảm giác tiêu cực."],
+          ["颜色还可以，____有点儿大。", ["就是", "还是", "可以", "意思"], 0, "就是 dùng để chuyển ý, nêu điểm bất lợi."]
+        ],
+        "orders": [
+          [["我", "身体", "还", "好"], "我身体还好。"],
+          [["这件", "衣服", "小", "不", "小"], "这件衣服小不小？"]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "我下个星期有汉语考试，这几天我天天在家准备。今天外面天气不错，可是我没有时间出去，只能在里面看书。晚上我想喝一杯咖啡，可是妈妈说喝太多咖啡对身体不好。",
+          [
+            ["\"我\"下个星期有什么？", ["汉语考试", "生日会", "篮球比赛", "旅游"], 0, "Câu đầu nói \"我下个星期有汉语考试\"。"],
+            ["\"我\"今天为什么没有出去？", ["没有时间", "天气不好", "身体不好", "咖啡喝多了"], 0, "Đoạn văn nói \"我没有时间出去\"。"],
+            ["妈妈觉得喝太多咖啡怎么样？", ["对身体不好", "对身体很好", "没有关系", "很好喝"], 0, "Đoạn văn nói \"妈妈说喝太多咖啡对身体不好\"。"]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "l0708",
+      "date": "07/08/2026",
+      "shortDate": "07/08",
+      "title": "Ẩm thực, thể thao và nguyên nhân kết quả",
+      "focus": "AA都 / 来 + tân ngữ / 还 + V / 怎么 + V / 因为...所以...",
+      "pages": "trang 112-120",
+      "page": 112,
+      "notes": [
+        "S + AA（lặp đôi danh từ / lượng từ đơn âm）+ 都 nói từng cái / từng người trong một nhóm đều có chung một đặc điểm, ví dụ 天天、个个、件件.",
+        "来 + tân ngữ có thể thay thế một động từ cụ thể tùy ngữ cảnh, thường dùng khi gọi món hoặc rủ chơi một trận đấu.",
+        "还 + động từ / tính từ nói thêm một điều nữa ngoài điều đã nhắc, nghĩa là cũng / còn / thêm nữa.",
+        "怎么 + động từ / tính từ dùng để hỏi nguyên nhân với thái độ ngạc nhiên, hoặc hỏi cách thực hiện một việc.",
+        "因为 + mệnh đề 1，所以 + mệnh đề 2 nêu nguyên nhân và kết quả của một sự việc."
+      ],
+      "vocab": [
+        ["门", "mén", "cửa / cổng"],
+        ["外", "wài", "ngoài / bên ngoài"],
+        ["自行车", "zìxíngchē", "xe đạp"],
+        ["羊肉", "yángròu", "thịt cừu / thịt dê"],
+        ["好吃", "hǎochī", "ngon"],
+        ["面条", "miàntiáo", "mì / mì sợi"],
+        ["打篮球", "dǎ lánqiú", "chơi bóng rổ"],
+        ["因为", "yīnwèi", "vì / bởi vì"],
+        ["所以", "suǒyǐ", "cho nên / vì thế"],
+        ["游泳", "yóuyǒng", "bơi"],
+        ["经常", "jīngcháng", "thường xuyên"],
+        ["公斤", "gōngjīn", "cân / kilôgam"],
+        ["看", "kàn", "xem / thăm"],
+        ["饺子", "jiǎozi", "sủi cảo / bánh chẻo"]
+      ],
+      "patterns": [
+        ["S + AA（lặp đôi danh từ / lượng từ đơn âm）+ 都", "Nói từng người hoặc từng cái trong một nhóm đều có chung một đặc điểm."],
+        ["来 + tân ngữ", "来 thay thế cho một động từ cụ thể tùy ngữ cảnh, thường dùng khi gọi món hoặc rủ chơi một trận đấu."],
+        ["还 + động từ / tính từ", "Nói thêm một điều nữa ngoài điều đã nhắc, nghĩa là cũng / còn / thêm nữa."],
+        ["怎么 + động từ / tính từ？", "Hỏi nguyên nhân một việc với thái độ ngạc nhiên, hoặc hỏi cách thực hiện."],
+        ["因为 + mệnh đề 1，所以 + mệnh đề 2", "Nêu nguyên nhân và kết quả của một sự việc."]
+      ],
+      "examples": [
+        ["我在门外看见他的自行车了。", "Tôi nhìn thấy xe đạp của anh ấy ở ngoài cửa."],
+        ["羊肉很好吃，面条也很好吃。", "Thịt cừu rất ngon, mì cũng rất ngon."],
+        ["我们班的同学个个都喜欢打篮球。", "Từng bạn học trong lớp chúng tôi đều thích chơi bóng rổ."],
+        ["来一点儿面条吧。", "Cho một ít mì đi."],
+        ["我想吃羊肉，还想吃面条。", "Tôi muốn ăn thịt cừu, còn muốn ăn mì nữa."],
+        ["今天怎么这么冷？", "Sao hôm nay lạnh thế?"],
+        ["因为他天天跑步，所以身体很好。", "Vì anh ấy ngày nào cũng chạy bộ nên sức khỏe rất tốt."],
+        ["他经常一个人去游泳。", "Anh ấy thường một mình đi bơi."],
+        ["妈妈包的饺子非常好吃。", "Sủi cảo mẹ gói rất ngon."],
+        ["这条鱼大概有两公斤重。", "Con cá này nặng khoảng hai cân."]
+      ],
+      "drills": [
+        ["Từng bạn học trong lớp chúng tôi đều thích chơi bóng rổ.", "我们班的同学个个都喜欢打篮球。"],
+        ["Cho một ít mì đi.", "来一点儿面条吧。"],
+        ["Sao hôm nay lạnh thế?", "今天怎么这么冷？"],
+        ["Vì anh ấy ngày nào cũng chạy bộ nên sức khỏe rất tốt.", "因为他天天跑步，所以身体很好。"]
+      ],
+      "quiz": [
+        ["个个都 nghĩa là gì?", ["từng người / từng cái đều", "chỉ một người", "không ai", "có vài người"], 0, "个个都 nói mỗi cái/mỗi người trong nhóm đều như vậy."],
+        ["来一点儿面条吧。 trong câu này 来 có vai trò gì?", ["thay cho một động từ cụ thể (gọi món)", "nghĩa là đến", "nghĩa là đi", "phủ định"], 0, "来 + tân ngữ thay thế cho động từ cụ thể tùy ngữ cảnh."],
+        ["我想吃羊肉，还想吃面条。 trong câu 还 nghĩa là gì?", ["cũng / còn nữa", "vẫn chưa", "đã rồi", "hơi"], 0, "还 nói thêm một điều nữa ngoài điều đã nhắc."],
+        ["今天怎么这么冷？ thể hiện thái độ gì?", ["ngạc nhiên, hỏi nguyên nhân", "tức giận", "vui vẻ", "buồn bã"], 0, "怎么 hỏi nguyên nhân với thái độ ngạc nhiên."],
+        ["因为他天天跑步，所以身体很好。 đâu là kết quả?", ["身体很好", "他天天跑步", "他喜欢运动", "他很累"], 0, "所以 dẫn vào mệnh đề kết quả."]
+      ],
+      "practice": {
+        "cloze": [
+          ["这个星期我天天____吃羊肉。", ["都", "还", "就", "对"], 0, "天天 + 都 nói mỗi ngày đều."],
+          ["____他天天跑步，所以身体很好。", ["因为", "所以", "还", "怎么"], 0, "因为...所以... nêu nguyên nhân kết quả."]
+        ],
+        "orders": [
+          [["我们班", "的", "同学", "个个", "都", "喜欢", "打篮球"], "我们班的同学个个都喜欢打篮球。"],
+          [["因为", "他", "天天", "跑步", "所以", "身体", "很好"], "因为他天天跑步，所以身体很好。"]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "妈妈经常包饺子给我们吃，我们一家人个个都爱吃羊肉和面条。因为爸爸这个月胖了两公斤，所以他每天都去游泳。",
+          [
+            ["妈妈经常做什么给大家吃？", ["包饺子", "做面条", "买羊肉", "做蛋糕"], 0, "Câu đầu nói \"妈妈经常包饺子给我们吃\"。"],
+            ["这家人爱吃什么？", ["羊肉和面条", "牛奶和面包", "水果和蛋糕", "咖啡和茶"], 0, "Đoạn văn nói \"个个都爱吃羊肉和面条\"。"],
+            ["爸爸为什么每天都去游泳？", ["因为他胖了两公斤", "因为他喜欢游泳", "因为医生让他去", "因为天气很热"], 0, "Đoạn văn nói \"因为爸爸这个月胖了两公斤\"。"]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "l1208",
+      "date": "12/08/2026",
+      "shortDate": "12/08",
+      "title": "Đi lại, khoảng cách và ôn tập",
+      "focus": "还 / 还没 / 好好 + V / thời điểm + 就 + V / A离B / câu trần thuật + 呢",
+      "pages": "trang 98-105",
+      "page": 98,
+      "notes": [
+        "还 / 还没 + V/tính từ diễn tả sự tiếp diễn của một hành động hoặc trạng thái: khẳng định dùng 还, phủ định dùng 还没.",
+        "好好 + động từ nói việc gì được thực hiện một cách nghiêm túc, tập trung.",
+        "S + thời điểm + 就 + V(+了) nhấn mạnh rằng người nói nghĩ việc gì xảy ra sớm hơn dự kiến, hoặc diễn ra nhanh chóng thuận lợi.",
+        "A + 离 + B + gần/xa/có số... diễn tả khoảng cách đến một địa điểm, thời điểm hoặc mục đích.",
+        "Câu trần thuật + 呢 đặt cuối câu để xác nhận sự thật, thuyết phục người nghe với sắc thái cường điệu."
+      ],
+      "vocab": [
+        ["教室", "jiàoshì", "lớp học / phòng học"],
+        ["复习", "fùxí", "ôn tập"],
+        ["预习", "yùxí", "xem trước bài / chuẩn bị bài"],
+        ["机场", "jīchǎng", "sân bay"],
+        ["路", "lù", "đường / đường đi"],
+        ["到", "dào", "đến / tới"],
+        ["离", "lí", "cách"],
+        ["走", "zǒu", "đi / đi bộ"],
+        ["公司", "gōngsī", "công ty"],
+        ["远", "yuǎn", "xa"],
+        ["公共汽车", "gōnggòngqìchē", "xe buýt"],
+        ["小时", "xiǎoshí", "giờ / tiếng đồng hồ"],
+        ["慢", "màn", "chậm"],
+        ["快", "kuài", "nhanh"],
+        ["过", "guò", "qua / đã từng (trải nghiệm)"]
+      ],
+      "patterns": [
+        ["还 / 还没 + động từ / tính từ", "Nói một hành động hoặc trạng thái vẫn tiếp diễn (khẳng định dùng 还, phủ định dùng 还没)."],
+        ["好好 + động từ", "Diễn tả việc gì được thực hiện một cách nghiêm túc, tập trung."],
+        ["S + thời điểm + 就 + động từ（+ 了）", "Nhấn mạnh rằng người nói nghĩ việc gì xảy ra sớm hơn dự kiến."],
+        ["A + 离 + B + 近 / 远 / 有 + số...", "Nói khoảng cách đến một địa điểm, thời điểm hoặc mục đích."],
+        ["Câu trần thuật + 呢", "Đặt cuối câu trần thuật để xác nhận sự thật với sắc thái cường điệu, thuyết phục người nghe."]
+      ],
+      "examples": [
+        ["十年没见了，她还那么漂亮。", "Mười năm không gặp rồi, chị ấy vẫn xinh đẹp như vậy."],
+        ["晚上十点了，他还没吃饭。", "Buổi tối mười giờ rồi mà anh ấy vẫn chưa ăn cơm."],
+        ["明天有考试，他说今天要好好复习。", "Mai có kỳ thi, anh ấy nói hôm nay phải ôn tập thật nghiêm túc."],
+        ["上课以前，我会预习新课文。", "Trước khi vào lớp, tôi sẽ xem trước bài học mới."],
+        ["我们的教室离机场不远。", "Lớp học của chúng tôi cách sân bay không xa."],
+        ["学校离机场有20多公里。", "Trường cách sân bay hơn 20 km."],
+        ["去公司的路很远，我每天要坐公共汽车。", "Đường đến công ty rất xa, mỗi ngày tôi phải đi xe buýt."],
+        ["他早上五点就起床了。", "Sáng anh ấy năm giờ đã dậy rồi."],
+        ["我二十分钟就到机场。", "Tôi chỉ hai mươi phút là đến sân bay."],
+        ["医院离我们这儿还远呢。", "Bệnh viện cách chỗ chúng ta còn xa lắm đấy."],
+        ["他走得很慢，我走得很快。", "Anh ấy đi rất chậm, tôi đi rất nhanh."],
+        ["从家到公司要一个小时。", "Từ nhà đến công ty mất một tiếng."],
+        ["我去过那个机场。", "Tôi đã từng đến sân bay đó."]
+      ],
+      "drills": [
+        ["Chị ấy vẫn xinh đẹp như vậy.", "她还那么漂亮。"],
+        ["Hôm nay phải ôn tập thật nghiêm túc.", "今天要好好复习。"],
+        ["Sáng anh ấy năm giờ đã dậy rồi.", "他早上五点就起床了。"],
+        ["Trường cách sân bay hơn 20 km.", "学校离机场有20多公里。"]
+      ],
+      "quiz": [
+        ["还没 dùng để làm gì?", ["phủ định của 还, nói việc chưa xảy ra", "khẳng định việc đã xong", "hỏi thời gian", "chỉ nơi chốn"], 0, "还没 + V nói việc chưa xảy ra dù đã đến lúc."],
+        ["好好 + V diễn tả điều gì?", ["làm việc gì nghiêm túc, tập trung", "làm việc gì qua loa", "từ chối làm", "đã làm xong"], 0, "好好 nhấn mạnh thái độ nghiêm túc, tập trung."],
+        ["他早上五点就起床了。 câu này nhấn mạnh điều gì?", ["việc xảy ra sớm hơn dự kiến", "việc xảy ra muộn", "việc chưa xảy ra", "một câu hỏi"], 0, "S+thời điểm+就+V nhấn mạnh việc xảy ra sớm."],
+        ["A离B近 nghĩa là gì?", ["A cách B gần", "A đi đến B", "A giống B", "A rời khỏi B"], 0, "离 diễn tả khoảng cách giữa hai nơi."],
+        ["医院离我们这儿还远呢。 chữ 呢 ở cuối câu có tác dụng gì?", ["xác nhận sự thật, nhấn mạnh với sắc thái cường điệu", "hỏi câu hỏi", "phủ định", "ra lệnh"], 0, "呢 cuối câu trần thuật xác nhận và thuyết phục người nghe."]
+      ],
+      "practice": {
+        "cloze": [
+          ["晚上十点了，他____吃饭。", ["还没", "已经", "就", "好好"], 0, "还没 + V nói việc chưa xảy ra dù đã đến lúc."],
+          ["学校____机场有20多公里。", ["离", "到", "过", "走"], 0, "A离B+khoảng cách nói khoảng cách giữa hai nơi."]
+        ],
+        "orders": [
+          [["他", "早上", "五点", "就", "起床", "了"], "他早上五点就起床了。"],
+          [["学校", "离", "机场", "有", "20多", "公里"], "学校离机场有20多公里。"]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "我们的教室离机场不远，可是去公司的路很远。我每天坐公共汽车去公司，要一个多小时。今天早上我五点就起床了，好好准备了今天的考试内容。",
+          [
+            ["我们的教室离哪儿不远？", ["机场", "公司", "医院", "学校"], 0, "Câu đầu nói \"我们的教室离机场不远\"。"],
+            ["\"我\"每天怎么去公司？", ["坐公共汽车", "走路", "坐飞机", "骑自行车"], 0, "Đoạn văn nói \"我每天坐公共汽车去公司\"。"],
+            ["\"我\"今天早上几点起床？", ["五点", "六点", "七点", "八点"], 0, "Đoạn văn nói \"我五点就起床了\"。"]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "l1408",
+      "date": "14/08/2026",
+      "shortDate": "14/08",
+      "title": "Nhờ vả, dặn dò và màu sắc",
+      "focus": "...，好吗？ / động từ láy / 再 + V / 兼语句",
+      "pages": "trang 106-109",
+      "page": 106,
+      "notes": [
+        "...，好吗？ đề xuất một hoạt động và hỏi ý kiến người nghe có muốn tham gia không.",
+        "Động từ láy (AA / A一A / ABAB) diễn tả hành động diễn ra trong thời gian ngắn, số lượng ít, mức độ nhẹ hoặc thử làm gì đó, sắc thái nhẹ nhàng, thoải mái, thường dùng trong khẩu ngữ.",
+        "S + 再 + V(+O) diễn tả sự lặp lại hoặc tiếp diễn của một hành động, hoặc một hành động sẽ xảy ra trong một trường hợp nhất định.",
+        "Câu kiêm ngữ: S + 让/叫/请 + tân ngữ + động từ 2 — tân ngữ của động từ 1 đồng thời là chủ ngữ của động từ 2."
+      ],
+      "vocab": [
+        ["让", "ràng", "để cho / bảo / khiến"],
+        ["再", "zài", "lại / thêm lần nữa"],
+        ["告诉", "gàosù", "nói cho biết / bảo"],
+        ["等", "děng", "đợi / chờ"],
+        ["找", "zhǎo", "tìm"],
+        ["事情", "shìqing", "việc / chuyện"],
+        ["服务员", "fúwùyuán", "nhân viên phục vụ"],
+        ["白", "bái", "trắng"],
+        ["白色", "báisè", "màu trắng"],
+        ["黑", "hēi", "đen"],
+        ["黑色", "hēisè", "màu đen"],
+        ["贵", "guì", "đắt"],
+        ["打开", "dǎkāi", "mở"]
+      ],
+      "patterns": [
+        ["...，好吗？", "Đề xuất một hoạt động và hỏi ý kiến người nghe có muốn tham gia không."],
+        ["Động từ láy（AA / A一A / ABAB）", "Diễn tả hành động diễn ra trong thời gian ngắn, mức độ nhẹ hoặc thử làm gì đó, sắc thái nhẹ nhàng."],
+        ["S + 再 + động từ（+ tân ngữ）", "再 diễn tả sự lặp lại hoặc tiếp diễn của một hành động, hoặc một hành động sẽ xảy ra trong một trường hợp nhất định."],
+        ["Câu kiêm ngữ: S + 让 / 叫 / 请 + tân ngữ + động từ 2", "Tân ngữ của động từ 1 đồng thời là chủ ngữ của động từ 2."]
+      ],
+      "examples": [
+        ["我们一起去吃饭，好吗？", "Chúng ta cùng đi ăn cơm nhé, được không?"],
+        ["你准备准备，她一个小时以后就到。", "Bạn chuẩn bị một chút đi, cô ấy một tiếng nữa sẽ đến."],
+        ["你再看看这本书吧。", "Bạn xem lại quyển sách này thêm lần nữa đi."],
+        ["公司让我明天去北京。", "Công ty bảo tôi ngày mai đi Bắc Kinh."],
+        ["服务员，请再给我们一杯水。", "Phục vụ ơi, cho chúng tôi thêm một cốc nước nữa."],
+        ["请你告诉我，机场怎么走？", "Xin hãy nói cho tôi biết, đến sân bay đi thế nào?"],
+        ["我有点儿事情，要先走了，你等我一下。", "Tôi có chút việc, phải đi trước, bạn đợi tôi một chút."],
+        ["我在找一件白色的衣服，你看见了吗？", "Tôi đang tìm một cái áo màu trắng, bạn có thấy không?"],
+        ["这只猫是黑色的，那只是白的。", "Con mèo này màu đen, con kia màu trắng."],
+        ["这件黑衣服太贵了，我不想买。", "Cái áo đen này đắt quá, tôi không muốn mua."],
+        ["请帮我打开门，好吗？", "Làm ơn mở cửa giúp tôi được không?"]
+      ],
+      "drills": [
+        ["Chúng ta cùng đi ăn cơm nhé, được không?", "我们一起去吃饭，好吗？"],
+        ["Bạn xem lại quyển sách này thêm lần nữa đi.", "你再看看这本书吧。"],
+        ["Công ty bảo tôi ngày mai đi Bắc Kinh.", "公司让我明天去北京。"],
+        ["Làm ơn mở cửa giúp tôi được không?", "请帮我打开门，好吗？"]
+      ],
+      "quiz": [
+        ["……，好吗？ dùng để làm gì?", ["đề xuất và hỏi ý kiến người nghe", "ra lệnh", "phủ định", "cảm thán"], 0, "...，好吗？ đề xuất một việc và hỏi ý kiến."],
+        ["你准备准备。 động từ láy diễn tả điều gì?", ["hành động nhẹ nhàng, thử làm trong thời gian ngắn", "hành động nghiêm trọng, kéo dài", "phủ định hành động", "câu hỏi"], 0, "Động từ láy diễn tả sắc thái nhẹ nhàng, thời gian ngắn."],
+        ["再 trong 你再看看这本书吧。 nghĩa là gì?", ["thêm lần nữa", "lần đầu tiên", "không bao giờ", "đã từng"], 0, "再 diễn tả sự lặp lại của hành động."],
+        ["公司让我明天去北京。 ai là người thực hiện hành động đi Bắc Kinh?", ["tôi", "công ty", "người nghe", "không ai"], 0, "Trong câu kiêm ngữ, tân ngữ của 让 là chủ ngữ của động từ 2."],
+        ["打开 nghĩa là gì?", ["mở", "đóng", "tìm", "đợi"], 0, "打开 nghĩa là mở."]
+      ],
+      "practice": {
+        "cloze": [
+          ["你____看看这本书吧。", ["再", "让", "等", "找"], 0, "再 + V diễn tả làm lại một lần nữa."],
+          ["公司____我明天去北京。", ["让", "再", "等", "告诉"], 0, "让 + O + V là câu kiêm ngữ, O vừa là tân ngữ vừa là chủ ngữ của V2."]
+        ],
+        "orders": [
+          [["我们", "一起", "去", "吃饭", "好吗"], "我们一起去吃饭，好吗？"],
+          [["公司", "让", "我", "明天", "去", "北京"], "公司让我明天去北京。"]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "服务员告诉我们，今天的鱼很贵，可是很好吃。我朋友说他想再吃一次，我让他自己去点菜。等了一会儿，服务员打开厨房的门，把鱼端了出来。",
+          [
+            ["服务员告诉我们今天的鱼怎么样？", ["很贵，很好吃", "很便宜", "不好吃", "没有鱼"], 0, "Đoạn văn nói \"今天的鱼很贵，可是很好吃\"。"],
+            ["谁想再吃一次鱼？", ["朋友", "我", "服务员", "没有人"], 0, "Đoạn văn nói \"我朋友说他想再吃一次\"。"],
+            ["服务员打开了什么？", ["厨房的门", "衣柜", "书包", "窗户"], 0, "Đoạn văn nói \"服务员打开厨房的门\"。"]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "l1708",
+      "date": "17/08/2026",
+      "shortDate": "17/08",
+      "title": "Xin phép, thứ tự và kết quả",
+      "focus": "S+可以+V吗？ / 从...开始 / 第+số+lượng từ / bổ ngữ kết quả",
+      "pages": "trang 110-115",
+      "page": 110,
+      "notes": [
+        "S + 可以 + V + 吗？ = S + 可不可以 + V？ dùng để xin phép hoặc đề nghị làm việc gì.",
+        "从...开始 + V đánh dấu điểm bắt đầu (thời gian/không gian); 从 + A + 到 + B nói phạm vi từ đâu đến đâu.",
+        "第 + số từ + lượng từ (+ danh từ) nói về thứ tự của người hoặc vật.",
+        "Bổ ngữ kết quả (见/到/好/懂/完/错) đứng sau động từ để bổ sung thông tin về kết quả của hành động; phủ định dùng 没(有), nghi vấn thêm 了没有/吗."
+      ],
+      "vocab": [
+        ["从", "cóng", "từ"],
+        ["跳舞", "tiàowǔ", "nhảy múa"],
+        ["希望", "xīwàng", "hy vọng / mong muốn"],
+        ["问题", "wèntí", "câu hỏi / vấn đề"],
+        ["欢迎", "huānyíng", "chào đón / hoan nghênh"],
+        ["错", "cuò", "sai / không đúng"],
+        ["上班", "shàngbān", "đi làm"],
+        ["第一", "dì-yī", "thứ nhất"],
+        ["懂", "dǒng", "hiểu"],
+        ["完", "wán", "xong / hoàn thành"],
+        ["题", "tí", "câu hỏi / đề bài"],
+        ["跟", "gēn", "với / cùng"]
+      ],
+      "patterns": [
+        ["S + 可以 + động từ + 吗？ = S + 可不可以 + động từ？", "Xin phép hoặc đề nghị làm việc gì."],
+        ["从...开始 + động từ / 从 + A + 到 + B", "从 đánh dấu điểm bắt đầu; 从...到... nói phạm vi từ đâu đến đâu."],
+        ["第 + số từ + lượng từ（+ danh từ）", "Nói về thứ tự của người hoặc vật."],
+        ["Động từ + bổ ngữ kết quả（见 / 到 / 好 / 懂 / 完 / 错）", "Bổ sung thông tin về kết quả của hành động phía trước."]
+      ],
+      "examples": [
+        ["我女儿可以跟您学习跳舞吗？", "Con gái tôi có thể học nhảy với cô được không?"],
+        ["她从七岁开始跳舞。", "Cô ấy bắt đầu học nhảy từ năm bảy tuổi."],
+        ["从北京到上海要坐两个小时的飞机。", "Từ Bắc Kinh đến Thượng Hải phải đi máy bay hai tiếng."],
+        ["这是我的第三本汉语书。", "Đây là quyển sách tiếng Trung thứ ba của tôi."],
+        ["我能听懂老师说的话。", "Tôi có thể nghe hiểu lời giáo viên nói."],
+        ["欢迎你来学习跳舞！", "Hoan nghênh bạn đến học nhảy!"],
+        ["我希望明年能去中国上班。", "Tôi hy vọng năm sau có thể đến Trung Quốc đi làm."],
+        ["老师，我有一个问题想问您。", "Thưa cô, em có một câu hỏi muốn hỏi cô."],
+        ["这道题我做错了。", "Bài này tôi làm sai rồi."],
+        ["作业我已经写完了。", "Bài tập tôi đã viết xong rồi."],
+        ["他是我们班的第一名。", "Anh ấy là hạng nhất lớp chúng tôi."]
+      ],
+      "drills": [
+        ["Con gái tôi có thể học nhảy với cô được không?", "我女儿可以跟您学习跳舞吗？"],
+        ["Cô ấy bắt đầu học nhảy từ năm bảy tuổi.", "她从七岁开始跳舞。"],
+        ["Đây là quyển sách tiếng Trung thứ ba của tôi.", "这是我的第三本汉语书。"],
+        ["Tôi có thể nghe hiểu lời giáo viên nói.", "我能听懂老师说的话。"]
+      ],
+      "quiz": [
+        ["S+可以+V吗？ tương đương cấu trúc nào?", ["S+可不可以+V？", "S+要不要+V？", "S+会不会+V？", "S+是不是+V？"], 0, "可以...吗 và 可不可以 cùng dùng để xin phép."],
+        ["从...开始 nghĩa là gì?", ["bắt đầu từ...", "kết thúc tại...", "gần...", "xa..."], 0, "从 đánh dấu điểm bắt đầu."],
+        ["第三本书 nghĩa là gì?", ["quyển sách thứ ba", "ba quyển sách", "quyển sách thứ nhất", "không có quyển sách nào"], 0, "第 + số + lượng từ nói thứ tự."],
+        ["听懂 khác 听 ở điểm nào?", ["听懂 nhấn mạnh kết quả đã hiểu, 听 chỉ hành động nghe", "không khác gì nhau", "听懂 là danh từ", "听 là tính từ"], 0, "Bổ ngữ kết quả 懂 nhấn mạnh kết quả của hành động 听."],
+        ["作业写完了 nghĩa là gì?", ["bài tập đã viết xong", "bài tập chưa viết", "bài tập viết sai", "bài tập rất khó"], 0, "完 là bổ ngữ kết quả nghĩa là xong."]
+      ],
+      "practice": {
+        "cloze": [
+          ["我女儿____跟您学习跳舞吗？", ["可以", "从", "第", "完"], 0, "S+可以+V+吗 dùng để xin phép."],
+          ["这道题我做____了。", ["错", "懂", "完", "见"], 0, "做错 là bổ ngữ kết quả nghĩa là làm sai."]
+        ],
+        "orders": [
+          [["她", "从", "七岁", "开始", "跳舞"], "她从七岁开始跳舞。"],
+          [["我", "能", "听懂", "老师", "说的话"], "我能听懂老师说的话。"]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "我从小就喜欢跳舞，希望长大以后能当舞蹈老师。上课的时候，老师说的话我都能听懂，做错的题也会再想一想。这是我学跳舞的第一年，老师欢迎所有想学跳舞的人。",
+          [
+            ["\"我\"希望长大以后做什么？", ["当舞蹈老师", "当医生", "去上班", "开公司"], 0, "Đoạn văn nói \"希望长大以后能当舞蹈老师\"。"],
+            ["\"我\"上课时能听懂什么？", ["老师说的话", "外语新闻", "电视节目", "广播"], 0, "Đoạn văn nói \"老师说的话我都能听懂\"。"],
+            ["这是\"我\"学跳舞的第几年？", ["第一年", "第二年", "第三年", "第十年"], 0, "Đoạn văn nói \"这是我学跳舞的第一年\"。"]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "l2108",
+      "date": "21/08/2026",
+      "shortDate": "21/08",
+      "title": "Giúp đỡ, khuyên can và hành động đang diễn ra",
+      "focus": "帮助 / 不要 / 别 + V + 了 / S + (正)在 + V + 呢",
+      "pages": "trang 116-119",
+      "page": 116,
+      "notes": [
+        "帮助 + tân ngữ (+ động từ) nói giúp đỡ ai làm gì; ...对...有帮助 nói một việc có ích cho việc khác.",
+        "不要 / 别 + động từ (+ tân ngữ)/tính từ + 了 khuyên người khác đừng làm hoặc đừng như thế nữa; thường không dùng cho ngôi thứ nhất, và cần thêm 了 ở cuối câu khi dùng 别.",
+        "S + (正)在 + động từ (+ 呢) nhấn mạnh một hành động đang diễn ra ngay lúc nói, ôn lại và mở rộng cấu trúc đã học, thường dùng ở dạng hỏi 在做什么呢？"
+      ],
+      "vocab": [
+        ["课", "kè", "môn học / tiết học"],
+        ["帮助", "bāngzhù", "giúp đỡ"],
+        ["别", "bié", "đừng"],
+        ["哥哥", "gēge", "anh trai"],
+        ["鸡蛋", "jīdàn", "trứng gà"],
+        ["西瓜", "xīguā", "dưa hấu"],
+        ["正在", "zhèngzài", "đang"],
+        ["手机", "shǒujī", "điện thoại di động"],
+        ["洗", "xǐ", "rửa / giặt / tắm"],
+        ["同事", "tóngshì", "đồng nghiệp"],
+        ["牌子", "páizi", "nhãn hiệu / thương hiệu"]
+      ],
+      "patterns": [
+        ["帮助 + tân ngữ（+ động từ）/ ...对...有帮助", "Nói giúp đỡ ai làm gì, hoặc một việc có ích cho việc khác."],
+        ["不要 / 别 + động từ（+ tân ngữ）/ tính từ + 了", "Khuyên người khác đừng làm hoặc đừng như thế nữa; thường không dùng cho ngôi thứ nhất, cần thêm 了 khi dùng 别."],
+        ["S +（正）在 + động từ（+ 呢）", "Nhấn mạnh một hành động đang diễn ra ngay lúc nói, thường dùng ở dạng hỏi 在做什么呢？"]
+      ],
+      "examples": [
+        ["你能帮助我吗？", "Bạn có thể giúp tôi được không?"],
+        ["多运动对身体有帮助。", "Vận động nhiều có ích cho sức khỏe."],
+        ["你已经睡了一天了，别再睡觉了！", "Bạn đã ngủ cả ngày rồi, đừng ngủ nữa!"],
+        ["哥哥正在吃西瓜呢。", "Anh trai đang ăn dưa hấu."],
+        ["今天的课很有意思。", "Tiết học hôm nay rất thú vị."],
+        ["妈妈在做鸡蛋汤给我们吃。", "Mẹ đang nấu canh trứng cho chúng tôi ăn."],
+        ["你的手机在桌子上。", "Điện thoại di động của bạn ở trên bàn."],
+        ["我在洗衣服，你等我一下。", "Tôi đang giặt quần áo, bạn đợi tôi một chút."],
+        ["我的同事今天没有来上班。", "Đồng nghiệp của tôi hôm nay không đến làm việc."],
+        ["这件衣服是什么牌子的？", "Cái áo này là nhãn hiệu gì?"]
+      ],
+      "drills": [
+        ["Bạn có thể giúp tôi được không?", "你能帮助我吗？"],
+        ["Bạn đã ngủ cả ngày rồi, đừng ngủ nữa!", "你已经睡了一天了，别再睡觉了！"],
+        ["Anh trai đang ăn dưa hấu.", "哥哥正在吃西瓜呢。"],
+        ["Điện thoại di động của bạn ở trên bàn.", "你的手机在桌子上。"]
+      ],
+      "quiz": [
+        ["帮助 nghĩa là gì?", ["giúp đỡ", "làm phiền", "từ chối", "hỏi thăm"], 0, "帮助 nghĩa là giúp đỡ."],
+        ["别 + V + 了 dùng để làm gì?", ["khuyên ai đó đừng làm gì nữa", "ra lệnh làm ngay", "hỏi ý kiến", "khen ngợi"], 0, "别...了 dùng để khuyên can."],
+        ["Câu 别 có thể dùng cho ngôi thứ nhất (tôi) không?", ["không, thường dùng cho người khác", "có, dùng cho mọi ngôi", "chỉ dùng cho tôi", "chỉ dùng trong câu hỏi"], 0, "别 thường dùng để khuyên người khác, không dùng cho bản thân người nói."],
+        ["哥哥正在吃西瓜呢。 diễn tả điều gì?", ["hành động đang diễn ra", "hành động đã xong", "hành động sắp xảy ra", "một câu hỏi"], 0, "（正）在...呢 diễn tả hành động đang diễn ra."],
+        ["对身体有帮助 nghĩa là gì?", ["có ích cho sức khỏe", "có hại cho sức khỏe", "không liên quan đến sức khỏe", "làm hỏng sức khỏe"], 0, "对...有帮助 nghĩa là có ích cho việc gì."]
+      ],
+      "practice": {
+        "cloze": [
+          ["你已经睡了一天了，____再睡觉了！", ["别", "帮助", "正在", "课"], 0, "别 + V + 了 dùng để khuyên can."],
+          ["哥哥____吃西瓜呢。", ["正在", "别", "帮助", "洗"], 0, "（正）在 + V + 呢 diễn tả hành động đang diễn ra."]
+        ],
+        "orders": [
+          [["你", "已经", "睡了", "一天了", "别再", "睡觉了"], "你已经睡了一天了，别再睡觉了！"],
+          [["哥哥", "正在", "吃", "西瓜", "呢"], "哥哥正在吃西瓜呢。"]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "哥哥正在洗手机的时候，不小心把手机弄湿了。妈妈说：别着急，我来帮助你。妈妈用毛巾帮哥哥把手机擦干净了。",
+          [
+            ["哥哥在做什么的时候把手机弄湿了？", ["洗手机的时候", "吃西瓜的时候", "上课的时候", "睡觉的时候"], 0, "Câu đầu nói \"哥哥正在洗手机的时候...把手机弄湿了\"。"],
+            ["妈妈说了什么？", ["别着急，我来帮助你", "不要用手机", "去买新手机", "去问同事"], 0, "Đoạn văn nói \"妈妈说：别着急，我来帮助你\"。"],
+            ["谁帮哥哥把手机弄干净了？", ["妈妈", "爸爸", "同事", "没有人"], 0, "Đoạn văn nói \"妈妈用毛巾帮哥哥把手机擦干净了\"。"]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "l2408",
+      "date": "24/08/2026",
+      "shortDate": "24/08",
+      "title": "Định ngữ, khả năng và so sánh cơ bản",
+      "focus": "cụm động từ + 的 + N / 可能 / A比B",
+      "pages": "trang 120-126",
+      "page": 120,
+      "notes": [
+        "Cụm động từ + 的 + danh từ/đại từ là định ngữ bổ nghĩa cho danh từ hoặc đại từ phía sau, ví dụ 去年买的衣服.",
+        "（不 / 很 +）可能 + động từ/tính từ nói về khả năng xảy ra của một sự việc; thêm 不 hoặc 很 trước 可能 để giảm hoặc tăng mức độ chắc chắn.",
+        "A + 比 + B + tính từ so sánh hơn giữa hai đối tượng; có thể thêm mức độ chênh lệch cụ thể (一点儿/一些/多了/得多/số-lượng từ) sau tính từ. Phủ định dùng A + 没有 + B + tính từ, không dùng 不比."
+      ],
+      "vocab": [
+        ["唱歌", "chànggē", "hát"],
+        ["男", "nán", "nam (giới tính)"],
+        ["女", "nǚ", "nữ (giới tính)"],
+        ["孩子", "háizi", "trẻ em / con"],
+        ["右边", "yòubian", "bên phải"],
+        ["去年", "qùnián", "năm ngoái"],
+        ["说话", "shuōhuà", "nói chuyện"],
+        ["比", "bǐ", "so với"],
+        ["便宜", "piányi", "rẻ"],
+        ["姓", "xìng", "họ / mang họ"],
+        ["可能", "kěnéng", "có thể / có khả năng"]
+      ],
+      "patterns": [
+        ["Cụm động từ + 的 + danh từ / đại từ", "Định ngữ (cụm từ bổ nghĩa) đứng trước 的 để bổ nghĩa cho danh từ hoặc đại từ phía sau."],
+        ["（不 / 很 +）可能 + động từ / tính từ", "Nói về khả năng xảy ra của một sự việc; có thể thêm 不 hoặc 很 trước 可能 để giảm hoặc tăng mức độ chắc chắn."],
+        ["A + 比 + B + tính từ（+ 一点儿 / 一些 / 多了 / 得多 / số-lượng từ）", "So sánh hơn giữa A và B; có thể thêm mức độ chênh lệch cụ thể. Phủ định dùng A + 没有 + B + tính từ."]
+      ],
+      "examples": [
+        ["这是去年买的衣服。", "Đây là bộ quần áo mua năm ngoái."],
+        ["你可能不认识他。", "Có thể bạn không quen biết anh ấy."],
+        ["哥哥比姐姐高。", "Anh trai cao hơn chị gái."],
+        ["我没有他高。", "Tôi không cao bằng anh ấy."],
+        ["这个孩子是男的还是女的？", "Đứa trẻ này là con trai hay con gái?"],
+        ["教室在右边。", "Lớp học ở bên phải."],
+        ["这件衣服很便宜。", "Bộ quần áo này rất rẻ."],
+        ["您贵姓？我姓王。", "Xin hỏi quý danh? Tôi họ Vương."],
+        ["他喜欢跟朋友说话。", "Anh ấy thích nói chuyện với bạn bè."],
+        ["妹妹很喜欢唱歌。", "Em gái rất thích hát."]
+      ],
+      "drills": [
+        ["Có thể bạn không quen biết anh ấy.", "你可能不认识他。"],
+        ["Anh trai cao hơn chị gái.", "哥哥比姐姐高。"],
+        ["Đây là bộ quần áo mua năm ngoái.", "这是去年买的衣服。"],
+        ["Bộ quần áo này rất rẻ.", "这件衣服很便宜。"]
+      ],
+      "quiz": [
+        ["这是去年买的衣服。 中的 去年买 làm định ngữ cho từ nào?", ["衣服", "去年", "买", "这"], 0, "Cụm động từ+的+danh từ, 去年买 bổ nghĩa cho 衣服."],
+        ["你可能不认识他。 nghĩa là gì?", ["Có thể bạn không quen biết anh ấy.", "Bạn chắc chắn không quen anh ấy.", "Bạn quen anh ấy rồi.", "Bạn nên quen anh ấy."], 0, "可能 nói về khả năng, không chắc chắn."],
+        ["哥哥比姐姐高。 dùng cấu trúc nào?", ["A比B+tính từ (so sánh hơn)", "A没有B+tính từ", "A跟B一样", "A比B少"], 0, "A比B+tính từ là câu so sánh hơn cơ bản."],
+        ["您贵姓？ dùng để hỏi điều gì?", ["hỏi họ của người khác một cách lịch sự", "hỏi tuổi", "hỏi giá tiền", "hỏi địa chỉ"], 0, "您贵姓 là cách hỏi họ lịch sự."]
+      ],
+      "practice": {
+        "cloze": [
+          ["哥哥____姐姐高。", ["比", "得", "可能", "比较"], 0, "A比B+tính từ so sánh hơn."],
+          ["你____不认识他。", ["可能", "比", "得", "没有"], 0, "可能 nói về khả năng, không chắc chắn."]
+        ],
+        "orders": [
+          [["哥哥", "比", "姐姐", "高"], "哥哥比姐姐高。"],
+          [["这", "是", "去年", "买的", "衣服"], "这是去年买的衣服。"]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "这件衣服是我去年买的，很便宜，可是穿起来很好看。我姐姐说她也想买一件一样的，可能明天就去商店看看。",
+          [
+            ["这件衣服是什么时候买的？", ["去年", "今年", "上个月", "昨天"], 0, "Câu đầu nói \"这件衣服是我去年买的\"。"],
+            ["这件衣服贵不贵？", ["很便宜", "很贵", "不知道", "一般"], 0, "Đoạn văn nói \"很便宜\"。"],
+            ["姐姐可能什么时候去商店？", ["明天", "今天", "下个星期", "没说"], 0, "Đoạn văn nói \"可能明天就去商店看看\"。"]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "l2608",
+      "date": "26/08/2026",
+      "shortDate": "26/08",
+      "title": "Bổ ngữ trạng thái và so sánh nâng cao",
+      "focus": "động từ + 得 + tính từ / so sánh kết hợp 得 / A比B多少早晚",
+      "pages": "trang 126-131",
+      "page": 126,
+      "notes": [
+        "Bổ ngữ trạng thái 得 đứng ngay sau động từ để đánh giá kết quả hoặc mức độ của hành động; nếu động từ có tân ngữ, phải lặp lại động từ trước 得: S+（V+）O+V+得+tính từ.",
+        "Khi kết hợp 比 với 得, có hai cách nói tương đương: A比B+V得+tính từ hoặc A+V得+比B+tính từ.",
+        "A + 比 + B + 多/少/早/晚 + động từ(+ số lượng) so sánh mức chênh lệch về số lượng hoặc thời điểm khi thực hiện hành động."
+      ],
+      "vocab": [
+        ["雪", "xuě", "tuyết"],
+        ["度", "dù", "độ (đơn vị nhiệt độ)"],
+        ["穿", "chuān", "mặc"],
+        ["进", "jìn", "vào / tiến vào"],
+        ["弟弟", "dìdi", "em trai"],
+        ["近", "jìn", "gần"],
+        ["妻子", "qīzi", "vợ"],
+        ["忙", "máng", "bận / bận rộn"],
+        ["零", "líng", "số không"],
+        ["得", "de", "trợ từ kết cấu, đứng sau động từ/tính từ để dẫn vào bổ ngữ trạng thái hoặc mức độ"]
+      ],
+      "patterns": [
+        ["S +（động từ +）tân ngữ + động từ + 得 + tính từ", "Bổ ngữ trạng thái 得 đứng sau động từ (lặp lại động từ nếu có tân ngữ) để đánh giá kết quả hoặc mức độ của hành động."],
+        ["A + 比 + B + động từ + 得 + tính từ / A + động từ + 得 + 比 + B + tính từ", "Kết hợp so sánh 比 với bổ ngữ trạng thái 得 để so sánh mức độ thực hiện hành động giữa hai đối tượng."],
+        ["A + 比 + B + 多 / 少 / 早 / 晚 + động từ（+ số lượng）", "So sánh mức chênh lệch về số lượng hoặc thời điểm khi thực hiện hành động."]
+      ],
+      "examples": [
+        ["他说汉语说得很好。", "Anh ấy nói tiếng Trung rất giỏi."],
+        ["姐姐正在跟弟弟说话。", "Chị gái đang nói chuyện với em trai."],
+        ["这首歌他比我唱得好不少。", "Bài hát này anh ấy hát hay hơn tôi nhiều."],
+        ["今天她比我早起一个小时。", "Hôm nay cô ấy dậy sớm hơn tôi một tiếng."],
+        ["北京冬天常常下雪，最低零下十几度。", "Mùa đông Bắc Kinh thường có tuyết, thấp nhất âm hơn mười độ."],
+        ["外面很冷，你多穿点儿衣服再出去。", "Bên ngoài rất lạnh, bạn mặc thêm quần áo rồi hãy ra ngoài."],
+        ["请进，别站在门口。", "Mời vào, đừng đứng ở cửa."],
+        ["我家离公司很近。", "Nhà tôi cách công ty rất gần."],
+        ["他的妻子也是老师。", "Vợ anh ấy cũng là giáo viên."],
+        ["爸爸最近工作很忙。", "Bố dạo này làm việc rất bận."]
+      ],
+      "drills": [
+        ["Anh ấy nói tiếng Trung rất giỏi.", "他说汉语说得很好。"],
+        ["Bài hát này anh ấy hát hay hơn tôi nhiều.", "这首歌他比我唱得好不少。"],
+        ["Hôm nay cô ấy dậy sớm hơn tôi một tiếng.", "今天她比我早起一个小时。"],
+        ["Nhà tôi cách công ty rất gần.", "我家离公司很近。"]
+      ],
+      "quiz": [
+        ["他说汉语说得很好。 中的 得 có vai trò gì?", ["trợ từ kết cấu, dẫn vào bổ ngữ trạng thái/mức độ", "tân ngữ", "chủ ngữ", "liên từ"], 0, "得 đứng sau động từ để dẫn vào bổ ngữ trạng thái."],
+        ["这首歌他比我唱得好不少。 nghĩa là gì?", ["Bài hát này anh ấy hát hay hơn tôi nhiều.", "Bài hát này tôi hát hay hơn anh ấy.", "Hai người hát như nhau.", "Anh ấy không biết hát."], 0, "A比B+V得+tính từ so sánh mức độ thực hiện hành động."],
+        ["今天她比我早起一个小时。 số lượng “一个小时” bổ sung ý gì?", ["mức chênh lệch thời gian giữa hai người", "tổng thời gian ngủ", "thời điểm hiện tại", "khoảng cách"], 0, "A比B+早/晚+V+số lượng nói mức chênh lệch cụ thể."],
+        ["北京冬天下雪的时候零下十几度。 “零下” nghĩa là gì?", ["dưới 0 độ", "trên 0 độ", "đúng 0 độ", "không có nhiệt độ"], 0, "零下 nghĩa là dưới 0 độ."]
+      ],
+      "practice": {
+        "cloze": [
+          ["他说汉语说____很好。", ["得", "的", "地", "比"], 0, "động từ+得+tính từ là bổ ngữ trạng thái."],
+          ["这首歌他____我唱得好不少。", ["比", "得", "可能", "没有"], 0, "A比B+V得+tính từ so sánh mức độ thực hiện hành động."]
+        ],
+        "orders": [
+          [["他", "说", "汉语", "说得", "很好"], "他说汉语说得很好。"],
+          [["今天", "她", "比", "我", "早起", "一个小时"], "今天她比我早起一个小时。"]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "弟弟比我小两岁，可是他汉语说得比我好。他说，因为他每天都跟他的妻子说中文，所以进步得很快。",
+          [
+            ["弟弟比\"我\"怎么样？", ["小两岁", "大两岁", "一样大", "不知道"], 0, "Câu đầu nói \"弟弟比我小两岁\"。"],
+            ["谁的汉语说得比较好？", ["弟弟", "\"我\"", "一样好", "都不好"], 0, "Đoạn văn nói \"他汉语说得比我好\"。"],
+            ["弟弟为什么进步得快？", ["每天跟妻子说中文", "每天看电视", "每天睡觉", "每天工作"], 0, "Đoạn văn nói \"每天都跟他的妻子说中文，所以进步得很快\"。"]
+          ]
+        ]
+      }
     }
   ],
   "finalQuestions": [
@@ -6523,6 +7250,204 @@ window.HSK_CONTENT = {
       ],
       0,
       "没听见 là không nghe thấy."
+    ],
+    [
+      "这本书是谁买的？ dùng cấu trúc nào?",
+      [
+        "是...的（hỏi tác nhân bằng 谁）",
+        "有点儿",
+        "因为...所以...",
+        "AA都"
+      ],
+      0,
+      "谁 đứng trong 是...的 để hỏi ai thực hiện hành động."
+    ],
+    [
+      "我学汉语已经三个月了。 nghĩa là gì?",
+      [
+        "Tôi học tiếng Trung đã ba tháng rồi.",
+        "Tôi sẽ học tiếng Trung ba tháng.",
+        "Tôi học tiếng Trung ba tháng trước.",
+        "Tôi không học tiếng Trung nữa."
+      ],
+      0,
+      "已经...了 nói một việc đã đạt đến mức độ nào đó."
+    ],
+    [
+      "颜色还可以，就是有点儿大。 ý người nói là gì?",
+      [
+        "màu tạm ổn nhưng hơi to",
+        "màu rất đẹp và vừa",
+        "màu xấu và to",
+        "màu tạm ổn và vừa"
+      ],
+      0,
+      "就是 chuyển ý, nêu điểm bất lợi sau khi đã khen."
+    ],
+    [
+      "这件衣服小不小？ tương đương câu nào?",
+      [
+        "这件衣服小吗？",
+        "这件衣服大吗？",
+        "这件衣服贵吗？",
+        "这件衣服新吗？"
+      ],
+      0,
+      "V/tính từ + 不 + V/tính từ tương đương câu hỏi dùng 吗."
+    ],
+    [
+      "来一点儿面条吧。 trong câu này 来 có vai trò gì?",
+      [
+        "thay cho một động từ cụ thể (gọi món)",
+        "nghĩa là đến",
+        "nghĩa là đi",
+        "phủ định"
+      ],
+      0,
+      "来 + tân ngữ thay thế cho động từ cụ thể tùy ngữ cảnh."
+    ],
+    [
+      "因为他天天跑步，所以身体很好。 đâu là nguyên nhân?",
+      [
+        "他天天跑步",
+        "身体很好",
+        "他喜欢运动",
+        "他很累"
+      ],
+      0,
+      "因为 dẫn vào mệnh đề nêu nguyên nhân."
+    ],
+    [
+      "学校离机场有20多公里。 nghĩa là gì?",
+      [
+        "Trường cách sân bay hơn 20 km.",
+        "Trường ở gần sân bay.",
+        "Trường xây trong 20 ngày.",
+        "Trường có 20 sân bay."
+      ],
+      0,
+      "A离B+số nói khoảng cách giữa hai nơi."
+    ],
+    [
+      "他早上五点就起床了。 nhấn mạnh điều gì?",
+      [
+        "việc xảy ra sớm hơn dự kiến",
+        "việc xảy ra muộn",
+        "việc chưa xảy ra",
+        "một lời khuyên"
+      ],
+      0,
+      "S+thời điểm+就+V nhấn mạnh việc xảy ra sớm."
+    ],
+    [
+      "公司让我明天去北京。 dùng cấu trúc nào?",
+      [
+        "câu kiêm ngữ (让/叫/请 + O + V2)",
+        "câu hỏi lựa chọn",
+        "câu cảm thán",
+        "câu so sánh"
+      ],
+      0,
+      "让 + O + V2, O vừa là tân ngữ của 让 vừa là chủ ngữ của V2."
+    ],
+    [
+      "你再看看这本书吧。 中的 再 nghĩa là gì?",
+      [
+        "thêm lần nữa",
+        "lần đầu tiên",
+        "không bao giờ",
+        "đã từng"
+      ],
+      0,
+      "再 diễn tả sự lặp lại của hành động."
+    ],
+    [
+      "她从七岁开始跳舞。 dùng cấu trúc nào?",
+      [
+        "从...开始",
+        "第...本",
+        "可以...吗",
+        "别...了"
+      ],
+      0,
+      "从 đánh dấu điểm bắt đầu của hành động."
+    ],
+    [
+      "我能听懂老师说的话。 中的 懂 có vai trò gì?",
+      [
+        "bổ ngữ kết quả, nhấn mạnh đã hiểu",
+        "chủ ngữ",
+        "tân ngữ",
+        "trạng ngữ chỉ thời gian"
+      ],
+      0,
+      "懂 là bổ ngữ kết quả đứng sau 听."
+    ],
+    [
+      "你已经睡了一天了，别再睡觉了！ câu này dùng để làm gì?",
+      [
+        "khuyên ai đó đừng làm gì nữa",
+        "ra lệnh làm ngay",
+        "hỏi ý kiến",
+        "khen ngợi"
+      ],
+      0,
+      "别...了 dùng để khuyên can người khác."
+    ],
+    [
+      "哥哥正在吃西瓜呢。 nghĩa là gì?",
+      [
+        "Anh trai đang ăn dưa hấu.",
+        "Anh trai đã ăn xong dưa hấu.",
+        "Anh trai không thích dưa hấu.",
+        "Anh trai sắp ăn dưa hấu."
+      ],
+      0,
+      "（正）在...呢 diễn tả hành động đang diễn ra."
+    ],
+    [
+      "哥哥比姐姐高。 nghĩa là gì?",
+      [
+        "Anh trai cao hơn chị gái.",
+        "Anh trai thấp hơn chị gái.",
+        "Anh trai cao bằng chị gái.",
+        "Chị gái cao hơn anh trai."
+      ],
+      0,
+      "A比B+tính từ là câu so sánh hơn."
+    ],
+    [
+      "他说汉语说得很好。 中的 得 dùng để làm gì?",
+      [
+        "dẫn vào bổ ngữ trạng thái, đánh giá mức độ hành động",
+        "làm chủ ngữ",
+        "làm tân ngữ",
+        "phủ định câu"
+      ],
+      0,
+      "得 đứng sau động từ để dẫn vào bổ ngữ trạng thái."
+    ],
+    [
+      "你可能不认识他。 nghĩa là gì?",
+      [
+        "Có thể bạn không quen biết anh ấy.",
+        "Bạn chắc chắn quen anh ấy.",
+        "Bạn nên quen anh ấy.",
+        "Bạn đã quen anh ấy rồi."
+      ],
+      0,
+      "可能 nói về khả năng, không chắc chắn."
+    ],
+    [
+      "这是去年买的衣服。 dùng cấu trúc nào?",
+      [
+        "cụm động từ + 的 + danh từ (định ngữ)",
+        "câu so sánh 比",
+        "câu kiêm ngữ",
+        "câu hỏi lựa chọn"
+      ],
+      0,
+      "去年买 là cụm động từ làm định ngữ, đứng trước 的 + danh từ 衣服."
     ]
   ],
   "finalWriting": [
@@ -6641,6 +7566,50 @@ window.HSK_CONTENT = {
     [
       "Tôi không nghe thấy chồng nói.",
       "我没听见丈夫说话。"
+    ],
+    [
+      "Quyển sách này là ai mua?",
+      "这本书是谁买的？"
+    ],
+    [
+      "Tôi học tiếng Trung đã ba tháng rồi.",
+      "我学汉语已经三个月了。"
+    ],
+    [
+      "Bộ quần áo này có nhỏ không?",
+      "这件衣服小不小？"
+    ],
+    [
+      "Vì anh ấy ngày nào cũng chạy bộ nên sức khỏe rất tốt.",
+      "因为他天天跑步，所以身体很好。"
+    ],
+    [
+      "Trường cách sân bay hơn 20 km.",
+      "学校离机场有20多公里。"
+    ],
+    [
+      "Bạn xem lại quyển sách này thêm lần nữa đi.",
+      "你再看看这本书吧。"
+    ],
+    [
+      "Con gái tôi có thể học nhảy với cô được không?",
+      "我女儿可以跟您学习跳舞吗？"
+    ],
+    [
+      "Bạn đã ngủ cả ngày rồi, đừng ngủ nữa!",
+      "你已经睡了一天了，别再睡觉了！"
+    ],
+    [
+      "Anh trai cao hơn chị gái.",
+      "哥哥比姐姐高。"
+    ],
+    [
+      "Anh ấy nói tiếng Trung rất giỏi.",
+      "他说汉语说得很好。"
+    ],
+    [
+      "Bài hát này anh ấy hát hay hơn tôi nhiều.",
+      "这首歌他比我唱得好不少。"
     ]
   ],
   "finalReading": {
@@ -6739,7 +7708,7 @@ window.HSK_CONTENT = {
   },
   "source": {
     "file": "HSK.pdf",
-    "pages": 71,
-    "updated": "31/07/2026"
+    "pages": 131,
+    "updated": "28/08/2026"
   }
 };
