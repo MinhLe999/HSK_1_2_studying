@@ -2073,8 +2073,8 @@ window.HSK_PRACTICE_EXTENSIONS = {
           "送"
         ],
         "required": "手表、丈夫、送",
-        "prompt": "Dùng đủ ba từ để nói chiếc đồng hồ này là chiếc chồng bạn tặng.",
-        "sample": "这块手表是我丈夫送的。"
+        "prompt": "Dùng đủ ba từ để nói chiếc đồng hồ chồng bạn tặng rất đẹp.",
+        "sample": "我丈夫送给我的这块手表很漂亮。"
       },
       {
         "id": "l2907-w2",
@@ -2950,6 +2950,240 @@ window.HSK_PRACTICE_EXTENSIONS = {
         "required": "正在、手机",
         "prompt": "Dùng đủ hai từ để nói anh trai đang ăn dưa hấu thì điện thoại reo.",
         "sample": "哥哥正在吃西瓜呢，手机突然响了。"
+      },
+      {
+        "id": "l2108-w4",
+        "kind": "sentence-given-words",
+        "topic": "nhờ ai đó giúp",
+        "structure": "你能 + 帮助 + tân ngữ + động từ + 吗？",
+        "words": [
+          "帮助",
+          "能"
+        ],
+        "required": "帮助、能",
+        "prompt": "Hoàn thành câu \"你能……？\" bằng \"帮助\" (bài trong PDF, câu 1).",
+        "sample": "你能帮助我吗？"
+      },
+      {
+        "id": "l2108-w5",
+        "kind": "sentence-given-words",
+        "topic": "quyển sách này có ích",
+        "structure": "danh từ + 对 + tân ngữ + 有帮助",
+        "words": [
+          "帮助",
+          "书"
+        ],
+        "required": "帮助、书",
+        "prompt": "Hoàn thành câu \"这本书……\" bằng \"帮助\" (bài trong PDF, câu 2).",
+        "sample": "这本书对我有帮助。"
+      },
+      {
+        "id": "l2108-w6",
+        "kind": "sentence-given-words",
+        "topic": "đọc báo có ích cho việc học",
+        "structure": "động từ + 对 + việc gì + 有帮助",
+        "words": [
+          "帮助",
+          "报纸"
+        ],
+        "required": "帮助、报纸",
+        "prompt": "Hoàn thành câu \"看报纸……\" bằng \"帮助\" (bài trong PDF, câu 3).",
+        "sample": "看报纸对学习汉语有帮助。"
+      },
+      {
+        "id": "l2108-w7",
+        "kind": "sentence-given-words",
+        "topic": "thầy đang giúp bạn học",
+        "structure": "S + 在 + 帮助 + tân ngữ + động từ",
+        "words": [
+          "帮助",
+          "老师"
+        ],
+        "required": "帮助、老师",
+        "prompt": "Hoàn thành câu \"张老师在……\" bằng \"帮助\" (bài trong PDF, câu 4).",
+        "sample": "张老师在帮助同学写作业。"
+      },
+      {
+        "id": "l2108-w8",
+        "kind": "sentence-given-words",
+        "topic": "chơi điện thoại không có ích",
+        "structure": "động từ + 对 + việc gì + 没有帮助",
+        "words": [
+          "帮助",
+          "手机"
+        ],
+        "required": "帮助、手机",
+        "prompt": "Hoàn thành câu \"玩手机……\" bằng \"帮助\" (bài trong PDF, câu 5).",
+        "sample": "玩手机对学习没有帮助。"
+      },
+      {
+        "id": "l2108-w9",
+        "kind": "sentence-given-words",
+        "topic": "trời mưa thì đừng ra ngoài",
+        "structure": "别 + động từ + 了",
+        "words": [
+          "别",
+          "出去"
+        ],
+        "required": "别、出去",
+        "prompt": "Hoàn thành câu \"外边下雨了，……\" bằng \"别\" (bài \"Hoàn thành câu, sử dụng 别\" trong PDF, câu 1).",
+        "sample": "外边下雨了，别出去了。"
+      },
+      {
+        "id": "l2108-w10",
+        "kind": "sentence-given-words",
+        "topic": "món không ngon thì đừng ăn nữa",
+        "structure": "别 + động từ + 了（món ăn）",
+        "words": [
+          "别",
+          "吃"
+        ],
+        "required": "别、吃",
+        "prompt": "Hoàn thành câu \"这道菜不好吃，……\" bằng \"别\" (bài trong PDF, câu 2).",
+        "sample": "这道菜不好吃，别吃了。"
+      },
+      {
+        "id": "l2108-w11",
+        "kind": "sentence-given-words",
+        "topic": "muộn rồi đừng xem tivi nữa",
+        "structure": "别 + động từ + tân ngữ + 了",
+        "words": [
+          "别",
+          "电视"
+        ],
+        "required": "别、电视",
+        "prompt": "Hoàn thành câu \"已经十点了，……\" bằng \"别\" (bài trong PDF, câu 3).",
+        "sample": "已经十点了，别看电视了。"
+      },
+      {
+        "id": "l2108-w12",
+        "kind": "sentence-given-words",
+        "topic": "nhiều quần áo rồi đừng mua nữa",
+        "structure": "别 + 再 + động từ + tân ngữ + 了",
+        "words": [
+          "别",
+          "衣服"
+        ],
+        "required": "别、衣服",
+        "prompt": "Hoàn thành câu \"你的衣服这么多，……\" bằng \"别\" (bài trong PDF, câu 4).",
+        "sample": "你的衣服这么多，别再买衣服了。"
+      },
+      {
+        "id": "l2108-w13",
+        "kind": "sentence-given-words",
+        "topic": "chơi điện thoại cả ngày rồi thì dừng lại",
+        "structure": "别 + 再 + động từ + tân ngữ + 了（nhắc nhở）",
+        "words": [
+          "别",
+          "玩"
+        ],
+        "required": "别、玩",
+        "prompt": "Hoàn thành câu \"你玩了一天手机了，……\" bằng \"别\" (bài trong PDF, câu 5).",
+        "sample": "你玩了一天手机了，别再玩了。"
+      },
+      {
+        "id": "l2108-w14",
+        "kind": "sentence-given-words",
+        "topic": "hỏi sáng nay có trông thấy Đại Vệ không",
+        "structure": "S + 看见 + tân ngữ + 了吗？",
+        "words": [
+          "看见",
+          "大卫"
+        ],
+        "required": "看见、大卫",
+        "prompt": "Đặt câu với bổ ngữ chỉ kết quả cho sẵn (PDF tr.116, ngân hàng 看见/听见/写完/看完/听懂/写错/买到; câu mẫu PDF: 今天上午你看见大卫了吗？).",
+        "sample": "今天上午你看见大卫了吗？"
+      },
+      {
+        "id": "l2108-w15",
+        "kind": "sentence-given-words",
+        "topic": "viết xong bài tập chưa",
+        "structure": "S + 写完 + tân ngữ + 了没有？",
+        "words": [
+          "写完",
+          "作业"
+        ],
+        "required": "写完、作业",
+        "prompt": "Đặt câu với bổ ngữ chỉ kết quả cho sẵn (PDF tr.116, chọn 写完 trong ngân hàng 看见/听见/写完/看完/听懂/写错/买到).",
+        "sample": "你写完作业了没有？"
+      },
+      {
+        "id": "l2108-w16",
+        "kind": "sentence-given-words",
+        "topic": "nghe hiểu lời thầy giảng",
+        "structure": "S + 听懂 + tân ngữ + 了",
+        "words": [
+          "听懂",
+          "老师"
+        ],
+        "required": "听懂、老师",
+        "prompt": "Đặt câu với bổ ngữ chỉ kết quả cho sẵn (PDF tr.116, chọn 听懂 trong ngân hàng 看见/听见/写完/看完/听懂/写错/买到).",
+        "sample": "老师说的话我听懂了。"
+      },
+      {
+        "id": "l2108-w17",
+        "kind": "sentence-given-words",
+        "topic": "mua được vé tàu rồi",
+        "structure": "S + 买到 + tân ngữ + 了",
+        "words": [
+          "买到",
+          "票"
+        ],
+        "required": "买到、票",
+        "prompt": "Đặt câu với bổ ngữ chỉ kết quả cho sẵn (PDF tr.116, chọn 买到 trong ngân hàng 看见/听见/写完/看完/听懂/写错/买到).",
+        "sample": "我买到火车票了。"
+      },
+      {
+        "id": "l2108-w18",
+        "kind": "sentence-given-words",
+        "topic": "khuyên đừng chơi điện thoại nữa",
+        "structure": "别 / 不要 + động từ + tân ngữ + 了",
+        "words": [
+          "不要",
+          "手机"
+        ],
+        "required": "不要、手机",
+        "prompt": "Chọn từ ở hai ngân hàng rồi dùng \"别/不要……了\" đặt câu (PDF tr.120; ngân hàng 1: 看/吃/玩/买/喝/打, ngân hàng 2: 咖啡/手机/新衣服/药/电视/篮球).",
+        "sample": "不要玩手机了。"
+      },
+      {
+        "id": "l2108-w19",
+        "kind": "sentence-given-words",
+        "topic": "khuyên đừng uống cà phê nữa",
+        "structure": "别 + động từ + tân ngữ + 了（đồ uống）",
+        "words": [
+          "别",
+          "咖啡"
+        ],
+        "required": "别、咖啡",
+        "prompt": "Chọn từ ở hai ngân hàng rồi dùng \"别/不要……了\" đặt câu (PDF tr.120, cặp 喝 + 咖啡).",
+        "sample": "太晚了，别喝咖啡了。"
+      },
+      {
+        "id": "l2108-w20",
+        "kind": "sentence-given-words",
+        "topic": "khuyên đừng mua áo mới nữa",
+        "structure": "别 + động từ + tân ngữ + 了（mua sắm）",
+        "words": [
+          "别",
+          "新衣服"
+        ],
+        "required": "别、新衣服",
+        "prompt": "Chọn từ ở hai ngân hàng rồi dùng \"别/不要……了\" đặt câu (PDF tr.120, cặp 买 + 新衣服).",
+        "sample": "你的衣服很多了，别买新衣服了。"
+      },
+      {
+        "id": "l2108-w21",
+        "kind": "sentence-given-words",
+        "topic": "khuyên đừng xem tivi nữa",
+        "structure": "不要 + động từ + tân ngữ + 了（tivi）",
+        "words": [
+          "不要",
+          "电视"
+        ],
+        "required": "不要、电视",
+        "prompt": "Chọn từ ở hai ngân hàng rồi dùng \"别/不要……了\" đặt câu (PDF tr.120, cặp 看 + 电视).",
+        "sample": "该睡觉了，不要看电视了。"
       }
     ]
   },
@@ -3071,6 +3305,124 @@ window.HSK_PRACTICE_EXTENSIONS = {
         "required": "比、男",
         "prompt": "Dùng đủ hai từ để nói bạn nam đó cao hơn bạn.",
         "sample": "那个男同学比我高。"
+      },
+      {
+        "id": "l2408-w4",
+        "kind": "sentence-given-words",
+        "topic": "cô gái đã giúp tôi",
+        "structure": "cụm động từ + 的 + danh từ",
+        "words": [
+          "帮",
+          "女孩子"
+        ],
+        "required": "帮、女孩子",
+        "prompt": "Đặt câu dùng \"cụm động từ+的+danh từ\" với hai từ cho sẵn (bài trong PDF, câu 1).",
+        "sample": "帮我的那个女孩子是我的同学。"
+      },
+      {
+        "id": "l2408-w5",
+        "kind": "sentence-given-words",
+        "topic": "bạn học hay đặt câu hỏi",
+        "structure": "cụm động từ + 的 + danh từ（người）",
+        "words": [
+          "问",
+          "问题"
+        ],
+        "required": "问、问题",
+        "prompt": "Đặt câu dùng \"cụm động từ+的+danh từ\" với hai từ cho sẵn (bài trong PDF, câu 2).",
+        "sample": "问问题的那个学生很认真。"
+      },
+      {
+        "id": "l2408-w6",
+        "kind": "sentence-given-words",
+        "topic": "bộ quần áo tôi thích",
+        "structure": "cụm động từ + 的 + danh từ（vật）",
+        "words": [
+          "喜欢",
+          "衣服"
+        ],
+        "required": "喜欢、衣服",
+        "prompt": "Đặt câu dùng \"cụm động từ+的+danh từ\" với hai từ cho sẵn (bài trong PDF, câu 3).",
+        "sample": "我喜欢的衣服有点儿贵。"
+      },
+      {
+        "id": "l2408-w7",
+        "kind": "sentence-given-words",
+        "topic": "những người bạn tôi quen",
+        "structure": "cụm động từ + 的 + danh từ（bạn bè）",
+        "words": [
+          "认识",
+          "朋友"
+        ],
+        "required": "认识、朋友",
+        "prompt": "Đặt câu dùng \"cụm động từ+的+danh từ\" với hai từ cho sẵn (bài trong PDF, câu 4).",
+        "sample": "我认识的朋友都很热情。"
+      },
+      {
+        "id": "l2408-w8",
+        "kind": "sentence-given-words",
+        "topic": "người mua nhiều hoa quả",
+        "structure": "cụm động từ + 的 + đại từ/danh từ chỉ người",
+        "words": [
+          "多",
+          "买",
+          "水果"
+        ],
+        "required": "多、买、水果",
+        "prompt": "Đặt câu dùng \"cụm động từ+的+danh từ\" với ba từ cho sẵn (bài trong PDF, câu 5).",
+        "sample": "多买水果的人是我妈妈。"
+      },
+      {
+        "id": "l2408-w9",
+        "kind": "sentence-given-words",
+        "topic": "đoán David đang ở văn phòng",
+        "structure": "S + 可能 + 在 + địa điểm",
+        "words": [
+          "可能",
+          "办公室"
+        ],
+        "required": "可能、办公室",
+        "prompt": "Trả lời câu hỏi \"大卫在哪儿？\" bằng \"可能\" (bài \"Trả lời câu hỏi dùng 可能\" trong PDF, câu 1).",
+        "sample": "他可能在办公室。"
+      },
+      {
+        "id": "l2408-w10",
+        "kind": "sentence-given-words",
+        "topic": "đoán kế hoạch thứ bảy",
+        "structure": "S + 可能 + động từ + tân ngữ",
+        "words": [
+          "可能",
+          "电影"
+        ],
+        "required": "可能、电影",
+        "prompt": "Trả lời câu hỏi \"星期六你准备做什么？\" bằng \"可能\" (bài trong PDF, câu 2).",
+        "sample": "我可能去看电影。"
+      },
+      {
+        "id": "l2408-w11",
+        "kind": "sentence-given-words",
+        "topic": "đoán lý do còn ngủ",
+        "structure": "S + 可能 + mệnh đề（lý do）",
+        "words": [
+          "可能",
+          "睡"
+        ],
+        "required": "可能、睡",
+        "prompt": "Trả lời câu hỏi \"都十点了，他怎么还在睡觉？\" bằng \"可能\" (bài trong PDF, câu 3).",
+        "sample": "他可能昨天睡得很晚。"
+      },
+      {
+        "id": "l2408-w12",
+        "kind": "sentence-given-words",
+        "topic": "đoán tối nay không đến được",
+        "structure": "S + 可能 + 不能 + động từ",
+        "words": [
+          "可能",
+          "不能"
+        ],
+        "required": "可能、不能",
+        "prompt": "Trả lời câu hỏi \"你今晚要来我家看电视吗？\" bằng \"可能\" (bài trong PDF, câu 4).",
+        "sample": "我可能不能去，我有事。"
       }
     ]
   },
@@ -3192,6 +3544,2418 @@ window.HSK_PRACTICE_EXTENSIONS = {
         "required": "近、弟弟",
         "prompt": "Dùng đủ hai từ để nói vì nhà em trai không gần công ty nên phải dậy sớm hơn.",
         "sample": "因为弟弟家离公司不近，所以他比我早起。"
+      },
+      {
+        "id": "l2608-w4",
+        "kind": "sentence-given-words",
+        "topic": "mở rộng câu 她跳舞",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "跳舞",
+          "得"
+        ],
+        "required": "跳舞、得",
+        "prompt": "Mở rộng câu \"她跳舞\" thành câu có bổ ngữ trạng thái (bài \"Mở rộng các câu sau\" trong PDF, câu 1).",
+        "sample": "她跳舞跳得很好。"
+      },
+      {
+        "id": "l2608-w5",
+        "kind": "sentence-given-words",
+        "topic": "mở rộng câu 我起床",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "起床",
+          "得"
+        ],
+        "required": "起床、得",
+        "prompt": "Mở rộng câu \"我起床\" thành câu có bổ ngữ trạng thái (bài \"Mở rộng các câu sau\" trong PDF, câu 2).",
+        "sample": "我起床起得很早。"
+      },
+      {
+        "id": "l2608-w6",
+        "kind": "sentence-given-words",
+        "topic": "mở rộng câu 他唱歌",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "唱歌",
+          "得"
+        ],
+        "required": "唱歌、得",
+        "prompt": "Mở rộng câu \"他唱歌\" thành câu có bổ ngữ trạng thái (bài \"Mở rộng các câu sau\" trong PDF, câu 3).",
+        "sample": "他唱歌唱得很好听。"
+      },
+      {
+        "id": "l2608-w7",
+        "kind": "sentence-given-words",
+        "topic": "mở rộng câu 妈妈做饭",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "做饭",
+          "得"
+        ],
+        "required": "做饭、得",
+        "prompt": "Mở rộng câu \"妈妈做饭\" thành câu có bổ ngữ trạng thái (bài \"Mở rộng các câu sau\" trong PDF, câu 4).",
+        "sample": "妈妈做饭做得很好吃。"
+      },
+      {
+        "id": "l2608-w8",
+        "kind": "sentence-given-words",
+        "topic": "mở rộng câu 小明打篮球",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "打篮球",
+          "得"
+        ],
+        "required": "打篮球、得",
+        "prompt": "Mở rộng câu \"小明打篮球\" thành câu có bổ ngữ trạng thái (bài \"Mở rộng các câu sau\" trong PDF, câu 5).",
+        "sample": "小明打篮球打得很好。"
+      },
+      {
+        "id": "l2608-w9",
+        "kind": "sentence-given-words",
+        "topic": "mở rộng câu 留学生说汉语",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "说汉语",
+          "得"
+        ],
+        "required": "说汉语、得",
+        "prompt": "Mở rộng câu \"留学生说汉语\" thành câu có bổ ngữ trạng thái (bài \"Mở rộng các câu sau\" trong PDF, câu 6).",
+        "sample": "留学生说汉语说得很好。"
+      },
+      {
+        "id": "l2608-w10",
+        "kind": "sentence-given-words",
+        "topic": "đặt câu với 吃 và 少",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "吃",
+          "少"
+        ],
+        "required": "吃、少",
+        "prompt": "Dùng đủ hai từ cho sẵn để đặt câu với \"V+得\" (bài \"Đặt câu dùng V+得\" trong PDF, câu 1).",
+        "sample": "他今天吃得很少。"
+      },
+      {
+        "id": "l2608-w11",
+        "kind": "sentence-given-words",
+        "topic": "đặt câu với 住 và 近",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "住",
+          "近"
+        ],
+        "required": "住、近",
+        "prompt": "Dùng đủ hai từ cho sẵn để đặt câu với \"V+得\" (bài \"Đặt câu dùng V+得\" trong PDF, câu 2).",
+        "sample": "我和王方住得很近。"
+      },
+      {
+        "id": "l2608-w12",
+        "kind": "sentence-given-words",
+        "topic": "đặt câu với 起 và 晚",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "起",
+          "晚"
+        ],
+        "required": "起、晚",
+        "prompt": "Dùng đủ hai từ cho sẵn để đặt câu với \"V+得\" (bài \"Đặt câu dùng V+得\" trong PDF, câu 3).",
+        "sample": "弟弟今天起得太晚了。"
+      },
+      {
+        "id": "l2608-w13",
+        "kind": "sentence-given-words",
+        "topic": "đặt câu với 穿 và 多",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "穿",
+          "多"
+        ],
+        "required": "穿、多",
+        "prompt": "Dùng đủ hai từ cho sẵn để đặt câu với \"V+得\" (bài \"Đặt câu dùng V+得\" trong PDF, câu 4).",
+        "sample": "今天很冷，你穿得多一点儿吧。"
+      },
+      {
+        "id": "l2608-w14",
+        "kind": "sentence-given-words",
+        "topic": "đặt câu với 走 và 快",
+        "structure": "S + động từ + 得 + tính từ",
+        "words": [
+          "走",
+          "快"
+        ],
+        "required": "走、快",
+        "prompt": "Dùng đủ hai từ cho sẵn để đặt câu với \"V+得\" (bài \"Đặt câu dùng V+得\" trong PDF, câu 5).",
+        "sample": "她走得很快。"
+      }
+    ]
+  },
+  "l0409": {
+    "date": "04/09/2026",
+    "reading": {
+      "prose": "我们班新来了一个女生，叫杨笑笑，她长着两个大眼睛，非常爱笑。今天上课的时候，我看见她手里拿着一支铅笔，一直在认真地写字。下课以后，我问她：你不是说你不认识路吗？她说：对啊，我还不知道宾馆怎么走。我告诉她：你一直往前走，到了第一个路口再往左走，很快就到了。她笑着说谢谢，就往前走了。",
+      "dialogue": [
+        "谢鹏：你知道杨笑笑吗？就是我们班那个长着两个大眼睛，非常爱笑的女孩儿。",
+        "大卫：知道，她今天手里一直拿着铅笔，在认真写字。",
+        "谢鹏：她不是说她不认识路吗？我想问问她找到宾馆了没有。",
+        "大卫：她找到了，我告诉她一直往前走，到路口再往左走就是宾馆了。",
+        "谢鹏：她一直笑着说谢谢，是不是很有礼貌？",
+        "大卫：对啊，她笑起来真好看。",
+        "谢鹏：那个手里拿着铅笔的男生是谁？",
+        "大卫：我不认识，他好像是别的班的。",
+        "谢鹏：他一直站在路口，是不是在等人？",
+        "大卫：可能吧，我们走吧，别一直看着他们了。"
+      ],
+      "questions": [
+        {
+          "id": "l0409-r1",
+          "prompt": "杨笑笑长什么样？",
+          "options": [
+            "长着两个大眼睛，非常爱笑",
+            "长得很矮，不爱笑",
+            "长着长头发",
+            "不知道"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"长着两个大眼睛，非常爱笑\"。"
+        },
+        {
+          "id": "l0409-r2",
+          "prompt": "上课时\"我\"看见杨笑笑手里拿着什么？",
+          "options": [
+            "一支铅笔",
+            "一本书",
+            "一部手机",
+            "一杯水"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"手里拿着一支铅笔\"。"
+        },
+        {
+          "id": "l0409-r3",
+          "prompt": "谢鹏想问杨笑笑什么？",
+          "options": [
+            "找到宾馆了没有",
+            "认不认识路",
+            "要不要一起吃饭",
+            "喜不喜欢笑"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 谢鹏 nói muốn hỏi cô ấy đã tìm được khách sạn chưa."
+        },
+        {
+          "id": "l0409-r4",
+          "prompt": "大卫怎么告诉杨笑笑去宾馆的路？",
+          "options": [
+            "一直往前走，到路口再往左走",
+            "一直往后走",
+            "先往右走再往前走",
+            "不知道怎么走"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói \"我告诉她一直往前走，到路口再往左走\"。"
+        },
+        {
+          "id": "l0409-r5",
+          "prompt": "杨笑笑找到宾馆后是什么反应？",
+          "options": [
+            "笑着说谢谢，往前走了",
+            "生气地走了",
+            "没有说话",
+            "哭了"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều nói cô ấy cười cảm ơn rồi đi tiếp."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l0409-w1",
+        "kind": "sentence-given-words",
+        "topic": "cô gái có đôi mắt to hay cười",
+        "structure": "S + 长着 + bộ phận cơ thể，非常 + 爱笑",
+        "words": [
+          "长",
+          "笑"
+        ],
+        "required": "长、笑",
+        "prompt": "Dùng đủ hai từ để tả một cô gái có đôi mắt to và rất hay cười.",
+        "sample": "她长着一双大眼睛，非常爱笑。"
+      },
+      {
+        "id": "l0409-w2",
+        "kind": "sentence-given-words",
+        "topic": "chỉ đường đến khách sạn",
+        "structure": "一直往前走，到路口再往 + hướng + 走",
+        "words": [
+          "一直",
+          "宾馆"
+        ],
+        "required": "一直、宾馆",
+        "prompt": "Dùng đủ hai từ để chỉ đường: đi thẳng về phía trước là đến khách sạn.",
+        "sample": "你一直往前走就到宾馆了。"
+      },
+      {
+        "id": "l0409-w3",
+        "kind": "sentence-given-words",
+        "topic": "tay cầm bút chì viết chữ",
+        "structure": "S + 手里 + 拿着 + danh từ，一直在 + động từ",
+        "words": [
+          "拿",
+          "铅笔"
+        ],
+        "required": "拿、铅笔",
+        "prompt": "Dùng đủ hai từ để nói tay cô ấy đang cầm bút chì, cứ viết chữ mãi.",
+        "sample": "她手里拿着铅笔，一直在写字。"
+      },
+      {
+        "id": "l0409-w4",
+        "kind": "sentence-given-words",
+        "topic": "nhắc bạn vẫn luyện viết chữ mỗi ngày",
+        "structure": "不是 + mệnh đề + 吗？",
+        "words": [
+          "不是",
+          "练习"
+        ],
+        "required": "不是、练习",
+        "prompt": "Trả lời bằng \"不是……吗\" cho câu \"我汉字写得不好。\" (bài \"Hoàn thành đối thoại dùng 不是……吗\" trong PDF, câu 1).",
+        "sample": "你不是每天都练习吗？"
+      },
+      {
+        "id": "l0409-w5",
+        "kind": "sentence-given-words",
+        "topic": "nhắc rằng đã có áo đỏ rồi",
+        "structure": "不是 + 已经 + mệnh đề + 吗？",
+        "words": [
+          "不是",
+          "红色"
+        ],
+        "required": "不是、红色",
+        "prompt": "Trả lời bằng \"不是……吗\" cho câu \"我想买这件红色的衣服。\" (bài trong PDF, câu 2).",
+        "sample": "你不是已经有一件红色的衣服了吗？"
+      },
+      {
+        "id": "l0409-w6",
+        "kind": "sentence-given-words",
+        "topic": "nhắc rằng đã hẹn về lúc tám giờ",
+        "structure": "不是 + 说 + mệnh đề + 吗？",
+        "words": [
+          "不是",
+          "回家"
+        ],
+        "required": "不是、回家",
+        "prompt": "Trả lời bằng \"不是……吗\" cho câu \"我今晚十点回家。\" (bài trong PDF, câu 3).",
+        "sample": "你不是说八点回家吗？"
+      },
+      {
+        "id": "l0409-w7",
+        "kind": "sentence-given-words",
+        "topic": "nhắc rằng đã ăn hai bát rồi",
+        "structure": "不是 + 已经 + động từ + 了 + 吗？",
+        "words": [
+          "不是",
+          "面条"
+        ],
+        "required": "不是、面条",
+        "prompt": "Trả lời bằng \"不是……吗\" cho câu \"我想再吃一碗面条。\" (bài trong PDF, câu 4).",
+        "sample": "你不是已经吃了两碗面条了吗？"
+      }
+    ]
+  },
+  "l0709": {
+    "date": "07/09/2026",
+    "reading": {
+      "prose": "我和朋友聊天的时候，她说她去过中国好几次，可是我一次也没去过。她告诉我，虽然中国很大，但是她最喜欢北京。我问她，你看过那部关于北京的电影吗？她说看过，还说很有意思。她说，虽然那部电影已经看了两次，但是她还想再看一次。我们约好下个月天气好的时候，一起去看电影，然后出去散散步。",
+      "dialogue": [
+        "谢鹏：听说你去过中国好几次，是真的吗？",
+        "李月：是啊，我虽然去过好几次，但是还想再去玩儿玩儿。",
+        "谢鹏：你看过那部关于北京的电影吗？",
+        "李月：看过，已经看了两次了，很有意思。",
+        "谢鹏：那我们这个星期一起去看吧？",
+        "李月：可以，但是我这几天要开会，还没完成工作。",
+        "谢鹏：那等你完成工作，天晴的时候我们再一起去散散步吧。",
+        "李月：好啊，我们下个星期就去。",
+        "谢鹏：对了，你知道那家饭店的烤鸭多少钱一只吗？",
+        "李月：好像要一百多块钱。"
+      ],
+      "questions": [
+        {
+          "id": "l0709-r1",
+          "prompt": "\"我\"去过中国吗？",
+          "options": [
+            "一次也没去过",
+            "去过一次",
+            "去过好几次",
+            "不知道"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"可是我一次也没去过\"。"
+        },
+        {
+          "id": "l0709-r2",
+          "prompt": "那部电影\"她\"已经看了几次？",
+          "options": [
+            "两次",
+            "一次",
+            "三次",
+            "没看过"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"那部电影已经看了两次\"。"
+        },
+        {
+          "id": "l0709-r3",
+          "prompt": "李月这几天要做什么，所以还没去看电影？",
+          "options": [
+            "开会，没完成工作",
+            "生病了",
+            "去旅游了",
+            "不想去"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 李月 nói \"我这几天要开会，还没完成工作\"。"
+        },
+        {
+          "id": "l0709-r4",
+          "prompt": "他们打算什么时候一起去看电影？",
+          "options": [
+            "下个星期",
+            "今天",
+            "明天",
+            "不知道"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 李月 nói \"我们下个星期就去\"。"
+        },
+        {
+          "id": "l0709-r5",
+          "prompt": "李月对中国电影和中国旅游的态度是什么？",
+          "options": [
+            "都很喜欢，还想再去/再看",
+            "都不喜欢",
+            "只喜欢旅游",
+            "只喜欢看电影"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều cho thấy 李月 rất thích cả hai và muốn lặp lại."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l0709-w1",
+        "kind": "sentence-given-words",
+        "topic": "đã từng đi Trung Quốc nhiều lần",
+        "structure": "S + 去过 + địa điểm + 好几 + 次",
+        "words": [
+          "次",
+          "玩儿"
+        ],
+        "required": "次、玩儿",
+        "prompt": "Dùng đủ hai từ để nói bạn đã đi Trung Quốc chơi mấy lần rồi.",
+        "sample": "我去过中国玩儿好几次了。"
+      },
+      {
+        "id": "l0709-w2",
+        "kind": "sentence-given-words",
+        "topic": "tuy trời nắng nhưng lạnh",
+        "structure": "虽然 + tính từ，但是 + tính từ trái nghĩa",
+        "words": [
+          "虽然",
+          "晴"
+        ],
+        "required": "虽然、晴",
+        "prompt": "Dùng đủ hai từ để nói tuy trời nắng ráo nhưng vẫn rất lạnh.",
+        "sample": "虽然今天很晴，但是很冷。"
+      },
+      {
+        "id": "l0709-w3",
+        "kind": "sentence-given-words",
+        "topic": "chưa xong việc vì phải họp",
+        "structure": "S + 要 + 开会，还没 + 完成 + tân ngữ",
+        "words": [
+          "开会",
+          "完成"
+        ],
+        "required": "开会、完成",
+        "prompt": "Dùng đủ hai từ để nói bạn phải họp nên chưa hoàn thành công việc.",
+        "sample": "我要开会，还没完成工作。"
+      },
+      {
+        "id": "l0709-w4",
+        "kind": "sentence-given-words",
+        "topic": "từng đến cửa hàng này nên biết rẻ",
+        "structure": "S + động từ + 过 + tân ngữ",
+        "words": [
+          "过",
+          "便宜"
+        ],
+        "required": "过、便宜",
+        "prompt": "Trả lời câu \"你怎么知道这家店很便宜？\" bằng \"V+过\" (bài trong PDF, câu 1).",
+        "sample": "我来过这家店，东西很便宜。"
+      },
+      {
+        "id": "l0709-w5",
+        "kind": "sentence-given-words",
+        "topic": "từng đến đây nên biết đẹp",
+        "structure": "S + 以前 + động từ + 过 + địa điểm",
+        "words": [
+          "过",
+          "漂亮"
+        ],
+        "required": "过、漂亮",
+        "prompt": "Trả lời câu \"你怎么知道这里很漂亮？\" bằng \"V+过\" (bài trong PDF, câu 2).",
+        "sample": "我以前来过这里，这里很漂亮。"
+      },
+      {
+        "id": "l0709-w6",
+        "kind": "sentence-given-words",
+        "topic": "từng ăn vịt quay nên biết ngon",
+        "structure": "S + 吃过 + món ăn",
+        "words": [
+          "过",
+          "好吃"
+        ],
+        "required": "过、好吃",
+        "prompt": "Trả lời câu \"你怎么知道烤鸭很好吃？\" bằng \"V+过\" (bài trong PDF, câu 3).",
+        "sample": "我吃过烤鸭，很好吃。"
+      },
+      {
+        "id": "l0709-w7",
+        "kind": "sentence-given-words",
+        "topic": "từng đọc quyển sách này",
+        "structure": "S + 看过 + danh từ",
+        "words": [
+          "过",
+          "书"
+        ],
+        "required": "过、书",
+        "prompt": "Trả lời câu \"你怎么知道这本书很好看？\" bằng \"V+过\" (bài trong PDF, câu 4).",
+        "sample": "我看过这本书，很好看。"
+      },
+      {
+        "id": "l0709-w8",
+        "kind": "sentence-given-words",
+        "topic": "từng học tiếng Trung ở Trung Quốc",
+        "structure": "S + 在 + địa điểm + 学过 + tân ngữ",
+        "words": [
+          "过",
+          "汉语"
+        ],
+        "required": "过、汉语",
+        "prompt": "Trả lời câu \"你的汉语怎么这么好？\" bằng \"V+过\" (bài trong PDF, câu 5).",
+        "sample": "我在中国学过汉语。"
+      },
+      {
+        "id": "l0709-w9",
+        "kind": "sentence-given-words",
+        "topic": "đã ra sân bay ba lần",
+        "structure": "S + động từ + 过 + số + 次 + tân ngữ",
+        "words": [
+          "次",
+          "机场"
+        ],
+        "required": "次、机场",
+        "prompt": "Đặt câu dùng \"次\" với hai từ cho sẵn (bài \"Đặt câu dùng 次\" trong PDF, câu 1).",
+        "sample": "我去过三次机场。"
+      },
+      {
+        "id": "l0709-w10",
+        "kind": "sentence-given-words",
+        "topic": "đã đi máy bay hai lần",
+        "structure": "S + động từ + 过 + số + 次 + phương tiện",
+        "words": [
+          "次",
+          "飞机"
+        ],
+        "required": "次、飞机",
+        "prompt": "Đặt câu dùng \"次\" với hai từ cho sẵn (bài trong PDF, câu 2).",
+        "sample": "我坐过两次飞机。"
+      },
+      {
+        "id": "l0709-w11",
+        "kind": "sentence-given-words",
+        "topic": "mỗi tháng thăm chị một lần",
+        "structure": "S + thời gian + động từ + 一次 + tân ngữ",
+        "words": [
+          "次",
+          "姐姐"
+        ],
+        "required": "次、姐姐",
+        "prompt": "Đặt câu dùng \"次\" với hai từ cho sẵn (bài trong PDF, câu 3).",
+        "sample": "我一个月看一次姐姐。"
+      },
+      {
+        "id": "l0709-w12",
+        "kind": "sentence-given-words",
+        "topic": "mỗi ngày giao báo một lần",
+        "structure": "S + 每天 + động từ + 一次 + tân ngữ",
+        "words": [
+          "次",
+          "报纸"
+        ],
+        "required": "次、报纸",
+        "prompt": "Đặt câu dùng \"次\" với hai từ cho sẵn (bài trong PDF, câu 4).",
+        "sample": "他每天送一次报纸。"
+      },
+      {
+        "id": "l0709-w13",
+        "kind": "sentence-given-words",
+        "topic": "đã đến nhà bạn mấy lần",
+        "structure": "S + động từ + 过 + 几次 + địa điểm",
+        "words": [
+          "次",
+          "朋友"
+        ],
+        "required": "次、朋友",
+        "prompt": "Đặt câu dùng \"次\" với hai từ cho sẵn (bài trong PDF, câu 5).",
+        "sample": "我来过几次朋友家。"
+      },
+      {
+        "id": "l0709-w14",
+        "kind": "sentence-given-words",
+        "topic": "đã học tiếng Trung hai năm",
+        "structure": "S + động từ + 过 + khoảng thời gian + tân ngữ",
+        "words": [
+          "学",
+          "两年"
+        ],
+        "required": "学、两年",
+        "prompt": "Hoàn thành đối thoại \"你的汉语说得太好了。\" bằng \"过\" (PDF tr.10, câu 1, gợi ý 学；两年).",
+        "sample": "我学过两年汉语。"
+      },
+      {
+        "id": "l0709-w15",
+        "kind": "sentence-given-words",
+        "topic": "chưa từng đến chỗ này nên không biết đường",
+        "structure": "S + 没 + động từ + 过 + địa điểm",
+        "words": [
+          "没",
+          "来"
+        ],
+        "required": "没、来",
+        "prompt": "Hoàn thành đối thoại \"请问机场怎么走？不好意思，……\" bằng \"过\" (PDF tr.10, câu 2, gợi ý 没；来).",
+        "sample": "不好意思，我没来过这儿。"
+      },
+      {
+        "id": "l0709-w16",
+        "kind": "sentence-given-words",
+        "topic": "chưa từng ăn ở nhà hàng này",
+        "structure": "S + 没 + 吃过 + tân ngữ",
+        "words": [
+          "吃",
+          "饭店"
+        ],
+        "required": "吃、饭店",
+        "prompt": "Hoàn thành đối thoại \"这家饭店的菜好吃吗？\" bằng \"过\" (PDF tr.10, câu 3, gợi ý 吃).",
+        "sample": "我没吃过这家饭店的菜。"
+      },
+      {
+        "id": "l0709-w17",
+        "kind": "sentence-given-words",
+        "topic": "chưa từng uống cà phê nên không biết",
+        "structure": "S + 没 + 喝过 + tân ngữ",
+        "words": [
+          "喝",
+          "咖啡"
+        ],
+        "required": "喝、咖啡",
+        "prompt": "Hoàn thành đối thoại \"你觉得咖啡怎么样？不知道，……\" bằng \"过\" (PDF tr.10, câu 4, gợi ý 喝).",
+        "sample": "不知道，我没喝过咖啡。"
+      }
+    ]
+  },
+  "l1109": {
+    "date": "11/09/2026",
+    "reading": {
+      "prose": "新年就要到了，火车站的票越来越难买。我妹妹住在外地，她说她更喜欢坐火车回家过年，虽然要坐很久，但是能一路看风景。我告诉她：你都买了车票了吗？她说已经买了，是12月29日的票。我们都很想她，天天都在等她回来。她说：你们再等几天吧，我很快就要到家了！",
+      "dialogue": [
+        "谢鹏：新年就要到了，你买火车票了吗？",
+        "大卫：还没买呢，听说火车站的票越来越难买了。",
+        "谢鹏：我妹妹已经买了，她更喜欢坐火车回家过年。",
+        "大卫：坐火车不是要很久吗？",
+        "谢鹏：是啊，但是她说能一路看风景，她更喜欢这样。",
+        "大卫：那她是几号的票？",
+        "谢鹏：12月29日的，离新年还有几天。",
+        "大卫：天都黑了，我们也快点儿去买票吧。",
+        "谢鹏：好啊，我也不想等到快要没票的时候才去。",
+        "大卫：走吧，火车站离这儿不远。"
+      ],
+      "questions": [
+        {
+          "id": "l1109-r1",
+          "prompt": "火车站的票怎么样？",
+          "options": [
+            "越来越难买",
+            "很容易买",
+            "已经卖完了",
+            "不用买"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"火车站的票越来越难买\"。"
+        },
+        {
+          "id": "l1109-r2",
+          "prompt": "妹妹为什么更喜欢坐火车回家？",
+          "options": [
+            "能一路看风景",
+            "比较便宜",
+            "比较快",
+            "不晕车"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"能一路看风景\"。"
+        },
+        {
+          "id": "l1109-r3",
+          "prompt": "谢鹏的妹妹是几号的票？",
+          "options": [
+            "12月29日",
+            "12月20日",
+            "1月1日",
+            "新年当天"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 谢鹏 nói \"12月29日的\"。"
+        },
+        {
+          "id": "l1109-r4",
+          "prompt": "大卫买火车票了吗？",
+          "options": [
+            "还没买",
+            "已经买了",
+            "不想买",
+            "已经没票了"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói \"还没买呢\"。"
+        },
+        {
+          "id": "l1109-r5",
+          "prompt": "大家对买新年火车票这件事的态度是什么？",
+          "options": [
+            "都很着急，怕票越来越难买",
+            "都不着急",
+            "都不想回家",
+            "都已经买好了"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều cho thấy mọi người đều lo lắng vì vé ngày càng khó mua."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l1109-w1",
+        "kind": "sentence-given-words",
+        "topic": "vé tàu ngày càng khó mua",
+        "structure": "danh từ + 越来越 + tính từ",
+        "words": [
+          "火车站",
+          "票"
+        ],
+        "required": "火车站、票",
+        "prompt": "Dùng đủ hai từ để nói vé ở ga tàu ngày càng khó mua.",
+        "sample": "火车站的票越来越难买。"
+      },
+      {
+        "id": "l1109-w2",
+        "kind": "sentence-given-words",
+        "topic": "thích đi tàu hơn vì ngắm cảnh",
+        "structure": "S + 更喜欢 + động từ，虽然...但是...",
+        "words": [
+          "更",
+          "过年"
+        ],
+        "required": "更、过年",
+        "prompt": "Dùng đủ hai từ để nói em gái thích đi tàu về ăn Tết hơn.",
+        "sample": "妹妹更喜欢坐火车回家过年。"
+      },
+      {
+        "id": "l1109-w3",
+        "kind": "sentence-given-words",
+        "topic": "trời tối rồi phải đi mua vé",
+        "structure": "天 + 都 + tính từ + 了，S + 快点儿 + động từ",
+        "words": [
+          "大家",
+          "半"
+        ],
+        "required": "大家、半",
+        "prompt": "Dùng đủ hai từ để nói mọi người đã đợi nửa tiếng rồi, phải mau đi mua vé.",
+        "sample": "大家都等了半个小时了，快点儿去买票吧。"
+      }
+    ]
+  },
+  "l2309": {
+    "date": "23/09/2026",
+    "reading": {
+      "prose": "这个周末小刚打算搬家，从北方搬到南方工作。他一直很着急，因为还没做好搬家的准备，作业也没复习完。我打算周末跟他一起去，帮他搬东西。他说他一点儿地图都没带，怕找不到新家在哪儿。我告诉他：那我们先在网上查一下地址吧。出发前，妈妈带了一些面包给我们当路上的早饭，还请我们晚上回来吃饭。",
+      "dialogue": [
+        "谢鹏：听说小刚这个周末要搬家？",
+        "大卫：对，他打算从北方搬到南方工作，一直很着急。",
+        "谢鹏：他做好搬家的准备了吗？",
+        "大卫：还没呢，作业也没复习完，他说他一点儿地图都没带。",
+        "谢鹏：那我们周末一起去帮他搬东西吧？",
+        "大卫：好啊，我跟你一起去。",
+        "谢鹏：要不要带点儿面包给他当早饭？",
+        "大卫：好主意，我请你一起去买面包吧。",
+        "谢鹏：他一点儿都不着急自己找地图吗？",
+        "大卫：他说要在网上查，不打算带纸地图了。"
+      ],
+      "questions": [
+        {
+          "id": "l2309-r1",
+          "prompt": "小刚这个周末打算做什么？",
+          "options": [
+            "从北方搬到南方工作",
+            "去旅行",
+            "去踢球",
+            "复习作业"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"小刚打算搬家，从北方搬到南方工作\"。"
+        },
+        {
+          "id": "l2309-r2",
+          "prompt": "小刚为什么一直很着急？",
+          "options": [
+            "还没做好搬家的准备，作业也没复习完",
+            "没有钱",
+            "找不到朋友帮忙",
+            "天气不好"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"还没做好搬家的准备，作业也没复习完\"。"
+        },
+        {
+          "id": "l2309-r3",
+          "prompt": "大卫和谢鹏打算周末做什么？",
+          "options": [
+            "一起去帮小刚搬东西",
+            "一起去旅行",
+            "一起去踢球",
+            "一起复习作业"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 谢鹏 nói \"我们周末一起去帮他搬东西吧\"。"
+        },
+        {
+          "id": "l2309-r4",
+          "prompt": "小刚打算怎么找新家的地址？",
+          "options": [
+            "在网上查，不带纸地图",
+            "带一张地图",
+            "问朋友",
+            "不需要找"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 大卫 nói \"他说要在网上查，不打算带纸地图了\"。"
+        },
+        {
+          "id": "l2309-r5",
+          "prompt": "谁准备了面包，用来做什么？",
+          "options": [
+            "妈妈准备的，给大家当路上的早饭",
+            "小刚准备的，自己吃",
+            "谢鹏准备的，送给邻居",
+            "大卫准备的，晚上吃"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"妈妈带了一些面包给我们当路上的早饭\"。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l2309-w1",
+        "kind": "sentence-given-words",
+        "topic": "chuyển nhà từ bắc vào nam",
+        "structure": "S + 打算 + 从 + 北方 + 搬到 + 南方",
+        "words": [
+          "打算",
+          "搬"
+        ],
+        "required": "打算、搬",
+        "prompt": "Dùng đủ hai từ để nói bạn định chuyển từ miền Bắc vào miền Nam làm việc.",
+        "sample": "我打算从北方搬到南方工作。"
+      },
+      {
+        "id": "l2309-w2",
+        "kind": "sentence-given-words",
+        "topic": "chưa chuẩn bị gì, một chút cũng không",
+        "structure": "一点儿 + danh từ + 都 + 没 + động từ",
+        "words": [
+          "着急",
+          "地图"
+        ],
+        "required": "着急、地图",
+        "prompt": "Dùng đủ hai từ để nói bạn rất lo vì một tấm bản đồ cũng chưa mang theo.",
+        "sample": "我很着急，因为一点儿地图都没带。"
+      },
+      {
+        "id": "l2309-w3",
+        "kind": "sentence-given-words",
+        "topic": "mời ăn cơm tối sau khi giúp chuyển nhà",
+        "structure": "那 + S + 请 + đối tượng + động từ",
+        "words": [
+          "那",
+          "请"
+        ],
+        "required": "那、请",
+        "prompt": "Dùng đủ hai từ để nói vậy thì tối nay mời bạn ăn cơm.",
+        "sample": "那今晚我请你吃饭吧。"
+      },
+      {
+        "id": "l2309-w4",
+        "kind": "sentence-given-words",
+        "topic": "dự định học nhảy",
+        "structure": "有 + ... + 的打算",
+        "words": [
+          "有",
+          "打算",
+          "跳舞"
+        ],
+        "required": "有、打算、跳舞",
+        "prompt": "Đặt câu với ba từ cho sẵn (bài “Đặt câu với từ cho sẵn” trong PDF, câu 1).",
+        "sample": "我有一个学跳舞的打算。"
+      },
+      {
+        "id": "l2309-w5",
+        "kind": "sentence-given-words",
+        "topic": "không có dự định đi du lịch",
+        "structure": "没有 + ... + 的打算",
+        "words": [
+          "没有",
+          "打算",
+          "旅游"
+        ],
+        "required": "没有、打算、旅游",
+        "prompt": "Đặt câu với ba từ cho sẵn (bài “Đặt câu với từ cho sẵn” trong PDF, câu 2).",
+        "sample": "他没有去旅游的打算。"
+      },
+      {
+        "id": "l2309-w6",
+        "kind": "sentence-given-words",
+        "topic": "dự định vào miền Nam",
+        "structure": "打算 + động từ",
+        "words": [
+          "打算",
+          "南方"
+        ],
+        "required": "打算、南方",
+        "prompt": "Đặt câu với hai từ cho sẵn (bài “Đặt câu với từ cho sẵn” trong PDF, câu 3).",
+        "sample": "我打算去南方工作。"
+      },
+      {
+        "id": "l2309-w7",
+        "kind": "sentence-given-words",
+        "topic": "không định nói chuyện này",
+        "structure": "不打算 + động từ",
+        "words": [
+          "不打算",
+          "说"
+        ],
+        "required": "不打算、说",
+        "prompt": "Đặt câu với hai từ cho sẵn (bài “Đặt câu với từ cho sẵn” trong PDF, câu 4).",
+        "sample": "这件事我不打算说。"
+      },
+      {
+        "id": "l2309-w8",
+        "kind": "sentence-given-words",
+        "topic": "tối nay không định ra ngoài",
+        "structure": "不打算 + động từ（thời gian）",
+        "words": [
+          "不打算",
+          "晚上"
+        ],
+        "required": "不打算、晚上",
+        "prompt": "Đặt câu với hai từ cho sẵn (bài “Đặt câu với từ cho sẵn” trong PDF, câu 5).",
+        "sample": "我今天晚上不打算出门。"
+      },
+      {
+        "id": "l2309-w9",
+        "kind": "sentence-given-words",
+        "topic": "trời mưa to, đừng ra ngoài",
+        "structure": "请 + 不要 + động từ",
+        "words": [
+          "请",
+          "出去"
+        ],
+        "required": "请、出去",
+        "prompt": "Hoàn thành câu \"外面在下大雨，……\" bằng \"请\" (bài “Hoàn thành câu với 请” trong PDF, câu 1).",
+        "sample": "外面在下大雨，请不要出去。"
+      },
+      {
+        "id": "l2309-w10",
+        "kind": "sentence-given-words",
+        "topic": "vào giờ học, đừng nói chuyện",
+        "structure": "请 + 不要 + động từ（lớp học）",
+        "words": [
+          "请",
+          "说话"
+        ],
+        "required": "请、说话",
+        "prompt": "Hoàn thành câu \"上课了，……\" bằng \"请\" (bài “Hoàn thành câu với 请” trong PDF, câu 2).",
+        "sample": "上课了，请不要说话。"
+      },
+      {
+        "id": "l2309-w11",
+        "kind": "sentence-given-words",
+        "topic": "mời đi xem phim cuối tuần",
+        "structure": "请 + Sb + động từ",
+        "words": [
+          "请",
+          "电影"
+        ],
+        "required": "请、电影",
+        "prompt": "Hoàn thành câu \"你周末有时间吗？……\" bằng \"请\" (bài “Hoàn thành câu với 请” trong PDF, câu 3).",
+        "sample": "你周末有时间吗？我想请你看电影。"
+      },
+      {
+        "id": "l2309-w12",
+        "kind": "sentence-given-words",
+        "topic": "rủ đi bơi vì trời nóng",
+        "structure": "请 + Sb + 去 + động từ",
+        "words": [
+          "请",
+          "游泳"
+        ],
+        "required": "请、游泳",
+        "prompt": "Hoàn thành câu \"天气太热了，……\" bằng \"请\" (bài “Hoàn thành câu với 请” trong PDF, câu 4).",
+        "sample": "天气太热了，我请你去游泳吧。"
+      },
+      {
+        "id": "l2309-w13",
+        "kind": "sentence-given-words",
+        "topic": "lần này mời uống cà phê",
+        "structure": "请 + Sb + 喝 + đồ uống",
+        "words": [
+          "请",
+          "咖啡"
+        ],
+        "required": "请、咖啡",
+        "prompt": "Hoàn thành câu \"上次你请我吃饭，……\" bằng \"请\" (bài “Hoàn thành câu với 请” trong PDF, câu 5).",
+        "sample": "上次你请我吃饭，这次我请你喝咖啡。"
+      },
+      {
+        "id": "l2309-w14",
+        "kind": "sentence-given-words",
+        "topic": "chưa ôn xong bài tiếng Trung",
+        "structure": "还没 + động từ + 好",
+        "words": [
+          "好",
+          "汉语课"
+        ],
+        "required": "好、汉语课",
+        "prompt": "Hoàn thành câu \"我不能跟你出去玩儿，……\" bằng \"V+好\" (bài “Hoàn thành câu với V+好” trong PDF, câu 1).",
+        "sample": "我不能跟你出去玩儿，我还没复习好汉语课。"
+      },
+      {
+        "id": "l2309-w15",
+        "kind": "sentence-given-words",
+        "topic": "đã mua xong vé tàu",
+        "structure": "已经 + động từ + 好 + 了",
+        "words": [
+          "好",
+          "火车票"
+        ],
+        "required": "好、火车票",
+        "prompt": "Hoàn thành câu \"我们打算去旅行，……\" bằng \"V+好\" (bài “Hoàn thành câu với V+好” trong PDF, câu 2).",
+        "sample": "我们打算去旅行，已经买好火车票了。"
+      },
+      {
+        "id": "l2309-w16",
+        "kind": "sentence-given-words",
+        "topic": "mặc xong quần áo rồi ra cửa",
+        "structure": "động từ + 好 + 了",
+        "words": [
+          "好",
+          "衣服"
+        ],
+        "required": "好、衣服",
+        "prompt": "Hoàn thành câu \"……，我们准备出门了。\" bằng \"V+好\" (bài “Hoàn thành câu với V+好” trong PDF, câu 3).",
+        "sample": "衣服都穿好了，我们准备出门了。"
+      },
+      {
+        "id": "l2309-w17",
+        "kind": "sentence-given-words",
+        "topic": "cơm chưa nấu xong",
+        "structure": "还没 + động từ + 好",
+        "words": [
+          "好",
+          "饭"
+        ],
+        "required": "好、饭",
+        "prompt": "Hoàn thành câu \"……，你等一下。\" bằng \"V+好\" (bài “Hoàn thành câu với V+好” trong PDF, câu 4).",
+        "sample": "饭还没做好，你等一下。"
+      },
+      {
+        "id": "l2309-w18",
+        "kind": "sentence-given-words",
+        "topic": "thi không tốt nên không vui",
+        "structure": "động từ + 好（phủ định）",
+        "words": [
+          "好",
+          "考试"
+        ],
+        "required": "好、考试",
+        "prompt": "Hoàn thành câu \"……，我有点儿不高兴。\" bằng \"V+好\" (bài “Hoàn thành câu với V+好” trong PDF, câu 5).",
+        "sample": "考试没考好，我有点儿不高兴。"
+      },
+      {
+        "id": "l2309-w19",
+        "kind": "sentence-given-words",
+        "topic": "vậy thì ở nhà nghỉ ngơi",
+        "structure": "那 + mệnh đề（đề xuất）",
+        "words": [
+          "那",
+          "休息"
+        ],
+        "required": "那、休息",
+        "prompt": "Trả lời bằng \"那\" cho câu \"周末我不想去商店买东西。\" (bài “Hoàn thành đối thoại với 那” trong PDF, câu 1).",
+        "sample": "那我们在家休息吧。"
+      },
+      {
+        "id": "l2309-w20",
+        "kind": "sentence-given-words",
+        "topic": "vậy thì hôm khác đi đá bóng",
+        "structure": "那 + mệnh đề（đổi lịch）",
+        "words": [
+          "那",
+          "改天"
+        ],
+        "required": "那、改天",
+        "prompt": "Trả lời bằng \"那\" cho câu \"外边下大雨了，不能去踢球了。\" (bài “Hoàn thành đối thoại với 那” trong PDF, câu 2).",
+        "sample": "那我们改天再去吧。"
+      },
+      {
+        "id": "l2309-w21",
+        "kind": "sentence-given-words",
+        "topic": "vậy thì mua màu trắng",
+        "structure": "那 + mệnh đề（đổi lựa chọn）",
+        "words": [
+          "那",
+          "白色"
+        ],
+        "required": "那、白色",
+        "prompt": "Trả lời bằng \"那\" cho câu \"对不起，红色的手机已经卖完了。\" (bài “Hoàn thành đối thoại với 那” trong PDF, câu 3).",
+        "sample": "那我买白色的吧。"
+      },
+      {
+        "id": "l2309-w22",
+        "kind": "sentence-given-words",
+        "topic": "vậy thì đi xe buýt",
+        "structure": "那 + mệnh đề（đổi phương tiện）",
+        "words": [
+          "那",
+          "公共汽车"
+        ],
+        "required": "那、公共汽车",
+        "prompt": "Trả lời bằng \"那\" cho câu \"下雨了，你别走路去学校了。\" (bài “Hoàn thành đối thoại với 那” trong PDF, câu 4).",
+        "sample": "那我坐公共汽车去。"
+      }
+    ]
+  },
+  "l2509": {
+    "date": "25/09/2026",
+    "reading": {
+      "prose": "今天小刚和小丽一起去爬山，下山的时候，小丽说她腿也疼，脚也疼，走不动了。小刚说，上山容易，下山难，这是很多人都知道的。他们看见前面有棵大树，就过去坐了一会儿。休息好了以后，小刚打算叫辆出租车送小丽回家，可是山上没有出租车，其实走回去也不是很远。这时候，小刚的手机响了，是经理打来的，说办公室有点儿事，叫他回去办事。小刚挂了电话就告诉小丽，他们得快点儿下山了。",
+      "dialogue": [
+        "小丽：休息一下吧，我现在腿也疼，脚也疼。",
+        "小刚：好，那边树多，我们过去坐一下吧。",
+        "小丽：上来的时候我怎么没觉得这么累？",
+        "小刚：上山容易下山难，你不知道吗？",
+        "小丽：那怎么办？我真的走不动了。",
+        "小刚：别着急，我们坐一会儿就好了，你看那棵树下面挺凉快的。",
+        "小丽：你走了这么多路，腿能不疼吗？",
+        "小刚：是啊，其实我也有点儿累，可是不能让你一个人走。",
+        "小丽：谢谢你，我们休息好了就下山吧。",
+        "小刚：好，下了山我请你吃饭，你想吃什么都可以叫。"
+      ],
+      "questions": [
+        {
+          "id": "l2509-r1",
+          "prompt": "小丽下山的时候怎么了？",
+          "options": [
+            "腿也疼，脚也疼，走不动了",
+            "很高兴，走得很快",
+            "迷路了",
+            "想爬山"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"小丽说她腿也疼，脚也疼，走不动了\"。"
+        },
+        {
+          "id": "l2509-r2",
+          "prompt": "小刚为什么没能叫到出租车？",
+          "options": [
+            "山上没有出租车",
+            "出租车太贵",
+            "小丽不想坐车",
+            "手机没电了"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"可是山上没有出租车\"。"
+        },
+        {
+          "id": "l2509-r3",
+          "prompt": "小丽觉得上山和下山哪个更累？",
+          "options": [
+            "下山更累（上山容易下山难）",
+            "上山更累",
+            "一样累",
+            "都不累"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 小刚 nói \"上山容易下山难\"。"
+        },
+        {
+          "id": "l2509-r4",
+          "prompt": "小刚打算怎么帮助小丽？",
+          "options": [
+            "找地方坐下休息，下山请她吃饭",
+            "自己先走了",
+            "让她自己走",
+            "生气了"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 小刚 nói tìm chỗ ngồi nghỉ và mời ăn cơm sau khi xuống núi."
+        },
+        {
+          "id": "l2509-r5",
+          "prompt": "小刚接到经理电话后，他们接下来要做什么？",
+          "options": [
+            "快点儿下山，小刚要回去办事",
+            "继续在山上玩",
+            "去吃饭",
+            "去医院"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"小刚挂了电话就告诉小丽，他们得快点儿下山了\"。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l2509-w1",
+        "kind": "sentence-given-words",
+        "topic": "chân đau vì leo núi",
+        "structure": "S + 腿也 + 疼，脚也 + 疼",
+        "words": [
+          "腿",
+          "疼"
+        ],
+        "required": "腿、疼",
+        "prompt": "Dùng đủ hai từ để nói chân bạn đau, bàn chân cũng đau.",
+        "sample": "我腿也疼，脚也疼。"
+      },
+      {
+        "id": "l2509-w2",
+        "kind": "sentence-given-words",
+        "topic": "thực ra vẫn tập thể dục mỗi ngày",
+        "structure": "mệnh đề，其实 + mệnh đề",
+        "words": [
+          "其实",
+          "容易"
+        ],
+        "required": "其实、容易",
+        "prompt": "Dùng đủ hai từ để nói mọi người tưởng việc này dễ, nhưng thực ra không dễ chút nào.",
+        "sample": "大家都觉得这很容易，其实一点儿也不容易。"
+      },
+      {
+        "id": "l2509-w3",
+        "kind": "sentence-given-words",
+        "topic": "gọi taxi vì giám đốc gọi về văn phòng",
+        "structure": "叫 + 辆 + 出租车，因为 + 经理 + 叫 + đối tượng + 回 + 办公室",
+        "words": [
+          "经理",
+          "叫"
+        ],
+        "required": "经理、叫",
+        "prompt": "Dùng đủ hai từ để nói giám đốc gọi bạn về văn phòng nên bạn phải gọi taxi.",
+        "sample": "经理叫我回办公室，我得叫辆出租车。"
+      },
+      {
+        "id": "l2509-w4",
+        "kind": "sentence-given-words",
+        "topic": "uống sữa xong thì gọi điện cho mẹ",
+        "structure": "S + V1 + 了 + O1 + 就 + V2",
+        "words": [
+          "喝",
+          "牛奶"
+        ],
+        "required": "喝、牛奶",
+        "prompt": "Hoàn thành hội thoại \"你打算什么时候给妈妈打电话？\" bằng \"V1了……就V2……\" (bài trong PDF, câu 1, gợi ý 喝牛奶).",
+        "sample": "你喝了牛奶我就给妈妈打电话。"
+      },
+      {
+        "id": "l2509-w5",
+        "kind": "sentence-given-words",
+        "topic": "về đến nhà là đi ngủ ngay",
+        "structure": "S + 怎么 + V1 + 了 + O1 + 就 + V2",
+        "words": [
+          "到",
+          "睡觉"
+        ],
+        "required": "到、睡觉",
+        "prompt": "Hoàn thành hội thoại \"你怎么……？我太累。\" bằng \"V1了……就V2……\" (bài trong PDF, câu 2, gợi ý 到家、睡觉).",
+        "sample": "你怎么到了家就睡觉。"
+      },
+      {
+        "id": "l2509-w6",
+        "kind": "sentence-given-words",
+        "topic": "anh ấy đến là tôi đi ngay",
+        "structure": "S1 + V1 + 了 + S2 + 就 + V2",
+        "words": [
+          "来",
+          "走"
+        ],
+        "required": "来、走",
+        "prompt": "Hoàn thành hội thoại \"你什么时候走？他来了……\" bằng \"V1了……就V2……\" (bài trong PDF, câu 3).",
+        "sample": "他来了我就走。"
+      },
+      {
+        "id": "l2509-w7",
+        "kind": "sentence-given-words",
+        "topic": "thực ra kỳ thi không khó như lời đồn",
+        "structure": "mệnh đề，其实 + mệnh đề",
+        "words": [
+          "其实",
+          "难"
+        ],
+        "required": "其实、难",
+        "prompt": "Hoàn thành câu \"大家都说这次的考试很难，……\" bằng \"其实\" (bài \"Make the sentence with 其实\" trong PDF, câu 1).",
+        "sample": "大家都说这次的考试很难，其实没有那么难。"
+      },
+      {
+        "id": "l2509-w8",
+        "kind": "sentence-given-words",
+        "topic": "giám đốc ít nói nhưng tốt với mọi người",
+        "structure": "虽然 + mệnh đề，其实 + 对……好",
+        "words": [
+          "其实",
+          "经理"
+        ],
+        "required": "其实、经理",
+        "prompt": "Hoàn thành câu \"虽然周经理不爱说话，……\" bằng \"其实\" và gợi ý \"对……好\" (bài trong PDF, câu 2).",
+        "sample": "虽然周经理不爱说话，其实他对每个人都很好。"
+      },
+      {
+        "id": "l2509-w9",
+        "kind": "sentence-given-words",
+        "topic": "thực ra rất thích đi du lịch",
+        "structure": "其实 + mệnh đề（đính chính）",
+        "words": [
+          "其实",
+          "旅游"
+        ],
+        "required": "其实、旅游",
+        "prompt": "Trả lời câu hỏi \"你不喜欢旅游吗？\" bằng \"其实\" (bài trong PDF, câu 3).",
+        "sample": "其实我很喜欢旅游。"
+      },
+      {
+        "id": "l2509-w10",
+        "kind": "sentence-given-words",
+        "topic": "thực ra đã từng học nhảy",
+        "structure": "其实 + mệnh đề（giải thích lý do）",
+        "words": [
+          "其实",
+          "跳舞"
+        ],
+        "required": "其实、跳舞",
+        "prompt": "Trả lời câu \"以前没看过你跳舞，没想到你跳得真好！\" bằng \"其实\" (bài trong PDF, câu 4).",
+        "sample": "其实我以前学过跳舞。"
+      },
+      {
+        "id": "l2509-w11",
+        "kind": "sentence-given-words",
+        "topic": "chạy nhanh thế thì sao không mệt",
+        "structure": "能 + 不 + tính từ + 吗？",
+        "words": [
+          "能",
+          "累"
+        ],
+        "required": "能、累",
+        "prompt": "Hoàn thành hội thoại \"我怎么这么累啊？你今天跑步跑得那么快，……\" bằng \"能……吗\" (bài trong PDF, câu 1).",
+        "sample": "你今天跑步跑得那么快，能不累吗？"
+      },
+      {
+        "id": "l2509-w12",
+        "kind": "sentence-given-words",
+        "topic": "mặc ít thế thì sao không ốm",
+        "structure": "能 + 不 + động từ + 吗？",
+        "words": [
+          "能",
+          "生病"
+        ],
+        "required": "能、生病",
+        "prompt": "Hoàn thành hội thoại \"我病了，头疼。天气这么冷，你穿得这么少，……\" bằng \"能……吗\" (bài trong PDF, câu 2).",
+        "sample": "天气这么冷，你穿得这么少，能不生病吗？"
+      },
+      {
+        "id": "l2509-w13",
+        "kind": "sentence-given-words",
+        "topic": "luyện tập mỗi ngày thì sao chơi không giỏi",
+        "structure": "能 + động từ + 不 + tính từ + 吗？",
+        "words": [
+          "能",
+          "练习"
+        ],
+        "required": "能、练习",
+        "prompt": "Hoàn thành hội thoại \"你怎么打篮球打得这么好？我每天都练习，……\" bằng \"能……吗\" (bài trong PDF, câu 3).",
+        "sample": "我每天都练习，能打不好吗？"
+      }
+    ]
+  },
+  "l2809": {
+    "date": "28/09/2026",
+    "reading": {
+      "prose": "周末，周太太和周明一起去买东西。周太太想买一条裤子，可是周明记得她已经有两条这样的裤子了，所以她又看了看别的。她看中了一件衬衫，周明说还不错，问多少钱，上面写着320元，周太太说那就买一件吧。路上，他们看见花店里的花又新鲜又好看，周太太还买了一束花，一共又花了几十元。回家的路上，天有点儿阴，电视上说今天多云，周明提醒周太太穿得暖和一点儿。周太太说，下次她想买一条绿色的裤子，周明笑着说好啊，只要她喜欢就行。",
+      "dialogue": [
+        "周太太：你觉得这条裤子怎么样？",
+        "周明：我记得你已经有两条这样的裤子了。",
+        "周太太：那我们再看看别的。",
+        "周明：这件衬衫怎么样？",
+        "周太太：还不错，多少钱？",
+        "周明：这上面写着320元。",
+        "周太太：买一件。那我们还是去看看花吧，还是直接回家？",
+        "周明：外面天气多云，还是早点儿回家吧。",
+        "周太太：好，那我们回家的路上买点儿新鲜水果或者饮料。",
+        "周明：可以，你想买什么都可以。"
+      ],
+      "questions": [
+        {
+          "id": "l2809-r1",
+          "prompt": "周太太一开始想买什么？",
+          "options": [
+            "一条裤子",
+            "一件衬衫",
+            "一束花",
+            "一件绿色的衣服"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"周太太想买一条裤子\"。"
+        },
+        {
+          "id": "l2809-r2",
+          "prompt": "那件衬衫多少钱？",
+          "options": [
+            "320元",
+            "230元",
+            "300元",
+            "32元"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều nói \"上面写着320元\"。"
+        },
+        {
+          "id": "l2809-r3",
+          "prompt": "周明觉得周太太的裤子怎么样？",
+          "options": [
+            "已经有两条这样的了，不用再买",
+            "很好看，应该买",
+            "太贵了",
+            "颜色不好看"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 周明 nói \"我记得你已经有两条这样的裤子了\"。"
+        },
+        {
+          "id": "l2809-r4",
+          "prompt": "周明建议他们怎么回家？",
+          "options": [
+            "早点儿回家，因为天气多云",
+            "继续逛街",
+            "去看电影",
+            "去吃饭"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 周明 nói \"外面天气多云，还是早点儿回家吧\"。"
+        },
+        {
+          "id": "l2809-r5",
+          "prompt": "周太太和周明最后买了什么？",
+          "options": [
+            "衬衫、花，还打算买新鲜水果或饮料",
+            "只买了裤子",
+            "什么都没买",
+            "只买了饮料"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều cho biết họ mua áo sơ mi, hoa, và định mua thêm trái cây hoặc đồ uống."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l2809-w1",
+        "kind": "sentence-given-words",
+        "topic": "chỉ có một cái quần như vậy",
+        "structure": "S + 只有 + số lượng + cái quần + 这样的",
+        "words": [
+          "只",
+          "条"
+        ],
+        "required": "只、条",
+        "prompt": "Dùng đủ hai từ để nói bạn chỉ có một cái quần như thế này.",
+        "sample": "我只有一条这样的裤子。"
+      },
+      {
+        "id": "l2809-w2",
+        "kind": "sentence-given-words",
+        "topic": "chọn trà hoa hay trà xanh",
+        "structure": "A + 还是 + B？/ A + 或者 + B + 都可以",
+        "words": [
+          "还是",
+          "或者"
+        ],
+        "required": "还是、或者",
+        "prompt": "Dùng đủ hai từ để hỏi uống trà hoa hay trà xanh, và trả lời loại nào cũng được.",
+        "sample": "你想喝花茶还是绿茶？花茶或者绿茶都可以。"
+      },
+      {
+        "id": "l2809-w3",
+        "kind": "sentence-given-words",
+        "topic": "trên bàn có đặt một cốc nước giải khát",
+        "structure": "địa điểm + 放着 + danh từ",
+        "words": [
+          "放",
+          "饮料"
+        ],
+        "required": "放、饮料",
+        "prompt": "Dùng đủ hai từ để nói trên bàn đặt một cốc nước giải khát.",
+        "sample": "桌子上放着一杯饮料。"
+      },
+      {
+        "id": "l2809-w4",
+        "kind": "sentence-given-words",
+        "topic": "đã có quyển sách kiểu này rồi",
+        "structure": "这样 + 的 + danh từ",
+        "words": [
+          "这样",
+          "书"
+        ],
+        "required": "这样、书",
+        "prompt": "Đặt câu với hai từ cho sẵn (bài “Đặt câu với từ cho sẵn” trong PDF, câu 1).",
+        "sample": "我已经有两本这样的书了。"
+      },
+      {
+        "id": "l2809-w5",
+        "kind": "sentence-given-words",
+        "topic": "đi nhanh như thế này thì không được",
+        "structure": "这样 + động từ/tính từ",
+        "words": [
+          "这样",
+          "快"
+        ],
+        "required": "这样、快",
+        "prompt": "Đặt câu với hai từ cho sẵn (bài “Đặt câu với từ cho sẵn” trong PDF, câu 2).",
+        "sample": "你这样快不行，会累的。"
+      },
+      {
+        "id": "l2809-w6",
+        "kind": "sentence-given-words",
+        "topic": "bông hoa đẹp như thế này",
+        "structure": "这样 + tính từ",
+        "words": [
+          "这样",
+          "漂亮"
+        ],
+        "required": "这样、漂亮",
+        "prompt": "Đặt câu với hai từ cho sẵn (bài “Đặt câu với từ cho sẵn” trong PDF, câu 3).",
+        "sample": "这样漂亮的花儿我没见过。"
+      },
+      {
+        "id": "l2809-w7",
+        "kind": "sentence-given-words",
+        "topic": "người như thế này rất ít gặp",
+        "structure": "这样 + 的 + danh từ（người）",
+        "words": [
+          "这样",
+          "人"
+        ],
+        "required": "这样、人",
+        "prompt": "Đặt câu với hai từ cho sẵn (bài “Đặt câu với từ cho sẵn” trong PDF, câu 4).",
+        "sample": "这样的人不太多。"
+      }
+    ]
+  },
+  "l3009": {
+    "date": "30/09/2026",
+    "reading": {
+      "prose": "小红是一个又聪明又热情，也很努力的女孩儿。她对每个人都笑。上课的时候，她总是笑着回答老师的问题。喜欢小红的人非常多，经常有人拿着鲜花站在教室门口等她。小红的同学小明说，小红不仅学习好，做事也很认真。小丽觉得这样的同学真不容易，大家都愿意跟她做朋友。",
+      "dialogue": [
+        "小丽：你觉得小红怎么样？",
+        "同学：她又聪明又热情，也很努力。",
+        "小丽：我看她总是笑着回答老师的问题。",
+        "同学：她对每一个人都笑，也常常对我笑。",
+        "小丽：你是不是喜欢她啊？",
+        "同学：喜欢她的人太多了，你看那些拿着鲜花站在门口的，都是等她的。",
+        "小丽：那你呢？你也拿着花在等她吗？",
+        "同学：我没有，我只是她的好朋友，不是那样的。",
+        "小丽：你们是一个年级的吗？",
+        "同学：不是，我比她高一年级。"
+      ],
+      "questions": [
+        {
+          "id": "l3009-r1",
+          "prompt": "小红是一个什么样的女孩儿？",
+          "options": [
+            "又聪明又热情，也很努力",
+            "又高又漂亮",
+            "又懒又笨",
+            "又矮又瘦"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"小红是一个又聪明又热情，也很努力的女孩儿\"。"
+        },
+        {
+          "id": "l3009-r2",
+          "prompt": "上课的时候小红总是怎么做？",
+          "options": [
+            "笑着回答老师的问题",
+            "总是不说话",
+            "总是迟到",
+            "总是睡觉"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"她总是笑着回答老师的问题\"。"
+        },
+        {
+          "id": "l3009-r3",
+          "prompt": "为什么有人拿着鲜花站在门口？",
+          "options": [
+            "他们喜欢小红，在等她",
+            "他们要送花给老师",
+            "他们在卖花",
+            "他们迷路了"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, bạn học nói những người đó đều đang đợi 小红."
+        },
+        {
+          "id": "l3009-r4",
+          "prompt": "跟小丽说话的同学喜不喜欢小红？",
+          "options": [
+            "他说自己只是好朋友，不是那样的",
+            "他说他非常喜欢",
+            "他说他讨厌小红",
+            "他没有回答"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, bạn học nói \"我只是她的好朋友，不是那样的\"。"
+        },
+        {
+          "id": "l3009-r5",
+          "prompt": "小红为什么有这么多人喜欢？",
+          "options": [
+            "因为她聪明、热情、努力，对每个人都笑",
+            "因为她很有钱",
+            "因为她是老师",
+            "因为她从不说话"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn và hội thoại đều cho thấy nguyên nhân mọi người yêu thích 小红."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l3009-w1",
+        "kind": "sentence-given-words",
+        "topic": "cô gái vừa thông minh vừa nhiệt tình",
+        "structure": "A + 又 + tính từ 1 + 又 + tính từ 2（tả người）",
+        "words": [
+          "聪明",
+          "热情"
+        ],
+        "required": "聪明、热情",
+        "prompt": "Dùng đủ hai từ để nói cô ấy vừa thông minh vừa nhiệt tình.",
+        "sample": "她又聪明又热情。"
+      },
+      {
+        "id": "l3009-w2",
+        "kind": "sentence-given-words",
+        "topic": "cầm hoa đứng đợi ở cửa",
+        "structure": "S + 拿着 + danh từ + động từ 2",
+        "words": [
+          "站",
+          "回答"
+        ],
+        "required": "站、回答",
+        "prompt": "Dùng đủ hai từ để nói anh ấy đứng ở cửa, vừa cười vừa trả lời câu hỏi.",
+        "sample": "他站在门口，笑着回答问题。"
+      },
+      {
+        "id": "l3009-w3",
+        "kind": "sentence-given-words",
+        "topic": "luôn chăm chỉ và nghiêm túc",
+        "structure": "S + 总是 + 很 + tính từ",
+        "words": [
+          "努力",
+          "认真"
+        ],
+        "required": "努力、认真",
+        "prompt": "Dùng đủ hai từ để nói cô ấy luôn luôn chăm chỉ và nghiêm túc.",
+        "sample": "她总是很努力，也很认真。"
+      },
+      {
+        "id": "l3009-w4",
+        "kind": "sentence-given-words",
+        "topic": "đồ siêu thị vừa rẻ vừa ngon",
+        "structure": "又 + tính từ 1 + 又 + tính từ 2",
+        "words": [
+          "又",
+          "便宜"
+        ],
+        "required": "又、便宜",
+        "prompt": "Hoàn thành câu \"这家超市的东西……\" bằng \"又……又……\" (bài trong PDF, câu 1).",
+        "sample": "这家超市的东西又便宜又好吃。"
+      },
+      {
+        "id": "l3009-w5",
+        "kind": "sentence-given-words",
+        "topic": "anh ấy nấu ăn vừa nhanh vừa ngon",
+        "structure": "động từ + 得 + 又 + tính từ 1 + 又 + tính từ 2",
+        "words": [
+          "又",
+          "快"
+        ],
+        "required": "又、快",
+        "prompt": "Hoàn thành câu \"他做饭做得……\" bằng \"又……又……\" (bài trong PDF, câu 2).",
+        "sample": "他做饭做得又快又好吃。"
+      },
+      {
+        "id": "l3009-w6",
+        "kind": "sentence-given-words",
+        "topic": "thích căn phòng vừa to vừa sáng",
+        "structure": "喜欢 + 又 + tính từ 1 + 又 + tính từ 2 + 的 + danh từ",
+        "words": [
+          "又",
+          "大"
+        ],
+        "required": "又、大",
+        "prompt": "Hoàn thành câu \"我喜欢……\" bằng \"又……又……\" (bài trong PDF, câu 3).",
+        "sample": "我喜欢又大又干净的房间。"
+      },
+      {
+        "id": "l3009-w7",
+        "kind": "sentence-given-words",
+        "topic": "cô ấy vừa thông minh vừa chăm chỉ",
+        "structure": "S + 又 + tính từ 1 + 又 + tính từ 2（tả tính cách）",
+        "words": [
+          "又",
+          "聪明"
+        ],
+        "required": "又、聪明",
+        "prompt": "Hoàn thành câu \"她这个人……\" bằng \"又……又……\" (bài trong PDF, câu 4).",
+        "sample": "她这个人又聪明又努力。"
+      },
+      {
+        "id": "l3009-w8",
+        "kind": "sentence-given-words",
+        "topic": "hoa anh ấy mua vừa to vừa đẹp",
+        "structure": "danh từ + 又 + tính từ 1 + 又 + tính từ 2",
+        "words": [
+          "又",
+          "漂亮"
+        ],
+        "required": "又、漂亮",
+        "prompt": "Hoàn thành câu \"他今天买的花……\" bằng \"又……又……\" (bài trong PDF, câu 5).",
+        "sample": "他今天买的花又大又漂亮。"
+      },
+      {
+        "id": "l3009-w9",
+        "kind": "sentence-given-words",
+        "topic": "cô giáo vừa cười vừa giảng bài",
+        "structure": "động từ + 着 + động từ 2（giảng bài）",
+        "words": [
+          "着",
+          "笑"
+        ],
+        "required": "着、笑",
+        "prompt": "Hoàn thành câu \"我们的老师……上课。\" bằng \"着\" (bài “Hoàn thành câu với 着” trong PDF, câu 1).",
+        "sample": "我们的老师笑着上课。"
+      },
+      {
+        "id": "l3009-w10",
+        "kind": "sentence-given-words",
+        "topic": "không được vừa nghe điện thoại vừa lái xe",
+        "structure": "不能 + động từ + 着 + động từ 2",
+        "words": [
+          "着",
+          "电话"
+        ],
+        "required": "着、电话",
+        "prompt": "Hoàn thành câu \"我们不能……开车。\" bằng \"着\" (bài trong PDF, câu 2).",
+        "sample": "我们不能打着电话开车。"
+      },
+      {
+        "id": "l3009-w11",
+        "kind": "sentence-given-words",
+        "topic": "thích vừa nghe nhạc vừa làm bài",
+        "structure": "听着歌 + động từ 2",
+        "words": [
+          "着",
+          "作业"
+        ],
+        "required": "着、作业",
+        "prompt": "Hoàn thành câu \"我喜欢听着歌……\" bằng \"着\" (bài trong PDF, câu 3).",
+        "sample": "我喜欢听着歌写作业。"
+      },
+      {
+        "id": "l3009-w12",
+        "kind": "sentence-given-words",
+        "topic": "cầm hoa ngồi ở cửa",
+        "structure": "động từ + 着 + danh từ + 坐在门口",
+        "words": [
+          "着",
+          "鲜花"
+        ],
+        "required": "着、鲜花",
+        "prompt": "Hoàn thành câu \"……坐在门口。\" bằng \"着\" (bài trong PDF, câu 4).",
+        "sample": "他拿着鲜花坐在门口。"
+      },
+      {
+        "id": "l3009-w13",
+        "kind": "sentence-given-words",
+        "topic": "người cầm sách cười bên cạnh là ai",
+        "structure": "那个 + động từ + 着 + danh từ + 笑的人",
+        "words": [
+          "着",
+          "书"
+        ],
+        "required": "着、书",
+        "prompt": "Hoàn thành câu \"旁边那个……笑的人是谁？\" bằng \"着\" (bài trong PDF, câu 5).",
+        "sample": "旁边那个拿着书笑的人是谁？"
+      }
+    ]
+  },
+  "l0510": {
+    "date": "05/10/2026",
+    "reading": {
+      "prose": "最近天气越来越热，春天已经过去，现在是夏天了。张小姐这几天感冒了，还有点儿发烧，身体很不舒服，这几天都没有去上班。她的朋友王丽听说了这件事，开车去张小姐家看她，还为她买了一些水果和感冒药。王丽觉得这个季节很多人都容易感冒，叫张小姐不用太担心，好好儿在家照顾自己就行了。张小姐笑着说谢谢王丽，说自己吃了药以后已经好多了。她们聊天的时候，张小姐看见窗外的花都开了，草地也绿了，心情也跟着好了起来。王丽说下个星期天气会更暖和，等张小姐病好了，她们再一起出去玩儿。",
+      "dialogue": [
+        "王丽：张小姐，你怎么了？脸色不太好。",
+        "张小姐：我有点儿感冒，还发烧了，这几天都没去上班。",
+        "王丽：那你一定要好好儿照顾自己，要不要去医院？",
+        "张小姐：不用去医院，我吃了感冒药，现在已经好多了。",
+        "王丽：这个季节天气越来越热，很容易感冒，你要多喝水。",
+        "张小姐：好的，谢谢你为我买的水果，还开车过来看我。",
+        "王丽：这是应该的。对了，你那条新裙子呢？怎么没穿？",
+        "张小姐：我生病了，当然不能穿裙子出去，等病好了再穿吧。",
+        "王丽：也对。你快用这些水果补充一下维生素，很快就会好的。",
+        "张小姐：谢谢你，等我身体好了，我们一起去公园看花吧。"
+      ],
+      "questions": [
+        {
+          "id": "l0510-r1",
+          "prompt": "张小姐这几天身体怎么样？",
+          "options": [
+            "感冒了，还有点儿发烧",
+            "很健康，经常运动",
+            "瘦了很多",
+            "去医院住院了"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"张小姐这几天感冒了，还有点儿发烧\"。"
+        },
+        {
+          "id": "l0510-r2",
+          "prompt": "王丽为张小姐做了什么？",
+          "options": [
+            "开车去看她，还买了水果和感冒药",
+            "只打了个电话",
+            "送她去医院",
+            "帮她请假"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"开车去张小姐家看她，还为她买了一些水果和感冒药\"。"
+        },
+        {
+          "id": "l0510-r3",
+          "prompt": "张小姐为什么不去医院？",
+          "options": [
+            "吃了感冒药，已经好多了",
+            "医院太远了",
+            "她不喜欢医院",
+            "她没有钱"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 张小姐 nói \"不用去医院，我吃了感冒药，现在已经好多了\"。"
+        },
+        {
+          "id": "l0510-r4",
+          "prompt": "张小姐为什么没穿新裙子？",
+          "options": [
+            "她生病了，不能穿裙子出去",
+            "裙子太小了",
+            "她不喜欢这条裙子",
+            "裙子还没买回来"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 张小姐 nói \"我生病了，当然不能穿裙子出去\"。"
+        },
+        {
+          "id": "l0510-r5",
+          "prompt": "张小姐病好了以后，她们打算做什么？",
+          "options": [
+            "一起去公园看花",
+            "一起去爬山",
+            "一起去买衣服",
+            "一起去看比赛"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 张小姐 nói \"等我身体好了，我们一起去公园看花吧\", phù hợp với đoạn văn nói hoa đã nở (窗外的花都开了)。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l0510-w1",
+        "kind": "sentence-given-words",
+        "topic": "khuyên không cần lo lắng khi bị cảm",
+        "structure": "不用 + tính từ / động từ",
+        "words": [
+          "不用",
+          "感冒"
+        ],
+        "required": "不用、感冒",
+        "prompt": "Dùng đủ hai từ để khuyên bạn đang bị cảm đừng quá lo lắng, đây là mùa dễ bị cảm.",
+        "sample": "现在感冒的人很多，你不用太担心。"
+      },
+      {
+        "id": "l0510-w2",
+        "kind": "sentence-given-words",
+        "topic": "mua hoa tặng vì cô giáo",
+        "structure": "为 + tân ngữ + động từ",
+        "words": [
+          "为",
+          "开"
+        ],
+        "required": "为、开",
+        "prompt": "Dùng đủ hai từ để nói bạn mua hoa đang nở đẹp để tặng cô giáo.",
+        "sample": "这是我为老师买的花，开得很漂亮。"
+      },
+      {
+        "id": "l0510-w3",
+        "kind": "sentence-given-words",
+        "topic": "ngày càng thích mùa hè vì hoa nở nhiều",
+        "structure": "越来越 + tính từ / động từ tâm lý",
+        "words": [
+          "越来越",
+          "季节"
+        ],
+        "required": "越来越、季节",
+        "prompt": "Dùng đủ hai từ để nói bạn ngày càng thích mùa hè vì đây là mùa hoa nở nhiều.",
+        "sample": "我越来越喜欢夏天，因为这个季节花开得很多。"
+      }
+    ]
+  },
+  "l0910": {
+    "date": "09/10/2026",
+    "reading": {
+      "prose": "周明是个特别爱看书的人，可是他的眼睛不太好，离开眼镜一个字也看不清楚。昨天下午他刚从公园锻炼回来，突然找不到自己的眼镜了。他找了很久也找不到，只好请周太太帮忙。周太太说刚才好像看见他把眼镜放在房间的桌子上了，让他快去房间找找。周明一进房间就看见了眼镜，心里特别高兴。晚上他们一起去听了音乐会，回来的路上还聊了很久的天。周明说这次的音乐会比上次的更好听，周太太也觉得今天过得很快。",
+      "dialogue": [
+        "周太太：你怎么还在房间里找东西？刚才不是找到眼镜了吗？",
+        "周明：眼镜找到了，可是我的书又不见了。",
+        "周太太：你别急，我帮你找找。你刚才在哪儿看书？",
+        "周明：我刚从公园回来，在客厅坐了一会儿，然后就去洗手了。",
+        "周太太：那书可能在客厅的椅子上，你快去看看。",
+        "周明：找到了！你帮了我两次忙，真是太谢谢你了。",
+        "周太太：不用谢。对了，今天晚上的音乐会你还去不去？",
+        "周明：当然去，听音乐比看电视更有意思。",
+        "周太太：那我们快准备吧，七点就要开始了。",
+        "周明：好，我去换件衣服，很快就好。"
+      ],
+      "questions": [
+        {
+          "id": "l0910-r1",
+          "prompt": "周明为什么离不开眼镜？",
+          "options": [
+            "没有眼镜他一个字也看不清楚",
+            "他觉得眼镜很漂亮",
+            "眼镜是朋友送他的",
+            "他只有一副眼镜"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"离开眼镜一个字也看不清楚\"。"
+        },
+        {
+          "id": "l0910-r2",
+          "prompt": "周明昨天下午刚从哪儿回来？",
+          "options": [
+            "公园",
+            "音乐会",
+            "学校",
+            "医院"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"昨天下午他刚从公园锻炼回来\"。"
+        },
+        {
+          "id": "l0910-r3",
+          "prompt": "在对话里，周明第二次找不到的是什么？",
+          "options": [
+            "他的书",
+            "他的眼镜",
+            "他的手机",
+            "他的衣服"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 周明 nói \"眼镜找到了，可是我的书又不见了\"。"
+        },
+        {
+          "id": "l0910-r4",
+          "prompt": "周太太觉得书可能在哪儿？",
+          "options": [
+            "客厅的椅子上",
+            "房间的桌子上",
+            "公园里",
+            "音乐会上"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 周太太 nói \"那书可能在客厅的椅子上\"。"
+        },
+        {
+          "id": "l0910-r5",
+          "prompt": "周太太一共帮周明找了几次东西？",
+          "options": [
+            "两次，先找眼镜后找书",
+            "一次，只找了眼镜",
+            "一次，只找了书",
+            "三次"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn kể 周太太 giúp tìm kính, hội thoại kể tiếp việc tìm sách, và 周明 nói \"你帮了我两次忙\"。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l0910-w1",
+        "kind": "sentence-given-words",
+        "topic": "giục người khác qua giúp tìm kính",
+        "structure": "快 + động từ（giục）",
+        "words": [
+          "快",
+          "帮忙"
+        ],
+        "required": "快、帮忙",
+        "prompt": "Dùng đủ hai từ để giục người khác mau qua giúp bạn tìm kính.",
+        "sample": "你快过来帮忙找找我的眼镜。"
+      },
+      {
+        "id": "l0910-w2",
+        "kind": "sentence-given-words",
+        "topic": "so sánh nghe nhạc ở nhà và ở phòng hòa nhạc",
+        "structure": "A 比 B + 更 + tính từ",
+        "words": [
+          "更",
+          "音乐会"
+        ],
+        "required": "更、音乐会",
+        "prompt": "Dùng đủ hai từ để nói nghe ở phòng hòa nhạc hay hơn nghe ở nhà.",
+        "sample": "在音乐会上听比在家里听更好听。"
+      },
+      {
+        "id": "l0910-w3",
+        "kind": "sentence-given-words",
+        "topic": "vừa mới tập thể dục xong ở công viên",
+        "structure": "S + 刚 + động từ",
+        "words": [
+          "刚",
+          "锻炼"
+        ],
+        "required": "刚、锻炼",
+        "prompt": "Dùng đủ hai từ để nói bạn vừa mới tập thể dục xong ở công viên.",
+        "sample": "我刚在公园锻炼完。"
+      },
+      {
+        "id": "l0910-w4",
+        "kind": "sentence-given-words",
+        "topic": "người kia nói nhanh quá nên nghe không rõ",
+        "structure": "可能补语 phủ định: V + 不 + bổ ngữ",
+        "words": [
+          "清楚",
+          "听"
+        ],
+        "required": "清楚、听",
+        "prompt": "Dùng đủ hai từ để nói người kia nói nhanh quá nên bạn nghe không rõ.",
+        "sample": "你说话太快了，我听不清楚。"
+      },
+      {
+        "id": "l0910-w5",
+        "kind": "sentence-given-words",
+        "topic": "hỏi vì sao lúc nãy đột nhiên bỏ đi",
+        "structure": "S + 刚才 + động từ",
+        "words": [
+          "刚才",
+          "突然"
+        ],
+        "required": "刚才、突然",
+        "prompt": "Dùng đủ hai từ để hỏi vì sao lúc nãy người ấy đột nhiên bỏ đi.",
+        "sample": "你刚才怎么突然离开了？"
+      },
+      {
+        "id": "l0910-w6",
+        "kind": "sentence-given-words",
+        "topic": "giảng qua điện thoại không rõ được",
+        "structure": "V + 不 + 明白",
+        "words": [
+          "讲",
+          "明白"
+        ],
+        "required": "讲、明白",
+        "prompt": "Dùng đủ hai từ để nói bài này giảng qua điện thoại thì không hiểu được.",
+        "sample": "这道题电话里讲不明白。"
+      }
+    ]
+  },
+  "l1210": {
+    "date": "12/10/2026",
+    "reading": {
+      "prose": "小丽是我们公司的新同事，她来北京已经三年了。来我们公司以前，她在一家银行工作了两年。小丽每天早上七点半起床，八点一刻出门，上班从来没有迟到过。今天她要去机场接一位从上海来的客人，所以她提前半个小时出门了。路上她等了很久的车，差一刻十点才到机场。客人看见她很高兴，说很欢迎她以后去上海玩儿。下班以后，小丽还要去参加同事的结婚晚会。",
+      "dialogue": [
+        "同事：小丽，你每天几点起床？",
+        "小丽：七点半起床，八点一刻就出门了。",
+        "同事：那你上班从来没迟到过吧？",
+        "小丽：没有。不过今天路上等了很久的车，差一点儿迟到。",
+        "同事：今天你不是去机场接客人了吗？",
+        "小丽：对，差一刻十点我才到机场。",
+        "同事：来我们公司以前，你在哪儿工作？",
+        "小丽：我在银行工作了两年以后才来的。",
+        "同事：下班以后你有时间吗？我们一起去喝杯咖啡。",
+        "小丽：今天不行，晚上我要去参加同事的结婚晚会。"
+      ],
+      "questions": [
+        {
+          "id": "l1210-r1",
+          "prompt": "小丽来北京多长时间了？",
+          "options": [
+            "三年了",
+            "两年了",
+            "半年了",
+            "十年了"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"她来北京已经三年了\"。"
+        },
+        {
+          "id": "l1210-r2",
+          "prompt": "来我们公司以前，小丽在哪儿工作？",
+          "options": [
+            "在银行工作了两年",
+            "在机场工作了两年",
+            "在学校工作了三年",
+            "她没工作过"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"来我们公司以前，她在一家银行工作了两年\"。"
+        },
+        {
+          "id": "l1210-r3",
+          "prompt": "小丽今天几点到的机场？",
+          "options": [
+            "差一刻十点",
+            "十点一刻",
+            "九点半",
+            "十点半"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 小丽 nói \"差一刻十点我才到机场\"。"
+        },
+        {
+          "id": "l1210-r4",
+          "prompt": "小丽今天为什么差一点儿迟到？",
+          "options": [
+            "路上等了很久的车",
+            "起床起晚了",
+            "忘了带东西",
+            "外面下雨了"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại, 小丽 nói \"今天路上等了很久的车，差一点儿迟到\"。"
+        },
+        {
+          "id": "l1210-r5",
+          "prompt": "小丽下班以后要做什么？",
+          "options": [
+            "去参加同事的结婚晚会",
+            "去银行办事",
+            "去机场接客人",
+            "跟同事去喝咖啡"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"下班以后，小丽还要去参加同事的结婚晚会\", và trong hội thoại 小丽 từ chối đi uống cà phê cũng vì việc này."
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l1210-w1",
+        "kind": "sentence-given-words",
+        "topic": "nói mấy giờ đến sân bay",
+        "structure": "差 + khoảng thời gian + 到 + thời điểm",
+        "words": [
+          "差",
+          "机场"
+        ],
+        "required": "差、机场",
+        "prompt": "Dùng đủ hai từ để nói bạn đến sân bay lúc 7 giờ 45.",
+        "sample": "我差一刻八点到机场。"
+      },
+      {
+        "id": "l1210-w2",
+        "kind": "sentence-given-words",
+        "topic": "hỏi bạn đã học tiếng Trung bao lâu rồi",
+        "structure": "S + V + 了 + thời lượng + O + 了",
+        "words": [
+          "久",
+          "汉语"
+        ],
+        "required": "久、汉语",
+        "prompt": "Dùng đủ hai từ để hỏi bạn đã học tiếng Trung được bao lâu rồi.",
+        "sample": "你学汉语学了多久了？"
+      },
+      {
+        "id": "l1210-w3",
+        "kind": "sentence-given-words",
+        "topic": "nói đồng nghiệp hôm nay đến muộn mười lăm phút",
+        "structure": "迟到 + 了 + thời lượng",
+        "words": [
+          "迟到",
+          "刻"
+        ],
+        "required": "迟到、刻",
+        "prompt": "Dùng đủ hai từ để nói đồng nghiệp hôm nay đến muộn mười lăm phút.",
+        "sample": "我同事今天迟到了一刻钟。"
+      },
+      {
+        "id": "l1210-w4",
+        "kind": "sentence-given-words",
+        "topic": "nói trước đây không hứng thú với âm nhạc",
+        "structure": "以前 + 对……不感兴趣",
+        "words": [
+          "以前",
+          "感兴趣"
+        ],
+        "required": "以前、感兴趣",
+        "prompt": "Dùng đủ hai từ để nói trước đây bạn không hứng thú với âm nhạc.",
+        "sample": "以前我对音乐不感兴趣。"
+      },
+      {
+        "id": "l1210-w5",
+        "kind": "sentence-given-words",
+        "topic": "chào mừng đồng nghiệp mới đến công ty",
+        "structure": "欢迎 + ai đó + 来 + nơi chốn",
+        "words": [
+          "欢迎",
+          "同事"
+        ],
+        "required": "欢迎、同事",
+        "prompt": "Dùng đủ hai từ để chào mừng đồng nghiệp mới đến công ty của các bạn.",
+        "sample": "欢迎新同事来我们公司。"
+      },
+      {
+        "id": "l1210-w6",
+        "kind": "sentence-given-words",
+        "topic": "nói tan làm xong sẽ đi đón ai đó",
+        "structure": "sự việc + 以后",
+        "words": [
+          "以后",
+          "接"
+        ],
+        "required": "以后、接",
+        "prompt": "Dùng đủ hai từ để nói sau khi tan làm bạn sẽ đi đón bạn của mình.",
+        "sample": "下班以后我去接我朋友。"
+      },
+      {
+        "id": "l1210-w7",
+        "kind": "sentence-given-words",
+        "topic": "nói chị gái sắp kết hôn vào tháng sau",
+        "structure": "sắp … rồi（就要……了）",
+        "words": [
+          "结婚",
+          "银行"
+        ],
+        "required": "结婚、银行",
+        "prompt": "Dùng đủ hai từ để nói chị gái đang làm ở ngân hàng của bạn tháng sau sắp kết hôn.",
+        "sample": "我在银行工作的姐姐下个月就要结婚了。"
+      }
+    ]
+  },
+  "l1410": {
+    "date": "14/10/2026",
+    "reading": {
+      "prose": "小丽最近打算买房子。她昨天去看了看，今天又去看了看，明天还要再去看看。她看了两套房子，但是都不满意。一个房子没有电梯，上下楼很不方便。另一个有电梯，可是在二十层，她觉得太高了，往下看很害怕。小丽说，房子贵一点儿没关系，住得安静、方便才重要。她想一会儿再给同事打个电话，问问别的房子。",
+      "dialogue": [
+        "同事：听说你最近在看房子，看得怎么样了？",
+        "小丽：昨天看了看，今天又看了看，都不太满意。",
+        "同事：哪儿不满意？",
+        "小丽：一个没有电梯，一个在二十层，太高了，我有点儿害怕。",
+        "同事：那你想买什么样的？",
+        "小丽：什么样的安静我就买什么样的，贵一点儿也没关系。",
+        "同事：你什么时候再去看？",
+        "小丽：我想明天再去一趟，你哪天有时间就哪天跟我一起去吧。",
+        "同事：好啊，这个星期六我有空。",
+        "小丽：那就星期六，我们先在楼下的咖啡店见面，一会儿一起上去。"
+      ],
+      "questions": [
+        {
+          "id": "l1410-r1",
+          "prompt": "小丽这几天做了什么？",
+          "options": [
+            "去看了两次房子",
+            "去医院看病",
+            "去公园跑步",
+            "去银行工作"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"她昨天去看了看，今天又去看了看\"。"
+        },
+        {
+          "id": "l1410-r2",
+          "prompt": "第一个房子哪儿不好？",
+          "options": [
+            "没有电梯，上下楼不方便",
+            "太贵了",
+            "房间太小",
+            "离公司太远"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"一个房子没有电梯，上下楼很不方便\"。"
+        },
+        {
+          "id": "l1410-r3",
+          "prompt": "小丽为什么不满意第二个房子？",
+          "options": [
+            "在二十层，太高了，往下看很害怕",
+            "没有洗手间",
+            "旁边太吵",
+            "没有电梯"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"另一个有电梯，可是在二十层，她觉得太高了，往下看很害怕\"。"
+        },
+        {
+          "id": "l1410-r4",
+          "prompt": "小丽觉得买房子最重要的是什么？",
+          "options": [
+            "住得安静、方便",
+            "越便宜越好",
+            "楼层越高越好",
+            "离公园近"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"房子贵一点儿没关系，住得安静、方便才重要\", và trong hội thoại 小丽 cũng nói \"什么样的安静我就买什么样的\"。"
+        },
+        {
+          "id": "l1410-r5",
+          "prompt": "在对话里，她们约好什么时候一起去看房子？",
+          "options": [
+            "这个星期六",
+            "明天上午",
+            "下个月",
+            "今天晚上"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại 同事 nói \"这个星期六我有空\", 小丽 đáp \"那就星期六\"。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l1410-w1",
+        "kind": "sentence-given-words",
+        "topic": "ăn gì cũng chiều theo người kia",
+        "structure": "đại từ nghi vấn hô ứng: ……什么……就……什么……",
+        "words": [
+          "吃",
+          "什么"
+        ],
+        "required": "吃、什么",
+        "prompt": "Đặt câu có đại từ nghi vấn hô ứng với hai từ cho sẵn (bài “Đặt câu với đại từ nghi vấn và từ cho sẵn”, PDF trang 6, câu 1).",
+        "sample": "你想吃什么我们就吃什么。"
+      },
+      {
+        "id": "l1410-w2",
+        "kind": "sentence-given-words",
+        "topic": "đi đâu cũng chiều theo người kia",
+        "structure": "đại từ nghi vấn hô ứng: ……哪儿……就……哪儿……",
+        "words": [
+          "去",
+          "哪儿"
+        ],
+        "required": "去、哪儿",
+        "prompt": "Đặt câu có đại từ nghi vấn hô ứng với hai từ cho sẵn (bài “Đặt câu với đại từ nghi vấn và từ cho sẵn”, PDF trang 6, câu 2).",
+        "sample": "你想去哪儿我们就去哪儿。"
+      },
+      {
+        "id": "l1410-w3",
+        "kind": "sentence-given-words",
+        "topic": "viết theo đúng cách cô giáo dặn",
+        "structure": "đại từ nghi vấn hô ứng: ……怎么……就……怎么……",
+        "words": [
+          "写",
+          "怎么"
+        ],
+        "required": "写、怎么",
+        "prompt": "Đặt câu có đại từ nghi vấn hô ứng với hai từ cho sẵn (bài “Đặt câu với đại từ nghi vấn và từ cho sẵn”, PDF trang 6, câu 3).",
+        "sample": "老师让你怎么写你就怎么写。"
+      },
+      {
+        "id": "l1410-w4",
+        "kind": "sentence-given-words",
+        "topic": "muốn gặp ai thì gặp người đó",
+        "structure": "đại từ nghi vấn hô ứng: ……谁……就……谁……",
+        "words": [
+          "见",
+          "谁"
+        ],
+        "required": "见、谁",
+        "prompt": "Đặt câu có đại từ nghi vấn hô ứng với hai từ cho sẵn (bài “Đặt câu với đại từ nghi vấn và từ cho sẵn”, PDF trang 6, câu 4).",
+        "sample": "你想见谁就见谁。"
+      },
+      {
+        "id": "l1410-w5",
+        "kind": "sentence-given-words",
+        "topic": "làm thế nào là tuỳ bạn",
+        "structure": "đại từ nghi vấn hô ứng: ……怎么做……就……怎么做……",
+        "words": [
+          "做",
+          "怎么"
+        ],
+        "required": "做、怎么",
+        "prompt": "Đặt câu có đại từ nghi vấn hô ứng với hai từ cho sẵn (bài “Đặt câu với đại từ nghi vấn và từ cho sẵn”, PDF trang 6, câu 5).",
+        "sample": "这件事你想怎么做就怎么做。"
+      },
+      {
+        "id": "l1410-w6",
+        "kind": "sentence-given-words",
+        "topic": "rủ bạn lát nữa đi xem nhà cùng",
+        "structure": "一会儿 + động từ（việc sắp làm）",
+        "words": [
+          "一会儿",
+          "房子"
+        ],
+        "required": "一会儿、房子",
+        "prompt": "Dùng đủ hai từ để rủ bạn lát nữa cùng đi xem nhà.",
+        "sample": "我一会儿去看房子，你跟我一起去吧。"
+      },
+      {
+        "id": "l1410-w7",
+        "kind": "sentence-given-words",
+        "topic": "than nhà ở tầng hai mươi hơi cao",
+        "structure": "有（一）点儿 + tính từ",
+        "words": [
+          "害怕",
+          "层"
+        ],
+        "required": "害怕、层",
+        "prompt": "Dùng đủ hai từ để nói nhà ở tầng hai mươi cao quá, nhìn xuống hơi sợ.",
+        "sample": "房子在二十层，往下看我有点儿害怕。"
       }
     ]
   }

@@ -52,6 +52,7 @@ test("phục vụ giao diện và dữ liệu mặc định", async () => {
   assert.match(html, /Chữ gần giống/);
   assert.match(html, /Ghi chú/);
   assert.match(html, /Lượng từ/);
+  assert.match(html, /Lộ trình/);
   assert.match(html, /practice-extensions\.js/);
   assert.match(html, /measure-words\.js/);
 
@@ -64,6 +65,8 @@ test("phục vụ giao diện và dữ liệu mặc định", async () => {
   assert.ok(state.clusters.length >= 5);
   assert.deepEqual(state.progress.measureWords, { answers: {}, checkedPages: {} });
   assert.equal(state.notes, "");
+  assert.equal(state.roadmap.currentLessonId, "l2608");
+  assert.deepEqual(state.roadmap.reviewStage, {});
 });
 
 test("lưu rồi đọc lại tiến độ và cụm chữ", async () => {
@@ -85,6 +88,12 @@ test("lưu rồi đọc lại tiến độ và cụm chữ", async () => {
     items: [{ id: "test-item", hanzi: "未", pinyin: "wèi", meaning: "chưa", note: "" }]
   });
   state.notes = "Ghi chú kiểm thử";
+  state.roadmap.currentLessonId = "l2309";
+  state.roadmap.reviewStage.l2309 = {
+    stage: 1,
+    lastReviewedAt: "2026-10-10",
+    nextReviewDate: "2026-10-13"
+  };
 
   const saved = await fetch(`${baseUrl}/api/state`, {
     method: "PUT",
@@ -99,6 +108,9 @@ test("lưu rồi đọc lại tiến độ và cụm chữ", async () => {
   assert.equal(reloaded.progress.measureWords.checkedPages["fill-0"].total, 20);
   assert.equal(reloaded.clusters.at(-1).items[0].hanzi, "未");
   assert.equal(reloaded.notes, "Ghi chú kiểm thử");
+  assert.equal(reloaded.roadmap.currentLessonId, "l2309");
+  assert.equal(reloaded.roadmap.reviewStage.l2309.stage, 1);
+  assert.equal(reloaded.roadmap.reviewStage.l2309.nextReviewDate, "2026-10-13");
 });
 
 test("phục vụ từng đoạn của PDF", async () => {

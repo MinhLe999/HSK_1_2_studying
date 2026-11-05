@@ -23,7 +23,7 @@ Không cần cài gói phụ và không cần kết nối dịch vụ bên ngoà
 ## Cấu trúc
 
 - `server.js`: mở trang web, đọc và ghi dữ liệu, phục vụ từng đoạn của PDF.
-- `public/content.js`: từ vựng, ví dụ và các bài tập nền của 26 ngày.
+- `public/content.js`: từ vựng, ví dụ và các bài tập nền của 37 ngày; một số ngày có thêm bài nghe (liên kết MP3 ngoài).
 - Bài 29/05 có bảng đếm từ hàng trăm đến hàng vạn và 62 câu luyện số lớn.
 - `public/measure-words.js`: bảng 43 lượng từ, quy tắc số lớn và 595 câu luyện tập.
 - `STRUCTURE_PLAN.md`: nội dung gốc cho cấu trúc câu, bài đọc và bài đặt câu mở rộng.

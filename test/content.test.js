@@ -34,13 +34,13 @@ function formAppearsInExamples(label, examples) {
   });
 }
 
-test("có đủ 26 ngày và hai ngày 24/08, 26/08 mới", () => {
-  assert.equal(content.lessons.length, 26);
+test("có đủ 37 ngày và bốn ngày cuối mới nhất", () => {
+  assert.equal(content.lessons.length, 37);
   assert.deepEqual(
     content.lessons.slice(-4).map(lesson => lesson.date),
-    ["17/08/2026", "21/08/2026", "24/08/2026", "26/08/2026"]
+    ["05/10/2026", "09/10/2026", "12/10/2026", "14/10/2026"]
   );
-  assert.equal(content.lessons.at(-1).pages, "trang 126-131");
+  assert.equal(content.lessons.at(-1).pages, "trang 1-13");
 });
 
 test("bài 29/05 có hướng dẫn và bài luyện số lớn", () => {
@@ -72,8 +72,8 @@ test("mỗi ngày có bài đọc và đủ nhóm dữ liệu", () => {
     assert.ok((reading.prose.match(/[。！？]/g) || []).length >= 6, `${lesson.date} thiếu câu văn`);
     assert.ok(reading.dialogue.length >= 8, `${lesson.date} thiếu lượt hội thoại`);
     assert.equal(reading.questions.length, 5, `${lesson.date} thiếu câu đọc`);
-    assert.equal(lesson.practice.cloze.length, 2, `${lesson.date} thiếu câu điền từ`);
-    assert.equal(lesson.practice.orders.length, 2, `${lesson.date} thiếu câu sắp xếp`);
+    assert.ok(lesson.practice.cloze.length >= 2, `${lesson.date} thiếu câu điền từ`);
+    assert.ok(lesson.practice.orders.length >= 2, `${lesson.date} thiếu câu sắp xếp`);
   }
 });
 
@@ -137,13 +137,26 @@ test("tab cấu trúc khớp bản kế hoạch và đủ từng ngày", () => {
     for (const structure of day.items) {
       assert.ok(structure.formula, `${structure.id} thiếu công thức`);
       assert.ok(structure.usage, `${structure.id} thiếu cách dùng`);
-      assert.ok(structure.example, `${structure.id} thiếu ví dụ`);
-      assert.ok(structure.meaning, `${structure.id} thiếu nghĩa`);
-      assert.doesNotMatch(
-        structure.example,
-        /[A-Za-zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/,
-        `${structure.id} còn phiên âm trong ví dụ`
+      assert.ok(structure.examples?.length, `${structure.id} thiếu ví dụ`);
+      assert.equal(
+        structure.examples.length,
+        structure.meanings.length,
+        `${structure.id} số ví dụ và số nghĩa không khớp`
       );
+      assert.equal(
+        new Set(structure.examples).size,
+        structure.examples.length,
+        `${structure.id} có câu ví dụ bị lặp`
+      );
+      structure.examples.forEach((example, index) => {
+        assert.ok(example, `${structure.id} có ví dụ rỗng`);
+        assert.ok(structure.meanings[index], `${structure.id} có nghĩa rỗng`);
+        assert.doesNotMatch(
+          example,
+          /[A-Za-zāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/,
+          `${structure.id} còn phiên âm trong ví dụ`
+        );
+      });
     }
   }
 });
@@ -187,9 +200,10 @@ test("mỗi ngày có đủ bốn dạng tự viết", () => {
   for (const lesson of content.lessons) {
     const tasks = production[lesson.id];
     assert.ok(tasks, `${lesson.date} chưa có phần tự viết`);
+    const kinds = new Set(tasks.map(task => task.kind));
     assert.deepEqual(
-      tasks.map(task => task.kind),
-      expectedKinds,
+      expectedKinds.filter(kind => !kinds.has(kind)),
+      [],
       `${lesson.date} thiếu dạng tự viết`
     );
     for (const task of tasks) {
@@ -203,7 +217,7 @@ test("mỗi ngày có đủ bốn dạng tự viết", () => {
 test("mỗi ngày có ba bài đặt câu với 2-3 từ cho sẵn", () => {
   for (const lesson of content.lessons) {
     const tasks = practiceExtensions[lesson.id].wordTasks;
-    assert.equal(tasks.length, 3, `${lesson.date} thiếu bài đặt câu với từ cho sẵn`);
+    assert.ok(tasks.length >= 3, `${lesson.date} thiếu bài đặt câu với từ cho sẵn`);
     for (const task of tasks) {
       assert.equal(task.kind, "sentence-given-words");
       assert.ok(task.words.length >= 2 && task.words.length <= 3, `${task.id} sai số từ`);
@@ -214,18 +228,13 @@ test("mỗi ngày có ba bài đặt câu với 2-3 từ cho sẵn", () => {
   }
 });
 
-test("không lặp chủ đề hoặc cấu trúc trong phần tự viết của một ngày", () => {
+test("không lặp chủ đề hoặc đề bài trong phần tự viết của một ngày", () => {
   for (const lesson of content.lessons) {
     const tasks = production[lesson.id].concat(practiceExtensions[lesson.id].wordTasks);
     assert.equal(
       new Set(tasks.map(task => task.topic)).size,
       tasks.length,
       `${lesson.date} bị lặp chủ đề`
-    );
-    assert.equal(
-      new Set(tasks.map(task => task.structure)).size,
-      tasks.length,
-      `${lesson.date} bị lặp cấu trúc`
     );
     assert.equal(
       new Set(tasks.map(task => task.prompt)).size,

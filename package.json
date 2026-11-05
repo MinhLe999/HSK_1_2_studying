@@ -9,7 +9,7 @@
     "build:structures": "npm run build:plan",
     "check:plan": "node tools/build-structures.js --check",
     "check:structures": "npm run check:plan",
-    "check": "npm run check:plan && node --check server.js && node --check tools/build-structures.js && node --check public/content.js && node --check public/example-supplements.js && node --check public/structures.js && node --check public/practice-extensions.js && node --check public/production.js && node --check public/measure-words.js && node --check public/app.js",
+    "check": "npm run check:plan && node --check server.js && node --check tools/build-structures.js && node --check public/content.js && node --check public/example-supplements.js && node --check public/structures.js && node --check public/practice-extensions.js && node --check public/production.js && node --check public/measure-words.js && node --check public/common-structures.js && node --check public/app.js",
     "test": "node --test"
   },
   "engines": {

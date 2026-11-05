@@ -23,6 +23,10 @@ const defaultState = {
     lastView: "lesson"
   },
   notes: "",
+  roadmap: {
+    currentLessonId: "l2608",
+    reviewStage: {}
+  },
   clusters: [
     {
       id: "cluster-shu-nian",
@@ -100,6 +104,12 @@ function normalizeState(value) {
     ? value.progress
     : fallback.progress;
   const clusters = Array.isArray(value.clusters) ? value.clusters : fallback.clusters;
+  const roadmap = value.roadmap && typeof value.roadmap === "object"
+    ? value.roadmap
+    : fallback.roadmap;
+  const reviewStage = roadmap.reviewStage && typeof roadmap.reviewStage === "object"
+    ? roadmap.reviewStage
+    : {};
 
   return {
     version: 1,
@@ -126,6 +136,22 @@ function normalizeState(value) {
       lastView: cleanText(progress.lastView, 24) || "lesson"
     },
     notes: cleanText(value.notes, 20000),
+    roadmap: {
+      currentLessonId: cleanText(roadmap.currentLessonId, 40) || fallback.roadmap.currentLessonId,
+      reviewStage: Object.fromEntries(
+        Object.entries(reviewStage)
+          .slice(0, 400)
+          .map(([lessonId, entry]) => [
+            cleanText(lessonId, 40),
+            {
+              stage: Number.isInteger(entry?.stage) ? Math.max(0, Math.min(10, entry.stage)) : 0,
+              lastReviewedAt: cleanText(entry?.lastReviewedAt, 10) || null,
+              nextReviewDate: cleanText(entry?.nextReviewDate, 10) || null
+            }
+          ])
+          .filter(([lessonId]) => lessonId)
+      )
+    },
     clusters: clusters.slice(0, 100).map((cluster, clusterIndex) => ({
       id: cleanText(cluster.id, 80) || `cluster-${clusterIndex}`,
       name: cleanText(cluster.name, 80) || "Cụm chưa đặt tên",

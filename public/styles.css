@@ -17,7 +17,9 @@
   --blue-soft: #e5eef3;
   --shadow: 0 8px 24px rgba(25, 38, 29, 0.08);
   --sidebar-width: 292px;
-  --han-font: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", ui-sans-serif, system-ui, sans-serif;
+  /* Chữ Latinh/tiếng Việt lấy từ font hệ thống trước, chữ Hán mới rơi xuống font CJK.
+     Nếu để font CJK đứng đầu thì dấu tiếng Việt bị dựng sai (một → mợt, lặp → lạp). */
+  --han-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
 }
 
 * {
@@ -432,6 +434,10 @@ p {
   line-height: 1.55;
 }
 
+.pattern-note {
+  white-space: pre-line;
+}
+
 .pattern-example {
   margin-top: 9px;
   padding: 9px 11px;
@@ -518,37 +524,130 @@ p {
   margin-top: 6px;
   color: var(--muted);
   line-height: 1.6;
+  white-space: pre-line;
 }
 
-.structure-example {
-  margin-top: 14px;
-  padding: 12px 14px;
-  border-left: 3px solid var(--blue);
-  background: var(--blue-soft);
+.structure-sense {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 5px 11px;
+  border-radius: 999px;
+  color: var(--green-dark);
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1.45;
+  background: var(--green-soft);
 }
 
-.structure-example > span {
+.structure-section {
+  margin-top: 16px;
+}
+
+.structure-label {
   display: block;
-  margin-bottom: 4px;
-  color: var(--blue);
+  margin-bottom: 7px;
+  color: var(--muted);
   font-size: 11px;
-  font-weight: 850;
+  font-weight: 800;
   text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
-.structure-example strong {
-  display: block;
+.structure-forms {
+  display: grid;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+
+.structure-form-row {
+  display: grid;
+  grid-template-columns: minmax(84px, auto) 1fr;
+  align-items: baseline;
+  gap: 12px;
+  padding: 9px 12px;
+  border-left: 3px solid var(--green);
+  border-radius: 5px;
+  background: var(--green-soft);
+}
+
+.structure-form-row dt {
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.structure-form-row dd {
+  margin: 0;
   overflow-wrap: anywhere;
   font-family: var(--han-font);
-  font-size: 21px;
-  line-height: 1.5;
-  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-.structure-example p {
-  margin-top: 4px;
+.structure-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.structure-table th,
+.structure-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.structure-table th {
   color: var(--muted);
-  line-height: 1.5;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: var(--surface-soft);
+}
+
+/* Bảng so sánh lấy nguyên từ sách: cột đầu là tên mục nên không viết hoa toàn bộ. */
+.structure-compare th {
+  text-transform: none;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+
+.structure-compare tbody th {
+  width: 1%;
+  white-space: nowrap;
+  background: var(--surface-soft);
+  font-weight: 800;
+}
+
+.structure-compare td {
+  font-size: 14px;
+}
+
+.structure-col-corner {
+  background: transparent;
+}
+
+.structure-col-index {
+  width: 36px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+  text-align: center;
+}
+
+.structure-cell-zh {
+  overflow-wrap: anywhere;
+  font-family: var(--han-font);
+  font-size: 19px;
+  line-height: 1.55;
+}
+
+.structure-cell-vi {
+  color: var(--muted);
+  line-height: 1.55;
 }
 
 .structure-empty {
@@ -1143,6 +1242,14 @@ p {
   background: var(--surface);
 }
 
+.listening-audio {
+  margin-bottom: 16px;
+}
+
+.listening-audio audio {
+  width: 100%;
+}
+
 .number-guide-table th,
 .number-guide-table td {
   padding: 13px 12px;
@@ -1501,6 +1608,65 @@ p {
   outline: 2px solid rgba(23, 107, 85, 0.14);
 }
 
+.fill-sentence {
+  margin-top: 10px;
+  font-family: var(--han-font);
+  font-size: 18px;
+  line-height: 2.2;
+  overflow-wrap: anywhere;
+}
+
+.fill-inline {
+  display: inline-block;
+  width: clamp(90px, 22vw, 190px);
+  min-height: 34px;
+  margin: 0 4px;
+  padding: 3px 8px;
+  vertical-align: baseline;
+  border: 0;
+  border-bottom: 2px solid var(--line-strong);
+  border-radius: 0;
+  color: var(--green-dark);
+  font-family: var(--han-font);
+  font-size: 17px;
+  font-weight: 750;
+  background: var(--surface-soft);
+}
+
+.fill-inline:focus {
+  border-bottom-color: var(--green);
+  outline: 2px solid rgba(23, 107, 85, 0.14);
+  outline-offset: 2px;
+}
+
+.fill-answer-label {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.fill-answer-label input {
+  width: 100%;
+  max-width: 420px;
+  min-height: 42px;
+  padding: 7px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 5px;
+  color: var(--ink);
+  font-family: var(--han-font);
+  font-size: 18px;
+  font-weight: 750;
+  background: var(--surface-soft);
+}
+
+.fill-answer-label input:focus {
+  border-color: var(--green);
+  outline: 2px solid rgba(23, 107, 85, 0.14);
+}
+
 .measure-page-actions {
   position: sticky;
   bottom: 12px;
@@ -1547,6 +1713,210 @@ p {
   border-bottom: 1px solid var(--line);
 }
 
+.common-page {
+  display: grid;
+  gap: 28px;
+}
+
+.common-intro {
+  max-width: 720px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.common-entry {
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line);
+}
+
+.common-entry:last-child {
+  border-bottom: 0;
+}
+
+.common-entry-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.common-entry-hanzi {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  flex: 0 0 auto;
+  place-items: center;
+  border-radius: 10px;
+  color: #fff;
+  font-family: var(--han-font);
+  font-size: 36px;
+  font-weight: 850;
+  background: var(--green);
+}
+
+.common-entry-head h3 {
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.common-entry-pinyin {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.common-entry-summary {
+  margin-top: 12px;
+  max-width: 760px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.common-block-title {
+  margin: 26px 0 12px;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+.common-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.common-table th,
+.common-table td {
+  padding: 11px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.common-table th {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: var(--surface-soft);
+}
+
+.common-phrase,
+.common-formula {
+  font-family: var(--han-font);
+  font-size: 17px;
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+.common-pinyin,
+.common-hanviet {
+  color: var(--muted);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.common-strong {
+  font-weight: 750;
+}
+
+.common-meaning-list,
+.common-example-list {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.common-meaning-list li {
+  line-height: 1.5;
+}
+
+.common-example-list li {
+  display: grid;
+  gap: 2px;
+  line-height: 1.5;
+}
+
+.common-example-list span {
+  font-family: var(--han-font);
+  font-size: 16px;
+}
+
+.common-example-list em {
+  color: var(--muted);
+  font-size: 12px;
+  font-style: normal;
+}
+
+.common-tip-list {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.common-tip-list li {
+  display: grid;
+  grid-template-columns: auto auto auto 1fr;
+  align-items: baseline;
+  gap: 10px;
+  padding: 11px 14px;
+  border-left: 4px solid var(--green);
+  border-radius: 6px;
+  background: var(--green-soft);
+}
+
+.common-tip-phrase {
+  font-family: var(--han-font);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.common-tip-pinyin {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.common-tip-focus {
+  color: var(--green-dark);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.common-tip-detail {
+  line-height: 1.5;
+}
+
+.common-mnemonic {
+  padding: 16px 18px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: var(--surface-soft);
+}
+
+.common-mnemonic-sentence {
+  font-family: var(--han-font);
+  font-size: 20px;
+  font-weight: 750;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.common-mnemonic-pinyin {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+.common-mnemonic-meaning {
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
 .notes-page {
   display: grid;
   gap: 14px;
@@ -1577,6 +1947,131 @@ p {
 .notes-textarea:focus {
   border-color: var(--green);
   outline: 2px solid rgba(23, 107, 85, 0.14);
+}
+
+.roadmap-page {
+  display: grid;
+  gap: 8px;
+}
+
+.roadmap-today {
+  padding: 20px 22px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background: var(--green-soft);
+}
+
+.roadmap-today-label {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.roadmap-today-date {
+  margin-top: 2px;
+  font-size: 22px;
+  font-weight: 750;
+}
+
+.roadmap-today-note {
+  margin-top: 10px;
+  max-width: 640px;
+  line-height: 1.6;
+}
+
+.roadmap-checkpoint {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.roadmap-checkpoint select {
+  padding: 8px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.roadmap-review-list {
+  display: grid;
+  gap: 12px;
+}
+
+.roadmap-card {
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.roadmap-card-due {
+  border-left: 4px solid var(--amber);
+  background: var(--amber-soft);
+}
+
+.roadmap-card-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.roadmap-card-date {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.roadmap-card-title {
+  font-weight: 750;
+}
+
+.roadmap-card-meta {
+  margin-left: auto;
+  color: var(--amber);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.roadmap-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.roadmap-empty {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.roadmap-upcoming-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.roadmap-upcoming-list li {
+  display: flex;
+  gap: 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+}
+
+.roadmap-upcoming-date {
+  min-width: 80px;
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .cluster-heading {
@@ -1975,6 +2470,17 @@ p {
 
   .question {
     padding: 14px;
+  }
+
+  .common-tip-list li {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .common-entry-hanzi {
+    width: 52px;
+    height: 52px;
+    font-size: 28px;
   }
 
   .measure-options {

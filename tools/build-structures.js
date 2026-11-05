@@ -14,6 +14,33 @@ function tableCells(line, expectedCount) {
   return cells;
 }
 
+// Cột "Bảng" (tuỳ chọn) của một cấu trúc: các hàng cách nhau bằng "；",
+// các ô trong hàng cách nhau bằng "｜" (gạch đứng toàn rộng, không phải "|" của markdown).
+// Hàng đầu tiên là hàng tiêu đề. Dấu "—" nghĩa là cấu trúc này không có bảng.
+function parseStructureTable(raw, id) {
+  if (!raw || raw === "—") return null;
+  const rows = raw
+    .split("；")
+    .map(row => row.trim())
+    .filter(Boolean)
+    .map(row => row.split("｜").map(cell => cell.trim()));
+  if (rows.length < 2) throw new Error(`${id} có bảng cần ít nhất một hàng tiêu đề và một hàng dữ liệu.`);
+  const width = rows[0].length;
+  if (width < 2) throw new Error(`${id} có bảng cần ít nhất hai cột.`);
+  rows.forEach((row, index) => {
+    if (row.length !== width) {
+      throw new Error(`${id} có bảng với hàng ${index + 1} không đủ ${width} ô.`);
+    }
+    // Ô góc trên bên trái của bảng so sánh được phép để trống, các ô còn lại thì không.
+    row.forEach((cell, column) => {
+      if (!cell && !(index === 0 && column === 0)) {
+        throw new Error(`${id} có bảng chứa ô rỗng ở hàng ${index + 1}, cột ${column + 1}.`);
+      }
+    });
+  });
+  return { columns: rows[0], rows: rows.slice(1) };
+}
+
 function parseStructurePlan(markdown) {
   const result = {};
   const structureIds = new Set();
@@ -36,15 +63,34 @@ function parseStructurePlan(markdown) {
     if (!line.match(/^\| l\d{4}-s\d+ \|/)) continue;
     if (!currentLesson) throw new Error("Cấu trúc nằm trước tiêu đề ngày.");
 
-    const [id, formula, usage, example, meaning] = tableCells(line, 5);
+    const cellCount = line.slice(1, -1).split("|").length;
+    if (cellCount !== 6 && cellCount !== 7) {
+      throw new Error(`Hàng cấu trúc phải có 6 hoặc 7 cột: ${line}`);
+    }
+    const [id, formula, sense, usage, rawExample, rawMeaning, rawTable] =
+      tableCells(line, cellCount);
     const lessonId = id.match(/^(l\d{4})-s\d+$/)?.[1];
     if (!lessonId || lessonId !== Object.keys(result).at(-1)) {
       throw new Error(`Mã cấu trúc không khớp ngày: ${id}`);
     }
     if (structureIds.has(id)) throw new Error(`Mã cấu trúc bị lặp: ${id}`);
 
+    const examples = rawExample.split("；").map(part => part.trim()).filter(Boolean);
+    const meanings = rawMeaning.split("；").map(part => part.trim()).filter(Boolean);
+    if (examples.length !== meanings.length) {
+      throw new Error(`${id} có số câu ví dụ và số nghĩa không khớp nhau.`);
+    }
+    if (new Set(examples).size !== examples.length) {
+      throw new Error(`${id} có câu ví dụ bị lặp lại trong cùng một cấu trúc.`);
+    }
+    const usageLines = usage.split("；").map(part => part.trim()).filter(Boolean).join("\n");
+
+    const table = parseStructureTable(rawTable, id);
+
     structureIds.add(id);
-    currentLesson.items.push({ id, formula, usage, example, meaning });
+    const item = { id, formula, sense, usage: usageLines, examples, meanings };
+    if (table) item.table = table;
+    currentLesson.items.push(item);
   }
 
   const days = Object.entries(result);
@@ -104,7 +150,7 @@ function parsePracticePlan(markdown) {
     if (dialogue.length < 8) throw new Error(`${lessonId} cần ít nhất tám lượt hội thoại.`);
     if (hanCharacterCount < 120) throw new Error(`${lessonId} có bài đọc quá ngắn.`);
     if (questionRows.length !== 5) throw new Error(`${lessonId} cần đúng năm câu đọc hiểu.`);
-    if (writingRows.length !== 3) throw new Error(`${lessonId} cần đúng ba bài đặt câu.`);
+    if (writingRows.length < 3) throw new Error(`${lessonId} cần ít nhất ba bài đặt câu.`);
 
     const questions = questionRows.map(line => {
       const [id, prompt, rawOptions, answerText, explanation] = tableCells(line, 5);
@@ -144,9 +190,6 @@ function parsePracticePlan(markdown) {
 
     if (new Set(wordTasks.map(task => task.topic)).size !== wordTasks.length) {
       throw new Error(`${lessonId} có chủ đề đặt câu bị lặp.`);
-    }
-    if (new Set(wordTasks.map(task => task.structure)).size !== wordTasks.length) {
-      throw new Error(`${lessonId} có công thức đặt câu bị lặp.`);
     }
 
     result[lessonId] = {

@@ -7,6 +7,7 @@
   const practiceExtensions = window.HSK_PRACTICE_EXTENSIONS;
   const production = window.HSK_PRODUCTION;
   const measureWords = window.HSK_MEASURE_WORDS;
+  const commonStructures = window.HSK_COMMON_STRUCTURES;
   const lessons = content.lessons;
   const measurePageSize = 20;
   const navEl = document.querySelector("#lessonNav");
@@ -51,6 +52,27 @@
       .replaceAll("'", "&#039;");
   }
 
+  const REVIEW_INTERVALS_DAYS = [1, 3, 7, 16, 35];
+
+  function isoDate(date) {
+    return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}-${String(date.getDate()).padStart(2, "0")}`;
+  }
+
+  function todayIso() {
+    return isoDate(new Date());
+  }
+
+  function addDaysIso(iso, days) {
+    const date = new Date(`${iso}T00:00:00`);
+    date.setDate(date.getDate() + days);
+    return isoDate(date);
+  }
+
+  function formatIsoAsVn(iso) {
+    const [year, month, day] = iso.split("-");
+    return `${day}/${month}/${year}`;
+  }
+
   function hash(value) {
     let result = 2166136261;
     for (const character of String(value)) {
@@ -79,6 +101,23 @@
       .map((token, index) => ({ token, weight: hash(`${id}-${index}`) }))
       .sort((left, right) => left.weight - right.weight)
       .map(item => item.token);
+  }
+
+  function fillQuestion(rawFill, id) {
+    const [prompt, accepted, explanation] = rawFill;
+    const blanks = Array.isArray(accepted[0]) ? accepted : [accepted];
+    return {
+      id,
+      type: "fill",
+      prompt,
+      blanks,
+      answer: blanks.map(item => item[0]).join(" / "),
+      explanation
+    };
+  }
+
+  function clozeQuestion(rawQuestion, id) {
+    return rawQuestion.length === 3 ? fillQuestion(rawQuestion, id) : rotateChoice(rawQuestion, id);
   }
 
   function orderQuestion(rawOrder, id) {
@@ -217,9 +256,23 @@
       reverseVocabQuestion(pickedOldVocab[0], allPool, `vocab-old-${lesson.id}-0`),
       vocabQuestion(pickedOldVocab[1], allPool, `vocab-old-${lesson.id}-1`)
     ];
-    const mixedVocab = lesson.practice.cloze.map((question, index) =>
-      rotateChoice(question, `vocab-mixed-${lesson.id}-${index}`)
-    );
+    const clozeBlocks = [];
+    let looseCloze = [];
+    lesson.practice.cloze.forEach((entry, index) => {
+      if (Array.isArray(entry)) {
+        looseCloze.push(clozeQuestion(entry, `vocab-mixed-${lesson.id}-${index}`));
+        return;
+      }
+      clozeBlocks.push({
+        id: `cloze-block-${lesson.id}-${index}`,
+        title: entry.title,
+        description: entry.description || "",
+        questions: entry.items.map((item, itemIndex) =>
+          clozeQuestion(item, `vocab-mixed-${lesson.id}-${index}-${itemIndex}`)
+        )
+      });
+    });
+    const mixedVocab = looseCloze;
     const newGrammar = lesson.quiz.slice(0, 3).map((question, index) =>
       rotateChoice(question, `grammar-new-${lesson.id}-${index}`)
     );
@@ -236,9 +289,23 @@
         `grammar-old-${lesson.id}-${sourceLesson.id}-${questionIndex}`
       );
     });
-    const mixedGrammar = lesson.practice.orders.map((question, index) =>
-      orderQuestion(question, `grammar-mixed-${lesson.id}-${index}`)
-    );
+    const orderBlocks = [];
+    const looseOrders = [];
+    lesson.practice.orders.forEach((entry, index) => {
+      if (Array.isArray(entry)) {
+        looseOrders.push(orderQuestion(entry, `grammar-mixed-${lesson.id}-${index}`));
+        return;
+      }
+      orderBlocks.push({
+        id: `order-block-${lesson.id}-${index}`,
+        title: entry.title,
+        description: entry.description || "",
+        questions: entry.items.map((item, itemIndex) =>
+          orderQuestion(item, `grammar-mixed-${lesson.id}-${index}-${itemIndex}`)
+        )
+      });
+    });
+    const mixedGrammar = looseOrders;
     const largeNumberQuestions = buildLargeNumberQuestions(lesson);
     const largeNumberSection = largeNumberQuestions.length
       ? {
@@ -258,22 +325,34 @@
       id: `written-${question.id}`,
       type: "written"
     }));
-    const writtenSections = writtenPractice.map(question => ({
-      id: question.kind,
-      title: {
-        "sentence-vocab": "Đặt câu với từ mới",
-        "sentence-pattern": "Đặt câu với cấu trúc mới",
-        "question-from-answer": "Đặt câu hỏi từ câu trả lời",
-        "answer-from-question": "Viết câu trả lời từ câu hỏi"
-      }[question.kind],
-      description: {
-        "sentence-vocab": "Tự tạo một câu mới, không chép lại câu ví dụ của bài.",
-        "sentence-pattern": "Áp dụng mẫu mới vào tình huống khác với phần nhận diện.",
-        "question-from-answer": "Xác định thông tin cần hỏi rồi viết câu hỏi phù hợp.",
-        "answer-from-question": "Trả lời thành câu đầy đủ, không chỉ ghi một từ."
-      }[question.kind],
-      questions: [question]
-    }));
+    const writtenKindOrder = [
+      "sentence-vocab",
+      "sentence-pattern",
+      "question-from-answer",
+      "answer-from-question"
+    ];
+    const writtenSections = writtenKindOrder
+      .map(kind => {
+        const questions = writtenPractice.filter(question => question.kind === kind);
+        if (!questions.length) return null;
+        return {
+          id: kind,
+          title: {
+            "sentence-vocab": "Đặt câu với từ mới",
+            "sentence-pattern": "Đặt câu với cấu trúc mới",
+            "question-from-answer": "Đặt câu hỏi từ câu trả lời",
+            "answer-from-question": "Viết câu trả lời từ câu hỏi"
+          }[kind],
+          description: {
+            "sentence-vocab": "Tự tạo một câu mới, không chép lại câu ví dụ của bài.",
+            "sentence-pattern": "Áp dụng mẫu mới vào tình huống khác với phần nhận diện.",
+            "question-from-answer": "Xác định thông tin cần hỏi rồi viết câu hỏi phù hợp.",
+            "answer-from-question": "Trả lời thành câu đầy đủ, không chỉ ghi một từ."
+          }[kind],
+          questions
+        };
+      })
+      .filter(Boolean);
     const givenWordSection = givenWordPractice.length
       ? {
           id: "sentence-given-words",
@@ -293,6 +372,30 @@
       : lesson.practice.reading[2].map((question, index) =>
           rotateChoice(question, `reading-${lesson.id}-${index}`)
         );
+    const listeningSections = (lesson.listening || []).map((clip, clipIndex) => {
+      const orderId = `listening-order-${lesson.id}-${clipIndex}`;
+      const orderQuestionItem = {
+        id: orderId,
+        type: "order",
+        prompt: "Nghe rồi sắp xếp các câu thoại theo đúng thứ tự.",
+        tokens: shuffledTokens(clip.dialogueLines, orderId),
+        answer: clip.dialogueLines.join(""),
+        explanation: `Hội thoại đầy đủ: ${clip.dialogueLines.join(" ")}`
+      };
+      const trueFalseQuestions = clip.trueFalse.map((item, tfIndex) =>
+        rotateChoice(
+          [item[0], ["Đúng", "Sai"], item[1] ? 0 : 1, item[2]],
+          `listening-tf-${lesson.id}-${clipIndex}-${tfIndex}`
+        )
+      );
+      return {
+        id: `listening-${lesson.id}-${clipIndex}`,
+        title: clip.title,
+        description: clip.note || "Nghe đoạn ghi âm rồi làm bài tập bên dưới.",
+        audio: clip.url,
+        questions: [orderQuestionItem, ...trueFalseQuestions]
+      };
+    });
 
     return [
       {
@@ -310,12 +413,13 @@
           : "Củng cố nhóm từ đầu tiên của lộ trình.",
         questions: oldVocab
       },
-      {
+      ...(mixedVocab.length ? [{
         id: "mixed-vocab",
         title: "Từ mới + cũ",
         description: "Chọn từ phù hợp với ngữ cảnh của câu.",
         questions: mixedVocab
-      },
+      }] : []),
+      ...clozeBlocks,
       {
         id: "new-grammar",
         title: "Cấu trúc mới",
@@ -333,12 +437,13 @@
           : "Củng cố cấu trúc mở đầu.",
         questions: oldGrammar
       },
-      {
+      ...(mixedGrammar.length ? [{
         id: "mixed-grammar",
         title: "Cấu trúc mới + cũ",
         description: "Sắp xếp câu có nhiều thành phần đã học.",
         questions: mixedGrammar
-      },
+      }] : []),
+      ...orderBlocks,
       writtenSections[2],
       writtenSections[3],
       {
@@ -352,7 +457,8 @@
           : null,
         passage: readingPlan ? "" : lesson.practice.reading[1],
         questions: reading
-      }
+      },
+      ...listeningSections
     ];
   }
 
@@ -376,6 +482,74 @@
     return practiceState;
   }
 
+  function ensureRoadmapState() {
+    savedData.roadmap ||= { currentLessonId: lessons[0].id, reviewStage: {} };
+    savedData.roadmap.reviewStage ||= {};
+    return savedData.roadmap;
+  }
+
+  function seedRoadmapReviews() {
+    const roadmap = ensureRoadmapState();
+    const currentIndex = Math.max(0, lessons.findIndex(item => item.id === roadmap.currentLessonId));
+    const learned = lessons.slice(0, currentIndex + 1);
+    const today = todayIso();
+    learned.forEach((lessonItem, index) => {
+      if (!roadmap.reviewStage[lessonItem.id]) {
+        roadmap.reviewStage[lessonItem.id] = {
+          stage: 0,
+          lastReviewedAt: null,
+          nextReviewDate: addDaysIso(today, index % 5)
+        };
+      }
+    });
+  }
+
+  function dueReviewsToday() {
+    const roadmap = ensureRoadmapState();
+    const today = todayIso();
+    return Object.entries(roadmap.reviewStage)
+      .filter(([, entry]) => entry.nextReviewDate && entry.nextReviewDate <= today)
+      .map(([lessonId, entry]) => ({ lesson: lessons.find(item => item.id === lessonId), entry }))
+      .filter(item => item.lesson)
+      .sort((a, b) => a.entry.nextReviewDate.localeCompare(b.entry.nextReviewDate));
+  }
+
+  function upcomingReviews(days = 7) {
+    const roadmap = ensureRoadmapState();
+    const today = todayIso();
+    const horizon = addDaysIso(today, days);
+    return Object.entries(roadmap.reviewStage)
+      .map(([lessonId, entry]) => ({ lesson: lessons.find(item => item.id === lessonId), entry }))
+      .filter(item => item.lesson && item.entry.nextReviewDate > today && item.entry.nextReviewDate <= horizon)
+      .sort((a, b) => a.entry.nextReviewDate.localeCompare(b.entry.nextReviewDate));
+  }
+
+  function markLessonReviewed(lessonId) {
+    const roadmap = ensureRoadmapState();
+    const entry = roadmap.reviewStage[lessonId] || { stage: 0, lastReviewedAt: null, nextReviewDate: null };
+    const today = todayIso();
+    const nextStage = Math.min(entry.stage + 1, REVIEW_INTERVALS_DAYS.length);
+    const intervalIndex = Math.min(nextStage - 1, REVIEW_INTERVALS_DAYS.length - 1);
+    roadmap.reviewStage[lessonId] = {
+      stage: nextStage,
+      lastReviewedAt: today,
+      nextReviewDate: addDaysIso(today, REVIEW_INTERVALS_DAYS[intervalIndex])
+    };
+    markDirty();
+    renderContent();
+  }
+
+  function advanceCurrentLesson() {
+    const roadmap = ensureRoadmapState();
+    const currentIndex = lessons.findIndex(item => item.id === roadmap.currentLessonId);
+    const nextLesson = lessons[currentIndex + 1];
+    if (!nextLesson) return;
+    roadmap.currentLessonId = nextLesson.id;
+    seedRoadmapReviews();
+    markDirty();
+    renderContent();
+  }
+
   function normalizeSentence(value) {
     return String(value).replace(/[\s。？！，、,.?!]/g, "");
   }
@@ -385,6 +559,13 @@
       if (!Array.isArray(answer)) return false;
       const sentence = answer.map(index => question.tokens[index]).join("");
       return normalizeSentence(sentence) === normalizeSentence(question.answer);
+    }
+    if (question.type === "fill") {
+      const given = Array.isArray(answer) ? answer : [answer];
+      return question.blanks.every((accepted, index) => {
+        const normalized = normalizeMeasureAnswer(given[index]);
+        return Boolean(normalized) && accepted.some(item => normalizeMeasureAnswer(item) === normalized);
+      });
     }
     return Number(answer) === question.answer;
   }
@@ -508,6 +689,18 @@
     if (ui.view === "notes") {
       activeDateEl.textContent = "Dữ liệu cá nhân";
       activeTitleEl.textContent = "Ghi chú";
+      return;
+    }
+
+    if (ui.view === "common") {
+      activeDateEl.textContent = "Tra cứu nhanh";
+      activeTitleEl.textContent = "Cấu trúc thông dụng";
+      return;
+    }
+
+    if (ui.view === "roadmap") {
+      activeDateEl.textContent = "Dữ liệu cá nhân";
+      activeTitleEl.textContent = "Lộ trình học";
       return;
     }
 
@@ -635,10 +828,35 @@
             <p>${item.patterns.length} mẫu</p>
           </div>
           <ul class="pattern-list">
-            ${item.patterns.map((pattern, index) => `
+            ${item.patterns.map((pattern, index) => {
+              // Mẫu câu và cấu trúc là một-một, nên lấy luôn bảng của cấu trúc
+              // thay vì kể lại nội dung bảng bằng lời.
+              const patternTable = (structures[item.id]?.items || [])[index]?.table || null;
+              return `
               <li class="pattern-row">
                 <span class="pattern">${escapeHtml(pattern[0])}</span>
                 <span class="pattern-note">${escapeHtml(pattern[1])}</span>
+                ${patternTable ? `
+                  <div class="table-scroll">
+                    <table class="structure-table structure-compare">
+                      <thead>
+                        <tr>
+                          ${patternTable.columns.map(column => `
+                            <th${column ? "" : ' class="structure-col-corner"'}>${escapeHtml(column)}</th>
+                          `).join("")}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        ${patternTable.rows.map(row => `
+                          <tr>
+                            <th scope="row">${escapeHtml(row[0])}</th>
+                            ${row.slice(1).map(cell => `<td>${escapeHtml(cell)}</td>`).join("")}
+                          </tr>
+                        `).join("")}
+                      </tbody>
+                    </table>
+                  </div>
+                ` : ""}
                 ${patternEvidence[index] ? `
                   <div class="pattern-example">
                     <span>Ví dụ: ${escapeHtml(patternEvidence[index])}</span>
@@ -646,7 +864,8 @@
                   </div>
                 ` : ""}
               </li>
-            `).join("")}
+            `;
+            }).join("")}
           </ul>
         </section>
       </div>
@@ -733,22 +952,91 @@
       </section>
 
       <div class="structure-list">
-        ${structureDay.items.map((structure, index) => `
-          <article class="structure-item">
-            <div class="structure-number" aria-hidden="true">
-              ${String(index + 1).padStart(2, "0")}
-            </div>
-            <div class="structure-body">
-              <h4 class="structure-formula">${escapeHtml(structure.formula)}</h4>
-              <p class="structure-usage">${escapeHtml(structure.usage)}</p>
-              <div class="structure-example">
-                <span>Ví dụ</span>
-                <strong lang="zh-Hans">${escapeHtml(structure.example)}</strong>
-                <p>${escapeHtml(structure.meaning)}</p>
+        ${structureDay.items.map((structure, index) => {
+          const lines = structure.usage.split("\n").map(line => line.trim()).filter(Boolean);
+          const plain = [];
+          const labelled = [];
+          lines.forEach(line => {
+            const match = line.match(/^([^:：]{2,26})[:：]\s*(.+)$/);
+            if (match) labelled.push([match[1].trim(), match[2].trim()]);
+            else plain.push(line);
+          });
+          return `
+            <article class="structure-item">
+              <div class="structure-number" aria-hidden="true">
+                ${String(index + 1).padStart(2, "0")}
               </div>
-            </div>
-          </article>
-        `).join("")}
+              <div class="structure-body">
+                <h4 class="structure-formula">${escapeHtml(structure.formula)}</h4>
+                ${structure.sense ? `
+                  <p class="structure-sense">${escapeHtml(structure.sense)}</p>
+                ` : ""}
+
+                <div class="structure-section">
+                  <span class="structure-label">Cách dùng</span>
+                  ${plain.map(line => `<p class="structure-usage">${escapeHtml(line)}</p>`).join("")}
+                  ${labelled.length ? `
+                    <dl class="structure-forms">
+                      ${labelled.map(([term, detail]) => `
+                        <div class="structure-form-row">
+                          <dt>${escapeHtml(term)}</dt>
+                          <dd lang="zh-Hans">${escapeHtml(detail)}</dd>
+                        </div>
+                      `).join("")}
+                    </dl>
+                  ` : ""}
+                </div>
+
+                ${structure.table ? `
+                  <div class="structure-section">
+                    <span class="structure-label">Bảng trong sách</span>
+                    <div class="table-scroll">
+                      <table class="structure-table structure-compare">
+                        <thead>
+                          <tr>
+                            ${structure.table.columns.map(column => `
+                              <th${column ? "" : ' class="structure-col-corner"'}>${escapeHtml(column)}</th>
+                            `).join("")}
+                          </tr>
+                        </thead>
+                        <tbody>
+                          ${structure.table.rows.map(row => `
+                            <tr>
+                              <th scope="row">${escapeHtml(row[0])}</th>
+                              ${row.slice(1).map(cell => `<td>${escapeHtml(cell)}</td>`).join("")}
+                            </tr>
+                          `).join("")}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                ` : ""}
+
+                <div class="structure-section">
+                  <span class="structure-label">
+                    Ví dụ${structure.examples.length > 1 ? ` (${structure.examples.length})` : ""}
+                  </span>
+                  <div class="table-scroll">
+                    <table class="structure-table">
+                      <thead>
+                        <tr><th class="structure-col-index">#</th><th>Câu tiếng Trung</th><th>Nghĩa</th></tr>
+                      </thead>
+                      <tbody>
+                        ${structure.examples.map((example, exampleIndex) => `
+                          <tr>
+                            <td class="structure-col-index">${exampleIndex + 1}</td>
+                            <td class="structure-cell-zh" lang="zh-Hans">${escapeHtml(example)}</td>
+                            <td class="structure-cell-vi">${escapeHtml(structure.meanings[exampleIndex])}</td>
+                          </tr>
+                        `).join("")}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </article>
+          `;
+        }).join("")}
       </div>
     `;
   }
@@ -813,6 +1101,33 @@
         ${checked ? `
           <div class="answer-note">
             ${correct ? "Đã chọn đúng." : `Đáp án: ${escapeHtml(question.options[question.answer])}.`}
+            ${escapeHtml(question.explanation)}
+          </div>
+        ` : ""}
+      </article>
+    `;
+  }
+
+  function renderFillQuestion(question, answer, checked, context, number) {
+    const correct = checked ? isQuestionCorrect(question, answer) : null;
+    const given = Array.isArray(answer) ? answer : [answer];
+    const segments = question.prompt.split("____");
+    const inlinePrompt = segments.map((segment, index) => {
+      if (index === segments.length - 1) return escapeHtml(segment);
+      return `${escapeHtml(segment)}<input type="text" class="fill-inline" autocomplete="off" lang="zh-Hans"
+        data-fill-context="${escapeHtml(context)}"
+        data-question-id="${escapeHtml(question.id)}"
+        data-blank-index="${index}"
+        value="${escapeHtml(given[index] || "")}"
+        aria-label="Chỗ trống ${index + 1}">`;
+    }).join("");
+    return `
+      <article class="question ${correct === true ? "correct" : ""} ${correct === false ? "incorrect" : ""}">
+        <h4>${number}. Điền từ/cụm từ còn thiếu${question.blanks.length > 1 ? ` (${question.blanks.length} chỗ trống)` : ""}</h4>
+        <p class="fill-sentence" lang="zh-Hans">${inlinePrompt}</p>
+        ${checked ? `
+          <div class="answer-note">
+            ${correct ? "Đã điền đúng." : `Đáp án: ${escapeHtml(question.answer)}.`}
             ${escapeHtml(question.explanation)}
           </div>
         ` : ""}
@@ -960,6 +1275,11 @@
         <section class="exercise-section">
           <h3>${escapeHtml(section.title)}</h3>
           <p>${escapeHtml(section.description)}</p>
+          ${section.audio ? `
+            <div class="listening-audio">
+              <audio controls preload="none" src="${escapeHtml(section.audio)}"></audio>
+            </div>
+          ` : ""}
           ${section.reading ? renderReadingMaterial(section.reading) : section.passage ? `
             <div class="reading-passage">
               <div class="reading-label">Bài đọc</div>
@@ -974,6 +1294,9 @@
               }
               if (question.type === "order") {
                 return renderOrderQuestion(question, answer, resultIsCurrent, index + 1);
+              }
+              if (question.type === "fill") {
+                return renderFillQuestion(question, answer, resultIsCurrent, "practice", index + 1);
               }
               return renderChoiceQuestion(
                 question,
@@ -1494,6 +1817,206 @@
     `;
   }
 
+  function renderRoadmap() {
+    seedRoadmapReviews();
+    const roadmap = ensureRoadmapState();
+    const currentIndex = Math.max(0, lessons.findIndex(item => item.id === roadmap.currentLessonId));
+    const nextLesson = lessons[currentIndex + 1] || null;
+    const remainingCount = Math.max(0, lessons.length - currentIndex - 1);
+    const dueToday = dueReviewsToday();
+    const upcoming = upcomingReviews(7);
+    const today = todayIso();
+
+    const checkpointOptions = lessons.map(item => `
+      <option value="${escapeHtml(item.id)}" ${item.id === roadmap.currentLessonId ? "selected" : ""}>
+        ${escapeHtml(item.shortDate)} — ${escapeHtml(item.title)}
+      </option>
+    `).join("");
+
+    const newLessonCard = nextLesson ? `
+      <div class="roadmap-card">
+        <div class="roadmap-card-head">
+          <span class="roadmap-card-date">${escapeHtml(nextLesson.shortDate)}</span>
+          <span class="roadmap-card-title">${escapeHtml(nextLesson.title)}</span>
+        </div>
+        <div class="roadmap-card-actions">
+          <button class="button primary" type="button" data-action="goToLesson"
+            data-lesson-id="${escapeHtml(nextLesson.id)}" data-target-view="lesson">Học bài này</button>
+          <button class="button secondary" type="button" data-action="advanceCurrentLesson">Đánh dấu đã học xong</button>
+        </div>
+      </div>
+    ` : `
+      <p class="roadmap-empty">Đã học hết toàn bộ bài hiện có. Chờ bổ sung tài liệu mới.</p>
+    `;
+
+    const dueCards = dueToday.length ? dueToday.map(({ lesson: lessonItem, entry }) => `
+      <div class="roadmap-card roadmap-card-due">
+        <div class="roadmap-card-head">
+          <span class="roadmap-card-date">${escapeHtml(lessonItem.shortDate)}</span>
+          <span class="roadmap-card-title">${escapeHtml(lessonItem.title)}</span>
+          <span class="roadmap-card-meta">${entry.nextReviewDate < today ? "Quá hạn" : "Đến hạn hôm nay"} · lần ${entry.stage + 1}</span>
+        </div>
+        <div class="roadmap-card-actions">
+          <button class="button primary" type="button" data-action="goToLesson"
+            data-lesson-id="${escapeHtml(lessonItem.id)}" data-target-view="practice">Ôn ngay (làm bài tập)</button>
+          <button class="button secondary" type="button" data-action="markReviewed"
+            data-lesson-id="${escapeHtml(lessonItem.id)}">Đã ôn xong</button>
+        </div>
+      </div>
+    `).join("") : `
+      <p class="roadmap-empty">Không có buổi nào cần ôn hôm nay.</p>
+    `;
+
+    const upcomingList = upcoming.length ? `
+      <ul class="roadmap-upcoming-list">
+        ${upcoming.map(({ lesson: lessonItem, entry }) => `
+          <li>
+            <span class="roadmap-upcoming-date">${escapeHtml(formatIsoAsVn(entry.nextReviewDate))}</span>
+            <span class="roadmap-upcoming-title">${escapeHtml(lessonItem.shortDate)} — ${escapeHtml(lessonItem.title)}</span>
+          </li>
+        `).join("")}
+      </ul>
+    ` : `
+      <p class="roadmap-empty">Chưa có buổi nào lên lịch trong 7 ngày tới.</p>
+    `;
+
+    contentEl.innerHTML = `
+      <section class="roadmap-page">
+        <div class="roadmap-today">
+          <p class="roadmap-today-label">Hôm nay</p>
+          <p class="roadmap-today-date">${escapeHtml(formatIsoAsVn(today))}</p>
+          <p class="roadmap-today-note">
+            Đã đánh dấu học đến <strong>${escapeHtml(lessons[currentIndex].shortDate)} — ${escapeHtml(lessons[currentIndex].title)}</strong>.
+            Còn ${remainingCount} buổi chưa học trong chương trình hiện có.
+          </p>
+          <label class="roadmap-checkpoint">
+            Chỉnh lại mốc đã học tới (nếu khai sai)
+            <select data-roadmap-select="currentLesson">${checkpointOptions}</select>
+          </label>
+        </div>
+
+        <div class="section">
+          <div class="section-heading">
+            <h3>📘 Bài mới hôm nay</h3>
+          </div>
+          ${newLessonCard}
+        </div>
+
+        <div class="section">
+          <div class="section-heading">
+            <h3>🔁 Ôn tập hôm nay (active recall)</h3>
+            <p>Mở bài tập và tự làm lại, không xem trước đáp án.</p>
+          </div>
+          <div class="roadmap-review-list">${dueCards}</div>
+        </div>
+
+        <div class="section">
+          <div class="section-heading">
+            <h3>📅 7 ngày tới</h3>
+          </div>
+          ${upcomingList}
+        </div>
+      </section>
+    `;
+  }
+
+  function renderCommonStructures() {
+    const entries = commonStructures?.entries || [];
+    contentEl.innerHTML = `
+      <section class="common-page">
+        <p class="common-intro">
+          Bảng tra nhanh các cụm từ và cấu trúc hay gặp, không gắn với ngày học nào.
+        </p>
+        ${entries.map(entry => `
+          <article class="common-entry">
+            <header class="common-entry-head">
+              <span class="common-entry-hanzi" lang="zh-Hans">${escapeHtml(entry.hanzi)}</span>
+              <div>
+                <h3>${escapeHtml(entry.title)}</h3>
+                <p class="common-entry-pinyin">${escapeHtml(entry.pinyin)}</p>
+              </div>
+            </header>
+            <p class="common-entry-summary">${escapeHtml(entry.summary)}</p>
+
+            ${entry.phraseTable ? `
+              <h4 class="common-block-title">${escapeHtml(entry.phraseTable.title)}</h4>
+              <div class="table-scroll">
+                <table class="common-table">
+                  <thead><tr>${entry.phraseTable.columns.map(c => `<th>${escapeHtml(c)}</th>`).join("")}</tr></thead>
+                  <tbody>
+                    ${entry.phraseTable.rows.map(row => `
+                      <tr>
+                        <td class="common-phrase" lang="zh-Hans">${escapeHtml(row.phrase)}</td>
+                        <td class="common-pinyin">${escapeHtml(row.pinyin)}</td>
+                        <td class="common-hanviet">${escapeHtml(row.hanViet)}</td>
+                        <td><ul class="common-meaning-list">${row.meanings.map(m => `<li>${escapeHtml(m)}</li>`).join("")}</ul></td>
+                        <td>
+                          <ul class="common-example-list">
+                            ${row.examples.map(([zh, vi]) => `
+                              <li><span lang="zh-Hans">${escapeHtml(zh)}</span><em>${escapeHtml(vi)}</em></li>
+                            `).join("")}
+                          </ul>
+                        </td>
+                      </tr>
+                    `).join("")}
+                  </tbody>
+                </table>
+              </div>
+            ` : ""}
+
+            ${entry.patternTable ? `
+              <h4 class="common-block-title">${escapeHtml(entry.patternTable.title)}</h4>
+              <div class="table-scroll">
+                <table class="common-table">
+                  <thead><tr>${entry.patternTable.columns.map(c => `<th>${escapeHtml(c)}</th>`).join("")}</tr></thead>
+                  <tbody>
+                    ${entry.patternTable.rows.map(row => `
+                      <tr>
+                        <td class="common-formula" lang="zh-Hans">${escapeHtml(row.formula)}</td>
+                        <td class="common-strong">${escapeHtml(row.meaning)}</td>
+                        <td>${escapeHtml(row.usage)}</td>
+                        <td>
+                          <ul class="common-example-list">
+                            ${row.examples.map(([zh, vi]) => `
+                              <li><span lang="zh-Hans">${escapeHtml(zh)}</span><em>${escapeHtml(vi)}</em></li>
+                            `).join("")}
+                          </ul>
+                        </td>
+                      </tr>
+                    `).join("")}
+                  </tbody>
+                </table>
+              </div>
+            ` : ""}
+
+            ${entry.tipList ? `
+              <h4 class="common-block-title">${escapeHtml(entry.tipList.title)}</h4>
+              <ul class="common-tip-list">
+                ${entry.tipList.items.map(item => `
+                  <li>
+                    <span class="common-tip-phrase" lang="zh-Hans">${escapeHtml(item.phrase)}</span>
+                    <span class="common-tip-pinyin">${escapeHtml(item.pinyin)}</span>
+                    <span class="common-tip-focus">${escapeHtml(item.focus)}</span>
+                    <span class="common-tip-detail">${escapeHtml(item.detail)}</span>
+                  </li>
+                `).join("")}
+              </ul>
+            ` : ""}
+
+            ${entry.mnemonic ? `
+              <h4 class="common-block-title">${escapeHtml(entry.mnemonic.title)}</h4>
+              <div class="common-mnemonic">
+                <p class="common-mnemonic-sentence" lang="zh-Hans">${escapeHtml(entry.mnemonic.sentence)}</p>
+                <p class="common-mnemonic-pinyin">${escapeHtml(entry.mnemonic.pinyin)}</p>
+                <p class="common-mnemonic-meaning">${escapeHtml(entry.mnemonic.meaning)}</p>
+              </div>
+            ` : ""}
+          </article>
+        `).join("")}
+      </section>
+    `;
+  }
+
   function renderNotes() {
     contentEl.innerHTML = `
       <section class="notes-page">
@@ -1509,11 +2032,13 @@
   function renderContent() {
     renderShell();
     if (ui.view === "lesson") renderLesson();
+    if (ui.view === "roadmap") renderRoadmap();
     if (ui.view === "structures") renderStructures();
     if (ui.view === "cards") renderCards();
     if (ui.view === "practice") renderPractice();
     if (ui.view === "measure") renderMeasureWords();
     if (ui.view === "similar") renderSimilar();
+    if (ui.view === "common") renderCommonStructures();
     if (ui.view === "notes") renderNotes();
     if (ui.view === "final") renderFinal();
   }
@@ -1657,6 +2182,33 @@
 
     if (action === "selectLesson") {
       selectLesson(Number(button.dataset.index));
+      return;
+    }
+
+    if (action === "goToLesson") {
+      const targetIndex = lessons.findIndex(item => item.id === button.dataset.lessonId);
+      if (targetIndex < 0) return;
+      ui.lessonIndex = targetIndex;
+      ui.view = button.dataset.targetView || "lesson";
+      ui.cardScope = "lesson";
+      ui.cardIndex = 0;
+      ui.cardRevealed = false;
+      ui.vocabShuffleOrder = null;
+      savedData.progress.lastLessonId = lesson().id;
+      savedData.progress.lastView = ui.view;
+      markDirty();
+      renderContent();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
+    if (action === "advanceCurrentLesson") {
+      advanceCurrentLesson();
+      return;
+    }
+
+    if (action === "markReviewed") {
+      markLessonReviewed(button.dataset.lessonId);
       return;
     }
 
@@ -1902,6 +2454,16 @@
   });
 
   document.addEventListener("change", event => {
+    const roadmapSelect = event.target.closest("select[data-roadmap-select]");
+    if (roadmapSelect && savedData) {
+      const roadmap = ensureRoadmapState();
+      roadmap.currentLessonId = roadmapSelect.value;
+      seedRoadmapReviews();
+      markDirty();
+      renderContent();
+      return;
+    }
+
     const input = event.target.closest("input[data-choice-context]");
     if (!input) return;
     const context = input.dataset.choiceContext;
@@ -1947,6 +2509,27 @@
   });
 
   document.addEventListener("input", event => {
+    const fillInput = event.target.closest("input[data-fill-context]");
+    if (fillInput && savedData) {
+      const context = fillInput.dataset.fillContext;
+      const questionId = fillInput.dataset.questionId;
+      if (context === "practice") {
+        const practiceState = ensurePracticeState(lesson().id);
+        const blankIndex = Number(fillInput.dataset.blankIndex || 0);
+        const current = Array.isArray(practiceState.answers[questionId])
+          ? [...practiceState.answers[questionId]]
+          : [];
+        current[blankIndex] = fillInput.value;
+        practiceState.answers[questionId] = current;
+        practiceState.checked = false;
+        const questionEl = fillInput.closest(".question");
+        questionEl?.classList.remove("correct", "incorrect");
+        questionEl?.querySelector(".answer-note")?.remove();
+        markDirty();
+      }
+      return;
+    }
+
     const measureInput = event.target.closest("input[data-measure-fill]");
     if (measureInput && savedData) {
       const state = ensureMeasureState();
