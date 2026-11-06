@@ -675,6 +675,342 @@ window.HSK_COMMON_STRUCTURES = {
         pinyin: "Nǐ wǎng yòu zǒu jiù dào, yòubiān jiùshì bīnguǎn, tā jiù zài qiánmiàn.",
         meaning: "Bạn đi về bên phải là tới ngay, bên phải chính là khách sạn, nó nằm ngay ở phía trước."
       }
+    },
+    {
+      id: "wang",
+      hanzi: "网",
+      pinyin: "wǎng",
+      title: "Bộ võng 网 và nhóm từ về mạng, tin tức",
+      summary: "网 là bộ võng, vẽ hình tấm lưới. Từ nghĩa gốc “lưới” (渔网) chữ này sinh ra nghĩa “mạng” (网上), kéo theo nhóm từ về tin tức và chuyện lan truyền trên mạng.",
+      phraseTable: {
+        title: "1. Các từ trong nhóm",
+        columns: ["Từ", "Phiên âm", "Hán-Việt", "Ý nghĩa cốt lõi", "Ví dụ"],
+        rows: [
+          {
+            phrase: "网",
+            pinyin: "wǎng",
+            hanViet: "Võng",
+            meanings: [
+              "Lưới (nghĩa gốc, chữ vẽ hình tấm lưới)",
+              "Mạng, mạng internet (nghĩa mở rộng)"
+            ],
+            examples: [
+              ["我家的网今天不太好。", "Mạng nhà tôi hôm nay không tốt lắm."]
+            ]
+          },
+          {
+            phrase: "渔网",
+            pinyin: "yúwǎng",
+            hanViet: "Ngư Võng",
+            meanings: ["Lưới đánh cá (giữ nguyên nghĩa gốc của 网)"],
+            examples: [
+              ["他每天早上去海边收渔网。", "Sáng nào anh ấy cũng ra biển thu lưới."]
+            ]
+          },
+          {
+            phrase: "网上",
+            pinyin: "wǎngshàng",
+            hanViet: "Võng Thượng",
+            meanings: ["Trên mạng (chỉ nơi chốn, dùng như một địa điểm)"],
+            examples: [
+              ["这件衣服是我在网上买的。", "Chiếc áo này tôi mua trên mạng."]
+            ]
+          },
+          {
+            phrase: "上网",
+            pinyin: "shàngwǎng",
+            hanViet: "Thượng Võng",
+            meanings: ["Lên mạng, vào mạng (chỉ hành động)"],
+            examples: [
+              ["我每天晚上上网看新闻。", "Tối nào tôi cũng lên mạng xem tin tức."]
+            ]
+          },
+          {
+            phrase: "新闻",
+            pinyin: "xīnwén",
+            hanViet: "Tân Văn",
+            meanings: ["Tin tức, bản tin"],
+            examples: [
+              ["今天的新闻你看了吗？", "Tin tức hôm nay bạn xem chưa?"]
+            ]
+          },
+          {
+            phrase: "传播",
+            pinyin: "chuánbō",
+            hanViet: "Truyền Bá",
+            meanings: ["Lan truyền, truyền đi (tin tức, văn hoá, bệnh dịch)"],
+            examples: [
+              ["这条新闻在网上传播得很快。", "Bản tin này lan truyền trên mạng rất nhanh."]
+            ]
+          }
+        ]
+      },
+      patternTable: {
+        title: "2. Cách ghép câu hay gặp",
+        columns: ["Cấu trúc", "Ý nghĩa", "Cách dùng / Sắc thái", "Ví dụ"],
+        rows: [
+          {
+            formula: "在网上 + động từ",
+            meaning: "Làm gì đó trên mạng",
+            usage: "网上 là nơi chốn nên đứng sau 在, trước động từ.",
+            examples: [["我在网上看了这条新闻。", "Tôi đã xem bản tin này trên mạng."]]
+          },
+          {
+            formula: "上网 + động từ",
+            meaning: "Lên mạng để làm gì",
+            usage: "上网 tự nó đã là một hành động (上 + 网), không thêm 在 phía trước.",
+            examples: [["他上网找房子。", "Cậu ấy lên mạng tìm nhà."]]
+          },
+          {
+            formula: "… + 传播得 + tính từ",
+            meaning: "Lan truyền nhanh / chậm …",
+            usage: "传播 là động từ, nói mức độ thì dùng bổ ngữ 得.",
+            examples: [["这个消息传播得太快了。", "Tin này lan đi nhanh quá."]]
+          }
+        ]
+      },
+      tipList: {
+        title: "3. Mẹo phân biệt 网上 và 上网",
+        items: [
+          {
+            phrase: "网上",
+            pinyin: "wǎngshàng",
+            focus: "NƠI CHỐN",
+            detail: "Trả lời câu hỏi “ở đâu”. Đi với 在: 在网上买东西。"
+          },
+          {
+            phrase: "上网",
+            pinyin: "shàngwǎng",
+            focus: "HÀNH ĐỘNG",
+            detail: "Trả lời câu hỏi “làm gì”. Không nói 在上网买东西。"
+          },
+          {
+            phrase: "渔网",
+            pinyin: "yúwǎng",
+            focus: "NGHĨA GỐC",
+            detail: "Tấm lưới thật, không liên quan tới internet; nhớ nghĩa này để nhận ra bộ võng 网."
+          }
+        ]
+      },
+      mnemonic: {
+        title: "4. Một câu nhớ cả nhóm",
+        sentence: "我上网的时候看到一条新闻，它在网上传播得很快。",
+        pinyin: "Wǒ shàngwǎng de shíhou kàndào yì tiáo xīnwén, tā zài wǎngshàng chuánbō de hěn kuài.",
+        meaning: "Lúc lên mạng tôi thấy một bản tin, nó lan truyền trên mạng rất nhanh."
+      }
+    },
+    {
+      id: "chule",
+      hanzi: "除",
+      pinyin: "chúle… yǐwài",
+      title: "Cấu trúc 除了… 以外",
+      summary: "Khung câu dùng để tách riêng một thứ ra khỏi phần còn lại. Nghĩa đổi hẳn tuỳ theo vế sau dùng 都 hay dùng 还/也, nên phải nhìn cả câu mới dịch đúng.",
+      phraseTable: {
+        title: "1. Hai từ trong khung",
+        columns: ["Từ", "Phiên âm", "Hán-Việt", "Ý nghĩa cốt lõi", "Ví dụ"],
+        rows: [
+          {
+            phrase: "除了",
+            pinyin: "chúle",
+            hanViet: "Trừ Liễu",
+            meanings: [
+              "Trừ …, ngoài … ra",
+              "Đứng trước thứ được tách riêng; dùng một mình cũng được, không bắt buộc có 以外"
+            ],
+            examples: [
+              ["除了他，我们都去过中国。", "Trừ cậu ấy ra, chúng tôi đều từng đến Trung Quốc."]
+            ]
+          },
+          {
+            phrase: "以外",
+            pinyin: "yǐwài",
+            hanViet: "Dĩ Ngoại",
+            meanings: [
+              "Ngoài ra (đóng lại phần được tách riêng)",
+              "Đứng sau danh từ hoặc mệnh đề, hay đi cặp với 除了"
+            ],
+            examples: [
+              ["除了汉语以外，他还会说英语。", "Ngoài tiếng Trung ra, cậu ấy còn biết nói tiếng Anh."]
+            ]
+          }
+        ]
+      },
+      patternTable: {
+        title: "2. Hai nghĩa phải phân biệt",
+        columns: ["Cấu trúc", "Ý nghĩa", "Cách dùng / Sắc thái", "Ví dụ"],
+        rows: [
+          {
+            formula: "除了 A（以外），… 都 …",
+            meaning: "Trừ A ra, còn lại đều …",
+            usage: "LOẠI A RA: A không nằm trong phần được nói đến. Dấu hiệu là 都.",
+            examples: [
+              ["除了小王以外，我们都去过中国。", "Trừ Tiểu Vương ra, chúng tôi đều từng đến Trung Quốc."]
+            ]
+          },
+          {
+            formula: "除了 A（以外），… 还／也 …",
+            meaning: "Ngoài A ra, còn …",
+            usage: "GỘP CẢ A: A vẫn đúng, phần sau là thứ cộng thêm. Dấu hiệu là 还 hoặc 也.",
+            examples: [
+              ["除了汉语以外，他还会说英语。", "Ngoài tiếng Trung ra, cậu ấy còn biết nói tiếng Anh."]
+            ]
+          },
+          {
+            formula: "除了 + mệnh đề（以外）",
+            meaning: "Ngoài việc …",
+            usage: "Phần được tách riêng có thể là cả một việc, không chỉ là một danh từ.",
+            examples: [
+              ["除了上网看新闻以外，我每天还要跑步。", "Ngoài việc lên mạng xem tin tức, mỗi ngày tôi còn phải chạy bộ."]
+            ]
+          }
+        ]
+      },
+      tipList: {
+        title: "3. Nhìn vế sau là biết nghĩa",
+        items: [
+          {
+            phrase: "都",
+            pinyin: "dōu",
+            focus: "LOẠI RA",
+            detail: "Có 都 ở vế sau thì A bị loại: “trừ A ra”."
+          },
+          {
+            phrase: "还 / 也",
+            pinyin: "hái / yě",
+            focus: "CỘNG THÊM",
+            detail: "Có 还 hoặc 也 ở vế sau thì A vẫn tính: “ngoài A ra, còn …”."
+          },
+          {
+            phrase: "以外",
+            pinyin: "yǐwài",
+            focus: "BỎ ĐƯỢC",
+            detail: "Bỏ 以外 câu vẫn đúng; bỏ 除了 thì mất hẳn ý tách riêng."
+          }
+        ]
+      },
+      mnemonic: {
+        title: "4. Một cặp câu nhớ cả hai nghĩa",
+        sentence: "除了小王以外，我们都去过中国；除了中国以外，我还去过越南。",
+        pinyin: "Chúle Xiǎo Wáng yǐwài, wǒmen dōu qùguo Zhōngguó; chúle Zhōngguó yǐwài, wǒ hái qùguo Yuènán.",
+        meaning: "Trừ Tiểu Vương ra, chúng tôi đều từng đến Trung Quốc; ngoài Trung Quốc ra, tôi còn từng đến Việt Nam."
+      }
+    },
+    {
+      id: "jie",
+      hanzi: "节",
+      pinyin: "jié",
+      title: "Chữ 节 và tên các ngày lễ",
+      summary: "节 nghĩa là “tiết, dịp lễ”. Tên ngày lễ trong tiếng Trung hầu hết ghép theo khuôn “nội dung của ngày + 节”, nên biết nghĩa phần đầu là đoán được cả tên.",
+      phraseTable: {
+        title: "1. Các tên lễ hay gặp",
+        columns: ["Từ", "Phiên âm", "Hán-Việt", "Ý nghĩa cốt lõi", "Ví dụ"],
+        rows: [
+          {
+            phrase: "节日",
+            pinyin: "jiérì",
+            hanViet: "Tiết Nhật",
+            meanings: ["Ngày lễ, dịp lễ (từ chung)"],
+            examples: [
+              ["你最喜欢哪个节日？", "Bạn thích ngày lễ nào nhất?"]
+            ]
+          },
+          {
+            phrase: "春节",
+            pinyin: "chūnjié",
+            hanViet: "Xuân Tiết",
+            meanings: ["Tết Nguyên đán (Tết ta), lễ đầu mùa xuân"],
+            examples: [
+              ["春节的时候我要回家。", "Dịp Tết tôi sẽ về nhà."]
+            ]
+          },
+          {
+            phrase: "中秋节",
+            pinyin: "zhōngqiūjié",
+            hanViet: "Trung Thu Tiết",
+            meanings: ["Tết Trung thu, rằm tháng tám"],
+            examples: [
+              ["中秋节我们一起吃月饼。", "Trung thu chúng tôi cùng nhau ăn bánh trung thu."]
+            ]
+          },
+          {
+            phrase: "团圆节",
+            pinyin: "tuányuánjié",
+            hanViet: "Đoàn Viên Tiết",
+            meanings: ["Tết đoàn viên — tên gọi khác của 中秋节, vì ngày này cả nhà sum họp"],
+            examples: [
+              ["中秋节也叫团圆节。", "Tết Trung thu còn gọi là Tết đoàn viên."]
+            ]
+          },
+          {
+            phrase: "越南教师节",
+            pinyin: "Yuènán jiàoshī jié",
+            hanViet: "Việt Nam Giáo Sư Tiết",
+            meanings: ["Ngày Nhà giáo Việt Nam (20/11)"],
+            examples: [
+              ["十一月二十号是越南教师节。", "Ngày 20 tháng 11 là Ngày Nhà giáo Việt Nam."]
+            ]
+          }
+        ]
+      },
+      patternTable: {
+        title: "2. Cách ghép câu hay gặp",
+        columns: ["Cấu trúc", "Ý nghĩa", "Cách dùng / Sắc thái", "Ví dụ"],
+        rows: [
+          {
+            formula: "过 + tên lễ",
+            meaning: "Đón / ăn mừng ngày lễ nào đó",
+            usage: "Động từ đi với ngày lễ là 过, không dùng 做 hay 玩.",
+            examples: [["你今年在哪儿过春节？", "Năm nay bạn đón Tết ở đâu?"]]
+          },
+          {
+            formula: "tên lễ + 快乐",
+            meaning: "Chúc mừng ngày lễ …",
+            usage: "Câu chúc chuẩn, đặt ngay sau tên lễ: 春节快乐！中秋节快乐！",
+            examples: [["中秋节快乐！", "Chúc Trung thu vui vẻ!"]]
+          },
+          {
+            formula: "A 也叫 B",
+            meaning: "A còn gọi là B",
+            usage: "Dùng khi một ngày lễ có hai tên, như 中秋节 và 团圆节.",
+            examples: [["中秋节也叫团圆节。", "Tết Trung thu còn gọi là Tết đoàn viên."]]
+          }
+        ]
+      },
+      tipList: {
+        title: "3. Mẹo nhớ tên lễ",
+        items: [
+          {
+            phrase: "春节",
+            pinyin: "chūnjié",
+            focus: "MÙA",
+            detail: "春 là mùa xuân: lễ mở đầu mùa xuân, tức Tết ta."
+          },
+          {
+            phrase: "中秋节",
+            pinyin: "zhōngqiūjié",
+            focus: "THỜI ĐIỂM",
+            detail: "中秋 là giữa mùa thu: rằm tháng tám."
+          },
+          {
+            phrase: "团圆节",
+            pinyin: "tuányuánjié",
+            focus: "Ý NGHĨA",
+            detail: "团圆 là sum họp: cùng một ngày với 中秋节, chỉ khác cách gọi."
+          },
+          {
+            phrase: "越南教师节",
+            pinyin: "Yuènán jiàoshī jié",
+            focus: "ĐỐI TƯỢNG",
+            detail: "教师 là giáo viên: ngày dành cho thầy cô, thêm 越南 để chỉ rõ của Việt Nam."
+          }
+        ]
+      },
+      mnemonic: {
+        title: "4. Một câu nhớ cả nhóm",
+        sentence: "春节和中秋节都是团圆的节日，中秋节也叫团圆节。",
+        pinyin: "Chūnjié hé zhōngqiūjié dōu shì tuányuán de jiérì, zhōngqiūjié yě jiào tuányuánjié.",
+        meaning: "Tết Nguyên đán và Trung thu đều là những ngày lễ sum họp, Trung thu còn gọi là Tết đoàn viên."
+      }
     }
   ]
 };
