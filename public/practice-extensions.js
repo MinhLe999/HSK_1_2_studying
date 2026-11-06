@@ -5958,5 +5958,153 @@ window.HSK_PRACTICE_EXTENSIONS = {
         "sample": "房子在二十层，往下看我有点儿害怕。"
       }
     ]
+  },
+  "l1910": {
+    "date": "19/10/2026",
+    "reading": {
+      "prose": "马可是我们班的学生，他的中文越说越好了。大山很了解马可，他说马可每天先听录音，再读生词，最后做作业。马可说哪里哪里，他们班的李静说得更好。李静是他们的汉语老师，她的汉语说得跟中国人一样好。上课的时候，马可的座位就在大山和李静的中间。大山以前没听过李静的名字，他比较担心自己学得慢。马可让他放心，还说下个星期他们一定一起参加汉语比赛。老师的话对他们影响很大，他们都觉得汉语越学越有意思。",
+      "dialogue": [
+        "大山：马可，你的中文越说越好了！",
+        "马可：哪里哪里，我们班李静说得更好。",
+        "大山：怎么好？",
+        "马可：她的汉语说得跟中国人一样好。",
+        "大山：李静？我怎么没听说过这个名字。",
+        "马可：她是我们的汉语老师。",
+        "大山：我比较担心自己说得不好。",
+        "马可：你放心，先多听，再多说，最后一定越说越好。",
+        "大山：下个星期的汉语比赛你参加吗？",
+        "马可：我一定参加，老师的话对我影响很大。"
+      ],
+      "questions": [
+        {
+          "id": "l1910-r1",
+          "prompt": "马可每天先做什么？",
+          "options": [
+            "听录音",
+            "读生词",
+            "做作业",
+            "参加比赛"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"马可每天先听录音，再读生词，最后做作业\"。"
+        },
+        {
+          "id": "l1910-r2",
+          "prompt": "李静是谁？",
+          "options": [
+            "他们的汉语老师",
+            "马可的妹妹",
+            "大山的同事",
+            "学校的医生"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"李静是他们的汉语老师\"。"
+        },
+        {
+          "id": "l1910-r3",
+          "prompt": "在对话里，大山担心什么？",
+          "options": [
+            "自己说得不好",
+            "没有时间",
+            "找不到教室",
+            "忘了生词"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại 大山 nói \"我比较担心自己说得不好\"。"
+        },
+        {
+          "id": "l1910-r4",
+          "prompt": "马可让大山怎么做？",
+          "options": [
+            "先多听，再多说",
+            "先睡觉，再做作业",
+            "先吃饭，再上课",
+            "先回家，再运动"
+          ],
+          "answer": 0,
+          "explanation": "马可 nói \"你放心，先多听，再多说，最后一定越说越好\"。"
+        },
+        {
+          "id": "l1910-r5",
+          "prompt": "下个星期他们打算做什么？",
+          "options": [
+            "一起参加汉语比赛",
+            "一起去爬山",
+            "一起看电影",
+            "一起买衣服"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"下个星期他们一定一起参加汉语比赛\", và trong hội thoại 马可 cũng nói \"我一定参加\"。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l1910-w1",
+        "kind": "sentence-given-words",
+        "topic": "kể thứ tự ba việc trong buổi sáng",
+        "structure": "先……，再……，最后……",
+        "words": [
+          "先",
+          "最后",
+          "参加"
+        ],
+        "required": "先、最后、参加",
+        "prompt": "Dùng đủ ba từ để kể buổi sáng bạn làm hai việc theo thứ tự rồi cuối cùng mới đi tham gia một hoạt động.",
+        "sample": "我先吃早饭，再去跑步，最后去参加同学的生日会。"
+      },
+      {
+        "id": "l1910-w2",
+        "kind": "sentence-given-words",
+        "topic": "khen tiếng Trung của bạn tiến bộ",
+        "structure": "越来越 + tính từ",
+        "words": [
+          "中文",
+          "越来越"
+        ],
+        "required": "中文、越来越",
+        "prompt": "Dùng đủ hai từ để khen tiếng Trung của bạn ngày càng tốt hơn.",
+        "sample": "你的中文说得越来越好了。"
+      },
+      {
+        "id": "l1910-w3",
+        "kind": "sentence-given-words",
+        "topic": "trấn an người đang lo đề thi",
+        "structure": "A + 跟/和 + B + 一样",
+        "words": [
+          "放心",
+          "一样"
+        ],
+        "required": "放心、一样",
+        "prompt": "Dùng đủ hai từ để bảo người khác yên tâm vì đề thi lần này giống đề lần trước.",
+        "sample": "你放心，这次的考试跟上次的一样。"
+      },
+      {
+        "id": "l1910-w4",
+        "kind": "sentence-given-words",
+        "topic": "nói bạn khá hiểu đồng nghiệp",
+        "structure": "比较 + động từ tâm lý",
+        "words": [
+          "比较",
+          "了解"
+        ],
+        "required": "比较、了解",
+        "prompt": "Dùng đủ hai từ để nói bạn khá hiểu người đồng nghiệp đã làm cùng ba năm.",
+        "sample": "我跟他一起工作了三年，比较了解他。"
+      },
+      {
+        "id": "l1910-w5",
+        "kind": "sentence-given-words",
+        "topic": "việc lo lắng làm ảnh hưởng đến học hành",
+        "structure": "（S1+）越 V，S2 + 越 tính từ / động từ tâm lý",
+        "words": [
+          "担心",
+          "影响"
+        ],
+        "required": "担心、影响",
+        "prompt": "Dùng đủ hai từ để nói bạn càng lo cho sức khoẻ của bà thì việc học càng bị ảnh hưởng.",
+        "sample": "我越担心奶奶的身体，学习越受影响。"
+      }
+    ]
   }
 };

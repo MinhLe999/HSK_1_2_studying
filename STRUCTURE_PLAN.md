@@ -414,6 +414,19 @@ Quy ước:
 | l1410-s11 | 4.4 一点儿：① V +（一）点儿 + danh từ　② tính từ / động từ tâm lý +（一）点儿 | Một chút, một ít | 一点儿 chỉ số lượng ít；đặt SAU động từ rồi mới đến danh từ, hoặc đặt SAU tính từ/động từ tâm lý；khác 有（一）点儿 ở chỗ không mang sắc thái chê. | 我买了一点儿苹果。 | Tôi mua một ít táo. | — |
 | l1410-s12 | 4.5 Bảng so sánh 有（一）点儿 ／ 一点儿 ／ 一会儿 | Phân biệt ba cách dùng dễ lẫn | Mẹo nhớ: chê thì 有点儿, ít thì 一点儿, ngắn thì 一会儿. | 这件衣服有点儿大，我想要一件小一点儿的。 | Chiếc áo này hơi rộng, tôi muốn một chiếc nhỏ hơn một chút. | ｜Cách dùng｜Ví dụ trong sách；有（一）点儿｜đứng TRƯỚC tính từ / động từ tâm lý, luôn mang ý chê｜今天天气有点儿冷。；一点儿｜chỉ số lượng ít: ① động từ +（一）点儿 + danh từ　② tính từ / động từ tâm lý +（一）点儿｜我买了一点儿苹果。／这件衣服有点儿大，我想要一件小一点儿的。；一会儿｜chỉ khoảng thời gian rất ngắn: ① động từ / tính từ + 一会儿　② 一会儿 + động từ｜你等我一会儿。／我一会儿再去。 |
 
+## l1910 · 19/10/2026 · Nối việc theo thứ tự, 越A越B và so sánh bằng 跟·和……一样
+
+| Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa | Bảng |
+| --- | --- | --- | --- | --- | --- | --- |
+| l1910-s1 | 1. V1（+了/完）……+再+V2 | Làm xong … rồi mới … | Dùng khi việc thứ hai chỉ xảy ra SAU KHI việc thứ nhất đã hoàn thành；V1 hay đi kèm 完 hoặc 了 để nhấn mạnh là đã xong；再 đứng ngay trước V2, không đứng đầu câu. | 我做完作业再出去玩。；我们下了班再去看电影。；你洗完衣服再去运动吧。 | Tôi làm xong bài tập rồi mới ra ngoài chơi.；Chúng tôi tan làm rồi mới đi xem phim.；Bạn giặt xong quần áo rồi hãy đi vận động nhé. | — |
+| l1910-s2 | 2. 先……，再……，最后…… | Trước hết …, rồi …, cuối cùng … | Dùng để kể hai hoặc ba việc xảy ra lần lượt theo thứ tự；hai việc thì nói 先……，再……, ba việc thì thêm 最后……；先 đứng ngay trước động từ thứ nhất chứ không đứng trước chủ ngữ. | 你先做完作业，再出去玩。；我们先休息一下，一会儿再爬。；明天我们先去上课，再去吃饭，最后去唱歌。 | Bạn làm xong bài tập trước, rồi hãy ra ngoài chơi.；Chúng ta nghỉ một lát đã, lát nữa leo tiếp.；Mai chúng ta đi học trước, rồi đi ăn cơm, cuối cùng đi hát. | — |
+| l1910-s3 | 3.1 越来越 + tính từ / động từ tâm lý | Ngày càng … | Dạng thứ nhất của 越A越B：mức độ thay đổi dần theo thời gian, không cần nêu nguyên nhân；越来越 đứng trước tính từ hoặc động từ tâm lý, cuối câu hay thêm 了. | 我做的饭越来越好吃。；大山觉得马可的中文说得越来越好了。；天气越来越冷了，你多穿一点儿吧。 | Cơm tôi nấu ngày càng ngon.；Đại Sơn thấy tiếng Trung của Mã Khả ngày càng tốt lên.；Trời ngày càng lạnh rồi, bạn mặc thêm một chút đi. | Dạng｜Công thức｜Ví dụ trong sách；1｜越来越 + tính từ / động từ tâm lý｜我做的饭越来越好吃。；2｜S + 越 V + 越 tính từ / động từ tâm lý｜雨越下越大。；3｜S + 越 tính từ 1 + 越 tính từ 2｜朋友越多越好。；4｜（S1+）越 V，S2 + 越 tính từ / động từ tâm lý｜越往南，天气越热。 |
+| l1910-s4 | 3.2 S + 越 V + 越 tính từ / động từ tâm lý | Càng … càng … | Dạng thứ hai：một chủ ngữ, động từ nằm giữa hai chữ 越；mức độ của tính từ tăng theo mức độ hoặc số lần của động từ. | 雨越下越大。；那辆车越开越快。；我和老同学越聊越高兴。 | Mưa càng rơi càng to.；Chiếc xe kia càng chạy càng nhanh.；Tôi và bạn học cũ càng trò chuyện càng vui. | — |
+| l1910-s5 | 3.3 S + 越 tính từ 1 + 越 tính từ 2 | Càng … thì càng … | Dạng thứ ba：hai tính từ nối nhau, không có động từ ở giữa；dùng khi một tính chất tăng thì tính chất kia cũng tăng theo. | 朋友越多越好。；房子越大越贵。；生词越少越容易记。 | Bạn bè càng nhiều càng tốt.；Nhà càng to càng đắt.；Từ mới càng ít càng dễ nhớ. | — |
+| l1910-s6 | 3.4 （S1+）越 V，S2 + 越 tính từ / động từ tâm lý | Càng … thì … càng … | Dạng thứ tư：hai vế có chủ ngữ khác nhau, ngăn nhau bằng dấu phẩy；vế đầu nêu việc đang thay đổi, vế sau nêu kết quả thay đổi theo. | 越往南，天气越热。；她越不说话，我越担心。；你越着急，题越容易做错。 | Càng đi về phía nam, trời càng nóng.；Cô ấy càng không nói gì, tôi càng lo.；Bạn càng sốt ruột thì bài càng dễ làm sai. | — |
+| l1910-s7 | 4.1 A + 跟/和 + B + 一样（+ tính từ） | A giống B, A … bằng B | Dạng khẳng định：跟 và 和 thay nhau được；一样 đứng ngay sau B；thêm tính từ sau 一样 để nói hai bên ngang nhau về mặt đó. | 姐姐的衣服跟妹妹的衣服一样。；我跟妈妈一样高。；她的汉语说得跟中国人一样好。 | Áo của chị giống áo của em gái.；Tôi cao bằng mẹ.；Tiếng Hán của cô ấy nói hay như người Trung Quốc. | ｜Công thức｜Ví dụ trong sách；Khẳng định｜A + 跟/和 + B + 一样（+ tính từ）｜姐姐的衣服跟妹妹的衣服一样。／我跟妈妈一样高。；Phủ định｜A + 跟/和 + B + 不一样｜这件衬衫跟那件衬衫不一样。／我长得跟妈妈不一样。 |
+| l1910-s8 | 4.2 A + 跟/和 + B + 不一样 | A khác B | Dạng phủ định：đặt 不 ngay trước 一样, không dùng 没；dạng phủ định thường không mang thêm tính từ phía sau. | 这件衬衫跟那件衬衫不一样。；我长得跟妈妈不一样。；今天的生词跟昨天的生词不一样。 | Chiếc sơ mi này khác chiếc sơ mi kia.；Tôi trông không giống mẹ.；Từ mới hôm nay khác từ mới hôm qua. | — |
+
 
 # Kế hoạch bài đọc và đặt câu mở rộng
 
@@ -1903,3 +1916,42 @@ Quy chuẩn cho mọi ngày:
 | l1410-w5 | làm thế nào là tuỳ bạn | đại từ nghi vấn hô ứng: ……怎么做……就……怎么做…… | 做；怎么 | Đặt câu có đại từ nghi vấn hô ứng với hai từ cho sẵn (bài “Đặt câu với đại từ nghi vấn và từ cho sẵn”, PDF trang 6, câu 5). | 这件事你想怎么做就怎么做。 |
 | l1410-w6 | rủ bạn lát nữa đi xem nhà cùng | 一会儿 + động từ（việc sắp làm） | 一会儿；房子 | Dùng đủ hai từ để rủ bạn lát nữa cùng đi xem nhà. | 我一会儿去看房子，你跟我一起去吧。 |
 | l1410-w7 | than nhà ở tầng hai mươi hơi cao | 有（一）点儿 + tính từ | 害怕；层 | Dùng đủ hai từ để nói nhà ở tầng hai mươi cao quá, nhìn xuống hơi sợ. | 房子在二十层，往下看我有点儿害怕。 |
+
+### l1910 · 19/10/2026
+
+#### Đoạn văn
+
+> 马可是我们班的学生，他的中文越说越好了。大山很了解马可，他说马可每天先听录音，再读生词，最后做作业。马可说哪里哪里，他们班的李静说得更好。李静是他们的汉语老师，她的汉语说得跟中国人一样好。上课的时候，马可的座位就在大山和李静的中间。大山以前没听过李静的名字，他比较担心自己学得慢。马可让他放心，还说下个星期他们一定一起参加汉语比赛。老师的话对他们影响很大，他们都觉得汉语越学越有意思。
+
+#### Hội thoại
+
+> 大山：马可，你的中文越说越好了！
+> 马可：哪里哪里，我们班李静说得更好。
+> 大山：怎么好？
+> 马可：她的汉语说得跟中国人一样好。
+> 大山：李静？我怎么没听说过这个名字。
+> 马可：她是我们的汉语老师。
+> 大山：我比较担心自己说得不好。
+> 马可：你放心，先多听，再多说，最后一定越说越好。
+> 大山：下个星期的汉语比赛你参加吗？
+> 马可：我一定参加，老师的话对我影响很大。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l1910-r1 | 马可每天先做什么？ | 听录音；读生词；做作业；参加比赛 | 听录音 | Đoạn văn nói "马可每天先听录音，再读生词，最后做作业"。 |
+| l1910-r2 | 李静是谁？ | 他们的汉语老师；马可的妹妹；大山的同事；学校的医生 | 他们的汉语老师 | Đoạn văn nói "李静是他们的汉语老师"。 |
+| l1910-r3 | 在对话里，大山担心什么？ | 自己说得不好；没有时间；找不到教室；忘了生词 | 自己说得不好 | Trong hội thoại 大山 nói "我比较担心自己说得不好"。 |
+| l1910-r4 | 马可让大山怎么做？ | 先多听，再多说；先睡觉，再做作业；先吃饭，再上课；先回家，再运动 | 先多听，再多说 | 马可 nói "你放心，先多听，再多说，最后一定越说越好"。 |
+| l1910-r5 | 下个星期他们打算做什么？ | 一起参加汉语比赛；一起去爬山；一起看电影；一起买衣服 | 一起参加汉语比赛 | Đoạn văn nói "下个星期他们一定一起参加汉语比赛", và trong hội thoại 马可 cũng nói "我一定参加"。 |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l1910-w1 | kể thứ tự ba việc trong buổi sáng | 先……，再……，最后…… | 先；最后；参加 | Dùng đủ ba từ để kể buổi sáng bạn làm hai việc theo thứ tự rồi cuối cùng mới đi tham gia một hoạt động. | 我先吃早饭，再去跑步，最后去参加同学的生日会。 |
+| l1910-w2 | khen tiếng Trung của bạn tiến bộ | 越来越 + tính từ | 中文；越来越 | Dùng đủ hai từ để khen tiếng Trung của bạn ngày càng tốt hơn. | 你的中文说得越来越好了。 |
+| l1910-w3 | trấn an người đang lo đề thi | A + 跟/和 + B + 一样 | 放心；一样 | Dùng đủ hai từ để bảo người khác yên tâm vì đề thi lần này giống đề lần trước. | 你放心，这次的考试跟上次的一样。 |
+| l1910-w4 | nói bạn khá hiểu đồng nghiệp | 比较 + động từ tâm lý | 比较；了解 | Dùng đủ hai từ để nói bạn khá hiểu người đồng nghiệp đã làm cùng ba năm. | 我跟他一起工作了三年，比较了解他。 |
+| l1910-w5 | việc lo lắng làm ảnh hưởng đến học hành | （S1+）越 V，S2 + 越 tính từ / động từ tâm lý | 担心；影响 | Dùng đủ hai từ để nói bạn càng lo cho sức khoẻ của bà thì việc học càng bị ảnh hưởng. | 我越担心奶奶的身体，学习越受影响。 |

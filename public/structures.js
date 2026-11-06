@@ -3643,5 +3643,187 @@ window.HSK_STRUCTURES = {
         }
       }
     ]
+  },
+  "l1910": {
+    "date": "19/10/2026",
+    "topic": "Nối việc theo thứ tự, 越A越B và so sánh bằng 跟·和……一样",
+    "items": [
+      {
+        "id": "l1910-s1",
+        "formula": "1. V1（+了/完）……+再+V2",
+        "sense": "Làm xong … rồi mới …",
+        "usage": "Dùng khi việc thứ hai chỉ xảy ra SAU KHI việc thứ nhất đã hoàn thành\nV1 hay đi kèm 完 hoặc 了 để nhấn mạnh là đã xong\n再 đứng ngay trước V2, không đứng đầu câu.",
+        "examples": [
+          "我做完作业再出去玩。",
+          "我们下了班再去看电影。",
+          "你洗完衣服再去运动吧。"
+        ],
+        "meanings": [
+          "Tôi làm xong bài tập rồi mới ra ngoài chơi.",
+          "Chúng tôi tan làm rồi mới đi xem phim.",
+          "Bạn giặt xong quần áo rồi hãy đi vận động nhé."
+        ]
+      },
+      {
+        "id": "l1910-s2",
+        "formula": "2. 先……，再……，最后……",
+        "sense": "Trước hết …, rồi …, cuối cùng …",
+        "usage": "Dùng để kể hai hoặc ba việc xảy ra lần lượt theo thứ tự\nhai việc thì nói 先……，再……, ba việc thì thêm 最后……\n先 đứng ngay trước động từ thứ nhất chứ không đứng trước chủ ngữ.",
+        "examples": [
+          "你先做完作业，再出去玩。",
+          "我们先休息一下，一会儿再爬。",
+          "明天我们先去上课，再去吃饭，最后去唱歌。"
+        ],
+        "meanings": [
+          "Bạn làm xong bài tập trước, rồi hãy ra ngoài chơi.",
+          "Chúng ta nghỉ một lát đã, lát nữa leo tiếp.",
+          "Mai chúng ta đi học trước, rồi đi ăn cơm, cuối cùng đi hát."
+        ]
+      },
+      {
+        "id": "l1910-s3",
+        "formula": "3.1 越来越 + tính từ / động từ tâm lý",
+        "sense": "Ngày càng …",
+        "usage": "Dạng thứ nhất của 越A越B：mức độ thay đổi dần theo thời gian, không cần nêu nguyên nhân\n越来越 đứng trước tính từ hoặc động từ tâm lý, cuối câu hay thêm 了.",
+        "examples": [
+          "我做的饭越来越好吃。",
+          "大山觉得马可的中文说得越来越好了。",
+          "天气越来越冷了，你多穿一点儿吧。"
+        ],
+        "meanings": [
+          "Cơm tôi nấu ngày càng ngon.",
+          "Đại Sơn thấy tiếng Trung của Mã Khả ngày càng tốt lên.",
+          "Trời ngày càng lạnh rồi, bạn mặc thêm một chút đi."
+        ],
+        "table": {
+          "columns": [
+            "Dạng",
+            "Công thức",
+            "Ví dụ trong sách"
+          ],
+          "rows": [
+            [
+              "1",
+              "越来越 + tính từ / động từ tâm lý",
+              "我做的饭越来越好吃。"
+            ],
+            [
+              "2",
+              "S + 越 V + 越 tính từ / động từ tâm lý",
+              "雨越下越大。"
+            ],
+            [
+              "3",
+              "S + 越 tính từ 1 + 越 tính từ 2",
+              "朋友越多越好。"
+            ],
+            [
+              "4",
+              "（S1+）越 V，S2 + 越 tính từ / động từ tâm lý",
+              "越往南，天气越热。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l1910-s4",
+        "formula": "3.2 S + 越 V + 越 tính từ / động từ tâm lý",
+        "sense": "Càng … càng …",
+        "usage": "Dạng thứ hai：một chủ ngữ, động từ nằm giữa hai chữ 越\nmức độ của tính từ tăng theo mức độ hoặc số lần của động từ.",
+        "examples": [
+          "雨越下越大。",
+          "那辆车越开越快。",
+          "我和老同学越聊越高兴。"
+        ],
+        "meanings": [
+          "Mưa càng rơi càng to.",
+          "Chiếc xe kia càng chạy càng nhanh.",
+          "Tôi và bạn học cũ càng trò chuyện càng vui."
+        ]
+      },
+      {
+        "id": "l1910-s5",
+        "formula": "3.3 S + 越 tính từ 1 + 越 tính từ 2",
+        "sense": "Càng … thì càng …",
+        "usage": "Dạng thứ ba：hai tính từ nối nhau, không có động từ ở giữa\ndùng khi một tính chất tăng thì tính chất kia cũng tăng theo.",
+        "examples": [
+          "朋友越多越好。",
+          "房子越大越贵。",
+          "生词越少越容易记。"
+        ],
+        "meanings": [
+          "Bạn bè càng nhiều càng tốt.",
+          "Nhà càng to càng đắt.",
+          "Từ mới càng ít càng dễ nhớ."
+        ]
+      },
+      {
+        "id": "l1910-s6",
+        "formula": "3.4 （S1+）越 V，S2 + 越 tính từ / động từ tâm lý",
+        "sense": "Càng … thì … càng …",
+        "usage": "Dạng thứ tư：hai vế có chủ ngữ khác nhau, ngăn nhau bằng dấu phẩy\nvế đầu nêu việc đang thay đổi, vế sau nêu kết quả thay đổi theo.",
+        "examples": [
+          "越往南，天气越热。",
+          "她越不说话，我越担心。",
+          "你越着急，题越容易做错。"
+        ],
+        "meanings": [
+          "Càng đi về phía nam, trời càng nóng.",
+          "Cô ấy càng không nói gì, tôi càng lo.",
+          "Bạn càng sốt ruột thì bài càng dễ làm sai."
+        ]
+      },
+      {
+        "id": "l1910-s7",
+        "formula": "4.1 A + 跟/和 + B + 一样（+ tính từ）",
+        "sense": "A giống B, A … bằng B",
+        "usage": "Dạng khẳng định：跟 và 和 thay nhau được\n一样 đứng ngay sau B\nthêm tính từ sau 一样 để nói hai bên ngang nhau về mặt đó.",
+        "examples": [
+          "姐姐的衣服跟妹妹的衣服一样。",
+          "我跟妈妈一样高。",
+          "她的汉语说得跟中国人一样好。"
+        ],
+        "meanings": [
+          "Áo của chị giống áo của em gái.",
+          "Tôi cao bằng mẹ.",
+          "Tiếng Hán của cô ấy nói hay như người Trung Quốc."
+        ],
+        "table": {
+          "columns": [
+            "",
+            "Công thức",
+            "Ví dụ trong sách"
+          ],
+          "rows": [
+            [
+              "Khẳng định",
+              "A + 跟/和 + B + 一样（+ tính từ）",
+              "姐姐的衣服跟妹妹的衣服一样。／我跟妈妈一样高。"
+            ],
+            [
+              "Phủ định",
+              "A + 跟/和 + B + 不一样",
+              "这件衬衫跟那件衬衫不一样。／我长得跟妈妈不一样。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l1910-s8",
+        "formula": "4.2 A + 跟/和 + B + 不一样",
+        "sense": "A khác B",
+        "usage": "Dạng phủ định：đặt 不 ngay trước 一样, không dùng 没\ndạng phủ định thường không mang thêm tính từ phía sau.",
+        "examples": [
+          "这件衬衫跟那件衬衫不一样。",
+          "我长得跟妈妈不一样。",
+          "今天的生词跟昨天的生词不一样。"
+        ],
+        "meanings": [
+          "Chiếc sơ mi này khác chiếc sơ mi kia.",
+          "Tôi trông không giống mẹ.",
+          "Từ mới hôm nay khác từ mới hôm qua."
+        ]
+      }
+    ]
   }
 };

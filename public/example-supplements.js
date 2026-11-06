@@ -506,5 +506,39 @@ window.HSK_EXAMPLE_SUPPLEMENTS = {
       "我买了一点儿苹果。",
       "这件衣服有点儿大，我想要一件小一点儿的。"
     ]
+  },
+  "l1910": {
+    "additions": [
+      [
+        "哪里哪里，我们班李静说得更好。",
+        "Đâu có đâu, Lý Tĩnh lớp tớ còn nói hay hơn."
+      ],
+      [
+        "我们一起工作了三年，我比较了解他。",
+        "Chúng tôi làm cùng nhau ba năm rồi, tôi khá hiểu anh ấy."
+      ],
+      [
+        "上课的时候，马可的座位就在大山和李静的中间。",
+        "Lúc lên lớp, chỗ ngồi của Mã Khả ở ngay giữa Đại Sơn và Lý Tĩnh."
+      ],
+      [
+        "你放心，我一定参加下个星期的汉语比赛。",
+        "Bạn yên tâm, nhất định tôi sẽ tham gia cuộc thi tiếng Hán tuần sau."
+      ],
+      [
+        "老师的话对我影响很大。",
+        "Lời cô giáo ảnh hưởng đến tôi rất nhiều."
+      ]
+    ],
+    "patternEvidence": [
+      "我做完作业再出去玩。",
+      "明天我们先去上课，再去吃饭，最后去唱歌。",
+      "我做的饭越来越好吃。",
+      "雨越下越大。",
+      "朋友越多越好。",
+      "越往南，天气越热。",
+      "我跟妈妈一样高。",
+      "这件衬衫跟那件衬衫不一样。"
+    ]
   }
 };

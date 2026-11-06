@@ -8615,6 +8615,555 @@ window.HSK_CONTENT = {
           ]
         ]
       }
+    },
+    {
+      "id": "l1910",
+      "date": "19/10/2026",
+      "shortDate": "19/10",
+      "title": "Nối việc theo thứ tự, 越A越B và so sánh bằng 跟·和……一样",
+      "focus": "V1（+了/完）+再+V2 / 先……，再……，最后…… / 越A越B / A+跟·和+B+一样",
+      "pages": "trang 1-13",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在教室 — trong lớp học",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_160654_kbkhdmek/data/sound5.mp3",
+          "note": "Bài nghe duy nhất của buổi (PDF trang 12-13). PDF có ba dạng bài cho đoạn này: sắp xếp thứ tự lời thoại (đáp án đỏ 5 1 4 2 6 3), đúng/sai, và điền vào chỗ trống. Phần đúng/sai PDF để trống, đáp án dưới đây suy ra từ lời thoại trang 13.",
+          "dialogueLines": [
+            "大山：马可，你的中文越说越好了！",
+            "马可：哪里哪里，我们班李静说得更好。",
+            "大山：怎么好？",
+            "马可：她的汉语说得跟中国人一样好。",
+            "大山：李静？我怎么没听说过这个名字。",
+            "马可：她是我们的汉语老师。"
+          ],
+          "trueFalse": [
+            [
+              "马可的中文越说越好了。",
+              true,
+              "大山 mở đầu bằng \"马可，你的中文越说越好了！\"."
+            ],
+            [
+              "李静是马可他们班的同学。",
+              false,
+              "马可 nói \"她是我们的汉语老师\", tức Lý Tĩnh là cô giáo chứ không phải bạn cùng lớp."
+            ],
+            [
+              "李静的中文说得比马可好。",
+              true,
+              "马可 nói \"哪里哪里，我们班李静说得更好\"."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "V1（+了/完）……+再+V2: việc thứ hai chỉ xảy ra sau khi việc thứ nhất đã hoàn thành. V1 hay đi kèm 完 hoặc 了 để nhấn mạnh là đã xong: 我做完作业再出去玩。／我们下了班再去看电影。",
+        "先……，再……，最后……: kể các việc theo đúng thứ tự. Hai việc thì nói 先……，再……; ba việc thì thêm 最后……. 先 đứng ngay trước động từ, không đứng trước chủ ngữ.",
+        "越A越B nghĩa là B thay đổi theo A. Bảng PDF trang 8 cho bốn dạng: ① 越来越 + tính từ/động từ tâm lý ② S + 越 V + 越 tính từ ③ S + 越 tính từ 1 + 越 tính từ 2 ④ （S1+）越 V，S2 + 越 tính từ.",
+        "Phân biệt: 越来越 dùng khi mức độ đổi dần theo thời gian (天气越来越冷了); 越……越…… dùng khi mức độ đổi theo một việc hoặc một tính chất cụ thể (雨越下越大).",
+        "A + 跟/和 + B + 一样（+ tính từ）: so sánh hai bên ngang nhau. 跟 và 和 thay nhau được, 一样 đứng ngay sau B. Phủ định là đặt 不 ngay trước 一样 (A + 跟/和 + B + 不一样), không dùng 没.",
+        "哪里哪里 là câu đáp lại lời khen, nghĩa gần với “đâu có đâu” trong tiếng Việt (PDF trang 1 và bài nghe trang 13)."
+      ],
+      "vocab": [
+        [
+          "中文",
+          "zhōngwén",
+          "tiếng Trung, Trung văn"
+        ],
+        [
+          "担心",
+          "dānxīn",
+          "lo lắng, lo cho"
+        ],
+        [
+          "比较",
+          "bǐjiào",
+          "khá, tương đối"
+        ],
+        [
+          "了解",
+          "liǎojiě",
+          "hiểu rõ, nắm được"
+        ],
+        [
+          "先",
+          "xiān",
+          "trước, trước tiên"
+        ],
+        [
+          "中间",
+          "zhōngjiān",
+          "ở giữa, khoảng giữa"
+        ],
+        [
+          "哪里哪里",
+          "nǎli nǎli",
+          "đâu có đâu (đáp lại lời khen)"
+        ],
+        [
+          "最后",
+          "zuìhòu",
+          "cuối cùng, sau cùng"
+        ],
+        [
+          "放心",
+          "fàngxīn",
+          "yên tâm, an tâm"
+        ],
+        [
+          "参加",
+          "cānjiā",
+          "tham gia, dự"
+        ],
+        [
+          "影响",
+          "yǐngxiǎng",
+          "ảnh hưởng (động từ và danh từ)"
+        ],
+        [
+          "一定",
+          "yídìng",
+          "nhất định, chắc chắn"
+        ],
+        [
+          "大山",
+          "Dàshān",
+          "Đại Sơn (tên người)"
+        ],
+        [
+          "李静",
+          "Lǐ Jìng",
+          "Lý Tĩnh (tên người)"
+        ]
+      ],
+      "patterns": [
+        [
+          "1. V1（+了/完）……+再+V2",
+          "Làm xong việc trước rồi mới làm việc sau; 再 đứng ngay trước V2."
+        ],
+        [
+          "2. 先……，再……，最后……",
+          "Kể hai hoặc ba việc lần lượt theo thứ tự."
+        ],
+        [
+          "3.1 越来越 + tính từ / động từ tâm lý",
+          "Ngày càng …, mức độ đổi dần theo thời gian."
+        ],
+        [
+          "3.2 S + 越 V + 越 tính từ / động từ tâm lý",
+          "Càng V càng …, mức độ đổi theo động từ."
+        ],
+        [
+          "3.3 S + 越 tính từ 1 + 越 tính từ 2",
+          "Càng … thì càng …, hai tính từ nối nhau."
+        ],
+        [
+          "3.4 （S1+）越 V，S2 + 越 tính từ / động từ tâm lý",
+          "Hai vế khác chủ ngữ: càng … thì … càng …"
+        ],
+        [
+          "4.1 A + 跟/和 + B + 一样（+ tính từ）",
+          "A giống B, A … bằng B."
+        ],
+        [
+          "4.2 A + 跟/和 + B + 不一样",
+          "A khác B; đặt 不 ngay trước 一样, không dùng 没."
+        ]
+      ],
+      "examples": [
+        [
+          "我做完作业再出去玩。",
+          "Tôi làm xong bài tập rồi mới ra ngoài chơi."
+        ],
+        [
+          "我们下了班再去看电影。",
+          "Chúng tôi tan làm rồi mới đi xem phim."
+        ],
+        [
+          "你洗完衣服再去运动吧。",
+          "Bạn giặt xong quần áo rồi hãy đi vận động nhé."
+        ],
+        [
+          "你先做完作业，再出去玩。",
+          "Bạn làm xong bài tập trước, rồi hãy ra ngoài chơi."
+        ],
+        [
+          "我们先休息一下，一会儿再爬。",
+          "Chúng ta nghỉ một lát đã, lát nữa leo tiếp."
+        ],
+        [
+          "明天我们先去上课，再去吃饭，最后去唱歌。",
+          "Mai chúng ta đi học trước, rồi đi ăn cơm, cuối cùng đi hát."
+        ],
+        [
+          "我做的饭越来越好吃。",
+          "Cơm tôi nấu ngày càng ngon."
+        ],
+        [
+          "大山觉得马可的中文说得越来越好了。",
+          "Đại Sơn thấy tiếng Trung của Mã Khả ngày càng tốt lên."
+        ],
+        [
+          "天气越来越冷了，你多穿一点儿吧。",
+          "Trời ngày càng lạnh rồi, bạn mặc thêm một chút đi."
+        ],
+        [
+          "雨越下越大。",
+          "Mưa càng rơi càng to."
+        ],
+        [
+          "那辆车越开越快。",
+          "Chiếc xe kia càng chạy càng nhanh."
+        ],
+        [
+          "我和老同学越聊越高兴。",
+          "Tôi và bạn học cũ càng trò chuyện càng vui."
+        ],
+        [
+          "朋友越多越好。",
+          "Bạn bè càng nhiều càng tốt."
+        ],
+        [
+          "越往南，天气越热。",
+          "Càng đi về phía nam, trời càng nóng."
+        ],
+        [
+          "她越不说话，我越担心。",
+          "Cô ấy càng không nói gì, tôi càng lo."
+        ],
+        [
+          "姐姐的衣服跟妹妹的衣服一样。",
+          "Áo của chị giống áo của em gái."
+        ],
+        [
+          "我跟妈妈一样高。",
+          "Tôi cao bằng mẹ."
+        ],
+        [
+          "她的汉语说得跟中国人一样好。",
+          "Tiếng Hán của cô ấy nói hay như người Trung Quốc."
+        ],
+        [
+          "这件衬衫跟那件衬衫不一样。",
+          "Chiếc sơ mi này khác chiếc sơ mi kia."
+        ],
+        [
+          "我长得跟妈妈不一样。",
+          "Tôi trông không giống mẹ."
+        ]
+      ],
+      "drills": [
+        [
+          "Nói bạn làm xong bài tập rồi mới ra ngoài chơi.",
+          "我做完作业再出去玩。"
+        ],
+        [
+          "Rủ bạn tan làm rồi mới đi xem phim.",
+          "我们下了班再去看电影。"
+        ],
+        [
+          "Kể ba việc ngày mai theo thứ tự: đi học, đi ăn cơm, đi hát.",
+          "明天我们先去上课，再去吃饭，最后去唱歌。"
+        ],
+        [
+          "Nói mưa càng rơi càng to.",
+          "雨越下越大。"
+        ],
+        [
+          "Nói càng đi về phía nam trời càng nóng.",
+          "越往南，天气越热。"
+        ],
+        [
+          "Nói bạn cao bằng mẹ.",
+          "我跟妈妈一样高。"
+        ],
+        [
+          "Nói chiếc sơ mi này khác chiếc sơ mi kia.",
+          "这件衬衫跟那件衬衫不一样。"
+        ]
+      ],
+      "quiz": [
+        [
+          "Trong câu 我做完作业再出去玩。, chữ 再 cho biết điều gì?",
+          [
+            "việc ra ngoài chơi chỉ xảy ra sau khi làm xong bài tập",
+            "việc ra ngoài chơi đã xảy ra rồi",
+            "hai việc xảy ra cùng lúc",
+            "việc ra ngoài chơi lặp lại nhiều lần"
+          ],
+          0,
+          "V1（+了/完）……+再+V2 nói việc sau chỉ xảy ra khi việc trước đã hoàn thành."
+        ],
+        [
+          "Khi kể ba việc theo thứ tự, từ nào đứng ở việc thứ ba?",
+          [
+            "最后",
+            "先",
+            "再",
+            "又"
+          ],
+          0,
+          "Công thức là 先……，再……，最后…… (PDF trang 5)."
+        ],
+        [
+          "Câu nào đúng với dạng 越来越?",
+          [
+            "天气越来越冷了。",
+            "天气越冷越了。",
+            "越来越天气冷了。",
+            "天气冷越来越了。"
+          ],
+          0,
+          "越来越 đứng ngay trước tính từ, cuối câu hay thêm 了."
+        ],
+        [
+          "雨越下越大。 thuộc dạng nào của 越A越B?",
+          [
+            "S + 越 V + 越 tính từ",
+            "越来越 + tính từ",
+            "S + 越 tính từ 1 + 越 tính từ 2",
+            "（S1+）越 V，S2 + 越 tính từ"
+          ],
+          0,
+          "下 là động từ nằm giữa hai chữ 越 (bảng PDF trang 8, dạng 2)."
+        ],
+        [
+          "Phủ định của 我跟妈妈一样高。 là câu nào?",
+          [
+            "我跟妈妈不一样高。",
+            "我跟妈妈没一样高。",
+            "我不跟妈妈一样高。",
+            "我跟妈妈一样不高。"
+          ],
+          0,
+          "Đặt 不 ngay trước 一样, không dùng 没 (PDF trang 10)."
+        ],
+        [
+          "哪里哪里 dùng khi nào?",
+          [
+            "khi khiêm tốn đáp lại lời khen",
+            "khi hỏi đường",
+            "khi hỏi ai đó ở đâu",
+            "khi từ chối lời mời"
+          ],
+          0,
+          "哪里哪里 là câu đáp lại lời khen, nghĩa gần với “đâu có đâu”."
+        ]
+      ],
+      "practice": {
+        "cloze": [
+          {
+            "title": "练一练 · Hoàn thành câu với “越……越……／越来越……”",
+            "description": "Bài luyện dưới mục ngữ pháp 3. 越A越B (PDF trang 10). PDF để trống hoàn toàn và không cho đáp án; câu dưới đây là một cách viết tham khảo.",
+            "items": [
+              [
+                "这部电影越看____。",
+                [
+                  "越有意思",
+                  "越好看"
+                ],
+                "越 V 越 tính từ: xem càng nhiều thì càng thấy hay (PDF trang 10, câu 1)."
+              ],
+              [
+                "她____，我越担心。",
+                [
+                  "越不说话",
+                  "越晚回家",
+                  "越瘦"
+                ],
+                "Hai vế khác chủ ngữ: vế đầu nêu việc đang thay đổi, vế sau nêu mức lo tăng theo (PDF trang 10, câu 2)."
+              ],
+              [
+                "马可的中文____。",
+                [
+                  "越来越好了",
+                  "说得越来越好了"
+                ],
+                "Mức độ đổi dần theo thời gian nên dùng 越来越 (PDF trang 10, câu 3)."
+              ],
+              [
+                "做题的时候不能着急，你____，越____。",
+                [
+                  [
+                    "越着急"
+                  ],
+                  [
+                    "容易做错",
+                    "容易错"
+                  ]
+                ],
+                "Hai chỗ trống trong một câu: càng sốt ruột thì càng dễ làm sai (PDF trang 10, câu 4, hai chỗ trống)."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành câu với “A+跟/和+B+一样／不一样”",
+            "description": "Bài luyện dưới mục ngữ pháp 4 (PDF trang 11). PDF để trống hoàn toàn và không cho đáp án; câu dưới đây là một cách viết tham khảo.",
+            "items": [
+              [
+                "我的杯子____。",
+                [
+                  "跟你的杯子一样",
+                  "和你的杯子一样"
+                ],
+                "Dạng khẳng định: 一样 đứng ngay sau B (PDF trang 11, câu 1)."
+              ],
+              [
+                "今天的生词____。",
+                [
+                  "跟昨天的生词不一样",
+                  "和昨天的生词不一样"
+                ],
+                "Dạng phủ định: 不 đứng ngay trước 一样 (PDF trang 11, câu 2)."
+              ],
+              [
+                "____一样聪明。",
+                [
+                  "我弟弟跟我",
+                  "我弟弟和我",
+                  "他跟他哥哥"
+                ],
+                "Chỗ trống nằm trước 一样聪明 nên phải điền đủ cụm A + 跟/和 + B (PDF trang 11, câu 3)."
+              ],
+              [
+                "这辆车的颜色____。",
+                [
+                  "跟那辆车的颜色不一样",
+                  "和那辆车的颜色不一样"
+                ],
+                "So sánh màu của hai chiếc xe, dùng dạng phủ định (PDF trang 11, câu 4)."
+              ]
+            ]
+          },
+          {
+            "title": "课文1 · Điền vào chỗ trống theo bài nghe",
+            "description": "Bài “Fill in the blanks based on the texts” của 课文1 (PDF trang 13). Năm chỗ trống, đáp án gốc đánh dấu đỏ trong PDF.",
+            "items": [
+              [
+                "大山觉得马可的中文说得____。马可觉得他们班的李静____。李静的中文说得____。大山以前没有____李静的名字，马可说李静是他们班的____。",
+                [
+                  [
+                    "越来越好了"
+                  ],
+                  [
+                    "说得更好"
+                  ],
+                  [
+                    "跟中国人一样好"
+                  ],
+                  [
+                    "听过"
+                  ],
+                  [
+                    "汉语老师"
+                  ]
+                ],
+                "Năm chỗ trống lấy nguyên văn từ lời thoại 课文1, đáp án đỏ trong PDF trang 13."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "练一练 · Sắp xếp từ thành câu (越……越…… và 跟……一样)",
+            "description": "Bài “Rearrange the words to make sentences” ở cuối phần ngữ pháp (PDF trang 11). Đáp án gốc đánh dấu đỏ trong PDF.",
+            "items": [
+              [
+                [
+                  "快",
+                  "越",
+                  "那辆车",
+                  "开",
+                  "越"
+                ],
+                "那辆车越开越快。"
+              ],
+              [
+                [
+                  "跟",
+                  "我弟弟",
+                  "妈妈",
+                  "高",
+                  "一样"
+                ],
+                "我弟弟跟妈妈一样高。"
+              ],
+              [
+                [
+                  "越",
+                  "我和老同学",
+                  "高兴",
+                  "聊",
+                  "越"
+                ],
+                "我和老同学越聊越高兴。"
+              ]
+            ]
+          },
+          [
+            [
+              "我",
+              "做完",
+              "作业",
+              "再",
+              "出去玩"
+            ],
+            "我做完作业再出去玩。"
+          ],
+          [
+            [
+              "明天",
+              "我们",
+              "先",
+              "去上课",
+              "再",
+              "去吃饭",
+              "最后",
+              "去唱歌"
+            ],
+            "明天我们先去上课，再去吃饭，最后去唱歌。"
+          ]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "马可每天先听录音，再读生词，最后做作业，所以他的中文越说越好了。他们班的李静是汉语老师，她的汉语说得跟中国人一样好。大山比较担心自己说得不好，马可让他放心，还说下个星期他们一定一起参加汉语比赛。",
+          [
+            [
+              "马可每天最后做什么？",
+              [
+                "做作业",
+                "听录音",
+                "读生词",
+                "参加比赛"
+              ],
+              0,
+              "Đoạn văn nói \"先听录音，再读生词，最后做作业\"。"
+            ],
+            [
+              "李静的汉语说得怎么样？",
+              [
+                "跟中国人一样好",
+                "比马可差一点儿",
+                "不太好",
+                "跟大山一样"
+              ],
+              0,
+              "Đoạn văn nói \"她的汉语说得跟中国人一样好\"。"
+            ],
+            [
+              "下个星期他们打算做什么？",
+              [
+                "一起参加汉语比赛",
+                "一起去爬山",
+                "一起看电影",
+                "一起买东西"
+              ],
+              0,
+              "Đoạn văn nói \"下个星期他们一定一起参加汉语比赛\"。"
+            ]
+          ]
+        ]
+      }
     }
   ],
   "finalQuestions": [

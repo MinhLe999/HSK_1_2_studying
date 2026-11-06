@@ -1272,5 +1272,151 @@ window.HSK_PRODUCTION = {
       required: "哪儿",
       sample: "你想去哪儿我们就去哪儿。"
     }
+  ],
+  "l1910": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "mở rộng từ 参加 thành câu",
+      "structure": "Mở rộng từ thành câu（PDF trang 2）",
+      "prompt": "Mở rộng từ 参加 thành một câu hoàn chỉnh (PDF trang 2, mẫu: 影响 → 他影响了我).",
+      "required": "参加",
+      "sample": "我下个星期要参加汉语比赛。"
+    },
+    {
+      "kind": "sentence-vocab",
+      "topic": "mở rộng từ 担心 thành câu",
+      "structure": "Mở rộng từ thành câu（PDF trang 2）",
+      "prompt": "Mở rộng từ 担心 thành một câu hoàn chỉnh (PDF trang 2, câu 2).",
+      "required": "担心",
+      "sample": "妈妈很担心我的身体。"
+    },
+    {
+      "kind": "sentence-vocab",
+      "topic": "mở rộng từ 了解 thành câu",
+      "structure": "Mở rộng từ thành câu（PDF trang 2）",
+      "prompt": "Mở rộng từ 了解 thành một câu hoàn chỉnh (PDF trang 2, câu 3).",
+      "required": "了解",
+      "sample": "我们是老同学，我很了解他。"
+    },
+    {
+      "kind": "sentence-vocab",
+      "topic": "mở rộng từ 放心 thành câu",
+      "structure": "Mở rộng từ thành câu（PDF trang 2）",
+      "prompt": "Mở rộng từ 放心 thành một câu hoàn chỉnh (PDF trang 2, câu 4).",
+      "required": "放心",
+      "sample": "你放心，我一定能做完这些作业。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "xem phim xong rồi về nhà",
+      "structure": "V1（+了/完）……+再+V2",
+      "prompt": "Đặt câu theo gợi ý tranh: xem phim → về nhà (PDF trang 3, tranh 1).",
+      "required": "再",
+      "sample": "我们看完电影再回家。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "giặt đồ xong rồi đi vận động",
+      "structure": "V1（+了/完）……+再+V2",
+      "prompt": "Đặt câu theo gợi ý tranh: Giặt đồ → Vận động (PDF trang 3, tranh 2).",
+      "required": "再",
+      "sample": "我洗完衣服再去运动。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "mua đồ xong rồi đi leo núi",
+      "structure": "V1（+了/完）……+再+V2",
+      "prompt": "Đặt câu theo gợi ý tranh: Mua đồ → leo núi (PDF trang 4, tranh 1).",
+      "required": "再",
+      "sample": "我买完东西再去爬山。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "ăn sáng xong rồi đến trường",
+      "structure": "V1（+了/完）……+再+V2",
+      "prompt": "Đặt câu theo gợi ý tranh: Ăn sáng → đến trường (PDF trang 4, tranh 2).",
+      "required": "再",
+      "sample": "我吃完早饭再去学校。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "ăn cơm xong rồi chơi điện tử",
+      "structure": "先……，再……",
+      "prompt": "Đặt câu theo gợi ý tranh: ăn cơm → chơi điện tử (PDF trang 5).",
+      "required": "先",
+      "sample": "我先吃饭，再玩电子游戏。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "đi siêu thị mua đồ rồi về nấu cơm",
+      "structure": "先……，再……",
+      "prompt": "Đặt câu theo gợi ý tranh: đi siêu thị mua đồ → về nhà nấu cơm (PDF trang 6, tranh 1).",
+      "required": "先",
+      "sample": "妈妈先去超市买菜，再回家做饭。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "mua hoa rồi đi thăm người ốm",
+      "structure": "先……，再……",
+      "prompt": "Đặt câu theo gợi ý tranh: mua hoa → đến bệnh viện thăm người ốm (PDF trang 6, tranh 2).",
+      "required": "先",
+      "sample": "她先去买花，再去医院看病人。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "ba việc sau khi tan học về nhà",
+      "structure": "先……，再……，最后……",
+      "prompt": "PDF cho sẵn phần mở đầu 下课回家后，…… Hãy viết tiếp theo gợi ý tranh: ăn cơm → làm bài tập → đi ngủ (PDF trang 7, tranh 1).",
+      "required": "最后",
+      "sample": "下课回家后，我先吃饭，再做作业，最后睡觉。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "dự định ba việc sáng mai",
+      "structure": "先……，再……，最后……",
+      "prompt": "PDF cho sẵn phần mở đầu 明天早上我打算…… Hãy viết tiếp theo gợi ý tranh: chạy bộ → ăn sáng → đi nghe hoà nhạc (PDF trang 7, tranh 2).",
+      "required": "最后",
+      "sample": "明天早上我打算先去跑步，再吃早饭，最后去听音乐会。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "mưa mỗi lúc một to",
+      "structure": "S + 越 V + 越 tính từ",
+      "prompt": "Đặt câu theo gợi ý tranh: bốn đám mây mưa mỗi lúc một nặng hạt (PDF trang 8).",
+      "required": "越",
+      "sample": "雨越下越大。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "càng đi về phía nam trời càng nóng",
+      "structure": "（S1+）越 V，S2 + 越 tính từ",
+      "prompt": "Đặt câu theo gợi ý tranh: 北 → 南, nhiệt kế từ lạnh chuyển sang nóng (PDF trang 9, tranh 1).",
+      "required": "越",
+      "sample": "越往南，天气越热。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "nghỉ càng lâu người càng khoẻ",
+      "structure": "S + 越 V + 越 tính từ",
+      "prompt": "Đặt câu theo gợi ý tranh: 休息2小时 → 休息1天, người ốm khoẻ hẳn lên (PDF trang 9, tranh 2).",
+      "required": "越",
+      "sample": "他休息得越久，身体越好。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "hỏi về thứ tự việc làm sau khi tan học",
+      "structure": "先 + V + 什么？",
+      "prompt": "Viết câu hỏi phù hợp với câu trả lời: 下课回家后，我先吃饭，再做作业，最后睡觉。",
+      "required": "先",
+      "sample": "下课回家后你先做什么？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "khuyên bạn kiên trì luyện tập",
+      "structure": "放心 + 越……越……",
+      "prompt": "Viết câu trả lời cho câu hỏi: 我比较担心这次的考试，怎么办？ (khuyên bạn yên tâm và nói càng luyện càng tốt).",
+      "required": "放心",
+      "sample": "你放心，越练习越好，这次你一定没问题。"
+    }
   ]
 };
