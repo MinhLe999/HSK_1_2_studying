@@ -122,3 +122,63 @@ test("phục vụ từng đoạn của PDF", async () => {
   assert.equal(response.headers.get("content-range"), `bytes 0-99/${pdfSize}`);
   assert.equal((await response.arrayBuffer()).byteLength, 100);
 });
+
+// Ảnh PNG trắng 16×16, dùng để kiểm tra đường đi của route mà không cần ảnh thật.
+// Vision từ chối ảnh nhỏ hơn 2 px mỗi chiều nên không dùng được ảnh 1×1.
+const blankPng = Buffer.from(
+  "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAD0lEQVR4nGP4jwYYRrYAAID5/wEokJxdAAAAAElFTkSuQmCC",
+  "base64"
+);
+
+test("từ chối ảnh rỗng khi tra ảnh", async () => {
+  const response = await fetch(`${baseUrl}/api/ocr`, {
+    method: "POST",
+    headers: { "Content-Type": "image/png" },
+    body: Buffer.alloc(0)
+  });
+  assert.equal(response.status, 400);
+  const payload = await response.json();
+  assert.match(payload.message, /ảnh/i);
+});
+
+test("từ chối dữ liệu không phải ảnh khi tra ảnh", async () => {
+  const response = await fetch(`${baseUrl}/api/ocr`, {
+    method: "POST",
+    headers: { "Content-Type": "image/png" },
+    body: Buffer.from("day khong phai anh")
+  });
+  assert.equal(response.status, 415);
+  const payload = await response.json();
+  assert.match(payload.message, /định dạng ảnh/i);
+});
+
+test("tra ảnh trả về danh sách dòng chữ đọc được", async t => {
+  if (process.platform !== "darwin") {
+    const response = await fetch(`${baseUrl}/api/ocr`, {
+      method: "POST",
+      headers: { "Content-Type": "image/png" },
+      body: blankPng
+    });
+    assert.equal(response.status, 501);
+    return;
+  }
+
+  const response = await fetch(`${baseUrl}/api/ocr`, {
+    method: "POST",
+    headers: { "Content-Type": "image/png" },
+    body: blankPng
+  });
+
+  // Thiếu Xcode Command Line Tools thì không biên dịch được công cụ Swift.
+  if (response.status === 501) {
+    t.skip("Máy này chưa biên dịch được công cụ OCR.");
+    return;
+  }
+
+  assert.equal(response.status, 200);
+  const payload = await response.json();
+  assert.equal(typeof payload.text, "string");
+  assert.ok(Array.isArray(payload.lines));
+  // Ảnh một điểm ảnh không có chữ nào, nên danh sách phải rỗng.
+  assert.deepEqual(payload.lines, []);
+});

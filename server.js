@@ -1,16 +1,24 @@
 const http = require("node:http");
 const path = require("node:path");
+const os = require("node:os");
 const fsSync = require("node:fs");
 const fs = require("node:fs/promises");
+const { execFile } = require("node:child_process");
 
 const rootDir = __dirname;
 const publicDir = path.join(rootDir, "public");
+const toolsDir = path.join(rootDir, "tools");
+const ocrSourceFile = path.join(toolsDir, "ocr_image.swift");
+const ocrBinaryFile = path.join(toolsDir, ".build", "ocr_image");
 const dataFile = process.env.HSK_DATA_FILE
   ? path.resolve(process.env.HSK_DATA_FILE)
   : path.join(rootDir, "data", "user-data.json");
 const port = Number.parseInt(process.env.PORT || "4173", 10);
 const host = process.env.HOST || "127.0.0.1";
 const maxBodyBytes = 1024 * 1024;
+// Ảnh dán từ clipboard thường là PNG chưa nén nên lớn hơn JSON tiến độ rất nhiều.
+const maxImageBytes = 16 * 1024 * 1024;
+const ocrTimeoutMs = 20000;
 
 const defaultState = {
   version: 1,
@@ -213,6 +221,119 @@ async function readJsonBody(request) {
   return JSON.parse(Buffer.concat(chunks).toString("utf8") || "{}");
 }
 
+async function readRawBody(request, limit) {
+  const chunks = [];
+  let length = 0;
+  for await (const chunk of request) {
+    length += chunk.length;
+    if (length > limit) {
+      const error = new Error("Ảnh gửi lên vượt quá giới hạn 16 MB.");
+      error.statusCode = 413;
+      throw error;
+    }
+    chunks.push(chunk);
+  }
+  return Buffer.concat(chunks);
+}
+
+function runCommand(file, args, options = {}) {
+  return new Promise((resolve, reject) => {
+    execFile(file, args, { encoding: "utf8", ...options }, (error, stdout, stderr) => {
+      if (error) {
+        error.stdout = stdout;
+        error.stderr = stderr;
+        reject(error);
+        return;
+      }
+      resolve({ stdout, stderr });
+    });
+  });
+}
+
+// Phần mở rộng giúp NSImage chọn đúng bộ giải mã; đoán theo chữ ký đầu tệp
+// vì trình duyệt có thể gửi ảnh dán mà không kèm tên tệp.
+function guessImageExtension(buffer) {
+  if (buffer.length >= 8 && buffer.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))) {
+    return ".png";
+  }
+  if (buffer.length >= 3 && buffer[0] === 0xff && buffer[1] === 0xd8 && buffer[2] === 0xff) return ".jpg";
+  if (buffer.length >= 12 && buffer.subarray(0, 4).toString("latin1") === "RIFF"
+    && buffer.subarray(8, 12).toString("latin1") === "WEBP") {
+    return ".webp";
+  }
+  if (buffer.length >= 12 && buffer.subarray(4, 8).toString("latin1") === "ftyp") return ".heic";
+  if (buffer.length >= 2 && (buffer.subarray(0, 2).toString("latin1") === "II"
+    || buffer.subarray(0, 2).toString("latin1") === "MM")) {
+    return ".tiff";
+  }
+  return null;
+}
+
+// Vision chỉ có trên macOS. Biên dịch công cụ Swift một lần rồi dùng lại,
+// và biên dịch lại khi mã nguồn mới hơn tệp nhị phân đã cache.
+async function ensureOcrBinary() {
+  if (process.platform !== "darwin") {
+    const error = new Error("Tra từ qua ảnh dùng OCR của macOS nên chỉ chạy được trên máy Mac.");
+    error.statusCode = 501;
+    throw error;
+  }
+
+  const sourceStat = await fs.stat(ocrSourceFile);
+  const binaryStat = await fs.stat(ocrBinaryFile).catch(() => null);
+  if (binaryStat && binaryStat.mtimeMs >= sourceStat.mtimeMs) return ocrBinaryFile;
+
+  await fs.mkdir(path.dirname(ocrBinaryFile), { recursive: true });
+  try {
+    await runCommand("swiftc", ["-O", "-o", ocrBinaryFile, ocrSourceFile], { timeout: 120000 });
+  } catch (cause) {
+    const error = new Error(
+      "Không biên dịch được công cụ OCR. Hãy cài Xcode Command Line Tools: xcode-select --install"
+    );
+    error.statusCode = 501;
+    error.cause = cause;
+    throw error;
+  }
+  return ocrBinaryFile;
+}
+
+async function recognizeImage(buffer) {
+  const extension = guessImageExtension(buffer);
+  if (!extension) {
+    const error = new Error("Không nhận ra định dạng ảnh. Hãy dán ảnh PNG, JPEG, WebP, HEIC hoặc TIFF.");
+    error.statusCode = 415;
+    throw error;
+  }
+
+  const binary = await ensureOcrBinary();
+  const tempFile = path.join(
+    await fs.mkdtemp(path.join(os.tmpdir(), "hsk-ocr-")),
+    `anh${extension}`
+  );
+
+  try {
+    await fs.writeFile(tempFile, buffer);
+    const { stdout } = await runCommand(binary, [tempFile], {
+      timeout: ocrTimeoutMs,
+      maxBuffer: 4 * 1024 * 1024
+    });
+    return stdout;
+  } catch (cause) {
+    if (cause.statusCode) throw cause;
+    // Công cụ Swift in lý do cụ thể ra stderr, ví dụ ảnh nhỏ hơn 2 px mỗi chiều.
+    const reason = String(cause.stderr || "").trim().split("\n").pop();
+    const error = new Error(
+      cause.killed
+        ? "OCR chạy quá lâu nên đã bị dừng. Hãy thử ảnh nhỏ hơn."
+        : reason || "Không đọc được chữ trong ảnh này."
+    );
+    error.statusCode = cause.killed ? 504 : 422;
+    error.cause = cause;
+    throw error;
+  } finally {
+    await fs.rm(path.dirname(tempFile), { recursive: true, force: true }).catch(() => {});
+  }
+}
+
 async function serveStatic(request, response, pathname) {
   let filePath;
   if (pathname === "/HSK.pdf") {
@@ -290,6 +411,20 @@ const server = http.createServer(async (request, response) => {
 
     if (pathname === "/api/state" && request.method === "PUT") {
       sendJson(response, 200, await writeState(await readJsonBody(request)));
+      return;
+    }
+
+    if (pathname === "/api/ocr" && request.method === "POST") {
+      const buffer = await readRawBody(request, maxImageBytes);
+      if (!buffer.length) {
+        sendJson(response, 400, { message: "Chưa có ảnh nào được gửi lên." });
+        return;
+      }
+      const text = await recognizeImage(buffer);
+      sendJson(response, 200, {
+        text,
+        lines: text.split("\n").map(line => line.trim()).filter(Boolean)
+      });
       return;
     }
 

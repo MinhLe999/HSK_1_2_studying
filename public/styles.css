@@ -2499,3 +2499,175 @@ p {
     margin-left: 0;
   }
 }
+
+/* ---- Tab Tra ảnh ---- */
+
+.image-lookup {
+  display: grid;
+  gap: 18px;
+}
+
+.image-lookup-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 16px 18px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+
+.image-lookup-hint {
+  margin: 0;
+  max-width: 62ch;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.image-lookup-hint kbd {
+  padding: 1px 5px;
+  border: 1px solid var(--line-strong);
+  border-radius: 5px;
+  background: var(--surface-soft);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.image-lookup-file {
+  flex: none;
+  cursor: pointer;
+}
+
+.image-lookup-status {
+  margin: 0;
+  padding: 18px;
+  background: var(--surface-soft);
+  border: 1px dashed var(--line-strong);
+  border-radius: 14px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.image-lookup-summary {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.image-lookup-summary strong {
+  color: var(--ink);
+}
+
+.image-lookup-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.image-lookup-table th,
+.image-lookup-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.image-lookup-table th {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: var(--surface-soft);
+}
+
+.image-lookup-word {
+  font-size: 20px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.image-lookup-count {
+  margin-left: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.image-lookup-lessons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.image-lookup-jump {
+  padding: 4px 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: var(--surface-soft);
+  color: var(--green-dark);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.image-lookup-jump:hover {
+  background: var(--green-soft);
+  border-color: var(--green);
+}
+
+.image-lookup-unknown {
+  padding: 16px 18px;
+  background: var(--amber-soft);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+
+.image-lookup-unknown h3 {
+  margin: 0 0 10px;
+  color: var(--amber);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.image-lookup-unknown ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.image-lookup-unknown li {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.image-lookup-related {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 720px) {
+  .image-lookup-intro {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.image-lookup-form {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+}

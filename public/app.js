@@ -40,7 +40,8 @@
     measurePage: 0,
     vocabShowPinyin: true,
     vocabShowMeaning: true,
-    vocabShuffleOrder: null
+    vocabShuffleOrder: null,
+    imageLookup: { status: "idle", message: "", words: [], unknown: [], hanCount: 0 }
   };
 
   function escapeHtml(value) {
@@ -689,6 +690,12 @@
     if (ui.view === "notes") {
       activeDateEl.textContent = "Dữ liệu cá nhân";
       activeTitleEl.textContent = "Ghi chú";
+      return;
+    }
+
+    if (ui.view === "image") {
+      activeDateEl.textContent = `Tra trong ${lessons.length} ngày học`;
+      activeTitleEl.textContent = "Tra từ qua ảnh";
       return;
     }
 
@@ -2029,6 +2036,244 @@
     `;
   }
 
+  // Từ điển tra ngược: một từ trong giáo trình → các ngày học có dạy từ đó.
+  // Dựng một lần, dùng cho cả tách từ và tra nghĩa ở tab Tra ảnh.
+  const vocabIndex = (() => {
+    const byWord = new Map();
+    lessons.forEach((item, index) => {
+      item.vocab.forEach(([hanzi, pinyin, meaning]) => {
+        // Một số mục từ vựng trong giáo trình không chỉ có chữ Hán: dạng kèm
+        // biến thể (没有 / 没), dạng có chỗ trống (太...了) hoặc phần tùy chọn
+        // (聊天（儿）). Tách thành từng đoạn chữ Hán để tra được, còn nguyên văn
+        // vẫn giữ để hiển thị.
+        // Phần trong ngoặc là thành phần tùy chọn chứ không phải từ riêng, nên bỏ
+        // hẳn: 聊天（儿） chỉ cho khóa 聊天, không cho khóa 儿.
+        const keys = hanzi
+          .replace(/[（(][^）)]*[）)]/gu, " ")
+          .split(/[^\p{Script=Han}]+/u)
+          .filter(Boolean);
+        keys.forEach(key => {
+          if (!byWord.has(key)) byWord.set(key, { key, forms: [], meanings: [], lessons: [] });
+          const entry = byWord.get(key);
+          if (!entry.forms.some(form => form.hanzi === hanzi)) {
+            entry.forms.push({ hanzi, pinyin });
+          }
+          if (!entry.meanings.includes(meaning)) entry.meanings.push(meaning);
+          if (!entry.lessons.some(one => one.index === index)) {
+            entry.lessons.push({ index, id: item.id, date: item.date, order: index + 1 });
+          }
+        });
+      });
+    });
+
+    // Chữ lẻ nào không tự thành một từ thì vẫn tra được qua các từ có chứa nó,
+    // ví dụ 你 chỉ xuất hiện trong 你好.
+    const byCharacter = new Map();
+    byWord.forEach(entry => {
+      for (const character of entry.key) {
+        if (!byCharacter.has(character)) byCharacter.set(character, []);
+        if (!byCharacter.get(character).includes(entry)) byCharacter.get(character).push(entry);
+      }
+    });
+
+    const maxWordLength = Math.max(...[...byWord.keys()].map(word => [...word].length));
+    return { byWord, byCharacter, maxWordLength };
+  })();
+
+  // Tách chuỗi chữ Hán theo kiểu khớp dài nhất trước, chỉ nhận những từ có
+  // trong giáo trình — nhờ vậy không cần thư viện phân từ tiếng Trung.
+  function lookupHanText(text) {
+    const characters = [...text].filter(character => /\p{Script=Han}/u.test(character));
+    const hits = new Map();
+    const unknown = new Map();
+
+    for (let position = 0; position < characters.length; ) {
+      let matched = null;
+      const remaining = Math.min(vocabIndex.maxWordLength, characters.length - position);
+      for (let length = remaining; length >= 1; length--) {
+        const candidate = characters.slice(position, position + length).join("");
+        if (vocabIndex.byWord.has(candidate)) {
+          matched = candidate;
+          break;
+        }
+      }
+
+      if (matched) {
+        hits.set(matched, (hits.get(matched) || 0) + 1);
+        position += [...matched].length;
+        continue;
+      }
+
+      const character = characters[position];
+      unknown.set(character, (unknown.get(character) || 0) + 1);
+      position += 1;
+    }
+
+    const words = [...hits.entries()]
+      .map(([key, count]) => ({ ...vocabIndex.byWord.get(key), count }))
+      .sort((left, right) => left.lessons[0].order - right.lessons[0].order);
+
+    const unknownWords = [...unknown.keys()].map(character => ({
+      character,
+      relatedWords: vocabIndex.byCharacter.get(character) || []
+    }));
+
+    return { words, unknown: unknownWords, hanCount: characters.length };
+  }
+
+  async function runImageLookup(blob) {
+    ui.imageLookup = { status: "loading", message: "", words: [], unknown: [], hanCount: 0 };
+    renderImageLookup();
+
+    try {
+      const response = await fetch("/api/ocr", {
+        method: "POST",
+        headers: { "Content-Type": blob.type || "application/octet-stream" },
+        body: blob
+      });
+      const payload = await response.json();
+      if (!response.ok) throw new Error(payload.message || "Máy chủ không xử lý được ảnh.");
+
+      const result = lookupHanText(payload.text || "");
+      ui.imageLookup = { status: "done", message: "", ...result };
+    } catch (error) {
+      ui.imageLookup = {
+        status: "error",
+        message: error.message || "Không tra được ảnh này.",
+        words: [],
+        unknown: [],
+        hanCount: 0
+      };
+    }
+
+    renderImageLookup();
+  }
+
+  function renderImageLookup() {
+    const state = ui.imageLookup;
+
+    const intro = `
+      <div class="image-lookup-intro">
+        <p class="image-lookup-hint">
+          Dán ảnh bằng <kbd>⌘</kbd><kbd>V</kbd> vào trang này, hoặc chọn tệp ảnh.
+          Chữ Hán trong ảnh được đọc bằng OCR của macOS, còn nghĩa và số bài lấy từ giáo trình.
+        </p>
+        <label class="button secondary image-lookup-file">
+          Chọn tệp ảnh
+          <input type="file" accept="image/*" data-action="pickLookupImage" hidden>
+        </label>
+      </div>
+    `;
+
+    if (state.status === "loading") {
+      contentEl.innerHTML = `
+        <section class="image-lookup">
+          ${intro}
+          <p class="image-lookup-status">Đang đọc chữ trong ảnh…</p>
+        </section>
+      `;
+      return;
+    }
+
+    if (state.status === "error") {
+      contentEl.innerHTML = `
+        <section class="image-lookup">
+          ${intro}
+          <div class="error-panel">${escapeHtml(state.message)}</div>
+        </section>
+      `;
+      return;
+    }
+
+    if (state.status === "idle") {
+      contentEl.innerHTML = `
+        <section class="image-lookup">
+          ${intro}
+          <p class="image-lookup-status">Chưa có ảnh nào. Dán ảnh để bắt đầu.</p>
+        </section>
+      `;
+      return;
+    }
+
+    const summary = `
+      <p class="image-lookup-summary">
+        Đọc được <strong>${state.hanCount}</strong> chữ Hán ·
+        nhận ra <strong>${state.words.length}</strong> từ trong giáo trình ·
+        <strong>${state.unknown.length}</strong> chữ chưa có
+      </p>
+    `;
+
+    const table = state.words.length
+      ? `
+        <div class="table-scroll">
+          <table class="image-lookup-table">
+            <thead>
+              <tr><th>Từ</th><th>Nghĩa</th><th>Bài</th></tr>
+            </thead>
+            <tbody>
+              ${state.words.map(word => {
+                // Nguyên văn trong giáo trình có thể khác khóa tra, ví dụ khóa 太
+                // đến từ mục 太...了 — hiện kèm để người học thấy dạng đầy đủ.
+                const otherForms = word.forms
+                  .map(form => form.hanzi)
+                  .filter(hanzi => hanzi !== word.key);
+                return `
+                <tr>
+                  <td class="image-lookup-word">${escapeHtml(word.key)}${
+                    word.count > 1 ? `<span class="image-lookup-count">×${word.count}</span>` : ""
+                  }</td>
+                  <td>
+                    ${escapeHtml(word.meanings.join(" / "))}
+                    ${otherForms.length
+                      ? `<span class="image-lookup-form">dạng trong bài: ${escapeHtml(otherForms.join("、"))}</span>`
+                      : ""}
+                  </td>
+                  <td class="image-lookup-lessons">
+                    ${word.lessons.map(one => `
+                      <button class="image-lookup-jump" data-action="selectLesson" data-index="${one.index}">
+                        Bài ${one.order} · ${escapeHtml(one.date)}
+                      </button>
+                    `).join("")}
+                  </td>
+                </tr>
+              `;
+              }).join("")}
+            </tbody>
+          </table>
+        </div>
+      `
+      : `<p class="image-lookup-status">Không có từ nào trong ảnh khớp với giáo trình.</p>`;
+
+    const unknownBlock = state.unknown.length
+      ? `
+        <div class="image-lookup-unknown">
+          <h3>Chữ chưa có trong giáo trình</h3>
+          <ul>
+            ${state.unknown.map(item => `
+              <li>
+                <span class="image-lookup-word">${escapeHtml(item.character)}</span>
+                ${item.relatedWords.length
+                  ? `<span class="image-lookup-related">có trong ${item.relatedWords
+                      .map(word => escapeHtml(word.key))
+                      .join("、")}</span>`
+                  : `<span class="image-lookup-related">chưa gặp trong bài nào</span>`}
+              </li>
+            `).join("")}
+          </ul>
+        </div>
+      `
+      : "";
+
+    contentEl.innerHTML = `
+      <section class="image-lookup">
+        ${intro}
+        ${summary}
+        ${table}
+        ${unknownBlock}
+      </section>
+    `;
+  }
+
   function renderContent() {
     renderShell();
     if (ui.view === "lesson") renderLesson();
@@ -2040,6 +2285,7 @@
     if (ui.view === "similar") renderSimilar();
     if (ui.view === "common") renderCommonStructures();
     if (ui.view === "notes") renderNotes();
+    if (ui.view === "image") renderImageLookup();
     if (ui.view === "final") renderFinal();
   }
 
@@ -2453,7 +2699,36 @@
     }
   });
 
+  // Dán ảnh ở bất kỳ tab nào cũng chuyển sang tab Tra ảnh và tra luôn.
+  document.addEventListener("paste", event => {
+    const items = [...(event.clipboardData?.items || [])];
+    const imageItem = items.find(item => item.type.startsWith("image/"));
+    if (!imageItem) return;
+
+    const blob = imageItem.getAsFile();
+    if (!blob) return;
+
+    event.preventDefault();
+    if (ui.view !== "image") {
+      ui.view = "image";
+      if (savedData) {
+        savedData.progress.lastView = ui.view;
+        markDirty();
+      }
+      renderShell();
+    }
+    runImageLookup(blob);
+  });
+
   document.addEventListener("change", event => {
+    const lookupFile = event.target.closest("input[data-action='pickLookupImage']");
+    if (lookupFile) {
+      const [file] = lookupFile.files || [];
+      if (file) runImageLookup(file);
+      lookupFile.value = "";
+      return;
+    }
+
     const roadmapSelect = event.target.closest("select[data-roadmap-select]");
     if (roadmapSelect && savedData) {
       const roadmap = ensureRoadmapState();
@@ -2635,9 +2910,10 @@
         item => item.id === savedData.progress.lastLessonId
       );
       ui.lessonIndex = savedLessonIndex >= 0 ? savedLessonIndex : 0;
-      ui.view = ["lesson", "structures", "cards", "practice", "measure", "similar", "final"].includes(
-        savedData.progress.lastView
-      )
+      ui.view = [
+        "lesson", "roadmap", "structures", "common", "cards",
+        "practice", "measure", "similar", "image", "notes", "final"
+      ].includes(savedData.progress.lastView)
         ? savedData.progress.lastView
         : "lesson";
 

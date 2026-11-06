@@ -4,3 +4,9 @@ data/*.tmp-*
 node_modules/
 HSK.pdf
 materials/
+
+# Cấu hình Claude Code cá nhân, không commit
+.claude/settings.local.json
+
+# Tệp nhị phân OCR biên dịch cục bộ
+tools/.build/

@@ -12,6 +12,12 @@ Sau đó mở `http://127.0.0.1:4173`.
 
 Không cần cài gói phụ và không cần kết nối dịch vụ bên ngoài.
 
+## Tra từ qua ảnh
+
+Tab **Tra ảnh** cho phép dán ảnh (`⌘V`) chụp trang sách hay màn hình: chữ Hán trong ảnh được đọc rồi đối chiếu với từ vựng của cả 37 ngày, trả về nghĩa và số bài chứa từ đó. Bấm vào số bài để mở thẳng ngày học.
+
+Chữ trong ảnh do Vision của macOS đọc, chạy ngay trên máy và không gửi ảnh đi đâu. Lần dùng đầu tiên máy chủ tự biên dịch `tools/ocr_image.swift`, nên cần Xcode Command Line Tools (`xcode-select --install`). Tính năng này chỉ chạy khi máy chủ đặt trên máy Mac; mở từ điện thoại trong cùng mạng LAN vẫn dùng được vì phần đọc ảnh nằm ở máy chủ.
+
 ## Dữ liệu được lưu
 
 - Tiến độ bài tập, đáp án lượng từ và các cụm chữ tự thêm được lưu tại `data/user-data.json`.
@@ -28,7 +34,8 @@ Không cần cài gói phụ và không cần kết nối dịch vụ bên ngoà
 - `public/measure-words.js`: bảng 43 lượng từ, quy tắc số lớn và 595 câu luyện tập.
 - `STRUCTURE_PLAN.md`: nội dung gốc cho cấu trúc câu, bài đọc và bài đặt câu mở rộng.
 - `tools/build-structures.js`: kiểm tra kế hoạch và sinh dữ liệu cấu trúc cùng bài tập.
-- `public/app.js`: điều khiển các tab, chấm bài, thẻ nhớ và cụm chữ gần giống.
+- `public/app.js`: điều khiển các tab, chấm bài, thẻ nhớ, cụm chữ gần giống và tra từ qua ảnh.
+- `tools/ocr_image.swift`: đọc chữ Hán trong ảnh bằng Vision của macOS.
 - `public/styles.css`: bố cục cho màn hình máy tính và điện thoại.
 - `tools/`: công cụ trích chữ từ PDF để cập nhật nội dung sau này.
 
