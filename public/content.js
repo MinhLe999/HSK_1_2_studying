@@ -9164,6 +9164,664 @@ window.HSK_CONTENT = {
           ]
         ]
       }
+    },
+    {
+      "id": "l2110",
+      "date": "21/10/2026",
+      "shortDate": "21/10",
+      "title": "Phân biệt 老 và 旧, câu so sánh với 比 và số áng chừng",
+      "focus": "老 VS 旧 / A+比+B+adj / A+没有+B+adj / A+比+B+V得+adj / hai số liền nhau + lượng từ",
+      "pages": "trang 1-9",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在教室 — trong lớp học",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_160801_brawddfv/data/sound18.mp3",
+          "note": "Bài nghe duy nhất của buổi (PDF trang 8-9). PDF có ba dạng bài cho đoạn này: sắp xếp thứ tự lời thoại (đáp án đỏ 5 6 3 1 4 2), đúng/sai, và điền vào chỗ trống. Phần đúng/sai PDF để trống, đáp án dưới đây suy ra từ lời thoại trang 9.",
+          "dialogueLines": [
+            "朋友：大山，你和马可谁个子高？",
+            "大山：马可比我高，我比马可矮一点儿。",
+            "朋友：那你们谁大？",
+            "大山：我比马可大两岁。",
+            "朋友：你们谁的汉语说得更好？",
+            "大山：马可比我说得好一些，我的汉语没有他好。"
+          ],
+          "trueFalse": [
+            [
+              "马可比大山高。",
+              true,
+              "大山 nói \"马可比我高，我比马可矮一点儿\"."
+            ],
+            [
+              "马可比大山年纪大。",
+              false,
+              "大山 nói \"我比马可大两岁\", tức Đại Sơn lớn hơn Mã Khả hai tuổi."
+            ],
+            [
+              "马可的汉语说得比大山好。",
+              true,
+              "大山 nói \"马可比我说得好一些，我的汉语没有他好\"."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "老 VS 旧 đều dịch là “cũ/già” nhưng khác đối tượng: 老 dùng cho sinh vật (người, cây cối) và nhấn mạnh tuổi tác (他是95岁的老人了。／这棵老树有100多年了。); 旧 dùng cho đồ vật không sống và nhấn mạnh món đồ đã dùng lâu, không dùng lại được (这裙子买了20年了，太旧了。).",
+        "Câu so sánh cơ bản: A + 比 + B + tính từ. Trong câu có 比 không được đặt 很、非常、太 trước tính từ; muốn nói chênh lệch bao nhiêu thì thêm 一点儿、一些、不少、很多、多了、得多 hoặc một cụm số lượng vào sau tính từ: 王方比我大两岁。",
+        "Phủ định của câu so sánh là A + 没有 + B（+ 这么／那么）+ tính từ, không dùng 不比 ở trình độ này. 没有 rút gọn thành 没 cũng được: 我没王方大。／他没有我这么高。",
+        "Khi so sánh mức độ thực hiện một hành động, có hai cách viết đổi chỗ được cho nhau: A + 比 + B + V 得 + tính từ (这首歌他比我唱得好不少。) và A + V 得 + 比 + B + tính từ (这首歌他唱得比我好不少。). Dạng phủ định cũng có hai cách: 我没姐姐跑得快。／我跑得没姐姐快。",
+        "Nếu điều đem so là số lượng hoặc thời điểm của hành động thì dùng A + 比 + B + 多／少／早／晚 + V（+ cụm số lượng）: 今天她比我早起一个小时。",
+        "Số áng chừng: ghép hai số tự nhiên liền nhau rồi thêm lượng từ và danh từ — 一两个小时、五六杯咖啡. Rơi vào dạng 十几 hoặc 几十 thì chỉ viết chữ 十 một lần: 十一二个 (không nói 十一十二个), 二三十个 (không nói 二十三十个). Hai số liền nhau cũng không được bắc cầu qua hàng chục, nên không dùng 九十个 theo nghĩa “chín hoặc mười”."
+      ],
+      "vocab": [
+        [
+          "地方",
+          "dìfang",
+          "nơi, chỗ"
+        ],
+        [
+          "中介",
+          "zhōngjiè",
+          "môi giới, bên trung gian"
+        ],
+        [
+          "主要",
+          "zhǔyào",
+          "chủ yếu, chính"
+        ],
+        [
+          "环境",
+          "huánjìng",
+          "môi trường, khung cảnh"
+        ],
+        [
+          "自行车",
+          "zìxíngchē",
+          "xe đạp"
+        ],
+        [
+          "骑",
+          "qí",
+          "cưỡi, đi (xe đạp, xe máy)"
+        ],
+        [
+          "个子",
+          "gèzi",
+          "vóc người, chiều cao"
+        ],
+        [
+          "矮",
+          "ǎi",
+          "thấp (người, vật)"
+        ],
+        [
+          "历史",
+          "lìshǐ",
+          "lịch sử"
+        ],
+        [
+          "体育",
+          "tǐyù",
+          "thể dục, thể thao"
+        ],
+        [
+          "数学",
+          "shùxué",
+          "toán học"
+        ],
+        [
+          "方便",
+          "fāngbiàn",
+          "tiện lợi, thuận tiện"
+        ],
+        [
+          "旧",
+          "jiù",
+          "cũ, đã dùng lâu"
+        ],
+        [
+          "换",
+          "huàn",
+          "đổi, thay"
+        ],
+        [
+          "附近",
+          "fùjìn",
+          "gần đây, lân cận"
+        ]
+      ],
+      "patterns": [
+        [
+          "1.1 老 + danh từ",
+          "Già, lâu năm; dùng cho sinh vật và nhấn mạnh tuổi tác."
+        ],
+        [
+          "1.2 旧 + danh từ",
+          "Cũ, đã dùng lâu; dùng cho đồ vật không sống."
+        ],
+        [
+          "2.1 A + 比 + B + tính từ",
+          "A … hơn B, dạng khẳng định cơ bản."
+        ],
+        [
+          "2.2 A + 比 + B + tính từ + 一点儿／一些／…",
+          "Nói rõ A hơn B nhiều hay ít."
+        ],
+        [
+          "2.3 A + 没有 + B（+ 这么／那么）+ tính từ",
+          "A không … bằng B, dạng phủ định."
+        ],
+        [
+          "2.4 A + 比 + B + V 得 + tính từ",
+          "A làm … hơn B, 比 B đứng trước cụm V 得."
+        ],
+        [
+          "2.5 A + V 得 + 比 + B + tính từ",
+          "A làm … hơn B, cụm V 得 đứng trước 比 B."
+        ],
+        [
+          "2.6 A + 比 + B + 多／少／早／晚 + V",
+          "A làm nhiều hơn／ít hơn／sớm hơn／muộn hơn B."
+        ],
+        [
+          "2.7 A + 没 + B + V 得 + tính từ",
+          "A làm không … bằng B, 没 B đứng trước cụm V 得."
+        ],
+        [
+          "2.8 A + V 得 + 没 + B + tính từ",
+          "A làm không … bằng B, cụm V 得 đứng trước 没 B."
+        ],
+        [
+          "3.1 Hai số liền nhau + lượng từ + danh từ",
+          "Chỉ số lượng áng chừng: khoảng … hoặc …"
+        ],
+        [
+          "3.2 十几 ／ 几十: chỉ viết chữ 十 một lần",
+          "Mười mấy …, mấy chục …; không bắc cầu qua hàng chục."
+        ]
+      ],
+      "examples": [
+        [
+          "他是95岁的老人了。",
+          "Ông ấy là cụ già 95 tuổi rồi."
+        ],
+        [
+          "这棵老树有100多年了。",
+          "Cây cổ thụ này hơn 100 năm tuổi rồi."
+        ],
+        [
+          "门口的那棵老树有三百多年的历史。",
+          "Cây cổ thụ ở cổng có lịch sử hơn ba trăm năm."
+        ],
+        [
+          "这裙子买了20年了，太旧了。",
+          "Chiếc váy này mua hai mươi năm rồi, cũ quá."
+        ],
+        [
+          "这把椅子是我三年前买的，现在已经旧了，我打算换一把新的。",
+          "Chiếc ghế này tôi mua ba năm trước, giờ cũ rồi, tôi định đổi một chiếc mới."
+        ],
+        [
+          "旧书比新书便宜很多。",
+          "Sách cũ rẻ hơn sách mới rất nhiều."
+        ],
+        [
+          "王方比我大。",
+          "Vương Phương lớn tuổi hơn tôi."
+        ],
+        [
+          "马可比我高。",
+          "Mã Khả cao hơn tôi."
+        ],
+        [
+          "数学比体育难。",
+          "Môn toán khó hơn môn thể dục."
+        ],
+        [
+          "王方比我大两岁。",
+          "Vương Phương hơn tôi hai tuổi."
+        ],
+        [
+          "我比马可矮一点儿。",
+          "Tôi thấp hơn Mã Khả một chút."
+        ],
+        [
+          "电脑比手机贵一千六百块。",
+          "Máy tính đắt hơn điện thoại một nghìn sáu trăm tệ."
+        ],
+        [
+          "我没王方大。",
+          "Tôi không lớn tuổi bằng Vương Phương."
+        ],
+        [
+          "他没有我这么高。",
+          "Cậu ấy không cao bằng tôi."
+        ],
+        [
+          "学校里边的房子没有学校外边的那么安静。",
+          "Nhà bên trong trường không yên tĩnh bằng nhà bên ngoài trường."
+        ],
+        [
+          "这首歌他比我唱得好不少。",
+          "Bài hát này cậu ấy hát hay hơn tôi khá nhiều."
+        ],
+        [
+          "马可比我说得好一些。",
+          "Mã Khả nói hay hơn tôi một chút."
+        ],
+        [
+          "王老师比张老师讲得明白。",
+          "Cô Vương giảng dễ hiểu hơn thầy Trương."
+        ],
+        [
+          "这首歌他唱得比我好不少。",
+          "Bài hát này cậu ấy hát hay hơn tôi khá nhiều."
+        ],
+        [
+          "马可说得比我好一些。",
+          "Mã Khả nói hay hơn tôi một chút."
+        ],
+        [
+          "王老师讲得比张老师明白。",
+          "Cô Vương giảng dễ hiểu hơn thầy Trương."
+        ],
+        [
+          "今天她比我早起一个小时。",
+          "Hôm nay cô ấy dậy sớm hơn tôi một tiếng."
+        ],
+        [
+          "我比他晚来十分钟。",
+          "Tôi đến muộn hơn cậu ấy mười phút."
+        ],
+        [
+          "哥哥比我多买了两本书。",
+          "Anh trai mua nhiều hơn tôi hai quyển sách."
+        ],
+        [
+          "我没姐姐跑得快。",
+          "Tôi chạy không nhanh bằng chị gái."
+        ],
+        [
+          "大山没马可说得好。",
+          "Đại Sơn nói không hay bằng Mã Khả."
+        ],
+        [
+          "张老师没王老师讲得明白。",
+          "Thầy Trương giảng không dễ hiểu bằng cô Vương."
+        ],
+        [
+          "我跑得没姐姐快。",
+          "Tôi chạy không nhanh bằng chị gái."
+        ],
+        [
+          "大山说得没马可好。",
+          "Đại Sơn nói không hay bằng Mã Khả."
+        ],
+        [
+          "张老师讲得没王老师明白。",
+          "Thầy Trương giảng không dễ hiểu bằng cô Vương."
+        ],
+        [
+          "我每天学习一两个小时的汉语。",
+          "Mỗi ngày tôi học tiếng Trung khoảng một đến hai tiếng."
+        ],
+        [
+          "你都喝了五六杯咖啡了，别再喝了。",
+          "Bạn uống năm sáu cốc cà phê rồi, đừng uống nữa."
+        ],
+        [
+          "我家附近有三四个很方便的地方。",
+          "Gần nhà tôi có ba bốn chỗ rất tiện."
+        ],
+        [
+          "教室里有十一二个学生。",
+          "Trong lớp có mười một, mười hai học sinh."
+        ],
+        [
+          "这本书我看了十八九遍了。",
+          "Quyển sách này tôi đọc mười tám, mười chín lần rồi."
+        ],
+        [
+          "这个班有二三十个人。",
+          "Lớp này có hai, ba chục người."
+        ]
+      ],
+      "drills": [
+        [
+          "Nói cụ già 95 tuổi (dùng 老).",
+          "他是95岁的老人了。"
+        ],
+        [
+          "Nói chiếc váy mua hai mươi năm rồi, cũ quá.",
+          "这裙子买了20年了，太旧了。"
+        ],
+        [
+          "Nói Vương Phương hơn bạn hai tuổi.",
+          "王方比我大两岁。"
+        ],
+        [
+          "Nói bạn thấp hơn Mã Khả một chút.",
+          "我比马可矮一点儿。"
+        ],
+        [
+          "Nói cậu ấy không cao bằng bạn (dùng 没有……这么).",
+          "他没有我这么高。"
+        ],
+        [
+          "Nói bài hát này cậu ấy hát hay hơn bạn khá nhiều, đặt 比 trước cụm V 得.",
+          "这首歌他比我唱得好不少。"
+        ],
+        [
+          "Nói lại câu trên theo cách đặt cụm V 得 trước 比.",
+          "这首歌他唱得比我好不少。"
+        ],
+        [
+          "Nói hôm nay cô ấy dậy sớm hơn bạn một tiếng.",
+          "今天她比我早起一个小时。"
+        ],
+        [
+          "Nói bạn chạy không nhanh bằng chị gái, đặt 没 trước cụm V 得.",
+          "我没姐姐跑得快。"
+        ],
+        [
+          "Nói mỗi ngày bạn học tiếng Trung khoảng một đến hai tiếng.",
+          "我每天学习一两个小时的汉语。"
+        ],
+        [
+          "Nói trong lớp có mười một, mười hai học sinh.",
+          "教室里有十一二个学生。"
+        ]
+      ],
+      "quiz": [
+        [
+          "Chọn từ đúng: 门口的那棵____树有三百多年的历史。",
+          [
+            "老",
+            "旧",
+            "新",
+            "大"
+          ],
+          0,
+          "Cây cối là sinh vật và câu nhấn mạnh tuổi, nên dùng 老 (PDF trang 3, câu 3)."
+        ],
+        [
+          "Chọn từ đúng: 这把椅子是我三年前买的，现在已经____了。",
+          [
+            "旧",
+            "老",
+            "矮",
+            "方便"
+          ],
+          0,
+          "Chiếc ghế là đồ vật không sống đã dùng lâu, nên dùng 旧 (PDF trang 3, câu 2)."
+        ],
+        [
+          "Câu nào đúng với công thức câu so sánh?",
+          [
+            "王方比我大两岁。",
+            "王方比我很大。",
+            "王方比我太大。",
+            "王方比我非常大。"
+          ],
+          0,
+          "Trong câu có 比 không được đặt 很、非常、太 trước tính từ; chênh lệch nói bằng cụm số lượng hoặc 一点儿、很多……"
+        ],
+        [
+          "Phủ định của 他比我高。 ở trình độ này là câu nào?",
+          [
+            "他没有我这么高。",
+            "他不比我高。",
+            "他没高我。",
+            "他比我不高。"
+          ],
+          0,
+          "Dạng phủ định là A + 没有 + B（+ 这么／那么）+ tính từ (PDF trang 4)."
+        ],
+        [
+          "Câu 我跑得没姐姐快。 cùng nghĩa với câu nào?",
+          [
+            "我没姐姐跑得快。",
+            "姐姐没我跑得快。",
+            "我比姐姐跑得快。",
+            "姐姐跑得没我快。"
+          ],
+          0,
+          "Hai cách viết A + 没 + B + V 得 + tính từ và A + V 得 + 没 + B + tính từ đổi chỗ được cho nhau."
+        ],
+        [
+          "Cách viết số áng chừng nào đúng?",
+          [
+            "十一二个",
+            "十一十二个",
+            "九十个 (nghĩa “chín hoặc mười”)",
+            "二十三十个"
+          ],
+          0,
+          "Dạng 十几 chỉ viết chữ 十 một lần, và hai số liền nhau không bắc cầu qua hàng chục (PDF trang 7)."
+        ]
+      ],
+      "practice": {
+        "cloze": [
+          {
+            "title": "练一练 · Điền “老” hay “旧”",
+            "description": "Bài luyện dưới mục ngữ pháp 1. 老 VS 旧 (PDF trang 3). Đáp án gốc đánh dấu đỏ trong PDF.",
+            "items": [
+              [
+                "你今年18岁，还很年轻。我80岁了，已经____了。",
+                [
+                  "老"
+                ],
+                "Nói về người và nhấn mạnh tuổi tác nên dùng 老."
+              ],
+              [
+                "这把椅子是我三年前买的，现在已经____了，我打算换一把新的。",
+                [
+                  "旧"
+                ],
+                "Chiếc ghế là đồ vật đã dùng lâu nên dùng 旧."
+              ],
+              [
+                "门口的那棵____树有三百多年的历史。",
+                [
+                  "老"
+                ],
+                "Cây cối là sinh vật, câu nói về tuổi của cây nên dùng 老."
+              ],
+              [
+                "这张____地图是五年前爸爸画的，我们现在出去旅游还在用它。",
+                [
+                  "旧"
+                ],
+                "Tấm bản đồ là đồ vật dùng đã lâu nên dùng 旧."
+              ],
+              [
+                "____书比新书便宜很多。",
+                [
+                  "旧"
+                ],
+                "Đối lại với 新书 là 旧书, nói sách đã dùng rồi."
+              ]
+            ]
+          },
+          {
+            "title": "课文1 · Điền vào chỗ trống theo bài nghe",
+            "description": "Bài “Fill in the blanks based on the texts” của 课文1 (PDF trang 9). Năm chỗ trống, đáp án gốc đánh dấu đỏ trong PDF.",
+            "items": [
+              [
+                "虽然大山____两岁，但是他____马可高，他比马可____。大山的汉语没有____，马可比大山____。",
+                [
+                  [
+                    "比马可大"
+                  ],
+                  [
+                    "没有",
+                    "没"
+                  ],
+                  [
+                    "矮一点儿"
+                  ],
+                  [
+                    "马可好"
+                  ],
+                  [
+                    "说得好一些"
+                  ]
+                ],
+                "Năm chỗ trống lấy nguyên văn từ lời thoại 课文1, đáp án đỏ trong PDF trang 9."
+              ]
+            ]
+          },
+          {
+            "title": "Luyện thêm · Hoàn thành câu so sánh",
+            "description": "Bài luyện thêm do ứng dụng soạn từ chính các câu mẫu của buổi, PDF trang 4 và trang 7 chỉ cho công thức.",
+            "items": [
+              [
+                "今天她____我早起一个小时。",
+                [
+                  "比"
+                ],
+                "Điều đem so là thời điểm của hành động, dùng A + 比 + B + 早 + V."
+              ],
+              [
+                "学校里边的房子____学校外边的那么安静。",
+                [
+                  "没有",
+                  "没"
+                ],
+                "Dạng phủ định dùng 没有 kèm 那么."
+              ],
+              [
+                "我每天学习____个小时的汉语。",
+                [
+                  "一两",
+                  "两三"
+                ],
+                "Hai số liền nhau ghép lại để chỉ số lượng áng chừng."
+              ],
+              [
+                "这个班有____个人。",
+                [
+                  "二三十",
+                  "三四十",
+                  "十几"
+                ],
+                "Dạng 几十 chỉ viết chữ 十 một lần."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "Luyện thêm · Sắp xếp từ thành câu so sánh",
+            "description": "PDF ngày 21/10 không có bài sắp xếp từ; các câu dưới đây lấy từ chính phần ngữ pháp trang 4 và trang 7 để luyện trật tự của câu có 比.",
+            "items": [
+              [
+                [
+                  "比",
+                  "王方",
+                  "我",
+                  "大",
+                  "两岁"
+                ],
+                "王方比我大两岁。"
+              ],
+              [
+                [
+                  "这首歌",
+                  "他",
+                  "比",
+                  "我",
+                  "唱得",
+                  "好不少"
+                ],
+                "这首歌他比我唱得好不少。"
+              ],
+              [
+                [
+                  "我",
+                  "跑得",
+                  "没",
+                  "姐姐",
+                  "快"
+                ],
+                "我跑得没姐姐快。"
+              ],
+              [
+                [
+                  "今天",
+                  "她",
+                  "比",
+                  "我",
+                  "早",
+                  "起",
+                  "一个小时"
+                ],
+                "今天她比我早起一个小时。"
+              ]
+            ]
+          },
+          [
+            [
+              "旧书",
+              "比",
+              "新书",
+              "便宜",
+              "很多"
+            ],
+            "旧书比新书便宜很多。"
+          ],
+          [
+            [
+              "我",
+              "每天",
+              "学习",
+              "一两个小时",
+              "的",
+              "汉语"
+            ],
+            "我每天学习一两个小时的汉语。"
+          ]
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "大山上个星期找中介换了一个新房子，这个地方就在学校附近，主要是因为环境很安静。新房子比旧的房子大一点儿，也方便很多。以前他每天骑一两个小时的自行车去学校，现在骑十几分钟就到了。马可的个子比他高，他比马可矮一点儿，不过他比马可大两岁。",
+          [
+            [
+              "大山为什么选这个地方？",
+              [
+                "主要因为环境很安静",
+                "因为房子最便宜",
+                "因为离公司很近",
+                "因为有新自行车"
+              ],
+              0,
+              "Đoạn văn nói \"主要是因为环境很安静\"。"
+            ],
+            [
+              "现在大山骑自行车去学校要多长时间？",
+              [
+                "十几分钟",
+                "一两个小时",
+                "三四个小时",
+                "五六天"
+              ],
+              0,
+              "Đoạn văn nói \"现在骑十几分钟就到了\"。"
+            ],
+            [
+              "大山和马可谁的个子高？",
+              [
+                "马可比大山高",
+                "大山比马可高",
+                "两个人一样高",
+                "没有说"
+              ],
+              0,
+              "Đoạn văn nói \"马可的个子比他高，他比马可矮一点儿\"。"
+            ]
+          ]
+        ]
+      }
     }
   ],
   "finalQuestions": [

@@ -427,6 +427,23 @@ Quy ước:
 | l1910-s7 | 4.1 A + 跟/和 + B + 一样（+ tính từ） | A giống B, A … bằng B | Dạng khẳng định：跟 và 和 thay nhau được；一样 đứng ngay sau B；thêm tính từ sau 一样 để nói hai bên ngang nhau về mặt đó. | 姐姐的衣服跟妹妹的衣服一样。；我跟妈妈一样高。；她的汉语说得跟中国人一样好。 | Áo của chị giống áo của em gái.；Tôi cao bằng mẹ.；Tiếng Hán của cô ấy nói hay như người Trung Quốc. | ｜Công thức｜Ví dụ trong sách；Khẳng định｜A + 跟/和 + B + 一样（+ tính từ）｜姐姐的衣服跟妹妹的衣服一样。／我跟妈妈一样高。；Phủ định｜A + 跟/和 + B + 不一样｜这件衬衫跟那件衬衫不一样。／我长得跟妈妈不一样。 |
 | l1910-s8 | 4.2 A + 跟/和 + B + 不一样 | A khác B | Dạng phủ định：đặt 不 ngay trước 一样, không dùng 没；dạng phủ định thường không mang thêm tính từ phía sau. | 这件衬衫跟那件衬衫不一样。；我长得跟妈妈不一样。；今天的生词跟昨天的生词不一样。 | Chiếc sơ mi này khác chiếc sơ mi kia.；Tôi trông không giống mẹ.；Từ mới hôm nay khác từ mới hôm qua. | — |
 
+## l2110 · 21/10/2026 · 老 và 旧, câu so sánh với 比 và số áng chừng
+
+| Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa | Bảng |
+| --- | --- | --- | --- | --- | --- | --- |
+| l2110-s1 | 1.1 老 + danh từ | Già, lâu năm | 老 chủ yếu dùng cho sinh vật — người, cây cối — và nhấn mạnh TUỔI TÁC；cũng dùng cho quan hệ lâu năm: 老朋友、老同学；không dùng 老 để nói một đồ vật đã cũ. | 他是95岁的老人了。；这棵老树有100多年了。；门口的那棵老树有三百多年的历史。 | Ông ấy là cụ già 95 tuổi rồi.；Cây cổ thụ này hơn 100 năm tuổi rồi.；Cây cổ thụ ở cổng có lịch sử hơn ba trăm năm. | ｜老｜旧；Nghĩa｜già, lâu năm｜cũ, đã dùng lâu；Dùng cho｜sinh vật: người, cây cối｜đồ vật không sống；Nhấn mạnh｜tuổi tác｜đã dùng lâu, không dùng lại được；Ví dụ trong sách｜他是95岁的老人了。／这棵老树有100多年了。｜这裙子买了20年了，太旧了。 |
+| l2110-s2 | 1.2 旧 + danh từ | Cũ, đã dùng lâu | 旧 chủ yếu dùng cho đồ vật không sống；nhấn mạnh rằng món đồ đã dùng lâu, đã sờn, không dùng lại tốt được nữa；trái nghĩa với 新. | 这裙子买了20年了，太旧了。；这把椅子是我三年前买的，现在已经旧了，我打算换一把新的。；旧书比新书便宜很多。 | Chiếc váy này mua hai mươi năm rồi, cũ quá.；Chiếc ghế này tôi mua ba năm trước, giờ cũ rồi, tôi định đổi một chiếc mới.；Sách cũ rẻ hơn sách mới rất nhiều. | — |
+| l2110-s3 | 2.1 A + 比 + B + tính từ | A … hơn B | Dạng khẳng định cơ bản của câu so sánh；không được đặt 很、非常、太 trước tính từ trong câu có 比. | 王方比我大。；马可比我高。；数学比体育难。 | Vương Phương lớn tuổi hơn tôi.；Mã Khả cao hơn tôi.；Môn toán khó hơn môn thể dục. | — |
+| l2110-s4 | 2.2 A + 比 + B + tính từ + 一点儿／一些／不少／很多／多了／得多／số lượng | A … hơn B bao nhiêu | Phần đứng sau tính từ cho biết chênh lệch nhiều hay ít；chênh lệch cụ thể thì dùng cụm số lượng (两岁、一千六百块), chênh lệch áng chừng thì dùng 一点儿、一些、不少、很多、多了、得多. | 王方比我大两岁。；我比马可矮一点儿。；电脑比手机贵一千六百块。 | Vương Phương hơn tôi hai tuổi.；Tôi thấp hơn Mã Khả một chút.；Máy tính đắt hơn điện thoại một nghìn sáu trăm tệ. | — |
+| l2110-s5 | 2.3 A + 没有 + B（+ 这么／那么）+ tính từ | A không … bằng B | Dạng phủ định của câu so sánh；tính từ ở đây thường mang nghĩa tích cực: 漂亮、好吃、高、聪明……；có thể thêm 这么 hoặc 那么 trước tính từ để chỉ mức độ, 那么 hay gặp hơn；没有 rút gọn thành 没 cũng được. | 我没王方大。；他没有我这么高。；学校里边的房子没有学校外边的那么安静。 | Tôi không lớn tuổi bằng Vương Phương.；Cậu ấy không cao bằng tôi.；Nhà bên trong trường không yên tĩnh bằng nhà bên ngoài trường. | — |
+| l2110-s6 | 2.4 A + 比 + B + V + 得 + tính từ（+ 一点儿／一些／不少……） | A làm … hơn B | Dạng có động từ, cách viết thứ nhất: 比 B đứng trước cụm V 得；dùng khi so sánh mức độ thực hiện một hành động. | 这首歌他比我唱得好不少。；马可比我说得好一些。；王老师比张老师讲得明白。 | Bài hát này cậu ấy hát hay hơn tôi khá nhiều.；Mã Khả nói hay hơn tôi một chút.；Cô Vương giảng dễ hiểu hơn thầy Trương. | — |
+| l2110-s7 | 2.5 A + V + 得 + 比 + B + tính từ（+ 一点儿／一些／不少……） | A làm … hơn B (đảo vị trí) | Cách viết thứ hai của cùng ý nghĩa: cụm V 得 đứng trước, 比 B đứng sau；hai cách viết thay nhau được, chọn cách nào là tuỳ nhịp câu. | 这首歌他唱得比我好不少。；马可说得比我好一些。；王老师讲得比张老师明白。 | Bài hát này cậu ấy hát hay hơn tôi khá nhiều.；Mã Khả nói hay hơn tôi một chút.；Cô Vương giảng dễ hiểu hơn thầy Trương. | — |
+| l2110-s8 | 2.6 A + 比 + B + 多／少／早／晚 + V（+ cụm số lượng） | A làm sớm hơn／muộn hơn／nhiều hơn B | Dùng khi điều đem so không phải tính chất mà là số lượng hoặc thời điểm của hành động；多／少／早／晚 đứng ngay trước động từ, cụm số lượng đứng sau động từ. | 今天她比我早起一个小时。；我比他晚来十分钟。；哥哥比我多买了两本书。 | Hôm nay cô ấy dậy sớm hơn tôi một tiếng.；Tôi đến muộn hơn cậu ấy mười phút.；Anh trai mua nhiều hơn tôi hai quyển sách. | — |
+| l2110-s9 | 2.7 A + 没 + B + V + 得 + tính từ | A làm không … bằng B | Dạng phủ định của câu so sánh có động từ, cách viết thứ nhất: 没 B đứng trước cụm V 得. | 我没姐姐跑得快。；大山没马可说得好。；张老师没王老师讲得明白。 | Tôi chạy không nhanh bằng chị gái.；Đại Sơn nói không hay bằng Mã Khả.；Thầy Trương giảng không dễ hiểu bằng cô Vương. | — |
+| l2110-s10 | 2.8 A + V + 得 + 没 + B + tính từ | A làm không … bằng B (đảo vị trí) | Cách viết thứ hai của dạng phủ định: cụm V 得 đứng trước, 没 B đứng sau；nghĩa giống hệt cách viết thứ nhất. | 我跑得没姐姐快。；大山说得没马可好。；张老师讲得没王老师明白。 | Tôi chạy không nhanh bằng chị gái.；Đại Sơn nói không hay bằng Mã Khả.；Thầy Trương giảng không dễ hiểu bằng cô Vương. | — |
+| l2110-s11 | 3.1 Hai số liền nhau + lượng từ + danh từ | Khoảng … hoặc … | Ghép hai số tự nhiên liền nhau để chỉ số lượng áng chừng: 一二、三四、五六……；nghĩa là “số này hoặc số kia”, ví dụ 一两个小时 nghĩa là 一个小时或者两个小时. | 我每天学习一两个小时的汉语。；你都喝了五六杯咖啡了，别再喝了。；我家附近有三四个很方便的地方。 | Mỗi ngày tôi học tiếng Trung khoảng một đến hai tiếng.；Bạn uống năm sáu cốc cà phê rồi, đừng uống nữa.；Gần nhà tôi có ba bốn chỗ rất tiện. | — |
+| l2110-s12 | 3.2 十几 ／ 几十: không viết chữ 十 hai lần | Mười mấy …, mấy chục … | Khi hai số liền nhau rơi vào dạng 十几 hoặc 几十 thì chỉ viết chữ 十 một lần: nói 十一二个 chứ không nói 十一十二个, nói 二三十个 chứ không nói 二十三十个；Hai số liền nhau không được bắc cầu qua hàng chục: không dùng 九十个 theo nghĩa “chín hoặc mười”, cũng không dùng 十九二十个. | 教室里有十一二个学生。；这本书我看了十八九遍了。；这个班有二三十个人。 | Trong lớp có mười một, mười hai học sinh.；Quyển sách này tôi đọc mười tám, mười chín lần rồi.；Lớp này có hai, ba chục người. | Cách viết sai｜Cách viết đúng；十一十二个｜十一二个；十八十九个｜十八九个；二十三十个｜二三十个；四十五十个｜四五十个 |
+
 
 # Kế hoạch bài đọc và đặt câu mở rộng
 
@@ -1955,3 +1972,42 @@ Quy chuẩn cho mọi ngày:
 | l1910-w3 | trấn an người đang lo đề thi | A + 跟/和 + B + 一样 | 放心；一样 | Dùng đủ hai từ để bảo người khác yên tâm vì đề thi lần này giống đề lần trước. | 你放心，这次的考试跟上次的一样。 |
 | l1910-w4 | nói bạn khá hiểu đồng nghiệp | 比较 + động từ tâm lý | 比较；了解 | Dùng đủ hai từ để nói bạn khá hiểu người đồng nghiệp đã làm cùng ba năm. | 我跟他一起工作了三年，比较了解他。 |
 | l1910-w5 | việc lo lắng làm ảnh hưởng đến học hành | （S1+）越 V，S2 + 越 tính từ / động từ tâm lý | 担心；影响 | Dùng đủ hai từ để nói bạn càng lo cho sức khoẻ của bà thì việc học càng bị ảnh hưởng. | 我越担心奶奶的身体，学习越受影响。 |
+
+### l2110 · 21/10/2026
+
+#### Đoạn văn
+
+> 我上个星期找中介换了一个新房子。这个地方在学校附近，主要是因为环境很安静。新房子比旧的房子大一点儿，也比旧的房子方便很多。以前我每天要骑一两个小时的自行车去学校，现在骑十几分钟就到了。我的同学大山也住在这个地方，他的个子比我高，我比他矮一点儿，不过我比他大两岁。我们都喜欢历史和体育，可是我觉得数学比历史难得多。大山的自行车很旧了，他说这个星期就去换一辆新的。
+
+#### Hội thoại
+
+> 马可：你住的地方在哪儿？
+> 大山：就在学校附近，是中介帮我找的。
+> 马可：新房子怎么样？
+> 大山：新房子比我以前的房子大一些，环境也安静很多。
+> 马可：你每天怎么去学校？
+> 大山：我骑自行车，十几分钟就到了，很方便。
+> 马可：你的自行车是新的吗？
+> 大山：不是，太旧了，这个星期我就去换一辆。
+> 马可：你最喜欢哪门课？
+> 大山：我主要喜欢历史和体育，数学比历史难得多。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l2110-r1 | 新房子在什么地方？ | 学校附近；火车站附近；医院里边；公司楼上 | 学校附近 | Đoạn văn nói "这个地方在学校附近"。 |
+| l2110-r2 | 他为什么选这个地方？ | 主要因为环境安静；因为房子最便宜；因为离家近；因为有电脑 | 主要因为环境安静 | Đoạn văn nói "主要是因为环境很安静"。 |
+| l2110-r3 | 现在他骑自行车去学校要多长时间？ | 十几分钟；一两个小时；五六个小时；三四天 | 十几分钟 | Đoạn văn nói "现在骑十几分钟就到了"。 |
+| l2110-r4 | 他和大山谁的个子高？ | 大山比他高；他比大山高；两个人一样高；没有说 | 大山比他高 | Đoạn văn nói "他的个子比我高，我比他矮一点儿"。 |
+| l2110-r5 | 大山这个星期要做什么？ | 换一辆新自行车；换一个新房子；去买数学书；去找中介 | 换一辆新自行车 | Trong hội thoại 大山 nói "太旧了，这个星期我就去换一辆"。 |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l2110-w1 | so sánh chiều cao hai người | A + 比 + B + tính từ + 一点儿／一些 | 比；矮 | Dùng đủ hai từ để nói em trai bạn thấp hơn bạn một chút. | 我弟弟比我矮一点儿。 |
+| l2110-w2 | nói nhà cũ không yên tĩnh bằng nhà mới | A + 没有 + B（+ 这么／那么）+ tính từ | 没有；环境 | Dùng đủ hai từ để nói môi trường chỗ cũ không yên tĩnh bằng chỗ mới. | 以前那个地方的环境没有现在这么安静。 |
+| l2110-w3 | so sánh thời gian đi học của hai người | A + 比 + B + 早／晚 + V | 比；骑 | Dùng đủ hai từ để nói bạn đi xe đạp đến trường sớm hơn bạn cùng lớp nửa tiếng. | 我比同学早骑车去学校半个小时。 |
+| l2110-w4 | nói chiếc xe đạp đã quá cũ | 旧 + danh từ | 旧；换 | Dùng đủ hai từ để nói xe đạp của bạn quá cũ nên muốn đổi một chiếc mới. | 我的自行车太旧了，我想换一辆新的。 |
+| l2110-w5 | nói số lượng áng chừng | Hai số liền nhau + lượng từ + danh từ | 附近；方便 | Dùng đủ hai từ để nói gần nhà bạn có ba bốn chỗ mua đồ rất tiện. | 我家附近有三四个买东西很方便的地方。 |

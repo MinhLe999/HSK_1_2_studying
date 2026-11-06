@@ -1418,5 +1418,151 @@ window.HSK_PRODUCTION = {
       "required": "放心",
       "sample": "你放心，越练习越好，这次你一定没问题。"
     }
+  ],
+  "l2110": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "kể việc nhờ bên môi giới tìm nhà",
+      "structure": "中介",
+      "prompt": "Dùng 中介 để kể bạn nhờ bên môi giới tìm giúp một căn nhà.",
+      "required": "中介",
+      "sample": "我是上个星期找中介换的房子。"
+    },
+    {
+      "kind": "sentence-vocab",
+      "topic": "miêu tả khung cảnh chỗ ở",
+      "structure": "环境",
+      "prompt": "Dùng 环境 để nói khung cảnh chỗ bạn ở rất yên tĩnh.",
+      "required": "环境",
+      "sample": "我住的地方环境很安静。"
+    },
+    {
+      "kind": "sentence-vocab",
+      "topic": "đi xe đạp đến trường",
+      "structure": "骑 + 自行车",
+      "prompt": "Dùng 骑 và 自行车 để nói mỗi ngày bạn đi xe đạp đến trường.",
+      "required": "骑、自行车",
+      "sample": "我每天骑自行车去学校。"
+    },
+    {
+      "kind": "sentence-vocab",
+      "topic": "nói về vóc người của bạn mình",
+      "structure": "个子",
+      "prompt": "Dùng 个子 để nói vóc người của bạn mình cao hơn bạn.",
+      "required": "个子",
+      "sample": "我朋友的个子比我高。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh giá máy tính và điện thoại (贵)",
+      "structure": "A + 比 + B + tính từ + cụm số lượng",
+      "prompt": "Bài 练一练 trang 5 của PDF cho hai bức ảnh: một chiếc máy tính giá 6400 tệ và một chiếc điện thoại giá 4800 tệ, kèm yêu cầu dùng 贵. Hãy đặt câu so sánh và nói rõ chênh nhau bao nhiêu tiền.",
+      "required": "比、贵",
+      "sample": "电脑比手机贵一千六百块。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh giá điện thoại và máy tính (便宜)",
+      "structure": "A + 比 + B + tính từ + cụm số lượng",
+      "prompt": "Vẫn hai bức ảnh máy tính 6400 tệ và điện thoại 4800 tệ ở PDF trang 5, lần này yêu cầu dùng 便宜. Hãy đổi vai A và B rồi đặt câu.",
+      "required": "比、便宜",
+      "sample": "手机比电脑便宜一千六百块。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh môn toán và môn thể dục (难)",
+      "structure": "A + 比 + B + tính từ + 得多",
+      "prompt": "Bài 练一练 trang 5 của PDF cho hai bức ảnh: một bạn gái ngồi trước bảng đầy công thức toán và trông rất khó khăn, một nhóm bạn trai đang chơi bóng rổ rất vui, kèm yêu cầu dùng 难. Hãy đặt câu so sánh hai môn học.",
+      "required": "比、难",
+      "sample": "数学比体育难得多。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh môn thể dục và môn toán (容易)",
+      "structure": "A + 比 + B + tính từ + 得多",
+      "prompt": "Vẫn hai bức ảnh bảng công thức toán và các bạn chơi bóng rổ ở PDF trang 5, lần này yêu cầu dùng 容易. Hãy đổi vai A và B rồi đặt câu.",
+      "required": "比、容易",
+      "sample": "体育比数学容易得多。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh công viên và sân bay, dạng khẳng định",
+      "structure": "A + 比 + B + tính từ + 很多",
+      "prompt": "Bài 练一练 trang 6 của PDF cho hai bức ảnh: một công viên vắng và yên tĩnh, một sân bay đông người và ồn ào, yêu cầu viết dạng khẳng định. Hãy đặt câu so sánh độ yên tĩnh.",
+      "required": "比、安静",
+      "sample": "公园比机场安静很多。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh sân bay và công viên, dạng phủ định",
+      "structure": "A + 没有 + B（+ 那么）+ tính từ",
+      "prompt": "Vẫn hai bức ảnh công viên yên tĩnh và sân bay ồn ào ở PDF trang 6, lần này yêu cầu viết dạng phủ định. Hãy dùng 没有 kèm 那么.",
+      "required": "没有、安静",
+      "sample": "机场没有公园那么安静。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh hai thầy cô giảng bài, dạng khẳng định",
+      "structure": "A + 比 + B + V 得 + tính từ",
+      "prompt": "Bài 练一练 trang 6 của PDF cho hai bức ảnh: lớp của 张老师 trả lời “不太明白”, lớp của 王老师 trả lời “明白了”, yêu cầu viết dạng khẳng định. Hãy đặt câu so sánh cách giảng của hai thầy cô.",
+      "required": "比、讲得",
+      "sample": "王老师比张老师讲得明白。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh hai thầy cô giảng bài, dạng phủ định",
+      "structure": "A + V 得 + 没 + B + tính từ",
+      "prompt": "Vẫn hai bức ảnh lớp của 张老师 trả lời “不太明白” và lớp của 王老师 trả lời “明白了” ở PDF trang 6, lần này yêu cầu viết dạng phủ định. Hãy đặt cụm V 得 trước 没.",
+      "required": "没、讲得",
+      "sample": "张老师讲得没王老师明白。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh giờ thức dậy của hai người",
+      "structure": "A + 比 + B + 早 + V + cụm số lượng",
+      "prompt": "Dùng công thức A + 比 + B + 早 + V để nói hôm nay cô ấy dậy sớm hơn bạn một tiếng.",
+      "required": "比、早起",
+      "sample": "今天她比我早起一个小时。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh mức độ nói tiếng Hán, cụm V 得 đứng trước",
+      "structure": "A + V 得 + 比 + B + tính từ",
+      "prompt": "Dùng công thức A + V 得 + 比 + B + tính từ để nói Mã Khả nói tiếng Hán hay hơn bạn một chút.",
+      "required": "说得、比",
+      "sample": "马可说得比我好一些。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "so sánh độ yên tĩnh của nhà trong và ngoài trường",
+      "structure": "A + 没有 + B（+ 那么）+ tính từ",
+      "prompt": "Dùng 没有……那么 để nói nhà bên trong trường không yên tĩnh bằng nhà bên ngoài trường.",
+      "required": "没有、那么",
+      "sample": "学校里边的房子没有学校外边的那么安静。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "nói số lần đã đọc một quyển sách",
+      "structure": "Hai số liền nhau + lượng từ",
+      "prompt": "Dùng dạng 十几 viết đúng cách để nói quyển sách này bạn đã đọc mười tám, mười chín lần rồi.",
+      "required": "十八九",
+      "sample": "这本书我看了十八九遍了。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "đặt câu hỏi cho câu trả lời về chiều cao",
+      "structure": "A + 比 + B + tính từ",
+      "prompt": "Câu trả lời là 马可比我高，我比马可矮一点儿。 Hãy đặt một câu hỏi phù hợp.",
+      "required": "个子",
+      "sample": "你和马可谁的个子高？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "trả lời câu hỏi về thời gian đi xe đạp",
+      "structure": "Hai số liền nhau + lượng từ + danh từ",
+      "prompt": "Có người hỏi 你每天骑自行车去学校要多长时间？ Hãy trả lời bằng một số áng chừng.",
+      "required": "骑",
+      "sample": "我每天骑十几分钟的自行车就到学校了。"
+    }
   ]
 };

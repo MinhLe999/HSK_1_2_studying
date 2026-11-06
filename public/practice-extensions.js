@@ -6106,5 +6106,152 @@ window.HSK_PRACTICE_EXTENSIONS = {
         "sample": "我越担心奶奶的身体，学习越受影响。"
       }
     ]
+  },
+  "l2110": {
+    "date": "21/10/2026",
+    "reading": {
+      "prose": "我上个星期找中介换了一个新房子。这个地方在学校附近，主要是因为环境很安静。新房子比旧的房子大一点儿，也比旧的房子方便很多。以前我每天要骑一两个小时的自行车去学校，现在骑十几分钟就到了。我的同学大山也住在这个地方，他的个子比我高，我比他矮一点儿，不过我比他大两岁。我们都喜欢历史和体育，可是我觉得数学比历史难得多。大山的自行车很旧了，他说这个星期就去换一辆新的。",
+      "dialogue": [
+        "马可：你住的地方在哪儿？",
+        "大山：就在学校附近，是中介帮我找的。",
+        "马可：新房子怎么样？",
+        "大山：新房子比我以前的房子大一些，环境也安静很多。",
+        "马可：你每天怎么去学校？",
+        "大山：我骑自行车，十几分钟就到了，很方便。",
+        "马可：你的自行车是新的吗？",
+        "大山：不是，太旧了，这个星期我就去换一辆。",
+        "马可：你最喜欢哪门课？",
+        "大山：我主要喜欢历史和体育，数学比历史难得多。"
+      ],
+      "questions": [
+        {
+          "id": "l2110-r1",
+          "prompt": "新房子在什么地方？",
+          "options": [
+            "学校附近",
+            "火车站附近",
+            "医院里边",
+            "公司楼上"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"这个地方在学校附近\"。"
+        },
+        {
+          "id": "l2110-r2",
+          "prompt": "他为什么选这个地方？",
+          "options": [
+            "主要因为环境安静",
+            "因为房子最便宜",
+            "因为离家近",
+            "因为有电脑"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"主要是因为环境很安静\"。"
+        },
+        {
+          "id": "l2110-r3",
+          "prompt": "现在他骑自行车去学校要多长时间？",
+          "options": [
+            "十几分钟",
+            "一两个小时",
+            "五六个小时",
+            "三四天"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"现在骑十几分钟就到了\"。"
+        },
+        {
+          "id": "l2110-r4",
+          "prompt": "他和大山谁的个子高？",
+          "options": [
+            "大山比他高",
+            "他比大山高",
+            "两个人一样高",
+            "没有说"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"他的个子比我高，我比他矮一点儿\"。"
+        },
+        {
+          "id": "l2110-r5",
+          "prompt": "大山这个星期要做什么？",
+          "options": [
+            "换一辆新自行车",
+            "换一个新房子",
+            "去买数学书",
+            "去找中介"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại 大山 nói \"太旧了，这个星期我就去换一辆\"。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l2110-w1",
+        "kind": "sentence-given-words",
+        "topic": "so sánh chiều cao hai người",
+        "structure": "A + 比 + B + tính từ + 一点儿／一些",
+        "words": [
+          "比",
+          "矮"
+        ],
+        "required": "比、矮",
+        "prompt": "Dùng đủ hai từ để nói em trai bạn thấp hơn bạn một chút.",
+        "sample": "我弟弟比我矮一点儿。"
+      },
+      {
+        "id": "l2110-w2",
+        "kind": "sentence-given-words",
+        "topic": "nói nhà cũ không yên tĩnh bằng nhà mới",
+        "structure": "A + 没有 + B（+ 这么／那么）+ tính từ",
+        "words": [
+          "没有",
+          "环境"
+        ],
+        "required": "没有、环境",
+        "prompt": "Dùng đủ hai từ để nói môi trường chỗ cũ không yên tĩnh bằng chỗ mới.",
+        "sample": "以前那个地方的环境没有现在这么安静。"
+      },
+      {
+        "id": "l2110-w3",
+        "kind": "sentence-given-words",
+        "topic": "so sánh thời gian đi học của hai người",
+        "structure": "A + 比 + B + 早／晚 + V",
+        "words": [
+          "比",
+          "骑"
+        ],
+        "required": "比、骑",
+        "prompt": "Dùng đủ hai từ để nói bạn đi xe đạp đến trường sớm hơn bạn cùng lớp nửa tiếng.",
+        "sample": "我比同学早骑车去学校半个小时。"
+      },
+      {
+        "id": "l2110-w4",
+        "kind": "sentence-given-words",
+        "topic": "nói chiếc xe đạp đã quá cũ",
+        "structure": "旧 + danh từ",
+        "words": [
+          "旧",
+          "换"
+        ],
+        "required": "旧、换",
+        "prompt": "Dùng đủ hai từ để nói xe đạp của bạn quá cũ nên muốn đổi một chiếc mới.",
+        "sample": "我的自行车太旧了，我想换一辆新的。"
+      },
+      {
+        "id": "l2110-w5",
+        "kind": "sentence-given-words",
+        "topic": "nói số lượng áng chừng",
+        "structure": "Hai số liền nhau + lượng từ + danh từ",
+        "words": [
+          "附近",
+          "方便"
+        ],
+        "required": "附近、方便",
+        "prompt": "Dùng đủ hai từ để nói gần nhà bạn có ba bốn chỗ mua đồ rất tiện.",
+        "sample": "我家附近有三四个买东西很方便的地方。"
+      }
+    ]
   }
 };

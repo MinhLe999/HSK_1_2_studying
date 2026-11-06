@@ -3825,5 +3825,256 @@ window.HSK_STRUCTURES = {
         ]
       }
     ]
+  },
+  "l2110": {
+    "date": "21/10/2026",
+    "topic": "老 và 旧, câu so sánh với 比 và số áng chừng",
+    "items": [
+      {
+        "id": "l2110-s1",
+        "formula": "1.1 老 + danh từ",
+        "sense": "Già, lâu năm",
+        "usage": "老 chủ yếu dùng cho sinh vật — người, cây cối — và nhấn mạnh TUỔI TÁC\ncũng dùng cho quan hệ lâu năm: 老朋友、老同学\nkhông dùng 老 để nói một đồ vật đã cũ.",
+        "examples": [
+          "他是95岁的老人了。",
+          "这棵老树有100多年了。",
+          "门口的那棵老树有三百多年的历史。"
+        ],
+        "meanings": [
+          "Ông ấy là cụ già 95 tuổi rồi.",
+          "Cây cổ thụ này hơn 100 năm tuổi rồi.",
+          "Cây cổ thụ ở cổng có lịch sử hơn ba trăm năm."
+        ],
+        "table": {
+          "columns": [
+            "",
+            "老",
+            "旧"
+          ],
+          "rows": [
+            [
+              "Nghĩa",
+              "già, lâu năm",
+              "cũ, đã dùng lâu"
+            ],
+            [
+              "Dùng cho",
+              "sinh vật: người, cây cối",
+              "đồ vật không sống"
+            ],
+            [
+              "Nhấn mạnh",
+              "tuổi tác",
+              "đã dùng lâu, không dùng lại được"
+            ],
+            [
+              "Ví dụ trong sách",
+              "他是95岁的老人了。／这棵老树有100多年了。",
+              "这裙子买了20年了，太旧了。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l2110-s2",
+        "formula": "1.2 旧 + danh từ",
+        "sense": "Cũ, đã dùng lâu",
+        "usage": "旧 chủ yếu dùng cho đồ vật không sống\nnhấn mạnh rằng món đồ đã dùng lâu, đã sờn, không dùng lại tốt được nữa\ntrái nghĩa với 新.",
+        "examples": [
+          "这裙子买了20年了，太旧了。",
+          "这把椅子是我三年前买的，现在已经旧了，我打算换一把新的。",
+          "旧书比新书便宜很多。"
+        ],
+        "meanings": [
+          "Chiếc váy này mua hai mươi năm rồi, cũ quá.",
+          "Chiếc ghế này tôi mua ba năm trước, giờ cũ rồi, tôi định đổi một chiếc mới.",
+          "Sách cũ rẻ hơn sách mới rất nhiều."
+        ]
+      },
+      {
+        "id": "l2110-s3",
+        "formula": "2.1 A + 比 + B + tính từ",
+        "sense": "A … hơn B",
+        "usage": "Dạng khẳng định cơ bản của câu so sánh\nkhông được đặt 很、非常、太 trước tính từ trong câu có 比.",
+        "examples": [
+          "王方比我大。",
+          "马可比我高。",
+          "数学比体育难。"
+        ],
+        "meanings": [
+          "Vương Phương lớn tuổi hơn tôi.",
+          "Mã Khả cao hơn tôi.",
+          "Môn toán khó hơn môn thể dục."
+        ]
+      },
+      {
+        "id": "l2110-s4",
+        "formula": "2.2 A + 比 + B + tính từ + 一点儿／一些／不少／很多／多了／得多／số lượng",
+        "sense": "A … hơn B bao nhiêu",
+        "usage": "Phần đứng sau tính từ cho biết chênh lệch nhiều hay ít\nchênh lệch cụ thể thì dùng cụm số lượng (两岁、一千六百块), chênh lệch áng chừng thì dùng 一点儿、一些、不少、很多、多了、得多.",
+        "examples": [
+          "王方比我大两岁。",
+          "我比马可矮一点儿。",
+          "电脑比手机贵一千六百块。"
+        ],
+        "meanings": [
+          "Vương Phương hơn tôi hai tuổi.",
+          "Tôi thấp hơn Mã Khả một chút.",
+          "Máy tính đắt hơn điện thoại một nghìn sáu trăm tệ."
+        ]
+      },
+      {
+        "id": "l2110-s5",
+        "formula": "2.3 A + 没有 + B（+ 这么／那么）+ tính từ",
+        "sense": "A không … bằng B",
+        "usage": "Dạng phủ định của câu so sánh\ntính từ ở đây thường mang nghĩa tích cực: 漂亮、好吃、高、聪明……\ncó thể thêm 这么 hoặc 那么 trước tính từ để chỉ mức độ, 那么 hay gặp hơn\n没有 rút gọn thành 没 cũng được.",
+        "examples": [
+          "我没王方大。",
+          "他没有我这么高。",
+          "学校里边的房子没有学校外边的那么安静。"
+        ],
+        "meanings": [
+          "Tôi không lớn tuổi bằng Vương Phương.",
+          "Cậu ấy không cao bằng tôi.",
+          "Nhà bên trong trường không yên tĩnh bằng nhà bên ngoài trường."
+        ]
+      },
+      {
+        "id": "l2110-s6",
+        "formula": "2.4 A + 比 + B + V + 得 + tính từ（+ 一点儿／一些／不少……）",
+        "sense": "A làm … hơn B",
+        "usage": "Dạng có động từ, cách viết thứ nhất: 比 B đứng trước cụm V 得\ndùng khi so sánh mức độ thực hiện một hành động.",
+        "examples": [
+          "这首歌他比我唱得好不少。",
+          "马可比我说得好一些。",
+          "王老师比张老师讲得明白。"
+        ],
+        "meanings": [
+          "Bài hát này cậu ấy hát hay hơn tôi khá nhiều.",
+          "Mã Khả nói hay hơn tôi một chút.",
+          "Cô Vương giảng dễ hiểu hơn thầy Trương."
+        ]
+      },
+      {
+        "id": "l2110-s7",
+        "formula": "2.5 A + V + 得 + 比 + B + tính từ（+ 一点儿／一些／不少……）",
+        "sense": "A làm … hơn B (đảo vị trí)",
+        "usage": "Cách viết thứ hai của cùng ý nghĩa: cụm V 得 đứng trước, 比 B đứng sau\nhai cách viết thay nhau được, chọn cách nào là tuỳ nhịp câu.",
+        "examples": [
+          "这首歌他唱得比我好不少。",
+          "马可说得比我好一些。",
+          "王老师讲得比张老师明白。"
+        ],
+        "meanings": [
+          "Bài hát này cậu ấy hát hay hơn tôi khá nhiều.",
+          "Mã Khả nói hay hơn tôi một chút.",
+          "Cô Vương giảng dễ hiểu hơn thầy Trương."
+        ]
+      },
+      {
+        "id": "l2110-s8",
+        "formula": "2.6 A + 比 + B + 多／少／早／晚 + V（+ cụm số lượng）",
+        "sense": "A làm sớm hơn／muộn hơn／nhiều hơn B",
+        "usage": "Dùng khi điều đem so không phải tính chất mà là số lượng hoặc thời điểm của hành động\n多／少／早／晚 đứng ngay trước động từ, cụm số lượng đứng sau động từ.",
+        "examples": [
+          "今天她比我早起一个小时。",
+          "我比他晚来十分钟。",
+          "哥哥比我多买了两本书。"
+        ],
+        "meanings": [
+          "Hôm nay cô ấy dậy sớm hơn tôi một tiếng.",
+          "Tôi đến muộn hơn cậu ấy mười phút.",
+          "Anh trai mua nhiều hơn tôi hai quyển sách."
+        ]
+      },
+      {
+        "id": "l2110-s9",
+        "formula": "2.7 A + 没 + B + V + 得 + tính từ",
+        "sense": "A làm không … bằng B",
+        "usage": "Dạng phủ định của câu so sánh có động từ, cách viết thứ nhất: 没 B đứng trước cụm V 得.",
+        "examples": [
+          "我没姐姐跑得快。",
+          "大山没马可说得好。",
+          "张老师没王老师讲得明白。"
+        ],
+        "meanings": [
+          "Tôi chạy không nhanh bằng chị gái.",
+          "Đại Sơn nói không hay bằng Mã Khả.",
+          "Thầy Trương giảng không dễ hiểu bằng cô Vương."
+        ]
+      },
+      {
+        "id": "l2110-s10",
+        "formula": "2.8 A + V + 得 + 没 + B + tính từ",
+        "sense": "A làm không … bằng B (đảo vị trí)",
+        "usage": "Cách viết thứ hai của dạng phủ định: cụm V 得 đứng trước, 没 B đứng sau\nnghĩa giống hệt cách viết thứ nhất.",
+        "examples": [
+          "我跑得没姐姐快。",
+          "大山说得没马可好。",
+          "张老师讲得没王老师明白。"
+        ],
+        "meanings": [
+          "Tôi chạy không nhanh bằng chị gái.",
+          "Đại Sơn nói không hay bằng Mã Khả.",
+          "Thầy Trương giảng không dễ hiểu bằng cô Vương."
+        ]
+      },
+      {
+        "id": "l2110-s11",
+        "formula": "3.1 Hai số liền nhau + lượng từ + danh từ",
+        "sense": "Khoảng … hoặc …",
+        "usage": "Ghép hai số tự nhiên liền nhau để chỉ số lượng áng chừng: 一二、三四、五六……\nnghĩa là “số này hoặc số kia”, ví dụ 一两个小时 nghĩa là 一个小时或者两个小时.",
+        "examples": [
+          "我每天学习一两个小时的汉语。",
+          "你都喝了五六杯咖啡了，别再喝了。",
+          "我家附近有三四个很方便的地方。"
+        ],
+        "meanings": [
+          "Mỗi ngày tôi học tiếng Trung khoảng một đến hai tiếng.",
+          "Bạn uống năm sáu cốc cà phê rồi, đừng uống nữa.",
+          "Gần nhà tôi có ba bốn chỗ rất tiện."
+        ]
+      },
+      {
+        "id": "l2110-s12",
+        "formula": "3.2 十几 ／ 几十: không viết chữ 十 hai lần",
+        "sense": "Mười mấy …, mấy chục …",
+        "usage": "Khi hai số liền nhau rơi vào dạng 十几 hoặc 几十 thì chỉ viết chữ 十 một lần: nói 十一二个 chứ không nói 十一十二个, nói 二三十个 chứ không nói 二十三十个\nHai số liền nhau không được bắc cầu qua hàng chục: không dùng 九十个 theo nghĩa “chín hoặc mười”, cũng không dùng 十九二十个.",
+        "examples": [
+          "教室里有十一二个学生。",
+          "这本书我看了十八九遍了。",
+          "这个班有二三十个人。"
+        ],
+        "meanings": [
+          "Trong lớp có mười một, mười hai học sinh.",
+          "Quyển sách này tôi đọc mười tám, mười chín lần rồi.",
+          "Lớp này có hai, ba chục người."
+        ],
+        "table": {
+          "columns": [
+            "Cách viết sai",
+            "Cách viết đúng"
+          ],
+          "rows": [
+            [
+              "十一十二个",
+              "十一二个"
+            ],
+            [
+              "十八十九个",
+              "十八九个"
+            ],
+            [
+              "二十三十个",
+              "二三十个"
+            ],
+            [
+              "四十五十个",
+              "四五十个"
+            ]
+          ]
+        }
+      }
+    ]
   }
 };
