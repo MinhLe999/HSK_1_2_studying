@@ -2076,8 +2076,99 @@
       }
     });
 
+    // Nhiều chữ chỉ xuất hiện trong câu ví dụ, bài đọc hoặc bài tập chứ không
+    // nằm trong bảng từ vựng ngày nào (ví dụ 她、们、需、注). Nếu chỉ tra bảng từ
+    // vựng thì tab Tra ảnh báo nhầm là "chưa gặp trong bài nào", nên dựng thêm
+    // một chỉ mục phụ theo từng chữ: chữ đó gặp ở ngày nào và ở phần nào.
+    const byContext = new Map();
+    const noteContext = (text, index, item, where) => {
+      if (typeof text !== "string") return;
+      for (const character of text) {
+        if (!/\p{Script=Han}/u.test(character)) continue;
+        if (!byContext.has(character)) byContext.set(character, []);
+        const list = byContext.get(character);
+        let entry = list.find(one => one.index === index);
+        if (!entry) {
+          entry = { index, id: item.id, date: item.date, order: index + 1, where: [] };
+          list.push(entry);
+        }
+        if (!entry.where.includes(where)) entry.where.push(where);
+      }
+    };
+
+    lessons.forEach((item, index) => {
+      const add = (text, where) => noteContext(text, index, item, where);
+      (item.examples || []).forEach(([hanzi]) => add(hanzi, "câu ví dụ"));
+      (item.drills || []).forEach(([, answer]) => add(answer, "bài tập"));
+      (item.patterns || []).forEach(([formula]) => add(formula, "mẫu câu"));
+      (item.listening || []).forEach(part => {
+        (part.dialogueLines || []).forEach(line => add(line, "bài nghe"));
+        (part.trueFalse || []).forEach(([claim]) => add(claim, "bài nghe"));
+      });
+
+      const supplement = exampleSupplements[item.id];
+      if (supplement) {
+        (supplement.additions || []).forEach(([hanzi]) => add(hanzi, "câu ví dụ"));
+        (supplement.patternEvidence || []).forEach(line => add(line, "câu ví dụ"));
+      }
+
+      const structure = structures[item.id];
+      if (structure) {
+        (structure.items || []).forEach(one => {
+          add(one.formula, "mẫu câu");
+          (one.examples || []).forEach(line => add(line, "câu ví dụ"));
+        });
+      }
+
+      const extension = practiceExtensions[item.id];
+      if (extension) {
+        const reading = extension.reading || {};
+        add(reading.prose, "bài đọc");
+        (reading.dialogue || []).forEach(line => add(line, "bài đọc"));
+        (reading.questions || []).forEach(one => {
+          add(one.prompt, "bài đọc");
+          (one.options || []).forEach(option => add(option, "bài đọc"));
+        });
+        (extension.wordTasks || []).forEach(one => {
+          add(one.prompt, "bài tập");
+          add(one.sample, "bài tập");
+          (one.words || []).forEach(word => add(word, "bài tập"));
+        });
+      }
+
+      (production[item.id] || []).forEach(one => {
+        add(one.prompt, "bài tự viết");
+        add(one.required, "bài tự viết");
+        add(one.sample, "bài tự viết");
+      });
+    });
+
+    // Tab Cấu trúc thông dụng không gắn với ngày học nào nhưng vẫn là nơi tra
+    // được, ví dụ 除 chỉ xuất hiện ở mục 除了…以外.
+    const byCommonStructure = new Map();
+    (commonStructures && commonStructures.entries ? commonStructures.entries : []).forEach(entry => {
+      // Các khối của một mục có cấu trúc lồng nhau khác nhau (bảng cụm từ, bảng
+      // cấu trúc, mẹo), nên duyệt đệ quy mọi chuỗi thay vì đoán từng tầng.
+      const collect = value => {
+        if (typeof value === "string") {
+          for (const character of value) {
+            if (!/\p{Script=Han}/u.test(character)) continue;
+            if (!byCommonStructure.has(character)) byCommonStructure.set(character, []);
+            const list = byCommonStructure.get(character);
+            if (!list.some(one => one.id === entry.id)) {
+              list.push({ id: entry.id, label: entry.title || entry.hanzi });
+            }
+          }
+          return;
+        }
+        if (Array.isArray(value)) value.forEach(collect);
+        else if (value && typeof value === "object") Object.values(value).forEach(collect);
+      };
+      collect(entry);
+    });
+
     const maxWordLength = Math.max(...[...byWord.keys()].map(word => [...word].length));
-    return { byWord, byCharacter, maxWordLength };
+    return { byWord, byCharacter, byContext, byCommonStructure, maxWordLength };
   })();
 
   // Tách chuỗi chữ Hán theo kiểu khớp dài nhất trước, chỉ nhận những từ có
@@ -2115,7 +2206,11 @@
 
     const unknownWords = [...unknown.keys()].map(character => ({
       character,
-      relatedWords: vocabIndex.byCharacter.get(character) || []
+      relatedWords: vocabIndex.byCharacter.get(character) || [],
+      contextLessons: (vocabIndex.byContext.get(character) || [])
+        .slice()
+        .sort((left, right) => left.order - right.order),
+      commonStructures: vocabIndex.byCommonStructure.get(character) || []
     }));
 
     return { words, unknown: unknownWords, hanCount: characters.length };
@@ -2147,6 +2242,57 @@
     }
 
     renderImageLookup();
+  }
+
+  // Chữ tới được đây thì không nằm trong từ ghép nào đã dạy (nhóm đó đã tách sang
+  // bảng riêng), nhưng vẫn có thể đã gặp trong câu ví dụ, bài đọc, bài tập hoặc ở
+  // tab Cấu trúc thông dụng. Không có chỗ nào mới là "chưa gặp trong bài nào".
+  const UNKNOWN_LESSON_LIMIT = 4;
+  const RELATED_WORD_LIMIT = 4;
+
+  function describeUnknownCharacter(item) {
+    const parts = [];
+
+    if (item.contextLessons.length) {
+      const places = [...new Set(item.contextLessons.flatMap(one => one.where))];
+      // Chữ rất thông dụng (你、她、们) có mặt ở hàng chục ngày; liệt kê hết thì
+      // kín màn hình, nên chỉ hiện vài ngày đầu rồi ghi số ngày còn lại.
+      const shown = item.contextLessons.slice(0, UNKNOWN_LESSON_LIMIT);
+      const hidden = item.contextLessons.length - shown.length;
+      const buttons = shown
+        .map(one => {
+          const toPractice = one.where.some(where => where !== "câu ví dụ" && where !== "mẫu câu");
+          const targetView = toPractice && !one.where.includes("câu ví dụ") ? "practice" : "lesson";
+          return `
+            <button class="image-lookup-jump" type="button" data-action="goToLesson"
+              data-lesson-id="${escapeHtml(one.id)}" data-target-view="${targetView}">
+              Bài ${one.order} · ${escapeHtml(one.date)}
+            </button>
+          `;
+        })
+        .join("");
+      parts.push(`
+        <span class="image-lookup-related">có trong ${escapeHtml(places.join("、"))} của:</span>
+        <span class="image-lookup-lessons">
+          ${buttons}
+          ${hidden ? `<span class="image-lookup-more">+${hidden} ngày khác</span>` : ""}
+        </span>
+      `);
+    }
+
+    // Tab Cấu trúc thông dụng chỉ nhắc khi chữ đó không xuất hiện ở đâu khác,
+    // nếu không thì chữ nào cũng kèm một dãy mục không liên quan.
+    if (!parts.length && item.commonStructures.length) {
+      parts.push(`<span class="image-lookup-related">có ở tab Cấu trúc thông dụng: ${item.commonStructures
+        .map(one => escapeHtml(one.label))
+        .join("、")}</span>`);
+    }
+
+    if (!parts.length) {
+      return `<span class="image-lookup-related">chưa gặp trong bài nào</span>`;
+    }
+
+    return parts.join("");
   }
 
   function renderImageLookup() {
@@ -2195,11 +2341,17 @@
       return;
     }
 
+    // Chữ nằm trong một từ ghép đã dạy thì coi như đã học, chỉ là OCR tách lẻ ra
+    // nên không khớp nguyên từ; tách riêng khỏi nhóm thật sự chưa khớp.
+    const learnedChars = state.unknown.filter(item => item.relatedWords.length);
+    const looseChars = state.unknown.filter(item => !item.relatedWords.length);
+
     const summary = `
       <p class="image-lookup-summary">
         Đọc được <strong>${state.hanCount}</strong> chữ Hán ·
         nhận ra <strong>${state.words.length}</strong> từ trong giáo trình ·
-        <strong>${state.unknown.length}</strong> chữ chưa có
+        <strong>${learnedChars.length}</strong> chữ đã học trong từ ghép ·
+        <strong>${looseChars.length}</strong> chữ chưa khớp
       </p>
     `;
 
@@ -2208,7 +2360,7 @@
         <div class="table-scroll">
           <table class="image-lookup-table">
             <thead>
-              <tr><th>Từ</th><th>Nghĩa</th><th>Bài</th></tr>
+              <tr><th>Từ</th><th>Phiên âm</th><th>Nghĩa</th><th>Bài</th></tr>
             </thead>
             <tbody>
               ${state.words.map(word => {
@@ -2222,6 +2374,9 @@
                   <td class="image-lookup-word">${escapeHtml(word.key)}${
                     word.count > 1 ? `<span class="image-lookup-count">×${word.count}</span>` : ""
                   }</td>
+                  <td class="image-lookup-pinyin">${escapeHtml(
+                    [...new Set(word.forms.map(form => form.pinyin).filter(Boolean))].join(" / ")
+                  )}</td>
                   <td>
                     ${escapeHtml(word.meanings.join(" / "))}
                     ${otherForms.length
@@ -2244,19 +2399,66 @@
       `
       : `<p class="image-lookup-status">Không có từ nào trong ảnh khớp với giáo trình.</p>`;
 
-    const unknownBlock = state.unknown.length
+    const learnedBlock = learnedChars.length
+      ? `
+        <div class="table-scroll">
+          <h3 class="image-lookup-subhead">Chữ đã học trong từ ghép</h3>
+          <table class="image-lookup-table">
+            <thead>
+              <tr><th>Chữ</th><th>Từ ghép đã học</th><th>Phiên âm</th><th>Nghĩa</th><th>Bài</th></tr>
+            </thead>
+            <tbody>
+              ${learnedChars.map(item => {
+                const shownWords = item.relatedWords.slice(0, RELATED_WORD_LIMIT);
+                const hiddenWords = item.relatedWords.length - shownWords.length;
+                const stack = values => values
+                  .map(value => `<span class="image-lookup-line">${escapeHtml(value)}</span>`)
+                  .join("");
+                const lessonList = [];
+                shownWords.forEach(word => word.lessons.forEach(one => {
+                  if (!lessonList.some(other => other.index === one.index)) lessonList.push(one);
+                }));
+                lessonList.sort((left, right) => left.order - right.order);
+                const shownLessons = lessonList.slice(0, UNKNOWN_LESSON_LIMIT);
+                const hiddenLessons = lessonList.length - shownLessons.length;
+                return `
+                  <tr>
+                    <td class="image-lookup-word">${escapeHtml(item.character)}</td>
+                    <td class="image-lookup-word">
+                      ${stack(shownWords.map(word => word.key))}
+                      ${hiddenWords ? `<span class="image-lookup-more">+${hiddenWords} từ khác</span>` : ""}
+                    </td>
+                    <td class="image-lookup-pinyin">
+                      ${stack(shownWords.map(word => (word.forms[0] || {}).pinyin || "—"))}
+                    </td>
+                    <td>${stack(shownWords.map(word => word.meanings.join(" / ")))}</td>
+                    <td class="image-lookup-lessons">
+                      ${shownLessons.map(one => `
+                        <button class="image-lookup-jump" type="button"
+                          data-action="selectLesson" data-index="${one.index}">
+                          Bài ${one.order} · ${escapeHtml(one.date)}
+                        </button>
+                      `).join("")}
+                      ${hiddenLessons ? `<span class="image-lookup-more">+${hiddenLessons} bài khác</span>` : ""}
+                    </td>
+                  </tr>
+                `;
+              }).join("")}
+            </tbody>
+          </table>
+        </div>
+      `
+      : "";
+
+    const unknownBlock = looseChars.length
       ? `
         <div class="image-lookup-unknown">
-          <h3>Chữ chưa có trong giáo trình</h3>
+          <h3>Chữ không khớp từ nào trong bảng từ vựng</h3>
           <ul>
-            ${state.unknown.map(item => `
+            ${looseChars.map(item => `
               <li>
                 <span class="image-lookup-word">${escapeHtml(item.character)}</span>
-                ${item.relatedWords.length
-                  ? `<span class="image-lookup-related">có trong ${item.relatedWords
-                      .map(word => escapeHtml(word.key))
-                      .join("、")}</span>`
-                  : `<span class="image-lookup-related">chưa gặp trong bài nào</span>`}
+                ${describeUnknownCharacter(item)}
               </li>
             `).join("")}
           </ul>
@@ -2269,6 +2471,7 @@
         ${intro}
         ${summary}
         ${table}
+        ${learnedBlock}
         ${unknownBlock}
       </section>
     `;

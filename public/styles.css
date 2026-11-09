@@ -2623,6 +2623,27 @@ p {
   border-color: var(--green);
 }
 
+.image-lookup-subhead {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.image-lookup-pinyin {
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.image-lookup-line {
+  display: block;
+}
+
+.image-lookup-line + .image-lookup-line {
+  margin-top: 4px;
+}
+
 .image-lookup-unknown {
   padding: 16px 18px;
   background: var(--amber-soft);
@@ -2640,8 +2661,8 @@ p {
 
 .image-lookup-unknown ul {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px 18px;
+  flex-direction: column;
+  gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -2649,13 +2670,21 @@ p {
 
 .image-lookup-unknown li {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 8px;
+  gap: 6px 8px;
 }
 
 .image-lookup-related {
   color: var(--muted);
   font-size: 13px;
+}
+
+.image-lookup-more {
+  align-self: center;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
 }
 
 @media (max-width: 720px) {
