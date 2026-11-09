@@ -24,6 +24,8 @@ const defaultState = {
   version: 1,
   progress: {
     practice: {},
+    // Tab Bài cuối đã bỏ khỏi giao diện. Nhánh `final` vẫn được giữ lại trong
+    // trạng thái để không xóa mất đáp án người dùng đã lưu từ trước.
     final: { answers: {}, checked: false },
     measureWords: { answers: {}, checkedPages: {} },
     writingShown: {},

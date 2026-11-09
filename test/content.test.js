@@ -181,7 +181,7 @@ test("bài đọc có đoạn văn, hội thoại và đáp án hợp lệ", () 
   }
 });
 
-test("bài cuối có phần đọc và bao phủ ngày mới", () => {
+test("dữ liệu bài cuối cũ và số trang nguồn vẫn nguyên", () => {
   assert.ok(content.finalQuestions.length >= 60);
   assert.equal(content.finalReading.questions.length, 8);
   assert.match(content.finalReading.text, /下个星期/);

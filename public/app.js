@@ -711,12 +711,6 @@
       return;
     }
 
-    if (ui.view === "final") {
-      activeDateEl.textContent = `Tổng hợp ${lessons.length} ngày học`;
-      activeTitleEl.textContent = "Bài kiểm tra cuối";
-      return;
-    }
-
     if (ui.view === "measure") {
       activeDateEl.textContent = `Tổng hợp ${lessons.length} ngày học`;
       activeTitleEl.textContent = "Luyện điền lượng từ";
@@ -1649,107 +1643,6 @@
     `;
   }
 
-  function finalQuestionSets() {
-    return {
-      main: content.finalQuestions.map((question, index) =>
-        rotateChoice(question, `final-main-${index}`)
-      ),
-      reading: content.finalReading.questions.map((question, index) =>
-        rotateChoice(question, `final-reading-${index}`)
-      )
-    };
-  }
-
-  function renderFinal() {
-    const finalState = savedData.progress.final;
-    const sets = finalQuestionSets();
-    const allQuestions = sets.main.concat(sets.reading);
-    const resultIsCurrent = finalState.checked && finalState.total === allQuestions.length;
-    const hit = scoreQuestions(allQuestions, finalState.answers);
-
-    contentEl.innerHTML = `
-      <section class="practice-overview">
-        <div>
-          <h3>Tổng ôn từ 27/05 đến 29/07</h3>
-          <p>
-            ${allQuestions.length} câu bao phủ toàn bộ từ vựng, cấu trúc,
-            chữ gần giống và một bài đọc tích lũy.
-          </p>
-        </div>
-        ${resultIsCurrent ? `
-          <div class="score-box">
-            <strong>${hit}/${allQuestions.length}</strong>
-            <span>Kết quả gần nhất</span>
-          </div>
-        ` : ""}
-      </section>
-
-      <section class="exercise-section">
-        <h3>Phần 1 · Từ vựng và cấu trúc</h3>
-        <p>Câu hỏi được trộn vị trí đáp án khi tải bài.</p>
-        <div class="question-list">
-          ${sets.main.map((question, index) =>
-            renderChoiceQuestion(
-              question,
-              finalState.answers[question.id],
-              resultIsCurrent,
-              "final",
-              index + 1
-            )
-          ).join("")}
-        </div>
-      </section>
-
-      <section class="exercise-section">
-        <h3>Phần 2 · Đọc hiểu</h3>
-        <p>${escapeHtml(content.finalReading.title)}</p>
-        <div class="reading-passage">
-          <div class="reading-label">Bài đọc tổng hợp</div>
-          ${escapeHtml(content.finalReading.text)}
-        </div>
-        <div class="question-list">
-          ${sets.reading.map((question, index) =>
-            renderChoiceQuestion(
-              question,
-              finalState.answers[question.id],
-              resultIsCurrent,
-              "final",
-              index + 1
-            )
-          ).join("")}
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-heading">
-          <h3>Phần 3 · Viết câu</h3>
-          <p>${content.finalWriting.length} câu</p>
-        </div>
-        <ul class="writing-list">
-          ${content.finalWriting.map((drill, index) => {
-            const key = `final-${index}`;
-            return `
-              <li class="writing-row">
-                <p class="write-prompt">${index + 1}. ${escapeHtml(drill[0])}</p>
-                <button class="button secondary" data-action="toggleWriting" data-key="${key}">
-                  ${savedData.progress.writingShown[key] ? "Ẩn đáp án" : "Xem đáp án"}
-                </button>
-                <div class="write-answer ${savedData.progress.writingShown[key] ? "" : "hidden"}">
-                  ${escapeHtml(drill[1])}
-                </div>
-              </li>
-            `;
-          }).join("")}
-        </ul>
-      </section>
-
-      <div class="practice-actions">
-        <button class="button secondary" data-action="resetFinal">Làm lại</button>
-        <button class="button primary" data-action="checkFinal">Chấm bài cuối</button>
-      </div>
-    `;
-  }
-
   function renderSimilar() {
     contentEl.innerHTML = `
       <section class="cluster-header">
@@ -2489,7 +2382,6 @@
     if (ui.view === "common") renderCommonStructures();
     if (ui.view === "notes") renderNotes();
     if (ui.view === "image") renderImageLookup();
-    if (ui.view === "final") renderFinal();
   }
 
   function selectLesson(index) {
@@ -2603,12 +2495,6 @@
           practiceState.answers[`grammar-new-${item.id}-${index}`] = value;
         }
       }
-      if (legacy.finalAnswers) {
-        for (const [index, value] of Object.entries(legacy.finalAnswers)) {
-          savedData.progress.final.answers[`final-main-${index}`] = value;
-        }
-      }
-      savedData.progress.final.checked = Boolean(legacy.finalChecked);
       savedData.progress.writingShown = legacy.writingShown || {};
       markDirty();
       await saveNow();
@@ -2834,26 +2720,6 @@
       return;
     }
 
-    if (action === "checkFinal") {
-      const sets = finalQuestionSets();
-      const questions = sets.main.concat(sets.reading);
-      savedData.progress.final.checked = true;
-      savedData.progress.final.score = scoreQuestions(questions, savedData.progress.final.answers);
-      savedData.progress.final.total = questions.length;
-      markDirty();
-      renderContent();
-      window.scrollTo({ top: 0, behavior: "smooth" });
-      return;
-    }
-
-    if (action === "resetFinal") {
-      if (!window.confirm("Xóa toàn bộ câu trả lời của bài cuối?")) return;
-      savedData.progress.final = { answers: {}, checked: false, score: 0, total: 0 };
-      markDirty();
-      renderContent();
-      return;
-    }
-
     if (action === "newCluster") {
       openClusterEditor();
       return;
@@ -2961,15 +2827,6 @@
       const wasChecked = practiceState.checked;
       practiceState.answers[questionId] = Number(input.value);
       practiceState.checked = false;
-      markDirty();
-      if (wasChecked) renderContent();
-      return;
-    }
-
-    if (context === "final") {
-      const wasChecked = savedData.progress.final.checked;
-      savedData.progress.final.answers[questionId] = Number(input.value);
-      savedData.progress.final.checked = false;
       markDirty();
       if (wasChecked) renderContent();
       return;
@@ -3103,7 +2960,6 @@
       const response = await fetch("/api/state");
       if (!response.ok) throw new Error("Không tải được dữ liệu.");
       savedData = await response.json();
-      savedData.progress.final ||= { answers: {}, checked: false };
       savedData.progress.writingShown ||= {};
       savedData.progress.practice ||= {};
       savedData.progress.measureWords ||= { answers: {}, checkedPages: {} };
@@ -3115,7 +2971,7 @@
       ui.lessonIndex = savedLessonIndex >= 0 ? savedLessonIndex : 0;
       ui.view = [
         "lesson", "roadmap", "structures", "common", "cards",
-        "practice", "measure", "similar", "image", "notes", "final"
+        "practice", "measure", "similar", "image", "notes"
       ].includes(savedData.progress.lastView)
         ? savedData.progress.lastView
         : "lesson";

@@ -13,7 +13,7 @@ Mở `http://127.0.0.1:4173`. Máy chủ chỉ lắng nghe trên máy cục bộ
 - Tài liệu nguồn là `materials/HSK.pdf` (131 trang, tệp toàn bộ notebook, được server phục vụ tại route `/HSK.pdf`). Thư mục `materials/` cũng có thể chứa các tệp PDF nhỏ hơn theo từng đợt cập nhật (ví dụ `materials/26_08_26.pdf`, `materials/4_11_09_26.pdf`) — có tệp là bản scan trùng với phần đã gộp vào `HSK.pdf` (luôn đối chiếu ngày trong tệp với ngày bài học đã có trước khi coi là nội dung mới), có tệp là nội dung thật sự mới chưa gộp vào `HSK.pdf`. Trường `pages` của mỗi bài học ghi số trang theo đúng tệp PDF gốc đã dùng để soạn bài đó, không phải luôn là `HSK.pdf` — khi tệp nhỏ chưa được gộp, số trang này tham chiếu tệp nhỏ đó. Toàn bộ `materials/` bị Git bỏ qua.
 - Có 39 ngày học, từ `27/05/2026` đến `21/10/2026`; lịch gốc bỏ ngày `22/05`.
 - Một số ngày có bài nghe (field `listening` trên lesson trong `public/content.js`: mảng `{ title, url, note, dialogueLines, trueFalse }`; `url` là liên kết MP3 ngoài, lấy từ URI nhúng trong PDF gốc qua `PDFAnnotation.url`, không phải từ OCR; `dialogueLines` là các câu hội thoại thật trong PDF dùng cho bài tập sắp xếp câu; `trueFalse` là mảng `[câu nhận định, true/false, giải thích]` lấy từ bài tập đúng/sai thật trong PDF). Bài nghe **không** hiện ở tab Bài học — nó được `buildPracticeSections()` trong `public/app.js` ghép thành các câu hỏi dạng `order` (sắp xếp hội thoại) và `choice` (đúng/sai) ở cuối tab Bài tập, kèm thẻ `<audio controls>` (`section.audio`); bỏ trống `listening: []` nếu ngày đó không có bài nghe.
-- Giao diện có các tab: Bài học, Lộ trình, Cấu trúc câu, Cấu trúc thông dụng, Thẻ nhớ, Bài tập, Lượng từ, Chữ gần giống, Tra ảnh, Ghi chú và Bài cuối.
+- Giao diện có các tab: Bài học, Lộ trình, Cấu trúc câu, Cấu trúc thông dụng, Thẻ nhớ, Bài tập, Lượng từ, Chữ gần giống, Tra ảnh và Ghi chú. Tab Bài cuối đã bị bỏ; dữ liệu `finalQuestions`, `finalWriting`, `finalReading` vẫn còn trong `public/content.js` nhưng không còn nơi hiển thị.
 - Cột `Ý nghĩa` trong bảng cấu trúc của `STRUCTURE_PLAN.md` là nghĩa cốt lõi ngắn gọn (vài từ, kèm chú thích chức năng trong ngoặc), tách khỏi cột `Cách dùng` vốn là đoạn giải thích sắc thái/điều kiện dài. Parser đưa nó thành trường `sense`, tab Cấu trúc câu hiển thị dưới dạng nhãn ngay dưới công thức.
 - Tab Cấu trúc thông dụng (`public/common-structures.js`, hàm `renderCommonStructures()`) là bảng tra nhanh theo từ khóa, không gắn với ngày học: mỗi mục gồm `phraseTable` (cụm từ ghép), `patternTable` (cấu trúc ngữ pháp), `tipList` (mẹo phân biệt) và `mnemonic` (câu tóm tắt). Thêm chữ mới chỉ cần thêm một object vào mảng `entries`.
 - Tab Tra ảnh (`renderImageLookup()` trong `public/app.js`) nhận ảnh dán từ clipboard — sự kiện `paste` bắt ở cấp `document` nên dán ở tab nào cũng được, trang sẽ tự chuyển sang tab này. Ảnh gửi nguyên dạng tới `POST /api/ocr`; `server.js` biên dịch `tools/ocr_image.swift` một lần vào `tools/.build/ocr_image` rồi gọi lại nhiều lần. Công cụ chỉ bật mô hình chữ Hán (`recognitionLanguages = ["zh-Hans"]`): Vision đọc pinyin và tiếng Việt trong ảnh sai, mà app cũng không cần — pinyin, nghĩa và số bài lấy từ `public/content.js`. Phía trình duyệt lọc bỏ mọi ký tự không phải chữ Hán rồi tách từ theo kiểu khớp dài nhất trước, chỉ nhận từ có trong giáo trình, nên không cần thư viện phân từ. Tính năng này chỉ chạy trên macOS; máy khác nhận lỗi 501 có giải thích.
@@ -41,7 +41,7 @@ Mở `http://127.0.0.1:4173`. Máy chủ chỉ lắng nghe trên máy cục bộ
 
 | Mục tiêu | Đọc trước | Nguồn cần sửa |
 | --- | --- | --- |
-| Bài học, từ vựng, ví dụ, bài cuối | `public/content.js`, `public/example-supplements.js`, `test/content.test.js` | `public/content.js`, có thể cả `public/example-supplements.js` |
+| Bài học, từ vựng, ví dụ | `public/content.js`, `public/example-supplements.js`, `test/content.test.js` | `public/content.js`, có thể cả `public/example-supplements.js` |
 | Cấu trúc câu, bài đọc, ba bài từ cho sẵn | `STRUCTURE_PLAN.md`, `tools/build-structures.js`, `public/structures.js`, `public/practice-extensions.js` | Chỉ sửa `STRUCTURE_PLAN.md`, sau đó sinh hai tệp `.js` |
 | Bốn bài tự viết mỗi ngày | `public/production.js`, `test/content.test.js` | `public/production.js` |
 | Lượng từ hoặc số lớn | `public/measure-words.js`, phần lượng từ của `public/app.js`, kiểm thử lượng từ | `public/measure-words.js`, và `public/app.js`/`public/styles.css` nếu cần giao diện mới |
@@ -87,6 +87,7 @@ Tệp gán một đối tượng cho `window.HSK_CONTENT`.
     numberGuide: { /* chỉ dùng khi ngày đó có phần số lớn */ },
     listening: [{ title: "...", url: "https://...mp3", note: "...", dialogueLines: ["..."], trueFalse: [["Câu nhận định", true, "Giải thích"]] }] /* chỉ dùng khi ngày đó có bài nghe; bỏ trống [] nếu không có; render trong tab Bài tập, không phải tab Bài học */
   }],
+  /* ba trường dưới đây thuộc tab Bài cuối đã bỏ, giữ lại nhưng không còn render */
   finalQuestions: [["Câu hỏi", ["A", "B", "C", "D"], 0, "Giải thích"]],
   finalWriting: [["Yêu cầu tiếng Việt", "Câu mẫu tiếng Trung。"]],
   finalReading: { title: "...", text: "...", questions: [["...", ["..."], 0, "..."]] },
@@ -94,7 +95,7 @@ Tệp gán một đối tượng cho `window.HSK_CONTENT`.
 }
 ```
 
-Mỗi `patterns` và `vocab` là mảng theo đúng thứ tự để `patternEvidence` đối chiếu. Khi thêm ngày mới, cập nhật bài cuối và `source` nếu số trang PDF đổi.
+Mỗi `patterns` và `vocab` là mảng theo đúng thứ tự để `patternEvidence` đối chiếu. Khi thêm ngày mới, cập nhật `source` nếu số trang PDF đổi.
 
 ### Ví dụ bổ sung: `public/example-supplements.js`
 
@@ -201,7 +202,7 @@ Tệp gán `window.HSK_MEASURE_WORDS`.
 1. Đọc phần PDF liên quan, nhất là bảng màu vàng. Dùng công cụ trích/OCR trong `tools/` khi cần, rồi kiểm tra trực tiếp lại với PDF.
 2. Lập hoặc cập nhật `STRUCTURE_PLAN.md` trước khi viết cấu trúc, bài đọc, bài tập đọc hiểu và bài đặt câu với từ cho sẵn.
 3. Chạy `npm run build:plan` để sinh `public/structures.js` và `public/practice-extensions.js`.
-4. Cập nhật `public/content.js`, `public/example-supplements.js`, `public/production.js` và bài cuối theo phạm vi thay đổi.
+4. Cập nhật `public/content.js`, `public/example-supplements.js` và `public/production.js` theo phạm vi thay đổi.
 5. Nếu thay đổi lượng từ/số lớn, cập nhật `public/measure-words.js`, hàm liên quan trong `public/app.js` và CSS nếu cần.
 6. Bổ sung kiểm thử có ý nghĩa trong `test/content.test.js` hoặc `test/server.test.js` cho hợp đồng dữ liệu hoặc trạng thái mới.
 7. Chạy đầy đủ kiểm tra bên dưới. Với thay đổi giao diện, mở trang cục bộ và kiểm tra ít nhất desktop và điện thoại; sau khi kiểm tra xong, dừng máy chủ nếu người dùng yêu cầu tự khởi động bằng terminal.
