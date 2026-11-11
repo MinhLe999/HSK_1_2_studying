@@ -444,6 +444,20 @@ Quy ước:
 | l2110-s11 | 3.1 Hai số liền nhau + lượng từ + danh từ | Khoảng … hoặc … | Ghép hai số tự nhiên liền nhau để chỉ số lượng áng chừng: 一二、三四、五六……；nghĩa là “số này hoặc số kia”, ví dụ 一两个小时 nghĩa là 一个小时或者两个小时. | 我每天学习一两个小时的汉语。；你都喝了五六杯咖啡了，别再喝了。；我家附近有三四个很方便的地方。 | Mỗi ngày tôi học tiếng Trung khoảng một đến hai tiếng.；Bạn uống năm sáu cốc cà phê rồi, đừng uống nữa.；Gần nhà tôi có ba bốn chỗ rất tiện. | — |
 | l2110-s12 | 3.2 十几 ／ 几十: không viết chữ 十 hai lần | Mười mấy …, mấy chục … | Khi hai số liền nhau rơi vào dạng 十几 hoặc 几十 thì chỉ viết chữ 十 một lần: nói 十一二个 chứ không nói 十一十二个, nói 二三十个 chứ không nói 二十三十个；Hai số liền nhau không được bắc cầu qua hàng chục: không dùng 九十个 theo nghĩa “chín hoặc mười”, cũng không dùng 十九二十个. | 教室里有十一二个学生。；这本书我看了十八九遍了。；这个班有二三十个人。 | Trong lớp có mười một, mười hai học sinh.；Quyển sách này tôi đọc mười tám, mười chín lần rồi.；Lớp này có hai, ba chục người. | Cách viết sai｜Cách viết đúng；十一十二个｜十一二个；十八十九个｜十八九个；二十三十个｜二三十个；四十五十个｜四五十个 |
 
+## l0911 · 09/11/2026 · 如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的
+
+| Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa | Bảng |
+| --- | --- | --- | --- | --- | --- | --- |
+| l0911-s1 | 1.1 如果 + mệnh đề（的话），（chủ ngữ +）就 + mệnh đề | Nếu … thì … (giả thiết chưa xảy ra) | Vế trước nêu một giả thiết chưa xảy ra, vế sau nêu kết quả dựa trên giả thiết đó；的话 đứng cuối vế giả thiết và có thể lược bỏ；就 luôn đứng sau chủ ngữ của vế sau, không đứng đầu câu. | 如果你太累了，就休息一会儿。；如果你不舒服，就去医院检查一下吧。；如果有钱，我就买一辆车子。 | Nếu bạn mệt quá thì nghỉ một lát đi.；Nếu bạn không khỏe thì đi bệnh viện kiểm tra một chút đi.；Nếu có tiền thì tôi sẽ mua một chiếc xe. | — |
+| l0911-s2 | 1.2 因为 + vế 1（nguyên nhân），所以 + vế 2（kết quả） | Vì … nên … | Cặp từ nối chỉ quan hệ nhân quả；hai chữ đi thành cặp, vế nguyên nhân luôn đứng trước；có thể lược một trong hai chữ khi ý đã rõ. | 因为他天天跑步，所以身体很好。；因为明天要考试，所以我今天要认真复习。；因为他的儿子感冒了，所以他今天在家照顾儿子。 | Vì cậu ấy ngày nào cũng chạy bộ nên sức khỏe rất tốt.；Vì mai phải thi nên hôm nay tôi phải ôn tập nghiêm túc.；Vì con trai anh ấy bị cảm nên hôm nay anh ấy ở nhà chăm con. | — |
+| l0911-s3 | 1.3 虽然 + vế 1（sự thật），但是 + vế 2（trái ngược） | Tuy … nhưng … | Cặp từ nối chỉ quan hệ nhượng bộ；vế sau mới là ý chính người nói muốn nhấn mạnh；không bỏ 但是 như tiếng Việt vẫn hay bỏ chữ "nhưng". | 虽然外面很冷，但是房间里很热。；虽然我对音乐很感兴趣，但是我不会唱歌。；虽然他学习很努力，但是汉语水平一直没提高。 | Tuy bên ngoài rất lạnh nhưng trong phòng rất nóng.；Tuy tôi rất thích âm nhạc nhưng tôi không biết hát.；Tuy cậu ấy học rất chăm nhưng trình độ tiếng Trung vẫn không tiến bộ. | Quan hệ｜Cặp từ nối；Nguyên nhân – kết quả｜因为……，所以……；Nhượng bộ｜虽然……，但是……；Giả thiết – kết quả｜如果……（的话），（chủ ngữ +）就…… |
+| l0911-s4 | 2.1 chủ ngữ + 变 + tính từ／变得更 + tính từ | Trở nên …, biến thành … | 变 là động từ, nói về sự chuyển sang một trạng thái khác；变 + tính từ một âm (大／小／胖／瘦／绿……)；thêm 得更 khi muốn nói "càng … hơn". | 春天到了，草变绿了。；几年没见，他变得更胖了。；冬天到了，天气变冷了。 | Mùa xuân đến rồi, cỏ đã xanh lên.；Mấy năm không gặp, cậu ấy béo hơn trước.；Mùa đông đến rồi, trời trở lạnh. | ｜变｜变化；Từ loại｜động từ｜danh từ hoặc động từ；Cách dùng｜变 + tính từ、变得更 + tính từ｜……（的）变化、有变化、没有变化；Ví dụ｜草变绿了。｜北京的变化很大。 |
+| l0911-s5 | 2.2 （danh từ +（的））变化 | Sự thay đổi | 变化 đứng làm danh từ trong cụm sở hữu, hoặc làm vị ngữ với 有／没有；khi nói "hầu như không thay đổi" thì dùng được cả 没变 lẫn 没变化. | 最近几十年北京的变化很大。；她从美国回来后有一些变化，但是不大。；快五年了，你几乎没变化。 | Mấy chục năm gần đây Bắc Kinh thay đổi rất nhiều.；Sau khi từ Mỹ về cô ấy có vài thay đổi, nhưng không lớn.；Sắp năm năm rồi mà bạn hầu như không thay đổi. | — |
+| l0911-s6 | 3.1 chủ ngữ + động từ + 得 + tính từ | Làm (việc gì) … (như thế nào) | Bổ ngữ trạng thái, nói mức độ hoặc chất lượng của hành động；phủ định đặt 不 sau 得: V + 得 + 不 + tính từ；nghi vấn dùng V + 得 + tính từ + 不 + tính từ, bằng với V + 得 + tính từ + 吗. | 我跑得很快。；我住得不远。；你跑得快不快？ | Tôi chạy rất nhanh.；Tôi ở không xa.；Bạn chạy nhanh không? | — |
+| l0911-s7 | 3.2 chủ ngữ + động từ／tính từ + 得 + cụm động từ | … đến mức … | Phần sau 得 không còn là tính từ mà là cả một cụm động từ, nêu trạng thái do hành động hoặc tính chất phía trước gây ra；đây là dạng hay gặp nhất của bài này. | 孩子们玩儿得不想回家。；她累得下了班就想睡觉。；弟弟高兴得跳了起来。 | Bọn trẻ chơi đến mức không muốn về nhà.；Cô ấy mệt đến mức tan làm là muốn đi ngủ.；Em trai vui đến mức nhảy cẫng lên. | — |
+| l0911-s8 | 4.1 tính từ một âm A → AA 的 | Rất A (tả đặc điểm) | Láy tính từ một âm tiết rồi thêm 的, nghĩa tương đương 很 + A nhưng mềm và hình ảnh hơn；thường dùng tả đặc điểm người hoặc vật；không thêm 很 trước dạng láy. | 你女儿长得白白的、胖胖的，真可爱！；你送的花红红的，我很喜欢。；那个女孩头发长长的，眼睛大大的。 | Con gái bạn trắng trẻo, mũm mĩm, đáng yêu thật!；Hoa bạn tặng đỏ thắm, tôi rất thích.；Cô gái kia tóc dài dài, mắt to tròn. | Dạng gốc｜Dạng láy；红｜红红的；白｜白白的；胖｜胖胖的；长｜长长的 |
+| l0911-s9 | 4.2 Láy lượng từ và láy động từ | Mỗi …, làm … một chút | Lượng từ một âm A → AA mang nghĩa "mỗi", hay đi cùng 都；động từ một âm A → AA hoặc A 一 A；động từ hai âm AB → ABAB, không láy thành AABB. | 这个星期我天天都吃羊肉。；我想和你说说话。；你准备准备，她一个小时以后就到。 | Tuần này ngày nào tôi cũng ăn thịt dê.；Tôi muốn nói chuyện với bạn một lát.；Bạn chuẩn bị chút đi, một tiếng nữa cô ấy đến. | Loại từ｜Cách láy｜Ví dụ；Lượng từ một âm｜A → AA（nghĩa 每一, hay đi với 都）｜这个星期天天都吃羊肉。；Động từ một âm｜A → AA hoặc A 一 A｜我想和你说说话。；Động từ hai âm｜AB → ABAB｜你准备准备。；Tính từ một âm｜A → AA 的｜你送的花红红的。 |
+
 
 # Kế hoạch bài đọc và đặt câu mở rộng
 
@@ -2011,3 +2025,42 @@ Quy chuẩn cho mọi ngày:
 | l2110-w3 | so sánh thời gian đi học của hai người | A + 比 + B + 早／晚 + V | 比；骑 | Dùng đủ hai từ để nói bạn đi xe đạp đến trường sớm hơn bạn cùng lớp nửa tiếng. | 我比同学早骑车去学校半个小时。 |
 | l2110-w4 | nói chiếc xe đạp đã quá cũ | 旧 + danh từ | 旧；换 | Dùng đủ hai từ để nói xe đạp của bạn quá cũ nên muốn đổi một chiếc mới. | 我的自行车太旧了，我想换一辆新的。 |
 | l2110-w5 | nói số lượng áng chừng | Hai số liền nhau + lượng từ + danh từ | 附近；方便 | Dùng đủ hai từ để nói gần nhà bạn có ba bốn chỗ mua đồ rất tiện. | 我家附近有三四个买东西很方便的地方。 |
+
+### l0911 · 09/11/2026
+
+#### Đoạn văn
+
+> 很多人都觉得现在人和人的关系冷冷的。这可能是因为大家工作太忙，忙得没时间跟别人见面，累得不愿意和别人多说话。小丽也是这样，她下了班就想睡觉。她不喜欢一直住在同一个城市，如果有时间，她就去其他城市看一看。周经理年轻的时候也这么想，但是那时候没有钱。其实，如果我们多对别人笑笑，说话时多用一些"您好""谢谢"这样的词语，和别人的关系就会变得更好。
+
+#### Hội thoại
+
+> 小丽：你的牙怎么了？看起来很疼。
+> 小刚：是啊，我的牙还是很疼，疼得昨天晚上没睡着。
+> 小丽：如果不舒服，就去医院检查一下吧。
+> 小刚：检查好几次了，但是没什么用。
+> 小丽：大夫怎么说的？
+> 小刚：每次医生都告诉我，回家好好儿刷牙。
+> 小丽：那你就听医生的。你女儿最近怎么样？
+> 小刚：她长得白白的、胖胖的，真可爱，快一米了。
+> 小丽：她的头发黑黑的，鼻子小小的，长得像谁？
+> 小刚：像她妈妈。刚出生的时候，我高兴得一个晚上都没睡着。
+
+#### Câu hỏi đọc hiểu
+
+| Mã | Câu hỏi | Lựa chọn | Đáp án | Giải thích |
+| --- | --- | --- | --- | --- |
+| l0911-r1 | 为什么现在人和人的关系冷冷的？ | 因为工作太忙，忙得没时间跟别人见面；因为大家都住在同一个城市；因为没有人会说"谢谢"；因为天气变冷了 | 因为工作太忙，忙得没时间跟别人见面 | Đoạn văn nói "这可能是因为大家工作太忙，忙得没时间跟别人见面"。 |
+| l0911-r2 | 小丽下了班以后想做什么？ | 想睡觉；想去跑步；想去买帽子；想去医院 | 想睡觉 | Đoạn văn nói "她下了班就想睡觉"。 |
+| l0911-r3 | 怎么做，和别人的关系才会变得更好？ | 多对别人笑笑，多用"您好""谢谢"这样的词语；多买东西送给别人；少跟别人说话；换一个城市住 | 多对别人笑笑，多用"您好""谢谢"这样的词语 | Đoạn văn nói "如果我们多对别人笑笑，说话时多用一些"您好""谢谢"这样的词语，和别人的关系就会变得更好"。 |
+| l0911-r4 | 小刚的牙疼得怎么样？ | 疼得昨天晚上没睡着；疼得不能吃饭；疼得不想上班；疼得不想说话 | 疼得昨天晚上没睡着 | Trong hội thoại 小刚 nói "我的牙还是很疼，疼得昨天晚上没睡着"。 |
+| l0911-r5 | 小刚的女儿长得像谁？ | 像她妈妈；像她爸爸；像小丽；像周经理 | 像她妈妈 | Trong hội thoại 小刚 nói "像她妈妈"。 |
+
+#### Đặt câu với từ cho sẵn
+
+| Mã | Chủ đề | Công thức | Từ bắt buộc | Yêu cầu | Câu mẫu |
+| --- | --- | --- | --- | --- | --- |
+| l0911-w1 | giả thiết về kế hoạch cuối tuần | 如果 + mệnh đề（的话），（chủ ngữ +）就 + mệnh đề | 如果；城市 | Dùng đủ hai từ để nói nếu cuối tuần rảnh thì bạn sẽ đi một thành phố khác chơi. | 如果周末有时间，我就去别的城市玩儿。 |
+| l0911-w2 | lý do phải đi khám răng | 因为 + vế 1，所以 + vế 2 | 因为；检查 | Dùng đủ hai từ để nói vì răng đau nên hôm nay bạn đã đi bệnh viện kiểm tra. | 因为我的牙很疼，所以今天去医院检查了一下。 |
+| l0911-w3 | tả ngoại hình một em bé | tính từ một âm A → AA 的 | 可爱；头发 | Dùng đủ hai từ để tả một em bé tóc dài, mắt to và rất đáng yêu. | 她头发长长的，眼睛大大的，真可爱。 |
+| l0911-w4 | mệt sau giờ làm | chủ ngữ + động từ／tính từ + 得 + cụm động từ | 累；别人 | Dùng đủ hai từ để nói anh ấy mệt đến mức không muốn nói chuyện với người khác. | 他累得不想和别人说话。 |
+| l0911-w5 | sự thay đổi của thành phố | （danh từ +（的））变化 | 变化；关系 | Dùng đủ hai từ để nói mấy năm nay thành phố thay đổi nhiều và quan hệ giữa mọi người cũng tốt lên. | 这几年城市的变化很大，人和人的关系也变得更好了。 |

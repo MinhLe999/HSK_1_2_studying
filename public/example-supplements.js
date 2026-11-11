@@ -582,5 +582,52 @@ window.HSK_EXAMPLE_SUPPLEMENTS = {
       "我每天学习一两个小时的汉语。",
       "教室里有十一二个学生。"
     ]
+  },
+  "l0911": {
+    "additions": [
+      [
+        "我女朋友的鼻子高高的，头发长长的。",
+        "Bạn gái tôi mũi cao, tóc dài."
+      ],
+      [
+        "我和同学的关系不太好，我想改一改。",
+        "Quan hệ của tôi với bạn cùng lớp không tốt lắm, tôi muốn thay đổi một chút."
+      ],
+      [
+        "那只小狗真可爱，我们把它带回家吧。",
+        "Con chó con kia đáng yêu thật, mình mang nó về nhà đi."
+      ],
+      [
+        "我的车总是有问题，我昨天去检查了一下。",
+        "Xe tôi cứ hỏng suốt, hôm qua tôi đã mang đi kiểm tra."
+      ],
+      [
+        "我已经把电脑借给别人了，对不起。",
+        "Tôi đã cho người khác mượn máy tính rồi, xin lỗi nhé."
+      ],
+      [
+        "你觉得哪个城市最好玩儿？",
+        "Bạn thấy thành phố nào vui nhất?"
+      ],
+      [
+        "她戴着一顶红帽子，穿着一双黑皮鞋。",
+        "Cô ấy đội một chiếc mũ đỏ, đi một đôi giày da đen."
+      ],
+      [
+        "孩子出生以后，家里变得热闹了。",
+        "Sau khi đứa bé chào đời, trong nhà trở nên náo nhiệt hơn."
+      ]
+    ],
+    "patternEvidence": [
+      "如果你太累了，就休息一会儿。",
+      "因为他天天跑步，所以身体很好。",
+      "虽然外面很冷，但是房间里很热。",
+      "几年没见，他变得更胖了。",
+      "最近几十年北京的变化很大。",
+      "我跑得很快。",
+      "她累得下了班就想睡觉。",
+      "你送的花红红的，我很喜欢。",
+      "这个星期我天天都吃羊肉。"
+    ]
   }
 };

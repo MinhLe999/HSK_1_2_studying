@@ -1564,5 +1564,39 @@ window.HSK_PRODUCTION = {
       "required": "骑",
       "sample": "我每天骑十几分钟的自行车就到学校了。"
     }
+  ],
+  "l0911": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "kể việc vệ sinh buổi sáng",
+      "structure": "Chủ ngữ + thời gian + 都要 + động từ",
+      "prompt": "Dùng 刷牙 nói mỗi sáng sau khi dậy bạn đều phải đánh răng.",
+      "required": "刷牙",
+      "sample": "我每天早上起床以后都要刷牙。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "khuyên đồng nghiệp cách làm quan hệ tốt lên",
+      "structure": "如果……，（chủ ngữ +）就……",
+      "prompt": "Dùng 如果……就…… khuyên rằng nếu hay cười với người khác thì quan hệ với đồng nghiệp sẽ tốt lên.",
+      "required": "如果、就",
+      "sample": "如果你多对别人笑笑，你和同事的关系就会变得更好。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "hỏi về tốc độ chạy bộ",
+      "structure": "Chủ ngữ + động từ + 得 + tính từ + 不 + tính từ？",
+      "prompt": "Câu trả lời là 我跑得不快，一公里要六分钟。 Hãy đặt một câu hỏi chính phản dùng bổ ngữ trạng thái.",
+      "required": "跑得",
+      "sample": "你跑得快不快？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "trả lời về cảm xúc của người bố lúc con chào đời",
+      "structure": "Tính từ + 得 + cụm động từ",
+      "prompt": "Có người hỏi 她刚出生的时候，她爸爸怎么样？ Hãy trả lời bằng một câu có 得 kéo theo cả cụm động từ.",
+      "required": "高兴得",
+      "sample": "她刚出生的时候，她爸爸高兴得一个晚上都没睡着。"
+    }
   ]
 };

@@ -6253,5 +6253,152 @@ window.HSK_PRACTICE_EXTENSIONS = {
         "sample": "我家附近有三四个买东西很方便的地方。"
       }
     ]
+  },
+  "l0911": {
+    "date": "09/11/2026",
+    "reading": {
+      "prose": "很多人都觉得现在人和人的关系冷冷的。这可能是因为大家工作太忙，忙得没时间跟别人见面，累得不愿意和别人多说话。小丽也是这样，她下了班就想睡觉。她不喜欢一直住在同一个城市，如果有时间，她就去其他城市看一看。周经理年轻的时候也这么想，但是那时候没有钱。其实，如果我们多对别人笑笑，说话时多用一些\"您好\"\"谢谢\"这样的词语，和别人的关系就会变得更好。",
+      "dialogue": [
+        "小丽：你的牙怎么了？看起来很疼。",
+        "小刚：是啊，我的牙还是很疼，疼得昨天晚上没睡着。",
+        "小丽：如果不舒服，就去医院检查一下吧。",
+        "小刚：检查好几次了，但是没什么用。",
+        "小丽：大夫怎么说的？",
+        "小刚：每次医生都告诉我，回家好好儿刷牙。",
+        "小丽：那你就听医生的。你女儿最近怎么样？",
+        "小刚：她长得白白的、胖胖的，真可爱，快一米了。",
+        "小丽：她的头发黑黑的，鼻子小小的，长得像谁？",
+        "小刚：像她妈妈。刚出生的时候，我高兴得一个晚上都没睡着。"
+      ],
+      "questions": [
+        {
+          "id": "l0911-r1",
+          "prompt": "为什么现在人和人的关系冷冷的？",
+          "options": [
+            "因为工作太忙，忙得没时间跟别人见面",
+            "因为大家都住在同一个城市",
+            "因为没有人会说\"谢谢\"",
+            "因为天气变冷了"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"这可能是因为大家工作太忙，忙得没时间跟别人见面\"。"
+        },
+        {
+          "id": "l0911-r2",
+          "prompt": "小丽下了班以后想做什么？",
+          "options": [
+            "想睡觉",
+            "想去跑步",
+            "想去买帽子",
+            "想去医院"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"她下了班就想睡觉\"。"
+        },
+        {
+          "id": "l0911-r3",
+          "prompt": "怎么做，和别人的关系才会变得更好？",
+          "options": [
+            "多对别人笑笑，多用\"您好\"\"谢谢\"这样的词语",
+            "多买东西送给别人",
+            "少跟别人说话",
+            "换一个城市住"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"如果我们多对别人笑笑，说话时多用一些\"您好\"\"谢谢\"这样的词语，和别人的关系就会变得更好\"。"
+        },
+        {
+          "id": "l0911-r4",
+          "prompt": "小刚的牙疼得怎么样？",
+          "options": [
+            "疼得昨天晚上没睡着",
+            "疼得不能吃饭",
+            "疼得不想上班",
+            "疼得不想说话"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại 小刚 nói \"我的牙还是很疼，疼得昨天晚上没睡着\"。"
+        },
+        {
+          "id": "l0911-r5",
+          "prompt": "小刚的女儿长得像谁？",
+          "options": [
+            "像她妈妈",
+            "像她爸爸",
+            "像小丽",
+            "像周经理"
+          ],
+          "answer": 0,
+          "explanation": "Trong hội thoại 小刚 nói \"像她妈妈\"。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l0911-w1",
+        "kind": "sentence-given-words",
+        "topic": "giả thiết về kế hoạch cuối tuần",
+        "structure": "如果 + mệnh đề（的话），（chủ ngữ +）就 + mệnh đề",
+        "words": [
+          "如果",
+          "城市"
+        ],
+        "required": "如果、城市",
+        "prompt": "Dùng đủ hai từ để nói nếu cuối tuần rảnh thì bạn sẽ đi một thành phố khác chơi.",
+        "sample": "如果周末有时间，我就去别的城市玩儿。"
+      },
+      {
+        "id": "l0911-w2",
+        "kind": "sentence-given-words",
+        "topic": "lý do phải đi khám răng",
+        "structure": "因为 + vế 1，所以 + vế 2",
+        "words": [
+          "因为",
+          "检查"
+        ],
+        "required": "因为、检查",
+        "prompt": "Dùng đủ hai từ để nói vì răng đau nên hôm nay bạn đã đi bệnh viện kiểm tra.",
+        "sample": "因为我的牙很疼，所以今天去医院检查了一下。"
+      },
+      {
+        "id": "l0911-w3",
+        "kind": "sentence-given-words",
+        "topic": "tả ngoại hình một em bé",
+        "structure": "tính từ một âm A → AA 的",
+        "words": [
+          "可爱",
+          "头发"
+        ],
+        "required": "可爱、头发",
+        "prompt": "Dùng đủ hai từ để tả một em bé tóc dài, mắt to và rất đáng yêu.",
+        "sample": "她头发长长的，眼睛大大的，真可爱。"
+      },
+      {
+        "id": "l0911-w4",
+        "kind": "sentence-given-words",
+        "topic": "mệt sau giờ làm",
+        "structure": "chủ ngữ + động từ／tính từ + 得 + cụm động từ",
+        "words": [
+          "累",
+          "别人"
+        ],
+        "required": "累、别人",
+        "prompt": "Dùng đủ hai từ để nói anh ấy mệt đến mức không muốn nói chuyện với người khác.",
+        "sample": "他累得不想和别人说话。"
+      },
+      {
+        "id": "l0911-w5",
+        "kind": "sentence-given-words",
+        "topic": "sự thay đổi của thành phố",
+        "structure": "（danh từ +（的））变化",
+        "words": [
+          "变化",
+          "关系"
+        ],
+        "required": "变化、关系",
+        "prompt": "Dùng đủ hai từ để nói mấy năm nay thành phố thay đổi nhiều và quan hệ giữa mọi người cũng tốt lên.",
+        "sample": "这几年城市的变化很大，人和人的关系也变得更好了。"
+      }
+    ]
   }
 };

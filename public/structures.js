@@ -4076,5 +4076,252 @@ window.HSK_STRUCTURES = {
         }
       }
     ]
+  },
+  "l0911": {
+    "date": "09/11/2026",
+    "topic": "如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的",
+    "items": [
+      {
+        "id": "l0911-s1",
+        "formula": "1.1 如果 + mệnh đề（的话），（chủ ngữ +）就 + mệnh đề",
+        "sense": "Nếu … thì … (giả thiết chưa xảy ra)",
+        "usage": "Vế trước nêu một giả thiết chưa xảy ra, vế sau nêu kết quả dựa trên giả thiết đó\n的话 đứng cuối vế giả thiết và có thể lược bỏ\n就 luôn đứng sau chủ ngữ của vế sau, không đứng đầu câu.",
+        "examples": [
+          "如果你太累了，就休息一会儿。",
+          "如果你不舒服，就去医院检查一下吧。",
+          "如果有钱，我就买一辆车子。"
+        ],
+        "meanings": [
+          "Nếu bạn mệt quá thì nghỉ một lát đi.",
+          "Nếu bạn không khỏe thì đi bệnh viện kiểm tra một chút đi.",
+          "Nếu có tiền thì tôi sẽ mua một chiếc xe."
+        ]
+      },
+      {
+        "id": "l0911-s2",
+        "formula": "1.2 因为 + vế 1（nguyên nhân），所以 + vế 2（kết quả）",
+        "sense": "Vì … nên …",
+        "usage": "Cặp từ nối chỉ quan hệ nhân quả\nhai chữ đi thành cặp, vế nguyên nhân luôn đứng trước\ncó thể lược một trong hai chữ khi ý đã rõ.",
+        "examples": [
+          "因为他天天跑步，所以身体很好。",
+          "因为明天要考试，所以我今天要认真复习。",
+          "因为他的儿子感冒了，所以他今天在家照顾儿子。"
+        ],
+        "meanings": [
+          "Vì cậu ấy ngày nào cũng chạy bộ nên sức khỏe rất tốt.",
+          "Vì mai phải thi nên hôm nay tôi phải ôn tập nghiêm túc.",
+          "Vì con trai anh ấy bị cảm nên hôm nay anh ấy ở nhà chăm con."
+        ]
+      },
+      {
+        "id": "l0911-s3",
+        "formula": "1.3 虽然 + vế 1（sự thật），但是 + vế 2（trái ngược）",
+        "sense": "Tuy … nhưng …",
+        "usage": "Cặp từ nối chỉ quan hệ nhượng bộ\nvế sau mới là ý chính người nói muốn nhấn mạnh\nkhông bỏ 但是 như tiếng Việt vẫn hay bỏ chữ \"nhưng\".",
+        "examples": [
+          "虽然外面很冷，但是房间里很热。",
+          "虽然我对音乐很感兴趣，但是我不会唱歌。",
+          "虽然他学习很努力，但是汉语水平一直没提高。"
+        ],
+        "meanings": [
+          "Tuy bên ngoài rất lạnh nhưng trong phòng rất nóng.",
+          "Tuy tôi rất thích âm nhạc nhưng tôi không biết hát.",
+          "Tuy cậu ấy học rất chăm nhưng trình độ tiếng Trung vẫn không tiến bộ."
+        ],
+        "table": {
+          "columns": [
+            "Quan hệ",
+            "Cặp từ nối"
+          ],
+          "rows": [
+            [
+              "Nguyên nhân – kết quả",
+              "因为……，所以……"
+            ],
+            [
+              "Nhượng bộ",
+              "虽然……，但是……"
+            ],
+            [
+              "Giả thiết – kết quả",
+              "如果……（的话），（chủ ngữ +）就……"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0911-s4",
+        "formula": "2.1 chủ ngữ + 变 + tính từ／变得更 + tính từ",
+        "sense": "Trở nên …, biến thành …",
+        "usage": "变 là động từ, nói về sự chuyển sang một trạng thái khác\n变 + tính từ một âm (大／小／胖／瘦／绿……)\nthêm 得更 khi muốn nói \"càng … hơn\".",
+        "examples": [
+          "春天到了，草变绿了。",
+          "几年没见，他变得更胖了。",
+          "冬天到了，天气变冷了。"
+        ],
+        "meanings": [
+          "Mùa xuân đến rồi, cỏ đã xanh lên.",
+          "Mấy năm không gặp, cậu ấy béo hơn trước.",
+          "Mùa đông đến rồi, trời trở lạnh."
+        ],
+        "table": {
+          "columns": [
+            "",
+            "变",
+            "变化"
+          ],
+          "rows": [
+            [
+              "Từ loại",
+              "động từ",
+              "danh từ hoặc động từ"
+            ],
+            [
+              "Cách dùng",
+              "变 + tính từ、变得更 + tính từ",
+              "……（的）变化、有变化、没有变化"
+            ],
+            [
+              "Ví dụ",
+              "草变绿了。",
+              "北京的变化很大。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0911-s5",
+        "formula": "2.2 （danh từ +（的））变化",
+        "sense": "Sự thay đổi",
+        "usage": "变化 đứng làm danh từ trong cụm sở hữu, hoặc làm vị ngữ với 有／没有\nkhi nói \"hầu như không thay đổi\" thì dùng được cả 没变 lẫn 没变化.",
+        "examples": [
+          "最近几十年北京的变化很大。",
+          "她从美国回来后有一些变化，但是不大。",
+          "快五年了，你几乎没变化。"
+        ],
+        "meanings": [
+          "Mấy chục năm gần đây Bắc Kinh thay đổi rất nhiều.",
+          "Sau khi từ Mỹ về cô ấy có vài thay đổi, nhưng không lớn.",
+          "Sắp năm năm rồi mà bạn hầu như không thay đổi."
+        ]
+      },
+      {
+        "id": "l0911-s6",
+        "formula": "3.1 chủ ngữ + động từ + 得 + tính từ",
+        "sense": "Làm (việc gì) … (như thế nào)",
+        "usage": "Bổ ngữ trạng thái, nói mức độ hoặc chất lượng của hành động\nphủ định đặt 不 sau 得: V + 得 + 不 + tính từ\nnghi vấn dùng V + 得 + tính từ + 不 + tính từ, bằng với V + 得 + tính từ + 吗.",
+        "examples": [
+          "我跑得很快。",
+          "我住得不远。",
+          "你跑得快不快？"
+        ],
+        "meanings": [
+          "Tôi chạy rất nhanh.",
+          "Tôi ở không xa.",
+          "Bạn chạy nhanh không?"
+        ]
+      },
+      {
+        "id": "l0911-s7",
+        "formula": "3.2 chủ ngữ + động từ／tính từ + 得 + cụm động từ",
+        "sense": "… đến mức …",
+        "usage": "Phần sau 得 không còn là tính từ mà là cả một cụm động từ, nêu trạng thái do hành động hoặc tính chất phía trước gây ra\nđây là dạng hay gặp nhất của bài này.",
+        "examples": [
+          "孩子们玩儿得不想回家。",
+          "她累得下了班就想睡觉。",
+          "弟弟高兴得跳了起来。"
+        ],
+        "meanings": [
+          "Bọn trẻ chơi đến mức không muốn về nhà.",
+          "Cô ấy mệt đến mức tan làm là muốn đi ngủ.",
+          "Em trai vui đến mức nhảy cẫng lên."
+        ]
+      },
+      {
+        "id": "l0911-s8",
+        "formula": "4.1 tính từ một âm A → AA 的",
+        "sense": "Rất A (tả đặc điểm)",
+        "usage": "Láy tính từ một âm tiết rồi thêm 的, nghĩa tương đương 很 + A nhưng mềm và hình ảnh hơn\nthường dùng tả đặc điểm người hoặc vật\nkhông thêm 很 trước dạng láy.",
+        "examples": [
+          "你女儿长得白白的、胖胖的，真可爱！",
+          "你送的花红红的，我很喜欢。",
+          "那个女孩头发长长的，眼睛大大的。"
+        ],
+        "meanings": [
+          "Con gái bạn trắng trẻo, mũm mĩm, đáng yêu thật!",
+          "Hoa bạn tặng đỏ thắm, tôi rất thích.",
+          "Cô gái kia tóc dài dài, mắt to tròn."
+        ],
+        "table": {
+          "columns": [
+            "Dạng gốc",
+            "Dạng láy"
+          ],
+          "rows": [
+            [
+              "红",
+              "红红的"
+            ],
+            [
+              "白",
+              "白白的"
+            ],
+            [
+              "胖",
+              "胖胖的"
+            ],
+            [
+              "长",
+              "长长的"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0911-s9",
+        "formula": "4.2 Láy lượng từ và láy động từ",
+        "sense": "Mỗi …, làm … một chút",
+        "usage": "Lượng từ một âm A → AA mang nghĩa \"mỗi\", hay đi cùng 都\nđộng từ một âm A → AA hoặc A 一 A\nđộng từ hai âm AB → ABAB, không láy thành AABB.",
+        "examples": [
+          "这个星期我天天都吃羊肉。",
+          "我想和你说说话。",
+          "你准备准备，她一个小时以后就到。"
+        ],
+        "meanings": [
+          "Tuần này ngày nào tôi cũng ăn thịt dê.",
+          "Tôi muốn nói chuyện với bạn một lát.",
+          "Bạn chuẩn bị chút đi, một tiếng nữa cô ấy đến."
+        ],
+        "table": {
+          "columns": [
+            "Loại từ",
+            "Cách láy",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "Lượng từ một âm",
+              "A → AA（nghĩa 每一, hay đi với 都）",
+              "这个星期天天都吃羊肉。"
+            ],
+            [
+              "Động từ một âm",
+              "A → AA hoặc A 一 A",
+              "我想和你说说话。"
+            ],
+            [
+              "Động từ hai âm",
+              "AB → ABAB",
+              "你准备准备。"
+            ],
+            [
+              "Tính từ một âm",
+              "A → AA 的",
+              "你送的花红红的。"
+            ]
+          ]
+        }
+      }
+    ]
   }
 };

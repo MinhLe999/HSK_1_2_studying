@@ -9822,6 +9822,806 @@ window.HSK_CONTENT = {
           ]
         ]
       }
+    },
+    {
+      "id": "l0911",
+      "date": "09/11/2026",
+      "shortDate": "09/11",
+      "title": "如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy AA 的",
+      "focus": "如果……（的话）就…… / 因为…所以… / 虽然…但是… / 变 VS 变化 / V 得 + tính từ / V 得 + cụm động từ / AA 的",
+      "pages": "slide 1-70",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在公司 — ở công ty",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161422_bnsymhat/data/sound10.mp3",
+          "note": "Slide 45-49. Bài nghe yêu cầu sắp xếp sáu lượt thoại (đáp án trên slide: 2 6 1 5 3 4) và làm năm câu đúng/sai (slide 46).",
+          "dialogueLines": [
+            "小丽：我不喜欢一直住在同一个城市，想去其他城市看一看。",
+            "周明：我年轻的时候也这么想，但是那时候没有钱，如果有钱，就去了。",
+            "小丽：那您现在为什么不去？",
+            "周明：现在钱不是问题了，主要是没有时间。",
+            "小丽：我认为现在您有时间也不会出去玩儿。",
+            "周明：你说得对，我现在累得下了班就想睡觉。"
+          ],
+          "trueFalse": [
+            [
+              "女的希望可以换地方住。",
+              true,
+              "小丽 nói “我不喜欢一直住在同一个城市，想去其他城市看一看”."
+            ],
+            [
+              "男的以前也想去别的地方看一下。",
+              true,
+              "周明 nói “我年轻的时候也这么想”."
+            ],
+            [
+              "男的现在有钱。",
+              true,
+              "周明 nói “现在钱不是问题了”, tức là tiền không còn là vấn đề."
+            ],
+            [
+              "现在如果男的有时间的话，他就会出去玩儿。",
+              false,
+              "小丽 nói “您有时间也不会出去玩儿” và 周明 đáp “你说得对”."
+            ],
+            [
+              "男的累得下了班除了睡觉，其他什么都不想做。",
+              true,
+              "周明 nói “我现在累得下了班就想睡觉”."
+            ]
+          ]
+        },
+        {
+          "title": "课文2 · 在同事家 — ở nhà đồng nghiệp",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161422_bnsymhat/data/sound13.mp3",
+          "note": "Slide 50-54. Thứ tự đúng trên slide: 2 4 3 5 1. Đoạn này tập trung vào 长得 + AA 的 và 高兴得 + cụm động từ.",
+          "dialogueLines": [
+            "同事：谢谢你们来看我女儿，你送的小皮鞋和小帽子真漂亮！",
+            "小丽：别客气，你女儿长得白白的、胖胖的，真可爱！现在多高了？",
+            "同事：快1米了，25公斤。",
+            "小丽：你看她鼻子小小的，头发黑黑的，长得像谁？",
+            "同事：像她爸爸，刚出生时她爸爸高兴得一个晚上都没睡着。"
+          ],
+          "trueFalse": []
+        },
+        {
+          "title": "课文3 · 在公司 — chuyện đau răng",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161422_bnsymhat/data/sound14.mp3",
+          "note": "Slide 55-59. Thứ tự đúng trên slide: 5 1 4 3 2. Đoạn ngắn nhất, luyện 如果……就…… trong lời khuyên.",
+          "dialogueLines": [
+            "小刚：我的牙还是很疼。",
+            "同事：如果不舒服，就去医院检查一下吧。",
+            "小刚：检查好几次了，但是没什么用。",
+            "同事：大夫怎么说的？",
+            "小刚：每次医生都告诉我，回家好好儿刷牙。"
+          ],
+          "trueFalse": []
+        },
+        {
+          "title": "课文4 · đoạn văn về quan hệ giữa người với người",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161422_bnsymhat/data/sound15.mp3",
+          "note": "Slide 60-62. Thứ tự đúng trên slide: 2 5 1 3 4. Đây là đoạn văn chứ không phải hội thoại, mỗi dòng là một ý trong đoạn.",
+          "dialogueLines": [
+            "很多人都觉得现在人和人的关系冷冷的。",
+            "这可能是因为工作太忙，忙得没时间跟别人见面，累得不愿意和别人多说话。",
+            "其实，我们应该多对别人笑笑。",
+            "说话时如果能多用一些“您好”“谢谢”这样的词语，和别人的关系就会变得更好。"
+          ],
+          "trueFalse": []
+        }
+      ],
+      "notes": [
+        "Đây là bài HSK3 đầu tiên trong app (HSK 标准教程 3, bài 16). Nguồn là bộ slide lớp học trên school.chineserd.com chứ không phải PDF trong materials/, nên trường pages ghi theo số slide.",
+        "如果……（的话），（chủ ngữ +）就……: vế đầu là giả thiết CHƯA xảy ra, vế sau là kết quả. 的话 có thể lược bỏ. 就 phải đứng sau chủ ngữ của vế sau, không mở đầu câu: 如果有钱，我就买一辆车子。(không nói 如果有钱，就我买……).",
+        "Ba cặp từ nối học chung một chỗ: 因为……，所以…… (nhân quả), 虽然……，但是…… (nhượng bộ), 如果……，就…… (giả thiết). Tiếng Trung giữ cả hai vế của cặp, khác tiếng Việt hay lược chữ “nhưng”.",
+        "变 VS 变化: 变 là động từ, đi với tính từ — 变 + tính từ (草变绿了) hoặc 变得更 + tính từ (他变得更胖了). 变化 là danh từ (hoặc động từ) chỉ bản thân sự thay đổi — ……（的）变化 (北京的变化很大), 有变化, 没有变化. Câu “快五年了，你几乎没变／没变化” dùng được cả hai.",
+        "Bổ ngữ trạng thái với 得 có hai kiểu. Kiểu 1: V + 得 + tính từ, nói hành động diễn ra thế nào (我跑得很快). Phủ định đặt 不 SAU 得: 我跑得不快. Nghi vấn: 你跑得快不快？= 你跑得快吗？. Kiểu 2 (trọng tâm bài này): V/tính từ + 得 + CẢ MỘT CỤM ĐỘNG TỪ, nói trạng thái do hành động gây ra: 她累得下了班就想睡觉。／弟弟高兴得跳了起来。",
+        "AA 的: láy tính từ một âm tiết rồi thêm 的, nghĩa bằng 很 + tính từ nhưng mềm và gợi hình hơn, hay dùng tả người hoặc vật — 红红的、白白的、胖胖的、长长的. Đã láy thì không thêm 很 ở trước nữa.",
+        "Bảng láy đầy đủ của bài: lượng từ một âm A → AA mang nghĩa “mỗi” và hay đi với 都 (天天都吃羊肉); động từ một âm A → AA hoặc A 一 A (说说话 / 看一看); động từ hai âm AB → ABAB (准备准备), không láy thành AABB; tính từ một âm A → AA 的."
+      ],
+      "vocab": [
+        [
+          "城市",
+          "chéngshì",
+          "thành phố (Hán-Việt: Thành Thị)"
+        ],
+        [
+          "如果",
+          "rúguǒ",
+          "nếu, nếu như (Hán-Việt: Như Quả)"
+        ],
+        [
+          "认为",
+          "rènwéi",
+          "cho rằng, nhận định (Hán-Việt: Nhận Vi)"
+        ],
+        [
+          "检查",
+          "jiǎnchá",
+          "kiểm tra, khám (Hán-Việt: Kiểm Tra)"
+        ],
+        [
+          "刷牙",
+          "shuā yá",
+          "đánh răng"
+        ],
+        [
+          "关系",
+          "guānxi",
+          "quan hệ, mối quan hệ (Hán-Việt: Quan Hệ)"
+        ],
+        [
+          "别人",
+          "biérén",
+          "người khác"
+        ],
+        [
+          "词语",
+          "cíyǔ",
+          "từ ngữ (Hán-Việt: Từ Ngữ)"
+        ],
+        [
+          "皮鞋",
+          "píxié",
+          "giày da"
+        ],
+        [
+          "帽子",
+          "màozi",
+          "cái mũ, cái nón"
+        ],
+        [
+          "可爱",
+          "kě'ài",
+          "đáng yêu (Hán-Việt: Khả Ái)"
+        ],
+        [
+          "鼻子",
+          "bízi",
+          "cái mũi"
+        ],
+        [
+          "头发",
+          "tóufa",
+          "tóc"
+        ],
+        [
+          "变",
+          "biàn",
+          "thay đổi, trở nên (Hán-Việt: Biến)"
+        ],
+        [
+          "出生",
+          "chūshēng",
+          "sinh ra, chào đời (Hán-Việt: Xuất Sinh)"
+        ]
+      ],
+      "patterns": [
+        [
+          "如果 + mệnh đề（的话），（chủ ngữ +）就 + mệnh đề",
+          "Nếu … thì …\nVế đầu nêu giả thiết chưa xảy ra, vế sau nêu kết quả.\n的话 đặt cuối vế giả thiết và có thể bỏ; 就 đứng sau chủ ngữ của vế sau."
+        ],
+        [
+          "因为 + vế 1，所以 + vế 2",
+          "Vì … nên …\nCặp từ nối chỉ nguyên nhân – kết quả, vế nguyên nhân đứng trước.\nTiếng Trung giữ cả hai vế, không lược như tiếng Việt."
+        ],
+        [
+          "虽然 + vế 1，但是 + vế 2",
+          "Tuy … nhưng …\nCặp từ nối chỉ nhượng bộ; ý chính nằm ở vế sau.\nKhông dùng kèm 可是 trong cùng một câu."
+        ],
+        [
+          "变 + tính từ／变得更 + tính từ",
+          "Trở nên …\n变 là động từ, đi thẳng với tính từ: 草变绿了。\nThêm 得更 khi nhấn mạnh mức độ tăng lên: 他变得更胖了。"
+        ],
+        [
+          "（danh từ +（的））变化",
+          "Sự thay đổi của …\n变化 làm danh từ nên đi sau 的, sau 一些, hoặc với 有／没有.\nKhông nói 变化 + tính từ."
+        ],
+        [
+          "chủ ngữ + động từ + 得 + tính từ",
+          "Làm việc gì đó … như thế nào\nKhẳng định: 我跑得很快。\nPhủ định đặt 不 SAU 得: 我跑得不快。\nNghi vấn chính phản: 你跑得快不快？"
+        ],
+        [
+          "chủ ngữ + động từ／tính từ + 得 + cụm động từ",
+          "… đến mức …\nPhần sau 得 là cả một cụm động từ, nêu trạng thái do hành động hoặc tính chất gây ra."
+        ],
+        [
+          "tính từ một âm A → AA 的",
+          "Rất A, dùng tả đặc điểm\nNghĩa tương đương 很 + A nhưng mềm và gợi hình hơn.\nĐã láy thì không thêm 很 ở trước và không bỏ 的."
+        ],
+        [
+          "Láy lượng từ A → AA; láy động từ A → AA／A 一 A, AB → ABAB",
+          "Mỗi …; làm … một chút\nLượng từ láy mang nghĩa 每一 và hay đi với 都: 天天都吃羊肉。\nĐộng từ hai âm láy thành ABAB (准备准备), không láy thành AABB."
+        ]
+      ],
+      "examples": [
+        [
+          "如果你太累了，就休息一会儿。",
+          "Nếu bạn mệt quá thì nghỉ một lát đi."
+        ],
+        [
+          "如果你不舒服，就去医院检查一下吧。",
+          "Nếu bạn không khỏe thì đi bệnh viện kiểm tra một chút đi."
+        ],
+        [
+          "如果有钱，我就买一辆车子。",
+          "Nếu có tiền thì tôi sẽ mua một chiếc xe."
+        ],
+        [
+          "如果周末天气好，我们就去爬山。",
+          "Nếu cuối tuần trời đẹp thì chúng ta đi leo núi."
+        ],
+        [
+          "因为他天天跑步，所以身体很好。",
+          "Vì cậu ấy ngày nào cũng chạy bộ nên sức khỏe rất tốt."
+        ],
+        [
+          "因为明天要考试，所以我今天要认真复习。",
+          "Vì mai phải thi nên hôm nay tôi phải ôn tập nghiêm túc."
+        ],
+        [
+          "因为他的儿子感冒了，所以他今天在家照顾儿子。",
+          "Vì con trai anh ấy bị cảm nên hôm nay anh ấy ở nhà chăm con."
+        ],
+        [
+          "虽然外面很冷，但是房间里很热。",
+          "Tuy bên ngoài rất lạnh nhưng trong phòng rất nóng."
+        ],
+        [
+          "虽然我对音乐很感兴趣，但是我不会唱歌。",
+          "Tuy tôi rất thích âm nhạc nhưng tôi không biết hát."
+        ],
+        [
+          "虽然他学习很努力，但是汉语水平一直没提高。",
+          "Tuy cậu ấy học rất chăm nhưng trình độ tiếng Trung vẫn không tiến bộ."
+        ],
+        [
+          "春天到了，草变绿了。",
+          "Mùa xuân đến rồi, cỏ đã xanh lên."
+        ],
+        [
+          "冬天到了，天气变冷了。",
+          "Mùa đông đến rồi, trời trở lạnh."
+        ],
+        [
+          "几年没见，他变得更胖了。",
+          "Mấy năm không gặp, cậu ấy béo hơn trước."
+        ],
+        [
+          "说话时多用一些“谢谢”这样的词语，和别人的关系就会变得更好。",
+          "Khi nói chuyện mà dùng thêm những từ ngữ như “cảm ơn” thì quan hệ với người khác sẽ tốt lên."
+        ],
+        [
+          "最近几十年北京的变化很大。",
+          "Mấy chục năm gần đây Bắc Kinh thay đổi rất nhiều."
+        ],
+        [
+          "她从美国回来后有一些变化，但是不大。",
+          "Sau khi từ Mỹ về cô ấy có vài thay đổi, nhưng không lớn."
+        ],
+        [
+          "快五年了，你几乎没变化。",
+          "Sắp năm năm rồi mà bạn hầu như không thay đổi."
+        ],
+        [
+          "我跑得很快。",
+          "Tôi chạy rất nhanh."
+        ],
+        [
+          "我住得不远。",
+          "Tôi ở không xa."
+        ],
+        [
+          "你跑得快不快？",
+          "Bạn chạy có nhanh không?"
+        ],
+        [
+          "你住得远不远？",
+          "Bạn ở có xa không?"
+        ],
+        [
+          "孩子们玩儿得不想回家。",
+          "Bọn trẻ chơi đến mức không muốn về nhà."
+        ],
+        [
+          "她累得下了班就想睡觉。",
+          "Cô ấy mệt đến mức tan làm là muốn đi ngủ."
+        ],
+        [
+          "弟弟高兴得跳了起来。",
+          "Em trai vui đến mức nhảy cẫng lên."
+        ],
+        [
+          "她忙得没时间和别人见面。",
+          "Cô ấy bận đến mức không có thời gian gặp người khác."
+        ],
+        [
+          "他急得帽子都没拿。",
+          "Anh ấy vội đến mức cái mũ cũng không cầm theo."
+        ],
+        [
+          "你女儿长得白白的、胖胖的，真可爱！",
+          "Con gái bạn trắng trẻo, mũm mĩm, đáng yêu thật!"
+        ],
+        [
+          "你送的花红红的，我很喜欢。",
+          "Hoa bạn tặng đỏ thắm, tôi rất thích."
+        ],
+        [
+          "那个女孩头发长长的，眼睛大大的。",
+          "Cô gái kia tóc dài, mắt to tròn."
+        ],
+        [
+          "她的鼻子小小的，头发黑黑的。",
+          "Mũi em bé nhỏ xinh, tóc đen nhánh."
+        ],
+        [
+          "这个星期我天天都吃羊肉。",
+          "Tuần này ngày nào tôi cũng ăn thịt dê."
+        ],
+        [
+          "我想和你说说话。",
+          "Tôi muốn nói chuyện với bạn một lát."
+        ],
+        [
+          "你准备准备，她一个小时以后就到。",
+          "Bạn chuẩn bị chút đi, một tiếng nữa cô ấy đến."
+        ],
+        [
+          "我不喜欢一直住在同一个城市，想去其他城市看一看。",
+          "Tôi không thích cứ ở mãi một thành phố, muốn đi thành phố khác xem thử."
+        ],
+        [
+          "我认为现在您有时间也不会出去玩儿。",
+          "Tôi cho rằng bây giờ dù có thời gian anh cũng sẽ không đi chơi."
+        ],
+        [
+          "每次医生都告诉我，回家好好儿刷牙。",
+          "Lần nào bác sĩ cũng bảo tôi về nhà đánh răng cho kỹ."
+        ],
+        [
+          "你送的小皮鞋和小帽子真漂亮！",
+          "Đôi giày da nhỏ và cái mũ nhỏ bạn tặng đẹp thật!"
+        ],
+        [
+          "她刚出生的时候，她爸爸高兴得一个晚上都没睡着。",
+          "Lúc bé mới chào đời, bố bé vui đến mức cả đêm không ngủ được."
+        ],
+        [
+          "我的牙还是很疼，检查好几次了，但是没什么用。",
+          "Răng tôi vẫn rất đau, đã đi khám mấy lần rồi mà chẳng ăn thua."
+        ]
+      ],
+      "drills": [
+        [
+          "Nói “Nếu bạn mệt quá thì nghỉ một lát đi”.",
+          "如果你太累了，就休息一会儿。"
+        ],
+        [
+          "Nói “Nếu không khỏe thì đi bệnh viện kiểm tra một chút đi”.",
+          "如果不舒服，就去医院检查一下吧。"
+        ],
+        [
+          "Dùng 因为……所以…… nói vì mai phải thi nên hôm nay phải ôn tập nghiêm túc.",
+          "因为明天要考试，所以我今天要认真复习。"
+        ],
+        [
+          "Dùng 虽然……但是…… nói tuy cậu ấy học rất chăm nhưng trình độ tiếng Trung vẫn không tiến bộ.",
+          "虽然他学习很努力，但是汉语水平一直没提高。"
+        ],
+        [
+          "Dùng 变 nói mùa đông đến rồi, trời trở lạnh.",
+          "冬天到了，天气变冷了。"
+        ],
+        [
+          "Dùng 变化 nói mấy chục năm gần đây Bắc Kinh thay đổi rất nhiều.",
+          "最近几十年北京的变化很大。"
+        ],
+        [
+          "Đặt câu hỏi chính phản: hỏi bạn chạy có nhanh không.",
+          "你跑得快不快？"
+        ],
+        [
+          "Nói “Tôi ở không xa” bằng bổ ngữ trạng thái.",
+          "我住得不远。"
+        ],
+        [
+          "Dùng 得 + cụm động từ nói cô ấy mệt đến mức tan làm là muốn đi ngủ.",
+          "她累得下了班就想睡觉。"
+        ],
+        [
+          "Dùng AA 的 tả con gái người ta trắng trẻo, mũm mĩm, rất đáng yêu.",
+          "你女儿长得白白的、胖胖的，真可爱！"
+        ],
+        [
+          "Dùng động từ láy nói bạn muốn nói chuyện với người ta một lát.",
+          "我想和你说说话。"
+        ]
+      ],
+      "quiz": [
+        [
+          "Chọn đáp án đúng: 如果你不舒服，____去医院检查一下吧。",
+          [
+            "就",
+            "才",
+            "再",
+            "还"
+          ],
+          0,
+          "Cặp 如果……就…… luôn đi với nhau, 就 đứng ở vế kết quả (slide 17, 21)."
+        ],
+        [
+          "Chọn từ đúng: 几年没见，他____得更胖了。",
+          [
+            "变",
+            "变化",
+            "改",
+            "换"
+          ],
+          0,
+          "Đi với tính từ phải dùng động từ 变; 变化 là danh từ chỉ bản thân sự thay đổi (slide 23)."
+        ],
+        [
+          "Chọn từ đúng: 最近几十年北京的____很大。",
+          [
+            "变化",
+            "变",
+            "变得",
+            "变更"
+          ],
+          0,
+          "Sau 的 cần một danh từ nên dùng 变化 (slide 23-24)."
+        ],
+        [
+          "Câu nào đúng?",
+          [
+            "我跑得不快。",
+            "我不跑得快。",
+            "我跑不得快。",
+            "我得跑不快。"
+          ],
+          0,
+          "Phủ định của bổ ngữ trạng thái đặt 不 sau 得 (slide 26)."
+        ],
+        [
+          "Chọn cách nói đúng với AA 的:",
+          [
+            "你送的花红红的。",
+            "你送的花很红红的。",
+            "你送的花红的红。",
+            "你送的花红红。"
+          ],
+          0,
+          "Dạng láy AA 的 đã mang nghĩa 很 nên không thêm 很, và không bỏ 的 (slide 32)."
+        ],
+        [
+          "Chọn từ đúng: 我____现在您有时间也不会出去玩儿。",
+          [
+            "认为",
+            "认真",
+            "认识",
+            "以为"
+          ],
+          0,
+          "认为 nghĩa là “cho rằng”, dùng để nêu nhận định (课文1, slide 47)."
+        ]
+      ],
+      "practice": {
+        "cloze": [
+          {
+            "title": "练一练 · Điền cặp từ nối 因为…所以… / 虽然…但是… / 如果…就…",
+            "description": "Bài luyện slide 22. Đáp án đã hiện sẵn trên slide.",
+            "items": [
+              [
+                "____明天要考试，____我今天要认真复习。",
+                [
+                  "因为",
+                  "所以"
+                ],
+                "Quan hệ nguyên nhân – kết quả nên dùng 因为……所以……"
+              ],
+              [
+                "____不舒服，你____去医院检查一下吧。",
+                [
+                  "如果",
+                  "就"
+                ],
+                "Vế đầu là giả thiết chưa xảy ra nên dùng 如果……就……"
+              ],
+              [
+                "____我对音乐很感兴趣，____我不会唱歌。",
+                [
+                  "虽然",
+                  "但是"
+                ],
+                "Hai vế trái ngược nhau nên dùng 虽然……但是……"
+              ],
+              [
+                "____他学习很努力，____汉语水平一直没提高。",
+                [
+                  "虽然",
+                  "但是"
+                ],
+                "Chăm học mà không tiến bộ là ý trái ngược, dùng 虽然……但是……"
+              ],
+              [
+                "____你不努力学习，你的汉语水平____不会提高。",
+                [
+                  "如果",
+                  "就"
+                ],
+                "Giả thiết chưa xảy ra, kết quả suy ra từ giả thiết đó."
+              ],
+              [
+                "____他的儿子感冒了，____他今天在家照顾儿子。",
+                [
+                  "因为",
+                  "所以"
+                ],
+                "Con ốm là nguyên nhân, ở nhà chăm con là kết quả."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn 变 hay 变化",
+            "description": "Bài luyện slide 24. Câu 4 trên slide chấp nhận cả hai đáp án.",
+            "items": [
+              [
+                "冬天到了，天气____冷了。",
+                [
+                  "变"
+                ],
+                "Đi liền với tính từ 冷 nên dùng động từ 变."
+              ],
+              [
+                "几年不见，你____得更漂亮了。",
+                [
+                  "变"
+                ],
+                "Dạng 变得更 + tính từ."
+              ],
+              [
+                "她从美国回来后有一些____，但是不大。",
+                [
+                  "变化"
+                ],
+                "Sau 一些 cần danh từ nên dùng 变化."
+              ],
+              [
+                "十年过去了，她几乎没____。",
+                [
+                  "变",
+                  "变化"
+                ],
+                "Slide ghi rõ câu này dùng được cả 变 lẫn 变化."
+              ],
+              [
+                "说话时如果多用一些“谢谢”这样的词语，和别人的关系就会____得更好。",
+                [
+                  "变"
+                ],
+                "Dạng 变得更 + tính từ, chủ ngữ là 关系."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn từ mới điền vào chỗ trống",
+            "description": "Bài tổng ôn từ vựng slide 67-69. Ngân hàng từ: 关系、可爱、鼻子、城市、如果、米、检查、公斤、认为、刷牙、别人.",
+            "items": [
+              [
+                "____我的丈夫能少一些会议，他就会多跟我和孩子在一起了。",
+                [
+                  "如果"
+                ],
+                "Vế sau có 就, nên vế trước là 如果."
+              ],
+              [
+                "你觉得哪个____最好玩儿？",
+                [
+                  "城市"
+                ],
+                "Nói về nơi chốn để đi chơi nên là 城市."
+              ],
+              [
+                "我和同学的____不太好，怎么办？",
+                [
+                  "关系"
+                ],
+                "Nói về mối quan hệ giữa người với người."
+              ],
+              [
+                "我女朋友____高高的、头发长长的，非常好看。",
+                [
+                  "鼻子"
+                ],
+                "Tả bộ phận trên khuôn mặt, đi với dạng láy AA 的."
+              ],
+              [
+                "那个小狗真____，我们把它带回家吧。",
+                [
+                  "可爱"
+                ],
+                "Tính từ tả con vật dễ thương."
+              ],
+              [
+                "我的车总是有问题，我去____了一下。",
+                [
+                  "检查"
+                ],
+                "Mang xe đi kiểm tra."
+              ],
+              [
+                "今天起晚了，____以后就来上课了。",
+                [
+                  "刷牙"
+                ],
+                "Việc làm buổi sáng trước khi đi học."
+              ],
+              [
+                "咱们去南方玩儿玩儿吧。——我____，还是北方更好玩儿一些。",
+                [
+                  "认为"
+                ],
+                "Nêu nhận định cá nhân nên dùng 认为."
+              ],
+              [
+                "你能把你的电脑借给我吗？——不好意思，我已经借给____了。",
+                [
+                  "别人"
+                ],
+                "Đã cho người khác mượn."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "练一练 · Sắp xếp thành câu có 得 + cụm động từ",
+            "description": "Bài luyện slide 30-31, đáp án đã hiện trên slide.",
+            "items": [
+              [
+                [
+                  "忙得",
+                  "人们",
+                  "见面",
+                  "跟别人",
+                  "没时间"
+                ],
+                "人们忙得没时间跟别人见面。"
+              ],
+              [
+                [
+                  "他",
+                  "帽子",
+                  "都",
+                  "急得",
+                  "没拿"
+                ],
+                "他急得帽子都没拿。"
+              ],
+              [
+                [
+                  "睡觉",
+                  "累得",
+                  "马上",
+                  "我",
+                  "想"
+                ],
+                "我累得想马上睡觉。"
+              ],
+              [
+                [
+                  "孩子们",
+                  "不想",
+                  "玩儿得",
+                  "回家"
+                ],
+                "孩子们玩儿得不想回家。"
+              ],
+              [
+                [
+                  "妹妹",
+                  "不能",
+                  "害怕得",
+                  "说话"
+                ],
+                "妹妹害怕得不能说话。"
+              ],
+              [
+                [
+                  "跳了",
+                  "弟弟",
+                  "高兴得",
+                  "起来"
+                ],
+                "弟弟高兴得跳了起来。"
+              ]
+            ]
+          },
+          {
+            "title": "Luyện thêm · Sắp xếp câu có cặp từ nối và AA 的",
+            "description": "Slide 9/11 không có bài sắp xếp cho hai điểm này; các câu dưới đây lấy từ chính câu mẫu ở slide 17, 21 và 32 để luyện trật tự.",
+            "items": [
+              [
+                [
+                  "如果",
+                  "你太累了",
+                  "就",
+                  "休息一会儿"
+                ],
+                "如果你太累了，就休息一会儿。"
+              ],
+              [
+                [
+                  "因为",
+                  "他天天跑步",
+                  "所以",
+                  "身体很好"
+                ],
+                "因为他天天跑步，所以身体很好。"
+              ],
+              [
+                [
+                  "虽然",
+                  "外面很冷",
+                  "但是",
+                  "房间里很热"
+                ],
+                "虽然外面很冷，但是房间里很热。"
+              ],
+              [
+                [
+                  "你送的花",
+                  "红红的",
+                  "我",
+                  "很喜欢"
+                ],
+                "你送的花红红的，我很喜欢。"
+              ]
+            ]
+          }
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "很多人都觉得现在人和人的关系冷冷的，这可能是因为工作太忙，忙得没时间跟别人见面，累得不愿意和别人多说话。其实，我们应该多对别人笑笑，说话时如果能多用一些“您好”“谢谢”这样的词语，和别人的关系就会变得更好。",
+          [
+            [
+              "人和人的关系为什么冷冷的？",
+              [
+                "因为工作太忙，没时间见面",
+                "因为大家住得太远",
+                "因为没有人会说汉语",
+                "因为天气变冷了"
+              ],
+              0,
+              "Đoạn văn nói “这可能是因为工作太忙，忙得没时间跟别人见面”。"
+            ],
+            [
+              "“累得不愿意和别人多说话”中的“得”是什么用法？",
+              [
+                "bổ ngữ trạng thái: mệt đến mức…",
+                "trợ từ sở hữu",
+                "động từ “được”",
+                "phó từ chỉ thời gian"
+              ],
+              0,
+              "Đây là dạng V/adj + 得 + cụm động từ, nêu trạng thái do “累” gây ra。"
+            ],
+            [
+              "怎么做关系会变得更好？",
+              [
+                "多对别人笑笑，多用“您好”“谢谢”",
+                "多给别人买东西",
+                "少跟别人见面",
+                "换一个城市住"
+              ],
+              0,
+              "Đoạn văn nói “我们应该多对别人笑笑，说话时如果能多用一些“您好”“谢谢”这样的词语”。"
+            ]
+          ]
+        ]
+      }
     }
   ],
   "finalQuestions": [
