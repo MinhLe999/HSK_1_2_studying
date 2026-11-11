@@ -698,5 +698,38 @@ window.HSK_EXAMPLE_SUPPLEMENTS = {
       "你送的花红红的，我很喜欢。",
       "这个星期我天天都吃羊肉。"
     ]
+  },
+  "l0211": {
+    "additions": [
+      [
+        "奶奶一边包饺子，一边跟我说过去的事。",
+        "Bà nội vừa gói sủi cảo vừa kể cho tôi chuyện ngày xưa."
+      ],
+      [
+        "我的自行车坏了，我是走回学校来的。",
+        "Xe đạp của tôi hỏng rồi, tôi đi bộ về trường đấy."
+      ],
+      [
+        "我一般不愿意晚上开车出去。",
+        "Tôi thường không muốn lái xe ra ngoài vào buổi tối."
+      ],
+      [
+        "爸爸终于回来了，他从楼下搬上来一台新电脑。",
+        "Bố cuối cùng cũng về, bố khiêng từ dưới nhà lên một chiếc máy tính mới."
+      ],
+      [
+        "你应该把这件事告诉校长。",
+        "Bạn nên nói chuyện này cho thầy hiệu trưởng."
+      ]
+    ],
+    "patternEvidence": [
+      "我是走回来的。",
+      "他走进教室去了。",
+      "爷爷买回来点儿面包。",
+      "这个苹果坏了。",
+      "我把这件衣服穿坏了。",
+      "他这几天忙坏了。",
+      "小王一边唱歌一边跑步。"
+    ]
   }
 };

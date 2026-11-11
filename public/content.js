@@ -11712,6 +11712,906 @@ window.HSK_CONTENT = {
       }
     },
     {
+      "id": "l0211",
+      "date": "02/11/2026",
+      "shortDate": "02/11",
+      "title": "Bổ ngữ xu hướng kép, 坏了 và 一边……一边……",
+      "focus": "V + 上・下・进・出・回・过・起 + 来／去 / vị trí của tân ngữ nơi chốn và đồ vật / N・V・adj + 坏了 / （一）边……（一）边……",
+      "pages": "slide 1-64",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在家 — mang quà về nhà",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161131_menftvan/data/sound5.mp3",
+          "note": "Slide 38-42. Thứ tự đúng trên slide: 6 1 4 3 5 2. Bốn câu đúng/sai ở slide 39.",
+          "dialogueLines": [
+            "小丽：你终于回来了！从哪儿买回来这么多东西呀？",
+            "小刚：都是从那边的商店买回来的。",
+            "小丽：怎么还买红酒回来了？谁喝呀？",
+            "小刚：这是给爷爷的礼物，明天我们一起送过去，看看爷爷奶奶。",
+            "小丽：那我的礼物呢？快拿出来让我看看。",
+            "小刚：我不是已经回来了吗？"
+          ],
+          "trueFalse": [
+            [
+              "女的终于等到男的回家了。",
+              true,
+              "小丽 mở đầu bằng “你终于回来了”."
+            ],
+            [
+              "男的买了不少的东西。",
+              true,
+              "小丽 hỏi “从哪儿买回来这么多东西呀”."
+            ],
+            [
+              "男的打算明天和女的一起去和爷爷奶奶喝酒。",
+              false,
+              "小刚 chỉ nói mang rượu sang tặng ông và thăm ông bà, không nói cùng uống."
+            ],
+            [
+              "男的送给女生的礼物是自己回家这件事。",
+              true,
+              "Câu cuối “我不是已经回来了吗” là lời trêu rằng chính anh ấy là món quà."
+            ]
+          ]
+        },
+        {
+          "title": "课文2 · 在家 — gặp lại bạn học cũ",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161131_menftvan/data/sound8.mp3",
+          "note": "Slide 43-47. Thứ tự đúng trên slide: 3 2 5 1 6 4. Bốn câu đúng/sai ở slide 44.",
+          "dialogueLines": [
+            "小丽：我今天看见你和一个女的进了咖啡店，她是谁啊？",
+            "小刚：她是我今天在路上遇到的一个老同学。",
+            "小丽：你们就一起去喝咖啡了？",
+            "小刚：是啊，一边喝咖啡一边说了些过去的事。",
+            "小丽：你回来得这么晚，是说了很多过去的事吗？",
+            "小刚：不是。没有公共汽车了，我是走回来的。"
+          ],
+          "trueFalse": [
+            [
+              "女的想知道和男的一起进咖啡店的女人是谁。",
+              true,
+              "小丽 hỏi thẳng “她是谁啊”."
+            ],
+            [
+              "今天男的在路上见到了一个以前的同学。",
+              true,
+              "小刚 nói “她是我今天在路上遇到的一个老同学”."
+            ],
+            [
+              "男的和女同学喝着咖啡聊着过去的事。",
+              true,
+              "小刚 nói “一边喝咖啡一边说了些过去的事”."
+            ],
+            [
+              "男的见完同学后，坐公交车回家。",
+              false,
+              "小刚 nói “没有公共汽车了，我是走回来的”."
+            ]
+          ]
+        },
+        {
+          "title": "课文3 · 在打电话 — cuối tuần làm gì",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161131_menftvan/data/sound9.mp3",
+          "note": "Slide 48-52. Thứ tự đúng trên slide: 4 1 5 6 3 2. Năm câu đúng/sai ở slide 49.",
+          "dialogueLines": [
+            "同事：小丽，周末你一般跟小刚出去看电影吗？",
+            "小丽：我很少去电影院看电影，我更愿意在家看电视。",
+            "同事：看电视有什么意思啊？",
+            "小丽：可以一边吃一边看，坐久了还可以站起来休息一会儿。",
+            "同事：你应该多出去走走，这样你们的生活会更有意思。",
+            "小丽：有他在，我的生活已经很有意思了。"
+          ],
+          "trueFalse": [
+            [
+              "小丽和小刚有时候也去电影院看电影。",
+              true,
+              "小丽 nói “很少去” chứ không phải không bao giờ đi."
+            ],
+            [
+              "同事觉得周末在家看电视很有意思。",
+              false,
+              "Đồng nghiệp hỏi ngược “看电视有什么意思啊”, tức là thấy chán."
+            ],
+            [
+              "小丽喜欢在看电视的时候吃东西。",
+              true,
+              "小丽 nói “可以一边吃一边看”."
+            ],
+            [
+              "同事觉得出去走走比在家看电视更好。",
+              true,
+              "Đồng nghiệp nói “你应该多出去走走，这样你们的生活会更有意思”."
+            ],
+            [
+              "小丽对现在的生活很满意。",
+              true,
+              "小丽 nói “有他在，我的生活已经很有意思了”."
+            ]
+          ]
+        },
+        {
+          "title": "课文4 · đoạn văn của người vợ",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161131_menftvan/data/sound10.mp3",
+          "note": "Slide 53-56. Thứ tự đúng trên slide: 5 1 4 6 2 3. Đây là đoạn độc thoại; slide 54 chỉ có hai câu hỏi mở nên không có bài đúng/sai.",
+          "dialogueLines": [
+            "刚结婚的时候，我丈夫是中学老师。",
+            "他喜欢每天早上起床后一边吃早饭一边看报纸。",
+            "十年过去了，现在他已经是校长了。",
+            "因为太忙，每天早上我起床后都看不到他，晚上很晚他才回到家。",
+            "我真怕他累坏了。",
+            "希望他能少一些会议，多一些休息，可以经常和我还有孩子在一起。"
+          ],
+          "trueFalse": []
+        }
+      ],
+      "notes": [
+        "Bài 17 trên lớp, tương ứng HSK 标准教程 3 第13课 《我是走回来的》. Nguồn là bộ slide 64 trang của lớp ChineseRd.",
+        "Bổ ngữ xu hướng kép ghép một chữ chỉ hướng (上／下／进／出／回／过／带／起) với 来 hoặc 去. Chọn 来 khi hành động hướng VỀ PHÍA người nói, chọn 去 khi hành động RỜI XA người nói: cùng một việc đi vào lớp, người đứng trong lớp nói 走进来, người đứng ngoài nói 走进去.",
+        "Riêng 起 chỉ ghép với 来 (起来), không có 起去.",
+        "Quy tắc quan trọng nhất về vị trí tân ngữ: nếu tân ngữ là NƠI CHỐN thì bắt buộc chen vào giữa — 他走进教室去了。(không nói 他走进去教室). Nếu tân ngữ là ĐỒ VẬT thì để giữa hay cuối đều đúng — 爷爷买回来点儿面包。＝ 爷爷买回点儿面包来。",
+        "坏了 có ba nghĩa khác hẳn nhau. (1) Danh từ + 坏了 là đồ hỏng: 这个苹果坏了。(2) Động từ + 坏了 là dùng đến mức hỏng: 我把这件衣服穿坏了。(3) Tính từ hoặc động từ tâm lý + 坏了 lại KHÔNG có nghĩa hỏng mà bằng 很: 他这几天忙坏了。＝ 他这几天很忙。",
+        "Dạng (3) chỉ dùng với từ chỉ cảm nhận: 累、忙、高兴、担心、饿. Có thể thêm tân ngữ phía sau: 别累坏了孩子。",
+        "一边……一边…… nói hai việc xảy ra cùng lúc; chữ 一 có thể lược thành 边……边……. Một chủ ngữ thì cả hai vế đứng sau chủ ngữ, hai chủ ngữ thì mỗi vế có chủ ngữ riêng."
+      ],
+      "vocab": [
+        [
+          "终于",
+          "zhōngyú",
+          "cuối cùng cũng, rốt cuộc (Hán-Việt: Chung Vu)"
+        ],
+        [
+          "爷爷",
+          "yéye",
+          "ông nội"
+        ],
+        [
+          "遇到",
+          "yùdào",
+          "gặp phải, tình cờ gặp (Hán-Việt: Ngộ Đáo)"
+        ],
+        [
+          "礼物",
+          "lǐwù",
+          "quà, lễ vật (Hán-Việt: Lễ Vật)"
+        ],
+        [
+          "奶奶",
+          "nǎinai",
+          "bà nội"
+        ],
+        [
+          "过去",
+          "guòqù",
+          "quá khứ; đi qua (Hán-Việt: Quá Khứ)"
+        ],
+        [
+          "一般",
+          "yìbān",
+          "thường, bình thường (Hán-Việt: Nhất Ban)"
+        ],
+        [
+          "一边",
+          "yìbiān",
+          "vừa … (vừa) (Hán-Việt: Nhất Biên)"
+        ],
+        [
+          "愿意",
+          "yuànyì",
+          "muốn, sẵn lòng (Hán-Việt: Nguyện Ý)"
+        ],
+        [
+          "起来",
+          "qǐlai",
+          "dậy, đứng lên (chỉ hướng lên)"
+        ],
+        [
+          "应该",
+          "yīnggāi",
+          "nên (Hán-Việt: Ứng Cai)"
+        ],
+        [
+          "生活",
+          "shēnghuó",
+          "cuộc sống (Hán-Việt: Sinh Hoạt)"
+        ],
+        [
+          "校长",
+          "xiàozhǎng",
+          "hiệu trưởng (Hán-Việt: Hiệu Trưởng)"
+        ],
+        [
+          "坏",
+          "huài",
+          "hỏng, xấu (Hán-Việt: Hoại)"
+        ]
+      ],
+      "patterns": [
+        [
+          "S + V + 上／下／进／出／回／过／带／起 + 来／去",
+          "… ra／vào／lên／xuống／về\n来 khi hành động tiến về phía người nói, 去 khi rời xa người nói.\nRiêng 起 chỉ ghép với 来; không có 起去."
+        ],
+        [
+          "S + V + hướng + NƠI CHỐN + 来／去",
+          "… vào／lên／về (một nơi nào đó)\nTân ngữ chỉ nơi chốn BẮT BUỘC chen vào giữa, không được để sau 来／去.\n他走进教室去了。(không nói 他走进去教室)"
+        ],
+        [
+          "S + V + hướng + ĐỒ VẬT + 来／去 ＝ S + V + hướng + 来／去 + ĐỒ VẬT",
+          "Mang／mua／lấy … về（ra, vào…）\nTân ngữ chỉ đồ vật đặt ở giữa hay sau 来／去 đều đúng, nghĩa không đổi."
+        ],
+        [
+          "Danh từ + 坏了",
+          "… bị hỏng\nNói đồ vật hỏng, không dùng được nữa."
+        ],
+        [
+          "Động từ（穿／用／画……）+ 坏了",
+          "Dùng／mặc／vẽ … đến mức hỏng\n坏了 là bổ ngữ kết quả; hay đi cùng câu chữ 把."
+        ],
+        [
+          "Tính từ／động từ tâm lý + 坏了",
+          "… quá chừng, … lắm (＝ 很 + tính từ)\nKhông có nghĩa hỏng; chỉ dùng với 累、忙、高兴、担心、饿……\nCó thể thêm tân ngữ phía sau: 别累坏了孩子。"
+        ],
+        [
+          "（一）边 + V1 +（一）边 + V2",
+          "Vừa … vừa …\nHai việc diễn ra cùng lúc; chữ 一 có thể lược.\nHai chủ ngữ thì mỗi vế có chủ ngữ riêng."
+        ]
+      ],
+      "examples": [
+        [
+          "我是走回来的。",
+          "Tôi đi bộ về đấy."
+        ],
+        [
+          "小狗从房间跑出来。",
+          "Con chó con chạy từ trong phòng ra."
+        ],
+        [
+          "坐久了要站起来休息一下。",
+          "Ngồi lâu thì phải đứng dậy nghỉ một chút."
+        ],
+        [
+          "我们是跑过来的。",
+          "Chúng tôi chạy sang đây đấy."
+        ],
+        [
+          "这座山很高，我们一起爬上去吧。",
+          "Ngọn núi này cao lắm, chúng ta cùng leo lên nhé."
+        ],
+        [
+          "他走进教室去了。",
+          "Anh ấy đi vào trong lớp rồi."
+        ],
+        [
+          "小刚跑上楼去了。",
+          "Tiểu Cương chạy lên lầu rồi."
+        ],
+        [
+          "张老师拿着一本书走进教室来。",
+          "Thầy Trương cầm quyển sách đi vào lớp."
+        ],
+        [
+          "张老师走进图书馆来。",
+          "Thầy Trương đi vào thư viện."
+        ],
+        [
+          "周明走进办公室去。",
+          "Chu Minh đi vào văn phòng."
+        ],
+        [
+          "爷爷买回来点儿面包。",
+          "Ông nội mua ít bánh mì về."
+        ],
+        [
+          "爷爷买回点儿面包来。",
+          "Ông nội mua ít bánh mì về."
+        ],
+        [
+          "他从包里拿出来一部手机。",
+          "Anh ấy lấy ra một chiếc điện thoại từ trong túi."
+        ],
+        [
+          "小刚从商店买回来饮料。",
+          "Tiểu Cương mua nước uống từ cửa hàng về."
+        ],
+        [
+          "校长拿出来两本书。",
+          "Thầy hiệu trưởng lấy ra hai quyển sách."
+        ],
+        [
+          "爷爷从美国带回来礼物。",
+          "Ông nội mang quà từ Mỹ về."
+        ],
+        [
+          "他搬出来一把椅子。",
+          "Anh ấy khiêng ra một chiếc ghế."
+        ],
+        [
+          "这个苹果坏了。",
+          "Quả táo này hỏng rồi."
+        ],
+        [
+          "我的手机坏了。",
+          "Điện thoại của tôi hỏng rồi."
+        ],
+        [
+          "桌子上的那个空调坏了。",
+          "Cái điều hòa kia hỏng rồi."
+        ],
+        [
+          "我把这件衣服穿坏了。",
+          "Tôi mặc cái áo này đến hỏng rồi."
+        ],
+        [
+          "你已经把这件衣服穿坏了。",
+          "Bạn đã mặc cái áo này đến hỏng rồi."
+        ],
+        [
+          "弟弟把我的笔用坏了。",
+          "Em trai dùng hỏng cái bút của tôi rồi."
+        ],
+        [
+          "他这几天忙坏了。",
+          "Mấy hôm nay anh ấy bận quá chừng."
+        ],
+        [
+          "姐姐终于从美国回来了，妈妈高兴坏了。",
+          "Chị gái cuối cùng cũng từ Mỹ về, mẹ mừng húm."
+        ],
+        [
+          "十点了，弟弟还没回家，我们担心坏了。",
+          "Mười giờ rồi mà em trai vẫn chưa về, chúng tôi lo lắm."
+        ],
+        [
+          "校长工作很忙，我怕他累坏了。",
+          "Thầy hiệu trưởng làm việc rất bận, tôi sợ thầy mệt lả."
+        ],
+        [
+          "别累坏了孩子。",
+          "Đừng để bọn trẻ mệt quá."
+        ],
+        [
+          "小王一边唱歌一边跑步。",
+          "Tiểu Vương vừa hát vừa chạy bộ."
+        ],
+        [
+          "我丈夫喜欢一边吃早饭一边看报纸。",
+          "Chồng tôi thích vừa ăn sáng vừa đọc báo."
+        ],
+        [
+          "老师一边讲题，我们一边记下来。",
+          "Thầy giảng bài, chúng tôi vừa nghe vừa ghi lại."
+        ],
+        [
+          "校长一边跑步，一边听音乐。",
+          "Thầy hiệu trưởng vừa chạy bộ vừa nghe nhạc."
+        ],
+        [
+          "她一边看电视一边喝饮料。",
+          "Cô ấy vừa xem tivi vừa uống nước."
+        ],
+        [
+          "他们一边吃饭一边聊天。",
+          "Họ vừa ăn cơm vừa trò chuyện."
+        ],
+        [
+          "是啊，一边喝咖啡一边说了些过去的事。",
+          "Ừ, vừa uống cà phê vừa kể vài chuyện ngày xưa."
+        ],
+        [
+          "她是我今天在路上遇到的一个老同学。",
+          "Cô ấy là một người bạn học cũ tôi tình cờ gặp trên đường hôm nay."
+        ],
+        [
+          "你终于回来了！",
+          "Cuối cùng anh cũng về rồi!"
+        ],
+        [
+          "这是给爷爷的礼物，明天我们一起送过去，看看爷爷奶奶。",
+          "Đây là quà cho ông nội, mai mình mang sang, thăm ông bà một chút."
+        ],
+        [
+          "周末你一般跟小刚出去看电影吗？",
+          "Cuối tuần cậu thường đi xem phim với Tiểu Cương à?"
+        ],
+        [
+          "我更愿意在家看电视。",
+          "Tôi thích ở nhà xem tivi hơn."
+        ],
+        [
+          "你应该多出去走走，这样你们的生活会更有意思。",
+          "Cậu nên ra ngoài đi dạo nhiều hơn, như vậy cuộc sống của hai người sẽ thú vị hơn."
+        ],
+        [
+          "十年过去了，现在他已经是校长了。",
+          "Mười năm trôi qua, giờ anh ấy đã là hiệu trưởng rồi."
+        ]
+      ],
+      "drills": [
+        [
+          "Nói “Tôi đi bộ về đấy” bằng bổ ngữ xu hướng kép.",
+          "我是走回来的。"
+        ],
+        [
+          "Nói con chó con chạy từ trong phòng ra.",
+          "小狗从房间跑出来。"
+        ],
+        [
+          "Dùng 起来 nói ngồi lâu thì phải đứng dậy nghỉ một chút.",
+          "坐久了要站起来休息一下。"
+        ],
+        [
+          "Đặt đúng vị trí tân ngữ nơi chốn: nói anh ấy đi vào trong lớp rồi.",
+          "他走进教室去了。"
+        ],
+        [
+          "Nói ông nội mua ít bánh mì về (đặt tân ngữ ở giữa).",
+          "爷爷买回点儿面包来。"
+        ],
+        [
+          "Nói anh ấy lấy ra một chiếc điện thoại từ trong túi.",
+          "他从包里拿出来一部手机。"
+        ],
+        [
+          "Dùng 坏了 nói quả táo này hỏng rồi.",
+          "这个苹果坏了。"
+        ],
+        [
+          "Dùng 把 + 穿坏了 nói bạn đã mặc cái áo này đến hỏng.",
+          "你已经把这件衣服穿坏了。"
+        ],
+        [
+          "Dùng 坏了 chỉ mức độ: nói chị gái về nên mẹ mừng húm.",
+          "姐姐终于从美国回来了，妈妈高兴坏了。"
+        ],
+        [
+          "Dùng 一边……一边…… nói chồng bạn thích vừa ăn sáng vừa đọc báo.",
+          "我丈夫喜欢一边吃早饭一边看报纸。"
+        ],
+        [
+          "Dùng 一边……一边…… với hai chủ ngữ: thầy giảng bài, chúng tôi ghi lại.",
+          "老师一边讲题，我们一边记下来。"
+        ]
+      ],
+      "quiz": [
+        [
+          "Câu nào đúng?",
+          [
+            "他走进教室去了。",
+            "他走进去教室了。",
+            "他进走教室去了。",
+            "他走教室进去了。"
+          ],
+          0,
+          "Tân ngữ chỉ nơi chốn bắt buộc chen vào giữa chữ chỉ hướng và 去 (slide 14)."
+        ],
+        [
+          "Cặp nào KHÔNG tồn tại?",
+          [
+            "起去",
+            "起来",
+            "过来",
+            "出去"
+          ],
+          0,
+          "起 chỉ ghép với 来 thành 起来, không có 起去 (slide 13)."
+        ],
+        [
+          "Câu nào KHÔNG có nghĩa “hỏng”?",
+          [
+            "他这几天忙坏了。",
+            "这个苹果坏了。",
+            "我把这件衣服穿坏了。",
+            "我的手机坏了。"
+          ],
+          0,
+          "Tính từ／động từ tâm lý + 坏了 chỉ mức độ cao, bằng 很 + tính từ (slide 24)."
+        ],
+        [
+          "Chọn cách nói đúng “Ông nội mua ít bánh mì về”:",
+          [
+            "两câu 爷爷买回来点儿面包。và 爷爷买回点儿面包来。đều đúng",
+            "chỉ 爷爷买回来点儿面包。đúng",
+            "chỉ 爷爷买回点儿面包来。đúng",
+            "cả hai đều sai"
+          ],
+          0,
+          "Tân ngữ chỉ đồ vật đặt ở giữa hay sau 来 đều được (slide 14)."
+        ],
+        [
+          "Điền từ: 我今天在路上____了一个老同学。",
+          [
+            "遇到",
+            "愿意",
+            "应该",
+            "一般"
+          ],
+          0,
+          "遇到 nghĩa là tình cờ gặp (课文2, slide 45)."
+        ],
+        [
+          "Chọn câu dùng 一边……一边…… đúng với HAI chủ ngữ:",
+          [
+            "老师一边讲题，我们一边记下来。",
+            "老师一边讲题一边我们记下来。",
+            "一边老师讲题，一边我们记下来。",
+            "老师和我们一边讲题记下来。"
+          ],
+          0,
+          "Hai chủ ngữ thì mỗi vế giữ chủ ngữ riêng, 一边 đứng sau chủ ngữ (slide 26)."
+        ]
+      ],
+      "practice": {
+        "cloze": [
+          {
+            "title": "练一练 · Điền bổ ngữ xu hướng kép",
+            "description": "Bài luyện slide 16. Đáp án đã hiện sẵn trên slide; vài câu chấp nhận hai cách.",
+            "items": [
+              [
+                "今天妈妈收到姐姐送____的礼物。",
+                [
+                  "过来",
+                  "回来"
+                ],
+                "Quà được gửi về phía người nói nên dùng 来."
+              ],
+              [
+                "前边开____一辆公共汽车，我们是坐这个车吗？",
+                [
+                  "过来"
+                ],
+                "Xe đang tiến về phía người nói."
+              ],
+              [
+                "这本书是小刚的，我给他带____吧。",
+                [
+                  "过去"
+                ],
+                "Mang tới chỗ Tiểu Cương, rời xa người nói nên dùng 去."
+              ],
+              [
+                "这把椅子要放在洗手间，你搬____吧。",
+                [
+                  "过去"
+                ],
+                "Chuyển tới nơi khác nên dùng 去."
+              ],
+              [
+                "昨天林木拿____一本书，说是还给你的。",
+                [
+                  "过来"
+                ],
+                "Mang tới chỗ người nói nên dùng 来."
+              ],
+              [
+                "坐久了要站____休息一下。",
+                [
+                  "起来"
+                ],
+                "Hướng lên trên dùng 起来; không có 起去."
+              ],
+              [
+                "我们都等了一个小时了，出租车还没来，我们还是走____吧。",
+                [
+                  "过去",
+                  "回去"
+                ],
+                "Tự đi tới đích hoặc đi về, đều rời xa chỗ đang đứng nên dùng 去."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Bắt chước mẫu đặt câu có bổ ngữ xu hướng",
+            "description": "Bài luyện slide 15. Mẫu: 小狗 出去 房间 → 小狗跑出房间去。",
+            "items": [
+              [
+                "小刚 商店 回来 饮料 → ____",
+                [
+                  "小刚从商店买回来饮料"
+                ],
+                "Tân ngữ là đồ vật nên đặt sau 回来."
+              ],
+              [
+                "周明 进去 办公室 → ____",
+                [
+                  "周明走进办公室去"
+                ],
+                "Tân ngữ là nơi chốn nên chen vào giữa 进 và 去."
+              ],
+              [
+                "我们 过去 一件衣服 → ____",
+                [
+                  "我们送过去一件衣服"
+                ],
+                "Đồ vật đặt sau 过去."
+              ],
+              [
+                "校长 出来 两本书 → ____",
+                [
+                  "校长拿出来两本书"
+                ],
+                "Đồ vật đặt sau 出来."
+              ],
+              [
+                "爷爷 美国 回来 礼物 → ____",
+                [
+                  "爷爷从美国带回来礼物"
+                ],
+                "从 + nơi xuất phát, rồi 带回来 + đồ vật."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành câu với 坏了",
+            "description": "Bài luyện slide 25. Chú ý phân biệt nghĩa “hỏng” với nghĩa chỉ mức độ.",
+            "items": [
+              [
+                "姐姐终于从美国回来了，妈妈____。（高兴）",
+                [
+                  "高兴坏了"
+                ],
+                "Tính từ chỉ cảm nhận + 坏了 nghĩa là rất, không phải hỏng."
+              ],
+              [
+                "校长工作很忙，我怕他____。（累）",
+                [
+                  "累坏了"
+                ],
+                "累坏了 = 很累."
+              ],
+              [
+                "十点了，弟弟还没回家，我们____。（担心）",
+                [
+                  "担心坏了"
+                ],
+                "Động từ tâm lý + 坏了 chỉ mức độ cao."
+              ],
+              [
+                "这个____，你别吃。（苹果）",
+                [
+                  "苹果坏了"
+                ],
+                "Danh từ + 坏了 mới là nghĩa hỏng."
+              ],
+              [
+                "你已经把这件衣服____。（穿）",
+                [
+                  "穿坏了"
+                ],
+                "Động từ + 坏了 là dùng đến mức hỏng, đi với câu chữ 把."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Viết lại bằng 一边……一边……",
+            "description": "Bài luyện slide 27. Chú ý câu 3 có hai chủ ngữ khác nhau.",
+            "items": [
+              [
+                "校长跑步的时候听音乐。→ ____",
+                [
+                  "校长一边跑步，一边听音乐"
+                ],
+                "Một chủ ngữ, cả hai vế đứng sau 校长."
+              ],
+              [
+                "我唱着歌洗衣服。→ ____",
+                [
+                  "我一边洗衣服，一边唱歌"
+                ],
+                "Một chủ ngữ, hai việc cùng lúc."
+              ],
+              [
+                "老师在讲题的时候，学生在做笔记。→ ____",
+                [
+                  "老师一边讲题，学生一边做笔记"
+                ],
+                "Hai chủ ngữ nên mỗi vế có chủ ngữ riêng."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn từ mới điền vào chỗ trống",
+            "description": "Bài tổng ôn từ vựng slide 61-63. Ngân hàng từ: 一般、经常、终于、应该、愿意、起来、过去、校长、遇到、礼物.",
+            "items": [
+              [
+                "周末你们____在哪儿吃饭？",
+                [
+                  "一般"
+                ],
+                "Hỏi về thói quen thường ngày."
+              ],
+              [
+                "____考完试了，我们去哪儿玩儿玩儿？",
+                [
+                  "终于"
+                ],
+                "Thi xong rốt cuộc cũng tới, dùng 终于."
+              ],
+              [
+                "你____早睡早起，别睡得那么晚。",
+                [
+                  "应该"
+                ],
+                "Lời khuyên dùng 应该."
+              ],
+              [
+                "我不____去那家公司工作，太远，也太累。",
+                [
+                  "愿意"
+                ],
+                "Không muốn, không sẵn lòng."
+              ],
+              [
+                "那间饭馆离我们学校很近，我们____去。",
+                [
+                  "经常"
+                ],
+                "Gần nên hay đi."
+              ],
+              [
+                "A：一会儿周经理走进来的时候，请大家站____。",
+                [
+                  "起来"
+                ],
+                "Đứng dậy dùng 起来."
+              ],
+              [
+                "A：我忘了把这本书还给他了。B：没关系，明天我帮你送____吧。",
+                [
+                  "过去"
+                ],
+                "Mang sang chỗ người khác nên dùng 去."
+              ],
+              [
+                "A：前边那位老人是谁？B：他是我们的____。",
+                [
+                  "校长"
+                ],
+                "Người đứng đầu trường học."
+              ],
+              [
+                "A：你怎么回来这么晚？B：回家的路上____张老师了，跟他聊了一会儿。",
+                [
+                  "遇到"
+                ],
+                "Tình cờ gặp trên đường."
+              ],
+              [
+                "B：下个月是爷爷的生日，我要送他一件特别的____。",
+                [
+                  "礼物"
+                ],
+                "Quà sinh nhật."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "练一练 · Sắp xếp câu có bổ ngữ xu hướng kép",
+            "description": "Bài luyện slide 23, đáp án đã hiện trên slide.",
+            "items": [
+              [
+                [
+                  "小狗",
+                  "房间",
+                  "跑",
+                  "从",
+                  "出来"
+                ],
+                "小狗从房间跑出来。"
+              ],
+              [
+                [
+                  "他",
+                  "手机",
+                  "包里",
+                  "拿",
+                  "从",
+                  "出来",
+                  "一部"
+                ],
+                "他从包里拿出来一部手机。"
+              ],
+              [
+                [
+                  "图书馆",
+                  "来",
+                  "走",
+                  "张老师",
+                  "进"
+                ],
+                "张老师走进图书馆来。"
+              ]
+            ]
+          },
+          {
+            "title": "Luyện thêm · Sắp xếp câu có 一边……一边…… và 坏了",
+            "description": "Slide 02/11 không có bài sắp xếp cho hai điểm này; các câu dưới đây lấy từ chính câu mẫu ở slide 24, 26 và 27 để luyện trật tự.",
+            "items": [
+              [
+                [
+                  "小王",
+                  "一边",
+                  "唱歌",
+                  "一边",
+                  "跑步"
+                ],
+                "小王一边唱歌一边跑步。"
+              ],
+              [
+                [
+                  "老师",
+                  "一边",
+                  "讲题",
+                  "我们",
+                  "一边",
+                  "记下来"
+                ],
+                "老师一边讲题，我们一边记下来。"
+              ],
+              [
+                [
+                  "他",
+                  "这几天",
+                  "坏了",
+                  "忙"
+                ],
+                "他这几天忙坏了。"
+              ],
+              [
+                [
+                  "我",
+                  "这件衣服",
+                  "把",
+                  "穿坏了"
+                ],
+                "我把这件衣服穿坏了。"
+              ]
+            ]
+          }
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "刚结婚的时候，我丈夫是中学老师，他喜欢每天早上起床后一边吃早饭一边看报纸。十年过去了，现在他已经是校长了。因为太忙，每天早上我起床后都看不到他，晚上很晚他才回到家。我真怕他累坏了。希望他能少一些会议，多一些休息，可以经常和我还有孩子在一起。",
+          [
+            [
+              "刚结婚的时候，丈夫做什么工作？",
+              [
+                "中学老师",
+                "校长",
+                "司机",
+                "医生"
+              ],
+              0,
+              "Đoạn văn nói “刚结婚的时候，我丈夫是中学老师”。"
+            ],
+            [
+              "“我真怕他累坏了”中的“坏了”是什么意思？",
+              [
+                "rất mệt (chỉ mức độ)",
+                "người bị hỏng",
+                "tính tình xấu đi",
+                "đồ vật hỏng"
+              ],
+              0,
+              "Tính từ 累 + 坏了 chỉ mức độ cao, bằng 很累。"
+            ],
+            [
+              "妻子希望丈夫怎么样？",
+              [
+                "少开会，多休息，常常和家人在一起",
+                "早点儿当上校长",
+                "每天早上看报纸",
+                "晚上晚点儿回家"
+              ],
+              0,
+              "Câu cuối nói “希望他能少一些会议，多一些休息，可以经常和我还有孩子在一起”。"
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "id": "l0911",
       "date": "09/11/2026",
       "shortDate": "09/11",

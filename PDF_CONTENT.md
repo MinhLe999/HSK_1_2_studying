@@ -1155,3 +1155,51 @@ Nguồn: `HSK3(12) 把重要的东西放在我这儿吧.pptx` (67 slide), đọc
 | 课文4 · đoạn văn | `2 1 4 3` | Slide 56-59, đoạn độc thoại của thầy giáo dạy vẽ; slide 57 là hai câu hỏi mở, không có đúng/sai. |
 
 Slide 6-12, 17, 18, 24-30, 33, 39, 45, 50, 55, 60-61 là trò chơi ghép ảnh, bài nghe-chọn-đáp-án không có ghi âm riêng trong tệp, bài nói theo tranh hoặc bài nói theo cặp — không đưa vào app.
+
+## 02/11/2026 — slide lớp học ChineseRd (Bài 17 · HSK3 第13课)
+
+Nguồn: `HSK3(13) 我是走回来的.pptx` (64 slide), đọc trực tiếp từ `school.chineserd.com`. Thư mục tài liệu: `h5-static.talk-cloud.net/document/115898_20260626_161131_menftvan/`. `materials/02_11_26.pdf` là bản in rút gọn của chính bộ slide này.
+
+Âm thanh (`sound6`/`sound7` là hiệu ứng đúng/sai dưới 1 giây, `sound1`-`sound4` là âm chuyển slide):
+
+| Bài | Tệp | Độ dài |
+| --- | --- | --- |
+| 课文1 · 在家 | `.../data/sound5.mp3` | 25,1 s |
+| 课文2 · 在家 | `.../data/sound8.mp3` | 26,5 s |
+| 课文3 · 在打电话 | `.../data/sound9.mp3` | 28,3 s |
+| 课文4 · đoạn văn của người vợ | `.../data/sound10.mp3` | 44,6 s |
+
+### Từ vựng (slide 4-5, 14 từ)
+
+终于 zhōngyú cuối cùng cũng ／ 爷爷 yéye ông nội ／ 遇到 yùdào gặp phải, tình cờ gặp ／ 礼物 lǐwù quà ／ 奶奶 nǎinai bà nội ／ 过去 guòqù quá khứ; đi qua ／ 一般 yìbān thường, bình thường ／ 一边 yìbiān vừa (… vừa) ／ 愿意 yuànyì muốn, sẵn lòng ／ 起来 qǐlai dậy, lên ／ 应该 yīnggāi nên ／ 生活 shēnghuó cuộc sống ／ 校长 xiàozhǎng hiệu trưởng ／ 坏 huài hỏng, xấu.
+
+### Điểm ngữ pháp
+
+| Slide | Mục | Nội dung |
+| --- | --- | --- |
+| 13-14 | 1. 复合趋向补语 | `V + 上／下／进／出／回／过／带／起 + 来／去`. Bảng ghép đầy đủ: 上来・下来・进来・出来・回来・过来・带来・起来 và 上去・下去・进去・出去・回去・过去・带去. Ba dạng câu: (1) không có tân ngữ — 我是走回来的。／小狗从房间跑出来。(2) tân ngữ là NƠI CHỐN thì phải chen vào giữa — 他走进教室去了。／小刚跑上楼去了。(3) tân ngữ là ĐỒ VẬT thì đặt ở giữa hoặc cuối đều được — 爷爷买回来点儿面包。= 爷爷买回点儿面包来。 |
+| 24 | 2. 坏了 | Ba dạng: (1) `N + 坏了` (hỏng) — 这个苹果坏了。(2) `V(穿／用／画) + 坏了` (dùng đến hỏng) — 我把这件衣服穿坏了。(3) `tính từ／động từ tâm lý + 坏了` = 很 + tính từ, dùng với 累、忙、高兴、担心 — 他这几天忙坏了。／别累坏了孩子。 |
+| 26 | 3. 一边……一边…… | Hai việc diễn ra cùng lúc. Một chủ ngữ: `S +（一）边 + V1 +（一）边 + V2` — 小王（一）边唱歌（一）边跑步。Hai chủ ngữ: `S1 +（一）边 + V1，S2 +（一）边 + V2` — 老师一边讲题，我们一边记下来。 |
+
+### Bài luyện có đáp án trên slide
+
+- Slide 15 — bắt chước mẫu: 小刚从商店买回来饮料。／周明走进办公室去。／我们送过去一件衣服。／校长拿出来两本书。／爷爷从美国带回来礼物。
+- Slide 16 — điền bổ ngữ xu hướng: 过来／回来 ・ 过来 ・ 过去 ・ 过去 ・ 过来 ・ 起来 ・ 过去／回去.
+- Slide 17-22 — nói theo tranh: 他拿出来一些钱。／他放进去一些钱。／他搬出来一把椅子。／他搬进去一把椅子。／爬上去吧。／我们是跑过来的。／走进教室来。／站起来休息一下。
+- Slide 23 — sắp xếp câu: 小狗从房间跑出来。／他从包里拿出来一部手机。／张老师走进图书馆来。
+- Slide 27 — viết lại bằng 一边……一边……: 校长一边跑步，一边听音乐。／我一边洗衣服，一边唱歌。／老师一边讲题，学生一边做笔记。
+- Slide 28-30 — nói theo tranh: 她一边看电视一边喝饮料。／他们一边吃东西一边看电影。／他们一边吃饭一边聊天。
+- Slide 32-35 — hoàn thành hội thoại: 买……回来／一边吃东西一边聊天儿／坏／做饭……聊天儿／送下去／买回来／边喝边聊天／过去／走……聊天儿／一般／每天都.
+- Slide 60 — ghép chữ: 红 + 葡萄酒 → 红酒; 班 + 校长 → 班长; 遇到 + 看见 → 遇见.
+- Slide 61-63 — chọn từ điền: 一般／终于／应该／愿意／经常／起来／过去／校长／遇到／礼物.
+
+### Bốn bài đọc
+
+| Bài | Thứ tự đúng | Ghi chú |
+| --- | --- | --- |
+| 课文1 · 在家 | `6 1 4 3 5 2` | Slide 38-42, hội thoại 小丽／小刚 6 lượt, kèm 4 câu đúng/sai. |
+| 课文2 · 在家 | `3 2 5 1 6 4` | Slide 43-47, hội thoại 小丽／小刚 6 lượt, kèm 4 câu đúng/sai. |
+| 课文3 · 在打电话 | `4 1 5 6 3 2` | Slide 48-52, hội thoại 同事／小丽 6 lượt, kèm 5 câu đúng/sai. |
+| 课文4 · đoạn văn | `5 1 4 6 2 3` | Slide 53-56, đoạn độc thoại của người vợ; slide 54 là hai câu hỏi mở, không có đúng/sai. |
+
+Slide 6-11, 17-22, 28-31, 36, 42, 47, 52, 57-58 là trò chơi ghép ảnh, bài nói theo tranh, đọc thuộc lòng hoặc bài nói theo cặp — phần nói theo tranh được ghi lại ở trên để tham khảo nhưng không tạo bài riêng trong app.

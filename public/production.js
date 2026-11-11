@@ -1666,5 +1666,39 @@ window.HSK_PRODUCTION = {
       "required": "高兴得",
       "sample": "她刚出生的时候，她爸爸高兴得一个晚上都没睡着。"
     }
+  ],
+  "l0211": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "kể việc tình cờ gặp bạn học cũ",
+      "structure": "Chủ ngữ + 在 + nơi chốn + động từ + 了",
+      "prompt": "Dùng 遇到 nói hôm nay trên đường bạn tình cờ gặp một người bạn học cũ.",
+      "required": "遇到",
+      "sample": "我今天在路上遇到了一个老同学。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "tả người đi vào phòng làm việc",
+      "structure": "S + V + hướng + NƠI CHỐN + 来／去",
+      "prompt": "Dùng bổ ngữ xu hướng kép nói thầy Trương cầm sách đi vào lớp (người nói đang ở trong lớp).",
+      "required": "走进……来",
+      "sample": "张老师拿着一本书走进教室来。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "hỏi về cách trở về nhà",
+      "structure": "是……的",
+      "prompt": "Câu trả lời là 没有公共汽车了，我是走回来的。 Hãy đặt một câu hỏi về cách người đó về nhà.",
+      "required": "怎么",
+      "sample": "你是怎么回来的？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "trả lời về thói quen cuối tuần ở nhà",
+      "structure": "更愿意 + cụm động từ",
+      "prompt": "Có người hỏi 周末你一般做什么？ Hãy trả lời rằng bạn thích ở nhà xem tivi hơn, có thể vừa ăn vừa xem.",
+      "required": "愿意",
+      "sample": "我更愿意在家看电视，可以一边吃一边看。"
+    }
   ]
 };

@@ -4348,6 +4348,192 @@ window.HSK_STRUCTURES = {
       }
     ]
   },
+  "l0211": {
+    "date": "02/11/2026",
+    "topic": "Bổ ngữ xu hướng kép, 坏了 và 一边……一边……",
+    "items": [
+      {
+        "id": "l0211-s1",
+        "formula": "1.1 S + V + 上／下／进／出／回／过／带／起 + 来／去",
+        "sense": "… ra／vào／lên／xuống／về (hướng di chuyển)",
+        "usage": "Bổ ngữ xu hướng kép ghép một chữ chỉ hướng với 来 hoặc 去\n来 khi hành động tiến về phía người nói, 去 khi rời xa người nói\ndạng này dùng khi câu không có tân ngữ.",
+        "examples": [
+          "我是走回来的。",
+          "小狗从房间跑出来。",
+          "坐久了要站起来休息一下。"
+        ],
+        "meanings": [
+          "Tôi đi bộ về đấy.",
+          "Con chó con chạy từ trong phòng ra.",
+          "Ngồi lâu thì phải đứng dậy nghỉ một chút."
+        ],
+        "table": {
+          "columns": [
+            "Hướng",
+            "+ 来",
+            "+ 去"
+          ],
+          "rows": [
+            [
+              "上",
+              "上来",
+              "上去"
+            ],
+            [
+              "下",
+              "下来",
+              "下去"
+            ],
+            [
+              "进",
+              "进来",
+              "进去"
+            ],
+            [
+              "出",
+              "出来",
+              "出去"
+            ],
+            [
+              "回",
+              "回来",
+              "回去"
+            ],
+            [
+              "过",
+              "过来",
+              "过去"
+            ],
+            [
+              "起",
+              "起来",
+              "（không có 起去）"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0211-s2",
+        "formula": "1.2 S + V + hướng + NƠI CHỐN + 来／去",
+        "sense": "… vào／lên／về (một nơi nào đó)",
+        "usage": "Khi tân ngữ là NƠI CHỐN thì bắt buộc chen vào giữa chữ chỉ hướng và 来／去, không được để sau 来／去\nđây là lỗi hay gặp nhất của cấu trúc này.",
+        "examples": [
+          "他走进教室去了。",
+          "小刚跑上楼去了。",
+          "张老师拿着一本书走进教室来。"
+        ],
+        "meanings": [
+          "Anh ấy đi vào trong lớp rồi.",
+          "Tiểu Cương chạy lên lầu rồi.",
+          "Thầy Trương cầm quyển sách đi vào lớp."
+        ]
+      },
+      {
+        "id": "l0211-s3",
+        "formula": "1.3 S + V + hướng + ĐỒ VẬT + 来／去 ＝ S + V + hướng + 来／去 + ĐỒ VẬT",
+        "sense": "Mang／mua／lấy … về（ra, vào…）",
+        "usage": "Khi tân ngữ là ĐỒ VẬT thì đặt ở giữa hay sau 来／去 đều đúng, nghĩa không đổi\nhai cách viết dưới đây hoàn toàn tương đương.",
+        "examples": [
+          "爷爷买回来点儿面包。",
+          "爷爷买回点儿面包来。",
+          "他从包里拿出来一部手机。"
+        ],
+        "meanings": [
+          "Ông nội mua ít bánh mì về.",
+          "Ông nội mua ít bánh mì về.",
+          "Anh ấy lấy ra một chiếc điện thoại từ trong túi."
+        ]
+      },
+      {
+        "id": "l0211-s4",
+        "formula": "2.1 Danh từ + 坏了",
+        "sense": "… bị hỏng",
+        "usage": "Nói đồ vật hỏng, không dùng được nữa\nchỉ cần danh từ cộng thẳng 坏了.",
+        "examples": [
+          "这个苹果坏了。",
+          "我的手机坏了。",
+          "桌子上的那个空调坏了。"
+        ],
+        "meanings": [
+          "Quả táo này hỏng rồi.",
+          "Điện thoại của tôi hỏng rồi.",
+          "Cái điều hòa kia hỏng rồi."
+        ],
+        "table": {
+          "columns": [
+            "",
+            "Công thức",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "1. Vật hỏng",
+              "N + 坏了",
+              "这个苹果坏了。"
+            ],
+            [
+              "2. Dùng đến hỏng",
+              "V（穿／用／画）+ 坏了",
+              "我把这件衣服穿坏了。"
+            ],
+            [
+              "3. Mức độ cao",
+              "tính từ／động từ tâm lý + 坏了",
+              "他这几天忙坏了。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0211-s5",
+        "formula": "2.2 Động từ（穿／用／画……）+ 坏了",
+        "sense": "Dùng／mặc／vẽ … đến mức hỏng",
+        "usage": "坏了 lúc này là bổ ngữ kết quả của động từ, nói hành động đã làm vật hỏng\nrất hay đi cùng câu chữ 把 đã học ngày 23/10 và 28/10.",
+        "examples": [
+          "我把这件衣服穿坏了。",
+          "你已经把这件衣服穿坏了。",
+          "弟弟把我的笔用坏了。"
+        ],
+        "meanings": [
+          "Tôi mặc cái áo này đến hỏng rồi.",
+          "Bạn đã mặc cái áo này đến hỏng rồi.",
+          "Em trai dùng hỏng cái bút của tôi rồi."
+        ]
+      },
+      {
+        "id": "l0211-s6",
+        "formula": "2.3 Tính từ／động từ tâm lý + 坏了（＝ 很 + tính từ）",
+        "sense": "… quá chừng, … lắm",
+        "usage": "Dạng này KHÔNG có nghĩa hỏng mà chỉ mức độ rất cao, tương đương 很\nchỉ dùng với từ chỉ cảm nhận: 累、忙、高兴、担心、饿……\ncó thể thêm tân ngữ phía sau: 别累坏了孩子。",
+        "examples": [
+          "他这几天忙坏了。",
+          "姐姐终于从美国回来了，妈妈高兴坏了。",
+          "十点了，弟弟还没回家，我们担心坏了。"
+        ],
+        "meanings": [
+          "Mấy hôm nay anh ấy bận quá chừng.",
+          "Chị gái cuối cùng cũng từ Mỹ về, mẹ mừng húm.",
+          "Mười giờ rồi mà em trai vẫn chưa về, chúng tôi lo lắm."
+        ]
+      },
+      {
+        "id": "l0211-s7",
+        "formula": "3. （一）边 + V1 +（一）边 + V2",
+        "sense": "Vừa … vừa …",
+        "usage": "Hai việc diễn ra cùng lúc\n一 có thể lược: 边……边……\nmột chủ ngữ thì đặt cả hai vế sau chủ ngữ, hai chủ ngữ thì mỗi vế có chủ ngữ riêng.",
+        "examples": [
+          "小王（一）边唱歌（一）边跑步。",
+          "我丈夫喜欢一边吃早饭一边看报纸。",
+          "老师一边讲题，我们一边记下来。"
+        ],
+        "meanings": [
+          "Tiểu Vương vừa hát vừa chạy bộ.",
+          "Chồng tôi thích vừa ăn sáng vừa đọc báo.",
+          "Thầy giảng bài, chúng tôi vừa nghe vừa ghi lại."
+        ]
+      }
+    ]
+  },
   "l0911": {
     "date": "09/11/2026",
     "topic": "如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的",

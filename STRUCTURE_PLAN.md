@@ -463,6 +463,17 @@ Quy ước:
 | l2810-s4 | 2.1 S + 把 + O + V + 在／到 + nơi chốn | Đem O đặt／chuyển tới … | Dạng thứ hai của câu chữ 把: hành động làm đổi VỊ TRÍ của tân ngữ；在 dùng khi nhấn mạnh chỗ nằm lại, 到 dùng khi nhấn mạnh sự di chuyển tới；phó từ phủ định và trợ động từ vẫn đứng trước 把. | 老师把作业放在桌子上。；妈妈让儿子把椅子搬到电脑前面。；我已经把衣服放进行李箱里了。 | Cô giáo để bài tập trên bàn.；Mẹ bảo con trai chuyển ghế tới trước máy tính.；Tôi đã xếp quần áo vào va li rồi. | Dạng｜Công thức｜Ví dụ；1. Kết quả｜把 + O + V + 了｜他把门关了。；2. Vị trí｜把 + O + V + 在／到 + nơi｜老师把作业放在桌子上。；3. Người nhận｜把 + O + V + 给 + ai｜我把鲜花送给老师了。 |
 | l2810-s5 | 2.2 S + 把 + O + V + 给 + người | Đem O đưa／tặng／trả cho ai | Dạng thứ ba của câu chữ 把: hành động làm đổi NGƯỜI GIỮ hoặc người dùng tân ngữ；động từ hay gặp là 送、带、还、借；người nhận đứng ngay sau 给. | 我把这幅画送给爸爸了。；弟弟已经把钱还给哥哥了。；大卫，你帮我把行李箱带给小刚。 | Tôi tặng bức tranh này cho bố rồi.；Em trai đã trả tiền cho anh trai rồi.；Đại Vĩ, cậu mang va li tới cho Tiểu Cương giúp tớ nhé. | — |
 
+## l0211 · 02/11/2026 · Bổ ngữ xu hướng kép, 坏了 và 一边……一边……
+| Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- | --- |
+| l0211-s1 | 1.1 S + V + 上／下／进／出／回／过／带／起 + 来／去 | … ra／vào／lên／xuống／về (hướng di chuyển) | Bổ ngữ xu hướng kép ghép một chữ chỉ hướng với 来 hoặc 去；来 khi hành động tiến về phía người nói, 去 khi rời xa người nói；dạng này dùng khi câu không có tân ngữ. | 我是走回来的。；小狗从房间跑出来。；坐久了要站起来休息一下。 | Tôi đi bộ về đấy.；Con chó con chạy từ trong phòng ra.；Ngồi lâu thì phải đứng dậy nghỉ một chút. | Hướng｜+ 来｜+ 去；上｜上来｜上去；下｜下来｜下去；进｜进来｜进去；出｜出来｜出去；回｜回来｜回去；过｜过来｜过去；起｜起来｜（không có 起去） |
+| l0211-s2 | 1.2 S + V + hướng + NƠI CHỐN + 来／去 | … vào／lên／về (một nơi nào đó) | Khi tân ngữ là NƠI CHỐN thì bắt buộc chen vào giữa chữ chỉ hướng và 来／去, không được để sau 来／去；đây là lỗi hay gặp nhất của cấu trúc này. | 他走进教室去了。；小刚跑上楼去了。；张老师拿着一本书走进教室来。 | Anh ấy đi vào trong lớp rồi.；Tiểu Cương chạy lên lầu rồi.；Thầy Trương cầm quyển sách đi vào lớp. | — |
+| l0211-s3 | 1.3 S + V + hướng + ĐỒ VẬT + 来／去 ＝ S + V + hướng + 来／去 + ĐỒ VẬT | Mang／mua／lấy … về（ra, vào…） | Khi tân ngữ là ĐỒ VẬT thì đặt ở giữa hay sau 来／去 đều đúng, nghĩa không đổi；hai cách viết dưới đây hoàn toàn tương đương. | 爷爷买回来点儿面包。；爷爷买回点儿面包来。；他从包里拿出来一部手机。 | Ông nội mua ít bánh mì về.；Ông nội mua ít bánh mì về.；Anh ấy lấy ra một chiếc điện thoại từ trong túi. | — |
+| l0211-s4 | 2.1 Danh từ + 坏了 | … bị hỏng | Nói đồ vật hỏng, không dùng được nữa；chỉ cần danh từ cộng thẳng 坏了. | 这个苹果坏了。；我的手机坏了。；桌子上的那个空调坏了。 | Quả táo này hỏng rồi.；Điện thoại của tôi hỏng rồi.；Cái điều hòa kia hỏng rồi. | ｜Công thức｜Ví dụ；1. Vật hỏng｜N + 坏了｜这个苹果坏了。；2. Dùng đến hỏng｜V（穿／用／画）+ 坏了｜我把这件衣服穿坏了。；3. Mức độ cao｜tính từ／động từ tâm lý + 坏了｜他这几天忙坏了。 |
+| l0211-s5 | 2.2 Động từ（穿／用／画……）+ 坏了 | Dùng／mặc／vẽ … đến mức hỏng | 坏了 lúc này là bổ ngữ kết quả của động từ, nói hành động đã làm vật hỏng；rất hay đi cùng câu chữ 把 đã học ngày 23/10 và 28/10. | 我把这件衣服穿坏了。；你已经把这件衣服穿坏了。；弟弟把我的笔用坏了。 | Tôi mặc cái áo này đến hỏng rồi.；Bạn đã mặc cái áo này đến hỏng rồi.；Em trai dùng hỏng cái bút của tôi rồi. | — |
+| l0211-s6 | 2.3 Tính từ／động từ tâm lý + 坏了（＝ 很 + tính từ） | … quá chừng, … lắm | Dạng này KHÔNG có nghĩa hỏng mà chỉ mức độ rất cao, tương đương 很；chỉ dùng với từ chỉ cảm nhận: 累、忙、高兴、担心、饿……；có thể thêm tân ngữ phía sau: 别累坏了孩子。 | 他这几天忙坏了。；姐姐终于从美国回来了，妈妈高兴坏了。；十点了，弟弟还没回家，我们担心坏了。 | Mấy hôm nay anh ấy bận quá chừng.；Chị gái cuối cùng cũng từ Mỹ về, mẹ mừng húm.；Mười giờ rồi mà em trai vẫn chưa về, chúng tôi lo lắm. | — |
+| l0211-s7 | 3. （一）边 + V1 +（一）边 + V2 | Vừa … vừa … | Hai việc diễn ra cùng lúc；一 có thể lược: 边……边……；một chủ ngữ thì đặt cả hai vế sau chủ ngữ, hai chủ ngữ thì mỗi vế có chủ ngữ riêng. | 小王（一）边唱歌（一）边跑步。；我丈夫喜欢一边吃早饭一边看报纸。；老师一边讲题，我们一边记下来。 | Tiểu Vương vừa hát vừa chạy bộ.；Chồng tôi thích vừa ăn sáng vừa đọc báo.；Thầy giảng bài, chúng tôi vừa nghe vừa ghi lại. | — |
+
 ## l0911 · 09/11/2026 · 如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的
 
 | Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa | Bảng |
@@ -2092,6 +2103,31 @@ Quy chuẩn cho mọi ngày:
 | l2810-w1 | kể việc dậy sớm hơn thường lệ | S + mốc thời gian + 就 + V（+ 了） | 就；起飞 | Dùng đủ hai từ để nói máy bay mới sáu giờ đã cất cánh rồi. | 飞机六点就起飞了。 |
 | l2810-w2 | than phiền vì ai đó tới muộn | S + mốc thời gian + 才 + V | 才；司机 | Dùng đủ hai từ để nói mãi chín giờ tài xế mới tới. | 司机九点才来。 |
 | l2810-w3 | xếp đồ trước chuyến đi | S + 把 + O + V + 在／到 + nơi chốn | 把；护照；行李箱 | Dùng đủ ba từ để nói bạn đã để hộ chiếu vào va li rồi. | 我已经把护照放在行李箱里了。 |
+
+### l0211 · 02/11/2026
+#### Đoạn văn
+> 刚结婚的时候，我丈夫是中学老师，他喜欢每天早上起床后一边吃早饭一边看报纸。十年过去了，现在他已经是校长了。因为工作太忙，每天早上我起床后都看不到他，晚上很晚他才回到家。我真怕他累坏了。上个星期他终于早点儿回来，还从外地给孩子带回来一件礼物。我希望他能少一些会议，多一些休息，可以经常和我还有孩子在一起。
+#### Hội thoại
+> 小丽：你终于回来了！从哪儿买回来这么多东西呀？
+> 小刚：都是从那边的商店买回来的。
+> 小丽：怎么还买红酒回来了？谁喝呀？
+> 小刚：这是给爷爷的礼物，明天我们一起送过去，看看爷爷奶奶。
+> 小丽：那我的礼物呢？快拿出来让我看看。
+> 小刚：我今天在路上还遇到了一个老同学，一边喝咖啡一边说了些过去的事。
+> 小丽：你回来得这么晚，就是因为这个吗？
+> 小刚：是啊，后来没有公共汽车了，我是走回来的。
+> 小丽：走回来的？你不累坏了吗？
+> 小刚：有点儿累，不过我应该多走走，这样生活会更有意思。
+#### Câu hỏi đọc hiểu
+| l0211-r1 | 刚结婚的时候，丈夫习惯做什么？ | 一边吃早饭一边看报纸；一边跑步一边听音乐；一边做饭一边聊天；一边开车一边打电话 | 一边吃早饭一边看报纸 | Đoạn văn nói "他喜欢每天早上起床后一边吃早饭一边看报纸"。 |
+| l0211-r2 | 十年过去了，丈夫现在做什么工作？ | 校长；中学老师；司机；经理 | 校长 | Đoạn văn nói "十年过去了，现在他已经是校长了"。 |
+| l0211-r3 | 妻子最希望丈夫怎么样？ | 少一些会议，多一些休息，常常和家人在一起；多买一些礼物回来；早点儿当上校长；每天早上看报纸 | 少一些会议，多一些休息，常常和家人在一起 | Câu cuối đoạn văn nói rõ điều người vợ mong muốn. |
+| l0211-r4 | 小刚买红酒回来做什么？ | 给爷爷的礼物，明天一起送过去；自己晚上喝；送给老同学；送给小丽 | 给爷爷的礼物，明天一起送过去 | 小刚 nói "这是给爷爷的礼物，明天我们一起送过去"。 |
+| l0211-r5 | 小刚为什么回来得这么晚？ | 遇到老同学去喝咖啡，后来没有公共汽车只能走回来；因为去买礼物；因为开会；因为去看爷爷奶奶 | 遇到老同学去喝咖啡，后来没有公共汽车只能走回来 | 小刚 nói gặp bạn cũ đi uống cà phê, rồi "没有公共汽车了，我是走回来的"。 |
+#### Đặt câu với từ cho sẵn
+| l0211-w1 | kể việc mua quà mang về | S + V + hướng + ĐỒ VẬT + 来／去 | 买回来；礼物 | Dùng đủ hai từ để nói ông nội mua một món quà từ nước ngoài về. | 爷爷从国外买回来一件礼物。 |
+| l0211-w2 | tả hai việc làm cùng lúc | （一）边 + V1 +（一）边 + V2 | 一边；生活 | Dùng đủ hai từ để nói bạn thích vừa ăn vừa xem tivi, như vậy cuộc sống thú vị hơn. | 我喜欢一边吃东西一边看电视，这样生活更有意思。 |
+| l0211-w3 | lo cho người làm việc quá sức | Tính từ／động từ tâm lý + 坏了 | 校长；累坏了 | Dùng đủ hai từ để nói hiệu trưởng bận quá, bạn sợ thầy mệt lả. | 校长工作太忙了，我怕他累坏了。 |
 
 ### l0911 · 09/11/2026
 
