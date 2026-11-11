@@ -9828,7 +9828,7 @@ window.HSK_CONTENT = {
       "date": "09/11/2026",
       "shortDate": "09/11",
       "title": "如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy AA 的",
-      "focus": "如果……（的话）就…… / 因为…所以… / 虽然…但是… / 变 VS 变化 / V 得 + tính từ / V 得 + cụm động từ / AA 的",
+      "focus": "如果……（的话）就…… (so sánh với 因为…所以…、虽然…但是…) / 变 VS 变化 / V 得 + tính từ / V 得 + cụm động từ / AA 的",
       "pages": "slide 1-70",
       "page": 1,
       "listening": [
@@ -10000,15 +10000,7 @@ window.HSK_CONTENT = {
       "patterns": [
         [
           "如果 + mệnh đề（的话），（chủ ngữ +）就 + mệnh đề",
-          "Nếu … thì …\nVế đầu nêu giả thiết chưa xảy ra, vế sau nêu kết quả.\n的话 đặt cuối vế giả thiết và có thể bỏ; 就 đứng sau chủ ngữ của vế sau."
-        ],
-        [
-          "因为 + vế 1，所以 + vế 2",
-          "Vì … nên …\nCặp từ nối chỉ nguyên nhân – kết quả, vế nguyên nhân đứng trước.\nTiếng Trung giữ cả hai vế, không lược như tiếng Việt."
-        ],
-        [
-          "虽然 + vế 1，但是 + vế 2",
-          "Tuy … nhưng …\nCặp từ nối chỉ nhượng bộ; ý chính nằm ở vế sau.\nKhông dùng kèm 可是 trong cùng một câu."
+          "Nếu … thì …\nVế đầu nêu giả thiết chưa xảy ra, vế sau nêu kết quả.\n的话 đặt cuối vế giả thiết và có thể bỏ; 就 đứng sau chủ ngữ của vế sau.\nSo với hai cặp từ nối đã học: 因为……，所以…… (nguyên nhân – kết quả) và 虽然……，但是…… (nhượng bộ). Cả ba đều giữ đủ hai vế, chỉ khác ở quan hệ giữa hai vế."
         ],
         [
           "变 + tính từ／变得更 + tính từ",

@@ -4083,9 +4083,9 @@ window.HSK_STRUCTURES = {
     "items": [
       {
         "id": "l0911-s1",
-        "formula": "1.1 如果 + mệnh đề（的话），（chủ ngữ +）就 + mệnh đề",
+        "formula": "如果 + mệnh đề（的话），（chủ ngữ +）就 + mệnh đề",
         "sense": "Nếu … thì … (giả thiết chưa xảy ra)",
-        "usage": "Vế trước nêu một giả thiết chưa xảy ra, vế sau nêu kết quả dựa trên giả thiết đó\n的话 đứng cuối vế giả thiết và có thể lược bỏ\n就 luôn đứng sau chủ ngữ của vế sau, không đứng đầu câu.",
+        "usage": "Vế trước nêu một giả thiết chưa xảy ra, vế sau nêu kết quả dựa trên giả thiết đó\n的话 đứng cuối vế giả thiết và có thể lược bỏ\n就 luôn đứng sau chủ ngữ của vế sau, không đứng đầu câu\nSo với hai cặp từ nối đã học là 因为……所以…… và 虽然……但是……, cả ba đều giữ đủ hai vế; khác nhau ở quan hệ giữa hai vế, xem bảng bên dưới.",
         "examples": [
           "如果你太累了，就休息一会儿。",
           "如果你不舒服，就去医院检查一下吧。",
@@ -4095,62 +4095,34 @@ window.HSK_STRUCTURES = {
           "Nếu bạn mệt quá thì nghỉ một lát đi.",
           "Nếu bạn không khỏe thì đi bệnh viện kiểm tra một chút đi.",
           "Nếu có tiền thì tôi sẽ mua một chiếc xe."
-        ]
-      },
-      {
-        "id": "l0911-s2",
-        "formula": "1.2 因为 + vế 1（nguyên nhân），所以 + vế 2（kết quả）",
-        "sense": "Vì … nên …",
-        "usage": "Cặp từ nối chỉ quan hệ nhân quả\nhai chữ đi thành cặp, vế nguyên nhân luôn đứng trước\ncó thể lược một trong hai chữ khi ý đã rõ.",
-        "examples": [
-          "因为他天天跑步，所以身体很好。",
-          "因为明天要考试，所以我今天要认真复习。",
-          "因为他的儿子感冒了，所以他今天在家照顾儿子。"
-        ],
-        "meanings": [
-          "Vì cậu ấy ngày nào cũng chạy bộ nên sức khỏe rất tốt.",
-          "Vì mai phải thi nên hôm nay tôi phải ôn tập nghiêm túc.",
-          "Vì con trai anh ấy bị cảm nên hôm nay anh ấy ở nhà chăm con."
-        ]
-      },
-      {
-        "id": "l0911-s3",
-        "formula": "1.3 虽然 + vế 1（sự thật），但是 + vế 2（trái ngược）",
-        "sense": "Tuy … nhưng …",
-        "usage": "Cặp từ nối chỉ quan hệ nhượng bộ\nvế sau mới là ý chính người nói muốn nhấn mạnh\nkhông bỏ 但是 như tiếng Việt vẫn hay bỏ chữ \"nhưng\".",
-        "examples": [
-          "虽然外面很冷，但是房间里很热。",
-          "虽然我对音乐很感兴趣，但是我不会唱歌。",
-          "虽然他学习很努力，但是汉语水平一直没提高。"
-        ],
-        "meanings": [
-          "Tuy bên ngoài rất lạnh nhưng trong phòng rất nóng.",
-          "Tuy tôi rất thích âm nhạc nhưng tôi không biết hát.",
-          "Tuy cậu ấy học rất chăm nhưng trình độ tiếng Trung vẫn không tiến bộ."
         ],
         "table": {
           "columns": [
             "Quan hệ",
-            "Cặp từ nối"
+            "Cặp từ nối",
+            "Ví dụ"
           ],
           "rows": [
             [
               "Nguyên nhân – kết quả",
-              "因为……，所以……"
+              "因为……，所以……（vế nguyên nhân đứng trước）",
+              "因为明天要考试，所以我今天要认真复习。"
             ],
             [
               "Nhượng bộ",
-              "虽然……，但是……"
+              "虽然……，但是……（ý chính nằm ở vế sau）",
+              "虽然他学习很努力，但是汉语水平一直没提高。"
             ],
             [
               "Giả thiết – kết quả",
-              "如果……（的话），（chủ ngữ +）就……"
+              "如果……（的话），（chủ ngữ +）就……（giả thiết chưa xảy ra）",
+              "如果你不舒服，就去医院检查一下吧。"
             ]
           ]
         }
       },
       {
-        "id": "l0911-s4",
+        "id": "l0911-s2",
         "formula": "2.1 chủ ngữ + 变 + tính từ／变得更 + tính từ",
         "sense": "Trở nên …, biến thành …",
         "usage": "变 là động từ, nói về sự chuyển sang một trạng thái khác\n变 + tính từ một âm (大／小／胖／瘦／绿……)\nthêm 得更 khi muốn nói \"càng … hơn\".",
@@ -4190,7 +4162,7 @@ window.HSK_STRUCTURES = {
         }
       },
       {
-        "id": "l0911-s5",
+        "id": "l0911-s3",
         "formula": "2.2 （danh từ +（的））变化",
         "sense": "Sự thay đổi",
         "usage": "变化 đứng làm danh từ trong cụm sở hữu, hoặc làm vị ngữ với 有／没有\nkhi nói \"hầu như không thay đổi\" thì dùng được cả 没变 lẫn 没变化.",
@@ -4206,7 +4178,7 @@ window.HSK_STRUCTURES = {
         ]
       },
       {
-        "id": "l0911-s6",
+        "id": "l0911-s4",
         "formula": "3.1 chủ ngữ + động từ + 得 + tính từ",
         "sense": "Làm (việc gì) … (như thế nào)",
         "usage": "Bổ ngữ trạng thái, nói mức độ hoặc chất lượng của hành động\nphủ định đặt 不 sau 得: V + 得 + 不 + tính từ\nnghi vấn dùng V + 得 + tính từ + 不 + tính từ, bằng với V + 得 + tính từ + 吗.",
@@ -4222,7 +4194,7 @@ window.HSK_STRUCTURES = {
         ]
       },
       {
-        "id": "l0911-s7",
+        "id": "l0911-s5",
         "formula": "3.2 chủ ngữ + động từ／tính từ + 得 + cụm động từ",
         "sense": "… đến mức …",
         "usage": "Phần sau 得 không còn là tính từ mà là cả một cụm động từ, nêu trạng thái do hành động hoặc tính chất phía trước gây ra\nđây là dạng hay gặp nhất của bài này.",
@@ -4238,7 +4210,7 @@ window.HSK_STRUCTURES = {
         ]
       },
       {
-        "id": "l0911-s8",
+        "id": "l0911-s6",
         "formula": "4.1 tính từ một âm A → AA 的",
         "sense": "Rất A (tả đặc điểm)",
         "usage": "Láy tính từ một âm tiết rồi thêm 的, nghĩa tương đương 很 + A nhưng mềm và hình ảnh hơn\nthường dùng tả đặc điểm người hoặc vật\nkhông thêm 很 trước dạng láy.",
@@ -4278,7 +4250,7 @@ window.HSK_STRUCTURES = {
         }
       },
       {
-        "id": "l0911-s9",
+        "id": "l0911-s7",
         "formula": "4.2 Láy lượng từ và láy động từ",
         "sense": "Mỗi …, làm … một chút",
         "usage": "Lượng từ một âm A → AA mang nghĩa \"mỗi\", hay đi cùng 都\nđộng từ một âm A → AA hoặc A 一 A\nđộng từ hai âm AB → ABAB, không láy thành AABB.",
