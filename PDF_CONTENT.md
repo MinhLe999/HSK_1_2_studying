@@ -1106,3 +1106,52 @@ Nguồn chuẩn dùng để soạn bài là bộ slide `HSK3(11) 别忘了把空
 | 课文4 · đoạn văn | `3 1 2 5 4` | Slide 53-57, đoạn độc thoại 5 câu về máy tính, kèm 3 câu đúng/sai (slide 54). |
 
 Slide 7-10, 16-18, 27-28, 35-36, 42, 47, 52, 58 là trò chơi ghép hình, bài nói theo tranh hoặc bài nói theo cặp — không đưa vào app.
+
+## 28/10/2026 — slide lớp học ChineseRd (Bài 15 · HSK3 第12课)
+
+Nguồn: `HSK3(12) 把重要的东西放在我这儿吧.pptx` (67 slide), đọc trực tiếp từ `school.chineserd.com`. Thư mục tài liệu: `h5-static.talk-cloud.net/document/115898_20260626_161022_ebdyppsm/`. `materials/28_10_26.pdf` là bản in rút gọn của chính bộ slide này.
+
+Âm thanh (xác định bằng thứ tự thẻ `<audio>` trong `newppt.html` cộng với độ dài; `sound11`/`sound12` là hiệu ứng đúng/sai dưới 1 giây):
+
+| Bài | Tệp | Độ dài |
+| --- | --- | --- |
+| 课文1 · 在家 | `.../data/sound10.mp3` | 22,2 s |
+| 课文2 · 在家 | `.../data/sound13.mp3` | 25,4 s |
+| 课文3 · 在机场 | `.../data/sound14.mp3` | 24,3 s |
+| 课文4 · đoạn văn của thầy giáo dạy vẽ | `.../data/sound15.mp3` | 33,7 s |
+
+### Từ vựng (slide 4-5, 14 từ)
+
+太阳 tàiyáng mặt trời ／ 发现 fāxiàn phát hiện ／ 生气 shēngqì tức giận ／ 护照 hùzhào hộ chiếu ／ 起飞 qǐfēi cất cánh ／ 西 xī phía tây ／ 教 jiāo dạy ／ 画 huà vẽ; bức tranh ／ 黑板 hēibǎn bảng đen ／ 需要 xūyào cần ／ 行李箱 xínglǐxiāng va li ／ 自己 zìjǐ tự mình, bản thân ／ 包 bāo cái túi ／ 司机 sījī tài xế.
+
+### Điểm ngữ pháp
+
+| Slide | Mục | Nội dung |
+| --- | --- | --- |
+| 14 | 1. 才 VS 就 | (1) Với MỐC thời gian: người nói thấy sớm thì dùng `S + mốc + 就 + V（了）`（他早上五点就起床了。）, thấy muộn thì dùng `S + mốc + 才 + V`（九点上课，同学们十点才来教室。）. (2) Với KHOẢNG thời gian: thấy nhanh thì `S + khoảng + 就 + V（了）`（我二十分钟就到机场。）, thấy chậm thì `S + khoảng + 才 + V`（我坐火车六个小时才到北京。）. Câu có 就 thường thêm 了, câu có 才 thì không. |
+| 19 | 2.(1) 把 + V + 在／到 + nơi chốn | Hành động làm đổi VỊ TRÍ của tân ngữ: 妈妈让儿子把椅子搬到电脑前面。／我帮你把衣服放到行李箱里。／小刚已经把钱包放在桌子上了。 |
+| 20 | 2.(2) 把 + V + 给 + người | Hành động làm đổi NGƯỜI SỞ HỮU hoặc người dùng: 大卫，你帮我把行李箱带给小刚。／我把这幅画送给爸爸了。／弟弟已经把钱还给哥哥了。 |
+| 21 | Bảng tổng kết câu 把 | `V + others` có ba dạng: 1. V + 了（他把门关了。）2. V + 在／到 + nơi chốn（老师把作业放在桌子上。）3. V + 给 + người（我把鲜花送给老师了。） |
+
+### Bài luyện có đáp án trên slide
+
+- Slide 15 — chọn 才 hay 就: 就／才／才／就／就 và 才／就 và 才.
+- Slide 16 — sắp xếp câu 才: 妹妹每天很晚才回家。／飞机12点才起飞。／我骑自行车半个小时才到学校。
+- Slide 22 — viết lại thành câu 把: 林木把行李箱放在门口了。／我把这把椅子搬到教室外面了。／司机帮我把书带给小刚了。／她把礼物送给爷爷了。
+- Slide 23 — đặt từ vào đúng chỗ: 把 (vị trí A) ／ 不 (B) ／ 把 (B) ／ 可以 (A) ／ 没有 (B).
+- Slide 31-32 — sắp xếp câu 把: 请你把钱包送给奶奶。／我不想把桌子搬到教室前面。／哥哥忘记把行李箱还给我了。／请你别把空调关了。／请你把书放到桌子上面。／我已经把衣服放进行李箱里了。
+- Slide 34 — nối câu hỏi với câu trả lời: 1→C、2→E、3→B、4→D、5→A.
+- Slide 35-38 — hoàn thành hội thoại: 到了机场／护照带给我了／才／车放在家里了／就学会游泳了／你们送到／我很晚才回来／它放在电脑上了.
+- Slide 63 — ghép chữ: 钱 + 包 → 钱包; 电子邮件 + 行李箱 → 电子邮箱; 行李箱 + 杯子 → 箱子.
+- Slide 64-66 — chọn từ điền: 画／黑板／司机／护照／包／起飞／生气／发现／行李箱／自己／教.
+
+### Bốn bài đọc
+
+| Bài | Thứ tự đúng | Ghi chú |
+| --- | --- | --- |
+| 课文1 · 在家 | `2 5 6 1 3 4` | Slide 41-45, hội thoại 小丽／小刚 6 lượt, kèm 5 câu đúng/sai. |
+| 课文2 · 在家 | `5 4 1 6 3 2` | Slide 46-50, hội thoại 小刚／小丽 6 lượt, kèm 5 câu đúng/sai. |
+| 课文3 · 在机场 | `1 4 2 5 3` | Slide 51-55, hội thoại 周明／小刚 5 lượt, kèm 5 câu đúng/sai. |
+| 课文4 · đoạn văn | `2 1 4 3` | Slide 56-59, đoạn độc thoại của thầy giáo dạy vẽ; slide 57 là hai câu hỏi mở, không có đúng/sai. |
+
+Slide 6-12, 17, 18, 24-30, 33, 39, 45, 50, 55, 60-61 là trò chơi ghép ảnh, bài nghe-chọn-đáp-án không có ghi âm riêng trong tệp, bài nói theo tranh hoặc bài nói theo cặp — không đưa vào app.

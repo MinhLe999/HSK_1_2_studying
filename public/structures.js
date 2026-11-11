@@ -4219,6 +4219,135 @@ window.HSK_STRUCTURES = {
       }
     ]
   },
+  "l2810": {
+    "date": "28/10/2026",
+    "topic": "才 VS 就 và hai dạng mở rộng của câu chữ 把",
+    "items": [
+      {
+        "id": "l2810-s1",
+        "formula": "1.1 S + mốc thời gian + 就 + V（+ 了）",
+        "sense": "(Mới …) đã … rồi — người nói thấy SỚM",
+        "usage": "Dùng khi người nói cho rằng việc xảy ra sớm hơn bình thường\nmốc thời gian đứng trước 就, không đứng sau\ncâu thường kết thúc bằng 了.",
+        "examples": [
+          "他早上五点就起床了。",
+          "我明天8点就要到公司。",
+          "他今天起得很早，七点就起床了。"
+        ],
+        "meanings": [
+          "Sáng nay mới năm giờ anh ấy đã dậy rồi.",
+          "Tám giờ sáng mai tôi đã phải có mặt ở công ty.",
+          "Hôm nay cậu ấy dậy rất sớm, bảy giờ đã dậy rồi."
+        ],
+        "table": {
+          "columns": [
+            "Người nói thấy",
+            "Mốc thời gian",
+            "Khoảng thời gian"
+          ],
+          "rows": [
+            [
+              "Sớm／nhanh",
+              "S + mốc + 就 + V 了",
+              "S + khoảng + 就 + V 了"
+            ],
+            [
+              "Muộn／chậm",
+              "S + mốc + 才 + V",
+              "S + khoảng + 才 + V"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l2810-s2",
+        "formula": "1.2 S + mốc thời gian + 才 + V",
+        "sense": "Mãi đến … mới … — người nói thấy MUỘN",
+        "usage": "Dùng khi người nói cho rằng việc xảy ra muộn hơn mong đợi\nkhác 就 ở chỗ câu có 才 KHÔNG thêm 了 ở cuối\nhay đi cùng vế so sánh phía trước.",
+        "examples": [
+          "九点上课，同学们十点才来教室。",
+          "妹妹每天很晚才回家。",
+          "飞机12点才起飞。"
+        ],
+        "meanings": [
+          "Chín giờ vào học mà mười giờ các bạn mới tới lớp.",
+          "Ngày nào em gái cũng rất muộn mới về nhà.",
+          "Mãi mười hai giờ máy bay mới cất cánh."
+        ]
+      },
+      {
+        "id": "l2810-s3",
+        "formula": "1.3 S + khoảng thời gian + 就／才 + V",
+        "sense": "Chỉ … là đã … ／ Phải mất … mới …",
+        "usage": "Khi phía trước là một KHOẢNG thời gian chứ không phải mốc giờ: 就 nói việc làm nhanh, 才 nói việc làm chậm\nhai câu đối nhau rất hay dùng để so sánh hai người.",
+        "examples": [
+          "我二十分钟就到机场。",
+          "我坐火车六个小时才到北京。",
+          "大卫走10分钟就到学校了，玛丽走30分钟才到学校。"
+        ],
+        "meanings": [
+          "Tôi chỉ hai mươi phút là tới sân bay.",
+          "Tôi đi tàu hỏa sáu tiếng mới tới Bắc Kinh.",
+          "Đại Vĩ đi bộ mười phút là tới trường, còn Mã Lệ đi ba mươi phút mới tới."
+        ]
+      },
+      {
+        "id": "l2810-s4",
+        "formula": "2.1 S + 把 + O + V + 在／到 + nơi chốn",
+        "sense": "Đem O đặt／chuyển tới …",
+        "usage": "Dạng thứ hai của câu chữ 把: hành động làm đổi VỊ TRÍ của tân ngữ\n在 dùng khi nhấn mạnh chỗ nằm lại, 到 dùng khi nhấn mạnh sự di chuyển tới\nphó từ phủ định và trợ động từ vẫn đứng trước 把.",
+        "examples": [
+          "老师把作业放在桌子上。",
+          "妈妈让儿子把椅子搬到电脑前面。",
+          "我已经把衣服放进行李箱里了。"
+        ],
+        "meanings": [
+          "Cô giáo để bài tập trên bàn.",
+          "Mẹ bảo con trai chuyển ghế tới trước máy tính.",
+          "Tôi đã xếp quần áo vào va li rồi."
+        ],
+        "table": {
+          "columns": [
+            "Dạng",
+            "Công thức",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "1. Kết quả",
+              "把 + O + V + 了",
+              "他把门关了。"
+            ],
+            [
+              "2. Vị trí",
+              "把 + O + V + 在／到 + nơi",
+              "老师把作业放在桌子上。"
+            ],
+            [
+              "3. Người nhận",
+              "把 + O + V + 给 + ai",
+              "我把鲜花送给老师了。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l2810-s5",
+        "formula": "2.2 S + 把 + O + V + 给 + người",
+        "sense": "Đem O đưa／tặng／trả cho ai",
+        "usage": "Dạng thứ ba của câu chữ 把: hành động làm đổi NGƯỜI GIỮ hoặc người dùng tân ngữ\nđộng từ hay gặp là 送、带、还、借\nngười nhận đứng ngay sau 给.",
+        "examples": [
+          "我把这幅画送给爸爸了。",
+          "弟弟已经把钱还给哥哥了。",
+          "大卫，你帮我把行李箱带给小刚。"
+        ],
+        "meanings": [
+          "Tôi tặng bức tranh này cho bố rồi.",
+          "Em trai đã trả tiền cho anh trai rồi.",
+          "Đại Vĩ, cậu mang va li tới cho Tiểu Cương giúp tớ nhé."
+        ]
+      }
+    ]
+  },
   "l0911": {
     "date": "09/11/2026",
     "topic": "如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的",

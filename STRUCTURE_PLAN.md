@@ -454,6 +454,15 @@ Quy ước:
 | l2310-s5 | 3.2 S + 借（给）+ ai + O／S + 把 + O + 借给 + ai | Cho mượn (nhìn từ phía người có đồ) | Cùng chữ 借 nhưng đổi vai: thêm 给 + người nhận là "cho ai mượn"；khi vật đã xác định thì chuyển sang câu chữ 把: 把 + O + 借给 + ai；câu hỏi lịch sự thường là 你能借我……吗？ | 马可借给小丽一本书。；马可把一本书借给小丽了。；你能借我一下你的雨伞吗？ | Mã Khả cho Tiểu Lệ mượn một quyển sách.；Mã Khả cho Tiểu Lệ mượn một quyển sách rồi.；Bạn cho tôi mượn cái ô một chút được không? | Vai｜Công thức｜Ví dụ；Người mượn｜从／跟／向 + ai + 借 + O｜小丽从马可那里借了本书。；Người cho mượn｜借给 + ai + O｜马可借给小丽一本书。；Người trả｜把 + O + 还给 + ai｜小丽把书还给马可了。 |
 | l2310-s6 | 3.3 还 + O／S（+ 把 + O）+ 还给 + ai・nơi | Trả lại | 还 đọc là huán, khác với 还 hái "còn, vẫn"；trả cho ai thì bắt buộc có 给 + người hoặc nơi nhận；vật đã xác định thì đưa lên trước bằng 把. | 小丽把书还给马可了。；我的电脑还在你那里，你明天记得把它还给我。；你借给我的那本书我已经看完了，明天还给你。 | Tiểu Lệ trả sách cho Mã Khả rồi.；Máy tính của tôi vẫn ở chỗ bạn, mai bạn nhớ trả lại cho tôi.；Quyển sách bạn cho tôi mượn tôi đọc xong rồi, mai trả bạn. | — |
 
+## l2810 · 28/10/2026 · 才 VS 就 và hai dạng mở rộng của câu chữ 把
+| Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- | --- |
+| l2810-s1 | 1.1 S + mốc thời gian + 就 + V（+ 了） | (Mới …) đã … rồi — người nói thấy SỚM | Dùng khi người nói cho rằng việc xảy ra sớm hơn bình thường；mốc thời gian đứng trước 就, không đứng sau；câu thường kết thúc bằng 了. | 他早上五点就起床了。；我明天8点就要到公司。；他今天起得很早，七点就起床了。 | Sáng nay mới năm giờ anh ấy đã dậy rồi.；Tám giờ sáng mai tôi đã phải có mặt ở công ty.；Hôm nay cậu ấy dậy rất sớm, bảy giờ đã dậy rồi. | Người nói thấy｜Mốc thời gian｜Khoảng thời gian；Sớm／nhanh｜S + mốc + 就 + V 了｜S + khoảng + 就 + V 了；Muộn／chậm｜S + mốc + 才 + V｜S + khoảng + 才 + V |
+| l2810-s2 | 1.2 S + mốc thời gian + 才 + V | Mãi đến … mới … — người nói thấy MUỘN | Dùng khi người nói cho rằng việc xảy ra muộn hơn mong đợi；khác 就 ở chỗ câu có 才 KHÔNG thêm 了 ở cuối；hay đi cùng vế so sánh phía trước. | 九点上课，同学们十点才来教室。；妹妹每天很晚才回家。；飞机12点才起飞。 | Chín giờ vào học mà mười giờ các bạn mới tới lớp.；Ngày nào em gái cũng rất muộn mới về nhà.；Mãi mười hai giờ máy bay mới cất cánh. | — |
+| l2810-s3 | 1.3 S + khoảng thời gian + 就／才 + V | Chỉ … là đã … ／ Phải mất … mới … | Khi phía trước là một KHOẢNG thời gian chứ không phải mốc giờ: 就 nói việc làm nhanh, 才 nói việc làm chậm；hai câu đối nhau rất hay dùng để so sánh hai người. | 我二十分钟就到机场。；我坐火车六个小时才到北京。；大卫走10分钟就到学校了，玛丽走30分钟才到学校。 | Tôi chỉ hai mươi phút là tới sân bay.；Tôi đi tàu hỏa sáu tiếng mới tới Bắc Kinh.；Đại Vĩ đi bộ mười phút là tới trường, còn Mã Lệ đi ba mươi phút mới tới. | — |
+| l2810-s4 | 2.1 S + 把 + O + V + 在／到 + nơi chốn | Đem O đặt／chuyển tới … | Dạng thứ hai của câu chữ 把: hành động làm đổi VỊ TRÍ của tân ngữ；在 dùng khi nhấn mạnh chỗ nằm lại, 到 dùng khi nhấn mạnh sự di chuyển tới；phó từ phủ định và trợ động từ vẫn đứng trước 把. | 老师把作业放在桌子上。；妈妈让儿子把椅子搬到电脑前面。；我已经把衣服放进行李箱里了。 | Cô giáo để bài tập trên bàn.；Mẹ bảo con trai chuyển ghế tới trước máy tính.；Tôi đã xếp quần áo vào va li rồi. | Dạng｜Công thức｜Ví dụ；1. Kết quả｜把 + O + V + 了｜他把门关了。；2. Vị trí｜把 + O + V + 在／到 + nơi｜老师把作业放在桌子上。；3. Người nhận｜把 + O + V + 给 + ai｜我把鲜花送给老师了。 |
+| l2810-s5 | 2.2 S + 把 + O + V + 给 + người | Đem O đưa／tặng／trả cho ai | Dạng thứ ba của câu chữ 把: hành động làm đổi NGƯỜI GIỮ hoặc người dùng tân ngữ；động từ hay gặp là 送、带、还、借；người nhận đứng ngay sau 给. | 我把这幅画送给爸爸了。；弟弟已经把钱还给哥哥了。；大卫，你帮我把行李箱带给小刚。 | Tôi tặng bức tranh này cho bố rồi.；Em trai đã trả tiền cho anh trai rồi.；Đại Vĩ, cậu mang va li tới cho Tiểu Cương giúp tớ nhé. | — |
+
 ## l0911 · 09/11/2026 · 如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的
 
 | Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa | Bảng |
@@ -2058,6 +2067,31 @@ Quy chuẩn cho mọi ngày:
 | l2310-w1 | nhắc nhau tắt thiết bị trước khi về | S + 没（有）／不／别／trợ động từ／thời gian + 把 + O + V + 了 | 别；空调；关 | Dùng đủ ba từ để nhắc đồng nghiệp đừng quên tắt điều hòa sau khi họp xong. | 会议结束以后别忘了把空调关了。 |
 | l2310-w2 | hỏi giá một món đồ | Số từ + 左右 | 笔记本；左右 | Dùng đủ hai từ để nói chiếc laptop này khoảng năm nghìn tệ. | 这个笔记本电脑五千块左右。 |
 | l2310-w3 | trả đồ đã mượn ở thư viện | S（+ 把 + O）+ 还给 + ai・nơi | 词典；还给；图书馆 | Dùng đủ ba từ để nói ngày mai bạn sẽ trả quyển từ điển cho thư viện. | 明天我要把这本词典还给图书馆。 |
+
+### l2810 · 28/10/2026
+#### Đoạn văn
+> 我是一个中学老师，教学生画画儿。每天早上我六点就起床，七点半就到学校了。每次下课以前，我都会把下次需要带的东西写在黑板上。可是上课的时候，总有学生忘记带铅笔，我有点儿生气。我生气不是因为他们没带铅笔，是因为他们没有好的学习习惯。昨天我把自己的铅笔借给了一个学生，他下课以后才还给我。
+#### Hội thoại
+> 小丽：你怎么这么早就要睡觉了？以前都要十二点以后才睡觉。
+> 小刚：我明天八点就要到机场，周经理和我要坐飞机去外地办事。
+> 小丽：飞机几点起飞？
+> 小刚：十点起飞，可是路上要一个多小时才能到。
+> 小丽：那我帮你把衣服放到行李箱里吧。
+> 小刚：谢谢你！我的护照呢？
+> 小丽：我已经把它放在你的包里了。
+> 小刚：太好了，上次我到了机场才发现忘了带护照。
+> 小丽：你要自己照顾好自己，别又生气了。
+> 小刚：放心吧，我一个星期就回来。
+#### Câu hỏi đọc hiểu
+| l2810-r1 | 老师每天几点到学校？ | 七点半；六点；八点；九点 | 七点半 | Đoạn văn nói "每天早上我六点就起床，七点半就到学校了"。 |
+| l2810-r2 | 老师下课以前会做什么？ | 把下次需要带的东西写在黑板上；把学生的铅笔收起来；把作业带回家；把黑板擦干净 | 把下次需要带的东西写在黑板上 | Đoạn văn nói "我都会把下次需要带的东西写在黑板上"。 |
+| l2810-r3 | 老师为什么生气？ | 因为学生没有好的学习习惯；因为学生画得不好；因为学生来得太晚；因为学生不喜欢画画儿 | 因为学生没有好的学习习惯 | Đoạn văn nói "不是因为他们没带铅笔，是因为他们没有好的学习习惯"。 |
+| l2810-r4 | 小丽把小刚的护照放在哪儿了？ | 包里；行李箱里；桌子上；黑板前面 | 包里 | 小丽 nói "我已经把它放在你的包里了"。 |
+| l2810-r5 | 小刚多长时间回来？ | 一个星期就回来；一个月才回来；三天就回来；没有说 | 一个星期就回来 | 小刚 nói "放心吧，我一个星期就回来"。 |
+#### Đặt câu với từ cho sẵn
+| l2810-w1 | kể việc dậy sớm hơn thường lệ | S + mốc thời gian + 就 + V（+ 了） | 就；起飞 | Dùng đủ hai từ để nói máy bay mới sáu giờ đã cất cánh rồi. | 飞机六点就起飞了。 |
+| l2810-w2 | than phiền vì ai đó tới muộn | S + mốc thời gian + 才 + V | 才；司机 | Dùng đủ hai từ để nói mãi chín giờ tài xế mới tới. | 司机九点才来。 |
+| l2810-w3 | xếp đồ trước chuyến đi | S + 把 + O + V + 在／到 + nơi chốn | 把；护照；行李箱 | Dùng đủ ba từ để nói bạn đã để hộ chiếu vào va li rồi. | 我已经把护照放在行李箱里了。 |
 
 ### l0911 · 09/11/2026
 

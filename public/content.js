@@ -10761,6 +10761,957 @@ window.HSK_CONTENT = {
       }
     },
     {
+      "id": "l2810",
+      "date": "28/10/2026",
+      "shortDate": "28/10",
+      "title": "才 VS 就 và hai dạng mở rộng của câu chữ 把",
+      "focus": "S + mốc／khoảng thời gian + 就／才 + V / 把 + O + V + 在・到 + nơi chốn / 把 + O + V + 给 + người",
+      "pages": "slide 1-67",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在家 — chuyện đi ngủ sớm",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161022_ebdyppsm/data/sound10.mp3",
+          "note": "Slide 41-45. Thứ tự đúng trên slide: 2 5 6 1 3 4. Năm câu đúng/sai ở slide 42.",
+          "dialogueLines": [
+            "小丽：今天太阳从西边出来了吗？",
+            "小刚：怎么了？",
+            "小丽：你怎么这么早就要睡觉了？以前都要12点以后才睡觉。",
+            "小刚：我明天8点就要到公司。",
+            "小丽：有事吗？",
+            "小刚：经理生气了，他告诉我，明天8点不到，以后就别来了。"
+          ],
+          "trueFalse": [
+            [
+              "今天太阳是从西边出来的。",
+              false,
+              "“太阳从西边出来” là cách nói đùa chỉ chuyện lạ, không phải mặt trời thật mọc ở phía tây."
+            ],
+            [
+              "以前男的睡觉都很晚。",
+              true,
+              "小丽 nói “以前都要12点以后才睡觉”."
+            ],
+            [
+              "男的每天8点到公司。",
+              false,
+              "Chỉ ngày mai mới phải tám giờ có mặt, vì giám đốc đã nổi giận."
+            ],
+            [
+              "明天早上8点经理找小刚有事。",
+              false,
+              "Giám đốc yêu cầu tám giờ phải tới công ty, không nói là có việc hẹn."
+            ],
+            [
+              "经理对小刚生气了。",
+              true,
+              "小刚 nói “经理生气了”."
+            ]
+          ]
+        },
+        {
+          "title": "课文2 · 在家 — chuẩn bị đi công tác",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161022_ebdyppsm/data/sound13.mp3",
+          "note": "Slide 46-50. Thứ tự đúng trên slide: 5 4 1 6 3 2. Năm câu đúng/sai ở slide 47.",
+          "dialogueLines": [
+            "小刚：我要跟周经理去外地办事，明天的飞机。",
+            "小丽：那我帮你把衣服放到行李箱里吧。什么时候回来？",
+            "小刚：一个星期就回来。",
+            "小丽：啊？一个星期以后才回来？",
+            "小刚：你要自己照顾好自己，我已经给你准备好吃的和喝的了。",
+            "小丽：好吧。我已经把我的照片放在你的包里了。"
+          ],
+          "trueFalse": [
+            [
+              "男的和周经理明天要去外地办事。",
+              true,
+              "小刚 nói “我要跟周经理去外地办事，明天的飞机”."
+            ],
+            [
+              "女的帮男的准备行李。",
+              true,
+              "小丽 nói “那我帮你把衣服放到行李箱里吧”."
+            ],
+            [
+              "女的觉得男的出去的时间很长。",
+              true,
+              "小刚 nói “一个星期就回来” (thấy ngắn) còn 小丽 đáp “一个星期以后才回来？” (thấy dài)."
+            ],
+            [
+              "男的不想照顾女的，所以他告诉女的要自己照顾好自己。",
+              false,
+              "小刚 dặn vậy vì phải đi xa, lại còn chuẩn bị sẵn đồ ăn thức uống cho 小丽."
+            ],
+            [
+              "女的在男的的行李箱里放了自己的照片。",
+              false,
+              "小丽 nói để ảnh vào 包 (cái túi), không phải 行李箱."
+            ]
+          ]
+        },
+        {
+          "title": "课文3 · 在机场 — quên hộ chiếu và ví tiền",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161022_ebdyppsm/data/sound14.mp3",
+          "note": "Slide 51-55. Thứ tự đúng trên slide: 1 4 2 5 3. Năm câu đúng/sai ở slide 52.",
+          "dialogueLines": [
+            "周明：你怎么才来？",
+            "小刚：对不起，周经理，来机场的路上我才发现忘带护照了。",
+            "周明：快点吧，飞机就要起飞了。",
+            "小刚：您有钱吗？司机把我送到机场的时候，我才发现忘记带钱包了。",
+            "周明：我看你还是把重要的东西放在我这儿吧。"
+          ],
+          "trueFalse": [
+            [
+              "小刚现在有护照，但是没有钱。",
+              true,
+              "小刚 đã quay lại lấy hộ chiếu nhưng lại quên ví tiền."
+            ],
+            [
+              "小刚在来机场的路上才发现忘带护照了。",
+              true,
+              "小刚 nói “来机场的路上我才发现忘带护照了”."
+            ],
+            [
+              "小刚坐飞机来机场的。",
+              false,
+              "小刚 đi xe của tài xế tới sân bay: “司机把我送到机场的时候”."
+            ],
+            [
+              "周经理不高兴。",
+              true,
+              "Câu mở đầu “你怎么才来？” cho thấy 周明 không hài lòng."
+            ],
+            [
+              "周经理觉得不能把重要的东西放在小刚那儿。",
+              true,
+              "周明 nói “你还是把重要的东西放在我这儿吧”."
+            ]
+          ]
+        },
+        {
+          "title": "课文4 · đoạn văn của thầy giáo dạy vẽ",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161022_ebdyppsm/data/sound15.mp3",
+          "note": "Slide 56-59. Thứ tự đúng trên slide: 2 1 4 3. Đây là đoạn độc thoại; slide 57 chỉ có hai câu hỏi mở nên không có bài đúng/sai.",
+          "dialogueLines": [
+            "我是一个中学老师，教学生画画。",
+            "每次下课前，我都会把下次学生需要带的东西写在黑板上。",
+            "但是每次上课时，总会有学生忘了拿铅笔，所以我有点生气。",
+            "不是因为他们没带铅笔，是因为他们没有好的学习习惯。"
+          ],
+          "trueFalse": []
+        }
+      ],
+      "notes": [
+        "Bài 15 trên lớp, tương ứng HSK 标准教程 3 第12课 《把重要的东西放在我这儿吧》. Nguồn là bộ slide 67 trang của lớp ChineseRd.",
+        "才 và 就 đều đứng sau cụm thời gian và trước động từ, nhưng thể hiện thái độ trái ngược của người nói. Với MỐC thời gian: 就 = thấy sớm (他早上五点就起床了。), 才 = thấy muộn (同学们十点才来教室。).",
+        "Với KHOẢNG thời gian: 就 = thấy nhanh (我二十分钟就到机场。), 才 = thấy chậm (我坐火车六个小时才到北京。).",
+        "Mẹo phân biệt dễ nhớ nhất: câu có 就 thường kết thúc bằng 了, còn câu có 才 thì KHÔNG thêm 了.",
+        "Ngày 23/10 đã học dạng thứ nhất của câu chữ 把 (把 + O + V + 了). Hôm nay thêm hai dạng nữa: 把 + O + V + 在／到 + nơi chốn (đổi vị trí) và 把 + O + V + 给 + người (đổi người giữ).",
+        "在 hay 到 sau động từ: 在 nhấn mạnh chỗ vật nằm lại (钱包放在桌子上了), 到 nhấn mạnh sự di chuyển tới (椅子搬到电脑前面). Động từ hay đi với 给 là 送、带、还、借.",
+        "“太阳从西边出来” (mặt trời mọc đằng tây) là thành ngữ nói đùa khi gặp chuyện lạ chưa từng có, tương đương “chuyện lạ có thật” trong tiếng Việt."
+      ],
+      "vocab": [
+        [
+          "太阳",
+          "tàiyáng",
+          "mặt trời (Hán-Việt: Thái Dương)"
+        ],
+        [
+          "发现",
+          "fāxiàn",
+          "phát hiện, nhận ra (Hán-Việt: Phát Hiện)"
+        ],
+        [
+          "生气",
+          "shēngqì",
+          "tức giận (Hán-Việt: Sinh Khí)"
+        ],
+        [
+          "护照",
+          "hùzhào",
+          "hộ chiếu (Hán-Việt: Hộ Chiếu)"
+        ],
+        [
+          "起飞",
+          "qǐfēi",
+          "cất cánh (Hán-Việt: Khởi Phi)"
+        ],
+        [
+          "西",
+          "xī",
+          "phía tây (Hán-Việt: Tây)"
+        ],
+        [
+          "教",
+          "jiāo",
+          "dạy (Hán-Việt: Giáo)"
+        ],
+        [
+          "画",
+          "huà",
+          "vẽ; bức tranh (Hán-Việt: Họa)"
+        ],
+        [
+          "黑板",
+          "hēibǎn",
+          "bảng đen (Hán-Việt: Hắc Bản)"
+        ],
+        [
+          "需要",
+          "xūyào",
+          "cần, cần phải (Hán-Việt: Nhu Yếu)"
+        ],
+        [
+          "行李箱",
+          "xínglǐxiāng",
+          "va li (Hán-Việt: Hành Lý Tương)"
+        ],
+        [
+          "自己",
+          "zìjǐ",
+          "tự mình, bản thân (Hán-Việt: Tự Kỷ)"
+        ],
+        [
+          "包",
+          "bāo",
+          "cái túi, cặp (Hán-Việt: Bao)"
+        ],
+        [
+          "司机",
+          "sījī",
+          "tài xế (Hán-Việt: Tư Cơ)"
+        ]
+      ],
+      "patterns": [
+        [
+          "S + mốc thời gian + 就 + V（+ 了）",
+          "(Mới …) đã … rồi — người nói thấy SỚM\nMốc thời gian đứng trước 就, câu thường kết thúc bằng 了."
+        ],
+        [
+          "S + mốc thời gian + 才 + V",
+          "Mãi đến … mới … — người nói thấy MUỘN\nKhác 就 ở chỗ câu có 才 KHÔNG thêm 了 ở cuối."
+        ],
+        [
+          "S + khoảng thời gian + 就／才 + V",
+          "Chỉ … là đã … ／ Phải mất … mới …\n就 nói việc làm nhanh, 才 nói việc làm chậm.\nHai câu đối nhau rất hay dùng để so sánh hai người."
+        ],
+        [
+          "S + 把 + O + V + 在／到 + nơi chốn",
+          "Đem O đặt／chuyển tới …\nDạng thứ hai của câu chữ 把: hành động làm đổi VỊ TRÍ của tân ngữ.\n在 nhấn mạnh chỗ nằm lại, 到 nhấn mạnh sự di chuyển tới."
+        ],
+        [
+          "S + 把 + O + V + 给 + người",
+          "Đem O đưa／tặng／trả cho ai\nDạng thứ ba của câu chữ 把: hành động làm đổi NGƯỜI GIỮ tân ngữ.\nĐộng từ hay gặp là 送、带、还、借."
+        ]
+      ],
+      "examples": [
+        [
+          "他早上五点就起床了。",
+          "Sáng nay mới năm giờ anh ấy đã dậy rồi."
+        ],
+        [
+          "我明天8点就要到公司。",
+          "Tám giờ sáng mai tôi đã phải có mặt ở công ty."
+        ],
+        [
+          "他今天起得很早，七点就起床了。",
+          "Hôm nay cậu ấy dậy rất sớm, bảy giờ đã dậy rồi."
+        ],
+        [
+          "我两年前就学会游泳了。",
+          "Tôi biết bơi từ hai năm trước rồi."
+        ],
+        [
+          "九点上课，同学们十点才来教室。",
+          "Chín giờ vào học mà mười giờ các bạn mới tới lớp."
+        ],
+        [
+          "妹妹每天很晚才回家。",
+          "Ngày nào em gái cũng rất muộn mới về nhà."
+        ],
+        [
+          "飞机12点才起飞。",
+          "Mãi mười hai giờ máy bay mới cất cánh."
+        ],
+        [
+          "他今天起得很晚，十点才起床。",
+          "Hôm nay cậu ấy dậy rất muộn, mười giờ mới dậy."
+        ],
+        [
+          "昨晚我很晚才回来。",
+          "Tối qua rất muộn tôi mới về."
+        ],
+        [
+          "我二十分钟就到机场。",
+          "Tôi chỉ hai mươi phút là tới sân bay."
+        ],
+        [
+          "我坐火车六个小时才到北京。",
+          "Tôi đi tàu hỏa sáu tiếng mới tới Bắc Kinh."
+        ],
+        [
+          "大卫走10分钟就到学校了，玛丽走30分钟才到学校。",
+          "Đại Vĩ đi bộ mười phút là tới trường, còn Mã Lệ đi ba mươi phút mới tới."
+        ],
+        [
+          "我骑自行车半个小时才到学校。",
+          "Tôi đạp xe nửa tiếng mới tới trường."
+        ],
+        [
+          "哥哥一天就把钱还给我了，妹妹三天才把钱还给我。",
+          "Anh trai một ngày đã trả tiền cho tôi, còn em gái ba ngày mới trả."
+        ],
+        [
+          "老师把作业放在桌子上。",
+          "Cô giáo để bài tập trên bàn."
+        ],
+        [
+          "妈妈让儿子把椅子搬到电脑前面。",
+          "Mẹ bảo con trai chuyển ghế tới trước máy tính."
+        ],
+        [
+          "我帮你把衣服放到行李箱里吧。",
+          "Để tôi xếp quần áo vào va li giúp bạn nhé."
+        ],
+        [
+          "小刚已经把钱包放在桌子上了。",
+          "Tiểu Cương đã để ví tiền trên bàn rồi."
+        ],
+        [
+          "我已经把衣服放进行李箱里了。",
+          "Tôi đã xếp quần áo vào va li rồi."
+        ],
+        [
+          "林木把行李箱放在门口了。",
+          "Lâm Mộc để va li ở cửa rồi."
+        ],
+        [
+          "我把这把椅子搬到教室外面了。",
+          "Tôi đã chuyển chiếc ghế này ra ngoài lớp học."
+        ],
+        [
+          "我不想把桌子搬到教室前面。",
+          "Tôi không muốn chuyển bàn lên phía trước lớp."
+        ],
+        [
+          "请你把书放到桌子上面。",
+          "Bạn để sách lên trên bàn giúp nhé."
+        ],
+        [
+          "我还没把雨伞拿到洗手间里呢。",
+          "Tôi vẫn chưa mang cái ô vào nhà vệ sinh."
+        ],
+        [
+          "我把这幅画送给爸爸了。",
+          "Tôi tặng bức tranh này cho bố rồi."
+        ],
+        [
+          "弟弟已经把钱还给哥哥了。",
+          "Em trai đã trả tiền cho anh trai rồi."
+        ],
+        [
+          "大卫，你帮我把行李箱带给小刚。",
+          "Đại Vĩ, cậu mang va li tới cho Tiểu Cương giúp tớ nhé."
+        ],
+        [
+          "司机帮我把书带给小刚了。",
+          "Tài xế đã mang sách tới cho Tiểu Cương giúp tôi."
+        ],
+        [
+          "她把礼物送给爷爷了。",
+          "Cô ấy tặng quà cho ông nội rồi."
+        ],
+        [
+          "请你把钱包送给奶奶。",
+          "Bạn đưa cái ví cho bà giúp nhé."
+        ],
+        [
+          "哥哥忘记把行李箱还给我了。",
+          "Anh trai quên trả va li cho tôi rồi."
+        ],
+        [
+          "你可以把我的护照带给我吗？",
+          "Bạn mang hộ chiếu của tôi tới cho tôi được không?"
+        ],
+        [
+          "我让妈妈把护照带给我了。",
+          "Tôi đã nhờ mẹ mang hộ chiếu tới cho tôi."
+        ],
+        [
+          "今天太阳从西边出来了吗？",
+          "Hôm nay mặt trời mọc đằng tây à?"
+        ],
+        [
+          "经理生气了，他告诉我，明天8点不到，以后就别来了。",
+          "Giám đốc nổi giận rồi, ông ấy bảo tôi mai tám giờ không có mặt thì sau này đừng đến nữa."
+        ],
+        [
+          "来机场的路上我才发现忘带护照了。",
+          "Trên đường ra sân bay tôi mới phát hiện quên mang hộ chiếu."
+        ],
+        [
+          "司机把我送到机场的时候，我才发现忘记带钱包了。",
+          "Lúc tài xế chở tôi tới sân bay, tôi mới phát hiện quên mang ví."
+        ],
+        [
+          "你要自己照顾好自己。",
+          "Em phải tự chăm sóc bản thân cho tốt."
+        ],
+        [
+          "我是一个中学老师，教学生画画。",
+          "Tôi là giáo viên trung học, dạy học sinh vẽ tranh."
+        ],
+        [
+          "我都会把下次学生需要带的东西写在黑板上。",
+          "Tôi đều viết lên bảng những thứ lần sau học sinh cần mang theo."
+        ],
+        [
+          "我已经把我的照片放在你的包里了。",
+          "Em đã để ảnh của em vào túi của anh rồi."
+        ],
+        [
+          "教室后边的那块黑板上写着几个字。",
+          "Trên tấm bảng đen phía sau lớp có viết mấy chữ."
+        ]
+      ],
+      "drills": [
+        [
+          "Dùng 就 nói sáng nay mới năm giờ anh ấy đã dậy rồi.",
+          "他早上五点就起床了。"
+        ],
+        [
+          "Dùng 才 nói chín giờ vào học mà mười giờ các bạn mới tới lớp.",
+          "九点上课，同学们十点才来教室。"
+        ],
+        [
+          "Dùng 就 nói bạn chỉ hai mươi phút là tới sân bay.",
+          "我二十分钟就到机场。"
+        ],
+        [
+          "Dùng 才 nói bạn đi tàu hỏa sáu tiếng mới tới Bắc Kinh.",
+          "我坐火车六个小时才到北京。"
+        ],
+        [
+          "Nói “Mãi mười hai giờ máy bay mới cất cánh”.",
+          "飞机12点才起飞。"
+        ],
+        [
+          "Dùng 把 + 在 nói cô giáo để bài tập trên bàn.",
+          "老师把作业放在桌子上。"
+        ],
+        [
+          "Dùng 把 + 到 nói bạn xếp quần áo vào va li giúp người kia.",
+          "我帮你把衣服放到行李箱里吧。"
+        ],
+        [
+          "Dùng 没有 + 把 nói bạn vẫn chưa mang cái ô vào nhà vệ sinh.",
+          "我还没把雨伞拿到洗手间里呢。"
+        ],
+        [
+          "Dùng 把 + 给 nói bạn tặng bức tranh này cho bố rồi.",
+          "我把这幅画送给爸爸了。"
+        ],
+        [
+          "Dùng 把 + 还给 nói em trai đã trả tiền cho anh trai rồi.",
+          "弟弟已经把钱还给哥哥了。"
+        ],
+        [
+          "Dùng 可以 + 把 hỏi người kia có thể mang hộ chiếu tới cho bạn không.",
+          "你可以把我的护照带给我吗？"
+        ]
+      ],
+      "quiz": [
+        [
+          "Chọn từ đúng: 他今天起得很早，七点____起床了。",
+          [
+            "就",
+            "才",
+            "再",
+            "还"
+          ],
+          0,
+          "Người nói thấy sớm nên dùng 就, câu kết thúc bằng 了 (slide 14, 15)."
+        ],
+        [
+          "Chọn từ đúng: 不用着急，飞机还有半个小时____起飞。",
+          [
+            "才",
+            "就",
+            "都",
+            "又"
+          ],
+          0,
+          "Nửa tiếng nữa mới cất cánh — người nói thấy còn lâu nên dùng 才 (slide 15)."
+        ],
+        [
+          "Mẹo nào đúng khi phân biệt 才 và 就?",
+          [
+            "Câu có 就 thường thêm 了, câu có 才 thì không",
+            "Câu có 才 phải thêm 了",
+            "Cả hai đều phải thêm 了",
+            "Cả hai đều không được thêm 了"
+          ],
+          0,
+          "Đây là mẹo nhận dạng nhanh nhất của bài (slide 14)."
+        ],
+        [
+          "Câu nào đúng?",
+          [
+            "老师把作业放在桌子上。",
+            "老师把作业放桌子上。",
+            "老师放在桌子上把作业。",
+            "老师把作业在桌子上放。"
+          ],
+          0,
+          "Dạng 2 của câu 把 bắt buộc có 在／到 + nơi chốn ngay sau động từ (slide 19, 21)."
+        ],
+        [
+          "Chọn vị trí đúng của 没有: 我____把雨伞____拿到洗手间里呢。",
+          [
+            "还没有 + 把 (trước 把)",
+            "把 + 没有 (sau 把)",
+            "拿 + 没有 (sau động từ)",
+            "cuối câu"
+          ],
+          0,
+          "Phó từ phủ định luôn đứng trước 把 (slide 23)."
+        ],
+        [
+          "Chọn cách nói đúng “Em trai đã trả tiền cho anh trai rồi”:",
+          [
+            "弟弟已经把钱还给哥哥了。",
+            "弟弟已经把钱还哥哥了。",
+            "弟弟把已经钱还给哥哥了。",
+            "弟弟已经还把钱给哥哥了。"
+          ],
+          0,
+          "Dạng 3 cần 给 + người nhận, và 已经 đứng trước 把 (slide 20, 21)."
+        ]
+      ],
+      "practice": {
+        "cloze": [
+          {
+            "title": "练一练 · Chọn 才 hay 就",
+            "description": "Bài luyện slide 15. Đáp án đã hiện sẵn trên slide.",
+            "items": [
+              [
+                "快点儿，飞机很快____起飞了。",
+                [
+                  "就"
+                ],
+                "Sắp cất cánh ngay, người nói thấy nhanh nên dùng 就."
+              ],
+              [
+                "不用着急，飞机还有半个小时____起飞。",
+                [
+                  "才"
+                ],
+                "Còn nửa tiếng nữa mới cất cánh, người nói thấy lâu nên dùng 才."
+              ],
+              [
+                "他今天起得很晚，十点____起床。",
+                [
+                  "才"
+                ],
+                "Dậy muộn nên dùng 才, không thêm 了."
+              ],
+              [
+                "他今天起得很早，七点____起床了。",
+                [
+                  "就"
+                ],
+                "Dậy sớm nên dùng 就, câu kết thúc bằng 了."
+              ],
+              [
+                "大卫走10分钟____到学校了，玛丽走30分钟____到学校。",
+                [
+                  "就",
+                  "才"
+                ],
+                "Vế đầu nhanh dùng 就, vế sau chậm dùng 才."
+              ],
+              [
+                "哥哥一天____把钱还给我了，妹妹三天____把钱还给我。",
+                [
+                  "就",
+                  "才"
+                ],
+                "Anh trả nhanh dùng 就, em trả chậm dùng 才."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Viết lại thành câu chữ 把",
+            "description": "Bài luyện slide 22. Mỗi câu dùng dạng 把 + V + 在／到 + nơi chốn hoặc 把 + V + 给 + người.",
+            "items": [
+              [
+                "林木放行李箱 + 行李箱放在门口了 → ____",
+                [
+                  "林木把行李箱放在门口了"
+                ],
+                "Hành động làm đổi vị trí nên dùng 把 + V + 在 + nơi chốn."
+              ],
+              [
+                "我搬这把椅子 + 这把椅子搬到教室外面了 → ____",
+                [
+                  "我把这把椅子搬到教室外面了"
+                ],
+                "Có sự di chuyển tới nơi khác nên dùng 到."
+              ],
+              [
+                "司机帮我带书 + 书带给小刚了 → ____",
+                [
+                  "司机帮我把书带给小刚了"
+                ],
+                "Hành động làm đổi người giữ nên dùng 把 + V + 给 + người."
+              ],
+              [
+                "她送礼物 + 礼物送给爷爷了 → ____",
+                [
+                  "她把礼物送给爷爷了"
+                ],
+                "送 + 给 + người nhận."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Đặt từ cho sẵn vào đúng chỗ",
+            "description": "Bài luyện slide 23. Chỗ trống nào trong câu là chỗ đúng của từ trong ngoặc?",
+            "items": [
+              [
+                "我爸爸____眼镜放在电脑旁边了。（把）",
+                [
+                  "把"
+                ],
+                "把 đứng ngay sau chủ ngữ, trước tân ngữ."
+              ],
+              [
+                "你____能把这样的东西送给她。（不）",
+                [
+                  "不"
+                ],
+                "Phó từ phủ định đứng trước trợ động từ 能, tức là trước 把."
+              ],
+              [
+                "我已经____他的礼物放在他桌子上了。（把）",
+                [
+                  "把"
+                ],
+                "已经 đứng trước 把, rồi mới tới tân ngữ."
+              ],
+              [
+                "你____可以把我的护照带给我吗？（可以）",
+                [
+                  "可以"
+                ],
+                "Trợ động từ đứng trước 把."
+              ],
+              [
+                "我还____把雨伞拿到洗手间里呢。（没有）",
+                [
+                  "没有"
+                ],
+                "没有 đứng trước 把, không bao giờ đứng sau."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành hội thoại",
+            "description": "Bài luyện slide 35-38. Mỗi chỗ trống dùng 才／就 hoặc một dạng của câu chữ 把.",
+            "items": [
+              [
+                "A：你怎么不上飞机？B：我____发现忘了带护照了。",
+                [
+                  "到了机场才"
+                ],
+                "Tới sân bay rồi mới phát hiện, nên dùng 才."
+              ],
+              [
+                "B：我让妈妈把____。",
+                [
+                  "护照带给我了"
+                ],
+                "把 + 护照 + 带给 + 我: đổi người giữ hộ chiếu."
+              ],
+              [
+                "A：9点半了，你怎么____来？",
+                [
+                  "才"
+                ],
+                "Người nói thấy muộn nên dùng 才."
+              ],
+              [
+                "B：我把____。",
+                [
+                  "车放在家里了"
+                ],
+                "把 + 车 + 放在 + 家里: đổi vị trí của xe."
+              ],
+              [
+                "A：你是刚学会游泳吗？B：不是，我两年前____。",
+                [
+                  "就学会游泳了"
+                ],
+                "Biết bơi từ sớm nên dùng 就 và thêm 了."
+              ],
+              [
+                "B：昨晚____。",
+                [
+                  "我很晚才回来"
+                ],
+                "Về muộn nên dùng 才."
+              ],
+              [
+                "B：昨天晚上我把____。",
+                [
+                  "它放在电脑上了"
+                ],
+                "把 + 它 + 放在 + 电脑上: đổi vị trí của cái kính."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn từ mới điền vào chỗ trống",
+            "description": "Bài tổng ôn từ vựng slide 64-66. Ngân hàng từ: 黑板、司机、画、包、护照、起飞、生气、发现、自己、行李箱、教.",
+            "items": [
+              [
+                "这幅____真漂亮！是你的吗？",
+                [
+                  "画"
+                ],
+                "幅 là lượng từ của tranh."
+              ],
+              [
+                "教室后边的那块____上写着几个字，你看得见吗？",
+                [
+                  "黑板"
+                ],
+                "块 đi với bảng đen."
+              ],
+              [
+                "你看，就是那位____找到了我的手机。",
+                [
+                  "司机"
+                ],
+                "位 đi với người, ở đây là bác tài."
+              ],
+              [
+                "桌子上有一本____，是谁的？",
+                [
+                  "护照"
+                ],
+                "本 đi với sổ, hộ chiếu."
+              ],
+              [
+                "请问，这个小____能带上飞机吗？",
+                [
+                  "包"
+                ],
+                "Cái túi nhỏ mang lên máy bay."
+              ],
+              [
+                "A：我现在能去一下洗手间吗？B：对不起，飞机就要____了，请您坐好。",
+                [
+                  "起飞"
+                ],
+                "就要……了 chỉ việc sắp xảy ra: máy bay sắp cất cánh."
+              ],
+              [
+                "B：今天我又迟到了，老师都____了。",
+                [
+                  "生气"
+                ],
+                "Đi muộn làm cô giáo tức giận."
+              ],
+              [
+                "A：我____公司楼下那家店的蛋糕特别好吃。",
+                [
+                  "发现"
+                ],
+                "Nhận ra, phát hiện ra điều gì đó."
+              ],
+              [
+                "B：你把衣服放在我的____里吧，我的箱子大。",
+                [
+                  "行李箱"
+                ],
+                "Va li của người kia to hơn."
+              ],
+              [
+                "B：不用担心，我可以照顾好____。",
+                [
+                  "自己"
+                ],
+                "Tự chăm sóc bản thân."
+              ],
+              [
+                "B：她是老师，____学生画画儿。",
+                [
+                  "教"
+                ],
+                "教 + người + nội dung: dạy ai cái gì."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "练一练 · Sắp xếp thành câu có 才",
+            "description": "Bài luyện slide 16, đáp án đã hiện trên slide.",
+            "items": [
+              [
+                [
+                  "妹妹",
+                  "很晚",
+                  "才",
+                  "回家",
+                  "每天"
+                ],
+                "妹妹每天很晚才回家。"
+              ],
+              [
+                [
+                  "飞机",
+                  "才",
+                  "起飞",
+                  "12点"
+                ],
+                "飞机12点才起飞。"
+              ],
+              [
+                [
+                  "我",
+                  "半个小时",
+                  "骑自行车",
+                  "才",
+                  "到",
+                  "学校"
+                ],
+                "我骑自行车半个小时才到学校。"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Sắp xếp thành câu chữ 把",
+            "description": "Bài luyện slide 31-32, đáp án đã hiện trên slide.",
+            "items": [
+              [
+                [
+                  "请",
+                  "你",
+                  "奶奶",
+                  "把",
+                  "钱包",
+                  "送",
+                  "给"
+                ],
+                "请你把钱包送给奶奶。"
+              ],
+              [
+                [
+                  "我",
+                  "桌子",
+                  "不想",
+                  "搬到",
+                  "把",
+                  "前面",
+                  "教室"
+                ],
+                "我不想把桌子搬到教室前面。"
+              ],
+              [
+                [
+                  "哥哥",
+                  "行李箱",
+                  "还给",
+                  "忘记",
+                  "把",
+                  "我",
+                  "了"
+                ],
+                "哥哥忘记把行李箱还给我了。"
+              ],
+              [
+                [
+                  "请",
+                  "你",
+                  "空调",
+                  "把",
+                  "了",
+                  "关",
+                  "别"
+                ],
+                "请你别把空调关了。"
+              ],
+              [
+                [
+                  "请",
+                  "桌子",
+                  "你",
+                  "放到",
+                  "书",
+                  "上面"
+                ],
+                "请你把书放到桌子上面。"
+              ],
+              [
+                [
+                  "已经",
+                  "行李箱",
+                  "衣服",
+                  "放进",
+                  "把",
+                  "我",
+                  "了",
+                  "里"
+                ],
+                "我已经把衣服放进行李箱里了。"
+              ]
+            ]
+          }
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "我是一个中学老师，教学生画画。每次下课前，我都会把下次学生需要带的东西写在黑板上，但是每次上课时，总会有学生忘了拿铅笔，所以我有点生气，不是因为他们没带铅笔，是因为他们没有好的学习习惯。",
+          [
+            [
+              "“我”是做什么的？",
+              [
+                "中学老师，教学生画画",
+                "司机",
+                "医生",
+                "中学学生"
+              ],
+              0,
+              "Câu đầu nói “我是一个中学老师，教学生画画”。"
+            ],
+            [
+              "每次下课前老师会做什么？",
+              [
+                "把下次需要带的东西写在黑板上",
+                "把学生的画收起来",
+                "把黑板擦干净",
+                "把铅笔借给学生"
+              ],
+              0,
+              "Đoạn văn nói “我都会把下次学生需要带的东西写在黑板上”。"
+            ],
+            [
+              "老师生气的真正原因是什么？",
+              [
+                "学生没有好的学习习惯",
+                "学生没带铅笔",
+                "学生画得不好",
+                "学生来得太晚"
+              ],
+              0,
+              "Đoạn văn nói “不是因为他们没带铅笔，是因为他们没有好的学习习惯”。"
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "id": "l0911",
       "date": "09/11/2026",
       "shortDate": "09/11",

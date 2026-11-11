@@ -619,6 +619,41 @@ window.HSK_EXAMPLE_SUPPLEMENTS = {
       "小丽把书还给马可了。"
     ]
   },
+  "l2810": {
+    "additions": [
+      [
+        "今天我又迟到了，老师都生气了。",
+        "Hôm nay tôi lại đến muộn, cô giáo đã tức giận rồi."
+      ],
+      [
+        "请问，这个小包能带上飞机吗？",
+        "Cho hỏi, cái túi nhỏ này mang lên máy bay được không?"
+      ],
+      [
+        "这幅画真漂亮，是你画的吗？",
+        "Bức tranh này đẹp thật, bạn vẽ đấy à?"
+      ],
+      [
+        "我需要一本词典，你能借给我吗？",
+        "Tôi cần một quyển từ điển, bạn cho tôi mượn được không?"
+      ],
+      [
+        "那位司机把我送到机场以后就走了。",
+        "Bác tài chở tôi tới sân bay xong là đi luôn."
+      ],
+      [
+        "太阳从东边出来，从西边下去。",
+        "Mặt trời mọc đằng đông, lặn đằng tây."
+      ]
+    ],
+    "patternEvidence": [
+      "他早上五点就起床了。",
+      "妹妹每天很晚才回家。",
+      "我二十分钟就到机场。",
+      "老师把作业放在桌子上。",
+      "我把这幅画送给爸爸了。"
+    ]
+  },
   "l0911": {
     "additions": [
       [

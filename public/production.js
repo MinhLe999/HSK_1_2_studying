@@ -1599,6 +1599,40 @@ window.HSK_PRODUCTION = {
       "sample": "看完了，我明天就把它还给图书馆。"
     }
   ],
+  "l2810": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "kể một chuyện khiến mình bực mình",
+      "structure": "S + mốc thời gian + 才 + V",
+      "prompt": "Dùng 生气 nói hôm nay bạn đến muộn nên cô giáo tức giận.",
+      "required": "生气",
+      "sample": "今天我来得太晚了，老师生气了。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "tặng quà cho người thân",
+      "structure": "S + 把 + O + V + 给 + người",
+      "prompt": "Dùng câu chữ 把 nói bạn đã tặng bức tranh mình vẽ cho bà.",
+      "required": "送给",
+      "sample": "我把自己画的那幅画送给奶奶了。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "đặt câu hỏi cho câu trả lời về giờ cất cánh",
+      "structure": "S + mốc thời gian + 才 + V",
+      "prompt": "Câu trả lời là 飞机十二点才起飞。 Hãy đặt một câu hỏi phù hợp.",
+      "required": "起飞",
+      "sample": "飞机几点起飞？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "trả lời câu hỏi về chỗ để hộ chiếu",
+      "structure": "S + 把 + O + V + 在／到 + nơi chốn",
+      "prompt": "Có người hỏi 你把我的护照放在哪儿了？ Hãy trả lời bằng một câu chữ 把.",
+      "required": "放在",
+      "sample": "我把它放在你的包里了。"
+    }
+  ],
   "l0911": [
     {
       "kind": "sentence-vocab",
