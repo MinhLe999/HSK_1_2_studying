@@ -9824,6 +9824,943 @@ window.HSK_CONTENT = {
       }
     },
     {
+      "id": "l2310",
+      "date": "23/10/2026",
+      "shortDate": "23/10",
+      "title": "Câu chữ 把, số áng chừng 左右 và cặp 借／还",
+      "focus": "S + 把 + O + V + 了 / phủ định và trạng ngữ đứng trước 把 / Số từ + 左右 / 借 VS 还",
+      "pages": "slide 1-64",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在教室 — trong lớp học",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261008_181151_gxmdzkpr/data/sound4.mp3",
+          "note": "Slide 38-42. Bài nghe yêu cầu sắp xếp sáu lượt thoại; đáp án trên slide: 4 1 3 6 5 2. Slide 39 chỉ có bốn câu hỏi mở nên không có bài đúng/sai.",
+          "dialogueLines": [
+            "小明：我先走了。",
+            "同学：你去哪儿？",
+            "小明：我去图书馆借本书。",
+            "同学：帮我把这本词典还了吧。",
+            "小明：好，等一会儿你离开教室的时候，记得把灯关了。",
+            "同学：好的，放心吧。"
+          ],
+          "trueFalse": []
+        },
+        {
+          "title": "课文2 · 在会议室 — trong phòng họp",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261008_181151_gxmdzkpr/data/sound5.mp3",
+          "note": "Slide 43-47. Thứ tự đúng trên slide: 2 5 3 1 4. Ba câu đúng/sai ở slide 44.",
+          "dialogueLines": [
+            "周明：会议结束后，别忘记把空调关了。",
+            "小丽：好的。王经理两点左右来了个电话。",
+            "周明：他已经到北京了？",
+            "小丽：是的，他正坐地铁来我们公司呢。",
+            "周明：等他到了就告诉我。"
+          ],
+          "trueFalse": [
+            [
+              "男的、女的和王经理都在会议室。",
+              false,
+              "王经理 đang trên đường tới, 小丽 nói “他正坐地铁来我们公司呢”."
+            ],
+            [
+              "王经理两点能到公司。",
+              false,
+              "两点左右 là lúc ông ấy gọi điện, chưa phải lúc đến công ty."
+            ],
+            [
+              "王经理坐地铁来公司。",
+              true,
+              "小丽 nói “他正坐地铁来我们公司呢”."
+            ]
+          ]
+        },
+        {
+          "title": "课文3 · 在客厅 — trong phòng khách",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261008_181151_gxmdzkpr/data/sound8.mp3",
+          "note": "Slide 48-52. Thứ tự đúng trên slide: 5 1 3 2 4. Ba câu đúng/sai ở slide 49.",
+          "dialogueLines": [
+            "妈妈：还差一双筷子，你去拿一下。",
+            "儿子：今天怎么做了这么多菜？",
+            "妈妈：今天是你爸爸的生日。",
+            "儿子：真的啊？我把爸爸的生日忘了。那我们今天喝点儿啤酒吧。",
+            "妈妈：医生说你爸爸一口酒都不能喝，别让他看见酒瓶子。"
+          ],
+          "trueFalse": [
+            [
+              "今天是爸爸的生日。",
+              true,
+              "妈妈 nói “今天是你爸爸的生日”."
+            ],
+            [
+              "今天他们要喝点儿酒。",
+              false,
+              "儿子 đề nghị uống bia nhưng 妈妈 nói bác sĩ dặn bố không được uống một ngụm nào."
+            ],
+            [
+              "爸爸不喜欢喝酒。",
+              false,
+              "Bài chỉ nói bác sĩ không cho bố uống, không nói bố không thích uống."
+            ]
+          ]
+        },
+        {
+          "title": "课文4 · đoạn văn về chiếc máy tính",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261008_181151_gxmdzkpr/data/sound9.mp3",
+          "note": "Slide 53-57. Thứ tự đúng trên slide: 3 1 2 5 4. Đây là đoạn độc thoại, mỗi dòng là một câu trong đoạn. Ba câu đúng/sai ở slide 54.",
+          "dialogueLines": [
+            "这个笔记本电脑我去年买的时候要五千块左右，现在便宜多了。",
+            "我想把这个电脑卖了，再买一个更好的。",
+            "现在，我每天起床后的第一件事就是打开电脑，看电子邮件。",
+            "我已经很少写信，也很少用笔写字，已经习惯用电脑来学习和工作了。",
+            "哪一天突然没有了电脑，我们怎么办呢？"
+          ],
+          "trueFalse": [
+            [
+              "“我”想买一台新电脑。",
+              true,
+              "Đoạn văn nói “我想把这个电脑卖了，再买一个更好的”."
+            ],
+            [
+              "“我”习惯用笔写字。",
+              false,
+              "Đoạn văn nói “也很少用笔写字，已经习惯用电脑来学习和工作了”."
+            ],
+            [
+              "“我”不能没有电脑。",
+              true,
+              "Câu cuối “哪一天突然没有了电脑，我们怎么办呢” cho thấy không thể thiếu máy tính."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Bài 14 trên lớp, tương ứng HSK 标准教程 3 第11课 《别忘了把空调关了》. Nguồn là bộ slide 64 trang của lớp ChineseRd; materials/23_10_26.pdf chỉ là bản in rút gọn của chính bộ slide đó.",
+        "Câu chữ 把 đưa tân ngữ lên trước động từ để nhấn mạnh rằng hành động đã tác động và làm thay đổi tân ngữ đó. Ba điều kiện bắt buộc: (1) tân ngữ phải là vật cả hai bên đều biết, nên dùng 这个／那个 + N chứ không dùng 一个／两个 + N; (2) động từ phải là hành động thật (吃、喝、关、写、洗……), không dùng 是、有、来、去、知道、听见; (3) sau động từ phải còn thành phần khác, thường gặp nhất là 了.",
+        "Mọi phó từ phủ định (没有／不／别／不要), trợ động từ (要、可以、能) và trạng ngữ thời gian đều đứng TRƯỚC 把, không bao giờ chen vào giữa 把 và tân ngữ: 你别把手机忘了。／你睡觉以前把牛奶喝了。",
+        "Số từ + 左右 nói con số xấp xỉ: 十点左右、五百人左右、五千块左右. Khác với dạng hai số liền nhau đã học ngày 21/10 (五六个), 左右 giữ nguyên một con số rồi thêm “khoảng”.",
+        "借 có hai chiều: 从／跟／向 + ai + 借 là “mượn của ai”, còn 借给 + ai là “cho ai mượn”. Chỉ cần nhìn có 给 hay không là biết ai đang giữ đồ.",
+        "还 trong bài này đọc là huán (trả lại), không phải hái (còn, vẫn). Trả cho ai thì bắt buộc có 给: 把书还给马可了。",
+        "Lượng từ mới của bài: 双 cho vật đi theo cặp (一双筷子、一双鞋), 口 cho ngụm (一口酒), 台 cho máy móc (一台空调), 次 cho lần (一次会议)."
+      ],
+      "vocab": [
+        [
+          "关",
+          "guān",
+          "tắt, đóng (Hán-Việt: Quan)"
+        ],
+        [
+          "灯",
+          "dēng",
+          "đèn (Hán-Việt: Đăng)"
+        ],
+        [
+          "会议",
+          "huìyì",
+          "cuộc họp, hội nghị (Hán-Việt: Hội Nghị)"
+        ],
+        [
+          "结束",
+          "jiéshù",
+          "kết thúc (Hán-Việt: Kết Thúc)"
+        ],
+        [
+          "忘记",
+          "wàngjì",
+          "quên (Hán-Việt: Vong Ký)"
+        ],
+        [
+          "空调",
+          "kōngtiáo",
+          "điều hòa (Hán-Việt: Không Điều)"
+        ],
+        [
+          "双",
+          "shuāng",
+          "đôi, cặp (lượng từ) (Hán-Việt: Song)"
+        ],
+        [
+          "筷子",
+          "kuàizi",
+          "đũa"
+        ],
+        [
+          "啤酒",
+          "píjiǔ",
+          "bia (Hán-Việt: Bì Tửu)"
+        ],
+        [
+          "口",
+          "kǒu",
+          "ngụm (lượng từ); miệng (Hán-Việt: Khẩu)"
+        ],
+        [
+          "瓶子",
+          "píngzi",
+          "cái chai"
+        ],
+        [
+          "笔记本电脑 / 笔记本",
+          "bǐjìběn (diànnǎo)",
+          "sổ tay; máy tính xách tay (Hán-Việt: Bút Ký Bản)"
+        ],
+        [
+          "电子邮件",
+          "diànzǐ yóujiàn",
+          "thư điện tử (Hán-Việt: Điện Tử Bưu Kiện)"
+        ],
+        [
+          "习惯",
+          "xíguàn",
+          "quen; thói quen (Hán-Việt: Tập Quán)"
+        ],
+        [
+          "图书馆",
+          "túshūguǎn",
+          "thư viện (Hán-Việt: Đồ Thư Quán)"
+        ],
+        [
+          "借",
+          "jiè",
+          "mượn; cho mượn (Hán-Việt: Tá)"
+        ],
+        [
+          "词典",
+          "cídiǎn",
+          "từ điển (Hán-Việt: Từ Điển)"
+        ],
+        [
+          "还",
+          "huán",
+          "trả lại (Hán-Việt: Hoàn)"
+        ],
+        [
+          "地铁",
+          "dìtiě",
+          "tàu điện ngầm (Hán-Việt: Địa Thiết)"
+        ]
+      ],
+      "patterns": [
+        [
+          "S + 把 + O + V + 了／thành phần khác",
+          "Đem O mà làm gì đó\nNhấn mạnh hành động đã tác động và làm thay đổi O.\nO phải là vật cả hai bên đều biết (这个／那个 + N), không dùng 一个／两个 + N.\nV phải là hành động thật; sau V bắt buộc còn thành phần khác, thường là 了."
+        ],
+        [
+          "S + 没（有）／不／别／trợ động từ／thời gian + 把 + O + V + 了",
+          "Không／đừng／sẽ đem O mà làm gì đó\nPhó từ phủ định, trợ động từ và trạng ngữ thời gian đều đứng TRƯỚC 把.\nDạng nhắc nhở hay dùng 别 hoặc 别忘了."
+        ],
+        [
+          "Số từ + 左右",
+          "Khoảng, chừng …\nĐặt ngay sau cụm số lượng: 十点左右、五百人左右、五千块左右."
+        ],
+        [
+          "借 + O／S + 从・跟・向 + ai・nơi + 借（了）+ O",
+          "Mượn (phía người đi mượn)\n从／跟／向 + người + 借 là mượn của ai; 从／去 + nơi + 借 là mượn ở đâu."
+        ],
+        [
+          "S + 借（给）+ ai + O／S + 把 + O + 借给 + ai",
+          "Cho mượn (phía người có đồ)\nThêm 给 + người nhận là đổi sang nghĩa cho mượn.\nVật đã xác định thì chuyển sang câu chữ 把."
+        ],
+        [
+          "还 + O／S（+ 把 + O）+ 还给 + ai・nơi",
+          "Trả lại\n还 ở đây đọc huán, khác 还 hái “còn, vẫn”.\nTrả cho ai thì bắt buộc có 给 + người hoặc nơi nhận."
+        ]
+      ],
+      "examples": [
+        [
+          "他把门关了。",
+          "Anh ấy đóng cửa rồi."
+        ],
+        [
+          "我把爸爸的生日忘了。",
+          "Tôi quên mất sinh nhật bố rồi."
+        ],
+        [
+          "我把空调关了。",
+          "Tôi tắt điều hòa rồi."
+        ],
+        [
+          "你快点儿把早饭吃了。",
+          "Bạn ăn nhanh bữa sáng đi."
+        ],
+        [
+          "音乐会马上就要开始了，我先把票买了。",
+          "Buổi hòa nhạc sắp bắt đầu rồi, tôi mua vé trước đã."
+        ],
+        [
+          "你睡觉的时候记得把灯关了。",
+          "Lúc đi ngủ bạn nhớ tắt đèn nhé."
+        ],
+        [
+          "我把放在桌子上的西瓜吃了。",
+          "Tôi đã ăn quả dưa hấu để trên bàn."
+        ],
+        [
+          "她没把裤子洗了，她把裙子洗了。",
+          "Cô ấy không giặt quần, cô ấy giặt váy."
+        ],
+        [
+          "你别把手机忘了。",
+          "Bạn đừng quên điện thoại nhé."
+        ],
+        [
+          "你睡觉以前把牛奶喝了。",
+          "Trước khi đi ngủ bạn uống sữa đi."
+        ],
+        [
+          "你先把今天的作业写了。",
+          "Bạn làm bài tập hôm nay trước đi."
+        ],
+        [
+          "我帮你把邮件发了吧。",
+          "Tôi gửi thư giúp bạn nhé."
+        ],
+        [
+          "会议结束后，别忘记把空调关了。",
+          "Sau khi họp xong, đừng quên tắt điều hòa nhé."
+        ],
+        [
+          "请您把手机关了。",
+          "Mời anh tắt điện thoại ạ."
+        ],
+        [
+          "周末我十点左右起床。",
+          "Cuối tuần tôi dậy khoảng mười giờ."
+        ],
+        [
+          "我们公司有五百人左右。",
+          "Công ty chúng tôi có khoảng năm trăm người."
+        ],
+        [
+          "这个笔记本电脑五千块左右。",
+          "Chiếc laptop này khoảng năm nghìn tệ."
+        ],
+        [
+          "那个男人五十岁左右。",
+          "Người đàn ông đó khoảng năm mươi tuổi."
+        ],
+        [
+          "这本词典五十块钱左右。",
+          "Quyển từ điển này khoảng năm mươi tệ."
+        ],
+        [
+          "王经理两点左右来了个电话。",
+          "Giám đốc Vương gọi điện tới khoảng hai giờ."
+        ],
+        [
+          "我昨天从图书馆借了几本书来看。",
+          "Hôm qua tôi mượn mấy quyển sách ở thư viện về đọc."
+        ],
+        [
+          "小丽从马可那里借了本书。",
+          "Tiểu Lệ mượn của Mã Khả một quyển sách."
+        ],
+        [
+          "小王向我借了一百块钱。",
+          "Tiểu Vương vay tôi một trăm tệ."
+        ],
+        [
+          "马可借给小丽一本书。",
+          "Mã Khả cho Tiểu Lệ mượn một quyển sách."
+        ],
+        [
+          "马可把一本书借给小丽了。",
+          "Mã Khả đã cho Tiểu Lệ mượn một quyển sách."
+        ],
+        [
+          "你能借我一下你的雨伞吗？外面下雨了。",
+          "Bạn cho tôi mượn cái ô một chút được không? Bên ngoài mưa rồi."
+        ],
+        [
+          "小丽把书还给马可了。",
+          "Tiểu Lệ trả sách cho Mã Khả rồi."
+        ],
+        [
+          "我的电脑还在你那里，你明天记得把它还给我。",
+          "Máy tính của tôi vẫn ở chỗ bạn, mai bạn nhớ trả lại cho tôi."
+        ],
+        [
+          "你借给我的那本书我已经看完了，明天还给你。",
+          "Quyển sách bạn cho tôi mượn tôi đọc xong rồi, mai trả bạn."
+        ],
+        [
+          "我去图书馆借本书。",
+          "Tôi đi thư viện mượn một quyển sách."
+        ],
+        [
+          "帮我把这本词典还了吧。",
+          "Trả giúp tôi quyển từ điển này nhé."
+        ],
+        [
+          "他正坐地铁来我们公司呢。",
+          "Ông ấy đang đi tàu điện ngầm tới công ty chúng tôi."
+        ],
+        [
+          "还差一双筷子，你去拿一下。",
+          "Còn thiếu một đôi đũa, con đi lấy một chút."
+        ],
+        [
+          "医生说你爸爸一口酒都不能喝，别让他看见酒瓶子。",
+          "Bác sĩ nói bố con không được uống một ngụm rượu nào, đừng để ông ấy nhìn thấy chai rượu."
+        ],
+        [
+          "那我们今天喝点儿啤酒吧。",
+          "Vậy hôm nay nhà mình uống chút bia đi."
+        ],
+        [
+          "我每天起床后的第一件事就是打开电脑，看电子邮件。",
+          "Việc đầu tiên mỗi ngày sau khi ngủ dậy của tôi là mở máy tính, xem thư điện tử."
+        ],
+        [
+          "我已经习惯用电脑来学习和工作了。",
+          "Tôi đã quen dùng máy tính để học và làm việc rồi."
+        ],
+        [
+          "今天的会议三点左右就结束了。",
+          "Cuộc họp hôm nay khoảng ba giờ là kết thúc."
+        ]
+      ],
+      "drills": [
+        [
+          "Chuyển 我忘了爸爸的生日 thành câu chữ 把.",
+          "我把爸爸的生日忘了。"
+        ],
+        [
+          "Chuyển 我关了空调 thành câu chữ 把.",
+          "我把空调关了。"
+        ],
+        [
+          "Nói “Lúc đi ngủ bạn nhớ tắt đèn nhé” bằng câu chữ 把.",
+          "你睡觉的时候记得把灯关了。"
+        ],
+        [
+          "Dùng 别 nhắc người ta đừng quên điện thoại.",
+          "你别把手机忘了。"
+        ],
+        [
+          "Nhắc đồng nghiệp sau khi họp xong đừng quên tắt điều hòa.",
+          "会议结束后，别忘记把空调关了。"
+        ],
+        [
+          "Dùng 左右 nói cuối tuần bạn dậy khoảng mười giờ.",
+          "周末我十点左右起床。"
+        ],
+        [
+          "Dùng 左右 nói chiếc laptop này khoảng năm nghìn tệ.",
+          "这个笔记本电脑五千块左右。"
+        ],
+        [
+          "Nói hôm qua bạn mượn mấy quyển sách ở thư viện về đọc.",
+          "我昨天从图书馆借了几本书来看。"
+        ],
+        [
+          "Nói Mã Khả cho Tiểu Lệ mượn một quyển sách (dùng 借给).",
+          "马可借给小丽一本书。"
+        ],
+        [
+          "Dùng 把 + 还给 nói Tiểu Lệ đã trả sách cho Mã Khả.",
+          "小丽把书还给马可了。"
+        ],
+        [
+          "Hỏi mượn ô của người khác một cách lịch sự.",
+          "你能借我一下你的雨伞吗？"
+        ]
+      ],
+      "quiz": [
+        [
+          "Câu nào đúng?",
+          [
+            "我把那个西瓜吃了。",
+            "我把一个西瓜吃了。",
+            "我把西瓜知道了。",
+            "我把西瓜吃。"
+          ],
+          0,
+          "Tân ngữ của câu 把 phải là vật đã xác định (那个), động từ phải là hành động thật và sau động từ cần có 了 (slide 13)."
+        ],
+        [
+          "Chọn vị trí đúng của 别: ",
+          [
+            "你别把手机忘了。",
+            "你把手机别忘了。",
+            "别你把手机忘了。",
+            "你把别手机忘了。"
+          ],
+          0,
+          "Phó từ phủ định luôn đứng TRƯỚC 把 (slide 14)."
+        ],
+        [
+          "Động từ nào KHÔNG dùng được trong câu chữ 把?",
+          [
+            "知道",
+            "关",
+            "吃",
+            "洗"
+          ],
+          0,
+          "把 cần động từ hành động thật; 是、有、来、去、知道、听见 không dùng được (slide 13)."
+        ],
+        [
+          "Chọn cách nói đúng “khoảng năm trăm người”:",
+          [
+            "五百人左右",
+            "左右五百人",
+            "五百左右人",
+            "五百人的左右"
+          ],
+          0,
+          "左右 đứng ngay sau cả cụm số lượng (slide 22)."
+        ],
+        [
+          "Điền từ: 我昨天____图书馆借了几本书。",
+          [
+            "从",
+            "给",
+            "把",
+            "向"
+          ],
+          0,
+          "Mượn ở một nơi chốn thì dùng 从／去 + nơi + 借 (slide 25)."
+        ],
+        [
+          "Điền từ: 我的电脑还在你那里，你明天记得把它____我。",
+          [
+            "还给",
+            "借给",
+            "借",
+            "还"
+          ],
+          0,
+          "Trả lại cho một người thì bắt buộc có 给: 还给 + người (slide 25)."
+        ]
+      ],
+      "practice": {
+        "cloze": [
+          {
+            "title": "练一练 · Thêm lượng từ cho danh từ",
+            "description": "Bài luyện slide 11. Đáp án đã hiện sẵn trên slide.",
+            "items": [
+              [
+                "一____啤酒",
+                [
+                  "瓶",
+                  "杯"
+                ],
+                "Bia đựng trong chai hoặc cốc nên dùng 瓶 hoặc 杯."
+              ],
+              [
+                "一____词典",
+                [
+                  "本"
+                ],
+                "Sách vở, từ điển dùng lượng từ 本."
+              ],
+              [
+                "一____空调",
+                [
+                  "台"
+                ],
+                "Máy móc, thiết bị dùng lượng từ 台."
+              ],
+              [
+                "一____会议",
+                [
+                  "次"
+                ],
+                "Sự việc xảy ra theo lần dùng lượng từ 次."
+              ],
+              [
+                "一____筷子",
+                [
+                  "双"
+                ],
+                "Vật đi theo cặp dùng lượng từ 双."
+              ],
+              [
+                "一____瓶子",
+                [
+                  "个"
+                ],
+                "Cái chai là vật thông thường, dùng 个."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành câu bằng cấu trúc 把",
+            "description": "Bài luyện slide 19. Gợi ý trong ngoặc là động từ và tân ngữ cần dùng.",
+            "items": [
+              [
+                "房间里有点冷，你可以____吗？（关门）",
+                [
+                  "把门关了"
+                ],
+                "Chuyển 关门 thành 把门关了, đặt sau 可以."
+              ],
+              [
+                "你发烧还没好，快____。（吃药）",
+                [
+                  "把药吃了"
+                ],
+                "Chuyển 吃药 thành 把药吃了."
+              ],
+              [
+                "吃饭以前别忘了____。（洗手）",
+                [
+                  "把手洗了"
+                ],
+                "Chuyển 洗手 thành 把手洗了, đứng sau 别忘了."
+              ],
+              [
+                "我太热了，你先让我____。（开空调）",
+                [
+                  "把空调开了"
+                ],
+                "Chuyển 开空调 thành 把空调开了."
+              ],
+              [
+                "你可以出去玩，但是你要____。（写作业）",
+                [
+                  "把作业写了"
+                ],
+                "Trợ động từ 要 đứng trước 把."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Điền 借 hay 还",
+            "description": "Bài luyện slide 26. Câu 2 trên slide chấp nhận cả 借给 lẫn 还给.",
+            "items": [
+              [
+                "我昨天从图书馆____了几本书来看。",
+                [
+                  "借"
+                ],
+                "从 + nơi + 借 là mượn ở đâu."
+              ],
+              [
+                "我已经把自行车____谢鹏了。",
+                [
+                  "借给",
+                  "还给"
+                ],
+                "Slide ghi cả hai đáp án: cho mượn hoặc trả lại đều hợp lý."
+              ],
+              [
+                "小王向我____了一百块钱。",
+                [
+                  "借"
+                ],
+                "向 + người + 借 là vay của ai."
+              ],
+              [
+                "你能____我一下你的雨伞吗？外面下雨了。",
+                [
+                  "借"
+                ],
+                "借 + người + vật là cho ai mượn."
+              ],
+              [
+                "我的电脑还在你那里，你明天记得把它____我。",
+                [
+                  "还给"
+                ],
+                "Trả lại cho người khác thì dùng 还给."
+              ],
+              [
+                "你借给我的那本书我已经看完了，明天____你。",
+                [
+                  "还给"
+                ],
+                "Đọc xong thì trả lại, dùng 还给."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành hội thoại bằng từ mới",
+            "description": "Bài luyện slide 31-34. Mỗi chỗ trống dùng cấu trúc 把 hoặc 左右 đã học hôm nay.",
+            "items": [
+              [
+                "A：音乐会就要开始了。先生，请您____。（把）",
+                [
+                  "把手机关了"
+                ],
+                "Câu đề nghị lịch sự dùng 请您 + 把 + O + V 了."
+              ],
+              [
+                "A：还有五分钟____。",
+                [
+                  "左右"
+                ],
+                "Nói thời gian áng chừng nên thêm 左右."
+              ],
+              [
+                "B：十点半____。",
+                [
+                  "左右"
+                ],
+                "Trả lời giờ ngủ áng chừng bằng 左右."
+              ],
+              [
+                "A：睡觉前别忘了____。（把）",
+                [
+                  "把牛奶喝了"
+                ],
+                "别忘了 + 把 + O + V 了."
+              ],
+              [
+                "A：你是不是忘了____？（把）",
+                [
+                  "把空调关了"
+                ],
+                "Hỏi xem người kia có quên tắt điều hòa không."
+              ],
+              [
+                "A：你可以帮我____？（把）",
+                [
+                  "把钱还给他吗"
+                ],
+                "Nhờ người khác trả tiền hộ nên dùng 把 + 钱 + 还给 + 他."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn từ mới điền vào chỗ trống",
+            "description": "Bài tổng ôn từ vựng slide 61-63. Ngân hàng từ: 双、词典、口、空调、瓶子、关、还、结束、习惯、会议、图书馆.",
+            "items": [
+              [
+                "拿两____筷子就可以了，今天爸爸不回来吃晚饭。",
+                [
+                  "双"
+                ],
+                "Đũa đi theo cặp nên dùng lượng từ 双."
+              ],
+              [
+                "这本____是我朋友的，不是我的。",
+                [
+                  "词典"
+                ],
+                "本 đi với sách vở, ở đây là quyển từ điển."
+              ],
+              [
+                "这种咖啡特别好喝，你快来喝一____吧。",
+                [
+                  "口"
+                ],
+                "Uống một ngụm thì dùng lượng từ 口."
+              ],
+              [
+                "你怎么没开____，太热了！",
+                [
+                  "空调"
+                ],
+                "Nóng thì bật điều hòa."
+              ],
+              [
+                "桌子上有一个____，是谁的！",
+                [
+                  "瓶子"
+                ],
+                "Vật trên bàn là cái chai."
+              ],
+              [
+                "A：你把灯____了吧，我要睡觉了。",
+                [
+                  "关"
+                ],
+                "Đi ngủ thì tắt đèn."
+              ],
+              [
+                "A：你可以帮我把书____了吗？",
+                [
+                  "还"
+                ],
+                "Trả sách dùng 还 (huán)."
+              ],
+              [
+                "A：音乐会____后，我们一起去饭馆吃饭吧。",
+                [
+                  "结束"
+                ],
+                "Sau khi buổi hòa nhạc kết thúc."
+              ],
+              [
+                "B：我下了汉语课____去图书馆。",
+                [
+                  "习惯"
+                ],
+                "Nói về thói quen sau giờ học."
+              ],
+              [
+                "A：今天的____是几点的？",
+                [
+                  "会议"
+                ],
+                "Hỏi về giờ cuộc họp."
+              ],
+              [
+                "A：这本词典你是在哪儿借的？B：____。",
+                [
+                  "图书馆"
+                ],
+                "Mượn từ điển ở thư viện."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "练一练 · Sắp xếp thành câu chữ 把",
+            "description": "Bài luyện slide 20-21, đáp án đã hiện trên slide.",
+            "items": [
+              [
+                [
+                  "爸爸的",
+                  "把",
+                  "忘",
+                  "了",
+                  "生日",
+                  "我"
+                ],
+                "我把爸爸的生日忘了。"
+              ],
+              [
+                [
+                  "手机",
+                  "别",
+                  "你",
+                  "把",
+                  "忘",
+                  "了"
+                ],
+                "你别把手机忘了。"
+              ],
+              [
+                [
+                  "你",
+                  "邮件",
+                  "帮",
+                  "我",
+                  "把",
+                  "发了",
+                  "吧"
+                ],
+                "我帮你把邮件发了吧。"
+              ],
+              [
+                [
+                  "你",
+                  "以前",
+                  "睡觉",
+                  "喝了",
+                  "牛奶",
+                  "把"
+                ],
+                "你睡觉以前把牛奶喝了。"
+              ],
+              [
+                [
+                  "把",
+                  "先",
+                  "今天的",
+                  "作业",
+                  "写了",
+                  "你"
+                ],
+                "你先把今天的作业写了。"
+              ],
+              [
+                [
+                  "你",
+                  "吃了",
+                  "把",
+                  "早饭",
+                  "快点儿"
+                ],
+                "你快点儿把早饭吃了。"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Sắp xếp thành câu có 左右",
+            "description": "Bài luyện slide 24, đáp án đã hiện trên slide.",
+            "items": [
+              [
+                [
+                  "那个",
+                  "五十",
+                  "岁",
+                  "男人",
+                  "左右"
+                ],
+                "那个男人五十岁左右。"
+              ],
+              [
+                [
+                  "五百",
+                  "左右",
+                  "我们",
+                  "公司",
+                  "有",
+                  "人"
+                ],
+                "我们公司有五百人左右。"
+              ],
+              [
+                [
+                  "这本",
+                  "五十",
+                  "左右",
+                  "词典",
+                  "块",
+                  "钱"
+                ],
+                "这本词典五十块钱左右。"
+              ]
+            ]
+          }
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "这个笔记本电脑我去年买的时候要五千块左右，现在便宜多了。我想把这个电脑卖了，再买一个更好的。现在，我每天起床后的第一件事就是打开电脑，看电子邮件。我已经很少写信，也很少用笔写字，已经习惯用电脑来学习和工作了。哪一天突然没有了电脑，我们怎么办呢？",
+          [
+            [
+              "这个笔记本电脑去年多少钱？",
+              [
+                "五千块左右",
+                "五百块左右",
+                "五万块左右",
+                "没有说"
+              ],
+              0,
+              "Câu đầu nói “去年买的时候要五千块左右”。"
+            ],
+            [
+              "“我”为什么想换电脑？",
+              [
+                "想卖了旧的，买一个更好的",
+                "因为电脑坏了",
+                "因为电脑太贵了",
+                "因为朋友要借"
+              ],
+              0,
+              "Đoạn văn nói “我想把这个电脑卖了，再买一个更好的”。"
+            ],
+            [
+              "“我”每天起床后先做什么？",
+              [
+                "打开电脑，看电子邮件",
+                "用笔写信",
+                "去图书馆借书",
+                "坐地铁去公司"
+              ],
+              0,
+              "Đoạn văn nói “每天起床后的第一件事就是打开电脑，看电子邮件”。"
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "id": "l0911",
       "date": "09/11/2026",
       "shortDate": "09/11",

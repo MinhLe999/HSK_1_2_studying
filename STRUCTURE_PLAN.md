@@ -444,6 +444,16 @@ Quy ước:
 | l2110-s11 | 3.1 Hai số liền nhau + lượng từ + danh từ | Khoảng … hoặc … | Ghép hai số tự nhiên liền nhau để chỉ số lượng áng chừng: 一二、三四、五六……；nghĩa là “số này hoặc số kia”, ví dụ 一两个小时 nghĩa là 一个小时或者两个小时. | 我每天学习一两个小时的汉语。；你都喝了五六杯咖啡了，别再喝了。；我家附近有三四个很方便的地方。 | Mỗi ngày tôi học tiếng Trung khoảng một đến hai tiếng.；Bạn uống năm sáu cốc cà phê rồi, đừng uống nữa.；Gần nhà tôi có ba bốn chỗ rất tiện. | — |
 | l2110-s12 | 3.2 十几 ／ 几十: không viết chữ 十 hai lần | Mười mấy …, mấy chục … | Khi hai số liền nhau rơi vào dạng 十几 hoặc 几十 thì chỉ viết chữ 十 một lần: nói 十一二个 chứ không nói 十一十二个, nói 二三十个 chứ không nói 二十三十个；Hai số liền nhau không được bắc cầu qua hàng chục: không dùng 九十个 theo nghĩa “chín hoặc mười”, cũng không dùng 十九二十个. | 教室里有十一二个学生。；这本书我看了十八九遍了。；这个班有二三十个人。 | Trong lớp có mười một, mười hai học sinh.；Quyển sách này tôi đọc mười tám, mười chín lần rồi.；Lớp này có hai, ba chục người. | Cách viết sai｜Cách viết đúng；十一十二个｜十一二个；十八十九个｜十八九个；二十三十个｜二三十个；四十五十个｜四五十个 |
 
+## l2310 · 23/10/2026 · Câu chữ 把, số áng chừng 左右 và cặp 借／还
+| Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- | --- |
+| l2310-s1 | 1.1 S + 把 + O + V + 了／thành phần khác | Đem O mà làm gì đó (nhấn mạnh kết quả tác động lên O) | Dùng khi hành động thật của chủ ngữ làm O thay đổi；O phải là vật cả người nói lẫn người nghe đều biết, nên đi với 这个／那个 + N chứ không dùng 一个／两个 + N；V phải là động từ hành động (吃、喝、关、写……), không dùng 是、有、来、去、知道、听见；sau V bắt buộc còn thành phần khác, thường gặp nhất là 了. | 他把门关了。；我把爸爸的生日忘了。；你快点儿把早饭吃了。 | Anh ấy đóng cửa rồi.；Tôi quên mất sinh nhật bố rồi.；Bạn ăn nhanh bữa sáng đi. | Câu thường｜Câu chữ 把；我忘了爸爸的生日。｜我把爸爸的生日忘了。；我关了空调。｜我把空调关了。 |
+| l2310-s2 | 1.2 S + 没（有）／不／别／trợ động từ／thời gian + 把 + O + V + 了 | Không／đừng／sẽ đem O mà làm gì đó | Mọi phó từ phủ định, trợ động từ và trạng ngữ thời gian đều đứng TRƯỚC 把, không được chen vào giữa 把 và tân ngữ；dạng mệnh lệnh phủ định hay dùng 别 hoặc 别忘了；có thể thêm 记得、可以、要 trước 把. | 她没把裤子洗了，她把裙子洗了。；你别把手机忘了。；你睡觉以前把牛奶喝了。 | Cô ấy không giặt quần, cô ấy giặt váy.；Bạn đừng quên điện thoại nhé.；Trước khi đi ngủ bạn uống sữa đi. | — |
+| l2310-s3 | 2. Số từ + 左右 | Khoảng, chừng (số áng chừng) | Đặt ngay sau cụm số lượng để nói con số xấp xỉ；dùng được với giờ giấc, số người, số tiền, tuổi tác；khác với dạng hai số liền nhau (五六个) ở chỗ 左右 giữ nguyên một con số rồi thêm "khoảng". | 周末我十点左右起床。；我们公司有五百人左右。；这个笔记本电脑五千块左右。 | Cuối tuần tôi dậy khoảng mười giờ.；Công ty chúng tôi có khoảng năm trăm người.；Chiếc laptop này khoảng năm nghìn tệ. | — |
+| l2310-s4 | 3.1 借 + O／S + 从・跟・向 + ai・nơi + 借（了）+ O | Mượn (nhìn từ phía người đi mượn) | 借 một mình đã đủ nghĩa "mượn"；muốn nói mượn của ai thì dùng 从／跟／向 + người + 借, mượn ở đâu thì dùng 从／去 + nơi chốn + 借；vật mượn đứng sau động từ. | 我昨天从图书馆借了几本书来看。；小丽从马可那里借了本书。；小王向我借了一百块钱。 | Hôm qua tôi mượn mấy quyển sách ở thư viện về đọc.；Tiểu Lệ mượn của Mã Khả một quyển sách.；Tiểu Vương vay tôi một trăm tệ. | — |
+| l2310-s5 | 3.2 S + 借（给）+ ai + O／S + 把 + O + 借给 + ai | Cho mượn (nhìn từ phía người có đồ) | Cùng chữ 借 nhưng đổi vai: thêm 给 + người nhận là "cho ai mượn"；khi vật đã xác định thì chuyển sang câu chữ 把: 把 + O + 借给 + ai；câu hỏi lịch sự thường là 你能借我……吗？ | 马可借给小丽一本书。；马可把一本书借给小丽了。；你能借我一下你的雨伞吗？ | Mã Khả cho Tiểu Lệ mượn một quyển sách.；Mã Khả cho Tiểu Lệ mượn một quyển sách rồi.；Bạn cho tôi mượn cái ô một chút được không? | Vai｜Công thức｜Ví dụ；Người mượn｜从／跟／向 + ai + 借 + O｜小丽从马可那里借了本书。；Người cho mượn｜借给 + ai + O｜马可借给小丽一本书。；Người trả｜把 + O + 还给 + ai｜小丽把书还给马可了。 |
+| l2310-s6 | 3.3 还 + O／S（+ 把 + O）+ 还给 + ai・nơi | Trả lại | 还 đọc là huán, khác với 还 hái "còn, vẫn"；trả cho ai thì bắt buộc có 给 + người hoặc nơi nhận；vật đã xác định thì đưa lên trước bằng 把. | 小丽把书还给马可了。；我的电脑还在你那里，你明天记得把它还给我。；你借给我的那本书我已经看完了，明天还给你。 | Tiểu Lệ trả sách cho Mã Khả rồi.；Máy tính của tôi vẫn ở chỗ bạn, mai bạn nhớ trả lại cho tôi.；Quyển sách bạn cho tôi mượn tôi đọc xong rồi, mai trả bạn. | — |
+
 ## l0911 · 09/11/2026 · 如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的
 
 | Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa | Bảng |
@@ -2023,6 +2033,31 @@ Quy chuẩn cho mọi ngày:
 | l2110-w3 | so sánh thời gian đi học của hai người | A + 比 + B + 早／晚 + V | 比；骑 | Dùng đủ hai từ để nói bạn đi xe đạp đến trường sớm hơn bạn cùng lớp nửa tiếng. | 我比同学早骑车去学校半个小时。 |
 | l2110-w4 | nói chiếc xe đạp đã quá cũ | 旧 + danh từ | 旧；换 | Dùng đủ hai từ để nói xe đạp của bạn quá cũ nên muốn đổi một chiếc mới. | 我的自行车太旧了，我想换一辆新的。 |
 | l2110-w5 | nói số lượng áng chừng | Hai số liền nhau + lượng từ + danh từ | 附近；方便 | Dùng đủ hai từ để nói gần nhà bạn có ba bốn chỗ mua đồ rất tiện. | 我家附近有三四个买东西很方便的地方。 |
+
+### l2310 · 23/10/2026
+#### Đoạn văn
+> 今天的会议三点左右就结束了。会议结束以后，周明让我别忘记把空调和灯都关了。我把办公室的门关了，就坐地铁去了图书馆。上个星期我从图书馆借了两本词典，今天要把它们还了。在图书馆我还借了一本新书，准备在回家的路上看。回到家以后我打开笔记本电脑，看了看电子邮件，就开始写作业。我已经习惯用电脑学习和工作了，很少用笔写字。
+#### Hội thoại
+> 小丽：你怎么还不走？会议不是已经结束了吗？
+> 周明：我在等王经理的电子邮件。
+> 小丽：他两点左右不是来过电话吗？
+> 周明：是的，他说他正坐地铁来我们公司呢。
+> 小丽：那你别忘了把空调关了，办公室有点儿冷。
+> 周明：好的，我一会儿就把空调和灯都关了。
+> 小丽：对了，我上次从你那里借的那本词典，明天还给你吧。
+> 周明：不着急，你看完了再还给我。
+> 小丽：谢谢你！那我先走了。
+> 周明：好的，路上小心。
+#### Câu hỏi đọc hiểu
+| l2310-r1 | 会议是什么时候结束的？ | 三点左右；两点左右；五点左右；下午四点半 | 三点左右 | Đoạn văn nói "今天的会议三点左右就结束了"。 |
+| l2310-r2 | 周明让"我"做什么？ | 别忘记把空调和灯都关了；把会议室的门开着；把词典借给他；去买两瓶啤酒 | 别忘记把空调和灯都关了 | Đoạn văn nói "周明让我别忘记把空调和灯都关了"。 |
+| l2310-r3 | "我"去图书馆做什么？ | 把借的两本词典还了，还借了一本新书；只是去看书不借书；去见王经理；去买一台笔记本电脑 | 把借的两本词典还了，还借了一本新书 | Đoạn văn nói "今天要把它们还了" và "在图书馆我还借了一本新书"。 |
+| l2310-r4 | 王经理怎么来公司？ | 坐地铁；坐飞机；骑自行车；走回来 | 坐地铁 | 周明 nói "他说他正坐地铁来我们公司呢"。 |
+| l2310-r5 | 关于那本词典，B 说了什么？ | 不着急，看完了再还；明天一定要还；已经借给别人了；让 A 别再借了 | 不着急，看完了再还 | 周明 nói "不着急，你看完了再还给我"。 |
+#### Đặt câu với từ cho sẵn
+| l2310-w1 | nhắc nhau tắt thiết bị trước khi về | S + 没（有）／不／别／trợ động từ／thời gian + 把 + O + V + 了 | 别；空调；关 | Dùng đủ ba từ để nhắc đồng nghiệp đừng quên tắt điều hòa sau khi họp xong. | 会议结束以后别忘了把空调关了。 |
+| l2310-w2 | hỏi giá một món đồ | Số từ + 左右 | 笔记本；左右 | Dùng đủ hai từ để nói chiếc laptop này khoảng năm nghìn tệ. | 这个笔记本电脑五千块左右。 |
+| l2310-w3 | trả đồ đã mượn ở thư viện | S（+ 把 + O）+ 还给 + ai・nơi | 词典；还给；图书馆 | Dùng đủ ba từ để nói ngày mai bạn sẽ trả quyển từ điển cho thư viện. | 明天我要把这本词典还给图书馆。 |
 
 ### l0911 · 09/11/2026
 

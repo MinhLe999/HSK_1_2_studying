@@ -34,11 +34,11 @@ function formAppearsInExamples(label, examples) {
   });
 }
 
-test("có đủ 40 ngày và bốn ngày cuối mới nhất", () => {
-  assert.equal(content.lessons.length, 40);
+test("có đủ 41 ngày và bốn ngày cuối mới nhất", () => {
+  assert.equal(content.lessons.length, 41);
   assert.deepEqual(
     content.lessons.slice(-4).map(lesson => lesson.date),
-    ["14/10/2026", "19/10/2026", "21/10/2026", "09/11/2026"]
+    ["19/10/2026", "21/10/2026", "23/10/2026", "09/11/2026"]
   );
   assert.equal(content.lessons.at(-1).pages, "slide 1-70");
 });

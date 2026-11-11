@@ -1565,6 +1565,40 @@ window.HSK_PRODUCTION = {
       "sample": "我每天骑十几分钟的自行车就到学校了。"
     }
   ],
+  "l2310": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "kể việc đã làm xong trước khi rời văn phòng",
+      "structure": "S + 把 + O + V + 了",
+      "prompt": "Dùng 灯 nói bạn đã tắt đèn trong phòng làm việc rồi.",
+      "required": "灯",
+      "sample": "我把办公室的灯关了。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "nhờ người khác gửi thư điện tử",
+      "structure": "S + 把 + O + V + 了",
+      "prompt": "Dùng câu chữ 把 nhờ đồng nghiệp gửi giúp bạn thư điện tử cho giám đốc Vương.",
+      "required": "电子邮件",
+      "sample": "你帮我把这封电子邮件发给王经理吧。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "đặt câu hỏi cho câu trả lời về giờ tan họp",
+      "structure": "Số từ + 左右",
+      "prompt": "Câu trả lời là 今天的会议三点左右就结束了。 Hãy đặt một câu hỏi phù hợp.",
+      "required": "结束",
+      "sample": "今天的会议几点结束？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "trả lời câu hỏi về quyển sách đã mượn",
+      "structure": "S（+ 把 + O）+ 还给 + ai・nơi",
+      "prompt": "Có người hỏi 你从图书馆借的那本书看完了吗？ Hãy trả lời là đã đọc xong và mai sẽ mang trả.",
+      "required": "还给",
+      "sample": "看完了，我明天就把它还给图书馆。"
+    }
+  ],
   "l0911": [
     {
       "kind": "sentence-vocab",

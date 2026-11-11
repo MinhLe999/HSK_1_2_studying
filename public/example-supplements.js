@@ -583,6 +583,42 @@ window.HSK_EXAMPLE_SUPPLEMENTS = {
       "教室里有十一二个学生。"
     ]
   },
+  "l2310": {
+    "additions": [
+      [
+        "我把办公室的门关了，就坐地铁去了图书馆。",
+        "Tôi đóng cửa văn phòng rồi đi tàu điện ngầm tới thư viện."
+      ],
+      [
+        "这种咖啡特别好喝，你快来喝一口吧。",
+        "Loại cà phê này ngon lắm, bạn uống thử một ngụm đi."
+      ],
+      [
+        "桌子上有一个瓶子，是谁的？",
+        "Trên bàn có một cái chai, của ai thế?"
+      ],
+      [
+        "拿两双筷子就可以了，今天爸爸不回来吃晚饭。",
+        "Lấy hai đôi đũa là được rồi, hôm nay bố không về ăn tối."
+      ],
+      [
+        "我下了汉语课习惯去图书馆看书。",
+        "Tan giờ tiếng Trung tôi quen đi thư viện đọc sách."
+      ],
+      [
+        "今天的会议是下午两点半的。",
+        "Cuộc họp hôm nay là vào hai giờ rưỡi chiều."
+      ]
+    ],
+    "patternEvidence": [
+      "他把门关了。",
+      "你别把手机忘了。",
+      "我们公司有五百人左右。",
+      "我昨天从图书馆借了几本书来看。",
+      "马可借给小丽一本书。",
+      "小丽把书还给马可了。"
+    ]
+  },
   "l0911": {
     "additions": [
       [

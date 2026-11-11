@@ -4077,6 +4077,148 @@ window.HSK_STRUCTURES = {
       }
     ]
   },
+  "l2310": {
+    "date": "23/10/2026",
+    "topic": "Câu chữ 把, số áng chừng 左右 và cặp 借／还",
+    "items": [
+      {
+        "id": "l2310-s1",
+        "formula": "1.1 S + 把 + O + V + 了／thành phần khác",
+        "sense": "Đem O mà làm gì đó (nhấn mạnh kết quả tác động lên O)",
+        "usage": "Dùng khi hành động thật của chủ ngữ làm O thay đổi\nO phải là vật cả người nói lẫn người nghe đều biết, nên đi với 这个／那个 + N chứ không dùng 一个／两个 + N\nV phải là động từ hành động (吃、喝、关、写……), không dùng 是、有、来、去、知道、听见\nsau V bắt buộc còn thành phần khác, thường gặp nhất là 了.",
+        "examples": [
+          "他把门关了。",
+          "我把爸爸的生日忘了。",
+          "你快点儿把早饭吃了。"
+        ],
+        "meanings": [
+          "Anh ấy đóng cửa rồi.",
+          "Tôi quên mất sinh nhật bố rồi.",
+          "Bạn ăn nhanh bữa sáng đi."
+        ],
+        "table": {
+          "columns": [
+            "Câu thường",
+            "Câu chữ 把"
+          ],
+          "rows": [
+            [
+              "我忘了爸爸的生日。",
+              "我把爸爸的生日忘了。"
+            ],
+            [
+              "我关了空调。",
+              "我把空调关了。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l2310-s2",
+        "formula": "1.2 S + 没（有）／不／别／trợ động từ／thời gian + 把 + O + V + 了",
+        "sense": "Không／đừng／sẽ đem O mà làm gì đó",
+        "usage": "Mọi phó từ phủ định, trợ động từ và trạng ngữ thời gian đều đứng TRƯỚC 把, không được chen vào giữa 把 và tân ngữ\ndạng mệnh lệnh phủ định hay dùng 别 hoặc 别忘了\ncó thể thêm 记得、可以、要 trước 把.",
+        "examples": [
+          "她没把裤子洗了，她把裙子洗了。",
+          "你别把手机忘了。",
+          "你睡觉以前把牛奶喝了。"
+        ],
+        "meanings": [
+          "Cô ấy không giặt quần, cô ấy giặt váy.",
+          "Bạn đừng quên điện thoại nhé.",
+          "Trước khi đi ngủ bạn uống sữa đi."
+        ]
+      },
+      {
+        "id": "l2310-s3",
+        "formula": "2. Số từ + 左右",
+        "sense": "Khoảng, chừng (số áng chừng)",
+        "usage": "Đặt ngay sau cụm số lượng để nói con số xấp xỉ\ndùng được với giờ giấc, số người, số tiền, tuổi tác\nkhác với dạng hai số liền nhau (五六个) ở chỗ 左右 giữ nguyên một con số rồi thêm \"khoảng\".",
+        "examples": [
+          "周末我十点左右起床。",
+          "我们公司有五百人左右。",
+          "这个笔记本电脑五千块左右。"
+        ],
+        "meanings": [
+          "Cuối tuần tôi dậy khoảng mười giờ.",
+          "Công ty chúng tôi có khoảng năm trăm người.",
+          "Chiếc laptop này khoảng năm nghìn tệ."
+        ]
+      },
+      {
+        "id": "l2310-s4",
+        "formula": "3.1 借 + O／S + 从・跟・向 + ai・nơi + 借（了）+ O",
+        "sense": "Mượn (nhìn từ phía người đi mượn)",
+        "usage": "借 một mình đã đủ nghĩa \"mượn\"\nmuốn nói mượn của ai thì dùng 从／跟／向 + người + 借, mượn ở đâu thì dùng 从／去 + nơi chốn + 借\nvật mượn đứng sau động từ.",
+        "examples": [
+          "我昨天从图书馆借了几本书来看。",
+          "小丽从马可那里借了本书。",
+          "小王向我借了一百块钱。"
+        ],
+        "meanings": [
+          "Hôm qua tôi mượn mấy quyển sách ở thư viện về đọc.",
+          "Tiểu Lệ mượn của Mã Khả một quyển sách.",
+          "Tiểu Vương vay tôi một trăm tệ."
+        ]
+      },
+      {
+        "id": "l2310-s5",
+        "formula": "3.2 S + 借（给）+ ai + O／S + 把 + O + 借给 + ai",
+        "sense": "Cho mượn (nhìn từ phía người có đồ)",
+        "usage": "Cùng chữ 借 nhưng đổi vai: thêm 给 + người nhận là \"cho ai mượn\"\nkhi vật đã xác định thì chuyển sang câu chữ 把: 把 + O + 借给 + ai\ncâu hỏi lịch sự thường là 你能借我……吗？",
+        "examples": [
+          "马可借给小丽一本书。",
+          "马可把一本书借给小丽了。",
+          "你能借我一下你的雨伞吗？"
+        ],
+        "meanings": [
+          "Mã Khả cho Tiểu Lệ mượn một quyển sách.",
+          "Mã Khả cho Tiểu Lệ mượn một quyển sách rồi.",
+          "Bạn cho tôi mượn cái ô một chút được không?"
+        ],
+        "table": {
+          "columns": [
+            "Vai",
+            "Công thức",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "Người mượn",
+              "从／跟／向 + ai + 借 + O",
+              "小丽从马可那里借了本书。"
+            ],
+            [
+              "Người cho mượn",
+              "借给 + ai + O",
+              "马可借给小丽一本书。"
+            ],
+            [
+              "Người trả",
+              "把 + O + 还给 + ai",
+              "小丽把书还给马可了。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l2310-s6",
+        "formula": "3.3 还 + O／S（+ 把 + O）+ 还给 + ai・nơi",
+        "sense": "Trả lại",
+        "usage": "还 đọc là huán, khác với 还 hái \"còn, vẫn\"\ntrả cho ai thì bắt buộc có 给 + người hoặc nơi nhận\nvật đã xác định thì đưa lên trước bằng 把.",
+        "examples": [
+          "小丽把书还给马可了。",
+          "我的电脑还在你那里，你明天记得把它还给我。",
+          "你借给我的那本书我已经看完了，明天还给你。"
+        ],
+        "meanings": [
+          "Tiểu Lệ trả sách cho Mã Khả rồi.",
+          "Máy tính của tôi vẫn ở chỗ bạn, mai bạn nhớ trả lại cho tôi.",
+          "Quyển sách bạn cho tôi mượn tôi đọc xong rồi, mai trả bạn."
+        ]
+      }
+    ]
+  },
   "l0911": {
     "date": "09/11/2026",
     "topic": "如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的",
