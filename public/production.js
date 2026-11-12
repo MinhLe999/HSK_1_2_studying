@@ -1734,5 +1734,39 @@ window.HSK_PRODUCTION = {
       "required": "像",
       "sample": "是啊，这儿像画儿一样美。"
     }
+  ],
+  "l0611": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "nói về việc nâng cao trình độ tiếng Hán",
+      "structure": "Chủ ngữ + 提高 + tân ngữ + 得 + bổ ngữ",
+      "prompt": "Dùng 水平 nói bạn sang Trung Quốc du học hai năm rồi mà trình độ tiếng Hán tiến bộ chẳng nhanh chút nào.",
+      "required": "水平",
+      "sample": "我来中国留学两年了，但是我的汉语水平提高得一点也不快。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "kể các việc làm được trên mạng",
+      "structure": "除了 A（以外），S + 还 + B",
+      "prompt": "Dùng 除了……还…… nói ngoài xem tin tức ra, người ta còn có thể nghe nhạc, xem phim và mua đồ trên mạng.",
+      "required": "除了、还",
+      "sample": "除了看新闻，人们还可以在网上听歌、看电影、买东西。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "hỏi về món ngon của quán ăn",
+      "structure": "有没有 + 什么 + cụm danh từ",
+      "prompt": "Câu trả lời là 这儿的鱼做得最好。 Hãy đặt một câu hỏi có 什么 cho nhẹ giọng.",
+      "required": "什么",
+      "sample": "这个饭馆有没有什么特别好吃的菜？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "trả lời về cảm nhận của người được tặng đồ",
+      "structure": "Tính từ／động từ tâm lý + 极了",
+      "prompt": "Có người hỏi 你弟弟对那件衣服满意吗？ Hãy trả lời bằng một câu có 极了.",
+      "required": "极了",
+      "sample": "不用花钱，还有新衣服穿，他满意极了。"
+    }
   ]
 };

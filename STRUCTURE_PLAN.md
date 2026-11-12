@@ -486,6 +486,15 @@ Quy ước:
 | l0411-s7 | 3.2 A + 像 + B（+ 一样／那样）+ V／adj | A … giống như B | Thêm một động từ hay tính từ phía sau để nói rõ GIỐNG Ở ĐIỂM NÀO；dùng 一样 khi so với vật, 那样 khi nêu một tấm gương để noi theo. | 今晚的月亮像盘子一样圆。；你要像姐姐那样认真，也考上一个好学校。；小方像是没有作业一样经常去玩游戏。 | Trăng tối nay tròn như cái đĩa.；Em phải chăm chỉ như chị, cũng thi đỗ một trường tốt.；Tiểu Phương cứ như không có bài tập, suốt ngày đi chơi game. | — |
 | l0411-s8 | 3.3 A 和 B（+ 的 + N）+ 很／真／不 + 像 | A và B (rất／thật／không) giống nhau | Dạng này đưa cả hai bên lên trước, 像 đứng cuối như một tính từ；vì vậy mới nhận được 很、真、一点儿也不 ở trước. | 今晚的月亮和白色的盘子很像。；他和他弟弟一点儿也不像，他安静得多。；小明和小方长得很像，都又高又瘦。 | Trăng tối nay với chiếc đĩa trắng rất giống nhau.；Cậu ấy với em trai chẳng giống nhau tí nào, cậu ấy trầm tính hơn nhiều.；Tiểu Minh với Tiểu Phương trông rất giống nhau, đều cao và gầy. | — |
 
+## l0611 · 06/11/2026 · Ba cách dùng 除了, 什么 làm dịu giọng và 极了
+| Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- | --- |
+| l0611-s1 | 1.1 除了 A（以外），S + 还／也 + B ＝ S + 除了 A（以外），还／也 + B | Ngoài A ra, (chủ ngữ) còn B nữa | Dạng CỘNG THÊM với MỘT chủ thể: cùng một người vừa làm A vừa làm B；nghĩa tương đương S 同时 A ＋ B；以外 có thể lược, 还 và 也 dùng thay nhau được. | 除了唱歌以外，小丽还喜欢跳舞。；我们昨天除了去书店以外，还去了图书馆。；在中国我除了想学习汉语以外，还想多了解中国文化。 | Ngoài hát ra, Tiểu Lệ còn thích nhảy nữa.；Hôm qua ngoài đi hiệu sách, chúng tôi còn đi thư viện.；Ở Trung Quốc ngoài học tiếng Hán, tôi còn muốn tìm hiểu thêm văn hóa Trung Quốc. | — |
+| l0611-s2 | 1.2 除了 A（以外），B 也…… ＝ A ＋ B 都…… | Ngoài A ra, B cũng … | Dạng CỘNG THÊM với HAI chủ thể khác nhau: A thế nào thì B cũng thế；dùng khi muốn nhấn mạnh rằng cả hai đều như vậy. | 除了大卫以外，玛丽也没有去北京。；我们班除了玛丽以外，马可的汉语水平也很高。；在我们班，除了王方以外，林木也喜欢做练习。 | Ngoài David ra, Mary cũng không đi Bắc Kinh.；Lớp tôi ngoài Mary ra, trình độ tiếng Hán của Marco cũng rất cao.；Ở lớp tôi, ngoài Vương Phương ra, Lâm Mộc cũng thích làm bài luyện. | — |
+| l0611-s3 | 1.3 除了 A（以外），B、C…… 都…… ＝ B、C 都……，A 没有 | Trừ A ra, còn lại đều … | Dạng NGOẠI TRỪ: A là trường hợp duy nhất KHÁC với phần còn lại；dấu hiệu nhận biết là chữ 都 ở vế sau, còn hai dạng trên dùng 还／也. | 除了跑步以外，其他运动我都喜欢。；我们班除了大卫，其他人都去过上海。；除了这个句子意思有些不清楚外，其他都没什么问题。 | Trừ chạy bộ ra, môn thể thao nào tôi cũng thích.；Lớp tôi trừ David ra, những người khác đều từng đi Thượng Hải.；Trừ câu này nghĩa hơi khó hiểu ra, những chỗ còn lại không có vấn đề gì. | Dạng｜Vế sau dùng｜Nghĩa；1.1 một chủ thể｜还／也｜Ngoài A còn B；1.2 hai chủ thể｜也｜A thế nào, B cũng thế；1.3 ngoại trừ｜都｜Trừ A ra, còn lại đều thế |
+| l0611-s4 | 2. 什么 (đặt trước danh từ) | Gì đó, có gì (làm câu nhẹ giọng hơn) | 什么 ở đây KHÔNG phải để hỏi mà là phiếm chỉ, khiến câu nghe mềm và lịch sự hơn；thêm vào hay bỏ đi nghĩa vẫn vậy, chỉ khác sắc thái. | 这个饭馆有没有什么特别好吃的菜？；你写得很好，没什么问题。；以后有什么不明白的地方，你可以给我打电话。 | Quán này có món nào đặc biệt ngon không?；Bạn viết rất tốt, không có vấn đề gì.；Sau này có chỗ nào chưa hiểu, bạn có thể gọi điện cho tôi. | — |
+| l0611-s5 | 3. Tính từ／động từ tâm lý + 极了 | … cực kỳ, … vô cùng | 极了 đứng SAU tính từ, không cần thêm 很 hay 太；mức độ mạnh hơn 非常, thường dùng khi cảm thán；đi với tính từ hoặc động từ chỉ cảm nhận như 喜欢、满意、冷、热、可爱. | 这个颜色我喜欢极了。；今天天气冷极了。；不用花钱，还有新衣服穿，他满意极了。 | Màu này tôi thích cực kỳ.；Hôm nay trời lạnh vô cùng.；Không mất tiền mà lại có áo mới mặc, cậu ấy hài lòng vô cùng. | Mức độ｜Công thức｜Ví dụ；Phủ định hoàn toàn｜一点也不 + adj｜我的汉语水平提高得一点也不快。；Hơi｜有点儿／比较 + adj｜那件衣服我穿着有点儿小。；Rất｜很／非常／特别／十分 + adj｜这儿的服务非常好。；Thật là｜真 + adj｜现在用电脑上网真方便啊！；Quá｜太 + adj + 了｜五个？太多了！；Nhất｜最 + adj｜这儿的鱼做得最好。；Quá chừng (cảm nhận)｜adj + 坏了｜他这几天忙坏了。；Cực kỳ｜adj + 极了｜我的小狗可爱极了。 |
+
 ## l0911 · 09/11/2026 · 如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的
 
 | Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa | Bảng |
@@ -2165,6 +2174,31 @@ Quy chuẩn cho mọi ngày:
 | l0411-w1 | nhờ người khác dọn phòng | S + 把 + O + V + bổ ngữ kết quả | 把；打扫干净 | Dùng đủ hai từ để bảo con dọn phòng của nó cho sạch. | 请你把自己的房间打扫干净。 |
 | l0411-w2 | sắp xếp thứ tự việc sẽ làm sau giờ học | 先……，然后再…… | 先；然后再 | Dùng đủ hai từ để nói tan học bạn sẽ tắm trước rồi mới xem chương trình tivi. | 下课以后我先洗澡，然后再看电视节目。 |
 | l0411-w3 | tả vầng trăng buổi tối | A + 像 + B + 一样 + adj | 月亮；像 | Dùng đủ hai từ để nói trăng tối nay tròn như một chiếc đĩa trắng. | 今晚的月亮像白色的盘子一样圆。 |
+
+### l0611 · 06/11/2026
+#### Đoạn văn
+> 除了春节、中秋节以外，啤酒节也是这里很重要的一个节日。这个地方每年夏天都要举行一次啤酒节。在啤酒节上，你可以喝到世界上不同地方的啤酒。除了喝啤酒，你还可以在街道两边看到世界上不同地方的歌舞。每年来过节的人多极了，街道上一点儿也不安静。你想不想了解世界各个地方的啤酒文化？来这里的啤酒节看看吧。
+#### Hội thoại
+> 大山：老师，我来中国留学两年了，但是我的汉语水平提高得一点也不快啊。
+> 老师：你每天认真学习，做练习，完成作业，一直不错啊。
+> 大山：这是我昨天的作业，您帮我看看对不对。
+> 老师：写得不错，除了这个句子意思有些不清楚外，其他都没什么问题。
+> 大山：谢谢老师！那我平时还应该注意什么？
+> 老师：除了上课练习以外，你还可以每天上网看看中文新闻。
+> 大山：新闻里的句子是不是太难了？
+> 老师：你可以先看短的，看多了就好极了。
+> 大山：好的，我回去就试试。
+> 老师：以后有什么不明白的地方，可以给我打电话或者发电子邮件。
+#### Câu hỏi đọc hiểu
+| l0611-r1 | 这个地方的啤酒节什么时候举行？ | 每年夏天；每年春天；每年冬天；每两年一次 | 每年夏天 | Đoạn văn nói "这个地方每年夏天都要举行一次啤酒节"。 |
+| l0611-r2 | 在啤酒节上，除了喝啤酒还能做什么？ | 在街道两边看世界各地的歌舞；看电影；去书店买书；听中文新闻 | 在街道两边看世界各地的歌舞 | Đoạn văn nói "除了喝啤酒，你还可以在街道两边看到世界上不同地方的歌舞"。 |
+| l0611-r3 | 大山的作业怎么样？ | 写得不错，只有一个句子意思不太清楚；写得很差；全部都写错了；他没有交作业 | 写得不错，只有一个句子意思不太清楚 | Cô giáo nói "写得不错，除了这个句子意思有些不清楚外，其他都没什么问题"。 |
+| l0611-r4 | 老师让大山平时还做什么？ | 每天上网看中文新闻；每天去图书馆；每天跟同学聊天；每天看电影 | 每天上网看中文新闻 | Cô giáo nói "除了上课练习以外，你还可以每天上网看看中文新闻"。 |
+| l0611-r5 | 大山以后不明白的时候可以怎么做？ | 给老师打电话或者发电子邮件；去办公室等老师；问同学；自己查词典 | 给老师打电话或者发电子邮件 | Câu cuối hội thoại nói rõ hai cách liên lạc. |
+#### Đặt câu với từ cho sẵn
+| l0611-w1 | kể thêm một việc mình cũng làm | 除了 A（以外），S + 还 + B | 除了；练习 | Dùng đủ hai từ để nói ngoài làm bài luyện ra, bạn còn lên mạng xem tin tức tiếng Trung. | 除了做练习以外，我还上网看中文新闻。 |
+| l0611-w2 | nói về chỗ duy nhất còn thiếu sót | 除了 A（以外），B、C…… 都…… | 除了；句子 | Dùng đủ hai từ để nói trừ một câu ra, những chỗ còn lại đều không có vấn đề gì. | 除了这个句子以外，其他都没什么问题。 |
+| l0611-w3 | khen mức độ rất cao | Tính từ／động từ tâm lý + 极了 | 极了；满意 | Dùng đủ hai từ để nói em trai bạn có áo mới mà không mất tiền nên hài lòng vô cùng. | 不用花钱就有新衣服穿，我弟弟满意极了。 |
 
 ### l0911 · 09/11/2026
 

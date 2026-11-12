@@ -1258,3 +1258,58 @@ Tài liệu gốc: `115898_20260626_161236_gjdppivd`, 69 slide, tên tệp `HSK3
 Ảnh minh họa của các bài nói theo tranh (slide 7, 13, 19, 26-28, 31-33, 40) đã được tải từ `data/imgNN.png` của chính bộ slide, thu nhỏ còn tối đa 360px và lưu vào `public/images/l0411/`. Chúng được gắn vào các câu điền từ bằng phần tử thứ tư của mỗi câu trong `practice.cloze`.
 
 Slide 8-12, 14, 22-23, 29, 34-35, 41-42, 46, 51, 56, 61, 63-64, 69 là bài đọc chữ, đọc thuộc lòng, bài nói theo cặp hoặc trò chơi qua sông (hổ – dê – hoa) — không tạo bài riêng trong app.
+
+## 06/11/2026 — slide lớp học ChineseRd (Bài 19 · HSK3 第15课)
+
+Nguồn: `school.chineserd.com` → Lịch sử học → "Bài 19 HSK3(15) 其他都没什么问题" → PPT lên lớp.
+Tài liệu gốc: `115898_20261008_181009_oskhndew`, 64 slide, tên tệp `HSK3(15) 其他都没什么问题.pptx`. Không có bản scan trong `materials/`.
+
+### Âm thanh
+
+| Bài | Tệp | Thời lượng | Ghi chú |
+| --- | --- | --- | --- |
+| 课文1 · 在办公室 | `sound12.mp3` | 33,3 s | Slide 38-42, hội thoại 大山／老师 6 lượt, kèm 4 câu đúng/sai (slide 39). |
+| 课文2 · 在教室 | `sound14.mp3` | 26,1 s | Slide 43-47, hội thoại 学生／老师 5 lượt, kèm 4 câu đúng/sai (slide 44). |
+| 课文3 · 在休息室 | `sound15.mp3` | 24,5 s | Slide 48-52, hội thoại 同事／小刚 6 lượt. Slide 49 chỉ có hai câu hỏi mở; bốn câu đúng/sai trong app dựng từ bài điền khuyết slide 51. |
+| 课文4 · 啤酒节 | `sound16.mp3` | 44,8 s | Slide 53-56, đoạn văn, kèm 3 câu đúng/sai (slide 54). |
+
+Slide 24-25 còn một bài nghe chọn đáp án gồm 6 câu, dùng `sound5`, `sound6`, `sound7`, `sound9`, `sound10`, `sound11` (4-7 s mỗi tệp). **Chưa đưa vào app**: slide không in đáp án và nội dung chỉ có trong tiếng, không có chữ để đối chiếu. Các tệp còn lại (`sound1`-`sound4`, `sound8`, `sound13`) đều dưới 2,1 s — tiếng đúng/sai và tiếng chuyển slide.
+
+### Thứ tự đúng của bài sắp xếp hội thoại
+
+| Bài | Thứ tự trên slide |
+| --- | --- |
+| 课文1 (slide 38) | `6 1 5 2 3 4` |
+| 课文2 (slide 43) | `5 3 1 2 4` |
+| 课文3 (slide 48) | `3 2 6 4 1 5` |
+| 课文4 (slide 53) | `4 1 3 5 2` |
+
+### Từ mới (slide 4-6)
+
+留学 liú xué · 水平 shuǐpíng · 提高 tí gāo · 练习 liànxí · 完成 wán chéng · 小云 Xiǎoyún (tên riêng) · 上网 shàng wǎng · 除了 chúle · 新闻 xīnwén · 节日 jiérì · 举行 jǔxíng · 句子 jùzi · 世界 shìjiè · 街道 jiēdào · 其他 qítā · 发 fā · 要求 yāoqiú · 注意 zhù yì · 花 huā · 极了 jíle · 各 gè · 文化 wénhuà
+
+### Điểm ngữ pháp (slide 14, 26, 28-29)
+
+| Mục | Nội dung |
+| --- | --- |
+| 1.(1) | `除了 A（以外），S + 还／也 + B` ＝ `S + 除了 A（以外），还／也 + B` — một chủ thể, nghĩa cộng thêm. |
+| 1.(2) | `除了 A（以外），B 也……` ＝ `A ＋ B 都……` — hai chủ thể, nghĩa cộng thêm. |
+| 1.(3) | `除了 A（以外），B、C…… 都……` ＝ `B、C 都……，A 没有` — nghĩa ngoại trừ. Dấu hiệu: vế sau dùng 都. |
+| 2. (slide 26) | `什么` phiếm chỉ đặt trước danh từ, làm câu nhẹ giọng và lịch sự hơn, không đổi nghĩa. |
+| 3. (slide 28) | `tính từ／động từ tâm lý + 极了`. Slide 29 tổng kết 8 mức độ: 一点也不 / 有点儿·比较 / 很·非常·特别·十分 / 真 / 太……了 / 最 / ……坏了 / ……极了. |
+
+### Đáp án các bài luyện trên slide
+
+- Slide 15-16: 我们班除了大卫，其他人都去过上海 / 我们昨天除了去书店以外，还去了图书馆 / 我们班除了玛丽以外，马可的汉语水平也很高 / 我们班除了张欢以外，其他人都没有去过那条街道 / 在我们班，除了王方以外，林木也喜欢做练习 / 在中国我除了想学习汉语以外，还想多了解中国文化。
+- Slide 27: 什么问题 · 什么不明白的地方 · 周末你有没有什么打算 · 你知道最近有什么好看的电影吗 · 还有什么不懂的地方吗。
+- Slide 31: 我的小狗可爱极了 / 昨天天气热极了 / 那件黑色的裤子我喜欢极了。
+- Slide 32-35: 极了 · 除了…以外…也 · 什么 · 提高·水平 · 练习 · 其他 · 什么·除了咖啡 · 完成·极了·什么。
+- Slide 60 (ghép chữ): 电影＋节日→电影节 · 春天＋节日→春节 · 文化＋节日→文化节。
+- Slide 61-63: 发 · 练习 · 完成 · 花 · 提高 · 句子 · 世界 · 文化 · 节日 · 新闻 · 注意。
+- Slide 30 không in đáp án (bài mở); app đưa ra một cách nói hợp lệ.
+
+### Ảnh đã tải về
+
+20 ảnh của các bài ghép ảnh–từ (slide 7) và bài nhìn tranh đặt câu với 除了 (slide 17-23) đã tải từ `data/imgNN.png` của bộ slide, thu nhỏ còn tối đa 360px và lưu vào `public/images/l0611/`.
+
+Slide 8-13, 17-23 (phần nói miệng), 36, 42, 47, 52, 57-58, 64 là bài đọc chữ, đọc thuộc lòng, tự giới thiệu hoặc bài nói theo cặp — không tạo bài riêng trong app ngoài phần đã ghi ở trên.

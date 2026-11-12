@@ -4756,6 +4756,165 @@ window.HSK_STRUCTURES = {
       }
     ]
   },
+  "l0611": {
+    "date": "06/11/2026",
+    "topic": "Ba cách dùng 除了, 什么 làm dịu giọng và 极了",
+    "items": [
+      {
+        "id": "l0611-s1",
+        "formula": "1.1 除了 A（以外），S + 还／也 + B ＝ S + 除了 A（以外），还／也 + B",
+        "sense": "Ngoài A ra, (chủ ngữ) còn B nữa",
+        "usage": "Dạng CỘNG THÊM với MỘT chủ thể: cùng một người vừa làm A vừa làm B\nnghĩa tương đương S 同时 A ＋ B\n以外 có thể lược, 还 và 也 dùng thay nhau được.",
+        "examples": [
+          "除了唱歌以外，小丽还喜欢跳舞。",
+          "我们昨天除了去书店以外，还去了图书馆。",
+          "在中国我除了想学习汉语以外，还想多了解中国文化。"
+        ],
+        "meanings": [
+          "Ngoài hát ra, Tiểu Lệ còn thích nhảy nữa.",
+          "Hôm qua ngoài đi hiệu sách, chúng tôi còn đi thư viện.",
+          "Ở Trung Quốc ngoài học tiếng Hán, tôi còn muốn tìm hiểu thêm văn hóa Trung Quốc."
+        ]
+      },
+      {
+        "id": "l0611-s2",
+        "formula": "1.2 除了 A（以外），B 也…… ＝ A ＋ B 都……",
+        "sense": "Ngoài A ra, B cũng …",
+        "usage": "Dạng CỘNG THÊM với HAI chủ thể khác nhau: A thế nào thì B cũng thế\ndùng khi muốn nhấn mạnh rằng cả hai đều như vậy.",
+        "examples": [
+          "除了大卫以外，玛丽也没有去北京。",
+          "我们班除了玛丽以外，马可的汉语水平也很高。",
+          "在我们班，除了王方以外，林木也喜欢做练习。"
+        ],
+        "meanings": [
+          "Ngoài David ra, Mary cũng không đi Bắc Kinh.",
+          "Lớp tôi ngoài Mary ra, trình độ tiếng Hán của Marco cũng rất cao.",
+          "Ở lớp tôi, ngoài Vương Phương ra, Lâm Mộc cũng thích làm bài luyện."
+        ]
+      },
+      {
+        "id": "l0611-s3",
+        "formula": "1.3 除了 A（以外），B、C…… 都…… ＝ B、C 都……，A 没有",
+        "sense": "Trừ A ra, còn lại đều …",
+        "usage": "Dạng NGOẠI TRỪ: A là trường hợp duy nhất KHÁC với phần còn lại\ndấu hiệu nhận biết là chữ 都 ở vế sau, còn hai dạng trên dùng 还／也.",
+        "examples": [
+          "除了跑步以外，其他运动我都喜欢。",
+          "我们班除了大卫，其他人都去过上海。",
+          "除了这个句子意思有些不清楚外，其他都没什么问题。"
+        ],
+        "meanings": [
+          "Trừ chạy bộ ra, môn thể thao nào tôi cũng thích.",
+          "Lớp tôi trừ David ra, những người khác đều từng đi Thượng Hải.",
+          "Trừ câu này nghĩa hơi khó hiểu ra, những chỗ còn lại không có vấn đề gì."
+        ],
+        "table": {
+          "columns": [
+            "Dạng",
+            "Vế sau dùng",
+            "Nghĩa"
+          ],
+          "rows": [
+            [
+              "1.1 một chủ thể",
+              "还／也",
+              "Ngoài A còn B"
+            ],
+            [
+              "1.2 hai chủ thể",
+              "也",
+              "A thế nào, B cũng thế"
+            ],
+            [
+              "1.3 ngoại trừ",
+              "都",
+              "Trừ A ra, còn lại đều thế"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0611-s4",
+        "formula": "2. 什么 (đặt trước danh từ)",
+        "sense": "Gì đó, có gì (làm câu nhẹ giọng hơn)",
+        "usage": "什么 ở đây KHÔNG phải để hỏi mà là phiếm chỉ, khiến câu nghe mềm và lịch sự hơn\nthêm vào hay bỏ đi nghĩa vẫn vậy, chỉ khác sắc thái.",
+        "examples": [
+          "这个饭馆有没有什么特别好吃的菜？",
+          "你写得很好，没什么问题。",
+          "以后有什么不明白的地方，你可以给我打电话。"
+        ],
+        "meanings": [
+          "Quán này có món nào đặc biệt ngon không?",
+          "Bạn viết rất tốt, không có vấn đề gì.",
+          "Sau này có chỗ nào chưa hiểu, bạn có thể gọi điện cho tôi."
+        ]
+      },
+      {
+        "id": "l0611-s5",
+        "formula": "3. Tính từ／động từ tâm lý + 极了",
+        "sense": "… cực kỳ, … vô cùng",
+        "usage": "极了 đứng SAU tính từ, không cần thêm 很 hay 太\nmức độ mạnh hơn 非常, thường dùng khi cảm thán\nđi với tính từ hoặc động từ chỉ cảm nhận như 喜欢、满意、冷、热、可爱.",
+        "examples": [
+          "这个颜色我喜欢极了。",
+          "今天天气冷极了。",
+          "不用花钱，还有新衣服穿，他满意极了。"
+        ],
+        "meanings": [
+          "Màu này tôi thích cực kỳ.",
+          "Hôm nay trời lạnh vô cùng.",
+          "Không mất tiền mà lại có áo mới mặc, cậu ấy hài lòng vô cùng."
+        ],
+        "table": {
+          "columns": [
+            "Mức độ",
+            "Công thức",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "Phủ định hoàn toàn",
+              "一点也不 + adj",
+              "我的汉语水平提高得一点也不快。"
+            ],
+            [
+              "Hơi",
+              "有点儿／比较 + adj",
+              "那件衣服我穿着有点儿小。"
+            ],
+            [
+              "Rất",
+              "很／非常／特别／十分 + adj",
+              "这儿的服务非常好。"
+            ],
+            [
+              "Thật là",
+              "真 + adj",
+              "现在用电脑上网真方便啊！"
+            ],
+            [
+              "Quá",
+              "太 + adj + 了",
+              "五个？太多了！"
+            ],
+            [
+              "Nhất",
+              "最 + adj",
+              "这儿的鱼做得最好。"
+            ],
+            [
+              "Quá chừng (cảm nhận)",
+              "adj + 坏了",
+              "他这几天忙坏了。"
+            ],
+            [
+              "Cực kỳ",
+              "adj + 极了",
+              "我的小狗可爱极了。"
+            ]
+          ]
+        }
+      }
+    ]
+  },
   "l0911": {
     "date": "09/11/2026",
     "topic": "如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的",

@@ -13848,6 +13848,1159 @@ window.HSK_CONTENT = {
       }
     },
     {
+      "id": "l0611",
+      "date": "06/11/2026",
+      "shortDate": "06/11",
+      "title": "Ba cách dùng 除了, 什么 làm dịu giọng và 极了",
+      "focus": "除了 A（以外）还／也 B / 除了 A（以外）B 也…… / 除了 A（以外）其他都…… / 什么 phiếm chỉ / tính từ + 极了 và bảng tổng kết mức độ",
+      "pages": "slide 1-64",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在办公室 — nhờ cô giáo xem bài tập",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261008_181009_oskhndew/data/sound12.mp3",
+          "note": "Slide 38-42. Thứ tự đúng trên slide: 6 1 5 2 3 4. Bốn câu đúng/sai ở slide 39.",
+          "dialogueLines": [
+            "大山：老师，我来中国留学两年了，但是我的汉语水平提高得一点也不快啊。",
+            "老师：你每天认真学习，做练习，完成作业，一直不错啊。",
+            "大山：这是我昨天的作业，您帮我看看对不对。",
+            "老师：写得不错，除了这个句子意思有些不清楚外，其他都没什么问题。",
+            "大山：谢谢老师！",
+            "老师：以后有什么不明白的地方，可以给我打电话或者发电子邮件。"
+          ],
+          "trueFalse": [
+            [
+              "男的觉得自己的汉语水平提高得有点儿慢。",
+              true,
+              "大山 nói “提高得一点也不快”."
+            ],
+            [
+              "老师觉得男的天天都认真学习，很不错。",
+              true,
+              "Cô giáo nói “你每天认真学习……一直不错啊”."
+            ],
+            [
+              "男的昨天的作业，除了两个句子的意思写得不清楚外，其他都没问题。",
+              false,
+              "Cô giáo chỉ nói MỘT câu chưa rõ nghĩa, không phải hai câu."
+            ],
+            [
+              "以后男的可以打电话告诉老师自己不懂的地方。",
+              true,
+              "Cô giáo nói “可以给我打电话或者发电子邮件”."
+            ]
+          ]
+        },
+        {
+          "title": "课文2 · 在教室 — trước giờ thi đấu",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261008_181009_oskhndew/data/sound14.mp3",
+          "note": "Slide 43-47. Thứ tự đúng trên slide: 5 3 1 2 4. Bốn câu đúng/sai ở slide 44.",
+          "dialogueLines": [
+            "学生：老师，除了小云，其他人都来了。",
+            "老师：比赛马上就要开始了，小云怎么还没来？",
+            "学生：刚才给她打电话了，她在路上呢。",
+            "老师：不等她了，我先给大家讲讲这次比赛的要求和一些需要注意的地方。",
+            "学生：老师，您放心，今天的比赛我们一定能拿第一。"
+          ],
+          "trueFalse": [
+            [
+              "只有小云没来。",
+              true,
+              "学生 nói “除了小云，其他人都来了”."
+            ],
+            [
+              "小云现在可能还在来的路上。",
+              true,
+              "学生 nói “她在路上呢”."
+            ],
+            [
+              "一会儿有比赛。",
+              true,
+              "老师 nói “比赛马上就要开始了”."
+            ],
+            [
+              "学生们拿了比赛的第一名。",
+              false,
+              "Cuộc thi chưa diễn ra; học sinh mới chỉ hứa “一定能拿第一”."
+            ]
+          ]
+        },
+        {
+          "title": "课文3 · 在休息室 — mua đồ trên mạng",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261008_181009_oskhndew/data/sound15.mp3",
+          "note": "Slide 48-52. Thứ tự đúng trên slide: 3 2 6 4 1 5. Slide 49 là hai câu hỏi mở nên bài đúng/sai dưới đây dựa theo bài điền khuyết slide 51.",
+          "dialogueLines": [
+            "同事：现在用电脑上网真方便啊！",
+            "小刚：是啊，除了看新闻，人们还可以在网上听歌、看电影、买东西。",
+            "同事：对了，你从网上买的那件衣服呢？怎么没见你穿？",
+            "小刚：那件衣服我穿着有点小，给我弟弟了。",
+            "同事：他满意吗？",
+            "小刚：不用花钱，还有新衣服穿，他满意极了。"
+          ],
+          "trueFalse": [
+            [
+              "人们上网除了看新闻，还可以听歌、看电影、买东西。",
+              true,
+              "小刚 kể đúng bốn việc đó."
+            ],
+            [
+              "小刚自己一直在穿那件网上买的衣服。",
+              false,
+              "小刚 nói áo hơi nhỏ nên đã cho em trai."
+            ],
+            [
+              "小刚的弟弟不用花钱就有新衣服穿。",
+              true,
+              "小刚 nói “不用花钱，还有新衣服穿”."
+            ],
+            [
+              "小刚的弟弟对这件衣服很满意。",
+              true,
+              "小刚 nói “他满意极了”."
+            ]
+          ]
+        },
+        {
+          "title": "课文4 · 啤酒节 — lễ hội bia",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261008_181009_oskhndew/data/sound16.mp3",
+          "note": "Slide 53-56. Thứ tự đúng trên slide: 4 1 3 5 2. Ba câu đúng/sai ở slide 54.",
+          "dialogueLines": [
+            "除了春节、中秋节以外，啤酒节也是这里很重要的一个节日。",
+            "这个地方每年夏天都要举行一次啤酒节。",
+            "在啤酒节上，你可以喝到世界上不同地方的啤酒。",
+            "除了喝啤酒，你还可以在街道两边看到世界上不同地方的歌舞。",
+            "你想不想了解世界各个地方的啤酒文化？来这里的啤酒节看看吧。"
+          ],
+          "trueFalse": [
+            [
+              "这个地方的中秋节没有啤酒节重要。",
+              false,
+              "Đoạn văn xếp 啤酒节 ngang hàng với 春节、中秋节, không nói lễ nào kém quan trọng hơn."
+            ],
+            [
+              "啤酒节一年举行一次。",
+              true,
+              "Đoạn văn nói “每年夏天都要举行一次啤酒节”."
+            ],
+            [
+              "在啤酒节上，你可以了解世界各个地方的啤酒文化。",
+              true,
+              "Câu cuối mời người đọc tới để “了解世界各个地方的啤酒文化”."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Bài 19 trên lớp, tương ứng HSK 标准教程 3 第15课 《其他都没什么问题》. Nguồn là bộ slide 64 trang của lớp ChineseRd.",
+        "除了 có ba cách dùng rất dễ nhầm. Mẹo phân biệt nhanh: nhìn vào VẾ SAU. Vế sau có 还／也 là nghĩa CỘNG THÊM (besides), vế sau có 都 là nghĩa NGOẠI TRỪ (except).",
+        "Dạng 1.1 除了 A（以外），S 还／也 B dùng cho MỘT chủ thể làm cả hai việc; có thể đảo thành S 除了 A（以外），还／也 B.",
+        "Dạng 1.2 除了 A（以外），B 也…… dùng cho HAI chủ thể: A thế nào thì B cũng thế, bằng với câu A ＋ B 都…….",
+        "Dạng 1.3 除了 A（以外），其他…… 都…… nghĩa là A là trường hợp duy nhất khác với phần còn lại, bằng với câu B、C 都……，A 没有.",
+        "以外 trong cả ba dạng đều có thể lược bỏ. Trong 课文1 cô giáo nói 除了这个句子意思有些不清楚外, chữ 外 chính là 以外 rút gọn.",
+        "什么 trong bài này KHÔNG phải để hỏi mà là phiếm chỉ, làm câu nghe mềm và lịch sự hơn: 有没有什么好吃的菜？ nhẹ giọng hơn 有没有好吃的菜？; 没什么问题 nhẹ hơn 没问题.",
+        "极了 đứng SAU tính từ hoặc động từ tâm lý, không cần thêm 很 hay 太: 可爱极了、冷极了、满意极了. Khác với 太……了 (kẹp hai bên) và 坏了 (chỉ dùng với từ chỉ cảm nhận).",
+        "Bài còn ôn cách ghép chữ với 节日: 电影＋节日→电影节, 春天＋节日→春节, 文化＋节日→文化节."
+      ],
+      "vocab": [
+        [
+          "留学",
+          "liú xué",
+          "du học (Hán-Việt: Lưu Học)"
+        ],
+        [
+          "水平",
+          "shuǐpíng",
+          "trình độ (Hán-Việt: Thủy Bình)"
+        ],
+        [
+          "提高",
+          "tí gāo",
+          "nâng cao (Hán-Việt: Đề Cao)"
+        ],
+        [
+          "练习",
+          "liànxí",
+          "bài luyện tập; luyện tập (Hán-Việt: Luyện Tập)"
+        ],
+        [
+          "完成",
+          "wán chéng",
+          "hoàn thành (Hán-Việt: Hoàn Thành)"
+        ],
+        [
+          "上网",
+          "shàng wǎng",
+          "lên mạng (Hán-Việt: Thượng Võng)"
+        ],
+        [
+          "除了",
+          "chúle",
+          "ngoài … ra; trừ … ra (Hán-Việt: Trừ Liễu)"
+        ],
+        [
+          "新闻",
+          "xīnwén",
+          "tin tức (Hán-Việt: Tân Văn)"
+        ],
+        [
+          "节日",
+          "jiérì",
+          "ngày lễ, lễ hội (Hán-Việt: Tiết Nhật)"
+        ],
+        [
+          "举行",
+          "jǔxíng",
+          "tổ chức (Hán-Việt: Cử Hành)"
+        ],
+        [
+          "句子",
+          "jùzi",
+          "câu (Hán-Việt: Cú Tử)"
+        ],
+        [
+          "世界",
+          "shìjiè",
+          "thế giới (Hán-Việt: Thế Giới)"
+        ],
+        [
+          "街道",
+          "jiēdào",
+          "đường phố (Hán-Việt: Nhai Đạo)"
+        ],
+        [
+          "其他",
+          "qítā",
+          "những cái khác, phần còn lại (Hán-Việt: Kỳ Tha)"
+        ],
+        [
+          "发",
+          "fā",
+          "gửi (Hán-Việt: Phát)"
+        ],
+        [
+          "要求",
+          "yāoqiú",
+          "yêu cầu (Hán-Việt: Yêu Cầu)"
+        ],
+        [
+          "注意",
+          "zhù yì",
+          "chú ý (Hán-Việt: Chú Ý)"
+        ],
+        [
+          "花",
+          "huā",
+          "tiêu (tiền), mất (thời gian) (Hán-Việt: Hoa)"
+        ],
+        [
+          "极了",
+          "jíle",
+          "cực kỳ, vô cùng (Hán-Việt: Cực Liễu)"
+        ],
+        [
+          "各",
+          "gè",
+          "mỗi, các (Hán-Việt: Các)"
+        ],
+        [
+          "文化",
+          "wénhuà",
+          "văn hóa (Hán-Việt: Văn Hóa)"
+        ]
+      ],
+      "patterns": [
+        [
+          "1.1 除了 A（以外），S + 还／也 + B ＝ S + 除了 A（以外），还／也 + B",
+          "Ngoài A ra, (chủ ngữ) còn B nữa\nDạng CỘNG THÊM với MỘT chủ thể: cùng một người vừa làm A vừa làm B.\n以外 có thể lược; 还 và 也 dùng thay nhau được."
+        ],
+        [
+          "1.2 除了 A（以外），B 也…… ＝ A ＋ B 都……",
+          "Ngoài A ra, B cũng …\nDạng CỘNG THÊM với HAI chủ thể khác nhau: A thế nào thì B cũng thế.\nDùng khi muốn nhấn mạnh rằng cả hai đều như vậy."
+        ],
+        [
+          "1.3 除了 A（以外），B、C…… 都…… ＝ B、C 都……，A 没有",
+          "Trừ A ra, còn lại đều …\nDạng NGOẠI TRỪ: A là trường hợp duy nhất khác với phần còn lại.\nDấu hiệu nhận biết là chữ 都 ở vế sau, còn hai dạng trên dùng 还／也."
+        ],
+        [
+          "2. 什么 (đặt trước danh từ)",
+          "Gì đó, có gì (làm câu nhẹ giọng hơn)\n什么 ở đây không phải để hỏi mà là phiếm chỉ.\nThêm vào hay bỏ đi nghĩa vẫn vậy, chỉ khác sắc thái lịch sự."
+        ],
+        [
+          "3. Tính từ／động từ tâm lý + 极了",
+          "… cực kỳ, … vô cùng\n极了 đứng SAU tính từ, không cần thêm 很 hay 太.\nĐi với từ chỉ cảm nhận như 喜欢、满意、冷、热、可爱."
+        ]
+      ],
+      "examples": [
+        [
+          "除了唱歌以外，小丽还喜欢跳舞。",
+          "Ngoài hát ra, Tiểu Lệ còn thích nhảy nữa."
+        ],
+        [
+          "我们昨天除了去书店以外，还去了图书馆。",
+          "Hôm qua ngoài đi hiệu sách, chúng tôi còn đi thư viện."
+        ],
+        [
+          "在中国我除了想学习汉语以外，还想多了解中国文化。",
+          "Ở Trung Quốc ngoài học tiếng Hán, tôi còn muốn tìm hiểu thêm văn hóa Trung Quốc."
+        ],
+        [
+          "除了做练习以外，我还上网看中文新闻。",
+          "Ngoài làm bài luyện, tôi còn lên mạng xem tin tức tiếng Trung."
+        ],
+        [
+          "除了看新闻，人们还可以在网上听歌、看电影、买东西。",
+          "Ngoài xem tin tức, người ta còn có thể nghe nhạc, xem phim, mua đồ trên mạng."
+        ],
+        [
+          "除了喝啤酒，你还可以在街道两边看到世界上不同地方的歌舞。",
+          "Ngoài uống bia, bạn còn có thể xem ca múa của nhiều nơi trên thế giới ở hai bên đường phố."
+        ],
+        [
+          "今天除了刮风以外，还下雨了。",
+          "Hôm nay ngoài nổi gió ra, trời còn mưa nữa."
+        ],
+        [
+          "除了大卫以外，玛丽也没有去北京。",
+          "Ngoài David ra, Mary cũng không đi Bắc Kinh."
+        ],
+        [
+          "我们班除了玛丽以外，马可的汉语水平也很高。",
+          "Lớp tôi ngoài Mary ra, trình độ tiếng Hán của Marco cũng rất cao."
+        ],
+        [
+          "在我们班，除了王方以外，林木也喜欢做练习。",
+          "Ở lớp tôi, ngoài Vương Phương ra, Lâm Mộc cũng thích làm bài luyện."
+        ],
+        [
+          "除了小美以外，小丽也会唱歌。",
+          "Ngoài Tiểu Mỹ ra, Tiểu Lệ cũng biết hát."
+        ],
+        [
+          "除了春节、中秋节以外，啤酒节也是这里很重要的一个节日。",
+          "Ngoài Tết và Trung thu ra, lễ hội bia cũng là một ngày lễ rất quan trọng ở đây."
+        ],
+        [
+          "除了跑步以外，其他运动我都喜欢。",
+          "Trừ chạy bộ ra, môn thể thao nào tôi cũng thích."
+        ],
+        [
+          "我们班除了大卫，其他人都去过上海。",
+          "Lớp tôi trừ David ra, những người khác đều từng đi Thượng Hải."
+        ],
+        [
+          "除了这个句子意思有些不清楚外，其他都没什么问题。",
+          "Trừ câu này nghĩa hơi khó hiểu ra, những chỗ còn lại không có vấn đề gì."
+        ],
+        [
+          "老师，除了小云，其他人都来了。",
+          "Thưa cô, trừ Tiểu Vân ra, những người khác đều đã tới."
+        ],
+        [
+          "我们班除了张欢以外，其他人都没有去过那条街道。",
+          "Lớp tôi trừ Trương Hoan ra, những người khác đều chưa từng đi con phố đó."
+        ],
+        [
+          "除了爸爸以外，其他人都生病了。",
+          "Trừ bố ra, những người khác đều ốm."
+        ],
+        [
+          "这个饭馆有没有什么特别好吃的菜？",
+          "Quán này có món nào đặc biệt ngon không?"
+        ],
+        [
+          "你写得很好，没什么问题。",
+          "Bạn viết rất tốt, không có vấn đề gì."
+        ],
+        [
+          "以后有什么不明白的地方，你可以给我打电话。",
+          "Sau này có chỗ nào chưa hiểu, bạn có thể gọi điện cho tôi."
+        ],
+        [
+          "周末你有没有什么打算？",
+          "Cuối tuần bạn có dự định gì không?"
+        ],
+        [
+          "你知道最近有什么好看的电影吗？",
+          "Bạn biết gần đây có phim nào hay không?"
+        ],
+        [
+          "还有什么不懂的地方吗？",
+          "Còn chỗ nào chưa hiểu nữa không?"
+        ],
+        [
+          "这个颜色我喜欢极了。",
+          "Màu này tôi thích cực kỳ."
+        ],
+        [
+          "今天天气冷极了。",
+          "Hôm nay trời lạnh vô cùng."
+        ],
+        [
+          "不用花钱，还有新衣服穿，他满意极了。",
+          "Không mất tiền mà lại có áo mới mặc, cậu ấy hài lòng vô cùng."
+        ],
+        [
+          "我的小狗可爱极了。",
+          "Chó con của tôi dễ thương cực kỳ."
+        ],
+        [
+          "昨天天气热极了。",
+          "Hôm qua trời nóng cực kỳ."
+        ],
+        [
+          "那件黑色的裤子我喜欢极了。",
+          "Chiếc quần đen đó tôi thích cực kỳ."
+        ],
+        [
+          "她唱歌好听极了，大家都爱听。",
+          "Cô ấy hát hay cực kỳ, ai cũng thích nghe."
+        ],
+        [
+          "我来中国留学两年了，但是我的汉语水平提高得一点也不快。",
+          "Tôi sang Trung Quốc du học hai năm rồi, nhưng trình độ tiếng Hán của tôi tiến bộ chẳng nhanh chút nào."
+        ],
+        [
+          "你每天认真学习，做练习，完成作业，一直不错啊。",
+          "Em ngày nào cũng học nghiêm túc, làm bài luyện, hoàn thành bài tập, vẫn luôn tốt mà."
+        ],
+        [
+          "以后有什么不明白的地方，可以给我打电话或者发电子邮件。",
+          "Sau này có chỗ nào chưa hiểu, em có thể gọi điện hoặc gửi thư điện tử cho cô."
+        ],
+        [
+          "我先给大家讲讲这次比赛的要求和一些需要注意的地方。",
+          "Tôi nói trước cho mọi người về yêu cầu của cuộc thi lần này và vài chỗ cần chú ý."
+        ],
+        [
+          "现在用电脑上网真方便啊！",
+          "Bây giờ dùng máy tính lên mạng tiện thật đấy!"
+        ],
+        [
+          "这个地方每年夏天都要举行一次啤酒节。",
+          "Nơi này mỗi năm vào mùa hè đều tổ chức một lần lễ hội bia."
+        ],
+        [
+          "你想不想了解世界各个地方的啤酒文化？",
+          "Bạn có muốn tìm hiểu văn hóa bia của các nơi trên thế giới không?"
+        ],
+        [
+          "王经理，电子邮件我已经给您发过去了。",
+          "Giám đốc Vương, thư điện tử tôi đã gửi cho anh rồi."
+        ],
+        [
+          "这个月我的钱都花完了，不能再买新衣服了。",
+          "Tháng này tiền của tôi tiêu hết rồi, không mua thêm áo mới được nữa."
+        ],
+        [
+          "今天听写五个句子，请大家准备好笔和纸。",
+          "Hôm nay nghe viết năm câu, mời mọi người chuẩn bị bút và giấy."
+        ],
+        [
+          "我在这里只学了三个月汉语，但是水平提高了不少。",
+          "Tôi mới học tiếng Hán ở đây ba tháng, nhưng trình độ đã tiến bộ không ít."
+        ]
+      ],
+      "drills": [
+        [
+          "Đổi 小丽喜欢唱歌、跳舞 thành câu có 除了……以外，还……",
+          "除了唱歌以外，小丽还喜欢跳舞。"
+        ],
+        [
+          "Đổi 我们昨天去了书店，还去了图书馆 thành câu có 除了……以外",
+          "我们昨天除了去书店以外，还去了图书馆。"
+        ],
+        [
+          "Đổi 大卫和玛丽都没有去北京 thành câu có 除了……以外，……也……",
+          "除了大卫以外，玛丽也没有去北京。"
+        ],
+        [
+          "Đổi 玛丽的汉语水平很高，马可的汉语水平也很高 thành câu có 除了……以外",
+          "我们班除了玛丽以外，马可的汉语水平也很高。"
+        ],
+        [
+          "Đổi 我不喜欢跑步，其他运动我都喜欢 thành câu có 除了……以外",
+          "除了跑步以外，其他运动我都喜欢。"
+        ],
+        [
+          "Đổi 我们班只有大卫没去过上海 thành câu có 除了……，其他……都……",
+          "我们班除了大卫，其他人都去过上海。"
+        ],
+        [
+          "Đổi 我们班只有张欢去过那条街道 thành câu có 除了……以外",
+          "我们班除了张欢以外，其他人都没有去过那条街道。"
+        ],
+        [
+          "Thêm 什么 cho nhẹ giọng: 这个饭馆有没有特别好吃的菜？",
+          "这个饭馆有没有什么特别好吃的菜？"
+        ],
+        [
+          "Thêm 什么 cho nhẹ giọng: 你写得很好，没问题。",
+          "你写得很好，没什么问题。"
+        ],
+        [
+          "Dùng 极了 nói hôm nay trời lạnh vô cùng.",
+          "今天天气冷极了。"
+        ],
+        [
+          "Dùng 极了 nói em trai bạn hài lòng vô cùng vì không mất tiền mà có áo mới.",
+          "不用花钱，还有新衣服穿，他满意极了。"
+        ],
+        [
+          "Dùng 极了 nói chó con của bạn dễ thương cực kỳ.",
+          "我的小狗可爱极了。"
+        ]
+      ],
+      "quiz": [
+        [
+          "Vế sau câu 除了 có chữ 都 thì câu đó mang nghĩa gì?",
+          [
+            "ngoại trừ (trừ A ra, còn lại đều thế)",
+            "cộng thêm (ngoài A còn B)",
+            "so sánh hai bên",
+            "phủ định toàn bộ"
+          ],
+          0,
+          "Vế sau có 都 là nghĩa ngoại trừ, có 还／也 là nghĩa cộng thêm (slide 14)."
+        ],
+        [
+          "Câu 除了小云，其他人都来了。 nghĩa là gì?",
+          [
+            "Chỉ mình Tiểu Vân chưa tới.",
+            "Chỉ mình Tiểu Vân đã tới.",
+            "Mọi người đều chưa tới.",
+            "Mọi người kể cả Tiểu Vân đều đã tới."
+          ],
+          0,
+          "课文2 (slide 45): chỉ Tiểu Vân vắng mặt."
+        ],
+        [
+          "Câu nào dùng 极了 đúng?",
+          [
+            "我的小狗可爱极了。",
+            "我的小狗极了可爱。",
+            "我的小狗很可爱极了。",
+            "我的小狗太可爱极了。"
+          ],
+          0,
+          "极了 đứng sau tính từ và không đi kèm 很 hay 太 (slide 28)."
+        ],
+        [
+          "什么 trong câu 你写得很好，没什么问题。 có tác dụng gì?",
+          [
+            "làm câu nghe nhẹ và lịch sự hơn",
+            "hỏi xem có vấn đề gì",
+            "phủ định mạnh hơn",
+            "nhấn mạnh số lượng"
+          ],
+          0,
+          "什么 ở đây là phiếm chỉ, chỉ đổi sắc thái chứ không đổi nghĩa (slide 26)."
+        ],
+        [
+          "Điền từ: 我来中国____两年了。",
+          [
+            "留学",
+            "举行",
+            "完成",
+            "注意"
+          ],
+          0,
+          "留学 nghĩa là du học (课文1, slide 40)."
+        ],
+        [
+          "Chọn cách nói đúng cho “Ngoài Tiểu Mỹ ra, Tiểu Lệ cũng biết hát”:",
+          [
+            "除了小美以外，小丽也会唱歌。",
+            "除了小美以外，小丽都会唱歌。",
+            "除了小美以外，小丽还会唱歌。",
+            "小美除了小丽以外也会唱歌。"
+          ],
+          0,
+          "Hai chủ thể khác nhau thì vế sau dùng 也 (slide 14, dạng 1.2)."
+        ]
+      ],
+      "practice": {
+        "cloze": [
+          {
+            "title": "练一练 · Nhìn ảnh gọi tên",
+            "description": "Bài ghép ảnh với từ ở slide 7. Nhìn ảnh rồi viết từ mới bằng chữ Hán.",
+            "items": [
+              [
+                "Trong ảnh là gì? ____",
+                [
+                  "节日"
+                ],
+                "节日 jiérì — ngày lễ, lễ hội.",
+                "images/l0611/jie-ri.png"
+              ],
+              [
+                "Trong ảnh là ai? ____",
+                [
+                  "留学生"
+                ],
+                "留学生 liúxuéshēng — lưu học sinh.",
+                "images/l0611/liu-xue-sheng.png"
+              ],
+              [
+                "Trong ảnh là gì? ____",
+                [
+                  "街道"
+                ],
+                "街道 jiēdào — đường phố.",
+                "images/l0611/jie-dao.png"
+              ],
+              [
+                "Trong ảnh là gì? ____",
+                [
+                  "世界"
+                ],
+                "世界 shìjiè — thế giới.",
+                "images/l0611/shi-jie.png"
+              ],
+              [
+                "Người trong ảnh đang làm gì? ____",
+                [
+                  "上网"
+                ],
+                "上网 shàng wǎng — lên mạng.",
+                "images/l0611/shang-wang.png"
+              ],
+              [
+                "Trong ảnh là gì? ____",
+                [
+                  "新闻"
+                ],
+                "新闻 xīnwén — tin tức.",
+                "images/l0611/xin-wen.png"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Nhìn ảnh đặt câu với 除了……（以外），……",
+            "description": "Bài nhìn tranh nói câu ở slide 17-23. Chú ý chọn đúng một trong ba dạng của 除了.",
+            "items": [
+              [
+                "她会什么？____",
+                [
+                  "除了唱歌以外，她还会跳舞",
+                  "除了唱歌，她还会跳舞"
+                ],
+                "Một chủ thể làm hai việc nên vế sau dùng 还 (dạng 1.1).",
+                [
+                  "images/l0611/xiao-mei.png",
+                  "images/l0611/chang-ge.png",
+                  "images/l0611/tiao-wu.png"
+                ]
+              ],
+              [
+                "谁会唱歌？（小美、小丽）____",
+                [
+                  "除了小美以外，小丽也会唱歌",
+                  "除了小美，小丽也会唱歌"
+                ],
+                "Hai chủ thể cùng biết hát nên vế sau dùng 也 (dạng 1.2).",
+                [
+                  "images/l0611/xiao-mei.png",
+                  "images/l0611/xiao-li.png"
+                ]
+              ],
+              [
+                "谁会唱歌？（小美、小丽会，林木不会）____",
+                [
+                  "除了林木以外，其他人都会唱歌",
+                  "除了林木，其他人都会唱歌"
+                ],
+                "Lâm Mộc là trường hợp duy nhất khác nên vế sau dùng 都 (dạng 1.3).",
+                [
+                  "images/l0611/xiao-mei.png",
+                  "images/l0611/xiao-li.png",
+                  "images/l0611/lin-mu.png"
+                ]
+              ],
+              [
+                "今天刮风了吗？下雨了吗？____",
+                [
+                  "今天除了刮风以外，还下雨了",
+                  "今天除了刮风，还下雨了"
+                ],
+                "Một chủ thể (thời tiết hôm nay) có hai hiện tượng nên dùng 还.",
+                "images/l0611/gua-feng-xia-yu.png"
+              ],
+              [
+                "谁在等公共汽车？____",
+                [
+                  "除了大人以外，还有小孩也在等公共汽车",
+                  "除了大人，小孩也在等公共汽车"
+                ],
+                "Hai nhóm người cùng đợi xe nên dùng 也.",
+                "images/l0611/deng-gong-jiao.png"
+              ],
+              [
+                "谁生病了？（妈妈、女儿、儿子、爸爸）____",
+                [
+                  "除了爸爸以外，其他人都生病了",
+                  "除了爸爸，其他人都生病了"
+                ],
+                "Chỉ bố là không ốm nên vế sau dùng 都 (dạng 1.3).",
+                [
+                  "images/l0611/mama-sheng-bing.png",
+                  "images/l0611/nv-er-sheng-bing.png",
+                  "images/l0611/er-zi-sheng-bing.png",
+                  "images/l0611/ba-ba.png"
+                ]
+              ],
+              [
+                "班上有几个女生？____",
+                [
+                  "除了一个女生以外，其他都是男生",
+                  "除了一个女生，其他都是男生"
+                ],
+                "Lớp chỉ có một bạn nữ nên dùng dạng ngoại trừ.",
+                [
+                  "images/l0611/ban-shang.png",
+                  "images/l0611/nv-sheng.png",
+                  "images/l0611/nan-sheng.png"
+                ]
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Viết lại câu bằng 除了……（以外），……",
+            "description": "Bài luyện slide 15-16. Đáp án đã hiện sẵn trên slide.",
+            "items": [
+              [
+                "我们班只有大卫没去过上海。→ ____",
+                [
+                  "我们班除了大卫，其他人都去过上海"
+                ],
+                "Dạng ngoại trừ, vế sau dùng 都."
+              ],
+              [
+                "我们昨天去了书店，还去了图书馆。→ ____",
+                [
+                  "我们昨天除了去书店以外，还去了图书馆"
+                ],
+                "Một chủ thể làm hai việc, vế sau dùng 还."
+              ],
+              [
+                "玛丽的汉语水平很高，马可的汉语水平也很高。→ ____",
+                [
+                  "我们班除了玛丽以外，马可的汉语水平也很高"
+                ],
+                "Hai chủ thể, vế sau dùng 也."
+              ],
+              [
+                "我们班只有张欢去过那条街道。→ ____",
+                [
+                  "我们班除了张欢以外，其他人都没有去过那条街道"
+                ],
+                "Dạng ngoại trừ; chú ý vế sau là phủ định."
+              ],
+              [
+                "在我们班，王方喜欢做练习，林木也喜欢做练习。→ ____",
+                [
+                  "在我们班，除了王方以外，林木也喜欢做练习"
+                ],
+                "Hai chủ thể, vế sau dùng 也."
+              ],
+              [
+                "在中国我想学习汉语，还想多了解中国文化。→ ____",
+                [
+                  "在中国我除了想学习汉语以外，还想多了解中国文化"
+                ],
+                "Một chủ thể, vế sau dùng 还."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Thêm 什么 cho câu nhẹ giọng",
+            "description": "Bài luyện slide 27. Đáp án đã hiện sẵn trên slide.",
+            "items": [
+              [
+                "这个句子你写得很好，没____。",
+                [
+                  "什么问题"
+                ],
+                "没什么问题 nhẹ giọng hơn 没问题."
+              ],
+              [
+                "你有____，都可以来问我。",
+                [
+                  "什么不明白的地方"
+                ],
+                "什么 phiếm chỉ đứng trước cụm danh từ."
+              ],
+              [
+                "A：____？B：周末我跟朋友打算去爬山。",
+                [
+                  "周末你有没有什么打算"
+                ],
+                "Hỏi dự định, thêm 什么 cho lịch sự."
+              ],
+              [
+                "A：____？B：对不起，我很少看电影，不知道哪个好看。",
+                [
+                  "你知道最近有什么好看的电影吗"
+                ],
+                "什么 đứng trước 好看的电影."
+              ],
+              [
+                "A：____？B：没有了，老师，我都懂了。",
+                [
+                  "还有什么不懂的地方吗"
+                ],
+                "Cô giáo hỏi học sinh còn chỗ nào chưa hiểu."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành câu với 极了",
+            "description": "Bài luyện slide 30. Đây là bài mở; đáp án dưới đây là một cách nói hợp lệ.",
+            "items": [
+              [
+                "外边____，我们别出去了，在家里休息吧。",
+                [
+                  "冷极了",
+                  "热极了"
+                ],
+                "Tính từ chỉ cảm nhận + 极了."
+              ],
+              [
+                "我工作了一天，____。",
+                [
+                  "累极了"
+                ],
+                "累极了 nghĩa là mệt vô cùng."
+              ],
+              [
+                "她唱歌____，大家都爱听。",
+                [
+                  "好听极了"
+                ],
+                "好听极了 nghĩa là hay cực kỳ."
+              ],
+              [
+                "今天下午公园里人很少，____。",
+                [
+                  "安静极了"
+                ],
+                "安静极了 nghĩa là yên tĩnh vô cùng."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành hội thoại bằng từ và cấu trúc mới",
+            "description": "Bài luyện slide 32-35. Đáp án đã hiện sẵn trên slide.",
+            "items": [
+              [
+                "A：我们去这家饭馆吧，这儿的服务好____。",
+                [
+                  "极了"
+                ],
+                "Slide 32."
+              ],
+              [
+                "B：我也听说过，____服务好____，菜____很好。",
+                [
+                  "除了",
+                  "以外",
+                  "也"
+                ],
+                "Hai chủ thể (服务 và 菜) nên vế sau dùng 也 (slide 32)."
+              ],
+              [
+                "A：这儿有____好吃的菜？",
+                [
+                  "什么"
+                ],
+                "什么 phiếm chỉ cho nhẹ giọng (slide 32)."
+              ],
+              [
+                "A：我想快点儿____汉语____，应该怎么做呢？",
+                [
+                  "提高",
+                  "水平"
+                ],
+                "提高汉语水平 (slide 33)."
+              ],
+              [
+                "B：你要多听、多说、多做____。",
+                [
+                  "练习"
+                ],
+                "做练习 là làm bài luyện (slide 33)."
+              ],
+              [
+                "A：还有____更容易的吗？",
+                [
+                  "其他"
+                ],
+                "其他 nghĩa là cách khác (slide 33)."
+              ],
+              [
+                "A：有____喝的吗？B：这儿有一些咖啡。A：____，还有其他的吗？",
+                [
+                  "什么",
+                  "除了咖啡"
+                ],
+                "Slide 34."
+              ],
+              [
+                "A：经理，今天的工作我们已经____了。B：好____！明天的工作大家有什么问题吗？A：没____问题。",
+                [
+                  "完成",
+                  "极了",
+                  "什么"
+                ],
+                "Slide 35."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Ghép chữ thành từ mới",
+            "description": "Bài chữ Hán slide 60: lấy một chữ của từ bên trái ghép với 节 của 节日.",
+            "items": [
+              [
+                "电影 —— 节日 → ____",
+                [
+                  "电影节"
+                ],
+                "电影节 nghĩa là liên hoan phim."
+              ],
+              [
+                "春天 —— 节日 → ____",
+                [
+                  "春节"
+                ],
+                "春节 nghĩa là Tết Nguyên đán."
+              ],
+              [
+                "文化 —— 节日 → ____",
+                [
+                  "文化节"
+                ],
+                "文化节 nghĩa là lễ hội văn hóa."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn từ mới điền vào chỗ trống",
+            "description": "Bài tổng ôn từ vựng slide 61-63. Ngân hàng: 花、发、练习、提高、完成、文化、句子、新闻、要求、世界、节日、注意.",
+            "items": [
+              [
+                "王经理，电子邮件我已经给您____过去了。",
+                [
+                  "发"
+                ],
+                "发电子邮件 là gửi thư điện tử."
+              ],
+              [
+                "你每天跟谁____口语？",
+                [
+                  "练习"
+                ],
+                "练习 ở đây là động từ, nghĩa luyện tập."
+              ],
+              [
+                "已经夜里十二点多了，但是今天的作业我还没____。",
+                [
+                  "完成"
+                ],
+                "完成作业 là hoàn thành bài tập."
+              ],
+              [
+                "这个月我的钱都____完了，不能再买新衣服了。",
+                [
+                  "花"
+                ],
+                "花钱 là tiêu tiền."
+              ],
+              [
+                "我在这里只学了三个月汉语，但是水平____了不少。",
+                [
+                  "提高"
+                ],
+                "提高水平 là nâng cao trình độ."
+              ],
+              [
+                "A：今天听写五个____，请大家准备好笔和纸。",
+                [
+                  "句子"
+                ],
+                "句子 là câu."
+              ],
+              [
+                "A：____上有多少个国家？你知道吗？",
+                [
+                  "世界"
+                ],
+                "世界 là thế giới."
+              ],
+              [
+                "A：你为什么想去那个地方旅游？B：我对那儿的____很感兴趣。",
+                [
+                  "文化"
+                ],
+                "文化 là văn hóa."
+              ],
+              [
+                "A：你们国家最重要的____是什么？B：当然是春节！",
+                [
+                  "节日"
+                ],
+                "节日 là ngày lễ."
+              ],
+              [
+                "A：刚才电视上的那则____真有意思！",
+                [
+                  "新闻"
+                ],
+                "新闻 là tin tức."
+              ],
+              [
+                "A：这次比赛有什么需要____的地方吗？",
+                [
+                  "注意"
+                ],
+                "注意 là chú ý."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "练一练 · Sắp xếp câu có 极了",
+            "description": "Bài luyện slide 31, đáp án đã hiện trên slide.",
+            "items": [
+              [
+                [
+                  "我的",
+                  "小狗",
+                  "可爱",
+                  "极了"
+                ],
+                "我的小狗可爱极了。"
+              ],
+              [
+                [
+                  "昨天",
+                  "天气",
+                  "热",
+                  "极了"
+                ],
+                "昨天天气热极了。"
+              ],
+              [
+                [
+                  "那件",
+                  "黑色的",
+                  "裤子",
+                  "我",
+                  "喜欢",
+                  "极了"
+                ],
+                "那件黑色的裤子我喜欢极了。"
+              ]
+            ]
+          },
+          {
+            "title": "Luyện thêm · Sắp xếp câu có 除了 và 什么",
+            "description": "Slide 06/11 không có bài sắp xếp cho hai điểm này; các câu dưới đây lấy từ chính câu mẫu ở slide 14 và 26.",
+            "items": [
+              [
+                [
+                  "除了",
+                  "唱歌",
+                  "以外",
+                  "小丽",
+                  "还",
+                  "喜欢",
+                  "跳舞"
+                ],
+                "除了唱歌以外，小丽还喜欢跳舞。"
+              ],
+              [
+                [
+                  "除了",
+                  "大卫",
+                  "以外",
+                  "玛丽",
+                  "也",
+                  "没有",
+                  "去北京"
+                ],
+                "除了大卫以外，玛丽也没有去北京。"
+              ],
+              [
+                [
+                  "除了",
+                  "跑步",
+                  "以外",
+                  "其他",
+                  "运动",
+                  "我",
+                  "都",
+                  "喜欢"
+                ],
+                "除了跑步以外，其他运动我都喜欢。"
+              ],
+              [
+                [
+                  "以后",
+                  "有",
+                  "什么",
+                  "不明白的地方",
+                  "你",
+                  "可以",
+                  "给我",
+                  "打电话"
+                ],
+                "以后有什么不明白的地方，你可以给我打电话。"
+              ]
+            ]
+          }
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "除了春节、中秋节以外，啤酒节也是这里很重要的一个节日。这个地方每年夏天都要举行一次啤酒节。在啤酒节上，你可以喝到世界上不同地方的啤酒。除了喝啤酒，你还可以在街道两边看到世界上不同地方的歌舞。你想不想了解世界各个地方的啤酒文化？来这里的啤酒节看看吧。",
+          [
+            [
+              "啤酒节多久举行一次？",
+              [
+                "一年一次",
+                "两年一次",
+                "一年两次",
+                "每个月一次"
+              ],
+              0,
+              "Đoạn văn nói “每年夏天都要举行一次啤酒节”。"
+            ],
+            [
+              "“除了春节、中秋节以外，啤酒节也是……” 这里的“除了”是什么意思？",
+              [
+                "cộng thêm: ngoài hai lễ kia ra còn có lễ hội bia",
+                "ngoại trừ: hai lễ kia không quan trọng",
+                "so sánh hai lễ với nhau",
+                "phủ định cả ba ngày lễ"
+              ],
+              0,
+              "Vế sau dùng 也 nên đây là nghĩa cộng thêm (slide 14, dạng 1.2)。"
+            ],
+            [
+              "在街道两边可以看到什么？",
+              [
+                "世界各地的歌舞",
+                "各国的啤酒",
+                "各种新闻",
+                "各国的电影"
+              ],
+              0,
+              "Đoạn văn nói “在街道两边看到世界上不同地方的歌舞”。"
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "id": "l0911",
       "date": "09/11/2026",
       "shortDate": "09/11",

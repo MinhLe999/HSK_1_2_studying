@@ -765,5 +765,36 @@ window.HSK_EXAMPLE_SUPPLEMENTS = {
       "今晚的月亮像盘子一样圆。",
       "今晚的月亮和白色的盘子很像。"
     ]
+  },
+  "l0611": {
+    "additions": [
+      [
+        "这次比赛的要求我已经发到大家的邮箱里了。",
+        "Yêu cầu của cuộc thi lần này tôi đã gửi vào hộp thư của mọi người rồi."
+      ],
+      [
+        "各个国家的节日文化都不一样，我觉得有意思极了。",
+        "Văn hóa lễ hội của mỗi nước đều khác nhau, tôi thấy thú vị cực kỳ."
+      ],
+      [
+        "除了注意身体以外，你还要注意别花太多钱。",
+        "Ngoài giữ sức khỏe ra, bạn còn phải chú ý đừng tiêu quá nhiều tiền."
+      ],
+      [
+        "他每天上网看新闻，汉语水平提高得快极了。",
+        "Anh ấy ngày nào cũng lên mạng xem tin tức, trình độ tiếng Hán tiến bộ nhanh cực kỳ."
+      ],
+      [
+        "学校下个月要举行一次中国文化节，你去不去？",
+        "Tháng sau trường sẽ tổ chức một lễ hội văn hóa Trung Quốc, bạn có đi không?"
+      ]
+    ],
+    "patternEvidence": [
+      "除了唱歌以外，小丽还喜欢跳舞。",
+      "除了大卫以外，玛丽也没有去北京。",
+      "除了跑步以外，其他运动我都喜欢。",
+      "这个饭馆有没有什么特别好吃的菜？",
+      "这个颜色我喜欢极了。"
+    ]
   }
 };
