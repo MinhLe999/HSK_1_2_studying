@@ -1700,5 +1700,39 @@ window.HSK_PRODUCTION = {
       "required": "愿意",
       "sample": "我更愿意在家看电视，可以一边吃一边看。"
     }
+  ],
+  "l0411": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "kể việc lấy đồ trong tủ lạnh",
+      "structure": "S + 把 + O + V + bổ ngữ xu hướng",
+      "prompt": "Dùng 冰箱 nói bố đã lấy quả dưa hấu trong tủ lạnh ra rồi.",
+      "required": "冰箱",
+      "sample": "爸爸把冰箱里的西瓜拿出来了。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "kể lại việc ông đã làm trong buổi chiều",
+      "structure": "先……，然后又……",
+      "prompt": "Dùng 先……然后又…… kể ông đã tập ở công viên một tiếng, rồi lại sang thư viện đọc sách hai tiếng.",
+      "required": "先、然后又",
+      "sample": "爷爷先去公园锻炼了一个小时，然后又去图书馆看了两小时书。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "hỏi về lý do không nghe máy",
+      "structure": "Câu hỏi với 为什么",
+      "prompt": "Câu trả lời là 对不起，我刚洗了个澡，没听见。 Hãy đặt một câu hỏi phù hợp.",
+      "required": "为什么",
+      "sample": "刚才打你的手机，你为什么不接？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "trả lời về vẻ đẹp của một nơi",
+      "structure": "A + 像 + B + 一样",
+      "prompt": "Có người nói 这个地方真美！ Hãy đáp lại bằng một câu dùng 像……一样.",
+      "required": "像",
+      "sample": "是啊，这儿像画儿一样美。"
+    }
   ]
 };

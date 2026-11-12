@@ -4534,6 +4534,228 @@ window.HSK_STRUCTURES = {
       }
     ]
   },
+  "l0411": {
+    "date": "04/11/2026",
+    "topic": "把 + bổ ngữ kết quả／xu hướng, 先……然后…… và 像",
+    "items": [
+      {
+        "id": "l0411-s1",
+        "formula": "1.1 S + 把 + O + V + bổ ngữ kết quả（干净／完／好／清楚……）",
+        "sense": "Làm cho O trở nên … (sạch, xong, tốt…)",
+        "usage": "Dạng này nói chủ ngữ làm cho tân ngữ SINH RA MỘT KẾT QUẢ\ntách ra là hai vế: 我洗衣服 ＋ 衣服干净了 → 我把衣服洗干净了\nbổ ngữ kết quả hay gặp là 干净、完、好、清楚、上.",
+        "examples": [
+          "我把衣服洗干净了。",
+          "妈妈把饭做好了。",
+          "老师把这道题讲清楚了。"
+        ],
+        "meanings": [
+          "Tôi giặt sạch quần áo rồi.",
+          "Mẹ nấu xong cơm rồi.",
+          "Thầy giảng rõ bài này rồi."
+        ],
+        "table": {
+          "columns": [
+            "Hai vế gốc",
+            "Câu chữ 把"
+          ],
+          "rows": [
+            [
+              "我洗衣服 ＋ 衣服干净了",
+              "我把衣服洗干净了。"
+            ],
+            [
+              "妈妈做饭 ＋ 饭做好了",
+              "妈妈把饭做好了。"
+            ],
+            [
+              "儿子开空调 ＋ 空调打开了",
+              "儿子把空调打开了。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0411-s2",
+        "formula": "1.2 S + 把 + O + V + bổ ngữ xu hướng（过来／出来／回去／进去……）",
+        "sense": "Chuyển O tới／ra／về một chỗ khác",
+        "usage": "Dạng này nói chủ ngữ LÀM ĐỔI VỊ TRÍ của tân ngữ\nghép thẳng bổ ngữ xu hướng kép đã học hôm 02/11 vào sau động từ\nchọn 来 hay 去 vẫn theo hướng so với người nói.",
+        "examples": [
+          "你把水果拿过来。",
+          "爸爸把冰箱里的西瓜拿出来了。",
+          "她把我送回去了。"
+        ],
+        "meanings": [
+          "Con mang hoa quả lại đây.",
+          "Bố lấy quả dưa hấu trong tủ lạnh ra rồi.",
+          "Cô ấy đưa tôi về rồi."
+        ],
+        "table": {
+          "columns": [
+            "Hai vế gốc",
+            "Câu chữ 把"
+          ],
+          "rows": [
+            [
+              "他拿水果 ＋ 水果拿过来了",
+              "他把水果拿过来了。"
+            ],
+            [
+              "爸爸拿西瓜 ＋ 西瓜拿出来了",
+              "爸爸把冰箱里的西瓜拿出来了。"
+            ],
+            [
+              "她送我 ＋ 我回去了",
+              "她把我送回去了。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0411-s3",
+        "formula": "1.3 S ＋（没有／不／不要／别／động từ năng nguyện／thời gian）＋ 把 + O + V + thành phần sau",
+        "sense": "Tổng kết câu chữ 把",
+        "usage": "Đây là bảng tổng kết cả bốn dạng 把 đã học\nđiều kiện chung: hành động CÓ THẬT làm tân ngữ biến đổi, và tân ngữ là vật cả người nói lẫn người nghe đều biết\nmọi từ phủ định, động từ năng nguyện và từ chỉ thời gian đều đứng TRƯỚC 把.",
+        "examples": [
+          "他把门关了。",
+          "老师把作业放在桌子上。",
+          "我把鲜花送给老师了。"
+        ],
+        "meanings": [
+          "Anh ấy đóng cửa rồi.",
+          "Thầy đặt bài tập lên bàn.",
+          "Tôi tặng hoa tươi cho cô giáo rồi."
+        ],
+        "table": {
+          "columns": [
+            "Dạng",
+            "Công thức",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "1. Kèm 了",
+              "把 ＋ O ＋ V ＋ 了",
+              "他把门关了。"
+            ],
+            [
+              "2. Chỉ nơi chốn",
+              "把 ＋ O ＋ V ＋ 在／到 ＋ nơi chốn",
+              "老师把作业放在桌子上。"
+            ],
+            [
+              "3. Chỉ người nhận",
+              "把 ＋ O ＋ V ＋ 给 ＋ người",
+              "我把鲜花送给老师了。"
+            ],
+            [
+              "4. Kèm bổ ngữ",
+              "把 ＋ O ＋ V ＋ kết quả／xu hướng",
+              "我把房间打扫干净了。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0411-s4",
+        "formula": "2.1 先……，然后……（最后……）",
+        "sense": "Trước … rồi sau đó … (cuối cùng …)",
+        "usage": "Dùng để kể nhiều việc theo đúng thứ tự thời gian\n先 đứng trước việc làm trước, 然后 trước việc làm sau, 最后 trước việc cuối cùng\ncác vế có thể cùng hoặc khác chủ ngữ.",
+        "examples": [
+          "回家以后，我先做作业，然后吃饭。",
+          "我先送孩子，再把衣服送到洗衣店，然后去上班。",
+          "放学以后，小红先听阿姨讲题，然后听叔叔讲故事，最后自己把房间打扫干净。"
+        ],
+        "meanings": [
+          "Về nhà xong, tôi làm bài trước rồi mới ăn cơm.",
+          "Tôi đưa con đi trước, rồi mang quần áo ra tiệm giặt, sau đó đi làm.",
+          "Tan học, Tiểu Hồng nghe cô giảng bài trước, rồi nghe chú kể chuyện, cuối cùng tự dọn sạch phòng mình."
+        ]
+      },
+      {
+        "id": "l0411-s5",
+        "formula": "2.2 先……，然后再……／然后又……",
+        "sense": "Trước … rồi mới … ／ rồi lại …",
+        "usage": "Khác biệt duy nhất nằm ở 再 và 又: việc CHƯA xảy ra thì dùng 再, việc ĐÃ xảy ra rồi thì dùng 又\nvì vậy 再 hay đi với lời dặn, lời hẹn, còn 又 hay đi với chuyện kể lại.",
+        "examples": [
+          "你先把电视节目看完吧，然后再给我回电话。",
+          "爷爷先去公园锻炼了一个小时，然后又去图书馆看了两小时书。",
+          "先把米饭做好，然后再把一块块新鲜的水果放进去。"
+        ],
+        "meanings": [
+          "Anh xem hết chương trình tivi đã, rồi gọi lại cho em.",
+          "Ông ra công viên tập một tiếng, rồi lại sang thư viện đọc sách hai tiếng.",
+          "Nấu chín cơm trước, rồi mới cho từng miếng hoa quả tươi vào."
+        ],
+        "table": {
+          "columns": [
+            "Việc sau",
+            "Từ dùng",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "Chưa xảy ra (dặn dò, dự định)",
+              "再",
+              "你先把电视节目看完吧，然后再给我回电话。"
+            ],
+            [
+              "Đã xảy ra (kể lại)",
+              "又",
+              "爷爷先去公园锻炼了一个小时，然后又去图书馆看了两小时书。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l0411-s6",
+        "formula": "3.1 A + 像 + B（+ 一样）",
+        "sense": "A giống B",
+        "usage": "Dạng đơn giản nhất, chỉ nói hai bên giống nhau về dáng vẻ hay đặc điểm\ncó thể thêm 一样 ở cuối cho rõ.",
+        "examples": [
+          "我长得像爸爸，我的弟弟长得像妈妈。",
+          "今晚的月亮像白色的盘子一样。",
+          "这个地方真美，像画儿一样。"
+        ],
+        "meanings": [
+          "Tôi giống bố, em trai tôi giống mẹ.",
+          "Trăng tối nay giống hệt một chiếc đĩa trắng.",
+          "Chỗ này đẹp thật, như tranh vậy."
+        ]
+      },
+      {
+        "id": "l0411-s7",
+        "formula": "3.2 A + 像 + B（+ 一样／那样）+ V／adj",
+        "sense": "A … giống như B",
+        "usage": "Thêm một động từ hay tính từ phía sau để nói rõ GIỐNG Ở ĐIỂM NÀO\ndùng 一样 khi so với vật, 那样 khi nêu một tấm gương để noi theo.",
+        "examples": [
+          "今晚的月亮像盘子一样圆。",
+          "你要像姐姐那样认真，也考上一个好学校。",
+          "小方像是没有作业一样经常去玩游戏。"
+        ],
+        "meanings": [
+          "Trăng tối nay tròn như cái đĩa.",
+          "Em phải chăm chỉ như chị, cũng thi đỗ một trường tốt.",
+          "Tiểu Phương cứ như không có bài tập, suốt ngày đi chơi game."
+        ]
+      },
+      {
+        "id": "l0411-s8",
+        "formula": "3.3 A 和 B（+ 的 + N）+ 很／真／不 + 像",
+        "sense": "A và B (rất／thật／không) giống nhau",
+        "usage": "Dạng này đưa cả hai bên lên trước, 像 đứng cuối như một tính từ\nvì vậy mới nhận được 很、真、一点儿也不 ở trước.",
+        "examples": [
+          "今晚的月亮和白色的盘子很像。",
+          "他和他弟弟一点儿也不像，他安静得多。",
+          "小明和小方长得很像，都又高又瘦。"
+        ],
+        "meanings": [
+          "Trăng tối nay với chiếc đĩa trắng rất giống nhau.",
+          "Cậu ấy với em trai chẳng giống nhau tí nào, cậu ấy trầm tính hơn nhiều.",
+          "Tiểu Minh với Tiểu Phương trông rất giống nhau, đều cao và gầy."
+        ]
+      }
+    ]
+  },
   "l0911": {
     "date": "09/11/2026",
     "topic": "如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的",

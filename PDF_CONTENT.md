@@ -1203,3 +1203,58 @@ Nguồn: `HSK3(13) 我是走回来的.pptx` (64 slide), đọc trực tiếp t�
 | 课文4 · đoạn văn | `5 1 4 6 2 3` | Slide 53-56, đoạn độc thoại của người vợ; slide 54 là hai câu hỏi mở, không có đúng/sai. |
 
 Slide 6-11, 17-22, 28-31, 36, 42, 47, 52, 57-58 là trò chơi ghép ảnh, bài nói theo tranh, đọc thuộc lòng hoặc bài nói theo cặp — phần nói theo tranh được ghi lại ở trên để tham khảo nhưng không tạo bài riêng trong app.
+
+## 04/11/2026 — slide lớp học ChineseRd (Bài 18 · HSK3 第14课)
+
+Nguồn: `school.chineserd.com` → Lịch sử học → "Bài 18 HSK3 (14) 你把水果拿过来" → PPT lên lớp.
+Tài liệu gốc: `115898_20260626_161236_gjdppivd`, 69 slide, tên tệp `HSK3 (14) 你把水果拿过来.pptx`. Không có bản scan trong `materials/`.
+
+### Âm thanh (lấy theo thứ tự xuất hiện trong `newppt.html`)
+
+| Bài | Tệp | Thời lượng | Ghi chú |
+| --- | --- | --- | --- |
+| 课文1 · 在家 | `sound4.mp3` | 30,7 s | Slide 43-46, hội thoại 周太太／周明 6 lượt. Slide 43 chỉ có bài sắp xếp; bốn câu đúng/sai trong app lấy từ bài điền khuyết slide 45. |
+| 课文2 · 在打电话 | `sound5.mp3` | 24,1 s | Slide 47-51, hội thoại 同事／小刚 5 lượt, kèm 4 câu đúng/sai (slide 48). |
+| 课文3 · 在小明家 | `sound8.mp3` | 35,9 s | Slide 52-56, hội thoại 同学／小明 5 lượt, kèm 3 câu đúng/sai (slide 53). |
+| 课文4 · 水果饭 | `sound9.mp3` | 41,7 s | Slide 57-60, đoạn độc thoại; slide 58 là hai câu hỏi mở nên không có đúng/sai. |
+
+`sound1`, `sound2`, `sound3`, `sound6`, `sound7` đều dưới 1,4 s — là tiếng đúng/sai và tiếng chuyển slide, không phải bài nghe.
+
+### Thứ tự đúng của bài sắp xếp hội thoại
+
+| Bài | Thứ tự trên slide |
+| --- | --- |
+| 课文1 (slide 43) | `1 6 4 2 5 3` |
+| 课文2 (slide 47) | `2 4 3 1 5` |
+| 课文3 (slide 52) | `3 5 2 1 4` |
+| 课文4 (slide 57) | `3 1 5 2 4` |
+
+### Từ mới (slide 4-6)
+
+打扫 dǎsǎo · 干净 gānjìng · 冰箱 bīngxiāng · 然后 ránhòu · 洗澡 xǐ zǎo · 节目 jiémù · 叔叔 shūshu · 阿姨 āyí · 故事 gùshì · 声音 shēngyīn · 菜单 càidān · 简单 jiǎndān · 香蕉 xiāngjiāo · 月亮 yuèliang · 像 xiàng · 刮风 guā fēng · 盘子 pánzi
+
+### Điểm ngữ pháp (slide 15-17, 25, 30)
+
+| Mục | Nội dung |
+| --- | --- |
+| 1.(1) | `S + 把 + O + V + bổ ngữ kết quả（干净／完／好／清楚）` — chủ ngữ làm tân ngữ sinh ra một kết quả. Slide tách hai vế: 我洗衣服 ＋ 衣服干净了 → 我把衣服洗干净了。 |
+| 1.(2) | `S + 把 + O + V + bổ ngữ xu hướng（过来／出来／回去）` — chủ ngữ làm đổi vị trí của tân ngữ. |
+| 1. tổng kết (slide 17) | Mọi từ phủ định (没有／不／不要／别), động từ năng nguyện và từ chỉ thời gian đứng TRƯỚC 把. Bốn dạng sau động từ: V+了, V+在／到+nơi chốn, V+给+người, V+bổ ngữ. Tân ngữ phải là vật cả hai bên đều biết. |
+| 2. (slide 25) | `先……，然后／（然后）再／（然后）又……（最后……）`. Việc CHƯA xảy ra dùng 再, việc ĐÃ xảy ra dùng 又. |
+| 3. (slide 30) | Ba dạng của 像: `A + 像 + B（+一样）`; `A + 像 + B（+一样／那样）+ V/adj`; `A 和 B（+的+N）+ 很／真／不 + 像`. |
+
+### Đáp án các bài luyện trên slide
+
+- Slide 18: 爸爸把脚洗干净了 / 妹妹把房间打扫干净了 / 叔叔把水果饭吃完了 / 老师把这道题讲清楚了。
+- Slide 21: 把你的房间打扫干净。/ 请你把我的作业拿给我（过来）。/ 请你把门关上，好吗？/ 把早上的报纸拿给我（过来）。
+- Slide 24: 请同学们把铅笔拿出来 / 阿姨已经把晚饭做好了 / 叔叔把这个故事讲清楚了。
+- Slide 36-39: 去图书馆 · 还回去 · 吃完 · 运动 · 洗完 · 先开会 · 送回去 · 买飞机票。
+- Slide 62 (ghép chữ): 名字＋菜单→名单 · 读＋声音→读音 · 买＋菜单→买单。
+- Slide 65: 一双双 · 一个个 · 次次 · 一本本 · 一块块。
+- Slide 66-68: 故事 · 盘子 · 香蕉 · 节目 · 菜单 · 打扫 · 声音 · 简单 · 干净 · 像 · 洗澡。
+
+### Ảnh đã tải về
+
+Ảnh minh họa của các bài nói theo tranh (slide 7, 13, 19, 26-28, 31-33, 40) đã được tải từ `data/imgNN.png` của chính bộ slide, thu nhỏ còn tối đa 360px và lưu vào `public/images/l0411/`. Chúng được gắn vào các câu điền từ bằng phần tử thứ tư của mỗi câu trong `practice.cloze`.
+
+Slide 8-12, 14, 22-23, 29, 34-35, 41-42, 46, 51, 56, 61, 63-64, 69 là bài đọc chữ, đọc thuộc lòng, bài nói theo cặp hoặc trò chơi qua sông (hổ – dê – hoa) — không tạo bài riêng trong app.

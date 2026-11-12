@@ -731,5 +731,39 @@ window.HSK_EXAMPLE_SUPPLEMENTS = {
       "他这几天忙坏了。",
       "小王一边唱歌一边跑步。"
     ]
+  },
+  "l0411": {
+    "additions": [
+      [
+        "阿姨把冰箱里的香蕉拿出来给孩子们吃。",
+        "Cô lấy chuối trong tủ lạnh ra cho bọn trẻ ăn."
+      ],
+      [
+        "叔叔的声音很好听，讲的故事也很简单。",
+        "Giọng chú rất dễ nghe, chuyện chú kể cũng rất dễ hiểu."
+      ],
+      [
+        "今天刮风，我们先把窗户关上，然后再出去。",
+        "Hôm nay có gió, mình đóng cửa sổ lại đã, rồi hãy ra ngoài."
+      ],
+      [
+        "服务员把菜单拿过来了，盘子也已经洗干净了。",
+        "Nhân viên mang thực đơn tới rồi, đĩa cũng đã rửa sạch."
+      ],
+      [
+        "洗完澡以后，我喜欢一边吃香蕉一边看电视节目。",
+        "Tắm xong, tôi thích vừa ăn chuối vừa xem chương trình tivi."
+      ]
+    ],
+    "patternEvidence": [
+      "我把衣服洗干净了。",
+      "你把水果拿过来。",
+      "老师把作业放在桌子上。",
+      "回家以后，我先做作业，然后吃饭。",
+      "你先把电视节目看完吧，然后再给我回电话。",
+      "我长得像爸爸，我的弟弟长得像妈妈。",
+      "今晚的月亮像盘子一样圆。",
+      "今晚的月亮和白色的盘子很像。"
+    ]
   }
 };

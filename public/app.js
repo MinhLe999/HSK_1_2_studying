@@ -105,7 +105,7 @@
   }
 
   function fillQuestion(rawFill, id) {
-    const [prompt, accepted, explanation] = rawFill;
+    const [prompt, accepted, explanation, image] = rawFill;
     const blanks = Array.isArray(accepted[0]) ? accepted : [accepted];
     return {
       id,
@@ -113,12 +113,23 @@
       prompt,
       blanks,
       answer: blanks.map(item => item[0]).join(" / "),
-      explanation
+      explanation,
+      image: image || ""
     };
   }
 
   function clozeQuestion(rawQuestion, id) {
-    return rawQuestion.length === 3 ? fillQuestion(rawQuestion, id) : rotateChoice(rawQuestion, id);
+    // Câu điền từ có giải thích (chuỗi) ở vị trí thứ ba, câu trắc nghiệm có chỉ số đáp án (số).
+    return typeof rawQuestion[2] === "string" ? fillQuestion(rawQuestion, id) : rotateChoice(rawQuestion, id);
+  }
+
+  function questionImage(question) {
+    const sources = Array.isArray(question.image) ? question.image : (question.image ? [question.image] : []);
+    if (!sources.length) return "";
+    const images = sources
+      .map(source => `<img src="${escapeHtml(source)}" alt="Ảnh gợi ý cho câu hỏi" loading="lazy">`)
+      .join("");
+    return `<figure class="question-image">${images}</figure>`;
   }
 
   function orderQuestion(rawOrder, id) {
@@ -1125,6 +1136,7 @@
     return `
       <article class="question ${correct === true ? "correct" : ""} ${correct === false ? "incorrect" : ""}">
         <h4>${number}. Điền từ/cụm từ còn thiếu${question.blanks.length > 1 ? ` (${question.blanks.length} chỗ trống)` : ""}</h4>
+        ${questionImage(question)}
         <p class="fill-sentence" lang="zh-Hans">${inlinePrompt}</p>
         ${checked ? `
           <div class="answer-note">

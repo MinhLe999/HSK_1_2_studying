@@ -12612,6 +12612,1242 @@ window.HSK_CONTENT = {
       }
     },
     {
+      "id": "l0411",
+      "date": "04/11/2026",
+      "shortDate": "04/11",
+      "title": "把 + bổ ngữ kết quả／xu hướng, 先……然后…… và 像",
+      "focus": "把 + V + 干净／完／好／清楚 / 把 + V + 过来／出来／回去 / bảng tổng kết câu chữ 把 / 先……然后（再／又）…… / ba dạng của 像",
+      "pages": "slide 1-69",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在家 — chuẩn bị đón khách",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161236_gjdppivd/data/sound4.mp3",
+          "note": "Slide 43-46. Thứ tự đúng trên slide: 1 6 4 2 5 3. Slide 43 chỉ có bài sắp xếp, không có bài đúng/sai; bốn câu dưới đây lấy từ bài điền khuyết slide 45.",
+          "dialogueLines": [
+            "周太太：客人就要来了，你怎么还不打扫房间啊？",
+            "周明：别着急，我让孩子们打扫呢，客人来的时候，他们会把房间打扫干净。",
+            "周太太：那你也不能看电视啊。",
+            "周明：你让我做什么？",
+            "周太太：先把茶和杯子放好，然后把冰箱里的西瓜拿出来。",
+            "周明：太热了，我还是先把空调打开吧。"
+          ],
+          "trueFalse": [
+            [
+              "客人就要来了，周明还在看电视。",
+              true,
+              "Slide 45 điền “周明还在看电视”."
+            ],
+            [
+              "房间是周明自己打扫的。",
+              false,
+              "周明 nói “我让孩子们打扫呢”."
+            ],
+            [
+              "周太太让周明先把茶和杯子放好。",
+              true,
+              "周太太 nói “先把茶和杯子放好，然后把冰箱里的西瓜拿出来”."
+            ],
+            [
+              "周明打算先把空调打开。",
+              true,
+              "周明 nói “太热了，我还是先把空调打开吧”."
+            ]
+          ]
+        },
+        {
+          "title": "课文2 · 在打电话 — vừa tắm xong nên không nghe máy",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161236_gjdppivd/data/sound5.mp3",
+          "note": "Slide 47-51. Thứ tự đúng trên slide: 2 4 3 1 5. Bốn câu đúng/sai ở slide 48.",
+          "dialogueLines": [
+            "同事：你在忙什么呢？刚才打你的手机你也不接。",
+            "小刚：对不起，我刚洗了个澡，没听见。有什么事吗？",
+            "同事：我想问问你公司里的一些事情。",
+            "小刚：你先等一下，我去把电视关了。",
+            "同事：没关系，你先把电视节目看完吧，然后再给我回电话。"
+          ],
+          "trueFalse": [
+            [
+              "男的刚才没接同事的电话。",
+              true,
+              "同事 nói “刚才打你的手机你也不接”."
+            ],
+            [
+              "女的给男的打电话的时候，男的在洗澡。",
+              true,
+              "小刚 nói “我刚洗了个澡，没听见”."
+            ],
+            [
+              "打完电话后，男的会先把电视关了。",
+              false,
+              "同事 bảo xem hết chương trình rồi gọi lại, nên anh ấy không tắt tivi nữa."
+            ],
+            [
+              "男的现在还不知道女的要问他公司里的一些什么事情。",
+              true,
+              "同事 mới chỉ nói “想问问你公司里的一些事情”, chưa nói việc gì."
+            ]
+          ]
+        },
+        {
+          "title": "课文3 · 在小明家 — ngắm trăng ngoài sân",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161236_gjdppivd/data/sound8.mp3",
+          "note": "Slide 52-56. Thứ tự đúng trên slide: 3 5 2 1 4. Ba câu đúng/sai ở slide 53.",
+          "dialogueLines": [
+            "同学：今晚的月亮真漂亮，像白色的盘子一样。",
+            "小明：是啊，外边也不刮风，我们坐在外边一边看月亮一边吃东西，怎么样？",
+            "同学：好啊，我先把桌椅搬出去，然后你把水果拿过来，我们听叔叔阿姨讲讲他们年轻时候的故事。",
+            "小明：太好了！记得给大山打个电话，让他马上过来。",
+            "同学：不用打了，你听外边的声音，一定是大山。"
+          ],
+          "trueFalse": [
+            [
+              "今晚的月亮和盘子很像。",
+              true,
+              "同学 nói “今晚的月亮真漂亮，像白色的盘子一样”."
+            ],
+            [
+              "他们打算坐在外边，看月亮、吃水果、听故事。",
+              true,
+              "小明 và 同学 bàn đúng ba việc đó."
+            ],
+            [
+              "大山还在离这里很远的路上。",
+              false,
+              "同学 nói nghe tiếng ngoài kia, chắc chắn 大山 đã tới nơi."
+            ]
+          ]
+        },
+        {
+          "title": "课文4 · 水果饭 — cách làm cơm hoa quả",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260626_161236_gjdppivd/data/sound9.mp3",
+          "note": "Slide 57-60. Thứ tự đúng trên slide: 3 1 5 2 4. Đây là đoạn độc thoại; slide 58 chỉ có hai câu hỏi mở nên không có bài đúng/sai.",
+          "dialogueLines": [
+            "你吃过水果饭吗？你在饭馆的菜单上见过水果饭吗？",
+            "你想学着做水果饭吗？",
+            "其实做水果饭很简单，先把米饭做好，然后再把一块块新鲜的水果放进去，水果饭就做好了。",
+            "你可以做苹果饭、香蕉饭，要是你愿意还可以做西瓜饭。",
+            "多吃新鲜水果对身体好。"
+          ],
+          "trueFalse": []
+        }
+      ],
+      "notes": [
+        "Bài 18 trên lớp, tương ứng HSK 标准教程 3 第14课 《你把水果拿过来》. Nguồn là bộ slide 69 trang của lớp ChineseRd.",
+        "Hai dạng 把 mới của bài này đều là 把 + V + BỔ NGỮ. Dạng (1) dùng bổ ngữ kết quả (干净／完／好／清楚): chủ ngữ làm tân ngữ SINH RA MỘT KẾT QUẢ. Dạng (2) dùng bổ ngữ xu hướng (过来／出来／回去／进去): chủ ngữ làm ĐỔI VỊ TRÍ của tân ngữ.",
+        "Mẹo tách hai vế để kiểm tra: 我洗衣服 ＋ 衣服干净了 → 我把衣服洗干净了。 Nếu không tách được thành hai vế như vậy thì câu đó không dùng 把 được.",
+        "Tổng kết cả bốn dạng 把 đã học: V + 了, V + 在／到 + nơi chốn, V + 给 + người, V + bổ ngữ kết quả／xu hướng. Mọi từ phủ định (没有／不／不要／别), động từ năng nguyện và từ chỉ thời gian đều đứng TRƯỚC 把.",
+        "Tân ngữ của câu chữ 把 phải là vật mà cả người nói lẫn người nghe đều biết, không dùng cho vật lần đầu nhắc tới.",
+        "先……，然后……（最后……） kể việc theo thứ tự thời gian. Sau 然后 có thể thêm 再 hoặc 又: việc CHƯA xảy ra dùng 再 (dặn dò, dự định), việc ĐÃ xảy ra rồi dùng 又 (kể lại).",
+        "像 có ba dạng: A 像 B（一样）nói giống nhau chung chung; A 像 B 一样／那样 + V／adj nói rõ giống ở điểm nào; A 和 B 很／真／不像 đưa cả hai bên lên trước, 像 đứng cuối như một tính từ nên nhận được 很、真、一点儿也不.",
+        "Bài còn ôn lượng từ lặp 一个个、一本本、一双双、一块块、次次 với nghĩa “cái nào cũng”, và cách ghép chữ: 名字＋菜单→名单, 读＋声音→读音, 买＋菜单→买单."
+      ],
+      "vocab": [
+        [
+          "打扫",
+          "dǎsǎo",
+          "quét dọn, dọn dẹp (Hán-Việt: Đả Tảo)"
+        ],
+        [
+          "干净",
+          "gānjìng",
+          "sạch sẽ (Hán-Việt: Can Tịnh)"
+        ],
+        [
+          "冰箱",
+          "bīngxiāng",
+          "tủ lạnh (Hán-Việt: Băng Tương)"
+        ],
+        [
+          "然后",
+          "ránhòu",
+          "sau đó, rồi thì (Hán-Việt: Nhiên Hậu)"
+        ],
+        [
+          "洗澡",
+          "xǐ zǎo",
+          "tắm (Hán-Việt: Tẩy Tháo)"
+        ],
+        [
+          "节目",
+          "jiémù",
+          "chương trình (Hán-Việt: Tiết Mục)"
+        ],
+        [
+          "叔叔",
+          "shūshu",
+          "chú (em trai của bố)"
+        ],
+        [
+          "阿姨",
+          "āyí",
+          "cô, dì"
+        ],
+        [
+          "故事",
+          "gùshì",
+          "câu chuyện (Hán-Việt: Cố Sự)"
+        ],
+        [
+          "声音",
+          "shēngyīn",
+          "âm thanh, giọng nói (Hán-Việt: Thanh Âm)"
+        ],
+        [
+          "菜单",
+          "càidān",
+          "thực đơn (Hán-Việt: Thái Đơn)"
+        ],
+        [
+          "简单",
+          "jiǎndān",
+          "đơn giản (Hán-Việt: Giản Đơn)"
+        ],
+        [
+          "香蕉",
+          "xiāngjiāo",
+          "quả chuối (Hán-Việt: Hương Tiêu)"
+        ],
+        [
+          "月亮",
+          "yuèliang",
+          "mặt trăng (Hán-Việt: Nguyệt Lượng)"
+        ],
+        [
+          "像",
+          "xiàng",
+          "giống, như (Hán-Việt: Tượng)"
+        ],
+        [
+          "刮风",
+          "guā fēng",
+          "nổi gió (Hán-Việt: Quát Phong)"
+        ],
+        [
+          "盘子",
+          "pánzi",
+          "cái đĩa (Hán-Việt: Bàn Tử)"
+        ]
+      ],
+      "patterns": [
+        [
+          "1.1 S + 把 + O + V + bổ ngữ kết quả（干净／完／好／清楚……）",
+          "Làm cho O trở nên … (sạch, xong, tốt…)\nChủ ngữ làm cho tân ngữ sinh ra một KẾT QUẢ.\nTách hai vế để kiểm tra: 我洗衣服 ＋ 衣服干净了 → 我把衣服洗干净了。"
+        ],
+        [
+          "1.2 S + 把 + O + V + bổ ngữ xu hướng（过来／出来／回去／进去……）",
+          "Chuyển O tới／ra／về một chỗ khác\nChủ ngữ làm ĐỔI VỊ TRÍ của tân ngữ.\nChọn 来 hay 去 vẫn theo hướng so với người nói."
+        ],
+        [
+          "1.3 S ＋（没有／不／不要／别／động từ năng nguyện／thời gian）＋ 把 + O + V + thành phần sau",
+          "Tổng kết câu chữ 把\nBốn dạng: V + 了, V + 在／到 + nơi chốn, V + 给 + người, V + bổ ngữ.\nMọi từ phủ định, động từ năng nguyện và từ chỉ thời gian đều đứng TRƯỚC 把."
+        ],
+        [
+          "2.1 先……，然后……（最后……）",
+          "Trước … rồi sau đó … (cuối cùng …)\nKể nhiều việc theo đúng thứ tự thời gian.\nCác vế có thể cùng hoặc khác chủ ngữ."
+        ],
+        [
+          "2.2 先……，然后再……／然后又……",
+          "Trước … rồi mới … ／ rồi lại …\nViệc CHƯA xảy ra dùng 再 (dặn dò, dự định).\nViệc ĐÃ xảy ra rồi dùng 又 (kể lại)."
+        ],
+        [
+          "3.1 A + 像 + B（+ 一样）",
+          "A giống B\nNói hai bên giống nhau về dáng vẻ hay đặc điểm.\nCó thể thêm 一样 ở cuối cho rõ."
+        ],
+        [
+          "3.2 A + 像 + B（+ 一样／那样）+ V／adj",
+          "A … giống như B\nThêm động từ hay tính từ phía sau để nói rõ giống ở ĐIỂM NÀO.\nDùng 一样 khi so với vật, 那样 khi nêu tấm gương để noi theo."
+        ],
+        [
+          "3.3 A 和 B（+ 的 + N）+ 很／真／不 + 像",
+          "A và B (rất／thật／không) giống nhau\nĐưa cả hai bên lên trước, 像 đứng cuối như một tính từ.\nVì vậy mới nhận được 很、真、一点儿也不 ở trước."
+        ]
+      ],
+      "examples": [
+        [
+          "我把衣服洗干净了。",
+          "Tôi giặt sạch quần áo rồi."
+        ],
+        [
+          "妈妈把饭做好了。",
+          "Mẹ nấu xong cơm rồi."
+        ],
+        [
+          "老师把这道题讲清楚了。",
+          "Thầy giảng rõ bài này rồi."
+        ],
+        [
+          "儿子把空调打开了。",
+          "Con trai bật điều hòa lên rồi."
+        ],
+        [
+          "妹妹把房间打扫干净了。",
+          "Em gái dọn sạch căn phòng rồi."
+        ],
+        [
+          "叔叔把水果饭吃完了。",
+          "Chú ăn hết phần cơm hoa quả rồi."
+        ],
+        [
+          "你把水果拿过来。",
+          "Con mang hoa quả lại đây."
+        ],
+        [
+          "爸爸把冰箱里的西瓜拿出来了。",
+          "Bố lấy quả dưa hấu trong tủ lạnh ra rồi."
+        ],
+        [
+          "她把我送回去了。",
+          "Cô ấy đưa tôi về rồi."
+        ],
+        [
+          "我先把桌椅搬出去。",
+          "Tôi khiêng bàn ghế ra ngoài trước."
+        ],
+        [
+          "请同学们把铅笔拿出来。",
+          "Mời các em lấy bút chì ra."
+        ],
+        [
+          "他把门关了。",
+          "Anh ấy đóng cửa rồi."
+        ],
+        [
+          "老师把作业放在桌子上。",
+          "Thầy đặt bài tập lên bàn."
+        ],
+        [
+          "我把鲜花送给老师了。",
+          "Tôi tặng hoa tươi cho cô giáo rồi."
+        ],
+        [
+          "请你把门关上，好吗？",
+          "Phiền bạn đóng giúp cửa lại nhé?"
+        ],
+        [
+          "你没把衣服洗干净。",
+          "Bạn chưa giặt sạch quần áo."
+        ],
+        [
+          "阿姨已经把晚饭做好了。",
+          "Cô ấy đã nấu xong bữa tối rồi."
+        ],
+        [
+          "叔叔把这个故事讲清楚了。",
+          "Chú kể rõ câu chuyện này rồi."
+        ],
+        [
+          "回家以后，我先做作业，然后吃饭。",
+          "Về nhà xong, tôi làm bài trước rồi mới ăn cơm."
+        ],
+        [
+          "我先送孩子，再把衣服送到洗衣店，然后去上班。",
+          "Tôi đưa con đi trước, rồi mang quần áo ra tiệm giặt, sau đó đi làm."
+        ],
+        [
+          "放学以后，小红先听阿姨讲题，然后听叔叔讲故事，最后自己把房间打扫干净。",
+          "Tan học, Tiểu Hồng nghe cô giảng bài trước, rồi nghe chú kể chuyện, cuối cùng tự dọn sạch phòng mình."
+        ],
+        [
+          "我先去公司接你妈妈，然后到学校接你。",
+          "Bố qua công ty đón mẹ trước, rồi tới trường đón con."
+        ],
+        [
+          "下课以后我先洗澡，然后再看电视节目。",
+          "Tan học tôi tắm trước, rồi mới xem chương trình tivi."
+        ],
+        [
+          "你先把电视节目看完吧，然后再给我回电话。",
+          "Anh xem hết chương trình tivi đã, rồi gọi lại cho em."
+        ],
+        [
+          "爷爷先去公园锻炼了一个小时，然后又去图书馆看了两小时书。",
+          "Ông ra công viên tập một tiếng, rồi lại sang thư viện đọc sách hai tiếng."
+        ],
+        [
+          "先把米饭做好，然后再把一块块新鲜的水果放进去。",
+          "Nấu chín cơm trước, rồi mới cho từng miếng hoa quả tươi vào."
+        ],
+        [
+          "我长得像爸爸，我的弟弟长得像妈妈。",
+          "Tôi giống bố, em trai tôi giống mẹ."
+        ],
+        [
+          "今晚的月亮像白色的盘子一样。",
+          "Trăng tối nay giống hệt một chiếc đĩa trắng."
+        ],
+        [
+          "这个地方真美，像画儿一样。",
+          "Chỗ này đẹp thật, như tranh vậy."
+        ],
+        [
+          "今晚的月亮像盘子一样圆。",
+          "Trăng tối nay tròn như cái đĩa."
+        ],
+        [
+          "你要像姐姐那样认真，也考上一个好学校。",
+          "Em phải chăm chỉ như chị, cũng thi đỗ một trường tốt."
+        ],
+        [
+          "小方像是没有作业一样经常去玩游戏。",
+          "Tiểu Phương cứ như không có bài tập, suốt ngày đi chơi game."
+        ],
+        [
+          "今晚的月亮和白色的盘子很像。",
+          "Trăng tối nay với chiếc đĩa trắng rất giống nhau."
+        ],
+        [
+          "他和他弟弟一点儿也不像，他安静得多。",
+          "Cậu ấy với em trai chẳng giống nhau tí nào, cậu ấy trầm tính hơn nhiều."
+        ],
+        [
+          "小明和小方长得很像，都又高又瘦。",
+          "Tiểu Minh với Tiểu Phương trông rất giống nhau, đều cao và gầy."
+        ],
+        [
+          "外边也不刮风，我们坐在外边一边看月亮一边吃东西，怎么样？",
+          "Ngoài kia cũng không có gió, mình ra ngoài vừa ngắm trăng vừa ăn, được không?"
+        ],
+        [
+          "你听外边的声音，一定是大山。",
+          "Cậu nghe tiếng ngoài kia xem, chắc chắn là Đại Sơn."
+        ],
+        [
+          "我们听叔叔阿姨讲讲他们年轻时候的故事。",
+          "Mình nghe chú và cô kể chuyện hồi họ còn trẻ nhé."
+        ],
+        [
+          "你在饭馆的菜单上见过水果饭吗？",
+          "Bạn từng thấy món cơm hoa quả trên thực đơn nhà hàng chưa?"
+        ],
+        [
+          "其实做水果饭很简单。",
+          "Thật ra làm cơm hoa quả rất đơn giản."
+        ],
+        [
+          "我们买几斤香蕉吧，家里没有水果了。",
+          "Mình mua mấy cân chuối đi, nhà hết hoa quả rồi."
+        ],
+        [
+          "我来做饭，你来洗盘子，怎么样？",
+          "Tôi nấu cơm, bạn rửa đĩa, được không?"
+        ]
+      ],
+      "drills": [
+        [
+          "Dùng 把 + bổ ngữ kết quả nói em gái đã dọn sạch căn phòng.",
+          "妹妹把房间打扫干净了。"
+        ],
+        [
+          "Đổi 爸爸洗脚 ＋ 脚洗干净了 thành câu chữ 把.",
+          "爸爸把脚洗干净了。"
+        ],
+        [
+          "Dùng 把 + bổ ngữ xu hướng bảo người kia mang hoa quả lại đây.",
+          "你把水果拿过来。"
+        ],
+        [
+          "Nói bố đã lấy quả dưa hấu trong tủ lạnh ra.",
+          "爸爸把冰箱里的西瓜拿出来了。"
+        ],
+        [
+          "Nhờ các bạn học lấy bút chì ra.",
+          "请同学们把铅笔拿出来。"
+        ],
+        [
+          "Đặt 已经 đúng chỗ: nói cô ấy đã nấu xong bữa tối.",
+          "阿姨已经把晚饭做好了。"
+        ],
+        [
+          "Dùng 先……然后…… nói về nhà xong bạn làm bài trước rồi mới ăn cơm.",
+          "回家以后，我先做作业，然后吃饭。"
+        ],
+        [
+          "Dùng 然后再 dặn người kia xem hết chương trình tivi rồi gọi lại cho bạn.",
+          "你先把电视节目看完吧，然后再给我回电话。"
+        ],
+        [
+          "Dùng 然后又 kể ông tập ở công viên một tiếng rồi lại sang thư viện đọc sách hai tiếng.",
+          "爷爷先去公园锻炼了一个小时，然后又去图书馆看了两小时书。"
+        ],
+        [
+          "Dùng 像……一样 tả trăng tối nay giống một chiếc đĩa trắng.",
+          "今晚的月亮像白色的盘子一样。"
+        ],
+        [
+          "Thêm tính từ: nói trăng tối nay tròn như cái đĩa.",
+          "今晚的月亮像盘子一样圆。"
+        ],
+        [
+          "Dùng dạng A 和 B 很像 nói trăng tối nay với chiếc đĩa trắng rất giống nhau.",
+          "今晚的月亮和白色的盘子很像。"
+        ]
+      ],
+      "quiz": [
+        [
+          "Câu nào dùng 把 đúng?",
+          [
+            "妹妹把房间打扫干净了。",
+            "妹妹打扫把房间干净了。",
+            "妹妹把干净房间打扫了。",
+            "妹妹房间把打扫干净了。"
+          ],
+          0,
+          "Trật tự là 把 + tân ngữ + động từ + bổ ngữ kết quả (slide 15)."
+        ],
+        [
+          "Đặt 没 vào đâu trong câu 你把衣服洗干净？",
+          [
+            "你没把衣服洗干净。",
+            "你把没衣服洗干净。",
+            "你把衣服没洗干净。",
+            "你把衣服洗没干净。"
+          ],
+          0,
+          "Từ phủ định, động từ năng nguyện và từ chỉ thời gian đều đứng trước 把 (slide 17)."
+        ],
+        [
+          "Việc phía sau CHƯA xảy ra thì dùng từ nào?",
+          [
+            "再",
+            "又",
+            "就",
+            "才"
+          ],
+          0,
+          "再 dùng cho việc chưa xảy ra, 又 cho việc đã xảy ra (slide 25)."
+        ],
+        [
+          "Chọn câu đúng:",
+          [
+            "今晚的月亮像盘子一样圆。",
+            "今晚的月亮圆像盘子一样。",
+            "今晚的月亮一样像盘子圆。",
+            "今晚的月亮像圆盘子一样。"
+          ],
+          0,
+          "Dạng A + 像 + B + 一样 + tính từ, tính từ đứng cuối (slide 30)."
+        ],
+        [
+          "Câu nào dùng dạng A 和 B + 很／不 + 像?",
+          [
+            "他和他弟弟一点儿也不像。",
+            "他很像和他弟弟。",
+            "他不像和他弟弟一点儿。",
+            "他和他弟弟像一点儿也不。"
+          ],
+          0,
+          "Dạng này đưa cả hai bên lên trước, 像 đứng cuối như một tính từ (slide 30)."
+        ],
+        [
+          "Điền từ: 我刚____，没听见手机响。",
+          [
+            "洗了个澡",
+            "打扫",
+            "刮风",
+            "简单"
+          ],
+          0,
+          "课文2 (slide 49): 我刚洗了个澡，没听见。"
+        ]
+      ],
+      "practice": {
+        "cloze": [
+        {
+          "title": "练一练 · Nhìn ảnh gọi tên đồ vật",
+          "description": "Bài ghép ảnh với từ ở slide 7. Nhìn ảnh rồi viết từ mới bằng chữ Hán.",
+          "items": [
+            [
+              "Trong ảnh là gì? ____",
+              [
+                "盘子"
+              ],
+              "盘子 pánzi — cái đĩa.",
+              "images/l0411/pan-zi.png"
+            ],
+            [
+              "Trong ảnh là gì? ____",
+              [
+                "节目"
+              ],
+              "电视节目 — chương trình tivi.",
+              "images/l0411/jie-mu.png"
+            ],
+            [
+              "Trong ảnh là gì? ____",
+              [
+                "月亮"
+              ],
+              "月亮 yuèliang — mặt trăng.",
+              "images/l0411/yue-liang.png"
+            ],
+            [
+              "Trong ảnh là gì? ____",
+              [
+                "冰箱"
+              ],
+              "冰箱 bīngxiāng — tủ lạnh.",
+              "images/l0411/bing-xiang.png"
+            ],
+            [
+              "Trong ảnh là gì? ____",
+              [
+                "菜单"
+              ],
+              "菜单 càidān — thực đơn.",
+              "images/l0411/cai-dan.png"
+            ],
+            [
+              "Trong ảnh là gì? ____",
+              [
+                "香蕉"
+              ],
+              "香蕉 xiāngjiāo — quả chuối.",
+              "images/l0411/xiang-jiao.png"
+            ]
+          ]
+        },
+        {
+          "title": "练一练 · Nhìn ảnh nói thời tiết",
+          "description": "Bài ôn thời tiết ở slide 13. Ngân hàng: 晴天、阴天、下雪、下雨、刮风、冷、热.",
+          "items": [
+            [
+              "Thời tiết trong ảnh: ____",
+              [
+                "晴天"
+              ],
+              "Trời quang, nhiều nắng là 晴天.",
+              "images/l0411/qing-tian.png"
+            ],
+            [
+              "Thời tiết trong ảnh: ____",
+              [
+                "阴天"
+              ],
+              "Trời nhiều mây xám là 阴天.",
+              "images/l0411/yin-tian.png"
+            ],
+            [
+              "Thời tiết trong ảnh: ____",
+              [
+                "下雪"
+              ],
+              "Tuyết rơi là 下雪.",
+              "images/l0411/xia-xue.png"
+            ],
+            [
+              "Thời tiết trong ảnh: ____",
+              [
+                "下雨"
+              ],
+              "Mưa là 下雨.",
+              "images/l0411/xia-yu.png"
+            ],
+            [
+              "Thời tiết trong ảnh: ____",
+              [
+                "刮风"
+              ],
+              "Cây nghiêng vì gió mạnh là 刮风.",
+              "images/l0411/gua-feng.png"
+            ],
+            [
+              "Thời tiết trong ảnh: ____",
+              [
+                "冷"
+              ],
+              "Quấn chăn run rẩy là 冷.",
+              "images/l0411/leng.png"
+            ],
+            [
+              "Thời tiết trong ảnh: ____",
+              [
+                "热"
+              ],
+              "Nắng gắt, lau mồ hôi là 热.",
+              "images/l0411/re.png"
+            ]
+          ]
+        },
+        {
+          "title": "练一练 · Nhìn ảnh đặt câu chữ 把",
+          "description": "Bài nhìn ảnh nói câu ở slide 19 và 40. Đáp án dưới đây là một cách nói hợp lệ.",
+          "items": [
+            [
+              "Nhìn ảnh, đặt một câu chữ 把: ____",
+              [
+                "她把水果洗干净了",
+                "请你把水果洗干净"
+              ],
+              "把 + tân ngữ + 洗 + bổ ngữ kết quả 干净 (slide 19).",
+              "images/l0411/xi-shui-guo.png"
+            ],
+            [
+              "Phòng rất bừa, hãy nói bạn sẽ dọn thế nào bằng câu chữ 把: ____",
+              [
+                "我先把书放回书架，然后把垃圾扔到垃圾桶里，最后把地扫干净"
+              ],
+              "Slide 40 cho sẵn từ: 书架、书包、垃圾、垃圾桶、收拾、扫、地、干净.",
+              "images/l0411/luan-fang-jian.png"
+            ]
+          ]
+        },
+        {
+          "title": "练一练 · Nhìn ảnh dùng 先……，再／又……，然后……",
+          "description": "Bài nhìn ảnh nói câu ở slide 26-28. Đáp án dưới đây là một cách nói hợp lệ.",
+          "items": [
+            [
+              "Hai phương tiện trong ảnh, hãy hoàn thành: 我____才到小王家。",
+              [
+                "先坐公共汽车，然后又坐地铁"
+              ],
+              "Việc đã xảy ra rồi nên dùng 又 (slide 26).",
+              [
+                "images/l0411/gong-gong-qi-che.png",
+                "images/l0411/di-tie.png"
+              ]
+            ],
+            [
+              "Nhìn ba ảnh, kể ba việc theo thứ tự: ____",
+              [
+                "我先吃饭，再去打篮球，然后回家洗澡"
+              ],
+              "先 → 再 → 然后, mỗi ảnh một việc (slide 27).",
+              [
+                "images/l0411/chi-fan.png",
+                "images/l0411/da-lan-qiu.png",
+                "images/l0411/xi-zao.png"
+              ]
+            ],
+            [
+              "Nhìn ba ảnh, nói dự định của bạn: 我打算____。",
+              [
+                "先去吃火锅，再回家写作业，然后去跳绳"
+              ],
+              "Việc chưa xảy ra nên dùng 再 (slide 28).",
+              [
+                "images/l0411/huo-guo.png",
+                "images/l0411/xie-zuo-ye.png",
+                "images/l0411/tiao-sheng.png"
+              ]
+            ]
+          ]
+        },
+        {
+          "title": "练一练 · Nhìn ảnh dùng 像",
+          "description": "Bài nhìn ảnh nói câu ở slide 31-33. Chú ý chọn đúng một trong ba dạng của 像.",
+          "items": [
+            [
+              "Nhìn ảnh, dùng dạng A + 像 + B: ____",
+              [
+                "儿子长得像爸爸",
+                "他长得像他爸爸"
+              ],
+              "Dạng đơn giản nhất, chỉ nói hai bên giống nhau (slide 31).",
+              "images/l0411/ba-ba-he-er-zi.png"
+            ],
+            [
+              "Nhìn hai ảnh, dùng dạng A + 像 + B + 一样 + adj: ____",
+              [
+                "西瓜像球一样圆"
+              ],
+              "Thêm tính từ 圆 để nói rõ giống ở điểm nào (slide 31).",
+              [
+                "images/l0411/xi-gua.png",
+                "images/l0411/qiu.png"
+              ]
+            ],
+            [
+              "Hoàn thành câu: ____，教给我们很多东西。",
+              [
+                "老师像书一样"
+              ],
+              "So sánh cô giáo với quyển sách (slide 32).",
+              [
+                "images/l0411/lao-shi.png",
+                "images/l0411/shu.png"
+              ]
+            ],
+            [
+              "Hoàn thành câu: ____，每次上课都认真听讲。",
+              [
+                "我不像他那样上课睡觉",
+                "我像她那样认真"
+              ],
+              "Dùng 那样 khi nêu một tấm gương hoặc một thói quen để so (slide 33).",
+              [
+                "images/l0411/shang-ke-shui-jiao.png",
+                "images/l0411/ren-zhen-ting-jiang.png"
+              ]
+            ]
+          ]
+        },
+          {
+            "title": "练一练 · Đổi thành câu chữ 把",
+            "description": "Bài luyện slide 18. Đáp án đã hiện sẵn trên slide.",
+            "items": [
+              [
+                "爸爸洗脚 ＋ 脚洗干净了 → ____",
+                [
+                  "爸爸把脚洗干净了"
+                ],
+                "把 + tân ngữ + động từ + bổ ngữ kết quả 干净."
+              ],
+              [
+                "妹妹打扫房间 ＋ 房间打扫干净了 → ____",
+                [
+                  "妹妹把房间打扫干净了"
+                ],
+                "Cùng công thức với câu trên."
+              ],
+              [
+                "叔叔吃水果饭 ＋ 水果饭吃完了 → ____",
+                [
+                  "叔叔把水果饭吃完了"
+                ],
+                "Bổ ngữ kết quả ở đây là 完."
+              ],
+              [
+                "老师讲这道题 ＋ 这道题讲清楚了 → ____",
+                [
+                  "老师把这道题讲清楚了"
+                ],
+                "Bổ ngữ kết quả ở đây là 清楚."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Nói bằng câu chữ 把 trong các tình huống sau",
+            "description": "Bài luyện slide 21. Đáp án đã hiện sẵn trên slide.",
+            "items": [
+              [
+                "孩子的房间很脏，你想让他打扫干净。→ ____",
+                [
+                  "把你的房间打扫干净"
+                ],
+                "Câu sai khiến, có thể lược chủ ngữ."
+              ],
+              [
+                "你的作业在同学手里，你想让他拿过来。→ ____",
+                [
+                  "请你把我的作业拿过来",
+                  "请你把我的作业拿给我"
+                ],
+                "Dùng bổ ngữ xu hướng 过来 hoặc dạng 把 + V + 给 + người."
+              ],
+              [
+                "你想让站在门边的人关门。→ ____",
+                [
+                  "请你把门关上，好吗"
+                ],
+                "关上 là bổ ngữ kết quả của 关."
+              ],
+              [
+                "你想看今天早上的报纸，让女儿拿给你。→ ____",
+                [
+                  "把早上的报纸拿给我",
+                  "把早上的报纸拿过来"
+                ],
+                "Hai cách đều có trên slide."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành hội thoại bằng câu chữ 把",
+            "description": "Bài luyện slide 22-23. Đây là bài mở; đáp án dưới đây là một cách nói hợp lệ.",
+            "items": [
+              [
+                "A：妈妈，让我再看一会儿这个节目吧。B：好吧，你____就去写作业。",
+                [
+                  "把这个节目看完"
+                ],
+                "Dùng bổ ngữ kết quả 完."
+              ],
+              [
+                "A：房间里太热了。B：____。",
+                [
+                  "你把空调打开吧",
+                  "把空调打开"
+                ],
+                "Giống cách nói của 周明 trong 课文1."
+              ],
+              [
+                "A：我的行李呢？B：别着急，____房间里去了。",
+                [
+                  "我把行李拿到",
+                  "服务员把行李送到"
+                ],
+                "Dạng 把 + V + 到 + nơi chốn."
+              ],
+              [
+                "A：你看见小林了吗？他人呢。B：他____就出去了。",
+                [
+                  "把作业交给老师",
+                  "把饭吃完"
+                ],
+                "Dùng 把 rồi mới tới 就出去了."
+              ],
+              [
+                "A：你没____。B：不好意思，我再洗一次。",
+                [
+                  "把衣服洗干净"
+                ],
+                "没 đứng trước 把; bổ ngữ kết quả là 干净."
+              ],
+              [
+                "A：水果都没吃完，我____？B：行，你都带回去。",
+                [
+                  "把水果带回去吧",
+                  "把水果拿回去吧"
+                ],
+                "Dùng bổ ngữ xu hướng 回去."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành hội thoại bằng 先……，再／又……，然后……",
+            "description": "Bài luyện slide 36-39. Đáp án đã hiện sẵn trên slide.",
+            "items": [
+              [
+                "A：今天下午你做什么？B：我先打扫房间，然后____。",
+                [
+                  "去图书馆"
+                ],
+                "Slide 36."
+              ],
+              [
+                "A：你帮我把这本书____吧。B：好的。",
+                [
+                  "还回去"
+                ],
+                "把 + V + bổ ngữ xu hướng 回去 (slide 36)."
+              ],
+              [
+                "A：你要走了？你还没有把饭____呢。",
+                [
+                  "吃完"
+                ],
+                "Bổ ngữ kết quả 完 (slide 37)."
+              ],
+              [
+                "A：今天你下了课就回家吧。B：我先去____，然后回家。",
+                [
+                  "运动"
+                ],
+                "Slide 37."
+              ],
+              [
+                "A：今天是周末，你可以休息了吧？B：没有时间休息，我要把这些衣服____。",
+                [
+                  "洗完"
+                ],
+                "Bổ ngữ kết quả 完 (slide 38)."
+              ],
+              [
+                "A：别着急，我____，然后回来帮你。",
+                [
+                  "先开会"
+                ],
+                "Slide 38."
+              ],
+              [
+                "A：小刚，你现在去哪儿？B：我把公司的客人____。",
+                [
+                  "送回去"
+                ],
+                "把 + V + bổ ngữ xu hướng 回去 (slide 39)."
+              ],
+              [
+                "B：回来以后，我先帮你找宾馆，然后帮你____。",
+                [
+                  "买飞机票"
+                ],
+                "Slide 39."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn lượng từ lặp điền vào chỗ trống",
+            "description": "Bài ôn slide 65. Ngân hàng: 一个个、一本本、一双双、次次、一块块. Dạng lặp này nghĩa là “cái nào cũng”, “từng cái một”.",
+            "items": [
+              [
+                "桌子上放着____筷子。",
+                [
+                  "一双双"
+                ],
+                "双 là lượng từ của đôi đũa."
+              ],
+              [
+                "这个班的学生____都很努力。",
+                [
+                  "一个个"
+                ],
+                "Chỉ từng người một, người nào cũng vậy."
+              ],
+              [
+                "他开会____都迟到。",
+                [
+                  "次次"
+                ],
+                "次次 nghĩa là lần nào cũng."
+              ],
+              [
+                "他把自己的____词典都卖出去了。",
+                [
+                  "一本本"
+                ],
+                "本 là lượng từ của sách, từ điển."
+              ],
+              [
+                "她把____新鲜的水果放到米饭上。",
+                [
+                  "一块块"
+                ],
+                "块 dùng cho miếng hoa quả."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn từ mới điền vào chỗ trống",
+            "description": "Bài tổng ôn từ vựng slide 66-68. Ngân hàng: 节目、故事、菜单、香蕉、盘子、打扫、干净、简单、声音、像、洗澡、月亮、然后.",
+            "items": [
+              [
+                "每天晚上，爸爸都要给女儿讲一个____。",
+                [
+                  "故事"
+                ],
+                "讲故事 là kể chuyện."
+              ],
+              [
+                "我来做饭，你来洗____，怎么样？",
+                [
+                  "盘子"
+                ],
+                "洗盘子 là rửa đĩa."
+              ],
+              [
+                "我们买几斤____吧，家里没有水果了。",
+                [
+                  "香蕉"
+                ],
+                "Chuối tính bằng cân."
+              ],
+              [
+                "跟朋友一起喝着饮料看电视____，是最快乐的事。",
+                [
+                  "节目"
+                ],
+                "电视节目 là chương trình tivi."
+              ],
+              [
+                "服务员，请拿____过来，我们点菜。",
+                [
+                  "菜单"
+                ],
+                "Gọi món thì cần thực đơn."
+              ],
+              [
+                "A：我们什么时候吃晚饭？B：先____完房间再吃。",
+                [
+                  "打扫"
+                ],
+                "打扫完房间 là dọn xong phòng."
+              ],
+              [
+                "A：听！是谁在外边说话？B：没有____啊。",
+                [
+                  "声音"
+                ],
+                "声音 là âm thanh, tiếng động."
+              ],
+              [
+                "A：你觉得洗衣服很____，可我觉得很难。",
+                [
+                  "简单"
+                ],
+                "简单 trái nghĩa với 难."
+              ],
+              [
+                "A：那么多衣服，终于洗完了！B：都洗____了吗？",
+                [
+                  "干净"
+                ],
+                "Bổ ngữ kết quả 干净."
+              ],
+              [
+                "A：这个地方真美！B：是啊，____画儿一样。",
+                [
+                  "像"
+                ],
+                "像……一样 là giống như."
+              ],
+              [
+                "A：刚才打你的手机你也不接。B：对不起，刚才我在____，没听见。",
+                [
+                  "洗澡"
+                ],
+                "课文2 (slide 49)."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Ghép chữ thành từ mới",
+            "description": "Bài chữ Hán slide 62: lấy một chữ của từ bên trái ghép với một chữ của từ bên phải.",
+            "items": [
+              [
+                "名字 —— 菜单 → ____",
+                [
+                  "名单"
+                ],
+                "名单 nghĩa là danh sách tên."
+              ],
+              [
+                "读 —— 声音 → ____",
+                [
+                  "读音"
+                ],
+                "读音 nghĩa là cách đọc, âm đọc."
+              ],
+              [
+                "买 —— 菜单 → ____",
+                [
+                  "买单"
+                ],
+                "买单 nghĩa là thanh toán tiền ở quán ăn."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "练一练 · Sắp xếp câu chữ 把",
+            "description": "Bài luyện slide 24, đáp án đã hiện trên slide.",
+            "items": [
+              [
+                [
+                  "请",
+                  "同学们",
+                  "把",
+                  "铅笔",
+                  "拿出来"
+                ],
+                "请同学们把铅笔拿出来。"
+              ],
+              [
+                [
+                  "阿姨",
+                  "已经",
+                  "把",
+                  "晚饭",
+                  "做",
+                  "好了"
+                ],
+                "阿姨已经把晚饭做好了。"
+              ],
+              [
+                [
+                  "叔叔",
+                  "把",
+                  "这个",
+                  "故事",
+                  "讲",
+                  "清楚",
+                  "了"
+                ],
+                "叔叔把这个故事讲清楚了。"
+              ]
+            ]
+          },
+          {
+            "title": "Luyện thêm · Sắp xếp câu có 先……然后…… và 像",
+            "description": "Slide 04/11 không có bài sắp xếp cho hai điểm này; các câu dưới đây lấy từ chính câu mẫu ở slide 25 và 30.",
+            "items": [
+              [
+                [
+                  "回家以后",
+                  "我",
+                  "先",
+                  "做作业",
+                  "然后",
+                  "吃饭"
+                ],
+                "回家以后，我先做作业，然后吃饭。"
+              ],
+              [
+                [
+                  "你",
+                  "先",
+                  "把电视节目看完吧",
+                  "然后再",
+                  "给我回电话"
+                ],
+                "你先把电视节目看完吧，然后再给我回电话。"
+              ],
+              [
+                [
+                  "今晚的月亮",
+                  "像",
+                  "盘子",
+                  "一样",
+                  "圆"
+                ],
+                "今晚的月亮像盘子一样圆。"
+              ],
+              [
+                [
+                  "今晚的月亮",
+                  "和",
+                  "白色的盘子",
+                  "很",
+                  "像"
+                ],
+                "今晚的月亮和白色的盘子很像。"
+              ]
+            ]
+          }
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "你吃过水果饭吗？你在饭馆的菜单上见过水果饭吗？其实做水果饭很简单，先把米饭做好，然后再把一块块新鲜的水果放进去，水果饭就做好了。你可以做苹果饭、香蕉饭，要是你愿意还可以做西瓜饭。多吃新鲜水果对身体好。",
+          [
+            [
+              "做水果饭的第一步是什么？",
+              [
+                "先把米饭做好",
+                "先把水果放进去",
+                "先打开冰箱",
+                "先看菜单"
+              ],
+              0,
+              "Đoạn văn nói “先把米饭做好，然后再把一块块新鲜的水果放进去”。"
+            ],
+            [
+              "为什么这里用“然后再”而不是“然后又”？",
+              [
+                "vì việc cho hoa quả vào chưa xảy ra",
+                "vì việc đó đã xảy ra rồi",
+                "vì câu này là câu hỏi",
+                "vì có chữ 先"
+              ],
+              0,
+              "再 dùng cho việc chưa xảy ra, 又 cho việc đã xảy ra (slide 25)."
+            ],
+            [
+              "作者觉得做水果饭怎么样？",
+              [
+                "很简单",
+                "很难",
+                "很贵",
+                "很慢"
+              ],
+              0,
+              "Đoạn văn nói “其实做水果饭很简单”。"
+            ]
+          ]
+        ]
+      }
+    },
+    {
       "id": "l0911",
       "date": "09/11/2026",
       "shortDate": "09/11",

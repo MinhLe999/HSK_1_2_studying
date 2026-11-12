@@ -474,6 +474,18 @@ Quy ước:
 | l0211-s6 | 2.3 Tính từ／động từ tâm lý + 坏了（＝ 很 + tính từ） | … quá chừng, … lắm | Dạng này KHÔNG có nghĩa hỏng mà chỉ mức độ rất cao, tương đương 很；chỉ dùng với từ chỉ cảm nhận: 累、忙、高兴、担心、饿……；có thể thêm tân ngữ phía sau: 别累坏了孩子。 | 他这几天忙坏了。；姐姐终于从美国回来了，妈妈高兴坏了。；十点了，弟弟还没回家，我们担心坏了。 | Mấy hôm nay anh ấy bận quá chừng.；Chị gái cuối cùng cũng từ Mỹ về, mẹ mừng húm.；Mười giờ rồi mà em trai vẫn chưa về, chúng tôi lo lắm. | — |
 | l0211-s7 | 3. （一）边 + V1 +（一）边 + V2 | Vừa … vừa … | Hai việc diễn ra cùng lúc；一 có thể lược: 边……边……；một chủ ngữ thì đặt cả hai vế sau chủ ngữ, hai chủ ngữ thì mỗi vế có chủ ngữ riêng. | 小王（一）边唱歌（一）边跑步。；我丈夫喜欢一边吃早饭一边看报纸。；老师一边讲题，我们一边记下来。 | Tiểu Vương vừa hát vừa chạy bộ.；Chồng tôi thích vừa ăn sáng vừa đọc báo.；Thầy giảng bài, chúng tôi vừa nghe vừa ghi lại. | — |
 
+## l0411 · 04/11/2026 · 把 + bổ ngữ kết quả／xu hướng, 先……然后…… và 像
+| Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- | --- |
+| l0411-s1 | 1.1 S + 把 + O + V + bổ ngữ kết quả（干净／完／好／清楚……） | Làm cho O trở nên … (sạch, xong, tốt…) | Dạng này nói chủ ngữ làm cho tân ngữ SINH RA MỘT KẾT QUẢ；tách ra là hai vế: 我洗衣服 ＋ 衣服干净了 → 我把衣服洗干净了；bổ ngữ kết quả hay gặp là 干净、完、好、清楚、上. | 我把衣服洗干净了。；妈妈把饭做好了。；老师把这道题讲清楚了。 | Tôi giặt sạch quần áo rồi.；Mẹ nấu xong cơm rồi.；Thầy giảng rõ bài này rồi. | Hai vế gốc｜Câu chữ 把；我洗衣服 ＋ 衣服干净了｜我把衣服洗干净了。；妈妈做饭 ＋ 饭做好了｜妈妈把饭做好了。；儿子开空调 ＋ 空调打开了｜儿子把空调打开了。 |
+| l0411-s2 | 1.2 S + 把 + O + V + bổ ngữ xu hướng（过来／出来／回去／进去……） | Chuyển O tới／ra／về một chỗ khác | Dạng này nói chủ ngữ LÀM ĐỔI VỊ TRÍ của tân ngữ；ghép thẳng bổ ngữ xu hướng kép đã học hôm 02/11 vào sau động từ；chọn 来 hay 去 vẫn theo hướng so với người nói. | 你把水果拿过来。；爸爸把冰箱里的西瓜拿出来了。；她把我送回去了。 | Con mang hoa quả lại đây.；Bố lấy quả dưa hấu trong tủ lạnh ra rồi.；Cô ấy đưa tôi về rồi. | Hai vế gốc｜Câu chữ 把；他拿水果 ＋ 水果拿过来了｜他把水果拿过来了。；爸爸拿西瓜 ＋ 西瓜拿出来了｜爸爸把冰箱里的西瓜拿出来了。；她送我 ＋ 我回去了｜她把我送回去了。 |
+| l0411-s3 | 1.3 S ＋（没有／不／不要／别／động từ năng nguyện／thời gian）＋ 把 + O + V + thành phần sau | Tổng kết câu chữ 把 | Đây là bảng tổng kết cả bốn dạng 把 đã học；điều kiện chung: hành động CÓ THẬT làm tân ngữ biến đổi, và tân ngữ là vật cả người nói lẫn người nghe đều biết；mọi từ phủ định, động từ năng nguyện và từ chỉ thời gian đều đứng TRƯỚC 把. | 他把门关了。；老师把作业放在桌子上。；我把鲜花送给老师了。 | Anh ấy đóng cửa rồi.；Thầy đặt bài tập lên bàn.；Tôi tặng hoa tươi cho cô giáo rồi. | Dạng｜Công thức｜Ví dụ；1. Kèm 了｜把 ＋ O ＋ V ＋ 了｜他把门关了。；2. Chỉ nơi chốn｜把 ＋ O ＋ V ＋ 在／到 ＋ nơi chốn｜老师把作业放在桌子上。；3. Chỉ người nhận｜把 ＋ O ＋ V ＋ 给 ＋ người｜我把鲜花送给老师了。；4. Kèm bổ ngữ｜把 ＋ O ＋ V ＋ kết quả／xu hướng｜我把房间打扫干净了。 |
+| l0411-s4 | 2.1 先……，然后……（最后……） | Trước … rồi sau đó … (cuối cùng …) | Dùng để kể nhiều việc theo đúng thứ tự thời gian；先 đứng trước việc làm trước, 然后 trước việc làm sau, 最后 trước việc cuối cùng；các vế có thể cùng hoặc khác chủ ngữ. | 回家以后，我先做作业，然后吃饭。；我先送孩子，再把衣服送到洗衣店，然后去上班。；放学以后，小红先听阿姨讲题，然后听叔叔讲故事，最后自己把房间打扫干净。 | Về nhà xong, tôi làm bài trước rồi mới ăn cơm.；Tôi đưa con đi trước, rồi mang quần áo ra tiệm giặt, sau đó đi làm.；Tan học, Tiểu Hồng nghe cô giảng bài trước, rồi nghe chú kể chuyện, cuối cùng tự dọn sạch phòng mình. | — |
+| l0411-s5 | 2.2 先……，然后再……／然后又…… | Trước … rồi mới … ／ rồi lại … | Khác biệt duy nhất nằm ở 再 và 又: việc CHƯA xảy ra thì dùng 再, việc ĐÃ xảy ra rồi thì dùng 又；vì vậy 再 hay đi với lời dặn, lời hẹn, còn 又 hay đi với chuyện kể lại. | 你先把电视节目看完吧，然后再给我回电话。；爷爷先去公园锻炼了一个小时，然后又去图书馆看了两小时书。；先把米饭做好，然后再把一块块新鲜的水果放进去。 | Anh xem hết chương trình tivi đã, rồi gọi lại cho em.；Ông ra công viên tập một tiếng, rồi lại sang thư viện đọc sách hai tiếng.；Nấu chín cơm trước, rồi mới cho từng miếng hoa quả tươi vào. | Việc sau｜Từ dùng｜Ví dụ；Chưa xảy ra (dặn dò, dự định)｜再｜你先把电视节目看完吧，然后再给我回电话。；Đã xảy ra (kể lại)｜又｜爷爷先去公园锻炼了一个小时，然后又去图书馆看了两小时书。 |
+| l0411-s6 | 3.1 A + 像 + B（+ 一样） | A giống B | Dạng đơn giản nhất, chỉ nói hai bên giống nhau về dáng vẻ hay đặc điểm；có thể thêm 一样 ở cuối cho rõ. | 我长得像爸爸，我的弟弟长得像妈妈。；今晚的月亮像白色的盘子一样。；这个地方真美，像画儿一样。 | Tôi giống bố, em trai tôi giống mẹ.；Trăng tối nay giống hệt một chiếc đĩa trắng.；Chỗ này đẹp thật, như tranh vậy. | — |
+| l0411-s7 | 3.2 A + 像 + B（+ 一样／那样）+ V／adj | A … giống như B | Thêm một động từ hay tính từ phía sau để nói rõ GIỐNG Ở ĐIỂM NÀO；dùng 一样 khi so với vật, 那样 khi nêu một tấm gương để noi theo. | 今晚的月亮像盘子一样圆。；你要像姐姐那样认真，也考上一个好学校。；小方像是没有作业一样经常去玩游戏。 | Trăng tối nay tròn như cái đĩa.；Em phải chăm chỉ như chị, cũng thi đỗ một trường tốt.；Tiểu Phương cứ như không có bài tập, suốt ngày đi chơi game. | — |
+| l0411-s8 | 3.3 A 和 B（+ 的 + N）+ 很／真／不 + 像 | A và B (rất／thật／không) giống nhau | Dạng này đưa cả hai bên lên trước, 像 đứng cuối như một tính từ；vì vậy mới nhận được 很、真、一点儿也不 ở trước. | 今晚的月亮和白色的盘子很像。；他和他弟弟一点儿也不像，他安静得多。；小明和小方长得很像，都又高又瘦。 | Trăng tối nay với chiếc đĩa trắng rất giống nhau.；Cậu ấy với em trai chẳng giống nhau tí nào, cậu ấy trầm tính hơn nhiều.；Tiểu Minh với Tiểu Phương trông rất giống nhau, đều cao và gầy. | — |
+
 ## l0911 · 09/11/2026 · 如果……就……, cặp từ nối, 变／变化, bổ ngữ trạng thái 得 và láy tính từ AA 的
 
 | Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa | Bảng |
@@ -2128,6 +2140,31 @@ Quy chuẩn cho mọi ngày:
 | l0211-w1 | kể việc mua quà mang về | S + V + hướng + ĐỒ VẬT + 来／去 | 买回来；礼物 | Dùng đủ hai từ để nói ông nội mua một món quà từ nước ngoài về. | 爷爷从国外买回来一件礼物。 |
 | l0211-w2 | tả hai việc làm cùng lúc | （一）边 + V1 +（一）边 + V2 | 一边；生活 | Dùng đủ hai từ để nói bạn thích vừa ăn vừa xem tivi, như vậy cuộc sống thú vị hơn. | 我喜欢一边吃东西一边看电视，这样生活更有意思。 |
 | l0211-w3 | lo cho người làm việc quá sức | Tính từ／động từ tâm lý + 坏了 | 校长；累坏了 | Dùng đủ hai từ để nói hiệu trưởng bận quá, bạn sợ thầy mệt lả. | 校长工作太忙了，我怕他累坏了。 |
+
+### l0411 · 04/11/2026
+#### Đoạn văn
+> 你吃过水果饭吗？你在饭馆的菜单上见过水果饭吗？其实做水果饭很简单，先把米饭做好，然后再把一块块新鲜的水果放进去，水果饭就做好了。你可以做苹果饭、香蕉饭，要是你愿意还可以做西瓜饭。做好以后别忘了把冰箱里的饮料也拿出来，一边吃一边看电视节目。多吃新鲜水果对身体好，所以我每个星期都把香蕉和西瓜买回来放到冰箱里。
+#### Hội thoại
+> 周太太：客人就要来了，你怎么还不打扫房间啊？
+> 周明：别着急，我让孩子们打扫呢，客人来的时候，他们会把房间打扫干净。
+> 周太太：那你也不能一直看电视节目啊。
+> 周明：好吧，你让我做什么？
+> 周太太：先把茶和杯子放好，然后把冰箱里的西瓜拿出来。
+> 周明：太热了，我还是先把空调打开吧。
+> 周太太：空调打开以后，你再去洗个澡，叔叔阿姨看见你这个样子会笑的。
+> 周明：好，我先洗澡，然后又要去楼下买香蕉，你还要什么？
+> 周太太：买两斤就行了。你听，外边的声音像是客人来了。
+> 周明：那我快一点儿，你先去开门吧。
+#### Câu hỏi đọc hiểu
+| l0411-r1 | 做水果饭的第一步是什么？ | 先把米饭做好；先把水果洗干净；先把冰箱打开；先把菜单拿过来 | 先把米饭做好 | Đoạn văn nói "先把米饭做好，然后再把一块块新鲜的水果放进去"。 |
+| l0411-r2 | 作者为什么每个星期都买香蕉和西瓜？ | 因为多吃新鲜水果对身体好；因为水果很便宜；因为家里人不喜欢米饭；因为冰箱太大了 | 因为多吃新鲜水果对身体好 | Câu cuối đoạn văn nói "多吃新鲜水果对身体好，所以我每个星期都把香蕉和西瓜买回来"。 |
+| l0411-r3 | 房间会由谁打扫干净？ | 孩子们；周明；周太太；客人 | 孩子们 | 周明 nói "我让孩子们打扫呢……他们会把房间打扫干净"。 |
+| l0411-r4 | 周太太让周明先做哪两件事？ | 把茶和杯子放好，再把冰箱里的西瓜拿出来；打开空调，再去洗澡；买香蕉，再开门；打扫房间，再看电视 | 把茶和杯子放好，再把冰箱里的西瓜拿出来 | 周太太 nói "先把茶和杯子放好，然后把冰箱里的西瓜拿出来"。 |
+| l0411-r5 | 周太太为什么说外边像是客人来了？ | 因为她听见了外边的声音；因为她看见了客人；因为周明告诉她的；因为客人打了电话 | 因为她听见了外边的声音 | 周太太 nói "你听，外边的声音像是客人来了"。 |
+#### Đặt câu với từ cho sẵn
+| l0411-w1 | nhờ người khác dọn phòng | S + 把 + O + V + bổ ngữ kết quả | 把；打扫干净 | Dùng đủ hai từ để bảo con dọn phòng của nó cho sạch. | 请你把自己的房间打扫干净。 |
+| l0411-w2 | sắp xếp thứ tự việc sẽ làm sau giờ học | 先……，然后再…… | 先；然后再 | Dùng đủ hai từ để nói tan học bạn sẽ tắm trước rồi mới xem chương trình tivi. | 下课以后我先洗澡，然后再看电视节目。 |
+| l0411-w3 | tả vầng trăng buổi tối | A + 像 + B + 一样 + adj | 月亮；像 | Dùng đủ hai từ để nói trăng tối nay tròn như một chiếc đĩa trắng. | 今晚的月亮像白色的盘子一样圆。 |
 
 ### l0911 · 09/11/2026
 

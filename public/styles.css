@@ -2700,3 +2700,25 @@ p {
   color: var(--muted);
   font-size: 12px;
 }
+
+.question-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0 0 0.75rem;
+}
+
+.question-image img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  max-height: 220px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+@media (max-width: 640px) {
+  .question-image img {
+    max-height: 170px;
+  }
+}
