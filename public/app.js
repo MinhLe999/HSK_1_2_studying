@@ -685,17 +685,20 @@
     navEl.innerHTML = lessons.map((item, index) => {
       const result = savedData.progress.practice[item.id];
       const resultIsCurrent = practiceResultIsCurrent(result, index);
-      const stat = resultIsCurrent ? `${result.score}/${result.total}` : item.vocab.length;
+      // Ô bên phải LUÔN là số từ vựng của ngày. Việc đã làm xong bài tập được
+      // đánh dấu bằng dấu ✓ riêng, điểm số để ở tooltip, không chiếm chỗ số từ.
       const level = hskLevel(item.date);
       const header = level === navLevel ? "" : `<p class="lesson-group-label">${escapeHtml(level)}</p>`;
       navLevel = level;
+      const doneHint = resultIsCurrent ? `Đã làm xong bài tập: ${result.score}/${result.total}` : "";
       return `
         ${header}
         <button class="lesson-button ${index === ui.lessonIndex ? "active" : ""}"
-          data-action="selectLesson" data-index="${index}">
+          data-action="selectLesson" data-index="${index}"${doneHint ? ` title="${escapeHtml(doneHint)}"` : ""}>
           <span class="lesson-date">${escapeHtml(item.shortDate)}</span>
           <span class="lesson-title">${escapeHtml(item.title)}</span>
-          <span class="lesson-stat ${resultIsCurrent ? "done" : ""}">${escapeHtml(stat)}</span>
+          <span class="lesson-done">${resultIsCurrent ? `<span class="lesson-check" role="img" aria-label="${escapeHtml(doneHint)}">✓</span>` : ""}</span>
+          <span class="lesson-stat">${escapeHtml(item.vocab.length)}</span>
         </button>
       `;
     }).join("");

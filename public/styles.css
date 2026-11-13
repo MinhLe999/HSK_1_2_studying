@@ -174,7 +174,7 @@ p {
 
 .lesson-button {
   display: grid;
-  grid-template-columns: 50px minmax(0, 1fr) auto;
+  grid-template-columns: 50px minmax(0, 1fr) auto auto;
   align-items: center;
   gap: 9px;
   width: 100%;
@@ -210,6 +210,20 @@ p {
   white-space: nowrap;
 }
 
+.lesson-done {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 14px;
+}
+
+.lesson-check {
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1;
+}
+
 .lesson-stat {
   min-width: 30px;
   padding: 3px 5px;
@@ -220,12 +234,6 @@ p {
   font-weight: 800;
   text-align: center;
   background: var(--surface);
-}
-
-.lesson-stat.done {
-  border-color: var(--green);
-  color: #fff;
-  background: var(--green);
 }
 
 .main {
@@ -2291,7 +2299,7 @@ p {
   }
 
   .lesson-button {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     width: auto;
     min-width: 112px;
   }
