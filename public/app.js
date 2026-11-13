@@ -660,16 +660,37 @@
     return result.total === scoredTotal;
   }
 
+  // Lịch học chia theo giáo trình: HSK 1 hết ngày 26/06/2026, HSK 2 hết ngày 11/09/2026, sau đó là HSK 3.
+  const HSK_LEVEL_BOUNDARIES = [
+    { lastDate: "26/06/2026", label: "HSK 1" },
+    { lastDate: "11/09/2026", label: "HSK 2" }
+  ];
+
+  function dateValue(date) {
+    const [day, month, year] = date.split("/");
+    return Number(`${year}${month}${day}`);
+  }
+
+  function hskLevel(date) {
+    const found = HSK_LEVEL_BOUNDARIES.find(level => dateValue(date) <= dateValue(level.lastDate));
+    return found ? found.label : "HSK 3";
+  }
+
   function renderShell() {
     const done = completedLessonCount();
     progressTextEl.textContent = `${done}/${lessons.length}`;
     progressFillEl.style.width = `${Math.round((done / lessons.length) * 100)}%`;
 
+    let navLevel = "";
     navEl.innerHTML = lessons.map((item, index) => {
       const result = savedData.progress.practice[item.id];
       const resultIsCurrent = practiceResultIsCurrent(result, index);
       const stat = resultIsCurrent ? `${result.score}/${result.total}` : item.vocab.length;
+      const level = hskLevel(item.date);
+      const header = level === navLevel ? "" : `<p class="lesson-group-label">${escapeHtml(level)}</p>`;
+      navLevel = level;
       return `
+        ${header}
         <button class="lesson-button ${index === ui.lessonIndex ? "active" : ""}"
           data-action="selectLesson" data-index="${index}">
           <span class="lesson-date">${escapeHtml(item.shortDate)}</span>
