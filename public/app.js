@@ -819,8 +819,6 @@
   function renderLesson() {
     const item = lesson();
     const examples = lessonExamples(item);
-    const patternEvidence = exampleSupplements[item.id]?.patternEvidence || [];
-    const exampleMeanings = new Map(examples.map(example => [example[0], example[1]]));
     contentEl.innerHTML = `
       <section class="lesson-intro">
         <div class="lesson-summary">
@@ -844,64 +842,15 @@
         </div>
       </section>
 
-      <div class="two-columns">
-        <section class="section">
-          <div class="section-heading">
-            <h3>Ghi nhớ</h3>
-            <p>${item.notes.length} điểm</p>
-          </div>
-          <ul class="plain-list">
-            ${item.notes.map(note => `<li>${escapeHtml(note)}</li>`).join("")}
-          </ul>
-        </section>
-
-        <section class="section">
-          <div class="section-heading">
-            <h3>Mẫu câu</h3>
-            <p>${item.patterns.length} mẫu</p>
-          </div>
-          <ul class="pattern-list">
-            ${item.patterns.map((pattern, index) => {
-              // Mẫu câu và cấu trúc là một-một, nên lấy luôn bảng của cấu trúc
-              // thay vì kể lại nội dung bảng bằng lời.
-              const patternTable = (structures[item.id]?.items || [])[index]?.table || null;
-              return `
-              <li class="pattern-row">
-                <span class="pattern">${escapeHtml(pattern[0])}</span>
-                <span class="pattern-note">${escapeHtml(pattern[1])}</span>
-                ${patternTable ? `
-                  <div class="table-scroll">
-                    <table class="structure-table structure-compare">
-                      <thead>
-                        <tr>
-                          ${patternTable.columns.map(column => `
-                            <th${column ? "" : ' class="structure-col-corner"'}>${escapeHtml(column)}</th>
-                          `).join("")}
-                        </tr>
-                      </thead>
-                      <tbody>
-                        ${patternTable.rows.map(row => `
-                          <tr>
-                            <th scope="row">${escapeHtml(row[0])}</th>
-                            ${row.slice(1).map(cell => `<td>${escapeHtml(cell)}</td>`).join("")}
-                          </tr>
-                        `).join("")}
-                      </tbody>
-                    </table>
-                  </div>
-                ` : ""}
-                ${patternEvidence[index] ? `
-                  <div class="pattern-example">
-                    <span>Ví dụ: ${escapeHtml(patternEvidence[index])}</span>
-                    <small>${escapeHtml(exampleMeanings.get(patternEvidence[index]) || "")}</small>
-                  </div>
-                ` : ""}
-              </li>
-            `;
-            }).join("")}
-          </ul>
-        </section>
-      </div>
+      <section class="section">
+        <div class="section-heading">
+          <h3>Ghi nhớ</h3>
+          <p>${item.notes.length} điểm</p>
+        </div>
+        <ul class="plain-list">
+          ${item.notes.map(note => `<li>${escapeHtml(note)}</li>`).join("")}
+        </ul>
+      </section>
 
       ${renderNumberGuide(item.numberGuide)}
 

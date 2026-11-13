@@ -417,7 +417,6 @@ p {
   line-height: 1.65;
 }
 
-.pattern-list,
 .example-list,
 .writing-list {
   display: grid;
@@ -427,53 +426,20 @@ p {
   list-style: none;
 }
 
-.pattern-row,
 .example-row,
 .writing-row {
   padding: 14px 0;
   border-bottom: 1px solid var(--line);
 }
 
-.pattern-row:last-child,
 .example-row:last-child,
 .writing-row:last-child {
   border-bottom: 0;
 }
 
-.pattern {
-  display: block;
-  margin-bottom: 5px;
-  color: var(--green-dark);
-  font-weight: 850;
-}
-
-.pattern-note,
 .example-meaning {
   color: var(--muted);
   line-height: 1.55;
-}
-
-.pattern-note {
-  white-space: pre-line;
-}
-
-.pattern-example {
-  margin-top: 9px;
-  padding: 9px 11px;
-  border-left: 3px solid var(--blue);
-  color: var(--ink);
-  font-family: var(--han-font);
-  font-size: 16px;
-  line-height: 1.5;
-  background: var(--blue-soft);
-}
-
-.pattern-example small {
-  display: block;
-  margin-top: 3px;
-  color: var(--muted);
-  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  font-size: 12px;
 }
 
 .structure-intro {
