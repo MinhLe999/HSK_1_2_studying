@@ -1313,3 +1313,66 @@ Slide 24-25 còn một bài nghe chọn đáp án gồm 6 câu, dùng `sound5`, 
 20 ảnh của các bài ghép ảnh–từ (slide 7) và bài nhìn tranh đặt câu với 除了 (slide 17-23) đã tải từ `data/imgNN.png` của bộ slide, thu nhỏ còn tối đa 360px và lưu vào `public/images/l0611/`.
 
 Slide 8-13, 17-23 (phần nói miệng), 36, 42, 47, 52, 57-58, 64 là bài đọc chữ, đọc thuộc lòng, tự giới thiệu hoặc bài nói theo cặp — không tạo bài riêng trong app ngoài phần đã ghi ở trên.
+
+## 13/11/2026 — slide lớp học ChineseRd (Bài 22 · HSK3 第17课)
+
+Nguồn: `school.chineserd.com` → danh sách buổi học → "Bài 22 HSK3(17) 谁都有办法看好你的“病”" → PPT lên lớp.
+Tài liệu gốc: `115898_20261023_105105_twjtkhuf`, 69 slide, tên tệp `HSK3(17) 谁都有办法看好你的“病”.pptx`. Không có bản scan trong `materials/`.
+
+### Âm thanh
+
+| Bài | Tệp | Thời lượng | Ghi chú |
+| --- | --- | --- | --- |
+| 课文1 · 在公司 (xin nghỉ phép) | `sound5.mp3` | 15,1 s | Slide 43-47, hội thoại 小丽／周明 5 lượt. Slide 44 là hai câu hỏi trắc nghiệm, app chuyển thành câu đúng/sai. |
+| 课文2 · 在公司 (người đàn ông cao cao) | `sound8.mp3` | 34,0 s | Slide 48-52, hội thoại 同事／小丽 6 lượt. Slide 49 chỉ có một câu hỏi mở; câu đúng/sai trong app dựng từ bài điền khuyết slide 51. |
+| 课文3 · 在家 | `sound9.mp3` | 34,1 s | Slide 53-57, hội thoại 周太太／周明 5 lượt, kèm 3 câu đúng/sai (slide 54). |
+| 课文4 · 怎么运动 | `sound12.mp3` | 56,5 s | Slide 58-60, đoạn văn. Slide không có bài sắp xếp; app dùng thứ tự câu trong bài. |
+
+Các tệp còn lại (`sound1`-`sound4`, `sound6`, `sound7`, `sound10`, `sound11`) đều dưới 2,1 s — tiếng đúng/sai và tiếng chuyển slide.
+
+### Thứ tự đúng của bài sắp xếp hội thoại
+
+| Bài | Thứ tự trên slide |
+| --- | --- |
+| 课文1 (slide 43) | `3 2 4 5 1` |
+| 课文2 (slide 48) | `6 1 4 2 5 3` |
+| 课文3 (slide 53) | `2 5 4 1 3` |
+| 课文4 | không có bài sắp xếp trên slide |
+
+### Từ mới (slide 4-5)
+
+请假 qǐng jià · 一共 yígòng · 邻居 línjū · 后来 hòulái · 爱好 àihào · 办法 bànfǎ · 选择 xuǎnzé · 冬天 dōngtiān · 必须 bìxū · 根据 gēnjù · 情况 qíngkuàng · 渴 kě · 饱 bǎo · 为了 wèile · 决定 juédìng
+
+### Điểm ngữ pháp (slide 22, 24, 26, 28-29)
+
+| Mục | Nội dung |
+| --- | --- |
+| 1. (slide 22) | `后来` VS `以后`. 后来 chỉ kể chuyện đã xảy ra và đứng một mình đầu vế sau; 以后 dùng được cho cả tương lai và gắn được vào sau danh từ／động từ. |
+| 2.(1) (slide 24) | `S + 为 + đối tượng + động từ` — dẫn ra người hưởng kết quả, 为 đứng sau chủ ngữ. |
+| 2.(2) (slide 24) | `S + 为 + nguyên nhân + tính từ／động từ tâm lý` — dẫn ra lý do của cảm xúc. |
+| 2.(3) (slide 24) | `为了 + mục đích，mệnh đề` ＝ `mệnh đề + 就是为了 + mục đích` — dẫn ra mục đích. |
+| 3. (slide 26) | `从 + mốc（thời gian／nơi chốn／sự việc）+ 起` — bắt đầu từ …, 起 ＝ 开始. |
+| 4.(1) (slide 28) | `谁／什么／怎么／哪儿／哪 + 都（也）` — cả phạm vi đều như nhau, bằng 每一个……都……. Sau 哪 phải có lượng từ. |
+| 4.(2) (slide 29) | Hô ứng: lặp lại CÙNG một đại từ nghi vấn ở hai vế, vế sau thêm 就 — "cái nào … thì cái đó …". Slide 29 còn nhắc lại 什么 phiếm chỉ (đã học ngày 06/11). |
+
+### Đáp án các bài luyện trên slide
+
+- Slide 6 (ghép ảnh–từ): 1 邻居→F · 2 爱好→E · 3 选择→C · 4 饱→A · 5 渴→D · 6 冬天→B. Slide chỉ có 5 ảnh dùng được nên app dựng lại thành 5 câu điền từ kèm ảnh riêng.
+- Slide 7: 春天 · 夏天 · 秋天 · 冬天.
+- Slide 23 (后来／以后): 后来 · 以后 · 以后 · 后来 · 后来 · 后来.
+- Slide 32-33 (điền đại từ nghi vấn): 什么都没吃 · 谁都喜欢她 · 什么都爱吃 · 哪儿都去过 · 怎么上学都行.
+- Slide 34 (sắp xếp): 小刚什么都喜欢吃 · 我们怎么去公园都可以 · 谁都想去听音乐会.
+- Slide 36-39 (hoàn thành hội thoại): 练习练习·什么 · 复习复习·什么都要复习 · 锻炼锻炼·哪个 · 打扫打扫·哪个周末.
+- Slide 46 (课文1): 请假 · 请几天假 · 她的一个老朋友结婚 · 两年没见了 · 请三天假.
+- Slide 51 (课文2): 高高的 · 邻居 · 后来 · 很不错 · 爱好 · 什么 · 介绍他们认识 · 就是小丽的丈夫.
+- Slide 56 (课文3): 哪儿都不舒服 · 去医院检查检查 · 太久没运动了 · 谁 · 吃饱了就睡觉 · 健康 · 长跑.
+- Slide 60 (课文4): 运动很重要 · “对”的时间 · 早上9点 · 晚一些 · “对”的地点 · 公园 · 山上 · 游泳馆 · 自己的健康情况 · 一定要休息休息 · 马上喝水.
+- Slide 64-65 (ghép chữ): 结婚＋请假→婚假 · 生病＋请假→病假 · 有事＋请假→事假 · 怎么＋办法→怎么办 · 喜欢＋爱好→喜爱.
+- Slide 66-68 (chọn từ): 请假 · 为了 · 后来 · 冬天 · 爱好 · 邻居 · 一共 · 办法 · 饱 · 决定.
+- Slide 18, 19-20, 25, 27, 30-31, 35, 40-41, 61-62 không in đáp án (bài nói mở); app đưa ra một hoặc vài cách nói hợp lệ.
+
+### Ảnh đã tải về
+
+14 ảnh của bài ghép ảnh–từ (slide 6), bài gọi tên bốn mùa (slide 7) và bài nhìn tranh đặt câu với 根据／决定／选择／必须 (slide 19-20) đã tải từ `data/imgNN.png|jpg` của bộ slide, thu nhỏ còn tối đa 360px và lưu vào `public/images/l1311/`.
+
+Slide 8-17 (trò chơi chọn từ theo nghĩa tiếng Anh), 21, 42, 47, 52, 57, 61-63, 69 là slide tiêu đề, bài đọc thuộc lòng hoặc bài nói theo cặp — không tạo bài riêng trong app ngoài phần đã ghi ở trên.

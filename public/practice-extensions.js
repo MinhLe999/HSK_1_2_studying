@@ -7008,5 +7008,128 @@ window.HSK_PRACTICE_EXTENSIONS = {
         "sample": "这几年城市的变化很大，人和人的关系也变得更好了。"
       }
     ]
+  },
+  "l1311": {
+    "date": "13/11/2026",
+    "reading": {
+      "prose": "我以前什么运动都不喜欢，下了班就回家看电视。后来我的邻居告诉我，为了健康，每天走路半个小时也很好。从那个星期起，我决定每天晚上去公园走走。开始的时候我走得很慢，走一会儿就口渴，后来越走越快，现在一共能走五公里了。走路已经成了我最大的爱好，哪天不走我就觉得哪儿都不舒服。我的办法很简单：根据自己的情况选择时间和地点，不要吃得太饱就出去，也不要刚走完就马上喝水。",
+      "dialogue": [
+        "小丽：周经理，下个星期我可以请几天假吗？",
+        "周明：你有什么事？",
+        "小丽：我的一个老朋友结婚，我跟他两年没见了。",
+        "周明：你一共想请几天假？",
+        "小丽：三天。从星期一起行吗？",
+        "周明：可以。为了不影响工作，你走以前把这个月的练习都检查检查。",
+        "小丽：没问题，我哪天有时间就哪天做完它。",
+        "周明：对了，你朋友住在哪儿？远不远？",
+        "小丽：不太远，他以前是我的邻居，后来搬到南方去了。",
+        "周明：那你路上注意身体，别太累了。"
+      ],
+      "questions": [
+        {
+          "id": "l1311-r1",
+          "prompt": "说话人以前下了班做什么？",
+          "options": [
+            "回家看电视",
+            "去公园走路",
+            "去医院检查",
+            "跟邻居聊天"
+          ],
+          "answer": 0,
+          "explanation": "Câu đầu đoạn văn nói \"以前什么运动都不喜欢，下了班就回家看电视\"。"
+        },
+        {
+          "id": "l1311-r2",
+          "prompt": "是谁告诉他每天走路半个小时也很好的？",
+          "options": [
+            "他的邻居",
+            "他的医生",
+            "他的同事",
+            "他的老师"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"后来我的邻居告诉我\"。"
+        },
+        {
+          "id": "l1311-r3",
+          "prompt": "他现在一共能走多远？",
+          "options": [
+            "五公里",
+            "三公里",
+            "半公里",
+            "十公里"
+          ],
+          "answer": 0,
+          "explanation": "Đoạn văn nói \"现在一共能走五公里了\"。"
+        },
+        {
+          "id": "l1311-r4",
+          "prompt": "小丽为什么要请假？",
+          "options": [
+            "她的老朋友结婚",
+            "她自己生病了",
+            "她想去旅游",
+            "她要搬家"
+          ],
+          "answer": 0,
+          "explanation": "Tiểu Lệ nói \"我的一个老朋友结婚\"。"
+        },
+        {
+          "id": "l1311-r5",
+          "prompt": "周经理让小丽走以前做什么？",
+          "options": [
+            "把这个月的练习都检查检查",
+            "写一个报告",
+            "打扫办公室",
+            "给朋友打电话"
+          ],
+          "answer": 0,
+          "explanation": "周明 nói \"你走以前把这个月的练习都检查检查\"。"
+        }
+      ]
+    },
+    "wordTasks": [
+      {
+        "id": "l1311-w1",
+        "kind": "sentence-given-words",
+        "topic": "kể lại quan hệ với một người quen cũ",
+        "structure": "（mốc quá khứ），后来 + mệnh đề",
+        "words": [
+          "后来",
+          "邻居"
+        ],
+        "required": "后来、邻居",
+        "prompt": "Dùng đủ hai từ để kể rằng trước kia hai người là hàng xóm, về sau là bạn đại học, quan hệ luôn rất tốt.",
+        "sample": "我们过去是邻居，后来是大学同学，关系一直很不错。"
+      },
+      {
+        "id": "l1311-w2",
+        "kind": "sentence-given-words",
+        "topic": "nói mốc bắt đầu một thói quen mới",
+        "structure": "从 + mốc + 起",
+        "words": [
+          "从",
+          "起",
+          "决定"
+        ],
+        "required": "从、起、决定",
+        "prompt": "Dùng đủ ba từ để nói từ ngày mai bạn quyết định ngày nào cũng đi chạy bộ.",
+        "sample": "从明天起，我决定每天去长跑。"
+      },
+      {
+        "id": "l1311-w3",
+        "kind": "sentence-given-words",
+        "topic": "kể một người việc gì cũng làm được",
+        "structure": "Đại từ nghi vấn + 都",
+        "words": [
+          "什么",
+          "都",
+          "爱好"
+        ],
+        "required": "什么、都、爱好",
+        "prompt": "Dùng đủ ba từ để nói anh ấy có rất nhiều sở thích, hát, vẽ, đá bóng, cái gì cũng biết.",
+        "sample": "他有很多爱好，唱歌、画画、踢足球，什么都会。"
+      }
+    ]
   }
 };

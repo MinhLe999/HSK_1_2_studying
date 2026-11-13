@@ -5133,5 +5133,205 @@ window.HSK_STRUCTURES = {
         }
       }
     ]
+  },
+  "l1311": {
+    "date": "13/11/2026",
+    "topic": "后来／以后, 为／为了, 从……起 và đại từ nghi vấn phiếm chỉ",
+    "items": [
+      {
+        "id": "l1311-s1",
+        "formula": "1. （mốc quá khứ），后来 + mệnh đề",
+        "sense": "Về sau, sau đó (chuyện ĐÃ xảy ra)",
+        "usage": "后来 chỉ dùng khi kể chuyện quá khứ: phải có một mốc trong quá khứ rồi mới tới 后来\n后来 đứng một mình ở đầu vế sau, KHÔNG gắn được vào sau danh từ hay động từ\n以后 thì nói về thời gian sau một mốc bất kỳ, dùng được cho cả việc chưa xảy ra, và gắn được vào sau danh từ／động từ như 下课以后、三年以后.",
+        "examples": [
+          "后来我去医院工作了。",
+          "我们过去是邻居，后来是大学同学，关系一直很不错。",
+          "开始的时候，我对音乐不感兴趣，后来越来越喜欢音乐。"
+        ],
+        "meanings": [
+          "Về sau tôi đến bệnh viện làm việc.",
+          "Trước kia chúng tôi là hàng xóm, sau đó là bạn đại học, quan hệ luôn rất tốt.",
+          "Lúc đầu tôi không thích âm nhạc, về sau càng ngày càng thích."
+        ],
+        "table": {
+          "columns": [
+            "",
+            "后来",
+            "以后"
+          ],
+          "rows": [
+            [
+              "Mốc thời gian",
+              "chỉ quá khứ",
+              "quá khứ hoặc tương lai đều được"
+            ],
+            [
+              "Vị trí",
+              "đứng một mình đầu vế sau",
+              "đứng một mình, hoặc sau danh từ／động từ"
+            ],
+            [
+              "Ví dụ",
+              "后来我去医院工作了。",
+              "以后我想去医院工作。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l1311-s2",
+        "formula": "2.1 S + 为 + đối tượng + động từ",
+        "sense": "Vì ai đó, cho ai đó (dẫn ra đối tượng)",
+        "usage": "Dạng này 为 dẫn ra người được hưởng kết quả của hành động\n为 thường đứng SAU chủ ngữ, không đứng đầu câu\nvăn nói hay thay bằng 给.",
+        "examples": [
+          "这是我为你买的鲜花。",
+          "妈妈为我们做了很多好吃的菜。",
+          "老师为学生准备了一些练习。"
+        ],
+        "meanings": [
+          "Đây là hoa tươi tôi mua cho bạn.",
+          "Mẹ nấu cho chúng tôi rất nhiều món ngon.",
+          "Cô giáo chuẩn bị một số bài luyện cho học sinh."
+        ]
+      },
+      {
+        "id": "l1311-s3",
+        "formula": "2.2 S + 为 + nguyên nhân + tính từ／động từ tâm lý",
+        "sense": "Vì chuyện gì đó mà … (dẫn ra nguyên nhân)",
+        "usage": "Dạng này 为 dẫn ra lý do của cảm xúc\nphía sau thường là từ chỉ tâm trạng như 高兴、满意、着急\nkhác dạng 2.1 ở chỗ sau 为 là một SỰ VIỆC chứ không phải một người.",
+        "examples": [
+          "我们都为你的成功高兴。",
+          "大家都为这个好消息高兴极了。",
+          "妈妈为我的身体着急。"
+        ],
+        "meanings": [
+          "Chúng tôi đều mừng cho thành công của bạn.",
+          "Mọi người đều vui cực kỳ vì tin tốt này.",
+          "Mẹ lo lắng vì sức khỏe của tôi."
+        ]
+      },
+      {
+        "id": "l1311-s4",
+        "formula": "2.3 为了 + mục đích，mệnh đề ＝ mệnh đề + 就是为了 + mục đích",
+        "sense": "Để …, vì mục đích …",
+        "usage": "为了 dẫn ra MỤC ĐÍCH của việc làm phía sau\nthường đứng đầu câu, vế sau mới là việc làm\nmuốn đưa mục đích ra sau thì dùng 就是为了 ở cuối câu\nchú ý phân biệt với 为 ở hai dạng trên, xem bảng bên dưới.",
+        "examples": [
+          "为了通过考试，大家都在认真复习。",
+          "为了健康，我真应该多锻炼锻炼了。",
+          "我学汉语就是为了找工作。"
+        ],
+        "meanings": [
+          "Để thi đỗ, mọi người đều đang ôn tập nghiêm túc.",
+          "Vì sức khỏe, tôi thật sự nên vận động nhiều hơn.",
+          "Tôi học tiếng Hán chính là để tìm việc."
+        ],
+        "table": {
+          "columns": [
+            "Dẫn ra",
+            "Dùng",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "Đối tượng（một NGƯỜI）",
+              "为（sau chủ ngữ）",
+              "这是我为你买的鲜花。"
+            ],
+            [
+              "Nguyên nhân（một SỰ VIỆC đã có）",
+              "为",
+              "我们都为你的成功高兴。"
+            ],
+            [
+              "Mục đích（việc MUỐN đạt được）",
+              "为了（đầu câu）／就是为了（cuối câu）",
+              "为了健康，我真应该多锻炼锻炼了。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l1311-s5",
+        "formula": "3. 从 + mốc（thời gian／nơi chốn／sự việc）+ 起",
+        "sense": "Bắt đầu từ …",
+        "usage": "起 ở đây nghĩa là 开始, đặt ngay sau mốc\nmốc có thể là thời gian（明天、星期一）, nơi chốn（这儿）hoặc một sự việc（参加比赛、上大学）\nkhi mốc là sự việc thì giữa 从 và 起 là cả một cụm động từ\nvế sau thường nói việc sẽ làm từ mốc đó trở đi.",
+        "examples": [
+          "从明天起，我决定每天去长跑。",
+          "这条路从这儿起就没有公交车了。",
+          "从参加比赛起，我就没有好好休息过。"
+        ],
+        "meanings": [
+          "Từ ngày mai, tôi quyết định ngày nào cũng đi chạy bộ.",
+          "Con đường này từ đây trở đi là không có xe buýt nữa.",
+          "Từ khi tham gia thi đấu, tôi chưa được nghỉ ngơi tử tế lần nào."
+        ]
+      },
+      {
+        "id": "l1311-s6",
+        "formula": "4.1 谁／什么／怎么／哪儿／哪 + 都（也）+ …",
+        "sense": "Ai cũng …, cái gì cũng …, đâu cũng …",
+        "usage": "Đại từ nghi vấn ở đây KHÔNG dùng để hỏi mà chỉ \"mọi/bất kỳ\", nói rằng cả phạm vi đều như nhau, bằng với 每一个……都……\nvế sau bắt buộc có 都, câu phủ định có thể dùng 也\nsau 哪 phải có lượng từ: 哪个、哪天、哪顶.",
+        "examples": [
+          "谁都喜欢小丽。",
+          "小刚什么都喜欢吃。",
+          "最近我觉得哪儿都不舒服。"
+        ],
+        "meanings": [
+          "Ai cũng thích Tiểu Lệ.",
+          "Tiểu Cương cái gì cũng thích ăn.",
+          "Dạo này tôi thấy chỗ nào cũng khó chịu."
+        ],
+        "table": {
+          "columns": [
+            "Đại từ",
+            "Nghĩa khi đi với 都",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "谁 + 都",
+              "ai cũng",
+              "谁都知道运动对身体好。"
+            ],
+            [
+              "什么 + 都",
+              "cái gì cũng",
+              "小刚什么都喜欢吃。"
+            ],
+            [
+              "怎么 + 都",
+              "kiểu nào cũng",
+              "我们怎么去公园都可以。"
+            ],
+            [
+              "哪儿 + 都",
+              "đâu cũng",
+              "最近我觉得哪儿都不舒服。"
+            ],
+            [
+              "哪 + lượng từ + 都",
+              "cái nào cũng",
+              "哪个公园都可以。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l1311-s7",
+        "formula": "4.2 S + … đại từ nghi vấn …，（S +）就 + … CÙNG đại từ nghi vấn …",
+        "sense": "… nào … thì … nấy",
+        "usage": "Hai vế dùng LẶP LẠI cùng một đại từ nghi vấn để chỉ cùng một người／vật／cách chưa xác định\nvế sau thêm 就\nhai vế có thể cùng chủ ngữ hoặc khác chủ ngữ\nkhác dạng 4.1 ở chỗ dạng này nói \"cái nào thỏa điều kiện thì chọn cái đó\", còn 4.1 nói \"cái nào cũng vậy\".",
+        "examples": [
+          "你哪天有时间就哪天来我家吧。",
+          "什么东西便宜我就买什么东西。",
+          "你想怎么去就怎么去。"
+        ],
+        "meanings": [
+          "Bạn ngày nào rảnh thì ngày đó đến nhà tôi nhé.",
+          "Thứ gì rẻ thì tôi mua thứ đó.",
+          "Bạn muốn đi kiểu nào thì đi kiểu đó."
+        ]
+      }
+    ]
   }
 };

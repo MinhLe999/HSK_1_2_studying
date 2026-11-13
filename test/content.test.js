@@ -34,13 +34,13 @@ function formAppearsInExamples(label, examples) {
   });
 }
 
-test("có đủ 45 ngày và bốn ngày cuối mới nhất", () => {
-  assert.equal(content.lessons.length, 45);
+test("có đủ 46 ngày và bốn ngày cuối mới nhất", () => {
+  assert.equal(content.lessons.length, 46);
   assert.deepEqual(
     content.lessons.slice(-4).map(lesson => lesson.date),
-    ["02/11/2026", "04/11/2026", "06/11/2026", "09/11/2026"]
+    ["04/11/2026", "06/11/2026", "09/11/2026", "13/11/2026"]
   );
-  assert.equal(content.lessons.at(-1).pages, "slide 1-70");
+  assert.equal(content.lessons.at(-1).pages, "slide 1-69");
 });
 
 test("bài 29/05 có hướng dẫn và bài luyện số lớn", () => {

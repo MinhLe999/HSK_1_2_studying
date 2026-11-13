@@ -1769,4 +1769,39 @@ window.HSK_PRODUCTION = {
       "sample": "不用花钱，还有新衣服穿，他满意极了。"
     }
   ]
+,
+  "l1311": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "xin nghỉ phép ở công ty",
+      "structure": "S + 想请 + số lượng + 天假",
+      "prompt": "Dùng 一共 nói với giám đốc rằng bạn tổng cộng muốn xin nghỉ ba ngày.",
+      "required": "一共",
+      "sample": "周经理，我一共想请三天假。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "nói mục đích của việc học tiếng Hán",
+      "structure": "为了 + mục đích，mệnh đề",
+      "prompt": "Dùng 为了 nói để tìm được công việc tốt, bạn quyết định mỗi ngày học hai tiếng tiếng Hán.",
+      "required": "为了",
+      "sample": "为了找到好工作，我决定每天学两个小时汉语。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "hỏi về sở thích của một người",
+      "structure": "S + 有什么 + danh từ？",
+      "prompt": "Câu trả lời là 他有很多爱好，唱歌、画画、踢足球，什么都会。 Hãy đặt một câu hỏi phù hợp.",
+      "required": "爱好",
+      "sample": "他有什么爱好？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "trả lời về tình trạng sức khỏe dạo này",
+      "structure": "哪儿 + 都 + 不 + tính từ",
+      "prompt": "Có người hỏi 你最近怎么了？ Hãy trả lời bằng một câu có 哪儿都.",
+      "required": "哪儿都",
+      "sample": "最近我觉得哪儿都不舒服，想去医院检查检查。"
+    }
+  ]
 };

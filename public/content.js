@@ -15791,6 +15791,1327 @@ window.HSK_CONTENT = {
           ]
         ]
       }
+    },
+    {
+      "id": "l1311",
+      "date": "13/11/2026",
+      "shortDate": "13/11",
+      "title": "后来／以后, 为／为了, 从……起 và đại từ nghi vấn phiếm chỉ",
+      "focus": "后来 vs 以后 / 为 dẫn đối tượng và nguyên nhân / 为了 dẫn mục đích / 从……起 / 疑问代词 + 都 / hô ứng 疑问代词……就……疑问代词",
+      "pages": "slide 1-69",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在公司 — xin nghỉ phép",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261023_105105_twjtkhuf/data/sound5.mp3",
+          "note": "Slide 43-47. Thứ tự đúng trên slide: 3 2 4 5 1. Hai câu hỏi trắc nghiệm ở slide 44.",
+          "dialogueLines": [
+            "小丽：周经理，下个星期我可以请几天假吗？",
+            "周明：你有什么事？",
+            "小丽：我的一个老朋友结婚，我跟他两年没见了。",
+            "周明：你一共想请几天假？",
+            "小丽：三天。"
+          ],
+          "trueFalse": [
+            [
+              "女的请假是因为老朋友结婚。",
+              true,
+              "小丽 nói “我的一个老朋友结婚”, đây là lý do xin nghỉ."
+            ],
+            [
+              "女的一共想请三天假。",
+              true,
+              "Câu cuối 小丽 trả lời “三天”."
+            ],
+            [
+              "女的是因为太累了想休息才请假。",
+              false,
+              "Slide 44 cho ba lựa chọn 太累了想休息／出去旅游／朋友结婚, đáp án là 朋友结婚."
+            ],
+            [
+              "女的跟那个老朋友两年没见面了。",
+              true,
+              "小丽 nói “我跟他两年没见了”."
+            ]
+          ]
+        },
+        {
+          "title": "课文2 · 在公司 — người đàn ông cao cao đó là ai",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261023_105105_twjtkhuf/data/sound8.mp3",
+          "note": "Slide 48-52. Thứ tự đúng trên slide: 6 1 4 2 5 3.",
+          "dialogueLines": [
+            "同事：小丽，那个高高的男人是你们公司的吗，你对他了解吗？",
+            "小丽：我们过去是邻居，后来是大学同学，关系一直很不错。",
+            "同事：他一般喜欢做什么？",
+            "小丽：他有很多爱好，唱歌、画画、踢足球，什么都会。",
+            "同事：真的？那你介绍我们认识认识吧。",
+            "小丽：不行，现在他是我丈夫。"
+          ],
+          "trueFalse": [
+            [
+              "小丽和那个男人过去是邻居，后来是大学同学。",
+              true,
+              "小丽 nói rõ hai mốc: 过去是邻居，后来是大学同学."
+            ],
+            [
+              "那个男人只会唱歌，别的爱好都没有。",
+              false,
+              "小丽 nói “唱歌、画画、踢足球，什么都会”."
+            ],
+            [
+              "小丽愿意介绍同事和那个男人认识。",
+              false,
+              "小丽 trả lời “不行”."
+            ],
+            [
+              "那个高高的男人是小丽的丈夫。",
+              true,
+              "Câu cuối: “现在他是我丈夫”."
+            ]
+          ]
+        },
+        {
+          "title": "课文3 · 在家 — ai cũng có cách chữa “bệnh” của bạn",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261023_105105_twjtkhuf/data/sound9.mp3",
+          "note": "Slide 53-57. Thứ tự đúng trên slide: 2 5 4 1 3. Ba câu đúng/sai ở slide 54.",
+          "dialogueLines": [
+            "周太太：最近我觉得哪儿都不舒服，你带我去医院检查检查吧。",
+            "周明：不用去医院，谁都有办法看好你的“病”。我问你，你多久没运动了？",
+            "周太太：我三年没运动了。",
+            "周明：谁都知道运动对身体好。但是你吃饱了就睡。",
+            "周太太：为了健康，我真应该多锻炼锻炼了。从明天起，我决定每天去长跑。"
+          ],
+          "trueFalse": [
+            [
+              "男的是医生。",
+              false,
+              "周明 là chồng của 周太太, không phải bác sĩ; anh ấy còn nói “不用去医院”."
+            ],
+            [
+              "女的三年没运动了。",
+              true,
+              "周太太 tự nói “我三年没运动了”."
+            ],
+            [
+              "为了身体健康，女的决定从明天开始跑步。",
+              true,
+              "Câu cuối: “从明天起，我决定每天去长跑”."
+            ]
+          ]
+        },
+        {
+          "title": "课文4 · 怎么运动 — vận động thế nào cho đúng",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20261023_105105_twjtkhuf/data/sound12.mp3",
+          "note": "Slide 58-60. Slide không có bài sắp xếp; thứ tự dưới đây là thứ tự câu trong bài đọc, dùng để luyện nghe lại.",
+          "dialogueLines": [
+            "“运动很重要”这句话谁都懂。但是你知道怎么运动吗？",
+            "第一，要选择“对”的时间。一般来说，早上九点是最好的时间，冬天要再晚一些。",
+            "第二，要选择“对”的地点，公园、山上、游泳馆这些地方都可以运动。",
+            "第三，必须要根据自己的健康情况运动。",
+            "如果你很久没爬山或者游泳了，运动一会儿就一定要休息休息。",
+            "还要记得刚运动完口渴的时候，不要马上喝水。"
+          ],
+          "trueFalse": [
+            [
+              "一般来说，早上九点是运动最好的时间。",
+              true,
+              "Bài nói “一般来说，早上九点是最好的时间”."
+            ],
+            [
+              "冬天运动的时间要比平时早一些。",
+              false,
+              "Bài nói 冬天要再晚一些, tức là MUỘN hơn chứ không sớm hơn."
+            ],
+            [
+              "只有公园可以运动。",
+              false,
+              "Bài kể cả 公园、山上、游泳馆 đều được."
+            ],
+            [
+              "刚运动完口渴的时候可以马上喝水。",
+              false,
+              "Câu cuối dặn “不要马上喝水”."
+            ],
+            [
+              "很久没运动的人，运动一会儿就要休息休息。",
+              true,
+              "Bài nói “运动一会儿就一定要休息休息”."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Bài 22 trên lớp, tương ứng HSK 标准教程 3 第17课 《谁都有办法看好你的“病”》. Nguồn là bộ slide 69 trang của lớp ChineseRd.",
+        "后来 và 以后 đều dịch là “sau đó” nhưng không thay nhau được: 后来 chỉ kể chuyện ĐÃ xảy ra trong quá khứ, 以后 dùng được cho cả việc chưa xảy ra. Mẹo nhớ: 后来我去医院工作了 (đã đi rồi) ≠ 以后我想去医院工作 (còn muốn đi).",
+        "后来 không gắn được vào sau danh từ hay động từ. Nói 下课以后、三年以后 thì được, nhưng không nói “下课后来”.",
+        "为 và 为了 khác nhau ở cái đứng sau: sau 为 là NGƯỜI (đối tượng) hoặc một SỰ VIỆC đã có (nguyên nhân); sau 为了 là MỤC ĐÍCH muốn đạt được.",
+        "为 thường đứng sau chủ ngữ (这是我为你买的鲜花), còn 为了 hay đứng đầu câu (为了健康，我应该多锻炼). Muốn đưa mục đích ra cuối câu thì dùng 就是为了: 我学汉语就是为了找工作。",
+        "从……起 nghĩa là “bắt đầu từ …”. Giữa 从 và 起 có thể là thời gian (明天), nơi chốn (这儿) hoặc cả một sự việc (参加比赛、上大学).",
+        "Đại từ nghi vấn 谁／什么／怎么／哪儿／哪 có hai cách dùng phiếm chỉ. Một là đi với 都 để nói cả phạm vi đều như nhau (谁都喜欢小丽). Hai là lặp lại ở hai vế kèm 就 để nói “cái nào … thì cái đó …” (什么东西便宜我就买什么东西).",
+        "Sau 哪 bắt buộc có lượng từ: 哪个公园、哪天、哪顶帽子. Không nói “哪都可以” mà nói 哪儿都可以 hoặc 哪个都可以.",
+        "Bài còn ôn lại cách láy động từ hai âm ABAB đã học ngày 09/11: 检查检查、锻炼锻炼、打扫打扫、复习复习、练习练习、认识认识.",
+        "Phần 汉字 ghép chữ: 结婚＋请假→婚假, 生病＋请假→病假, 有事＋请假→事假, 怎么＋办法→怎么办, 喜欢＋爱好→喜爱."
+      ],
+      "vocab": [
+        [
+          "请假",
+          "qǐng jià",
+          "xin nghỉ phép (Hán-Việt: Thỉnh Giả)"
+        ],
+        [
+          "一共",
+          "yígòng",
+          "tổng cộng (Hán-Việt: Nhất Cộng)"
+        ],
+        [
+          "邻居",
+          "línjū",
+          "hàng xóm (Hán-Việt: Lân Cư)"
+        ],
+        [
+          "后来",
+          "hòulái",
+          "về sau, sau đó (chuyện đã xảy ra) (Hán-Việt: Hậu Lai)"
+        ],
+        [
+          "爱好",
+          "àihào",
+          "sở thích (Hán-Việt: Ái Hảo)"
+        ],
+        [
+          "办法",
+          "bànfǎ",
+          "cách, biện pháp (Hán-Việt: Biện Pháp)"
+        ],
+        [
+          "选择",
+          "xuǎnzé",
+          "lựa chọn (Hán-Việt: Tuyển Trạch)"
+        ],
+        [
+          "冬天",
+          "dōngtiān",
+          "mùa đông (Hán-Việt: Đông Thiên)"
+        ],
+        [
+          "必须",
+          "bìxū",
+          "bắt buộc phải, nhất định phải (Hán-Việt: Tất Tu)"
+        ],
+        [
+          "根据",
+          "gēnjù",
+          "căn cứ vào, dựa theo (Hán-Việt: Căn Cứ)"
+        ],
+        [
+          "情况",
+          "qíngkuàng",
+          "tình hình, tình trạng (Hán-Việt: Tình Huống)"
+        ],
+        [
+          "渴",
+          "kě",
+          "khát (Hán-Việt: Khát)"
+        ],
+        [
+          "饱",
+          "bǎo",
+          "no (Hán-Việt: Bão)"
+        ],
+        [
+          "为了",
+          "wèile",
+          "để, vì (dẫn ra mục đích) (Hán-Việt: Vị Liễu)"
+        ],
+        [
+          "决定",
+          "juédìng",
+          "quyết định (Hán-Việt: Quyết Định)"
+        ]
+      ],
+      "patterns": [
+        [
+          "1. （mốc quá khứ），后来 + mệnh đề",
+          "Về sau, sau đó (chuyện ĐÃ xảy ra)\n后来 chỉ dùng khi kể chuyện quá khứ, đứng một mình ở đầu vế sau.\nSo với 以后: 以后 dùng được cho cả tương lai và gắn được vào sau danh từ／động từ (下课以后、三年以后)."
+        ],
+        [
+          "2.1 S + 为 + đối tượng + động từ",
+          "Vì ai đó, cho ai đó (dẫn ra đối tượng)\n为 dẫn ra người được hưởng kết quả của hành động, thường đứng SAU chủ ngữ.\nVăn nói hay thay bằng 给."
+        ],
+        [
+          "2.2 S + 为 + nguyên nhân + tính từ／động từ tâm lý",
+          "Vì chuyện gì đó mà … (dẫn ra nguyên nhân)\nSau 为 là một SỰ VIỆC đã có, phía sau thường là từ chỉ tâm trạng: 高兴、满意、着急.\nKhác dạng 2.1 ở chỗ sau 为 không phải một người."
+        ],
+        [
+          "2.3 为了 + mục đích，mệnh đề ＝ mệnh đề + 就是为了 + mục đích",
+          "Để …, vì mục đích …\n为了 dẫn ra MỤC ĐÍCH muốn đạt được, thường đứng đầu câu.\nMuốn đưa mục đích ra sau thì dùng 就是为了 ở cuối câu."
+        ],
+        [
+          "3. 从 + mốc（thời gian／nơi chốn／sự việc）+ 起",
+          "Bắt đầu từ …\n起 ở đây nghĩa là 开始, đặt ngay sau mốc.\nMốc có thể là thời gian (明天), nơi chốn (这儿) hoặc cả một sự việc (参加比赛)."
+        ],
+        [
+          "4.1 谁／什么／怎么／哪儿／哪 + 都（也）+ …",
+          "Ai cũng …, cái gì cũng …, đâu cũng …\nĐại từ nghi vấn ở đây không để hỏi mà chỉ “mọi/bất kỳ”, bằng với 每一个……都…….\nVế sau bắt buộc có 都; câu phủ định có thể dùng 也. Sau 哪 phải có lượng từ."
+        ],
+        [
+          "4.2 S + … đại từ nghi vấn …，（S +）就 + … CÙNG đại từ nghi vấn …",
+          "… nào … thì … nấy\nHai vế lặp lại cùng một đại từ nghi vấn, vế sau thêm 就.\nKhác 4.1: dạng này nói “cái nào thỏa điều kiện thì chọn cái đó”, còn 4.1 nói “cái nào cũng như nhau”."
+        ]
+      ],
+      "examples": [
+        [
+          "后来我去医院工作了。",
+          "Về sau tôi đến bệnh viện làm việc."
+        ],
+        [
+          "我们过去是邻居，后来是大学同学，关系一直很不错。",
+          "Trước kia chúng tôi là hàng xóm, sau đó là bạn đại học, quan hệ luôn rất tốt."
+        ],
+        [
+          "开始的时候，我对音乐不感兴趣，后来越来越喜欢音乐。",
+          "Lúc đầu tôi không thích âm nhạc, về sau càng ngày càng thích."
+        ],
+        [
+          "他昨天身体不舒服，后来去医院检查了。",
+          "Hôm qua anh ấy thấy không khỏe, sau đó đã đi bệnh viện kiểm tra."
+        ],
+        [
+          "她努力学习，后来考上了很好的大学。",
+          "Cô ấy học hành chăm chỉ, về sau đỗ được một trường đại học rất tốt."
+        ],
+        [
+          "以后我想去医院工作。",
+          "Sau này tôi muốn đến bệnh viện làm việc."
+        ],
+        [
+          "你搬进新家以后可以休息一下了。",
+          "Sau khi dọn vào nhà mới bạn có thể nghỉ ngơi một chút rồi."
+        ],
+        [
+          "以后你有什么不明白的地方，可以直接发邮件给我。",
+          "Sau này có chỗ nào chưa hiểu, bạn có thể gửi thư điện tử thẳng cho tôi."
+        ],
+        [
+          "这是我为你买的鲜花。",
+          "Đây là hoa tươi tôi mua cho bạn."
+        ],
+        [
+          "妈妈为我们做了很多好吃的菜。",
+          "Mẹ nấu cho chúng tôi rất nhiều món ngon."
+        ],
+        [
+          "老师为学生准备了一些练习。",
+          "Cô giáo chuẩn bị một số bài luyện cho học sinh."
+        ],
+        [
+          "我们都为你的成功高兴。",
+          "Chúng tôi đều mừng cho thành công của bạn."
+        ],
+        [
+          "大家都为这个好消息高兴极了。",
+          "Mọi người đều vui cực kỳ vì tin tốt này."
+        ],
+        [
+          "妈妈为我的身体着急。",
+          "Mẹ lo lắng vì sức khỏe của tôi."
+        ],
+        [
+          "为了通过考试，大家都在认真复习。",
+          "Để thi đỗ, mọi người đều đang ôn tập nghiêm túc."
+        ],
+        [
+          "为了健康，我真应该多锻炼锻炼了。",
+          "Vì sức khỏe, tôi thật sự nên vận động nhiều hơn."
+        ],
+        [
+          "我学汉语就是为了找工作。",
+          "Tôi học tiếng Hán chính là để tìm việc."
+        ],
+        [
+          "为了身体好，你应该早点儿休息。",
+          "Để cơ thể khỏe mạnh, bạn nên đi ngủ sớm một chút."
+        ],
+        [
+          "爸爸妈妈为了孩子一直在努力工作。",
+          "Bố mẹ vì con cái mà luôn làm việc vất vả."
+        ],
+        [
+          "从明天起，我决定每天去长跑。",
+          "Từ ngày mai, tôi quyết định ngày nào cũng đi chạy bộ."
+        ],
+        [
+          "这条路从这儿起就没有公交车了。",
+          "Con đường này từ đây trở đi là không có xe buýt nữa."
+        ],
+        [
+          "从参加比赛起，我就没有好好休息过。",
+          "Từ khi tham gia thi đấu, tôi chưa được nghỉ ngơi tử tế lần nào."
+        ],
+        [
+          "从周末起，我要开始学跳舞。",
+          "Từ cuối tuần này, tôi sẽ bắt đầu học nhảy."
+        ],
+        [
+          "从星期一起，我要请三天假。",
+          "Từ thứ Hai, tôi xin nghỉ ba ngày."
+        ],
+        [
+          "谁都喜欢小丽。",
+          "Ai cũng thích Tiểu Lệ."
+        ],
+        [
+          "小刚什么都喜欢吃。",
+          "Tiểu Cương cái gì cũng thích ăn."
+        ],
+        [
+          "我们怎么去公园都可以。",
+          "Chúng ta đi công viên kiểu nào cũng được."
+        ],
+        [
+          "最近我觉得哪儿都不舒服。",
+          "Dạo này tôi thấy chỗ nào cũng khó chịu."
+        ],
+        [
+          "谁都知道运动对身体好。",
+          "Ai cũng biết vận động tốt cho sức khỏe."
+        ],
+        [
+          "不用去医院，谁都有办法看好你的“病”。",
+          "Không cần đi bệnh viện, ai cũng có cách chữa khỏi “bệnh” của bạn."
+        ],
+        [
+          "我今天发烧了，什么都没吃。",
+          "Hôm nay tôi bị sốt, chẳng ăn gì cả."
+        ],
+        [
+          "我家离学校很近，怎么上学都行。",
+          "Nhà tôi gần trường, đi học kiểu nào cũng được."
+        ],
+        [
+          "我对这里很了解，哪儿都去过。",
+          "Tôi rất rành chỗ này, đâu tôi cũng từng đến."
+        ],
+        [
+          "你哪天有时间就哪天来我家吧。",
+          "Bạn ngày nào rảnh thì ngày đó đến nhà tôi nhé."
+        ],
+        [
+          "什么东西便宜我就买什么东西。",
+          "Thứ gì rẻ thì tôi mua thứ đó."
+        ],
+        [
+          "你想怎么去就怎么去。",
+          "Bạn muốn đi kiểu nào thì đi kiểu đó."
+        ],
+        [
+          "周经理，下个星期我可以请几天假吗？",
+          "Giám đốc Chu, tuần sau tôi xin nghỉ mấy ngày được không ạ?"
+        ],
+        [
+          "你一共想请几天假？",
+          "Tổng cộng bạn muốn xin nghỉ mấy ngày?"
+        ],
+        [
+          "他有很多爱好，唱歌、画画、踢足球，什么都会。",
+          "Anh ấy có rất nhiều sở thích, hát, vẽ, đá bóng, cái gì cũng biết."
+        ],
+        [
+          "一般来说，早上九点是最好的时间，冬天要再晚一些。",
+          "Nói chung chín giờ sáng là lúc tốt nhất, mùa đông thì phải muộn hơn một chút."
+        ],
+        [
+          "必须要根据自己的健康情况运动。",
+          "Nhất định phải vận động dựa theo tình trạng sức khỏe của bản thân."
+        ],
+        [
+          "刚运动完口渴的时候，不要马上喝水。",
+          "Lúc vừa vận động xong mà khát nước thì đừng uống nước ngay."
+        ],
+        [
+          "谁都知道运动对身体好，但是你吃饱了就睡。",
+          "Ai cũng biết vận động tốt cho sức khỏe, vậy mà bạn ăn no xong là đi ngủ."
+        ],
+        [
+          "第二，要选择“对”的地点。",
+          "Thứ hai, phải chọn địa điểm “đúng”."
+        ]
+      ],
+      "drills": [
+        [
+          "Đổi 我去医院工作了（chuyện đã xảy ra）thành câu có 后来",
+          "后来我去医院工作了。"
+        ],
+        [
+          "Dùng 以后 nói sau này bạn muốn đến bệnh viện làm việc.",
+          "以后我想去医院工作。"
+        ],
+        [
+          "Dùng 为 nói đây là hoa tươi bạn mua cho đối phương.",
+          "这是我为你买的鲜花。"
+        ],
+        [
+          "Dùng 为 nói mọi người đều mừng cho thành công của đối phương.",
+          "我们都为你的成功高兴。"
+        ],
+        [
+          "Đổi 大家都在认真复习，因为想通过考试 thành câu có 为了",
+          "为了通过考试，大家都在认真复习。"
+        ],
+        [
+          "Dùng 就是为了 nói bạn học tiếng Hán chính là để tìm việc.",
+          "我学汉语就是为了找工作。"
+        ],
+        [
+          "Dùng 从……起 nói từ ngày mai bạn quyết định ngày nào cũng đi chạy bộ.",
+          "从明天起，我决定每天去长跑。"
+        ],
+        [
+          "Dùng 从……起 nói từ thứ Hai bạn xin nghỉ ba ngày.",
+          "从星期一起，我要请三天假。"
+        ],
+        [
+          "Dùng 谁都 nói ai cũng biết vận động tốt cho sức khỏe.",
+          "谁都知道运动对身体好。"
+        ],
+        [
+          "Dùng 哪儿都 nói dạo này bạn thấy chỗ nào cũng khó chịu.",
+          "最近我觉得哪儿都不舒服。"
+        ],
+        [
+          "Dùng 什么都 nói hôm nay bạn bị sốt nên chẳng ăn gì cả.",
+          "我今天发烧了，什么都没吃。"
+        ],
+        [
+          "Dùng hô ứng 哪天……就哪天…… mời bạn mình hôm nào rảnh thì hôm đó tới chơi.",
+          "你哪天有时间就哪天来我家吧。"
+        ],
+        [
+          "Dùng hô ứng 什么……就……什么 nói thứ gì rẻ thì bạn mua thứ đó.",
+          "什么东西便宜我就买什么东西。"
+        ]
+      ],
+      "quiz": [
+        [
+          "Câu nào dùng ĐÚNG 后来?",
+          [
+            "他昨天不舒服，后来去医院检查了。",
+            "后来我想去医院工作。",
+            "下课后来我们去吃饭吧。",
+            "后来三年我要去中国。"
+          ],
+          0,
+          "后来 chỉ kể chuyện ĐÃ xảy ra và đứng một mình đầu vế sau; ba câu còn lại phải dùng 以后."
+        ],
+        [
+          "“我学汉语就是为了找工作。” Chữ 为了 ở đây dẫn ra điều gì?",
+          [
+            "mục đích của việc học",
+            "đối tượng được hưởng lợi",
+            "nguyên nhân đã xảy ra",
+            "thời gian bắt đầu"
+          ],
+          0,
+          "Sau 为了 là việc MUỐN đạt được, tức mục đích (slide 24)."
+        ],
+        [
+          "Chọn câu đúng: dẫn ra người được hưởng kết quả của hành động.",
+          [
+            "这是我为你买的鲜花。",
+            "这是我为了你买的鲜花。",
+            "为你我买的鲜花这是。",
+            "这是我为了买鲜花的你。"
+          ],
+          0,
+          "Sau 为 là một NGƯỜI nên không dùng 为了; 为 đứng sau chủ ngữ 我."
+        ],
+        [
+          "Câu 从参加比赛起，我就没有好好休息过。 Mốc nằm giữa 从 và 起 là gì?",
+          [
+            "một sự việc",
+            "một thời điểm trên đồng hồ",
+            "một địa điểm",
+            "một người"
+          ],
+          0,
+          "参加比赛 là cụm động từ, tức một sự việc (slide 26)."
+        ],
+        [
+          "Điền vào chỗ trống: 我对这里很了解，____都去过。",
+          [
+            "哪儿",
+            "哪",
+            "谁",
+            "怎么"
+          ],
+          0,
+          "Nói về NƠI CHỐN nên dùng 哪儿; 哪 phải có lượng từ đi kèm."
+        ],
+        [
+          "Câu 什么东西便宜我就买什么东西。 thuộc dạng nào?",
+          [
+            "hô ứng: lặp lại cùng một đại từ nghi vấn ở hai vế",
+            "đại từ nghi vấn + 都",
+            "câu hỏi thật",
+            "câu so sánh"
+          ],
+          0,
+          "什么东西 xuất hiện ở cả hai vế, vế sau có 就 nên đây là dạng hô ứng 4.2."
+        ]
+      ],
+      "practice": {
+        "cloze": [
+          {
+            "title": "练一练 · Nhìn ảnh gọi tên",
+            "description": "Bài ghép ảnh với từ ở slide 6. Nhìn ảnh rồi viết từ mới bằng chữ Hán.",
+            "items": [
+              [
+                "他们住在隔壁，是我的____。",
+                [
+                  "邻居"
+                ],
+                "邻居 línjū — hàng xóm.",
+                "images/l1311/lin-ju.png"
+              ],
+              [
+                "唱歌、画画、弹吉他都是他的____。",
+                [
+                  "爱好"
+                ],
+                "爱好 àihào — sở thích.",
+                "images/l1311/ai-hao.png"
+              ],
+              [
+                "树上都是雪，____到了。",
+                [
+                  "冬天"
+                ],
+                "冬天 dōngtiān — mùa đông.",
+                "images/l1311/dong-tian.png"
+              ],
+              [
+                "两个都不错，他不知道怎么____。",
+                [
+                  "选择"
+                ],
+                "选择 xuǎnzé — lựa chọn.",
+                "images/l1311/xuan-ze.png"
+              ],
+              [
+                "跑完步以后他很____，马上要喝水。",
+                [
+                  "渴"
+                ],
+                "渴 kě — khát.",
+                "images/l1311/ke.png"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Nhìn ảnh gọi tên bốn mùa",
+            "description": "Bài nhìn tranh nói tên mùa ở slide 7. Viết bằng chữ Hán.",
+            "items": [
+              [
+                "Trong ảnh là mùa nào? ____",
+                [
+                  "春天"
+                ],
+                "Cây mới nhú lá, chưa có nắng gắt: 春天 chūntiān — mùa xuân.",
+                "images/l1311/chun-tian.png"
+              ],
+              [
+                "Trong ảnh là mùa nào? ____",
+                [
+                  "夏天"
+                ],
+                "Cây xanh um và có mặt trời: 夏天 xiàtiān — mùa hè.",
+                "images/l1311/xia-tian.png"
+              ],
+              [
+                "Trong ảnh là mùa nào? ____",
+                [
+                  "秋天"
+                ],
+                "Lá vàng đỏ: 秋天 qiūtiān — mùa thu.",
+                "images/l1311/qiu-tian.png"
+              ],
+              [
+                "Trong ảnh là mùa nào? ____",
+                [
+                  "冬天"
+                ],
+                "Núi phủ tuyết: 冬天 dōngtiān — mùa đông.",
+                "images/l1311/dong-tian-shan.png"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Nhìn ảnh đặt câu với 根据／决定／选择／必须",
+            "description": "Bài nhìn tranh đặt câu ở slide 19-20. Nhìn ảnh rồi điền từ còn thiếu.",
+            "items": [
+              [
+                "____天气预报，明天会下雨。",
+                [
+                  "根据"
+                ],
+                "根据 gēnjù — căn cứ vào; dựa theo dự báo thời tiết.",
+                "images/l1311/tian-qi-yu-bao.png"
+              ],
+              [
+                "从明天起，我____每天去长跑。",
+                [
+                  "决定"
+                ],
+                "决定 juédìng — quyết định (slide 26).",
+                "images/l1311/chang-pao.png"
+              ],
+              [
+                "为了身体健康，我们应该____水果，少吃快餐。",
+                [
+                  "选择"
+                ],
+                "选择 xuǎnzé — lựa chọn; vế trước dùng 为了 dẫn mục đích.",
+                [
+                  "images/l1311/kuai-can.png",
+                  "images/l1311/shui-guo.png"
+                ]
+              ],
+              [
+                "刚运动完口渴的时候，____休息一会儿再喝水。",
+                [
+                  "必须"
+                ],
+                "必须 bìxū — nhất định phải (slide 59).",
+                "images/l1311/he-shui.png"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn 后来 hay 以后",
+            "description": "Bài slide 23. Chuyện đã xảy ra thì dùng 后来, chuyện chưa xảy ra hoặc mốc bất kỳ thì dùng 以后.",
+            "items": [
+              [
+                "我们过去是邻居，____是大学同学，关系一直很好。",
+                [
+                  "后来"
+                ],
+                "Cả hai mốc đều ở quá khứ nên dùng 后来."
+              ],
+              [
+                "____你有什么不明白的地方，可以直接发邮件给我。",
+                [
+                  "以后"
+                ],
+                "Chuyện chưa xảy ra nên dùng 以后."
+              ],
+              [
+                "你搬进新家____可以休息一下了。",
+                [
+                  "以后"
+                ],
+                "以后 gắn được vào sau cụm động từ 搬进新家; 后来 thì không."
+              ],
+              [
+                "他昨天身体不舒服，____去医院检查了。",
+                [
+                  "后来"
+                ],
+                "Việc đã xảy ra hôm qua nên dùng 后来."
+              ],
+              [
+                "开始的时候，我对音乐不感兴趣，____越来越喜欢音乐。",
+                [
+                  "后来"
+                ],
+                "Có mốc 开始的时候 ở quá khứ rồi mới tới 后来."
+              ],
+              [
+                "她努力学习，____考上了很好的大学。",
+                [
+                  "后来"
+                ],
+                "Kết quả đã xảy ra nên dùng 后来."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành câu với 为了",
+            "description": "Bài slide 25. Thêm phần mục đích hoặc phần việc làm cho đủ câu.",
+            "items": [
+              [
+                "我学汉语就是____。",
+                [
+                  "为了找工作",
+                  "为了找到好工作"
+                ],
+                "Mục đích đưa ra cuối câu thì dùng 就是为了 (slide 24)."
+              ],
+              [
+                "____，你应该早点儿休息。",
+                [
+                  "为了身体好",
+                  "为了健康"
+                ],
+                "为了 đứng đầu câu dẫn ra mục đích."
+              ],
+              [
+                "爸爸妈妈____一直在努力工作。",
+                [
+                  "为了孩子",
+                  "为了我们"
+                ],
+                "Sau 为了 là mục đích/đối tượng mà bố mẹ hướng tới."
+              ],
+              [
+                "____，我这几天很晚才下班。",
+                [
+                  "为了完成工作",
+                  "为了完成这个工作"
+                ],
+                "Vế sau nói việc làm, vế trước nói mục đích."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Đặt câu với 从……起",
+            "description": "Bài slide 27. Dùng gợi ý trong ngoặc để viết câu có 从……起.",
+            "items": [
+              [
+                "（周末　跳舞）____",
+                [
+                  "从周末起，我要开始学跳舞",
+                  "从这个周末起，我要开始学跳舞"
+                ],
+                "Mốc là thời gian 周末."
+              ],
+              [
+                "（明天　决定）____",
+                [
+                  "从明天起，我决定每天去长跑",
+                  "从明天起，我决定每天运动"
+                ],
+                "Câu gốc ở slide 26."
+              ],
+              [
+                "（星期一　请假）____",
+                [
+                  "从星期一起，我要请三天假",
+                  "从星期一起，我想请假"
+                ],
+                "Mốc là thứ Hai."
+              ],
+              [
+                "（生病　见）____",
+                [
+                  "从生病起，我就没见过他",
+                  "从他生病起，我就没见过他"
+                ],
+                "Mốc là một sự việc nên giữa 从 và 起 là cụm động từ 生病."
+              ],
+              [
+                "（上大学　决定）____",
+                [
+                  "从上大学起，我就决定要当老师",
+                  "从上大学起，我就决定学汉语"
+                ],
+                "Mốc là sự việc 上大学."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Trả lời bằng đại từ nghi vấn + 都",
+            "description": "Bài slide 30-31. Trả lời sao cho câu có đại từ nghi vấn đi với 都.",
+            "items": [
+              [
+                "A：你喜欢吃什么菜？ B：____",
+                [
+                  "什么菜我都喜欢吃",
+                  "我什么菜都喜欢吃"
+                ],
+                "什么 + 都 nghĩa là cái gì cũng."
+              ],
+              [
+                "A：我们什么时候去看电影？ B：____",
+                [
+                  "什么时候都可以",
+                  "我什么时候都可以"
+                ],
+                "什么时候 + 都 nghĩa là lúc nào cũng được."
+              ],
+              [
+                "A：我们星期天去哪儿玩儿？ B：____",
+                [
+                  "哪儿都可以",
+                  "去哪儿都可以"
+                ],
+                "哪儿 + 都 nghĩa là đâu cũng được."
+              ],
+              [
+                "A：你想买哪顶帽子？ B：____",
+                [
+                  "哪顶都可以",
+                  "哪顶我都喜欢"
+                ],
+                "Sau 哪 phải có lượng từ 顶."
+              ],
+              [
+                "A：你要怎么去机场？ B：____",
+                [
+                  "怎么去都可以",
+                  "我怎么去都行"
+                ],
+                "怎么 + 都 nghĩa là kiểu nào cũng được."
+              ],
+              [
+                "A：你哪儿不舒服？ B：____",
+                [
+                  "我哪儿都不舒服",
+                  "哪儿都不舒服"
+                ],
+                "Câu phủ định vẫn giữ 都 (课文3, slide 55)."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Điền đại từ nghi vấn",
+            "description": "Bài slide 32-33. Điền cụm có đại từ nghi vấn cho hợp nghĩa.",
+            "items": [
+              [
+                "我今天发烧了，____。（没吃）",
+                [
+                  "什么都没吃"
+                ],
+                "Phủ định vẫn dùng 什么都."
+              ],
+              [
+                "小丽很喜欢帮助人，____。（喜欢）",
+                [
+                  "谁都喜欢她"
+                ],
+                "谁都 nghĩa là ai cũng."
+              ],
+              [
+                "我喜欢吃东西，____。（什么）",
+                [
+                  "什么都爱吃",
+                  "什么都喜欢吃"
+                ],
+                "什么都 + động từ."
+              ],
+              [
+                "我对这里很了解，____。（哪儿）",
+                [
+                  "哪儿都去过"
+                ],
+                "哪儿都 đi với động từ đã trải qua."
+              ],
+              [
+                "我家离学校很近，____。（方便）",
+                [
+                  "怎么上学都行",
+                  "怎么上学都方便"
+                ],
+                "怎么……都 nghĩa là kiểu nào cũng được."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành hội thoại bằng từ và cấu trúc mới",
+            "description": "Bài slide 36-39. Chỗ ghi (ABAB) cần một động từ hai âm được láy.",
+            "items": [
+              [
+                "A：老师，您可以帮我____（ABAB）口语吗？",
+                [
+                  "练习练习"
+                ],
+                "练习 láy thành 练习练习 (dạng ABAB đã học ngày 09/11)."
+              ],
+              [
+                "A：____时候开始都可以。",
+                [
+                  "什么"
+                ],
+                "什么时候 + 都 nghĩa là lúc nào cũng được."
+              ],
+              [
+                "A：快考试了，你____（ABAB）吧？",
+                [
+                  "复习复习"
+                ],
+                "复习 → 复习复习."
+              ],
+              [
+                "A：我应该复习什么啊？ B：____。",
+                [
+                  "什么都要复习",
+                  "什么都复习"
+                ],
+                "什么都 nghĩa là cái gì cũng."
+              ],
+              [
+                "A：今天天气不错，我们出去____（ABAB）吧。",
+                [
+                  "锻炼锻炼"
+                ],
+                "锻炼 → 锻炼锻炼."
+              ],
+              [
+                "B：____公园都可以。",
+                [
+                  "哪个"
+                ],
+                "Sau 哪 phải có lượng từ 个."
+              ],
+              [
+                "B：我打算在家里____（ABAB）。",
+                [
+                  "打扫打扫"
+                ],
+                "打扫 → 打扫打扫."
+              ],
+              [
+                "B：不一定。____有时间就打扫一下。",
+                [
+                  "哪个周末"
+                ],
+                "Dạng hô ứng: 哪个周末……就……"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Điền vào chỗ trống theo bài khóa",
+            "description": "Bài kể lại nội dung bốn bài khóa ở slide 46, 51, 56 và 60.",
+            "items": [
+              [
+                "小丽在和周经理____，她下个星期想请几天假。",
+                [
+                  "请假"
+                ],
+                "课文1: 小丽 xin nghỉ phép (slide 46)."
+              ],
+              [
+                "她跟老朋友已经____了。",
+                [
+                  "两年没见"
+                ],
+                "课文1: 我跟他两年没见了."
+              ],
+              [
+                "小丽和那个男人过去是____，后来是大学同学。",
+                [
+                  "邻居"
+                ],
+                "课文2 (slide 51)."
+              ],
+              [
+                "那个男人有很多爱好，唱歌、画画儿、踢足球，____都会。",
+                [
+                  "什么"
+                ],
+                "课文2: 什么都会."
+              ],
+              [
+                "最近周太太觉得____不舒服。",
+                [
+                  "哪儿都"
+                ],
+                "课文3 (slide 56)."
+              ],
+              [
+                "____都知道运动对身体好。",
+                [
+                  "谁"
+                ],
+                "课文3: 谁都知道运动对身体好."
+              ],
+              [
+                "周太太决定，为了____，以后每天都去长跑。",
+                [
+                  "健康"
+                ],
+                "课文3: 为了健康."
+              ],
+              [
+                "运动的时候必须根据自己的____运动。",
+                [
+                  "健康情况",
+                  "情况"
+                ],
+                "课文4 (slide 60)."
+              ],
+              [
+                "刚运动完口渴的时候，不要____喝水。",
+                [
+                  "马上"
+                ],
+                "课文4: 不要马上喝水."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Ghép chữ thành từ mới",
+            "description": "Bài slide 64-65. Ghép hai từ cho sẵn thành một từ mới.",
+            "items": [
+              [
+                "结婚 ＋ 请假 → ____",
+                [
+                  "婚假"
+                ],
+                "婚假 hūnjià — nghỉ cưới."
+              ],
+              [
+                "生病 ＋ 请假 → ____",
+                [
+                  "病假"
+                ],
+                "病假 bìngjià — nghỉ ốm."
+              ],
+              [
+                "有事 ＋ 请假 → ____",
+                [
+                  "事假"
+                ],
+                "事假 shìjià — nghỉ việc riêng."
+              ],
+              [
+                "怎么 ＋ 办法 → ____",
+                [
+                  "怎么办"
+                ],
+                "怎么办 zěnme bàn — làm thế nào bây giờ."
+              ],
+              [
+                "喜欢 ＋ 爱好 → ____",
+                [
+                  "喜爱"
+                ],
+                "喜爱 xǐ'ài — yêu thích."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn từ mới điền vào chỗ trống",
+            "description": "Bài tổng ôn từ vựng ở slide 66-68.",
+            "items": [
+              [
+                "老师，我不舒服，我想跟您____。",
+                [
+                  "请假"
+                ],
+                "请假 — xin nghỉ phép."
+              ],
+              [
+                "____了解中国文化，我常常去旅行。",
+                [
+                  "为了"
+                ],
+                "Dẫn ra mục đích nên dùng 为了."
+              ],
+              [
+                "我以前在美国学习，____来中国留学。",
+                [
+                  "后来"
+                ],
+                "Chuyện đã xảy ra nên dùng 后来."
+              ],
+              [
+                "我最喜欢的季节是____。",
+                [
+                  "冬天"
+                ],
+                "冬天 — mùa đông."
+              ],
+              [
+                "我的____跟你的不一样，我更喜欢游泳。",
+                [
+                  "爱好"
+                ],
+                "爱好 — sở thích."
+              ],
+              [
+                "A：你认识那个人吗？ B：认识，他是我的新____。",
+                [
+                  "邻居"
+                ],
+                "邻居 — hàng xóm."
+              ],
+              [
+                "A：这次 HSK 你考得怎么样？ B：好极了，____考了 280 分。",
+                [
+                  "一共"
+                ],
+                "一共 — tổng cộng."
+              ],
+              [
+                "A：我的口语不太好，你帮我想想____吧。",
+                [
+                  "办法"
+                ],
+                "办法 — cách, biện pháp."
+              ],
+              [
+                "A：吃____了吗？ B：当然了，你看我们点了这么多菜。",
+                [
+                  "饱"
+                ],
+                "饱 — no."
+              ],
+              [
+                "A：明年你打算回国吗？ B：我还没____呢。",
+                [
+                  "决定"
+                ],
+                "决定 — quyết định."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "练一练 · Sắp xếp câu có đại từ nghi vấn + 都",
+            "description": "Bài slide 34. Sắp xếp các thẻ thành câu hoàn chỉnh.",
+            "items": [
+              [
+                [
+                  "什么",
+                  "小刚",
+                  "都",
+                  "喜欢",
+                  "吃"
+                ],
+                "小刚什么都喜欢吃。"
+              ],
+              [
+                [
+                  "去公园",
+                  "都",
+                  "怎么",
+                  "我们",
+                  "可以"
+                ],
+                "我们怎么去公园都可以。"
+              ],
+              [
+                [
+                  "都",
+                  "想去",
+                  "听",
+                  "音乐会",
+                  "谁"
+                ],
+                "谁都想去听音乐会。"
+              ]
+            ]
+          },
+          {
+            "title": "Luyện thêm · Sắp xếp câu có 为了, 从……起 và 后来",
+            "description": "Ghép thẻ thành câu dùng đúng cấu trúc mới của ngày hôm nay.",
+            "items": [
+              [
+                [
+                  "从明天起",
+                  "我",
+                  "每天",
+                  "决定",
+                  "去长跑"
+                ],
+                "从明天起，我决定每天去长跑。"
+              ],
+              [
+                [
+                  "为了",
+                  "健康",
+                  "我",
+                  "多锻炼锻炼了",
+                  "真应该"
+                ],
+                "为了健康，我真应该多锻炼锻炼了。"
+              ],
+              [
+                [
+                  "我们",
+                  "过去",
+                  "是邻居",
+                  "后来",
+                  "是大学同学"
+                ],
+                "我们过去是邻居，后来是大学同学。"
+              ],
+              [
+                [
+                  "这是",
+                  "我",
+                  "为你",
+                  "的鲜花",
+                  "买"
+                ],
+                "这是我为你买的鲜花。"
+              ]
+            ]
+          }
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "“运动很重要”这句话谁都懂。但是你知道怎么运动吗？第一，要选择“对”的时间。一般来说，早上九点是最好的时间，冬天要再晚一些。第二，要选择“对”的地点，公园、山上、游泳馆这些地方都可以运动。第三，必须要根据自己的健康情况运动。如果你很久没爬山或者游泳了，运动一会儿就一定要休息休息。还要记得刚运动完口渴的时候，不要马上喝水。",
+          [
+            [
+              "一般来说，什么时候运动最好？",
+              [
+                "早上九点",
+                "晚上九点",
+                "中午十二点",
+                "下午三点"
+              ],
+              0,
+              "Đoạn văn nói “一般来说，早上九点是最好的时间”。"
+            ],
+            [
+              "冬天运动的时间应该怎么样？",
+              [
+                "比平时再晚一些",
+                "比平时再早一些",
+                "跟平时一样",
+                "最好不要运动"
+              ],
+              0,
+              "Đoạn văn nói “冬天要再晚一些”。"
+            ],
+            [
+              "运动的地点可以选在哪儿？",
+              [
+                "公园、山上、游泳馆都可以",
+                "只能在公园",
+                "只能在游泳馆",
+                "只能在家里"
+              ],
+              0,
+              "Đoạn văn kể ba nơi và nói “这些地方都可以运动”。"
+            ],
+            [
+              "很久没运动的人运动一会儿以后要做什么？",
+              [
+                "一定要休息休息",
+                "马上喝水",
+                "继续运动一个小时",
+                "马上回家睡觉"
+              ],
+              0,
+              "Đoạn văn nói “运动一会儿就一定要休息休息”。"
+            ],
+            [
+              "刚运动完口渴的时候要注意什么？",
+              [
+                "不要马上喝水",
+                "多喝冰水",
+                "马上吃东西",
+                "马上洗澡"
+              ],
+              0,
+              "Câu cuối dặn “不要马上喝水”。"
+            ]
+          ]
+        ]
+      }
     }
   ],
   "finalQuestions": [

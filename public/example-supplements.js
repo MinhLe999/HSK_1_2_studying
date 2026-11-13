@@ -797,4 +797,42 @@ window.HSK_EXAMPLE_SUPPLEMENTS = {
       "这个颜色我喜欢极了。"
     ]
   }
+,
+  "l1311": {
+    "additions": [
+      [
+        "为了考上好大学，她从上大学的姐姐那儿借了很多书。",
+        "Để thi đỗ đại học tốt, cô ấy mượn rất nhiều sách từ chị gái đang học đại học."
+      ],
+      [
+        "我的邻居是老师，他为学生想了很多好办法。",
+        "Hàng xóm của tôi là giáo viên, anh ấy nghĩ ra nhiều cách hay cho học sinh."
+      ],
+      [
+        "冬天太冷了，我决定从下个月起每天在家锻炼。",
+        "Mùa đông lạnh quá, tôi quyết định từ tháng sau ngày nào cũng tập ở nhà."
+      ],
+      [
+        "吃得太饱的时候，哪儿都不想去。",
+        "Lúc ăn quá no thì chẳng muốn đi đâu cả."
+      ],
+      [
+        "他请假的时候一共写了三个句子的情况说明。",
+        "Lúc xin nghỉ phép anh ấy viết tổng cộng ba câu giải trình tình hình."
+      ],
+      [
+        "根据老师的要求，我们哪天做完作业就哪天交给他。",
+        "Theo yêu cầu của cô giáo, chúng tôi làm xong bài ngày nào thì nộp ngày đó."
+      ]
+    ],
+    "patternEvidence": [
+      "后来我去医院工作了。",
+      "这是我为你买的鲜花。",
+      "我们都为你的成功高兴。",
+      "为了通过考试，大家都在认真复习。",
+      "从明天起，我决定每天去长跑。",
+      "谁都喜欢小丽。",
+      "你哪天有时间就哪天来我家吧。"
+    ]
+  }
 };
