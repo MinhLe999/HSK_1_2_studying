@@ -834,5 +834,43 @@ window.HSK_EXAMPLE_SUPPLEMENTS = {
       "谁都喜欢小丽。",
       "你哪天有时间就哪天来我家吧。"
     ]
+  },
+  "l1611": {
+    "additions": [
+      [
+        "这个国家有很多有名的动物公园，我向同事问了路才找到。",
+        "Đất nước này có nhiều vườn thú nổi tiếng, tôi hỏi đường đồng nghiệp mới tìm được."
+      ],
+      [
+        "只要你给我一个机会，我就会努力地做好这个工作。",
+        "Chỉ cần bạn cho tôi một cơ hội là tôi sẽ cố gắng làm tốt công việc này."
+      ],
+      [
+        "那只小狗的嘴小小的，不但可爱，而且很聪明。",
+        "Con chó nhỏ đó miệng bé xíu, không những đáng yêu mà còn rất thông minh."
+      ],
+      [
+        "关于这种文化的特点，老师给我们讲了一段很有意思的故事。",
+        "Về đặc điểm của loại văn hóa này, cô giáo kể cho chúng tôi một câu chuyện rất thú vị."
+      ],
+      [
+        "我相信只要努力，一万块钱也能慢慢地还完。",
+        "Tôi tin chỉ cần cố gắng thì một vạn đồng cũng trả hết được dần dần."
+      ],
+      [
+        "他同意跟我们一起去，而且还帮我们买了票。",
+        "Anh ấy đồng ý đi cùng chúng tôi, hơn nữa còn mua vé giúp chúng tôi."
+      ]
+    ],
+    "patternEvidence": [
+      "只要我喜欢，就一定会买。",
+      "只要你想去，我就跟你去。",
+      "这个公园不但漂亮，而且很安静。",
+      "不但同学们喜欢我，而且老师也喜欢我。",
+      "我打算买房子了，想向你借点钱。",
+      "关于结婚这件事，我还没有决定好呢。",
+      "我最近看了一些关于中国文化的电影。",
+      "她热情地回答了我的问题。"
+    ]
   }
 };

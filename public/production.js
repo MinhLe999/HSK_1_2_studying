@@ -1803,5 +1803,39 @@ window.HSK_PRODUCTION = {
       "required": "哪儿都",
       "sample": "最近我觉得哪儿都不舒服，想去医院检查检查。"
     }
+  ],
+  "l1611": [
+    {
+      "kind": "sentence-vocab",
+      "topic": "tả con chó trong cửa hàng",
+      "structure": "số + 只 + danh từ động vật",
+      "prompt": "Dùng 只 tả con chó kia đáng yêu, mắt to tròn, miệng nhỏ xíu.",
+      "required": "只",
+      "sample": "你看那只狗多可爱，眼睛大大的，嘴小小的。"
+    },
+    {
+      "kind": "sentence-pattern",
+      "topic": "khen công ty mình muốn vào làm",
+      "structure": "S + 不但 + A，而且 + B",
+      "prompt": "Dùng 不但……而且…… nói quý công ty không những nổi tiếng mà môi trường làm việc còn tốt.",
+      "required": "不但、而且",
+      "sample": "贵公司不但很有名，而且工作环境好。"
+    },
+    {
+      "kind": "question-from-answer",
+      "topic": "hỏi về cơ hội việc làm ở một thành phố",
+      "structure": "câu hỏi với 怎么样／多不多",
+      "prompt": "Câu trả lời là 那儿的工作机会比较多。 Hãy đặt một câu hỏi phù hợp.",
+      "required": "机会",
+      "sample": "那儿的工作机会多不多？"
+    },
+    {
+      "kind": "answer-from-question",
+      "topic": "trả lời về mức độ hiểu biết văn hóa Trung Quốc",
+      "structure": "关于 + đối tượng，mệnh đề",
+      "prompt": "Có người hỏi 你了解中国的文化吗？ Hãy trả lời bằng một câu mở đầu bằng 关于.",
+      "required": "关于",
+      "sample": "关于中国文化，我了解得也不多。"
+    }
   ]
 };

@@ -530,6 +530,18 @@ Quy chuẩn cho mọi ngày:
 | l1311-s6 | 4.1 谁／什么／怎么／哪儿／哪 + 都（也）+ … | Ai cũng …, cái gì cũng …, đâu cũng … | Đại từ nghi vấn ở đây KHÔNG dùng để hỏi mà chỉ "mọi/bất kỳ", nói rằng cả phạm vi đều như nhau, bằng với 每一个……都……；vế sau bắt buộc có 都, câu phủ định có thể dùng 也；sau 哪 phải có lượng từ: 哪个、哪天、哪顶. | 谁都喜欢小丽。；小刚什么都喜欢吃。；最近我觉得哪儿都不舒服。 | Ai cũng thích Tiểu Lệ.；Tiểu Cương cái gì cũng thích ăn.；Dạo này tôi thấy chỗ nào cũng khó chịu. | Đại từ｜Nghĩa khi đi với 都｜Ví dụ；谁 + 都｜ai cũng｜谁都知道运动对身体好。；什么 + 都｜cái gì cũng｜小刚什么都喜欢吃。；怎么 + 都｜kiểu nào cũng｜我们怎么去公园都可以。；哪儿 + 都｜đâu cũng｜最近我觉得哪儿都不舒服。；哪 + lượng từ + 都｜cái nào cũng｜哪个公园都可以。 |
 | l1311-s7 | 4.2 S + … đại từ nghi vấn …，（S +）就 + … CÙNG đại từ nghi vấn … | … nào … thì … nấy | Hai vế dùng LẶP LẠI cùng một đại từ nghi vấn để chỉ cùng một người／vật／cách chưa xác định；vế sau thêm 就；hai vế có thể cùng chủ ngữ hoặc khác chủ ngữ；khác dạng 4.1 ở chỗ dạng này nói "cái nào thỏa điều kiện thì chọn cái đó", còn 4.1 nói "cái nào cũng vậy". | 你哪天有时间就哪天来我家吧。；什么东西便宜我就买什么东西。；你想怎么去就怎么去。 | Bạn ngày nào rảnh thì ngày đó đến nhà tôi nhé.；Thứ gì rẻ thì tôi mua thứ đó.；Bạn muốn đi kiểu nào thì đi kiểu đó. | — |
 
+## l1611 · 16/11/2026 · 只要……就……, 不但……而且……, 向, 关于 và 的／地／得
+| Mã | Công thức | Ý nghĩa | Cách dùng | Ví dụ | Nghĩa |
+| --- | --- | --- | --- | --- | --- |
+| l1611-s1 | 1.1 （S +）只要 + điều kiện，（S +）就 + kết quả | Chỉ cần … là … (một chủ ngữ) | Nêu điều kiện DUY NHẤT cần có để có kết quả；khi hai vế cùng một chủ ngữ thì chủ ngữ đứng trước 只要, giữa 只要 và động từ, hoặc trước 就 đều được — xem bảng bên dưới；vế sau bắt buộc có 就. | 只要我喜欢，就一定会买。；只要不下雨，我们就去爬山。；只要努力学习，你的汉语水平就会提高。 | Chỉ cần tôi thích là nhất định sẽ mua.；Chỉ cần trời không mưa là chúng tôi đi leo núi.；Chỉ cần học hành chăm chỉ là trình độ tiếng Hán của bạn sẽ tiến bộ. | Vị trí chủ ngữ｜Câu mẫu；Trước 只要｜我只要喜欢，就一定会买。；Sau 只要｜只要我喜欢，就一定会买。；Trước 就｜只要喜欢，我就一定会买。 |
+| l1611-s2 | 1.2 只要 + S1 + điều kiện，S2 + 就 + kết quả | Chỉ cần (ai đó) … thì (người khác) … | Dạng hai chủ ngữ khác nhau: chủ ngữ của vế điều kiện đứng SAU 只要, chủ ngữ của vế kết quả đứng TRƯỚC 就；không được lược chủ ngữ thứ hai, nếu không câu thành dạng 1.1. | 只要你想去，我就跟你去。；只要你给我买，我就能照顾好它。；只要我有，就一定会借给你的。 | Chỉ cần bạn muốn đi là tôi đi cùng bạn.；Chỉ cần mẹ mua cho con là con chăm được nó.；Chỉ cần tôi có là nhất định sẽ cho bạn mượn. | — |
+| l1611-s3 | 2.1 S + 不但 + A，而且（还／也）+ B | Không những … mà còn … (một chủ ngữ) | Hai vế cùng một chủ ngữ, chủ ngữ đứng TRƯỚC 不但；A và B cùng loại: cùng là tính từ hoặc cùng là cụm động từ；vế sau hay thêm 还 hoặc 也 cho mạnh. | 这个公园不但漂亮，而且很安静。；我不但会说汉语，而且还会说英语。；贵公司不但很有名，而且工作环境好。 | Công viên này không những đẹp mà còn rất yên tĩnh.；Tôi không những biết nói tiếng Hán mà còn biết nói tiếng Anh.；Quý công ty không những nổi tiếng mà môi trường làm việc còn tốt. | — |
+| l1611-s4 | 2.2 不但 + S1 + A，而且 + S2 + 也／还 + B | Không những (người này) … mà (người kia) cũng … | Dạng hai chủ ngữ: 不但 đứng TRƯỚC chủ ngữ thứ nhất, 而且 đứng trước chủ ngữ thứ hai và vế sau thường có 也 hoặc 还；so sánh vị trí của 不但 với dạng 2.1 ở bảng bên dưới. | 不但同学们喜欢我，而且老师也喜欢我。；不但孩子们喜欢狗，而且爸爸妈妈也喜欢狗。；不但小刚喜欢小丽，而且同事也喜欢小丽。 | Không những các bạn học quý tôi mà cô giáo cũng quý tôi.；Không những bọn trẻ thích chó mà bố mẹ cũng thích chó.；Không những Tiểu Cương thích Tiểu Lệ mà đồng nghiệp cũng thích Tiểu Lệ. | Số chủ ngữ｜Vị trí 不但｜Câu mẫu；Một chủ ngữ｜sau chủ ngữ｜这个公园不但漂亮，而且很安静。；Hai chủ ngữ｜trước chủ ngữ thứ nhất｜不但同学们喜欢我，而且老师也喜欢我。 |
+| l1611-s5 | 3. 向 + người／nơi chốn／hướng + động từ | Hướng về …, với … (借／说／介绍／学习／走／看) | 向 là giới từ, nêu HƯỚNG hoặc ĐỐI TƯỢNG của hành động phía sau；đi với hướng thì tương đương 往（向左走 ＝ 往左走）；đi với người thì đứng trước các động từ như 借、说、问、介绍、学习. | 我打算买房子了，想向你借点钱。；你向左走五分钟，就能看到医院了。；是我的错，我要向你说对不起。 | Tôi định mua nhà, muốn vay bạn ít tiền.；Bạn đi về bên trái năm phút là thấy bệnh viện.；Là lỗi của tôi, tôi muốn xin lỗi bạn. | — |
+| l1611-s6 | 5.1 关于 + đối tượng，mệnh đề | Về …, liên quan đến … (nêu chủ đề) | Cụm 关于 đứng ĐẦU câu, nêu chủ đề rồi mới nói nhận xét；sau cụm 关于 thường có dấu phẩy；hay dùng khi trả lời câu hỏi về một lĩnh vực. | 关于结婚这件事，我还没有决定好呢。；关于中国文化，我了解得也不多。；关于这个工作，还有什么问题吗？ | Về chuyện cưới xin, tôi vẫn chưa quyết định xong.；Về văn hóa Trung Quốc, tôi cũng không hiểu nhiều lắm.；Về công việc này, bạn còn câu hỏi gì không? | — |
+| l1611-s7 | 5.2 关于 + đối tượng + 的 + danh từ | … về …, … liên quan đến … (bổ nghĩa cho danh từ) | Dạng này cụm 关于 nằm TRONG câu và bổ nghĩa cho một danh từ, bắt buộc có 的；thường gặp với 书、电影、问题、方法、新闻. | 我最近看了一些关于中国文化的电影。；这是一些关于中国节日的书。；你去问问李老师吧，他能告诉你一些关于汉语学习的方法。 | Gần đây tôi xem mấy bộ phim về văn hóa Trung Quốc.；Đây là mấy quyển sách về ngày lễ Trung Quốc.；Bạn đi hỏi thầy Lý đi, thầy có thể chỉ cho bạn vài cách học tiếng Hán. | — |
+| l1611-s8 | 6. 的／地／得 | Ba trợ từ kết cấu đọc cùng là "de" | 的 nối định ngữ với DANH TỪ（tính từ + 的 + danh từ）；地 nối trạng ngữ với ĐỘNG TỪ（tính từ／phó từ + 地 + động từ）；得 nối ĐỘNG TỪ với bổ ngữ trạng thái（động từ + 得 + tính từ）；mẹo nhớ: 的 đứng trước danh từ, 地 đứng trước động từ, 得 đứng sau động từ. | 她热情地回答了我的问题。；我现在饿得能吃三碗米饭。；早上女儿着急地告诉我，昨天买的小狗不见了。 | Cô ấy nhiệt tình trả lời câu hỏi của tôi.；Giờ tôi đói đến mức ăn được ba bát cơm.；Sáng nay con gái sốt ruột bảo tôi rằng con chó mua hôm qua mất rồi. | Trợ từ｜Công thức｜Ví dụ；的｜tính từ + 的 + danh từ｜高兴的女孩儿；地｜tính từ／phó từ + 地 + động từ｜高兴地笑；得｜động từ + 得 + tính từ｜笑得很高兴 |
+
 ### l2705 · 27/05/2026
 
 #### Đoạn văn
@@ -2274,4 +2286,29 @@ Quy chuẩn cho mọi ngày:
 | l1311-w1 | kể lại quan hệ với một người quen cũ | （mốc quá khứ），后来 + mệnh đề | 后来；邻居 | Dùng đủ hai từ để kể rằng trước kia hai người là hàng xóm, về sau là bạn đại học, quan hệ luôn rất tốt. | 我们过去是邻居，后来是大学同学，关系一直很不错。 |
 | l1311-w2 | nói mốc bắt đầu một thói quen mới | 从 + mốc + 起 | 从；起；决定 | Dùng đủ ba từ để nói từ ngày mai bạn quyết định ngày nào cũng đi chạy bộ. | 从明天起，我决定每天去长跑。 |
 | l1311-w3 | kể một người việc gì cũng làm được | Đại từ nghi vấn + 都 | 什么；都；爱好 | Dùng đủ ba từ để nói anh ấy có rất nhiều sở thích, hát, vẽ, đá bóng, cái gì cũng biết. | 他有很多爱好，唱歌、画画、踢足球，什么都会。 |
+
+### l1611 · 16/11/2026
+#### Đoạn văn
+> 不同的国家有不同的文化，每种文化都有自己的特点。到了一个新国家，你会觉得什么都很新鲜，而且还会觉得有点儿奇怪：有些国家的人名写在姓前面，有些国家的人名写在姓后面。刚来的那段时间，我向身边的同事问了很多关于这儿的问题，他们都热情地回答我。他们还带我去看了一只很有名的大动物，我拍了很多照片。只要你愿意多问多看，就一定会慢慢地习惯新生活。我相信这是一个很好的机会。
+#### Hội thoại
+> 经理：说说你为什么选择来我们公司工作。
+> 学生：贵公司不但很有名，而且工作环境好。
+> 经理：做这个工作有点儿累，需要经常去外地。你家人同意吗？
+> 学生：只要我愿意，我相信他们就会同意的。
+> 经理：你以前做过关于动物的工作吗？
+> 学生：做过，我在动物园工作了一段时间。
+> 经理：那儿一共有多少只动物？
+> 学生：有一万多只，我每天向老师傅学习怎么照顾它们。
+> 经理：好，那你明天来上班吧。关于这个工作，还有什么问题吗？
+> 学生：没有了，谢谢您给我这个机会，我会努力地工作。
+#### Câu hỏi đọc hiểu
+| l1611-r1 | 每种文化有什么特点？ | 都有自己和别的文化不一样的地方；都一样；都没有特点；只有名字不一样 | 都有自己和别的文化不一样的地方 | Câu đầu đoạn văn nói "每种文化都有自己的特点"。 |
+| l1611-r2 | 到了一个新国家，作者觉得有点儿奇怪的是什么？ | 人名和姓的前后位置不一样；吃的东西很贵；天气太冷；没有公交车 | 人名和姓的前后位置不一样 | Đoạn văn nói "有些国家的人名写在姓前面，有些国家的人名写在姓后面"。 |
+| l1611-r3 | 刚来的那段时间，作者向谁问问题？ | 身边的同事；老师；邻居；经理 | 身边的同事 | Đoạn văn nói "我向身边的同事问了很多关于这儿的问题"。 |
+| l1611-r4 | 学生为什么想来这家公司工作？ | 公司不但有名，而且工作环境好；工作很轻松；离家很近；钱很多 | 公司不但有名，而且工作环境好 | Học sinh nói "贵公司不但很有名，而且工作环境好"。 |
+| l1611-r5 | 学生以前在动物园做了多久？ | 一段时间；一天；十年；他没做过 | 一段时间 | Học sinh nói "我在动物园工作了一段时间"。 |
+#### Đặt câu với từ cho sẵn
+| l1611-w1 | nói điều kiện duy nhất để người nhà đồng ý | 只要 + điều kiện，就 + kết quả | 只要；就；同意 | Dùng đủ ba từ để nói chỉ cần bản thân bạn muốn thì bạn tin người nhà sẽ đồng ý. | 只要我愿意，我相信他们就会同意的。 |
+| l1611-w2 | hỏi vay tiền để mua nhà | 向 + người + động từ | 向；借 | Dùng đủ hai từ để nói bạn định mua nhà nên muốn vay bạn mình ít tiền. | 我打算买房子了，想向你借点钱。 |
+| l1611-w3 | kể loại phim mình hay xem | 关于 + đối tượng + 的 + danh từ | 关于；动物 | Dùng đủ hai từ để nói gần đây bạn xem mấy bộ phim về động vật. | 我最近看了一些关于动物的电影。 |
 

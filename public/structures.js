@@ -5333,5 +5333,202 @@ window.HSK_STRUCTURES = {
         ]
       }
     ]
+  },
+  "l1611": {
+    "date": "16/11/2026",
+    "topic": "只要……就……, 不但……而且……, 向, 关于 và 的／地／得",
+    "items": [
+      {
+        "id": "l1611-s1",
+        "formula": "1.1 （S +）只要 + điều kiện，（S +）就 + kết quả",
+        "sense": "Chỉ cần … là … (một chủ ngữ)",
+        "usage": "Nêu điều kiện DUY NHẤT cần có để có kết quả\nkhi hai vế cùng một chủ ngữ thì chủ ngữ đứng trước 只要, giữa 只要 và động từ, hoặc trước 就 đều được — xem bảng bên dưới\nvế sau bắt buộc có 就.",
+        "examples": [
+          "只要我喜欢，就一定会买。",
+          "只要不下雨，我们就去爬山。",
+          "只要努力学习，你的汉语水平就会提高。"
+        ],
+        "meanings": [
+          "Chỉ cần tôi thích là nhất định sẽ mua.",
+          "Chỉ cần trời không mưa là chúng tôi đi leo núi.",
+          "Chỉ cần học hành chăm chỉ là trình độ tiếng Hán của bạn sẽ tiến bộ."
+        ],
+        "table": {
+          "columns": [
+            "Vị trí chủ ngữ",
+            "Câu mẫu"
+          ],
+          "rows": [
+            [
+              "Trước 只要",
+              "我只要喜欢，就一定会买。"
+            ],
+            [
+              "Sau 只要",
+              "只要我喜欢，就一定会买。"
+            ],
+            [
+              "Trước 就",
+              "只要喜欢，我就一定会买。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l1611-s2",
+        "formula": "1.2 只要 + S1 + điều kiện，S2 + 就 + kết quả",
+        "sense": "Chỉ cần (ai đó) … thì (người khác) …",
+        "usage": "Dạng hai chủ ngữ khác nhau: chủ ngữ của vế điều kiện đứng SAU 只要, chủ ngữ của vế kết quả đứng TRƯỚC 就\nkhông được lược chủ ngữ thứ hai, nếu không câu thành dạng 1.1.",
+        "examples": [
+          "只要你想去，我就跟你去。",
+          "只要你给我买，我就能照顾好它。",
+          "只要我有，就一定会借给你的。"
+        ],
+        "meanings": [
+          "Chỉ cần bạn muốn đi là tôi đi cùng bạn.",
+          "Chỉ cần mẹ mua cho con là con chăm được nó.",
+          "Chỉ cần tôi có là nhất định sẽ cho bạn mượn."
+        ]
+      },
+      {
+        "id": "l1611-s3",
+        "formula": "2.1 S + 不但 + A，而且（还／也）+ B",
+        "sense": "Không những … mà còn … (một chủ ngữ)",
+        "usage": "Hai vế cùng một chủ ngữ, chủ ngữ đứng TRƯỚC 不但\nA và B cùng loại: cùng là tính từ hoặc cùng là cụm động từ\nvế sau hay thêm 还 hoặc 也 cho mạnh.",
+        "examples": [
+          "这个公园不但漂亮，而且很安静。",
+          "我不但会说汉语，而且还会说英语。",
+          "贵公司不但很有名，而且工作环境好。"
+        ],
+        "meanings": [
+          "Công viên này không những đẹp mà còn rất yên tĩnh.",
+          "Tôi không những biết nói tiếng Hán mà còn biết nói tiếng Anh.",
+          "Quý công ty không những nổi tiếng mà môi trường làm việc còn tốt."
+        ]
+      },
+      {
+        "id": "l1611-s4",
+        "formula": "2.2 不但 + S1 + A，而且 + S2 + 也／还 + B",
+        "sense": "Không những (người này) … mà (người kia) cũng …",
+        "usage": "Dạng hai chủ ngữ: 不但 đứng TRƯỚC chủ ngữ thứ nhất, 而且 đứng trước chủ ngữ thứ hai và vế sau thường có 也 hoặc 还\nso sánh vị trí của 不但 với dạng 2.1 ở bảng bên dưới.",
+        "examples": [
+          "不但同学们喜欢我，而且老师也喜欢我。",
+          "不但孩子们喜欢狗，而且爸爸妈妈也喜欢狗。",
+          "不但小刚喜欢小丽，而且同事也喜欢小丽。"
+        ],
+        "meanings": [
+          "Không những các bạn học quý tôi mà cô giáo cũng quý tôi.",
+          "Không những bọn trẻ thích chó mà bố mẹ cũng thích chó.",
+          "Không những Tiểu Cương thích Tiểu Lệ mà đồng nghiệp cũng thích Tiểu Lệ."
+        ],
+        "table": {
+          "columns": [
+            "Số chủ ngữ",
+            "Vị trí 不但",
+            "Câu mẫu"
+          ],
+          "rows": [
+            [
+              "Một chủ ngữ",
+              "sau chủ ngữ",
+              "这个公园不但漂亮，而且很安静。"
+            ],
+            [
+              "Hai chủ ngữ",
+              "trước chủ ngữ thứ nhất",
+              "不但同学们喜欢我，而且老师也喜欢我。"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "l1611-s5",
+        "formula": "3. 向 + người／nơi chốn／hướng + động từ",
+        "sense": "Hướng về …, với … (借／说／介绍／学习／走／看)",
+        "usage": "向 là giới từ, nêu HƯỚNG hoặc ĐỐI TƯỢNG của hành động phía sau\nđi với hướng thì tương đương 往（向左走 ＝ 往左走）\nđi với người thì đứng trước các động từ như 借、说、问、介绍、学习.",
+        "examples": [
+          "我打算买房子了，想向你借点钱。",
+          "你向左走五分钟，就能看到医院了。",
+          "是我的错，我要向你说对不起。"
+        ],
+        "meanings": [
+          "Tôi định mua nhà, muốn vay bạn ít tiền.",
+          "Bạn đi về bên trái năm phút là thấy bệnh viện.",
+          "Là lỗi của tôi, tôi muốn xin lỗi bạn."
+        ]
+      },
+      {
+        "id": "l1611-s6",
+        "formula": "5.1 关于 + đối tượng，mệnh đề",
+        "sense": "Về …, liên quan đến … (nêu chủ đề)",
+        "usage": "Cụm 关于 đứng ĐẦU câu, nêu chủ đề rồi mới nói nhận xét\nsau cụm 关于 thường có dấu phẩy\nhay dùng khi trả lời câu hỏi về một lĩnh vực.",
+        "examples": [
+          "关于结婚这件事，我还没有决定好呢。",
+          "关于中国文化，我了解得也不多。",
+          "关于这个工作，还有什么问题吗？"
+        ],
+        "meanings": [
+          "Về chuyện cưới xin, tôi vẫn chưa quyết định xong.",
+          "Về văn hóa Trung Quốc, tôi cũng không hiểu nhiều lắm.",
+          "Về công việc này, bạn còn câu hỏi gì không?"
+        ]
+      },
+      {
+        "id": "l1611-s7",
+        "formula": "5.2 关于 + đối tượng + 的 + danh từ",
+        "sense": "… về …, … liên quan đến … (bổ nghĩa cho danh từ)",
+        "usage": "Dạng này cụm 关于 nằm TRONG câu và bổ nghĩa cho một danh từ, bắt buộc có 的\nthường gặp với 书、电影、问题、方法、新闻.",
+        "examples": [
+          "我最近看了一些关于中国文化的电影。",
+          "这是一些关于中国节日的书。",
+          "你去问问李老师吧，他能告诉你一些关于汉语学习的方法。"
+        ],
+        "meanings": [
+          "Gần đây tôi xem mấy bộ phim về văn hóa Trung Quốc.",
+          "Đây là mấy quyển sách về ngày lễ Trung Quốc.",
+          "Bạn đi hỏi thầy Lý đi, thầy có thể chỉ cho bạn vài cách học tiếng Hán."
+        ]
+      },
+      {
+        "id": "l1611-s8",
+        "formula": "6. 的／地／得",
+        "sense": "Ba trợ từ kết cấu đọc cùng là \"de\"",
+        "usage": "的 nối định ngữ với DANH TỪ（tính từ + 的 + danh từ）\n地 nối trạng ngữ với ĐỘNG TỪ（tính từ／phó từ + 地 + động từ）\n得 nối ĐỘNG TỪ với bổ ngữ trạng thái（động từ + 得 + tính từ）\nmẹo nhớ: 的 đứng trước danh từ, 地 đứng trước động từ, 得 đứng sau động từ.",
+        "examples": [
+          "她热情地回答了我的问题。",
+          "我现在饿得能吃三碗米饭。",
+          "早上女儿着急地告诉我，昨天买的小狗不见了。"
+        ],
+        "meanings": [
+          "Cô ấy nhiệt tình trả lời câu hỏi của tôi.",
+          "Giờ tôi đói đến mức ăn được ba bát cơm.",
+          "Sáng nay con gái sốt ruột bảo tôi rằng con chó mua hôm qua mất rồi."
+        ],
+        "table": {
+          "columns": [
+            "Trợ từ",
+            "Công thức",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "的",
+              "tính từ + 的 + danh từ",
+              "高兴的女孩儿"
+            ],
+            [
+              "地",
+              "tính từ／phó từ + 地 + động từ",
+              "高兴地笑"
+            ],
+            [
+              "得",
+              "động từ + 得 + tính từ",
+              "笑得很高兴"
+            ]
+          ]
+        }
+      }
+    ]
   }
 };

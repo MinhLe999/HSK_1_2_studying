@@ -17112,6 +17112,1316 @@ window.HSK_CONTENT = {
           ]
         ]
       }
+    },
+    {
+      "id": "l1611",
+      "date": "16/11/2026",
+      "shortDate": "16/11",
+      "title": "只要……就……, 不但……而且……, 向, 关于 và 的／地／得",
+      "focus": "只要……就…… một và hai chủ ngữ / 不但……而且…… một và hai chủ ngữ / 向 + đối tượng + động từ / 关于 nêu chủ đề và bổ nghĩa danh từ / phân biệt 的 · 地 · 得",
+      "pages": "slide 1-62",
+      "page": 1,
+      "listening": [
+        {
+          "title": "课文1 · 在打电话 — vay tiền mua nhà",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260717_110216_omoncipk/data/sound5.mp3",
+          "note": "Slide 37-41. Slide không có bài sắp xếp; thứ tự dưới đây là thứ tự lượt nói trong bài. Bốn câu đúng/sai ở slide 37, hai câu trắc nghiệm ở slide 38.",
+          "dialogueLines": [
+            "朋友：老周，我打算买房子了，想向你借点钱。",
+            "周明：没问题，只要我有，就一定会借给你的。还差多少？",
+            "朋友：还差5万块钱。",
+            "周明：好，钱下午打给你。你打算在哪买房？",
+            "朋友：就在我们医院前面。",
+            "周明：那你以后去医院就方便了。"
+          ],
+          "trueFalse": [
+            [
+              "女的打算卖房子。",
+              false,
+              "Người bạn nói “我打算买房子了”, là MUA chứ không phải bán."
+            ],
+            [
+              "男的没有钱可以借给女的。",
+              false,
+              "周明 nói “只要我有，就一定会借给你的”, rồi hẹn chiều chuyển tiền."
+            ],
+            [
+              "女的打算在医院附近买房。",
+              true,
+              "Người bạn nói “就在我们医院前面”."
+            ],
+            [
+              "女的想向男的借五万块钱。",
+              true,
+              "Slide 38: đáp án là 五万; trong bài là “还差5万块钱”."
+            ]
+          ]
+        },
+        {
+          "title": "课文2 · 在商店 — xin mẹ mua chó",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260717_110216_omoncipk/data/sound10.mp3",
+          "note": "Slide 42-46. Bốn câu đúng/sai ở slide 42, hai câu trắc nghiệm ở slide 43.",
+          "dialogueLines": [
+            "小明：妈妈，你看那只狗多可爱，眼睛大大的，嘴小小的，我们买回去吧。",
+            "妈妈：动物和小孩一样，都需要人照顾。买回家去，谁照顾它啊？",
+            "小明：我照顾啊。",
+            "妈妈：这段时间你自己的衣服都没洗，你能照顾好它吗？",
+            "小明：只要你给我买，我就能照顾好它。"
+          ],
+          "trueFalse": [
+            [
+              "那只狗的眼睛小小的，嘴大大的。",
+              false,
+              "Trong bài là ngược lại: 眼睛大大的，嘴小小的."
+            ],
+            [
+              "女的担心把狗买回去后没人照顾。",
+              true,
+              "Mẹ hỏi “买回家去，谁照顾它啊？”."
+            ],
+            [
+              "女的觉得男的自己照顾不好自己。",
+              true,
+              "Mẹ nhắc “这段时间你自己的衣服都没洗”."
+            ],
+            [
+              "男的说如果买了狗，就会好好照顾狗。",
+              true,
+              "小明 nói “只要你给我买，我就能照顾好它”."
+            ]
+          ]
+        },
+        {
+          "title": "课文3 · 在公司 — phỏng vấn xin việc",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260717_110216_omoncipk/data/sound11.mp3",
+          "note": "Slide 47-51. Bốn câu đúng/sai ở slide 47, hai câu trắc nghiệm ở slide 48 (đáp án SAI là 人多 và 钱很少).",
+          "dialogueLines": [
+            "经理：说说你为什么选择来我们公司工作。",
+            "学生：贵公司不但很有名，而且工作环境好。",
+            "经理：做这个工作有点儿累，需要经常去外地。你家人同意吗？",
+            "学生：只要我愿意，我相信他们就会同意的。",
+            "经理：好，那你明天来上班吧。关于这个工作，还有什么问题吗？",
+            "学生：没有了，谢谢您给我这个机会，我会努力的。"
+          ],
+          "trueFalse": [
+            [
+              "男的想去这家公司工作只是因为工作环境好。",
+              false,
+              "Anh ấy nêu HAI lý do: 不但很有名，而且工作环境好."
+            ],
+            [
+              "做这个工作经常要去其他城市。",
+              true,
+              "Giám đốc nói “需要经常去外地”."
+            ],
+            [
+              "女的担心男的的家人不让他做这个工作。",
+              true,
+              "Giám đốc hỏi “你家人同意吗？”."
+            ],
+            [
+              "最后男的找到工作了。",
+              true,
+              "Giám đốc nói “那你明天来上班吧”."
+            ]
+          ]
+        },
+        {
+          "title": "课文4 · 不同的国家，不同的文化",
+          "url": "https://h5-static.talk-cloud.net/document/115898_20260717_110216_omoncipk/data/sound12.mp3",
+          "note": "Slide 52-55. Thứ tự đúng trên slide: 4 1 3 5 2. Ba câu đúng/sai ở slide 53.",
+          "dialogueLines": [
+            "不同的国家有不同的文化，每种文化都有自己的特点。",
+            "到了一个新环境，你会觉得什么都很新鲜，",
+            "而且还会觉得有点儿奇怪：",
+            "有些国家的人名写在姓前面，有些国家的人名写在姓后面，",
+            "但是只要经过一段时间，就会慢慢地习惯。"
+          ],
+          "trueFalse": [
+            [
+              "每种文化都有和别的文化不一样的地方。",
+              true,
+              "Bài nói “每种文化都有自己的特点”."
+            ],
+            [
+              "有些国家的人名写在姓前面。",
+              true,
+              "Bài nói rõ cả hai kiểu đặt tên."
+            ],
+            [
+              "经过一段时间后，我们还是不会习惯跟自己不同的文化。",
+              false,
+              "Bài nói ngược lại: “只要经过一段时间，就会慢慢地习惯”."
+            ]
+          ]
+        }
+      ],
+      "notes": [
+        "Bài 23 trên lớp, tương ứng HSK 标准教程 3 第18课 《我相信他们会同意的》. Nguồn là bộ slide 62 trang của lớp ChineseRd.",
+        "只要……就…… nêu điều kiện DUY NHẤT cần có. So với 如果……就…… đã học ngày 09/11: 如果 nêu một giả thiết bất kỳ, còn 只要 nhấn mạnh “chỉ cần bấy nhiêu là đủ”.",
+        "Khi hai vế của 只要……就…… cùng một chủ ngữ thì chủ ngữ đặt ở ba chỗ đều được: 我只要喜欢，就…… ／ 只要我喜欢，就…… ／ 只要喜欢，我就……. Khi hai chủ ngữ khác nhau thì chủ ngữ thứ nhất đứng sau 只要, chủ ngữ thứ hai đứng trước 就.",
+        "不但……而且…… cũng có hai kiểu: một chủ ngữ thì chủ ngữ đứng TRƯỚC 不但 (这个公园不但漂亮，而且很安静), hai chủ ngữ thì 不但 đứng TRƯỚC chủ ngữ thứ nhất và vế sau thêm 也／还 (不但同学们喜欢我，而且老师也喜欢我).",
+        "向 là giới từ chỉ hướng hoặc đối tượng. Với hướng thì bằng 往: 向左走 ＝ 往左走. Với người thì đứng trước 借、说、问、介绍、学习: 向你借钱、向你说对不起、向他学习.",
+        "关于 có hai vị trí. Đứng ĐẦU câu thì nêu chủ đề rồi mới nhận xét (关于中国文化，我了解得不多). Đứng trong câu thì phải có 的 và bổ nghĩa cho danh từ (关于中国文化的电影).",
+        "的／地／得 đọc giống nhau nhưng khác hẳn chức năng: 的 đứng TRƯỚC danh từ, 地 đứng TRƯỚC động từ, 得 đứng SAU động từ. Ví dụ ba chữ cùng một gốc 高兴: 高兴的女孩儿 ／ 高兴地笑 ／ 笑得很高兴.",
+        "只、种、段 trong bài đều là lượng từ: 只 dùng cho con vật nhỏ (一只狗、两只小鸟), 种 dùng cho loại (每种文化、这种苹果), 段 dùng cho khoảng thời gian hoặc đoạn đường (这段时间).",
+        "Phần 汉字 ghép chữ: 动物＋公园→动物园 (sở thú), 人＋名字→人名 (tên người), 自己＋相信→自信 (tự tin)."
+      ],
+      "vocab": [
+        [
+          "向",
+          "xiàng",
+          "hướng về, với (giới từ) (Hán-Việt: Hướng)"
+        ],
+        [
+          "万",
+          "wàn",
+          "vạn, mười nghìn (Hán-Việt: Vạn)"
+        ],
+        [
+          "只",
+          "zhī",
+          "con (lượng từ cho động vật) (Hán-Việt: Chích)"
+        ],
+        [
+          "嘴",
+          "zuǐ",
+          "miệng (Hán-Việt: Chủy)"
+        ],
+        [
+          "动物",
+          "dòngwù",
+          "động vật (Hán-Việt: Động Vật)"
+        ],
+        [
+          "段",
+          "duàn",
+          "đoạn, quãng (lượng từ cho thời gian, đoạn đường) (Hán-Việt: Đoạn)"
+        ],
+        [
+          "有名",
+          "yǒumíng",
+          "nổi tiếng (Hán-Việt: Hữu Danh)"
+        ],
+        [
+          "同意",
+          "tóngyì",
+          "đồng ý (Hán-Việt: Đồng Ý)"
+        ],
+        [
+          "相信",
+          "xiāngxìn",
+          "tin, tin tưởng (Hán-Việt: Tương Tín)"
+        ],
+        [
+          "关于",
+          "guānyú",
+          "về, liên quan đến (Hán-Việt: Quan Vu)"
+        ],
+        [
+          "机会",
+          "jīhuì",
+          "cơ hội (Hán-Việt: Cơ Hội)"
+        ],
+        [
+          "不但……而且……",
+          "búdàn……érqiě……",
+          "không những … mà còn …"
+        ],
+        [
+          "国家",
+          "guójiā",
+          "quốc gia, đất nước (Hán-Việt: Quốc Gia)"
+        ],
+        [
+          "种",
+          "zhǒng",
+          "loại (lượng từ) (Hán-Việt: Chủng)"
+        ],
+        [
+          "特点",
+          "tèdiǎn",
+          "đặc điểm (Hán-Việt: Đặc Điểm)"
+        ],
+        [
+          "奇怪",
+          "qíguài",
+          "kỳ lạ, lạ lùng (Hán-Việt: Kỳ Quái)"
+        ],
+        [
+          "地",
+          "de",
+          "trợ từ nối trạng ngữ với động từ (Hán-Việt: Địa)"
+        ]
+      ],
+      "patterns": [
+        [
+          "1.1 （S +）只要 + điều kiện，（S +）就 + kết quả",
+          "Chỉ cần … là … (một chủ ngữ)\nNêu điều kiện DUY NHẤT cần có để có kết quả; vế sau bắt buộc có 就.\nChủ ngữ đặt trước 只要, sau 只要, hoặc trước 就 đều được."
+        ],
+        [
+          "1.2 只要 + S1 + điều kiện，S2 + 就 + kết quả",
+          "Chỉ cần (ai đó) … thì (người khác) …\nDạng hai chủ ngữ: chủ ngữ vế điều kiện đứng SAU 只要, chủ ngữ vế kết quả đứng TRƯỚC 就.\nKhông được lược chủ ngữ thứ hai."
+        ],
+        [
+          "2.1 S + 不但 + A，而且（还／也）+ B",
+          "Không những … mà còn … (một chủ ngữ)\nChủ ngữ đứng TRƯỚC 不但; A và B cùng loại (cùng tính từ hoặc cùng cụm động từ).\nVế sau hay thêm 还 hoặc 也 cho mạnh."
+        ],
+        [
+          "2.2 不但 + S1 + A，而且 + S2 + 也／还 + B",
+          "Không những (người này) … mà (người kia) cũng …\nDạng hai chủ ngữ: 不但 đứng TRƯỚC chủ ngữ thứ nhất.\n而且 đứng trước chủ ngữ thứ hai, vế sau thường có 也 hoặc 还."
+        ],
+        [
+          "3. 向 + người／nơi chốn／hướng + động từ",
+          "Hướng về …, với … (借／说／介绍／学习／走／看)\n向 là giới từ nêu hướng hoặc đối tượng của hành động.\nVới hướng thì bằng 往 (向左走 ＝ 往左走); với người thì đứng trước 借、说、问、介绍、学习."
+        ],
+        [
+          "5.1 关于 + đối tượng，mệnh đề",
+          "Về …, liên quan đến … (nêu chủ đề)\nCụm 关于 đứng ĐẦU câu, nêu chủ đề rồi mới nhận xét, sau đó thường có dấu phẩy.\nHay dùng khi trả lời câu hỏi về một lĩnh vực."
+        ],
+        [
+          "5.2 关于 + đối tượng + 的 + danh từ",
+          "… về …, … liên quan đến … (bổ nghĩa cho danh từ)\nCụm 关于 nằm TRONG câu, bổ nghĩa cho một danh từ và bắt buộc có 的.\nThường gặp với 书、电影、问题、方法、新闻."
+        ],
+        [
+          "6. 的／地／得",
+          "Ba trợ từ kết cấu đọc cùng là “de”\n的 nối định ngữ với DANH TỪ; 地 nối trạng ngữ với ĐỘNG TỪ; 得 nối ĐỘNG TỪ với bổ ngữ trạng thái.\nMẹo nhớ: 的 trước danh từ, 地 trước động từ, 得 sau động từ."
+        ]
+      ],
+      "examples": [
+        [
+          "只要我喜欢，就一定会买。",
+          "Chỉ cần tôi thích là nhất định sẽ mua."
+        ],
+        [
+          "我只要喜欢，就一定会买。",
+          "Tôi chỉ cần thích là nhất định sẽ mua."
+        ],
+        [
+          "只要喜欢，我就一定会买。",
+          "Chỉ cần thích là tôi nhất định sẽ mua."
+        ],
+        [
+          "只要你想去，我就跟你去。",
+          "Chỉ cần bạn muốn đi là tôi đi cùng bạn."
+        ],
+        [
+          "只要不下雨，我们就去爬山。",
+          "Chỉ cần trời không mưa là chúng tôi đi leo núi."
+        ],
+        [
+          "只要吃药，你的病就好了。",
+          "Chỉ cần uống thuốc là bệnh của bạn sẽ khỏi."
+        ],
+        [
+          "只要努力学习，你的汉语水平就会提高。",
+          "Chỉ cần học hành chăm chỉ là trình độ tiếng Hán của bạn sẽ tiến bộ."
+        ],
+        [
+          "只要我有，就一定会借给你的。",
+          "Chỉ cần tôi có là nhất định sẽ cho bạn mượn."
+        ],
+        [
+          "只要你给我买，我就能照顾好它。",
+          "Chỉ cần mẹ mua cho con là con chăm được nó."
+        ],
+        [
+          "只要我愿意，我相信他们就会同意的。",
+          "Chỉ cần tôi muốn thì tôi tin là họ sẽ đồng ý."
+        ],
+        [
+          "这个公园不但漂亮，而且很安静。",
+          "Công viên này không những đẹp mà còn rất yên tĩnh."
+        ],
+        [
+          "不但同学们喜欢我，而且老师也喜欢我。",
+          "Không những các bạn học quý tôi mà cô giáo cũng quý tôi."
+        ],
+        [
+          "我不但会说汉语，而且还会说英语。",
+          "Tôi không những biết nói tiếng Hán mà còn biết nói tiếng Anh."
+        ],
+        [
+          "她不但唱歌好听，而且跳舞跳得也不错。",
+          "Cô ấy không những hát hay mà nhảy cũng rất khá."
+        ],
+        [
+          "我不但把衣服洗了，而且还把房间打扫干净了。",
+          "Tôi không những giặt quần áo mà còn dọn sạch cả phòng."
+        ],
+        [
+          "不但孩子们喜欢狗，而且爸爸妈妈也喜欢狗。",
+          "Không những bọn trẻ thích chó mà bố mẹ cũng thích chó."
+        ],
+        [
+          "贵公司不但很有名，而且工作环境好。",
+          "Quý công ty không những nổi tiếng mà môi trường làm việc còn tốt."
+        ],
+        [
+          "这家饭馆不但菜很好吃，而且环境很好。",
+          "Quán này không những món ngon mà không gian cũng rất đẹp."
+        ],
+        [
+          "不但小刚喜欢小丽，而且同事也喜欢小丽。",
+          "Không những Tiểu Cương quý Tiểu Lệ mà đồng nghiệp cũng quý Tiểu Lệ."
+        ],
+        [
+          "我打算买房子了，想向你借点钱。",
+          "Tôi định mua nhà, muốn vay bạn ít tiền."
+        ],
+        [
+          "你向左走五分钟，就能看到医院了。",
+          "Bạn đi về bên trái năm phút là thấy bệnh viện."
+        ],
+        [
+          "听到外边有声音，同学们都向教室外面看了过去。",
+          "Nghe thấy tiếng bên ngoài, các bạn học đều nhìn ra ngoài lớp."
+        ],
+        [
+          "是我的错，我要向你说对不起。",
+          "Là lỗi của tôi, tôi muốn xin lỗi bạn."
+        ],
+        [
+          "我想坐地铁，要向哪儿走？",
+          "Tôi muốn đi tàu điện ngầm, phải đi về hướng nào?"
+        ],
+        [
+          "坐火车的时候，我喜欢向外看。",
+          "Lúc đi tàu hỏa, tôi thích nhìn ra ngoài."
+        ],
+        [
+          "关于结婚这件事，我还没有决定好呢。",
+          "Về chuyện cưới xin, tôi vẫn chưa quyết định xong."
+        ],
+        [
+          "我最近看了一些关于中国文化的电影。",
+          "Gần đây tôi xem mấy bộ phim về văn hóa Trung Quốc."
+        ],
+        [
+          "关于中国文化，我了解得也不多。",
+          "Về văn hóa Trung Quốc, tôi cũng không hiểu nhiều lắm."
+        ],
+        [
+          "这是一些关于中国节日的书。",
+          "Đây là mấy quyển sách về ngày lễ Trung Quốc."
+        ],
+        [
+          "关于这个工作，还有什么问题吗？",
+          "Về công việc này, bạn còn câu hỏi gì không?"
+        ],
+        [
+          "你去问问李老师吧，他能告诉你一些关于汉语学习的方法。",
+          "Bạn đi hỏi thầy Lý đi, thầy có thể chỉ cho bạn vài cách học tiếng Hán."
+        ],
+        [
+          "她热情地回答了我的问题。",
+          "Cô ấy nhiệt tình trả lời câu hỏi của tôi."
+        ],
+        [
+          "我现在饿得能吃三碗米饭。",
+          "Giờ tôi đói đến mức ăn được ba bát cơm."
+        ],
+        [
+          "这是谁的帽子？怎么放这儿了？",
+          "Đây là mũ của ai? Sao lại để ở đây?"
+        ],
+        [
+          "你的汉字写得越来越漂亮了。",
+          "Chữ Hán của bạn viết ngày càng đẹp."
+        ],
+        [
+          "早上女儿着急地告诉我，昨天买的小狗不见了。",
+          "Sáng nay con gái sốt ruột bảo tôi rằng con chó mua hôm qua mất rồi."
+        ],
+        [
+          "小孩子喜欢快乐地学习。",
+          "Trẻ con thích học một cách vui vẻ."
+        ],
+        [
+          "还差5万块钱。",
+          "Còn thiếu năm vạn đồng."
+        ],
+        [
+          "你看那只狗多可爱，眼睛大大的，嘴小小的。",
+          "Mẹ xem con chó kia đáng yêu chưa, mắt to tròn, miệng nhỏ xíu."
+        ],
+        [
+          "动物和小孩一样，都需要人照顾。",
+          "Động vật cũng như trẻ con, đều cần người chăm sóc."
+        ],
+        [
+          "这段时间你自己的衣服都没洗。",
+          "Quãng thời gian này đến quần áo của con, con còn chưa giặt."
+        ],
+        [
+          "谢谢您给我这个机会，我会努力的。",
+          "Cảm ơn ngài đã cho tôi cơ hội này, tôi sẽ cố gắng."
+        ],
+        [
+          "不同的国家有不同的文化，每种文化都有自己的特点。",
+          "Mỗi quốc gia có một nền văn hóa khác nhau, mỗi nền văn hóa đều có đặc điểm riêng."
+        ],
+        [
+          "真奇怪，桌子上的词典怎么不见了？",
+          "Lạ thật, quyển từ điển trên bàn sao lại biến mất?"
+        ],
+        [
+          "你看，树上有两只小鸟。",
+          "Bạn xem, trên cây có hai con chim nhỏ."
+        ],
+        [
+          "你要相信自己一定能完成这个工作。",
+          "Bạn phải tin là mình nhất định làm xong được việc này."
+        ],
+        [
+          "那儿的工作机会比较多。",
+          "Ở đó cơ hội việc làm tương đối nhiều."
+        ]
+      ],
+      "drills": [
+        [
+          "Dùng 只要……就…… nói chỉ cần trời không mưa là đi leo núi.",
+          "只要不下雨，我们就去爬山。"
+        ],
+        [
+          "Dùng 只要……就…… (hai chủ ngữ) nói chỉ cần bạn muốn đi là tôi đi cùng.",
+          "只要你想去，我就跟你去。"
+        ],
+        [
+          "Dùng 只要……就…… nói chỉ cần uống thuốc là bệnh sẽ khỏi.",
+          "只要吃药，你的病就好了。"
+        ],
+        [
+          "Dùng 不但……而且…… (một chủ ngữ) khen công viên vừa đẹp vừa yên tĩnh.",
+          "这个公园不但漂亮，而且很安静。"
+        ],
+        [
+          "Dùng 不但……而且…… (hai chủ ngữ) nói không những bạn học mà cô giáo cũng quý bạn.",
+          "不但同学们喜欢我，而且老师也喜欢我。"
+        ],
+        [
+          "Dùng 不但……而且…… khen công ty vừa nổi tiếng vừa có môi trường làm việc tốt.",
+          "贵公司不但很有名，而且工作环境好。"
+        ],
+        [
+          "Dùng 向 nói bạn định mua nhà nên muốn vay bạn mình ít tiền.",
+          "我打算买房子了，想向你借点钱。"
+        ],
+        [
+          "Dùng 向 chỉ đường: đi về bên trái năm phút là thấy bệnh viện.",
+          "你向左走五分钟，就能看到医院了。"
+        ],
+        [
+          "Dùng 向 nói đó là lỗi của bạn nên bạn muốn xin lỗi đối phương.",
+          "是我的错，我要向你说对不起。"
+        ],
+        [
+          "Dùng 关于 ở đầu câu nói về văn hóa Trung Quốc thì bạn cũng không hiểu nhiều.",
+          "关于中国文化，我了解得也不多。"
+        ],
+        [
+          "Dùng 关于……的…… nói gần đây bạn xem mấy bộ phim về văn hóa Trung Quốc.",
+          "我最近看了一些关于中国文化的电影。"
+        ],
+        [
+          "Điền 的／地／得: 她热情＿回答了我＿问题。",
+          "她热情地回答了我的问题。"
+        ],
+        [
+          "Điền 的／地／得: 你＿汉字写＿越来越漂亮了。",
+          "你的汉字写得越来越漂亮了。"
+        ]
+      ],
+      "quiz": [
+        [
+          "Câu nào dùng ĐÚNG dạng hai chủ ngữ của 只要……就……?",
+          [
+            "只要你想去，我就跟你去。",
+            "只要你想去，就跟你去。",
+            "你只要想去，就我跟你去。",
+            "只要就你想去，我跟你去。"
+          ],
+          0,
+          "Chủ ngữ vế điều kiện (你) đứng sau 只要, chủ ngữ vế kết quả (我) đứng trước 就."
+        ],
+        [
+          "Một chủ ngữ thì 不但 đứng ở đâu?",
+          [
+            "sau chủ ngữ",
+            "trước chủ ngữ",
+            "cuối câu",
+            "ngay trước 而且"
+          ],
+          0,
+          "这个公园不但漂亮，而且很安静: chủ ngữ 这个公园 đứng trước 不但."
+        ],
+        [
+          "“向左走” có thể thay bằng cách nói nào?",
+          [
+            "往左走",
+            "从左走",
+            "对左走",
+            "给左走"
+          ],
+          0,
+          "向 chỉ hướng thì tương đương 往 (slide 21)."
+        ],
+        [
+          "Câu nào dùng ĐÚNG 关于?",
+          [
+            "我最近看了一些关于动物的电影。",
+            "我最近看了一些关于动物电影。",
+            "我最近关于看了一些动物的电影。",
+            "我最近看了一些动物关于的电影。"
+          ],
+          0,
+          "Khi cụm 关于 bổ nghĩa cho danh từ thì bắt buộc có 的 (dạng 5.2)."
+        ],
+        [
+          "Điền đúng: 她热情＿＿回答了我＿＿问题。",
+          [
+            "地 · 的",
+            "的 · 地",
+            "得 · 的",
+            "地 · 得"
+          ],
+          0,
+          "热情 bổ nghĩa cho động từ 回答 nên dùng 地; 我 bổ nghĩa cho danh từ 问题 nên dùng 的."
+        ],
+        [
+          "Lượng từ nào đi với 狗 và 小鸟?",
+          [
+            "只",
+            "种",
+            "段",
+            "条"
+          ],
+          0,
+          "只 dùng cho con vật nhỏ: 一只狗、两只小鸟 (slide 4)."
+        ]
+      ],
+      "practice": {
+        "cloze": [
+          {
+            "title": "练一练 · Nhìn ảnh gọi tên",
+            "description": "Bài ghép ảnh với từ ở slide 7. Nhìn ảnh rồi viết từ mới bằng chữ Hán.",
+            "items": [
+              [
+                "树上的考拉也是一种____。",
+                [
+                  "动物"
+                ],
+                "动物 dòngwù — động vật.",
+                "images/l1611/dong-wu.png"
+              ],
+              [
+                "大家都举手说好，表示____。",
+                [
+                  "同意"
+                ],
+                "同意 tóngyì — đồng ý.",
+                "images/l1611/tong-yi.png"
+              ],
+              [
+                "你要____自己一定能完成这个工作。",
+                [
+                  "相信"
+                ],
+                "相信 xiāngxìn — tin tưởng.",
+                "images/l1611/xiang-xin.png"
+              ],
+              [
+                "一个 10000 就是一____。",
+                [
+                  "万"
+                ],
+                "万 wàn — vạn, mười nghìn.",
+                "images/l1611/wan.png"
+              ],
+              [
+                "桌子上的词典不见了，他觉得很____。",
+                [
+                  "奇怪"
+                ],
+                "奇怪 qíguài — kỳ lạ.",
+                "images/l1611/qi-guai.png"
+              ],
+              [
+                "每面旗子代表一个____。",
+                [
+                  "国家"
+                ],
+                "国家 guójiā — quốc gia.",
+                "images/l1611/guo-jia.png"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Nhìn tranh đặt câu với 不但……而且……",
+            "description": "Bài nhìn tranh nói câu ở slide 16-19. Chú ý chọn đúng dạng một chủ ngữ hay hai chủ ngữ.",
+            "items": [
+              [
+                "他会说什么语言？____",
+                [
+                  "我不但会说汉语，而且还会说英语",
+                  "他不但会说汉语，而且还会说英语"
+                ],
+                "Một chủ ngữ làm hai việc nên chủ ngữ đứng trước 不但 (dạng 2.1).",
+                "images/l1611/shuo-yu-yan.png"
+              ],
+              [
+                "她会什么？____",
+                [
+                  "她不但唱歌好听，而且跳舞跳得也不错"
+                ],
+                "Một chủ ngữ, hai khả năng.",
+                [
+                  "images/l1611/chang-ge.png",
+                  "images/l1611/tiao-wu.png"
+                ]
+              ],
+              [
+                "她做了什么？____",
+                [
+                  "我不但把衣服洗了，而且还把房间打扫干净了",
+                  "她不但把衣服洗了，而且还把房间打扫干净了"
+                ],
+                "Câu có 把 đã học trước đây, nay ghép với 不但……而且…….",
+                [
+                  "images/l1611/xi-yi-fu.png",
+                  "images/l1611/da-sao.png"
+                ]
+              ],
+              [
+                "谁喜欢狗？____",
+                [
+                  "不但孩子们喜欢狗，而且爸爸妈妈也喜欢狗"
+                ],
+                "Hai chủ ngữ khác nhau nên 不但 đứng TRƯỚC chủ ngữ thứ nhất (dạng 2.2).",
+                "images/l1611/quan-jia-gou.png"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Nhìn tranh đặt câu với 向",
+            "description": "Bài nhìn tranh nói câu ở slide 22-24.",
+            "items": [
+              [
+                "（介绍）____",
+                [
+                  "我向大家介绍一下我的新同学",
+                  "我想向大家介绍我的新同学"
+                ],
+                "向 + người + 介绍.",
+                "images/l1611/jie-shao.png"
+              ],
+              [
+                "（学习）____",
+                [
+                  "我要向他学习",
+                  "我们要向他学习"
+                ],
+                "向 + người + 学习.",
+                "images/l1611/xue-xi.png"
+              ],
+              [
+                "请问银行怎么走？____",
+                [
+                  "你向左走五分钟，就能看到银行了",
+                  "向左走五分钟就到了"
+                ],
+                "向 chỉ hướng, bằng 往.",
+                "images/l1611/wen-lu.png"
+              ],
+              [
+                "我打算买房子，想____。",
+                [
+                  "向你借点钱",
+                  "向你借钱"
+                ],
+                "Câu gốc của 课文1 (slide 39).",
+                "images/l1611/jie-qian.png"
+              ],
+              [
+                "我想坐地铁，要____走？",
+                [
+                  "向哪儿"
+                ],
+                "Hỏi hướng thì dùng 向哪儿 (slide 25).",
+                "images/l1611/lu-biao.png"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành câu với 只要……就……",
+            "description": "Bài slide 13. Thêm vế còn thiếu cho đủ câu.",
+            "items": [
+              [
+                "我觉得只要我对别人好，____。",
+                [
+                  "别人就会对我好"
+                ],
+                "Hai chủ ngữ khác nhau nên vế sau giữ chủ ngữ 别人 rồi mới tới 就."
+              ],
+              [
+                "你们玩儿吧，____，我就高兴。",
+                [
+                  "只要你们玩儿得高兴"
+                ],
+                "Vế điều kiện mở đầu bằng 只要 + chủ ngữ 你们."
+              ],
+              [
+                "只要你努力学习，____。",
+                [
+                  "就能考得好"
+                ],
+                "Cùng một chủ ngữ nên vế sau lược chủ ngữ."
+              ],
+              [
+                "____，我就跟你去。",
+                [
+                  "只要你想去"
+                ],
+                "Dạng hai chủ ngữ của 只要……就……"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành câu với 不但……而且……",
+            "description": "Bài slide 20. Thêm vế còn thiếu.",
+            "items": [
+              [
+                "这个服务员不但年轻漂亮，____。",
+                [
+                  "而且热情认真"
+                ],
+                "Hai vế cùng là cụm tính từ."
+              ],
+              [
+                "这儿的西瓜____，而且很便宜。",
+                [
+                  "不但甜"
+                ],
+                "Chủ ngữ đứng trước 不但."
+              ],
+              [
+                "今天的作业不但多，____。",
+                [
+                  "而且有点儿难"
+                ],
+                "Hai vế cùng tả bài tập."
+              ],
+              [
+                "不但小刚喜欢小丽，____。",
+                [
+                  "而且同事也喜欢小丽"
+                ],
+                "Hai chủ ngữ nên vế sau có 也."
+              ],
+              [
+                "不但____，而且马可的汉语也不错。",
+                [
+                  "大山的汉语说得很好"
+                ],
+                "Vế đầu phải có chủ ngữ riêng vì đây là dạng hai chủ ngữ."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn cụm 关于 phù hợp",
+            "description": "Bài slide 27-28. Viết cụm 关于 cho hợp nghĩa.",
+            "items": [
+              [
+                "我想看一些____的电影。",
+                [
+                  "关于动物"
+                ],
+                "Phim về động vật (slide 27, đáp án C)."
+              ],
+              [
+                "今天没有时间回答了，____，我下次告诉你吧。",
+                [
+                  "关于这个问题"
+                ],
+                "slide 27, đáp án A."
+              ],
+              [
+                "你去问问李老师吧，他能告诉你一些____的方法。",
+                [
+                  "关于汉语学习"
+                ],
+                "slide 27, đáp án B."
+              ],
+              [
+                "A：这些是什么书？ B：____。",
+                [
+                  "这是一些关于中国节日的书"
+                ],
+                "Dạng 关于 + O + 的 + N."
+              ],
+              [
+                "A：你了解中国的文化吗？ B：____。",
+                [
+                  "关于中国文化，我不太了解",
+                  "关于中国文化，我了解得不多"
+                ],
+                "Dạng 关于 đứng đầu câu nêu chủ đề."
+              ],
+              [
+                "A：你有什么锻炼方法吗？ B：____。",
+                [
+                  "关于锻炼身体的方法，你应该去找体育老师"
+                ],
+                "slide 28."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn 的, 地 hay 得",
+            "description": "Bài slide 30. Nhớ: 的 trước danh từ, 地 trước động từ, 得 sau động từ.",
+            "items": [
+              [
+                "她热情____回答了我____问题。",
+                [
+                  "地",
+                  "的"
+                ],
+                "热情 bổ nghĩa cho động từ 回答 nên dùng 地; 我 bổ nghĩa cho 问题 nên dùng 的."
+              ],
+              [
+                "我现在饿____能吃三碗米饭。",
+                [
+                  "得"
+                ],
+                "Sau tính từ 饿 là bổ ngữ trạng thái nên dùng 得."
+              ],
+              [
+                "这是谁____帽子？怎么放这儿了？",
+                [
+                  "的"
+                ],
+                "谁 bổ nghĩa cho danh từ 帽子."
+              ],
+              [
+                "你____汉字写____越来越漂亮了。",
+                [
+                  "的",
+                  "得"
+                ],
+                "你的汉字 là cụm danh từ; 写得…… là bổ ngữ trạng thái."
+              ],
+              [
+                "早上女儿着急____告诉我，昨天买____小狗不见了。",
+                [
+                  "地",
+                  "的"
+                ],
+                "着急 bổ nghĩa cho 告诉; 昨天买 bổ nghĩa cho 小狗."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Hoàn thành hội thoại bằng từ và cấu trúc mới",
+            "description": "Bài nhìn tranh hoàn thành hội thoại ở slide 31-34.",
+            "items": [
+              [
+                "A：最近这____时间，你总是迟到。",
+                [
+                  "段"
+                ],
+                "段 là lượng từ cho khoảng thời gian.",
+                "images/l1611/chi-dao.png"
+              ],
+              [
+                "A：你只要早起一点儿，____。",
+                [
+                  "就不会迟到"
+                ],
+                "Cùng một chủ ngữ nên vế sau lược chủ ngữ.",
+                "images/l1611/chi-dao.png"
+              ],
+              [
+                "B：好，我____我会慢慢____习惯的。",
+                [
+                  "相信",
+                  "地"
+                ],
+                "相信 — tin; 慢慢地 là trạng ngữ nên dùng 地.",
+                "images/l1611/chi-dao.png"
+              ],
+              [
+                "A：你喜欢看哪种电影？ B：只要是____，我就喜欢。",
+                [
+                  "关于动物的"
+                ],
+                "Dạng 关于 + O + 的 làm định ngữ.",
+                "images/l1611/kan-dian-ying.png"
+              ],
+              [
+                "B：____，我们就去爬山。",
+                [
+                  "只要不下雨"
+                ],
+                "Vế điều kiện mở đầu bằng 只要.",
+                "images/l1611/pa-shan.png"
+              ],
+              [
+                "A：这____时间太忙了，忙得没有____锻炼。",
+                [
+                  "段",
+                  "机会"
+                ],
+                "段时间 — quãng thời gian; 机会 — cơ hội.",
+                "images/l1611/pa-shan.png"
+              ],
+              [
+                "B：只要东西好吃，____。",
+                [
+                  "我就会一直吃"
+                ],
+                "Dạng hai vế cùng chủ ngữ 我.",
+                "images/l1611/chi-dong-xi.png"
+              ],
+              [
+                "B：____这个问题，我一点儿也不担心。",
+                [
+                  "关于"
+                ],
+                "关于 đứng đầu câu nêu chủ đề.",
+                "images/l1611/chi-dong-xi.png"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Điền vào chỗ trống theo bài khóa",
+            "description": "Bài kể lại nội dung ba bài khóa ở slide 40, 45 và 50.",
+            "items": [
+              [
+                "朋友打算在____买房子。",
+                [
+                  "医院前面"
+                ],
+                "课文1 (slide 40)."
+              ],
+              [
+                "他还____5 万块，想____周明____。",
+                [
+                  "差",
+                  "向",
+                  "借钱"
+                ],
+                "课文1: 还差5万块钱，想向你借点钱."
+              ],
+              [
+                "周明____了，下午____给他。",
+                [
+                  "同意",
+                  "打"
+                ],
+                "课文1: 钱下午打给你."
+              ],
+              [
+                "小明在商店看到一只____的狗，他想买回去。",
+                [
+                  "可爱"
+                ],
+                "课文2 (slide 45)."
+              ],
+              [
+                "妈妈觉得____和小孩一样，需要人____。",
+                [
+                  "动物",
+                  "照顾"
+                ],
+                "课文2: 动物和小孩一样，都需要人照顾."
+              ],
+              [
+                "小明说____妈妈买，他____会照顾好它。",
+                [
+                  "只要",
+                  "就"
+                ],
+                "课文2: 只要你给我买，我就能照顾好它."
+              ],
+              [
+                "这家公司____很有名，____工作环境好。",
+                [
+                  "不但",
+                  "而且"
+                ],
+                "课文3 (slide 50)."
+              ],
+              [
+                "学生____家人会同意，经理给他一个____。",
+                [
+                  "相信",
+                  "机会"
+                ],
+                "课文3: 我相信他们就会同意的 / 谢谢您给我这个机会."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Ghép chữ thành từ mới",
+            "description": "Bài slide 58. Ghép hai từ cho sẵn thành một từ mới.",
+            "items": [
+              [
+                "动物 ＋ 公园 → ____",
+                [
+                  "动物园"
+                ],
+                "动物园 dòngwùyuán — sở thú."
+              ],
+              [
+                "人 ＋ 名字 → ____",
+                [
+                  "人名"
+                ],
+                "人名 rénmíng — tên người."
+              ],
+              [
+                "自己 ＋ 相信 → ____",
+                [
+                  "自信"
+                ],
+                "自信 zìxìn — tự tin."
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Chọn từ mới điền vào chỗ trống",
+            "description": "Bài tổng ôn từ vựng ở slide 59-61.",
+            "items": [
+              [
+                "你是从哪个____来的？",
+                [
+                  "国家"
+                ],
+                "国家 — quốc gia."
+              ],
+              [
+                "坐火车的时候，我喜欢____外看。",
+                [
+                  "向"
+                ],
+                "向外看 — nhìn ra ngoài."
+              ],
+              [
+                "你最喜欢什么____？",
+                [
+                  "动物"
+                ],
+                "动物 — động vật."
+              ],
+              [
+                "这家饭馆不但菜很好吃，____环境很好。",
+                [
+                  "而且"
+                ],
+                "Cặp 不但……而且……"
+              ],
+              [
+                "____中国文化，我了解得也不多。",
+                [
+                  "关于"
+                ],
+                "关于 đứng đầu câu nêu chủ đề."
+              ],
+              [
+                "A：你打算现在买房子吗？ B：过一____时间以后再说吧。",
+                [
+                  "段"
+                ],
+                "段 — lượng từ cho khoảng thời gian."
+              ],
+              [
+                "A：你怎么要去北京了？ B：那儿的工作____比较多。",
+                [
+                  "机会"
+                ],
+                "机会 — cơ hội."
+              ],
+              [
+                "A：我们在这儿买房子吧。 B：我不____，离公司太远了。",
+                [
+                  "同意"
+                ],
+                "同意 — đồng ý."
+              ],
+              [
+                "小孩子喜欢快乐____学习。",
+                [
+                  "地"
+                ],
+                "快乐 bổ nghĩa cho động từ 学习 nên dùng 地."
+              ],
+              [
+                "A：真____，桌子上的词典怎么不见了？",
+                [
+                  "奇怪"
+                ],
+                "奇怪 — kỳ lạ."
+              ],
+              [
+                "你看，树上有两____小鸟。",
+                [
+                  "只"
+                ],
+                "只 — lượng từ cho con vật nhỏ."
+              ],
+              [
+                "这____苹果特别甜，你多拿几个回家吃。",
+                [
+                  "种"
+                ],
+                "种 — loại."
+              ],
+              [
+                "你要____自己一定能完成这个工作。",
+                [
+                  "相信"
+                ],
+                "相信 — tin tưởng."
+              ]
+            ]
+          }
+        ],
+        "orders": [
+          {
+            "title": "练一练 · Sắp xếp câu có 只要……就……",
+            "description": "Bài 连词成句 ở slide 14.",
+            "items": [
+              [
+                [
+                  "只要",
+                  "不下雨",
+                  "我们",
+                  "就",
+                  "去爬山"
+                ],
+                "只要不下雨，我们就去爬山。"
+              ],
+              [
+                [
+                  "只要",
+                  "吃药",
+                  "你的病",
+                  "就",
+                  "好了"
+                ],
+                "只要吃药，你的病就好了。"
+              ],
+              [
+                [
+                  "只要",
+                  "努力学习",
+                  "你的汉语水平",
+                  "就会",
+                  "提高"
+                ],
+                "只要努力学习，你的汉语水平就会提高。"
+              ]
+            ]
+          },
+          {
+            "title": "练一练 · Sắp xếp câu có 向",
+            "description": "Bài 连词成句 ở slide 25.",
+            "items": [
+              [
+                [
+                  "我",
+                  "想",
+                  "向你",
+                  "借",
+                  "本书"
+                ],
+                "我想向你借本书。"
+              ],
+              [
+                [
+                  "我",
+                  "想坐地铁",
+                  "要",
+                  "向哪儿",
+                  "走"
+                ],
+                "我想坐地铁，要向哪儿走？"
+              ],
+              [
+                [
+                  "是我的错",
+                  "我",
+                  "要",
+                  "向你",
+                  "说对不起"
+                ],
+                "是我的错，我要向你说对不起。"
+              ]
+            ]
+          }
+        ],
+        "reading": [
+          "Đọc đoạn văn rồi chọn đáp án.",
+          "不同的国家有不同的文化，每种文化都有自己的特点。到了一个新环境，你会觉得什么都很新鲜，而且还会觉得有点儿奇怪：有些国家的人名写在姓前面，有些国家的人名写在姓后面，但是只要经过一段时间，就会慢慢地习惯。",
+          [
+            [
+              "每种文化都有什么？",
+              [
+                "自己的特点",
+                "一样的名字",
+                "一样的习惯",
+                "很多动物"
+              ],
+              0,
+              "Câu đầu nói “每种文化都有自己的特点”。"
+            ],
+            [
+              "到了新环境，作者觉得有点儿奇怪的是什么？",
+              [
+                "人名和姓的前后位置不一样",
+                "吃饭的时间不一样",
+                "天气不一样",
+                "钱不一样"
+              ],
+              0,
+              "Đoạn văn chỉ nêu ví dụ về vị trí của tên và họ。"
+            ],
+            [
+              "经过一段时间以后会怎么样？",
+              [
+                "会慢慢地习惯",
+                "会更奇怪",
+                "会想回家",
+                "会忘记自己的文化"
+              ],
+              0,
+              "Câu cuối nói “只要经过一段时间，就会慢慢地习惯”。"
+            ],
+            [
+              "“只要经过一段时间，就会慢慢地习惯” 中的 “只要……就……” 表示什么？",
+              [
+                "điều kiện duy nhất cần có",
+                "nguyên nhân và kết quả",
+                "nhượng bộ",
+                "so sánh"
+              ],
+              0,
+              "只要……就…… nêu điều kiện duy nhất cần có。"
+            ],
+            [
+              "“慢慢地习惯” 里为什么用 “地”？",
+              [
+                "慢慢 bổ nghĩa cho động từ 习惯",
+                "慢慢 bổ nghĩa cho danh từ",
+                "习惯 là tính từ",
+                "đây là bổ ngữ trạng thái"
+              ],
+              0,
+              "地 nối trạng ngữ với động từ (slide 29)。"
+            ]
+          ]
+        ]
+      }
     }
   ],
   "finalQuestions": [

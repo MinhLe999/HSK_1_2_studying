@@ -1376,3 +1376,64 @@ Các tệp còn lại (`sound1`-`sound4`, `sound6`, `sound7`, `sound10`, `sound1
 14 ảnh của bài ghép ảnh–từ (slide 6), bài gọi tên bốn mùa (slide 7) và bài nhìn tranh đặt câu với 根据／决定／选择／必须 (slide 19-20) đã tải từ `data/imgNN.png|jpg` của bộ slide, thu nhỏ còn tối đa 360px và lưu vào `public/images/l1311/`.
 
 Slide 8-17 (trò chơi chọn từ theo nghĩa tiếng Anh), 21, 42, 47, 52, 57, 61-63, 69 là slide tiêu đề, bài đọc thuộc lòng hoặc bài nói theo cặp — không tạo bài riêng trong app ngoài phần đã ghi ở trên.
+
+## 16/11/2026 — slide lớp học ChineseRd (Bài 23 · HSK3 第18课)
+
+Nguồn: `school.chineserd.com` → danh sách buổi học → "Bài 23 HSK3(18) 我相信他们会同意的" → PPT lên lớp.
+Tài liệu gốc: `115898_20260717_110216_omoncipk`, 62 slide, tên tệp `HSK3(18) 我相信他们会同意的.pptx`. Không có bản scan trong `materials/`.
+
+### Âm thanh
+
+| Bài | Tệp | Thời lượng | Ghi chú |
+| --- | --- | --- | --- |
+| 课文1 · 在打电话 | `sound5.mp3` | 23,6 s | Slide 37-41, hội thoại 朋友／周明 6 lượt, kèm 4 câu đúng/sai (slide 37) và 2 câu trắc nghiệm (slide 38). |
+| 课文2 · 在商店 | `sound10.mp3` | 25,7 s | Slide 42-46, hội thoại 小明／妈妈 5 lượt, kèm 4 câu đúng/sai (slide 42) và 2 câu trắc nghiệm (slide 43). |
+| 课文3 · 在公司 | `sound11.mp3` | 29,3 s | Slide 47-51, hội thoại 经理／学生 6 lượt, kèm 4 câu đúng/sai (slide 47) và 2 câu trắc nghiệm (slide 48). |
+| 课文4 · 不同的国家，不同的文化 | `sound12.mp3` | 30,7 s | Slide 52-55, đoạn văn, kèm bài sắp xếp (slide 52) và 3 câu đúng/sai (slide 53). |
+
+Các tệp còn lại (`sound1`-`sound4`, `sound6`-`sound9`) đều dưới 2,1 s — tiếng đúng/sai và tiếng chuyển slide.
+
+### Thứ tự đúng của bài sắp xếp hội thoại
+
+| Bài | Thứ tự trên slide |
+| --- | --- |
+| 课文1, 课文2, 课文3 | không có bài sắp xếp trên slide; app dùng thứ tự lượt nói trong bài |
+| 课文4 (slide 52) | `4 1 3 5 2` |
+
+### Từ mới (slide 4-6)
+
+向 xiàng · 万 wàn · 只 zhī · 嘴 zuǐ · 动物 dòngwù · 段 duàn · 有名 yǒumíng · 同意 tóngyì · 相信 xiāngxìn · 关于 guānyú · 机会 jīhuì · 不但……而且…… búdàn……érqiě…… · 国家 guójiā · 种 zhǒng · 特点 tèdiǎn · 奇怪 qíguài · 地 de
+
+### Điểm ngữ pháp (slide 11, 15, 21, 26, 29)
+
+| Mục | Nội dung |
+| --- | --- |
+| 1. (slide 11) | `只要……就……`. Một chủ ngữ: chủ ngữ đặt trước 只要, sau 只要 hoặc trước 就 đều được. Hai chủ ngữ: `只要 + S1……，S2 + 就……`. |
+| 2. (slide 15) | `不但……而且……`. Một chủ ngữ: `S + 不但 + A，而且 + B`. Hai chủ ngữ: `不但 + S1……，而且 + S2 + 也／还 + ……`. |
+| 3. (slide 21) | `向 + người／nơi chốn／hướng + động từ` (借／说／介绍／学习／走／看). 向 chỉ hướng tương đương 往. |
+| 5. (slide 26) | `关于`. Hai dạng: `关于 + O，câu` (nêu chủ đề) và `关于 + O + 的 + N` (bổ nghĩa danh từ). Slide đánh số nhảy từ 3 sang 5, không có mục 4. |
+| 6. (slide 29) | `的` VS `地` VS `得`: adj + 的 + N ／ adj·adv + 地 + V ／ V + 得 + adj. Ví dụ gốc: 高兴的女孩儿 ／ 高兴地笑 ／ 笑得很高兴. |
+
+### Đáp án các bài luyện trên slide
+
+- Slide 7 (ghép ảnh–từ): 1 动物→B · 2 国家→C · 3 同意→F · 4 相信→A · 5 奇怪→D · 6 万→E.
+- Slide 14 (连词成句): 只要不下雨，我们就去爬山 · 只要吃药，你的病就好了 · 只要努力学习，你的汉语水平就会提高.
+- Slide 16-19 (nhìn tranh): 我不但会说汉语，而且还会说英语 · 她不但唱歌好听，而且跳舞跳得也不错 · 我不但把衣服洗了，而且还把房间打扫干净了 · 不但孩子们喜欢狗，而且爸爸妈妈也喜欢狗.
+- Slide 20: 而且热情认真 · 不但甜 · 而且有点儿难 · 而且同事也喜欢小丽 · 大山的汉语说得很好.
+- Slide 25 (连词成句): 我想向你借本书 · 我想坐地铁，要向哪儿走？ · 是我的错，我要向你说对不起.
+- Slide 27: 1→C 关于动物 · 2→A 关于这个问题 · 3→B 关于汉语学习.
+- Slide 28: 这是一些关于中国节日的书 · 关于中国文化，我不太了解 · 关于锻炼身体的方法，你应该去找体育老师.
+- Slide 30 (的／地／得): 地·的 · 得 · 的 · 的·得 · 地·的.
+- Slide 31-34 (hoàn thành hội thoại): 段·就不会迟到·相信·慢慢地 · 关于动物的 (hai lần) · 只要不下雨·段·机会 · 我就会一直吃·胖·关于.
+- Slide 40 (课文1): 医院前面 · 差 · 向 · 借钱 · 同意 · 打.
+- Slide 45 (课文2): 可爱 · 动物 · 照顾 · 不好 · 只要 · 就.
+- Slide 50 (课文3): 不但 · 而且 · 有点儿累 · 不同意 · 相信 · 机会 · 努力.
+- Slide 58 (ghép chữ): 动物＋公园→动物园 · 人＋名字→人名 · 自己＋相信→自信.
+- Slide 59-61 (chọn từ): 国家 · 向 · 动物 · 而且 · 关于 · 段 · 机会 · 同意 · 地 · 奇怪 · 只 · 种 · 相信.
+- Slide 12, 13, 22-24, 35, 41, 46, 51, 55, 56 không in đáp án (bài nói mở, đọc thuộc lòng hoặc khảo sát theo cặp); app đưa ra một hoặc vài cách nói hợp lệ.
+
+### Ảnh đã tải về
+
+21 ảnh của bài ghép ảnh–từ (slide 7), bài nhìn tranh đặt câu với 不但……而且…… (slide 16-19), bài nhìn tranh đặt câu với 向 (slide 21-25) và bài hoàn thành hội thoại (slide 31-34) đã tải từ `data/imgNN.png|jpg` của bộ slide, thu nhỏ còn tối đa 360px và lưu vào `public/images/l1611/`.
+
+Ba lượng từ mới của bài (只、种、段) **chưa** được thêm vào bảng ở tab Lượng từ (`public/measure-words.js`); hiện chúng chỉ nằm trong phần từ vựng và bài tập của ngày 16/11.
